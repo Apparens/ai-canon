@@ -1,0 +1,27 @@
+{
+  "title": "The AI Canon: a method for auditable knowledge curation (Corpus Cognitivum)",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "version": "1.0",
+  "language": "eng",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "creators": [
+    {
+      "name": "Janssen, Jeroen",
+      "affiliation": "Apparens, Deventer, Netherlands"
+    }
+  ],
+  "description": "Method note for The AI Canon, a public-good reference library of the texts that define artificial intelligence. The note specifies a method for auditable knowledge curation: rankings are produced by a published, deterministic procedure over declared evidence, so any reader can reproduce a result and challenge it. It states the frozen ontology (canonical entities are scored, context entities are described and never ranked, structurally), the deterministic and domain-isolated scoring, the handling of missing evidence (recorded and penalized, never imputed), the per-ecosystem normalization rule and its declared deferral, entity-resolution safety, the append-only governance and challenge model, and the reproducibility guarantee (every release rebuilds bit-for-bit from a self-contained audit package). It is honest about current coverage: the pilot scores the papers domain only, and the Chinese-language spine is a declared gap. Nothing is for sale, nothing is hidden, nothing is final.",
+  "keywords": [
+    "artificial intelligence",
+    "knowledge curation",
+    "reproducibility",
+    "bibliometrics",
+    "open science",
+    "ranking methodology",
+    "AI literature",
+    "auditability"
+  ],
+  "notes": "Companion code and corpus: The AI Canon pipeline and audit package. The method is versioned; subsequent versions cite the same concept DOI."
+}

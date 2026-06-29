@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use The AI Canon or its method, please cite the method note."
+title: "The AI Canon: a method for auditable knowledge curation (Corpus Cognitivum)"
+type: dataset
+version: "1.0"
+date-released: "2026-06-29"
+license: CC-BY-4.0
+url: "https://apparens.nl/ai-canon/"
+abstract: >-
+  Method note for The AI Canon, a public-good reference library of the texts that
+  define artificial intelligence. Rankings are produced by a published, deterministic
+  procedure over declared evidence, so any reader can reproduce a result and challenge
+  it. It ranks texts, not people. Nothing is for sale, nothing is hidden, nothing is final.
+authors:
+  - family-names: Janssen
+    given-names: Jeroen
+    affiliation: "Apparens, Deventer, Netherlands"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"  # add your ORCID before deposit
+keywords:
+  - artificial intelligence
+  - knowledge curation
+  - reproducibility
+  - bibliometrics
+  - open science
+# doi: "10.5281/zenodo.XXXXXXX"  # fill in after the Zenodo deposit mints it
