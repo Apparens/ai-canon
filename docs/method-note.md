@@ -109,8 +109,8 @@ declares the gap. Cover artwork is excluded by default.
 ## 11. How to cite
 
 > Janssen, J. (2026). *The AI Canon: a method for auditable knowledge curation (Corpus Cognitivum).*
-> Apparens public research initiative. Version 1.0. https://doi.org/PENDING
+> Apparens public research initiative. Version 1.0. https://doi.org/10.5281/zenodo.21042034
 
-Replace `PENDING` with the DOI minted on deposit. Subsequent method versions cite the same concept DOI
-with an incremented version, so the citation resolves to the version-of-record while pointing at the
-living method.
+The DOI above is the concept DOI: it always resolves to the latest version. Each method version also
+receives its own version DOI, so a citation can point either at the living method or at a fixed
+version-of-record.

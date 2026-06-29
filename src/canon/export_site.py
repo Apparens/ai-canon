@@ -54,6 +54,7 @@ NAV = [
 ]
 
 # The verbatim positioning line (A2) and humility clause (E5), used as-is.
+CONCEPT_DOI = "10.5281/zenodo.21042034"  # always resolves to the latest method version
 POSITIONING = ("The AI Canon is a free, method-backed reference library for AI "
                "knowledge. It ranks texts, not people. It invites correction. It sells nothing.")
 HUMILITY = ("A rank is not a verdict on intrinsic worth. It is a transparent output of "
@@ -468,6 +469,13 @@ def page_method() -> str:
                 "availability, to complement readership_persistence.</li>"
                 "<li><b>Book scoring</b>: books are curated and browsable now but not yet scored; the pilot "
                 "ranks papers only.</li></ul>")
+    body.append("<h2>Cite this method</h2>"
+                f'<p>The method is documented in a citable note (<i>Corpus Cognitivum</i>), '
+                f'archived with a DOI: <a href="https://doi.org/{esc(CONCEPT_DOI)}">'
+                f'doi.org/{esc(CONCEPT_DOI)}</a> (concept DOI, always the latest version). '
+                "It is licensed CC BY 4.0.</p>"
+                "<p class=\"mono\">Janssen, J. (2026). The AI Canon: a method for auditable knowledge "
+                f"curation (Corpus Cognitivum). Apparens. https://doi.org/{esc(CONCEPT_DOI)}</p>")
     return shell("method.html", "Method statement", "Method", "".join(body))
 
 

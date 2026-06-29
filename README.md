@@ -83,11 +83,11 @@ axe-core accessibility pass. Every guardrail is numbered `[S0]` to `[S13]` in
 The method is documented in [`docs/method-note.md`](docs/method-note.md) (Corpus Cognitivum),
 licensed CC BY 4.0. A DOI is minted on release via Zenodo:
 
-<!-- After the first Zenodo release, replace XXXXXXX with the concept DOI and uncomment: -->
-<!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX) -->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21042034.svg)](https://doi.org/10.5281/zenodo.21042034)
 
 > Janssen, J. (2026). *The AI Canon: a method for auditable knowledge curation (Corpus
 > Cognitivum).* Apparens public research initiative. Version 1.0.
+> https://doi.org/10.5281/zenodo.21042034
 
 See [`CITATION.cff`](CITATION.cff) for machine-readable citation metadata.
 

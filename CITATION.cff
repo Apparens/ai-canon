@@ -22,4 +22,4 @@ keywords:
   - reproducibility
   - bibliometrics
   - open science
-# doi: "10.5281/zenodo.XXXXXXX"  # fill in after the Zenodo deposit mints it
+doi: "10.5281/zenodo.21042034"  # concept DOI (always resolves to the latest version)

@@ -101,7 +101,13 @@ Derived from the AI Control Index app's posture and adapted for a static site.
   A static a11y lint (lang, single h1, img alt, heading order) keeps it from regressing in CI.
 - 39 tests (8 security). The question behind this: if a million experts probe it, does it hold.
 
+### Published
+- Public repository: https://github.com/Apparens/ai-canon (MIT code + CC BY 4.0 corpus/method).
+- Zenodo DOI minted via the GitHub release integration. Concept DOI (always latest):
+  **10.5281/zenodo.21042034**. The method note, README badge, CITATION.cff, and the site Method
+  page all cite it.
+
 ### Not yet
 Book metric harvesting (title collisions: deferred), CN verification toward 60-90,
 more harvested metrics (next OpenAlex daily window + WorldCat/Open Syllabus drops),
-Zenodo DOI for the method note, deploy to Cloudflare Pages.
+deploy the site to Cloudflare Pages.
