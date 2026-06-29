@@ -245,7 +245,7 @@ def shell(active: str, kicker: str, title: str, body: str, *, depth: int = 0) ->
 <header class="h"><div class="measure"><span class="overline">{esc(kicker)}</span><h1>{esc(title)}</h1></div></header>
 <main><div class="measure">{body}</div></main>
 <footer><div class="measure">
-<p>The AI Canon, an <a href="https://apparens.nl">Apparens</a> public research initiative. Release <b style="color:#fff;font-weight:600">{esc(VERSION)}</b>. Challenge anything: <a href="mailto:office@apparens.nl">office@apparens.nl</a></p>
+<p>The AI Canon, a public research initiative by <a href="https://apparens.nl">Apparens</a>, creator of the <a href="https://apparens.nl/app/ai-control-index">AI Control Index</a> app. Release <b style="color:#fff;font-weight:600">{esc(VERSION)}</b>. Challenge anything: <a href="mailto:office@apparens.nl">office@apparens.nl</a></p>
 <p style="margin-top:6px">Nothing is for sale. Nothing is hidden. Nothing is final.</p>
 <p class="fine">No cookies. No third-party tracking. No ads, affiliates, or sponsored placement, ever. The site is generated statically from the canonical JSON; the only inbound data path is the challenge mailbox.</p>
 </div></footer>
