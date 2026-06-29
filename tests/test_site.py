@@ -61,6 +61,23 @@ def test_voice_bio_renders_only_when_present():
     assert 'class="bio"' not in without  # quiet when no bio is written
 
 
+def test_voice_source_link_renders_and_is_safe():
+    html = site.page_voices([{"id": "person-z", "name": "Sourced Voice", "category": "X",
+                              "source_url": "https://example.org/profile", "region": "NL"}])
+    assert 'class="src"' in html and "https://example.org/profile" in html
+    # A non-http(s) scheme must be neutralised by safe_url, never emitted raw.
+    bad = site.page_voices([{"id": "person-b", "name": "Bad", "source_url": "javascript:alert(1)"}])
+    assert "javascript:alert" not in bad
+
+
+def test_no_self_referential_voice_sources():
+    """[integrity] The Canon must never cite itself to validate an entry."""
+    import json
+    persons = json.loads((_REL.parents[2] / "data" / "seeds" / "persons.json").read_text("utf-8"))
+    offenders = [p["name"] for p in persons if "ai-canon.apparens.nl" in (p.get("source_url") or "")]
+    assert offenders == [], offenders
+
+
 def test_no_em_dashes_anywhere_in_site():
     site.build()
     offenders = [h.name for h in site.SITE.rglob("*.html") if "—" in h.read_text("utf-8")]

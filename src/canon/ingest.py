@@ -151,6 +151,7 @@ def import_persons() -> list[dict]:
             category=str(r.get("Category") or "").strip() or None,
             known_for=str(r.get("Known for") or "").strip() or None,
             bio=str(r.get("Bio") or "").strip() or None,
+            source_url=str(r.get("Source") or "").strip() or None,
             anchor_affiliation=str(
                 r.get("Anchor / affiliation (verify before publish)") or ""
             ).strip()

@@ -88,6 +88,7 @@ class Person(ContextEntity):
     category: Optional[str] = None
     known_for: Optional[str] = None
     bio: Optional[str] = None  # optional authored biography; shown where written
+    source_url: Optional[str] = None  # checkable provenance for the entry (validated)
     anchor_affiliation: Optional[str] = None
     region: Optional[str] = None
     last_verified: Optional[date] = None

@@ -8,7 +8,8 @@
     "known_for": "Deep Medicine; clinical AI evidence standards",
     "last_verified": "2026-06-14",
     "name": "Eric Topol",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://www.scripps.edu/faculty/topol/"
   },
   {
     "anchor_affiliation": "Nobel Chemistry 2024; Google DeepMind",
@@ -19,7 +20,8 @@
     "known_for": "AlphaFold lead",
     "last_verified": "2026-06-14",
     "name": "John Jumper",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://www.nobelprize.org/prizes/chemistry/2024/press-release/"
   },
   {
     "anchor_affiliation": "Google DeepMind science VP",
@@ -30,7 +32,8 @@
     "known_for": "AlphaFold/AlphaTensor science portfolio",
     "last_verified": "2026-06-14",
     "name": "Pushmeet Kohli",
-    "region": "UK/IN"
+    "region": "UK/IN",
+    "source_url": "https://blog.google/authors/pushmeet-kohli/"
   },
   {
     "anchor_affiliation": "MIT Jameel Clinic",
@@ -41,7 +44,8 @@
     "known_for": "ML for drug discovery and oncology",
     "last_verified": "2026-06-14",
     "name": "Regina Barzilay",
-    "region": "IL/US"
+    "region": "IL/US",
+    "source_url": "https://jclinic.mit.edu/team-member/regina-barzilay/"
   },
   {
     "anchor_affiliation": "CMU; Cartesia",
@@ -52,7 +56,8 @@
     "known_for": "State-space models; Mamba co-author",
     "last_verified": "2026-06-14",
     "name": "Albert Gu",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://scholar.google.com/citations?hl=en&user=DVCHv1kAAAAJ"
   },
   {
     "anchor_affiliation": "Independent researcher; ex-OpenAI",
@@ -63,7 +68,8 @@
     "known_for": "GPT-1/2/3 and CLIP first author; the quiet architect of the LLM era",
     "last_verified": "2026-06-14",
     "name": "Alec Radford",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://scholar.google.com/citations?hl=en&user=dOad5HoAAAAJ"
   },
   {
     "anchor_affiliation": "Eureka Labs; ex-OpenAI, ex-Tesla",
@@ -74,7 +80,8 @@
     "known_for": "Vision-to-LLM arc; the field's best explainer of how models work",
     "last_verified": "2026-06-14",
     "name": "Andrej Karpathy",
-    "region": "US/SK"
+    "region": "US/SK",
+    "source_url": "https://karpathy.ai/"
   },
   {
     "anchor_affiliation": "DeepLearning.AI, AI Fund; Stanford",
@@ -85,7 +92,8 @@
     "known_for": "Google Brain co-founder; the field's largest teaching footprint",
     "last_verified": "2026-06-14",
     "name": "Andrew Ng",
-    "region": "US/UK"
+    "region": "US/UK",
+    "source_url": "https://www.andrewng.org/"
   },
   {
     "anchor_affiliation": "Oxford VGG",
@@ -96,7 +104,8 @@
     "known_for": "Visual geometry and recognition (VGG)",
     "last_verified": "2026-06-14",
     "name": "Andrew Zisserman",
-    "region": "UK"
+    "region": "UK",
+    "source_url": "https://www.robots.ox.ac.uk/~az/"
   },
   {
     "anchor_affiliation": "Essential AI co-founder",
@@ -107,7 +116,8 @@
     "known_for": "Attention Is All You Need lead author",
     "last_verified": "2026-06-14",
     "name": "Ashish Vaswani",
-    "region": "US/IN"
+    "region": "US/IN",
+    "source_url": "https://arxiv.org/abs/1706.03762"
   },
   {
     "anchor_affiliation": "Stanford; Physical Intelligence co-founder",
@@ -118,7 +128,8 @@
     "known_for": "Meta-learning (MAML); robot learning",
     "last_verified": "2026-06-14",
     "name": "Chelsea Finn",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://ai.stanford.edu/~cbfinn/"
   },
   {
     "anchor_affiliation": "Author; ex-Stanford instructor",
@@ -129,7 +140,8 @@
     "known_for": "ML systems and AI engineering canon",
     "last_verified": "2026-06-14",
     "name": "Chip Huyen",
-    "region": "US/VN"
+    "region": "US/VN",
+    "source_url": "https://huyenchip.com/"
   },
   {
     "anchor_affiliation": "U. Toronto; Vector",
@@ -140,7 +152,8 @@
     "known_for": "T5; open-model training science",
     "last_verified": "2026-06-14",
     "name": "Colin Raffel",
-    "region": "US/CA"
+    "region": "US/CA",
+    "source_url": "https://vectorinstitute.ai/team/colin-raffel/"
   },
   {
     "anchor_affiliation": "INRIA; Google",
@@ -151,7 +164,8 @@
     "known_for": "Visual recognition and video understanding",
     "last_verified": "2026-06-14",
     "name": "Cordelia Schmid",
-    "region": "FR/DE"
+    "region": "FR/DE",
+    "source_url": "https://thoth.inrialpes.fr/~schmid/"
   },
   {
     "anchor_affiliation": "Google DeepMind; UCL",
@@ -162,7 +176,8 @@
     "known_for": "AlphaGo/AlphaZero lead; RL at scale",
     "last_verified": "2026-06-14",
     "name": "David Silver",
-    "region": "UK"
+    "region": "UK",
+    "source_url": "https://davidstarsilver.wordpress.com/"
   },
   {
     "anchor_affiliation": "Anthropic; ex-Google Brain",
@@ -173,7 +188,8 @@
     "known_for": "VAE and Adam author",
     "last_verified": "2026-06-14",
     "name": "Diederik Kingma",
-    "region": "NL"
+    "region": "NL",
+    "source_url": "https://dpkingma.com/"
   },
   {
     "anchor_affiliation": "Ndea co-founder; ARC Prize",
@@ -184,7 +200,8 @@
     "known_for": "Keras; On the Measure of Intelligence; ARC benchmark",
     "last_verified": "2026-06-14",
     "name": "Francois Chollet",
-    "region": "US/FR"
+    "region": "US/FR",
+    "source_url": "https://fchollet.com/"
   },
   {
     "anchor_affiliation": "3Blue1Brown",
@@ -195,7 +212,8 @@
     "known_for": "3Blue1Brown; the visual mathematics of neural networks",
     "last_verified": "2026-06-14",
     "name": "Grant Sanderson",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://www.3blue1brown.com/about/"
   },
   {
     "anchor_affiliation": "Google DeepMind; ex-Apple",
@@ -206,7 +224,8 @@
     "known_for": "GANs; adversarial examples; Deep Learning textbook",
     "last_verified": "2026-06-14",
     "name": "Ian Goodfellow",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://scholar.google.com/citations?hl=en&user=iYN86KEAAAAJ"
   },
   {
     "anchor_affiliation": "OpenAI; ex-Google",
@@ -217,7 +236,8 @@
     "known_for": "Chain-of-thought and emergent-abilities papers",
     "last_verified": "2026-06-14",
     "name": "Jason Wei",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://www.jasonwei.net/"
   },
   {
     "anchor_affiliation": "Cohere; author",
@@ -228,7 +248,8 @@
     "known_for": "The Illustrated Transformer; visual ML pedagogy",
     "last_verified": "2026-06-14",
     "name": "Jay Alammar",
-    "region": "SA"
+    "region": "SA",
+    "source_url": "https://jalammar.github.io/"
   },
   {
     "anchor_affiliation": "fast.ai co-founder; answer.ai",
@@ -239,7 +260,8 @@
     "known_for": "fast.ai; made deep learning learnable; answer.ai",
     "last_verified": "2026-06-14",
     "name": "Jeremy Howard",
-    "region": "AU"
+    "region": "AU",
+    "source_url": "https://jeremy.fast.ai/"
   },
   {
     "anchor_affiliation": "UC Berkeley; Meta FAIR",
@@ -250,7 +272,8 @@
     "known_for": "Computer vision foundations",
     "last_verified": "2026-06-14",
     "name": "Jitendra Malik",
-    "region": "US/IN"
+    "region": "US/IN",
+    "source_url": "https://people.eecs.berkeley.edu/~malik/"
   },
   {
     "anchor_affiliation": "Ex-Meta FAIR VP; McGill/Mila",
@@ -261,7 +284,8 @@
     "known_for": "Reproducibility standards; open research leadership",
     "last_verified": "2026-06-14",
     "name": "Joelle Pineau",
-    "region": "CA"
+    "region": "CA",
+    "source_url": "https://mila.quebec/en/directory/joelle-pineau"
   },
   {
     "anchor_affiliation": "MIT; ex-Meta FAIR",
@@ -272,7 +296,8 @@
     "known_for": "ResNet; representation learning",
     "last_verified": "2026-06-14",
     "name": "Kaiming He",
-    "region": "US/CN"
+    "region": "US/CN",
+    "source_url": "https://people.csail.mit.edu/kaiming/"
   },
   {
     "anchor_affiliation": "ByteDance Research; ex-Huawei Noah's Ark",
@@ -283,7 +308,8 @@
     "known_for": "Statistical learning canon in Chinese; industrial NLP research",
     "last_verified": "2026-06-14",
     "name": "Li Hang",
-    "region": "CN"
+    "region": "CN",
+    "source_url": "https://hangli-hl.github.io/"
   },
   {
     "anchor_affiliation": "Thinking Machines; ex-OpenAI",
@@ -294,7 +320,8 @@
     "known_for": "Safety systems research; canonical technical blog",
     "last_verified": "2026-06-14",
     "name": "Lilian Weng",
-    "region": "US/CN"
+    "region": "US/CN",
+    "source_url": "https://lilianweng.github.io/"
   },
   {
     "anchor_affiliation": "University of Amsterdam; CuspAI",
@@ -305,7 +332,8 @@
     "known_for": "VAE co-author; graph networks; ML-for-physics",
     "last_verified": "2026-06-14",
     "name": "Max Welling",
-    "region": "NL"
+    "region": "NL",
+    "source_url": "https://www.uva.nl/en/profile/w/e/m.welling/m.welling.html"
   },
   {
     "anchor_affiliation": "Amazon alum; Boson AI",
@@ -316,7 +344,8 @@
     "known_for": "Dive into Deep Learning; parameter server; ML systems teaching",
     "last_verified": "2026-06-14",
     "name": "Mu Li",
-    "region": "CN/US"
+    "region": "CN/US",
+    "source_url": "https://d2l.ai/"
   },
   {
     "anchor_affiliation": "Stanford CRFM director",
@@ -327,7 +356,8 @@
     "known_for": "HELM evaluation; foundation-models framing (CRFM)",
     "last_verified": "2026-06-14",
     "name": "Percy Liang",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://profiles.stanford.edu/percy-liang"
   },
   {
     "anchor_affiliation": "UC Berkeley; Covariant co-founder",
@@ -338,7 +368,8 @@
     "known_for": "Robot learning; apprenticeship learning",
     "last_verified": "2026-06-14",
     "name": "Pieter Abbeel",
-    "region": "US/BE"
+    "region": "US/BE",
+    "source_url": "https://people.eecs.berkeley.edu/~pabbeel/"
   },
   {
     "anchor_affiliation": "Fudan University",
@@ -349,7 +380,8 @@
     "known_for": "Chinese NLP curriculum; MOSS early Chinese LLM",
     "last_verified": "2026-06-14",
     "name": "Qiu Xipeng",
-    "region": "CN"
+    "region": "CN",
+    "source_url": "https://xpqiu.github.io/en.html"
   },
   {
     "anchor_affiliation": "Google DeepMind",
@@ -360,7 +392,8 @@
     "known_for": "AutoML, seq2seq, LaMDA lineage",
     "last_verified": "2026-06-14",
     "name": "Quoc Le",
-    "region": "US/VN"
+    "region": "US/VN",
+    "source_url": "https://www.aisc.events/speakers/quoc-le"
   },
   {
     "anchor_affiliation": "Cohere Labs (ex-C4AI) head",
@@ -371,7 +404,8 @@
     "known_for": "Hardware lottery; multilingual frontier research",
     "last_verified": "2026-06-14",
     "name": "Sara Hooker",
-    "region": "US/IE"
+    "region": "US/IE",
+    "source_url": "https://scholar.google.com/citations?hl=en&user=2xy6h3sAAAAJ"
   },
   {
     "anchor_affiliation": "Author; ex-UW-Madison; Lightning AI alum",
@@ -382,7 +416,8 @@
     "known_for": "LLM-from-scratch pedagogy; open technical writing",
     "last_verified": "2026-06-14",
     "name": "Sebastian Raschka",
-    "region": "US/DE"
+    "region": "US/DE",
+    "source_url": "https://sebastianraschka.com/llms-from-scratch/"
   },
   {
     "anchor_affiliation": "UC Berkeley; Physical Intelligence",
@@ -393,7 +428,8 @@
     "known_for": "Deep robotic learning; offline RL",
     "last_verified": "2026-06-14",
     "name": "Sergey Levine",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://vcresearch.berkeley.edu/faculty/sergey-levine"
   },
   {
     "anchor_affiliation": "Datasette; independent",
@@ -404,7 +440,8 @@
     "known_for": "Primary technical analysis of LLM tooling; prompt-injection naming",
     "last_verified": "2026-06-14",
     "name": "Simon Willison",
-    "region": "UK/US"
+    "region": "UK/US",
+    "source_url": "https://simonwillison.net/series/prompt-injection/"
   },
   {
     "anchor_affiliation": "BIGAI (Beijing); Peking U; ex-UCLA",
@@ -415,7 +452,8 @@
     "known_for": "Vision and cognitive architectures; returned to lead BIGAI",
     "last_verified": "2026-06-14",
     "name": "Song-Chun Zhu",
-    "region": "CN"
+    "region": "CN",
+    "source_url": "https://www.ai.pku.edu.cn/en/info/1386/1665.htm"
   },
   {
     "anchor_affiliation": "CIIRC Prague; ex-Google, ex-Meta",
@@ -426,7 +464,8 @@
     "known_for": "word2vec",
     "last_verified": "2026-06-14",
     "name": "Tomas Mikolov",
-    "region": "CZ"
+    "region": "CZ",
+    "source_url": "https://signalprocessingsociety.org/newsletter/2021/07/industry-leaders-signal-processing-and-machine-learning-tomas-mikolov"
   },
   {
     "anchor_affiliation": "Princeton; Together AI",
@@ -437,7 +476,8 @@
     "known_for": "FlashAttention; Mamba co-author",
     "last_verified": "2026-06-14",
     "name": "Tri Dao",
-    "region": "US/VN"
+    "region": "US/VN",
+    "source_url": "https://tridao.me/"
   },
   {
     "anchor_affiliation": "HKUST; WeBank",
@@ -448,7 +488,8 @@
     "known_for": "Transfer and federated learning",
     "last_verified": "2026-06-14",
     "name": "Yang Qiang (Qiang Yang)",
-    "region": "CN/HK"
+    "region": "CN/HK",
+    "source_url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/qyang"
   },
   {
     "anchor_affiliation": "Stanford; ex-UW/AI2; MacArthur Fellow",
@@ -459,7 +500,8 @@
     "known_for": "Commonsense reasoning; delphi and value learning",
     "last_verified": "2026-06-14",
     "name": "Yejin Choi",
-    "region": "US/KR"
+    "region": "US/KR",
+    "source_url": "https://yejinc.github.io/"
   },
   {
     "anchor_affiliation": "Nanjing University",
@@ -470,7 +512,8 @@
     "known_for": "Watermelon Book; ensemble learning; China's ML curriculum",
     "last_verified": "2026-06-14",
     "name": "Zhou Zhihua",
-    "region": "CN"
+    "region": "CN",
+    "source_url": "https://books.google.de/books?id=MgR-wwEACAAJ"
   },
   {
     "anchor_affiliation": "University of Virginia; NBER",
@@ -481,7 +524,8 @@
     "known_for": "Economics of transformative AI; AGI preparedness",
     "last_verified": "2026-06-14",
     "name": "Anton Korinek",
-    "region": "AT/US"
+    "region": "AT/US",
+    "source_url": "https://www.korinek.com/"
   },
   {
     "anchor_affiliation": "Toronto Rotman",
@@ -492,7 +536,8 @@
     "known_for": "Prediction-machines economics of AI",
     "last_verified": "2026-06-14",
     "name": "Avi Goldfarb",
-    "region": "CA"
+    "region": "CA",
+    "source_url": "https://www.rotman.utoronto.ca/the-rotman-experience/our-community/people/goldfarb-avi/"
   },
   {
     "anchor_affiliation": "Oxford Martin School",
@@ -503,7 +548,8 @@
     "known_for": "Frey-Osborne automation-exposure estimates; Technology Trap",
     "last_verified": "2026-06-14",
     "name": "Carl Benedikt Frey",
-    "region": "SE/DE/UK"
+    "region": "SE/DE/UK",
+    "source_url": "https://www.oxfordmartin.ox.ac.uk/people/carl-benedikt-frey"
   },
   {
     "anchor_affiliation": "MIT; Nobel Economics 2024",
@@ -514,7 +560,8 @@
     "known_for": "Power and Progress; task-displacement economics; AI growth skepticism",
     "last_verified": "2026-06-14",
     "name": "Daron Acemoglu",
-    "region": "TR/US"
+    "region": "TR/US",
+    "source_url": "https://mitsloan.mit.edu/faculty/directory/daron-acemoglu"
   },
   {
     "anchor_affiliation": "MIT",
@@ -525,7 +572,8 @@
     "known_for": "Task framework of labour and automation",
     "last_verified": "2026-06-14",
     "name": "David Autor",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://economics.mit.edu/people/faculty/david-h-autor"
   },
   {
     "anchor_affiliation": "Stanford Digital Economy Lab",
@@ -536,7 +584,8 @@
     "known_for": "Second Machine Age; productivity-J-curve; Turing trap",
     "last_verified": "2026-06-14",
     "name": "Erik Brynjolfsson",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://profiles.stanford.edu/erik-brynjolfsson"
   },
   {
     "anchor_affiliation": "OpenAI",
@@ -547,7 +596,8 @@
     "known_for": "GPTs-are-GPTs labour exposure research",
     "last_verified": "2026-06-14",
     "name": "Tyna Eloundou",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://openai.com/index/gpts-are-gpts/"
   },
   {
     "anchor_affiliation": "Trinity College Dublin; AI Accountability Lab",
@@ -558,7 +608,8 @@
     "known_for": "Dataset audits; relational ethics of AI",
     "last_verified": "2026-06-14",
     "name": "Abeba Birhane",
-    "region": "ET/IE"
+    "region": "ET/IE",
+    "source_url": "https://abebabirhane.com/"
   },
   {
     "anchor_affiliation": "DAIR research director",
@@ -569,7 +620,8 @@
     "known_for": "Data practices critique; The AI Con co-author",
     "last_verified": "2026-06-14",
     "name": "Alex Hanna",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://dair-institute.org/team/alex-hanna/"
   },
   {
     "anchor_affiliation": "Princeton CITP director",
@@ -580,7 +632,8 @@
     "known_for": "AI Snake Oil; evaluation skepticism with technical depth",
     "last_verified": "2026-06-14",
     "name": "Arvind Narayanan",
-    "region": "US/IN"
+    "region": "US/IN",
+    "source_url": "https://citp.princeton.edu/people/arvind-narayanan"
   },
   {
     "anchor_affiliation": "Oxford",
@@ -591,7 +644,8 @@
     "known_for": "Privacy Is Power",
     "last_verified": "2026-06-14",
     "name": "Carissa Veliz",
-    "region": "ES/MX/UK"
+    "region": "ES/MX/UK",
+    "source_url": "https://www.wired.com/story/privacy-is-power"
   },
   {
     "anchor_affiliation": "ORCAA founder",
@@ -602,7 +656,8 @@
     "known_for": "Weapons of Math Destruction; algorithmic auditing practice",
     "last_verified": "2026-06-14",
     "name": "Cathy O'Neil",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://cathyoneil.org/"
   },
   {
     "anchor_affiliation": "Harvard; Turing-adjacent (Goedel Prize)",
@@ -613,7 +668,8 @@
     "known_for": "Differential privacy; formal fairness",
     "last_verified": "2026-06-14",
     "name": "Cynthia Dwork",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://news.harvard.edu/gazette/story/newsplus/pioneer-of-modern-data-privacy-cynthia-dwork-wins-national-medal-of-science/"
   },
   {
     "anchor_affiliation": "Duke; Squirrel AI Award",
@@ -624,7 +680,8 @@
     "known_for": "Interpretable-models-first position",
     "last_verified": "2026-06-14",
     "name": "Cynthia Rudin",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://medschool.duke.edu/profile/cynthia-d-rudin"
   },
   {
     "anchor_affiliation": "University of Washington; The AI Con co-author",
@@ -635,7 +692,8 @@
     "known_for": "Stochastic Parrots; linguistic critique of LLM claims",
     "last_verified": "2026-06-14",
     "name": "Emily M. Bender",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://faculty.washington.edu/ebender/stochasticparrots/"
   },
   {
     "anchor_affiliation": "Cornell Law",
@@ -646,7 +704,8 @@
     "known_for": "Black Box Society; new laws of robotics",
     "last_verified": "2026-06-14",
     "name": "Frank Pasquale",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://www.lawschool.cornell.edu/faculty-research/faculty-directory/frank-pasquale/"
   },
   {
     "anchor_affiliation": "NYU emeritus; author",
@@ -657,7 +716,8 @@
     "known_for": "Deep-learning limits; hybrid AI advocacy; policy testimony",
     "last_verified": "2026-06-14",
     "name": "Gary Marcus",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://fedsoc.org/bio/gary-marcus"
   },
   {
     "anchor_affiliation": "UC Berkeley; Mozilla fellow alum",
@@ -668,7 +728,8 @@
     "known_for": "Algorithmic auditing frameworks",
     "last_verified": "2026-06-14",
     "name": "Inioluwa Deborah Raji",
-    "region": "NG/CA"
+    "region": "NG/CA",
+    "source_url": "https://pit-un.org/centering-human-experience-relationships-in-the-age-of-ai/"
   },
   {
     "anchor_affiliation": "AJL founder; Unmasking AI author",
@@ -679,7 +740,8 @@
     "known_for": "Algorithmic Justice League; face-recognition audits",
     "last_verified": "2026-06-14",
     "name": "Joy Buolamwini",
-    "region": "US/GH"
+    "region": "US/GH",
+    "source_url": "https://www.ajl.org/"
   },
   {
     "anchor_affiliation": "USC Annenberg; Microsoft Research",
@@ -690,7 +752,8 @@
     "known_for": "Atlas of AI; material and political costs of AI",
     "last_verified": "2026-06-14",
     "name": "Kate Crawford",
-    "region": "AU/US"
+    "region": "AU/US",
+    "source_url": "https://annenberg.usc.edu/faculty/kate-crawford"
   },
   {
     "anchor_affiliation": "Yale Digital Ethics Center; ex-Oxford",
@@ -701,7 +764,8 @@
     "known_for": "Philosophy of information; digital ethics in EU policy",
     "last_verified": "2026-06-14",
     "name": "Luciano Floridi",
-    "region": "IT/US"
+    "region": "IT/US",
+    "source_url": "https://dec.yale.edu/profile/luciano-floridi"
   },
   {
     "anchor_affiliation": "Hugging Face chief ethics scientist",
@@ -712,7 +776,8 @@
     "known_for": "Model Cards; ML documentation practice",
     "last_verified": "2026-06-14",
     "name": "Margaret Mitchell",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://www.m-mitchell.com/"
   },
   {
     "anchor_affiliation": "University of Vienna",
@@ -723,7 +788,8 @@
     "known_for": "AI ethics and political philosophy of AI",
     "last_verified": "2026-06-14",
     "name": "Mark Coeckelbergh",
-    "region": "BE/AT"
+    "region": "BE/AT",
+    "source_url": "https://philtech.univie.ac.at/team/mark-coeckelbergh/"
   },
   {
     "anchor_affiliation": "NYU",
@@ -734,7 +800,8 @@
     "known_for": "Artificial Unintelligence; technochauvinism",
     "last_verified": "2026-06-14",
     "name": "Meredith Broussard",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://meredithbroussard.com/about/"
   },
   {
     "anchor_affiliation": "Signal president",
@@ -745,7 +812,8 @@
     "known_for": "AI Now co-founder; surveillance-business-model critique from inside industry",
     "last_verified": "2026-06-14",
     "name": "Meredith Whittaker",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://ainowinstitute.org/contributor/meredith-whittaker"
   },
   {
     "anchor_affiliation": "Max Planck Institute for Intelligent Systems",
@@ -756,7 +824,8 @@
     "known_for": "Equalized odds; fairness-and-ML textbook",
     "last_verified": "2026-06-14",
     "name": "Moritz Hardt",
-    "region": "DE"
+    "region": "DE",
+    "source_url": "https://is.mpg.de/sf/en/projects/fairness-and-machine-learning-limitations-and-opportunities"
   },
   {
     "anchor_affiliation": "Princeton",
@@ -767,7 +836,8 @@
     "known_for": "Race After Technology; the New Jim Code",
     "last_verified": "2026-06-14",
     "name": "Ruha Benjamin",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://aas.princeton.edu/publications/research/race-after-technology-abolitionist-tools-new-jim-code"
   },
   {
     "anchor_affiliation": "UCLA; MacArthur Fellow",
@@ -778,7 +848,8 @@
     "known_for": "Algorithms of Oppression",
     "last_verified": "2026-06-14",
     "name": "Safiya Umoja Noble",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://gender.ucla.edu/person/safiya-noble/"
   },
   {
     "anchor_affiliation": "Oxford Internet Institute",
@@ -789,7 +860,8 @@
     "known_for": "Counterfactual explanations; GDPR-AI bridge",
     "last_verified": "2026-06-14",
     "name": "Sandra Wachter",
-    "region": "AT/UK"
+    "region": "AT/UK",
+    "source_url": "https://www.oii.ox.ac.uk/people/profiles/sandra-wachter/"
   },
   {
     "anchor_affiliation": "Princeton",
@@ -800,7 +872,8 @@
     "known_for": "AI Snake Oil co-author; reproducibility in ML-based science",
     "last_verified": "2026-06-14",
     "name": "Sayash Kapoor",
-    "region": "IN/US"
+    "region": "IN/US",
+    "source_url": "https://www.cs.princeton.edu/~sayashk/"
   },
   {
     "anchor_affiliation": "University of Edinburgh",
@@ -811,7 +884,8 @@
     "known_for": "Technology and the virtues; The AI Mirror",
     "last_verified": "2026-06-14",
     "name": "Shannon Vallor",
-    "region": "US/UK"
+    "region": "US/UK",
+    "source_url": "https://edwebprofiles.ed.ac.uk/profile/shannon-vallor"
   },
   {
     "anchor_affiliation": "DAIR founder; ex-Google Ethical AI",
@@ -822,7 +896,8 @@
     "known_for": "Gender Shades, Datasheets, Stochastic Parrots; DAIR",
     "last_verified": "2026-06-14",
     "name": "Timnit Gebru",
-    "region": "US/ET"
+    "region": "US/ET",
+    "source_url": "https://www.aifirstprinciples.org/contributors/timnit-gebru"
   },
   {
     "anchor_affiliation": "Umea University; UN AI Advisory Body",
@@ -833,7 +908,8 @@
     "known_for": "Responsible AI as engineering discipline; UN advisory roles",
     "last_verified": "2026-06-14",
     "name": "Virginia Dignum",
-    "region": "NL/SE"
+    "region": "NL/SE",
+    "source_url": "https://www.umu.se/en/staff/virginia-dignum/"
   },
   {
     "anchor_affiliation": "Turing Award 2024; UMass Amherst emeritus",
@@ -844,7 +920,8 @@
     "known_for": "Reinforcement learning co-founder",
     "last_verified": "2026-06-14",
     "name": "Andrew Barto",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://awards.acm.org/about/2024-turing"
   },
   {
     "anchor_affiliation": "Turing Award 2000; Tsinghua IIIS",
@@ -855,7 +932,8 @@
     "known_for": "Complexity theory; built China's elite AI pipeline (Yao Class)",
     "last_verified": "2026-06-14",
     "name": "Andrew Yao (Yao Qizhi)",
-    "region": "CN"
+    "region": "CN",
+    "source_url": "https://amturing.acm.org/award_winners/yao_1611524.cfm"
   },
   {
     "anchor_affiliation": "Max Planck Institute for Intelligent Systems",
@@ -866,7 +944,8 @@
     "known_for": "Kernel methods; causal ML",
     "last_verified": "2026-06-14",
     "name": "Bernhard Schoelkopf",
-    "region": "DE"
+    "region": "DE",
+    "source_url": "https://scholar.google.com/citations?hl=en&user=DZ-fHPgAAAAJ"
   },
   {
     "anchor_affiliation": "Stanford NLP Group",
@@ -877,7 +956,8 @@
     "known_for": "Statistical and neural NLP",
     "last_verified": "2026-06-14",
     "name": "Christopher Manning",
-    "region": "US/AU"
+    "region": "US/AU",
+    "source_url": "https://profiles.stanford.edu/chris-manning"
   },
   {
     "anchor_affiliation": "Insitro founder; Coursera co-founder; ex-Stanford",
@@ -888,7 +968,8 @@
     "known_for": "Probabilistic graphical models; ML for biomedicine",
     "last_verified": "2026-06-14",
     "name": "Daphne Koller",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://www.insitro.com/leadership/daphne-koller/"
   },
   {
     "anchor_affiliation": "Stanford HAI co-founder; World Labs",
@@ -899,7 +980,8 @@
     "known_for": "ImageNet; human-centered AI; spatial intelligence",
     "last_verified": "2026-06-14",
     "name": "Fei-Fei Li",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://profiles.stanford.edu/fei-fei-li"
   },
   {
     "anchor_affiliation": "Turing Award 2018; Nobel Physics 2024; U. Toronto",
@@ -910,7 +992,8 @@
     "known_for": "Backpropagation, deep learning revival; left Google to warn on risk",
     "last_verified": "2026-06-14",
     "name": "Geoffrey Hinton",
-    "region": "CA/UK"
+    "region": "CA/UK",
+    "source_url": "https://www.utoronto.ca/news/geoffrey-hinton-wins-nobel-prize"
   },
   {
     "anchor_affiliation": "Nobel Physics 2024; Princeton",
@@ -921,7 +1004,8 @@
     "known_for": "Hopfield networks; physics of neural computation",
     "last_verified": "2026-06-14",
     "name": "John Hopfield",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://www.nobelprize.org/prizes/physics/2024/press-release/"
   },
   {
     "anchor_affiliation": "Turing Award 2011; UCLA",
@@ -932,7 +1016,8 @@
     "known_for": "Bayesian networks and causality",
     "last_verified": "2026-06-14",
     "name": "Judea Pearl",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://amturing.acm.org/award_winners/pearl_2658896.cfm"
   },
   {
     "anchor_affiliation": "IDSIA; KAUST AI Initiative",
@@ -943,7 +1028,8 @@
     "known_for": "LSTM lineage; meta-learning; priority debates",
     "last_verified": "2026-06-14",
     "name": "Juergen Schmidhuber",
-    "region": "CH/SA"
+    "region": "CH/SA",
+    "source_url": "https://www.kaust.edu.sa/study/faculty/juergen-schmidhuber"
   },
   {
     "anchor_affiliation": "Independent; ex-NHK labs",
@@ -954,7 +1040,8 @@
     "known_for": "Neocognitron, ancestor of CNNs",
     "last_verified": "2026-06-14",
     "name": "Kunihiko Fukushima",
-    "region": "JP"
+    "region": "JP",
+    "source_url": "https://www.scholarpedia.org/article/Neocognitron"
   },
   {
     "anchor_affiliation": "Turing Award 2010; Harvard",
@@ -965,7 +1052,8 @@
     "known_for": "PAC learning; computational learning theory",
     "last_verified": "2026-06-14",
     "name": "Leslie Valiant",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://amturing.acm.org/award_winners/valiant_2612174.cfm"
   },
   {
     "anchor_affiliation": "Santa Fe Institute",
@@ -976,7 +1064,8 @@
     "known_for": "Complexity, analogy, and the limits of current AI",
     "last_verified": "2026-06-14",
     "name": "Melanie Mitchell",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://www.santafe.edu/people/profile/melanie-mitchell"
   },
   {
     "anchor_affiliation": "UC Berkeley",
@@ -987,7 +1076,8 @@
     "known_for": "Probabilistic ML foundations; critic of AI framing",
     "last_verified": "2026-06-14",
     "name": "Michael I. Jordan",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://www2.eecs.berkeley.edu/Faculty/Homepages/jordan.html"
   },
   {
     "anchor_affiliation": "Oxford",
@@ -998,7 +1088,8 @@
     "known_for": "Multi-agent systems; AI history for the public",
     "last_verified": "2026-06-14",
     "name": "Michael Wooldridge",
-    "region": "UK"
+    "region": "UK",
+    "source_url": "https://www.cs.ox.ac.uk/people/michael.wooldridge/"
   },
   {
     "anchor_affiliation": "Stanford HAI; ex-Google research director",
@@ -1009,7 +1100,8 @@
     "known_for": "AIMA textbook; data-over-cleverness empiricism",
     "last_verified": "2026-06-14",
     "name": "Peter Norvig",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://hai.stanford.edu/people/peter-norvig"
   },
   {
     "anchor_affiliation": "Turing Award 2024; U. Alberta; Keen/Amii",
@@ -1020,7 +1112,8 @@
     "known_for": "Reinforcement learning; The Bitter Lesson",
     "last_verified": "2026-06-14",
     "name": "Richard Sutton",
-    "region": "CA"
+    "region": "CA",
+    "source_url": "https://awards.acm.org/about/2024-turing"
   },
   {
     "anchor_affiliation": "JKU Linz; NXAI",
@@ -1031,7 +1124,8 @@
     "known_for": "LSTM; modern xLSTM revival",
     "last_verified": "2026-06-14",
     "name": "Sepp Hochreiter",
-    "region": "AT"
+    "region": "AT",
+    "source_url": "https://www.jku.at/en/lit-artificial-intelligence-lab/about-us/team/"
   },
   {
     "anchor_affiliation": "UC Berkeley; CHAI founder",
@@ -1042,7 +1136,8 @@
     "known_for": "AIMA textbook; provably beneficial AI agenda",
     "last_verified": "2026-06-14",
     "name": "Stuart Russell",
-    "region": "US/UK"
+    "region": "US/UK",
+    "source_url": "https://people.eecs.berkeley.edu/~russell/"
   },
   {
     "anchor_affiliation": "Salk Institute; NeurIPS co-founder",
@@ -1053,7 +1148,8 @@
     "known_for": "Boltzmann machines; computational neuroscience",
     "last_verified": "2026-06-14",
     "name": "Terrence Sejnowski",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://www.salk.edu/scientist/terrence-sejnowski/"
   },
   {
     "anchor_affiliation": "Columbia; VC theory",
@@ -1064,7 +1160,8 @@
     "known_for": "Statistical learning theory; SVMs",
     "last_verified": "2026-06-14",
     "name": "Vladimir Vapnik",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://datascience.columbia.edu/people/vladimir-vapnik/"
   },
   {
     "anchor_affiliation": "Turing Award 2018; Meta chief AI scientist; NYU",
@@ -1075,7 +1172,8 @@
     "known_for": "Convolutional networks; open-research advocate and AGI-risk skeptic",
     "last_verified": "2026-06-14",
     "name": "Yann LeCun",
-    "region": "US/FR"
+    "region": "US/FR",
+    "source_url": "https://ai.meta.com/people/396469589677838/yann-lecun/"
   },
   {
     "anchor_affiliation": "Turing Award 2018; Mila founder; IAISR chair",
@@ -1086,7 +1184,8 @@
     "known_for": "Deep learning foundations; now leads international AI safety reporting",
     "last_verified": "2026-06-14",
     "name": "Yoshua Bengio",
-    "region": "CA"
+    "region": "CA",
+    "source_url": "https://mila.quebec/en/directory/yoshua-bengio"
   },
   {
     "anchor_affiliation": "Cohere co-founder/CEO",
@@ -1097,7 +1196,8 @@
     "known_for": "Transformer co-author; enterprise LLMs",
     "last_verified": "2026-06-14",
     "name": "Aidan Gomez",
-    "region": "CA"
+    "region": "CA",
+    "source_url": "https://arxiv.org/abs/1706.03762"
   },
   {
     "anchor_affiliation": "Meta; Scale AI founder",
@@ -1108,7 +1208,8 @@
     "known_for": "Data engine for frontier training; Meta superintelligence push",
     "last_verified": "2026-06-14",
     "name": "Alexandr Wang",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://www.reuters.com/business/meta-deepens-ai-push-with-superintelligence-lab-source-says-2025-06-30/"
   },
   {
     "anchor_affiliation": "Mistral AI co-founder/CEO",
@@ -1119,7 +1220,8 @@
     "known_for": "Europe's frontier-lab bet",
     "last_verified": "2026-06-14",
     "name": "Arthur Mensch",
-    "region": "FR"
+    "region": "FR",
+    "source_url": "https://mistral.ai/"
   },
   {
     "anchor_affiliation": "Hugging Face co-founder/CEO",
@@ -1130,7 +1232,8 @@
     "known_for": "Open-model ecosystem's central platform",
     "last_verified": "2026-06-14",
     "name": "Clement Delangue",
-    "region": "US/FR"
+    "region": "US/FR",
+    "source_url": "https://www.qualcomm.com/media/documents/files/bio-clement-delangue-co-founder-and-ceo-hugging-face.pdf"
   },
   {
     "anchor_affiliation": "Anthropic President",
@@ -1141,7 +1244,8 @@
     "known_for": "Anthropic co-founder; operations and policy posture",
     "last_verified": "2026-06-14",
     "name": "Daniela Amodei",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://www.forbes.com/profile/daniela-amodei/"
   },
   {
     "anchor_affiliation": "MIT CSAIL director",
@@ -1152,7 +1256,8 @@
     "known_for": "Robotics research leadership; liquid networks",
     "last_verified": "2026-06-14",
     "name": "Daniela Rus",
-    "region": "US/RO"
+    "region": "US/RO",
+    "source_url": "https://www.csail.mit.edu/person/daniela-rus"
   },
   {
     "anchor_affiliation": "Anthropic CEO",
@@ -1163,7 +1268,8 @@
     "known_for": "Anthropic co-founder; scaling-plus-safety thesis; Machines of Loving Grace essay",
     "last_verified": "2026-06-14",
     "name": "Dario Amodei",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://darioamodei.com/"
   },
   {
     "anchor_affiliation": "Nobel Chemistry 2024; Google DeepMind CEO",
@@ -1174,7 +1280,8 @@
     "known_for": "DeepMind founder; AlphaGo-to-AlphaFold arc",
     "last_verified": "2026-06-14",
     "name": "Demis Hassabis",
-    "region": "UK"
+    "region": "UK",
+    "source_url": "https://deepmind.google/blog/demis-hassabis-john-jumper-awarded-nobel-prize-in-chemistry/"
   },
   {
     "anchor_affiliation": "xAI, Tesla",
@@ -1185,7 +1292,8 @@
     "known_for": "OpenAI co-founder turned competitor; Grok/xAI; policy lightning rod",
     "last_verified": "2026-06-14",
     "name": "Elon Musk",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://www.tesla.com/elon-musk"
   },
   {
     "anchor_affiliation": "OpenAI co-founder",
@@ -1196,7 +1304,8 @@
     "known_for": "OpenAI co-founder; engineering of frontier training",
     "last_verified": "2026-06-14",
     "name": "Greg Brockman",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://openai.com/index/introducing-openai/"
   },
   {
     "anchor_affiliation": "Mistral AI co-founder, chief scientist",
@@ -1207,7 +1316,8 @@
     "known_for": "LLaMA lineage; Mistral research",
     "last_verified": "2026-06-14",
     "name": "Guillaume Lample",
-    "region": "FR"
+    "region": "FR",
+    "source_url": "https://mistral.ai/about/"
   },
   {
     "anchor_affiliation": "SSI co-founder; ex-OpenAI chief scientist",
@@ -1218,7 +1328,8 @@
     "known_for": "AlexNet, seq2seq, GPT lineage; superintelligence-focused lab",
     "last_verified": "2026-06-14",
     "name": "Ilya Sutskever",
-    "region": "US/CA/IL"
+    "region": "US/CA/IL",
+    "source_url": "https://openai.com/index/introducing-openai/"
   },
   {
     "anchor_affiliation": "OpenAI chief scientist",
@@ -1229,7 +1340,8 @@
     "known_for": "Frontier model training leadership at OpenAI",
     "last_verified": "2026-06-14",
     "name": "Jakub Pachocki",
-    "region": "US/PL"
+    "region": "US/PL",
+    "source_url": "https://openai.com/index/jakub-pachocki-announced-as-chief-scientist/"
   },
   {
     "anchor_affiliation": "Anthropic co-founder, chief science officer",
@@ -1240,7 +1352,8 @@
     "known_for": "Scaling laws; Anthropic science direction",
     "last_verified": "2026-06-14",
     "name": "Jared Kaplan",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://sites.krieger.jhu.edu/jared-kaplan/"
   },
   {
     "anchor_affiliation": "Google chief scientist",
@@ -1251,7 +1364,8 @@
     "known_for": "Google's ML infrastructure era; TensorFlow, TPU programme",
     "last_verified": "2026-06-14",
     "name": "Jeff Dean",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://research.google/people/jeff/"
   },
   {
     "anchor_affiliation": "NVIDIA founder/CEO",
@@ -1262,7 +1376,8 @@
     "known_for": "Built the compute substrate of the AI era",
     "last_verified": "2026-06-14",
     "name": "Jensen Huang",
-    "region": "US/TW"
+    "region": "US/TW",
+    "source_url": "https://nvidianews.nvidia.com/bios/jensen-huang"
   },
   {
     "anchor_affiliation": "Thinking Machines; ex-OpenAI co-founder",
@@ -1273,7 +1388,8 @@
     "known_for": "PPO and RLHF in practice",
     "last_verified": "2026-06-14",
     "name": "John Schulman",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://joschu.net/"
   },
   {
     "anchor_affiliation": "Sinovation Ventures; 01.AI founder",
@@ -1284,7 +1400,8 @@
     "known_for": "AI Superpowers; China-US ecosystem bridge; 01.AI",
     "last_verified": "2026-06-14",
     "name": "Kai-Fu Lee",
-    "region": "CN/TW"
+    "region": "CN/TW",
+    "source_url": "https://www.sinovationventures.com/portfolio/items/kaifulee"
   },
   {
     "anchor_affiliation": "Google DeepMind CTO",
@@ -1295,7 +1412,8 @@
     "known_for": "DeepMind research-to-product engine",
     "last_verified": "2026-06-14",
     "name": "Koray Kavukcuoglu",
-    "region": "UK/TR"
+    "region": "UK/TR",
+    "source_url": "https://blog.google/authors/koray-kavukcuoglu/"
   },
   {
     "anchor_affiliation": "DeepSeek founder; High-Flyer",
@@ -1306,7 +1424,8 @@
     "known_for": "DeepSeek; open frontier models at disruptive cost",
     "last_verified": "2026-06-14",
     "name": "Liang Wenfeng",
-    "region": "CN"
+    "region": "CN",
+    "source_url": "https://www.reuters.com/technology/artificial-intelligence/high-flyer-ai-quant-fund-behind-chinas-deepseek-2025-01-29/"
   },
   {
     "anchor_affiliation": "AMD CEO",
@@ -1317,7 +1436,8 @@
     "known_for": "The credible second source for AI compute",
     "last_verified": "2026-06-14",
     "name": "Lisa Su",
-    "region": "US/TW"
+    "region": "US/TW",
+    "source_url": "https://www.amd.com/en/corporate/leadership/lisa-su.html"
   },
   {
     "anchor_affiliation": "Boston Dynamics founder; AI Institute",
@@ -1328,7 +1448,8 @@
     "known_for": "Legged robotics from lab to industry",
     "last_verified": "2026-06-14",
     "name": "Marc Raibert",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://rai-inst.com/leadership/marc-raibert/"
   },
   {
     "anchor_affiliation": "Thinking Machines Lab founder; ex-OpenAI CTO",
@@ -1339,7 +1460,8 @@
     "known_for": "Led ChatGPT/GPT-4 product era; new frontier lab",
     "last_verified": "2026-06-14",
     "name": "Mira Murati",
-    "region": "US/AL"
+    "region": "US/AL",
+    "source_url": "https://thinkingmachines.ai/"
   },
   {
     "anchor_affiliation": "Microsoft AI CEO",
@@ -1350,7 +1472,8 @@
     "known_for": "DeepMind/Inflection co-founder; The Coming Wave",
     "last_verified": "2026-06-14",
     "name": "Mustafa Suleyman",
-    "region": "UK"
+    "region": "UK",
+    "source_url": "https://blogs.microsoft.com/blog/2024/03/19/mustafa-suleyman-deepmind-and-inflection-co-founder-joins-microsoft-to-lead-copilot/"
   },
   {
     "anchor_affiliation": "Google DeepMind; Transformer co-author",
@@ -1361,7 +1484,8 @@
     "known_for": "Transformer co-author; MoE; Character.AI and return to Google",
     "last_verified": "2026-06-14",
     "name": "Noam Shazeer",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://www.noamshazeer.com/"
   },
   {
     "anchor_affiliation": "Google DeepMind",
@@ -1372,7 +1496,8 @@
     "known_for": "seq2seq, AlphaStar, Gemini technical leadership",
     "last_verified": "2026-06-14",
     "name": "Oriol Vinyals",
-    "region": "UK/ES"
+    "region": "UK/ES",
+    "source_url": "https://research.google/people/oriolvinyals/"
   },
   {
     "anchor_affiliation": "OpenAI CEO",
@@ -1383,7 +1508,8 @@
     "known_for": "Scaled OpenAI from lab to consumer platform",
     "last_verified": "2026-06-14",
     "name": "Sam Altman",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://forum.openai.com/public/videos/event-replay-sam-altman-on-building-the-future-of-ai-2026-04-06"
   },
   {
     "anchor_affiliation": "DeepMind co-founder, chief AGI scientist",
@@ -1394,7 +1520,8 @@
     "known_for": "Coined AGI usage at DeepMind; long-horizon safety",
     "last_verified": "2026-06-14",
     "name": "Shane Legg",
-    "region": "UK/NZ"
+    "region": "UK/NZ",
+    "source_url": "https://arxiv.org/abs/2311.02462"
   },
   {
     "anchor_affiliation": "Zhipu AI; Tsinghua",
@@ -1405,7 +1532,8 @@
     "known_for": "GLM model family; Tsinghua-to-industry pipeline",
     "last_verified": "2026-06-14",
     "name": "Tang Jie",
-    "region": "CN"
+    "region": "CN",
+    "source_url": "https://www.tsinghua.edu.cn/en/info/1418/10451.htm"
   },
   {
     "anchor_affiliation": "Baidu CTO",
@@ -1416,7 +1544,8 @@
     "known_for": "ERNIE; China's first large-scale LLM deployments",
     "last_verified": "2026-06-14",
     "name": "Wang Haifeng",
-    "region": "CN"
+    "region": "CN",
+    "source_url": "https://haifengwang.net/"
   },
   {
     "anchor_affiliation": "OpenAI co-founder",
@@ -1427,7 +1556,8 @@
     "known_for": "OpenAI co-founder; robotics-to-LLM arc",
     "last_verified": "2026-06-14",
     "name": "Wojciech Zaremba",
-    "region": "US/PL"
+    "region": "US/PL",
+    "source_url": "https://arxiv.org/abs/2508.10925"
   },
   {
     "anchor_affiliation": "Moonshot AI co-founder",
@@ -1438,7 +1568,8 @@
     "known_for": "Long-context LLMs; Kimi",
     "last_verified": "2026-06-14",
     "name": "Yang Zhilin",
-    "region": "CN"
+    "region": "CN",
+    "source_url": "https://www.reuters.com/business/media-telecom/chinas-moonshot-ai-releases-open-source-model-reclaim-market-position-2025-07-11/"
   },
   {
     "anchor_affiliation": "Google DeepMind; GovAI founder",
@@ -1449,7 +1580,8 @@
     "known_for": "Founded AI governance as research field (GovAI)",
     "last_verified": "2026-06-14",
     "name": "Allan Dafoe",
-    "region": "CA/UK"
+    "region": "CA/UK",
+    "source_url": "https://www.allandafoe.com/"
   },
   {
     "anchor_affiliation": "IAS; ex-OSTP deputy director",
@@ -1460,7 +1592,8 @@
     "known_for": "AI Bill of Rights blueprint",
     "last_verified": "2026-06-14",
     "name": "Alondra Nelson",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://www.ias.edu/sss/faculty/nelson"
   },
   {
     "anchor_affiliation": "Columbia Law",
@@ -1471,7 +1604,8 @@
     "known_for": "The Brussels Effect; digital-empires framing",
     "last_verified": "2026-06-14",
     "name": "Anu Bradford",
-    "region": "FI/US"
+    "region": "FI/US",
+    "source_url": "https://www.law.columbia.edu/faculty/anu-bradford"
   },
   {
     "anchor_affiliation": "ALLAI co-founder",
@@ -1482,7 +1616,8 @@
     "known_for": "ALLAI; EU high-level expert group on AI",
     "last_verified": "2026-06-14",
     "name": "Catelijne Muller",
-    "region": "NL"
+    "region": "NL",
+    "source_url": "https://oecd.ai/en/community/catelijne-muller"
   },
   {
     "anchor_affiliation": "NIST chief AI advisor (role as of 2025; verify)",
@@ -1493,7 +1628,8 @@
     "known_for": "NIST AI Risk Management Framework",
     "last_verified": "2026-06-14",
     "name": "Elham Tabassi",
-    "region": "US/IR"
+    "region": "US/IR",
+    "source_url": "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10"
   },
   {
     "anchor_affiliation": "MIT; ex-European Commission",
@@ -1504,7 +1640,8 @@
     "known_for": "Architect of the EU AI Act text",
     "last_verified": "2026-06-14",
     "name": "Gabriele Mazzini",
-    "region": "IT"
+    "region": "IT",
+    "source_url": "https://connection.mit.edu/people/gabriele-mazzini/"
   },
   {
     "anchor_affiliation": "Johns Hopkins; ex-Schwartz Reisman director",
@@ -1515,7 +1652,8 @@
     "known_for": "Normative infrastructure for AI; regulatory markets",
     "last_verified": "2026-06-14",
     "name": "Gillian Hadfield",
-    "region": "CA/US"
+    "region": "CA/US",
+    "source_url": "https://engineering.jhu.edu/faculty/gillian-hadfield/"
   },
   {
     "anchor_affiliation": "CSET Georgetown",
@@ -1526,7 +1664,8 @@
     "known_for": "Frontier-lab governance; CSET analysis; OpenAI board episode",
     "last_verified": "2026-06-14",
     "name": "Helen Toner",
-    "region": "AU/US"
+    "region": "AU/US",
+    "source_url": "https://cset.georgetown.edu/staff/helen-toner/"
   },
   {
     "anchor_affiliation": "UK AISI chair; investor",
@@ -1537,7 +1676,8 @@
     "known_for": "State of AI report; UK frontier taskforce/AISI chair",
     "last_verified": "2026-06-14",
     "name": "Ian Hogarth",
-    "region": "UK"
+    "region": "UK",
+    "source_url": "https://www.stateof.ai/"
   },
   {
     "anchor_affiliation": "Anthropic co-founder, policy head",
@@ -1548,7 +1688,8 @@
     "known_for": "Import AI; policy from inside a frontier lab",
     "last_verified": "2026-06-14",
     "name": "Jack Clark",
-    "region": "UK/US"
+    "region": "UK/US",
+    "source_url": "https://jack-clark.net/"
   },
   {
     "anchor_affiliation": "George Washington University",
@@ -1559,7 +1700,8 @@
     "known_for": "ChinAI; diffusion-centric view of AI power",
     "last_verified": "2026-06-14",
     "name": "Jeff Ding",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://politicalscience.columbian.gwu.edu/jeffrey-ding"
   },
   {
     "anchor_affiliation": "Stanford HAI/CPC; ex-MEP",
@@ -1570,7 +1712,8 @@
     "known_for": "Tech Coup; EU digital policy voice in the US",
     "last_verified": "2026-06-14",
     "name": "Marietje Schaake",
-    "region": "NL"
+    "region": "NL",
+    "source_url": "https://cyber.fsi.stanford.edu/people/marietje-schaake"
   },
   {
     "anchor_affiliation": "GovAI; IAPS",
@@ -1581,7 +1724,8 @@
     "known_for": "Frontier-regulation architecture",
     "last_verified": "2026-06-14",
     "name": "Markus Anderljung",
-    "region": "SE/UK"
+    "region": "SE/UK",
+    "source_url": "https://www.governance.ai/team/markus-anderljung"
   },
   {
     "anchor_affiliation": "Carnegie Endowment",
@@ -1592,7 +1736,8 @@
     "known_for": "China's AI regulatory system analysis",
     "last_verified": "2026-06-14",
     "name": "Matt Sheehan",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://carnegieendowment.org/research/2023/07/chinas-ai-regulations-and-how-they-get-made"
   },
   {
     "anchor_affiliation": "Independent policy researcher; ex-OpenAI",
@@ -1603,7 +1748,8 @@
     "known_for": "Malicious-use report; AGI readiness critique after OpenAI exit",
     "last_verified": "2026-06-14",
     "name": "Miles Brundage",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://arxiv.org/abs/1802.07228"
   },
   {
     "anchor_affiliation": "AstraZeneca; Enterprise AI Governance newsletter",
@@ -1614,7 +1760,8 @@
     "known_for": "Enterprise AI governance curation and frameworks",
     "last_verified": "2026-06-14",
     "name": "Oliver Patel",
-    "region": "UK"
+    "region": "UK",
+    "source_url": "https://oliverpatel.substack.com/p/newsletter-launch"
   },
   {
     "anchor_affiliation": "CNAS executive VP",
@@ -1625,7 +1772,8 @@
     "known_for": "Autonomous weapons; military AI doctrine",
     "last_verified": "2026-06-14",
     "name": "Paul Scharre",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://www.cnas.org/people/paul-scharre"
   },
   {
     "anchor_affiliation": "Humane Intelligence CEO; ex-Twitter META",
@@ -1636,7 +1784,8 @@
     "known_for": "Algorithmic audit practice; red-teaming at scale",
     "last_verified": "2026-06-14",
     "name": "Rumman Chowdhury",
-    "region": "US/BD"
+    "region": "US/BD",
+    "source_url": "https://www.rummanchowdhury.com/"
   },
   {
     "anchor_affiliation": "New York Times",
@@ -1647,7 +1796,8 @@
     "known_for": "Genius Makers; deep-learning era chronicle",
     "last_verified": "2026-06-14",
     "name": "Cade Metz",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://scienceandsociety.duke.edu/events/conversation-with-new-york-times-a-i-reporter-cade-metz-on-his-new-book-genius-makers/"
   },
   {
     "anchor_affiliation": "Dwarkesh Podcast",
@@ -1658,7 +1808,8 @@
     "known_for": "Primary-source long interviews with the frontier; Scaling Era",
     "last_verified": "2026-06-14",
     "name": "Dwarkesh Patel",
-    "region": "US/IN"
+    "region": "US/IN",
+    "source_url": "https://www.dwarkesh.com/"
   },
   {
     "anchor_affiliation": "SemiAnalysis founder",
@@ -1669,7 +1820,8 @@
     "known_for": "SemiAnalysis; compute supply-chain analysis",
     "last_verified": "2026-06-14",
     "name": "Dylan Patel",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://semianalysis.com/dylan-patel/"
   },
   {
     "anchor_affiliation": "Wharton",
@@ -1680,7 +1832,8 @@
     "known_for": "Co-Intelligence; empirical workplace-AI experiments",
     "last_verified": "2026-06-14",
     "name": "Ethan Mollick",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://mgmt.wharton.upenn.edu/profile/emollick/"
   },
   {
     "anchor_affiliation": "Independent; ex-MIT Tech Review/WSJ",
@@ -1691,7 +1844,8 @@
     "known_for": "Empire of AI; defining investigative record of OpenAI era",
     "last_verified": "2026-06-14",
     "name": "Karen Hao",
-    "region": "US/HK"
+    "region": "US/HK",
+    "source_url": "https://karendhao.com/"
   },
   {
     "anchor_affiliation": "New York Times",
@@ -1702,7 +1856,8 @@
     "known_for": "Clearview exposé; privacy reporting",
     "last_verified": "2026-06-14",
     "name": "Kashmir Hill",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://www.kashmirhill.com/bio"
   },
   {
     "anchor_affiliation": "Financial Times AI editor",
@@ -1713,7 +1868,8 @@
     "known_for": "Code Dependent; FT AI editorship",
     "last_verified": "2026-06-14",
     "name": "Madhumita Murgia",
-    "region": "UK/IN"
+    "region": "UK/IN",
+    "source_url": "https://www.ft.com/madhumita-murgia"
   },
   {
     "anchor_affiliation": "Air Street Capital",
@@ -1724,7 +1880,8 @@
     "known_for": "State of AI Report",
     "last_verified": "2026-06-14",
     "name": "Nathan Benaich",
-    "region": "UK"
+    "region": "UK",
+    "source_url": "https://nathanbenaich.com/"
   },
   {
     "anchor_affiliation": "Ai2",
@@ -1735,7 +1892,8 @@
     "known_for": "Interconnects; open post-training analysis",
     "last_verified": "2026-06-14",
     "name": "Nathan Lambert",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://natolambert.com/"
   },
   {
     "anchor_affiliation": "Bloomberg Opinion",
@@ -1746,7 +1904,8 @@
     "known_for": "Supremacy; FT Business Book of the Year 2024",
     "last_verified": "2026-06-14",
     "name": "Parmy Olson",
-    "region": "US/UK"
+    "region": "US/UK",
+    "source_url": "https://www.ft.com/content/66753879-fcb9-4baf-a1d7-7790439255f2"
   },
   {
     "anchor_affiliation": "Transformer; ex-Tortoise",
@@ -1757,7 +1916,8 @@
     "known_for": "Transformer newsletter; AI policy reporting",
     "last_verified": "2026-06-14",
     "name": "Shakeel Hashim",
-    "region": "UK"
+    "region": "UK",
+    "source_url": "https://www.transformernews.ai/about"
   },
   {
     "anchor_affiliation": "Don't Worry About the Vase",
@@ -1768,7 +1928,8 @@
     "known_for": "The most thorough weekly synthesis of AI developments",
     "last_verified": "2026-06-14",
     "name": "Zvi Mowshowitz",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://thezvi.substack.com/"
   },
   {
     "anchor_affiliation": "Open Philanthropy",
@@ -1779,7 +1940,8 @@
     "known_for": "Biological-anchors timelines; AI takeover analysis",
     "last_verified": "2026-06-14",
     "name": "Ajeya Cotra",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://coefficientgiving.org/research/key-writings-on-ai-development-from-our-staff/"
   },
   {
     "anchor_affiliation": "Google DeepMind AI safety head; UC Berkeley",
@@ -1790,7 +1952,8 @@
     "known_for": "Human-robot interaction; value alignment in practice",
     "last_verified": "2026-06-14",
     "name": "Anca Dragan",
-    "region": "US/RO"
+    "region": "US/RO",
+    "source_url": "https://people.eecs.berkeley.edu/~anca/"
   },
   {
     "anchor_affiliation": "METR founder",
@@ -1801,7 +1964,8 @@
     "known_for": "Dangerous-capability evaluations as policy instrument",
     "last_verified": "2026-06-14",
     "name": "Beth Barnes",
-    "region": "UK/US"
+    "region": "UK/US",
+    "source_url": "https://metr.org/team/beth-barnes/"
   },
   {
     "anchor_affiliation": "Anthropic co-founder",
@@ -1812,7 +1976,8 @@
     "known_for": "Founded mechanistic interpretability",
     "last_verified": "2026-06-14",
     "name": "Chris Olah",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://colah.github.io/about.html"
   },
   {
     "anchor_affiliation": "Conjecture CEO; EleutherAI co-founder",
@@ -1823,7 +1988,8 @@
     "known_for": "Open-source GPT replication turned doom advocacy",
     "last_verified": "2026-06-14",
     "name": "Connor Leahy",
-    "region": "DE/UK"
+    "region": "DE/UK",
+    "source_url": "https://www.conjecture.dev/about"
   },
   {
     "anchor_affiliation": "Center for AI Safety director; xAI/Scale advisor",
@@ -1834,7 +2000,8 @@
     "known_for": "ML safety benchmarks; CAIS extinction-risk statement",
     "last_verified": "2026-06-14",
     "name": "Dan Hendrycks",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://danhendrycks.com/"
   },
   {
     "anchor_affiliation": "MIRI co-founder; If Anyone Builds It co-author",
@@ -1845,7 +2012,8 @@
     "known_for": "Founded the alignment problem discourse; doom case",
     "last_verified": "2026-06-14",
     "name": "Eliezer Yudkowsky",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://intelligence.org/team/"
   },
   {
     "anchor_affiliation": "Anthropic alignment stress-testing",
@@ -1856,7 +2024,8 @@
     "known_for": "Mesa-optimization; Sleeper Agents",
     "last_verified": "2026-06-14",
     "name": "Evan Hubinger",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://arxiv.org/abs/1906.01820"
   },
   {
     "anchor_affiliation": "Anthropic; Open Philanthropy co-founder",
@@ -1867,7 +2036,8 @@
     "known_for": "Most-important-century framing; safety funding architecture",
     "last_verified": "2026-06-14",
     "name": "Holden Karnofsky",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://cyber.harvard.edu/people/holden-karnofsky"
   },
   {
     "anchor_affiliation": "UC Berkeley; Transluce",
@@ -1878,7 +2048,8 @@
     "known_for": "ML robustness and forecasting; measurement-driven safety",
     "last_verified": "2026-06-14",
     "name": "Jacob Steinhardt",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://jsteinhardt.stat.berkeley.edu/"
   },
   {
     "anchor_affiliation": "Anthropic; ex-OpenAI/DeepMind",
@@ -1889,7 +2060,8 @@
     "known_for": "Led superalignment; public resignations over safety priority",
     "last_verified": "2026-06-14",
     "name": "Jan Leike",
-    "region": "DE/US"
+    "region": "DE/US",
+    "source_url": "https://jan.leike.name/"
   },
   {
     "anchor_affiliation": "MIT; Future of Life Institute president",
@@ -1900,7 +2072,8 @@
     "known_for": "Life 3.0; FLI pause letter and policy campaigns",
     "last_verified": "2026-06-14",
     "name": "Max Tegmark",
-    "region": "SE/US"
+    "region": "SE/US",
+    "source_url": "https://futureoflife.org/person/max-tegmark/"
   },
   {
     "anchor_affiliation": "MIRI president",
@@ -1911,7 +2084,8 @@
     "known_for": "MIRI research leadership; co-author of the 2025 risk bestseller",
     "last_verified": "2026-06-14",
     "name": "Nate Soares",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://intelligence.org/team/nate-soares/"
   },
   {
     "anchor_affiliation": "Google DeepMind",
@@ -1922,7 +2096,8 @@
     "known_for": "Mech-interp field-building and training pipeline",
     "last_verified": "2026-06-14",
     "name": "Neel Nanda",
-    "region": "UK"
+    "region": "UK",
+    "source_url": "https://www.neelnanda.io/about"
   },
   {
     "anchor_affiliation": "Macrostrategy Research Initiative; ex-FHI",
@@ -1933,7 +2108,8 @@
     "known_for": "Superintelligence; existential-risk framing",
     "last_verified": "2026-06-14",
     "name": "Nick Bostrom",
-    "region": "SE/UK"
+    "region": "SE/UK",
+    "source_url": "https://nickbostrom.com/"
   },
   {
     "anchor_affiliation": "US CAISI head of safety; ARC founder",
@@ -1944,7 +2120,8 @@
     "known_for": "RLHF origins; alignment research agenda; now in government-adjacent safety",
     "last_verified": "2026-06-14",
     "name": "Paul Christiano",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://www.nist.gov/people/paul-christiano"
   },
   {
     "anchor_affiliation": "Google DeepMind",
@@ -1955,7 +2132,8 @@
     "known_for": "Alignment Newsletter; DeepMind AGI safety",
     "last_verified": "2026-06-14",
     "name": "Rohin Shah",
-    "region": "US/IN"
+    "region": "US/IN",
+    "source_url": "https://rohinshah.com/"
   },
   {
     "anchor_affiliation": "University of Louisville",
@@ -1966,7 +2144,8 @@
     "known_for": "Uncontrollability thesis",
     "last_verified": "2026-06-14",
     "name": "Roman Yampolskiy",
-    "region": "US/LV"
+    "region": "US/LV",
+    "source_url": "https://profiles.louisville.edu/roman.yampolskiy"
   },
   {
     "anchor_affiliation": "Anthropic; NYU",
@@ -1977,7 +2156,8 @@
     "known_for": "LLM evaluation; safety cases at frontier scale",
     "last_verified": "2026-06-14",
     "name": "Sam Bowman",
-    "region": "US"
+    "region": "US",
+    "source_url": "https://sleepinyourhat.github.io/"
   },
   {
     "anchor_affiliation": "Aligned AI co-founder; ex-FHI",
@@ -1988,7 +2168,8 @@
     "known_for": "Value extrapolation; safe AI startup research",
     "last_verified": "2026-06-14",
     "name": "Stuart Armstrong",
-    "region": "UK/FR"
+    "region": "UK/FR",
+    "source_url": "https://enspire.ox.ac.uk/article/stuart-armstrong-co-founder-of-aligned-ai"
   },
   {
     "anchor_affiliation": "Oxford",
@@ -1999,7 +2180,8 @@
     "known_for": "The Precipice; existential risk quantification",
     "last_verified": "2026-06-14",
     "name": "Toby Ord",
-    "region": "AU/UK"
+    "region": "AU/UK",
+    "source_url": "https://www.tobyord.com/"
   },
   {
     "anchor_affiliation": "Google DeepMind; FLI",
@@ -2010,7 +2192,8 @@
     "known_for": "Specification gaming; FLI co-founder",
     "last_verified": "2026-06-14",
     "name": "Victoria Krakovna",
-    "region": "CA/RU"
+    "region": "CA/RU",
+    "source_url": "https://futureoflife.org/person/victoria-krakovna/"
   },
   {
     "anchor_affiliation": "Eindhoven University of Technology; Kyvvu B.V.",
@@ -2021,6 +2204,7 @@
     "known_for": "Runtime governance for AI agents; AI compliance as policies on execution paths",
     "last_verified": "2026-06-14",
     "name": "Maurits Kaptein",
-    "region": "NL"
+    "region": "NL",
+    "source_url": "https://www.tue.nl/en/research/researchers/maurits-kaptein"
   }
 ]
