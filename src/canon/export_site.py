@@ -50,6 +50,7 @@ NAV = [
     ("challenges.html", "Challenges"),
     ("changelog.html", "Changelog"),
     ("data.html", "Data & audit"),
+    ("press.html", "Press"),
 ]
 
 # The verbatim positioning line (A2) and humility clause (E5), used as-is.
@@ -142,6 +143,9 @@ ol,ul{margin:10px 0 10px 22px}li{margin:6px 0}
 .entry .pending{font-size:.85rem;color:var(--g500);font-style:italic;margin-top:6px}
 .badge{display:inline-block;font-size:.62rem;letter-spacing:.04em;text-transform:uppercase;padding:2px 8px;border-radius:20px;border:1px solid var(--g300);color:var(--g500);margin-left:6px}
 .shelf-cat{font-family:"DM Serif Display",serif;font-size:1.25rem;color:var(--deep);margin:30px 0 6px;border-bottom:2px solid var(--orange);display:inline-block;padding-bottom:2px}
+.pullquote{font-family:"DM Serif Display",serif;font-size:1.3rem;line-height:1.35;color:var(--deep);border-left:3px solid var(--orange);padding:4px 0 4px 18px;margin:16px 0}
+.sharebox{background:var(--g100);border:1px solid var(--g200);border-radius:6px;padding:18px 22px;margin:18px 0}
+.sharebox p{margin:8px 0}.sharebox ul{margin:8px 0 8px 20px}
 /* footer */
 footer{background:var(--deep);color:rgba(255,255,255,.6);padding:40px 0 34px;margin-top:40px;font-size:.85rem}
 footer .measure{max-width:1080px}
@@ -622,6 +626,68 @@ def page_platforms(platforms: list[dict]) -> str:
     return _context_shelf("platforms.html", "Context shelf, 90 platforms, described never ranked", "Platforms", platforms, render)
 
 
+def page_press() -> str:
+    quotes = [
+        "Every AI reading list asks you to trust the curator. This one asks you to check the math.",
+        "I will rank texts. I will not rank human beings, and the system is built so I cannot start.",
+        "A canon you can check is worth more than a canon you must believe.",
+        "You cannot understand AI today by reading only what was written in English. So the Chinese works go in the spine, not the appendix.",
+    ]
+    body = [
+        f'<p class="lead">{esc("The AI Canon is a free, public reference library of the texts that define artificial intelligence, built on an open method that lets anyone check, question, and overturn its judgments. It ranks texts, not people. It sells nothing. It is built by Jeroen Janssen, founder of the Dutch AI governance firm Apparens.")}</p>',
+        "<h2>Why it is worth covering</h2>",
+        f'<p>{esc("The literature of AI has outgrown anyone\'s ability to read it, and the maps that exist are mostly commercial: affiliate reading lists, vendor guides, influencer rankings. They ask the reader to trust the curator. Almost none show their work. The AI Canon is built the opposite way. Every ranking is produced by a published method, every number carries its source and date, and anyone can download the audit file and rebuild the result themselves. The premise is that curation of knowledge can be made auditable, the way an account can be audited, rather than taken on faith.")}</p>',
+        "<h2>What is genuinely new here, and verifiable</h2>",
+        f'<p>{esc("Three things, each checkable rather than asserted. First, it ranks texts and refuses to rank people: the voices and organizations in the field are described, never scored, and the data model has no way to rank a human being. Second, it is checkable end to end: the method, the corpus, the weights, and the audit files are public, and every rank links to the evidence that produced it. Third, it invites correction as a feature, not a complaint box: anyone can formally challenge any ranking or omission with evidence, and every challenge and its resolution is published in a permanent, public log.")}</p>',
+        "<h2>The China and United States angle</h2>",
+        f'<p>{esc("Most maps of AI thought only see half the field. You cannot understand artificial intelligence in 2026 by reading only what was written in English. The AI Canon is built, as a published rule, to score Chinese-language works within their own publishing and citation ecosystem before any cross-language comparison, rather than against English metrics that would erase them. That rule is written into the method; the mechanism that enforces it, and the Chinese corpus it needs, are still being built. Today the scored pilot is English-language papers, and the Chinese section is thin and openly under construction, with the project actively recruiting Chinese-literate scholars and readers to help build and verify it. The story is not a finished global canon. It is a Western-built reference work that is structurally committed to including China and is openly asking Chinese experts to help, at a moment when most Western and Chinese AI discourse barely acknowledge each other.")}</p>',
+        "<h2>Quotable, attributable to Jeroen Janssen</h2>",
+    ]
+    body += [f'<p class="pullquote">{esc(q)}</p>' for q in quotes]
+    body += [
+        "<h2>What you can verify before you publish</h2>",
+        f'<p>{esc("The method, the ontology, the full corpus, and the audit files are open. The challenge log is public. There is no advertising, no affiliate income, and no paid placement anywhere in the project, by design and by rule. It is a non-commercial public good; there is nothing to buy and no upsell to find.")}</p>',
+        f'<p>{esc("The builder\'s own book, The AI Accountability Trap, is in the corpus and carries a visible conflict flag, scored by the same rules as everything else, with no exemption and no boost.")}</p>',
+        "<h2>Contact</h2>",
+        '<p>Jeroen Janssen, Apparens (Deventer, Netherlands). <a href="mailto:office@apparens.nl">office@apparens.nl</a>.</p>',
+        '<p>If you want to share this rather than write about it, see the <a href="share.html">share page</a>.</p>',
+    ]
+    return shell("press.html", "For press and writers", "Press", "".join(body))
+
+
+def page_share() -> str:
+    body = [
+        f'<p class="lead">{esc("Use any of this freely. The only thing asked is that you keep it honest, which is easy here, because the honest version is the interesting one. Do not call it the world\'s first or the definitive anything. It has not earned those words yet, and the fact that it refuses to claim them is part of what makes it worth sharing.")}</p>',
+        "<h2>The problem it speaks to, in one breath</h2>",
+        f'<p>{esc("There is too much to read, you cannot tell who to trust, and almost every reading list you have ever seen was either someone\'s opinion or someone\'s affiliate income. Meanwhile the field itself has split in two, English and Chinese, and most maps only show you one half.")}</p>',
+        "<h2>The turn</h2>",
+        f'<p>{esc("Someone built a reference library for the whole field that you can actually check. It ranks the texts, not the people. Every ranking shows its evidence. You are invited to prove it wrong, in public. It is free, it is built to include both the American and Chinese literature, and it sells you nothing.")}</p>',
+        "<h2>A drop-in post you can adapt</h2>",
+        '<div class="sharebox">'
+        f'<p>{esc("Most “best AI books” lists are either someone\'s opinion or someone\'s affiliate link.")}</p>'
+        f'<p>{esc("I just came across something different: The AI Canon. A free, public reference library of the texts that define AI, built on an open method you can actually inspect.")}</p>'
+        f'<p>{esc("What makes it stand out to me:")}</p><ul>'
+        f'<li>{esc("It ranks texts, not people. The thinkers and labs are described, never ranked against each other.")}</li>'
+        f'<li>{esc("You can check every judgment. The method, the data, and the audit files are public, and each ranking links to the evidence behind it.")}</li>'
+        f'<li>{esc("It invites you to prove it wrong. Disagree with a ranking? File a challenge with evidence. Every challenge and its resolution is published.")}</li>'
+        f'<li>{esc("It takes China seriously. It is built to include the Chinese-language literature in the core, not as a footnote, and it is openly recruiting Chinese-reading contributors to help finish that work.")}</li>'
+        f'<li>{esc("It sells nothing. No ads, no affiliate links, no paywall.")}</li></ul>'
+        f'<p>{esc("In a field where everyone is selling certainty, a reference you are allowed to argue with feels genuinely new.")}</p>'
+        f'<p>{esc("[link] Worth a look if you are trying to figure out what to read and who to trust in AI.")}</p>'
+        "</div>",
+        "<h2>If you want a sharper, shorter version</h2>",
+        '<div class="sharebox">'
+        f'<p>{esc("Someone built an AI reading canon you are actually allowed to argue with.")}</p>'
+        f'<p>{esc("It ranks texts, not people. It shows its evidence for every call. It is built to include the American and Chinese literature, with the Chinese section still under construction. It invites public challenges and publishes every resolution. And it sells nothing, no ads, no affiliate links.")}</p>'
+        f'<p>{esc("“A canon you can check is worth more than a canon you must believe.”")}</p>'
+        f'<p>{esc("[link]")}</p>'
+        "</div>",
+        "<h2>One honest note for whoever shares it</h2>",
+        f'<p>{esc("The rankings are still in pilot and the Chinese section is still being built. If you want to help with the second part and you read Chinese, that is an open invitation, not a disclaimer. Saying so out loud tends to make the post better, not worse.")}</p>',
+    ]
+    return shell("share.html", "If you want to share this", "Share", "".join(body))
+
+
 def _write_csv(path: Path, header: list[str], rows: list[list]) -> None:
     import csv
     import io
@@ -663,6 +729,8 @@ def build() -> dict:
     _write("challenges.html", page_challenges())
     _write("changelog.html", page_changelog())
     _write("data.html", page_data(release, coverage))
+    _write("press.html", page_press())
+    _write("share.html", page_share())
 
     # Copy the audit package + open corpus so they are publicly downloadable.
     audit_rel = SITE / "audit" / VERSION
@@ -684,7 +752,7 @@ def build() -> dict:
                [[p["id"], p["canonical_title"], p["editorial"].get("authors", ""), p.get("year", ""),
                  p["editorial"].get("venue", ""), p["editorial"].get("category", "")] for p in papers.values()])
 
-    summary = {"pages": 11 + len(breakdowns), "work_pages": len(breakdowns), "version": VERSION}
+    summary = {"pages": 13 + len(breakdowns), "work_pages": len(breakdowns), "version": VERSION}
     print(json.dumps(summary, indent=2))
     return summary
 
