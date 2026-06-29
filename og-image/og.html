@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>AI Canon OG image</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=DM+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:#051C2C;display:flex;justify-content:center;font-family:'DM Sans',sans-serif}
+  /* THE CARD: exactly 1200x630 (the OG / LinkedIn ratio). Export THIS element. */
+  .card{
+    position:relative;width:1200px;height:630px;overflow:hidden;background:#051C2C;
+    /* >>> put your photo next to this file as photo.jpg <<< */
+    background-image:url('photo.png');
+    background-size:cover;
+    background-position:50% 28%;   /* keeps her face high; text sits over the darker lower area */
+  }
+  /* Scrim for legibility: dark from the bottom, a touch from the left. */
+  .card::before{
+    content:"";position:absolute;inset:0;
+    background:
+      linear-gradient(180deg, rgba(5,28,44,0) 38%, rgba(5,28,44,0.55) 68%, rgba(5,28,44,0.94) 100%),
+      linear-gradient(90deg, rgba(5,28,44,0.65) 0%, rgba(5,28,44,0) 46%);
+  }
+  .content{position:absolute;left:64px;right:64px;bottom:54px;z-index:2}
+  .overline{font-family:'DM Mono',monospace;font-size:18px;letter-spacing:5px;
+    text-transform:uppercase;color:#F0A05C;margin-bottom:12px}
+  .title{font-family:'DM Serif Display',serif;font-size:96px;line-height:0.98;
+    color:#F4EEE2;letter-spacing:-0.01em}
+  .sub{font-size:30px;color:#E7E2D6;margin-top:14px;max-width:760px}
+  .sub b{color:#F0A05C;font-weight:600}
+  .row{display:flex;align-items:center;gap:18px;margin-top:22px}
+  .bar{width:54px;height:4px;background:#E87722}
+  .url{font-family:'DM Sans',sans-serif;font-size:26px;font-weight:600;color:#F0A05C}
+  .tag{position:absolute;right:64px;bottom:58px;z-index:2;font-family:'DM Mono',monospace;
+    font-size:16px;letter-spacing:2px;color:#9FB2C4;text-align:right}
+  /* EU AI Act transparency markers, upper-right */
+  .badges{position:absolute;top:24px;right:26px;z-index:3;display:flex;align-items:center;gap:10px}
+  .euflag{width:46px;height:31px;border-radius:4px;display:block;box-shadow:0 1px 5px rgba(0,0,0,.4)}
+  .aimod{display:inline-flex;align-items:center;gap:7px;background:#000;color:#fff;border-radius:18px;
+    padding:6px 14px;font-family:'DM Sans',sans-serif;font-size:13px;letter-spacing:1.5px;
+    font-weight:500;box-shadow:0 1px 5px rgba(0,0,0,.4)}
+  .aimod b{font-weight:800;letter-spacing:0;font-size:15px}
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="content">
+      <div class="overline">An Apparens public research initiative</div>
+      <div class="title">The AI Canon</div>
+      <div class="sub">A reference library you can <b>check</b>.<br>It ranks <b>texts, not people</b>.</div>
+      <div class="row"><span class="bar"></span><span class="url">ai-canon.apparens.nl</span></div>
+    </div>
+    <div class="tag">PILOT v0.1<br>Nothing is for sale.</div>
+    <div class="badges">
+      <svg class="euflag" viewBox="0 0 90 60" role="img" aria-label="European Union"><rect width="90" height="60" rx="5" fill="#003399"/></svg>
+      <span class="aimod"><b>AI</b> MODIFIED</span>
+    </div>
+  </div>
+  <script>
+  (function(){
+    function star(cx,cy,r){var p=[];for(var i=0;i<10;i++){var rad=(i%2===0)?r:r*0.382;var a=(-90+i*36)*Math.PI/180;p.push((cx+rad*Math.cos(a)).toFixed(2)+','+(cy+rad*Math.sin(a)).toFixed(2));}return p.join(' ');}
+    var svg=document.querySelector('.euflag'),cx=45,cy=30,R=18,NS='http://www.w3.org/2000/svg';
+    for(var i=0;i<12;i++){var a=(-90+i*30)*Math.PI/180,sx=cx+R*Math.cos(a),sy=cy+R*Math.sin(a);var poly=document.createElementNS(NS,'polygon');poly.setAttribute('points',star(sx,sy,4));poly.setAttribute('fill','#FFCC00');svg.appendChild(poly);}
+  })();
+  </script>
+</body>
+</html>
