@@ -42,7 +42,7 @@ def test_home_is_generated_with_live_teaser():
     home = (site.SITE / "index.html").read_text("utf-8")
     # The homepage is generated in the shared design and links a real work page.
     assert re.search(r'work/paper-\d+\.html', home)
-    assert 'class="brand"' in home  # the apparens-style nav
+    assert 'class="brandwrap"' in home  # the apparens-style nav
 
 
 def test_no_em_dashes_anywhere_in_site():

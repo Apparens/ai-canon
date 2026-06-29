@@ -80,10 +80,11 @@ nav.top{position:fixed;top:0;left:0;right:0;z-index:100;background:var(--deep);
 border-bottom:1px solid rgba(255,255,255,.08)}
 nav.top .row1{max-width:1080px;margin:0 auto;padding:0 32px;height:50px;display:flex;
 align-items:center;justify-content:space-between}
-nav.top .brand{display:flex;align-items:center;gap:11px;text-decoration:none}
-nav.top .brand img{height:26px;width:auto}
-nav.top .brand b{color:#fff;font-family:"DM Serif Display",serif;font-weight:400;font-size:18px}
-nav.top .brand:hover{text-decoration:none}
+nav.top .brandwrap{display:flex;align-items:center;gap:11px}
+nav.top .brand-logo img{height:26px;width:auto;display:block}
+nav.top .brand-logo,nav.top .brand-name{text-decoration:none}
+nav.top .brand-logo:hover,nav.top .brand-name:hover{text-decoration:none}
+nav.top .brand-name{color:#fff;font-family:"DM Serif Display",serif;font-weight:400;font-size:18px}
 nav.top .row1 .out{color:var(--orange-dark);font-size:.82rem;text-decoration:none;font-weight:600}
 nav.top .row2{max-width:1080px;margin:0 auto;padding:0 32px;height:38px;display:flex;
 flex-wrap:wrap;align-items:center;gap:22px;border-top:1px solid rgba(255,255,255,.06)}
@@ -194,8 +195,11 @@ def _nav(active: str, prefix: str) -> str:
         links.append(f'<a href="{prefix}{href}"{cur}>{esc(label)}</a>')
     return f"""<nav class="top">
   <div class="row1">
-    <a class="brand" href="{prefix}index.html"><img src="{prefix}apparens-logo-white.png" alt="Apparens" width="510" height="118"><b>The AI Canon</b></a>
-    <a class="out" href="https://apparens.nl">Apparens.nl &#8599;</a>
+    <div class="brandwrap">
+      <a class="brand-logo" href="https://apparens.nl" title="Back to Apparens"><img src="{prefix}apparens-logo-white.png" alt="Apparens" width="510" height="118"></a>
+      <a class="brand-name" href="{prefix}index.html">The AI Canon</a>
+    </div>
+    <a class="out" href="https://apparens.nl">Back to Apparens &#8594;</a>
   </div>
   <div class="row2">{"".join(links)}</div>
 </nav>"""
