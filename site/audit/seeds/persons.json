@@ -1828,5 +1828,15 @@
     "last_verified": "2026-06-14",
     "name": "Victoria Krakovna",
     "region": "CA/RU"
+  },
+  {
+    "anchor_affiliation": "Eindhoven University of Technology; Kyvvu B.V.",
+    "canonical": false,
+    "category": "Governance & Policy",
+    "id": "person-0184",
+    "known_for": "Runtime governance for AI agents; AI compliance as policies on execution paths",
+    "last_verified": "2026-06-14",
+    "name": "Maurits Kaptein",
+    "region": "NL"
   }
 ]

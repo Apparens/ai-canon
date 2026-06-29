@@ -321,8 +321,8 @@ def page_home(release: dict, rankings: dict, papers: dict, coverage: dict) -> st
 <div class="statgrid">
   <div class="stat"><b>573</b><span>candidate books (250 described)</span></div>
   <div class="stat"><b>162</b><span>seed papers, 1943-2025</span></div>
-  <div class="stat"><b>183</b><span>voices, described, never ranked</span></div>
-  <div class="stat"><b>132</b><span>organizations</span></div>
+  <div class="stat"><b>184</b><span>voices, described, never ranked</span></div>
+  <div class="stat"><b>133</b><span>organizations</span></div>
   <div class="stat"><b>90</b><span>platforms</span></div>
   <div class="stat"><b>172</b><span>verified authored-by edges</span></div>
 </div>
@@ -662,7 +662,7 @@ def page_voices(persons: list[dict]) -> str:
                                              (f'verified {esc(p["last_verified"])}' if p.get("last_verified") else "")] if x)
         kf = f'<p class="desc">{esc(p["known_for"])}</p>' if p.get("known_for") else ""
         return f'<div class="t">{esc(p["name"])}</div><div class="meta">{meta}</div>{kf}'
-    return _context_shelf("voices.html", "Context shelf, 183 voices, described never ranked", "Voices", persons, render)
+    return _context_shelf("voices.html", "Context shelf, 184 voices, described never ranked", "Voices", persons, render)
 
 
 def page_orgs(orgs: list[dict]) -> str:
@@ -670,7 +670,7 @@ def page_orgs(orgs: list[dict]) -> str:
         meta = esc(o.get("region", "")) + (f' &middot; verified {esc(o["last_verified"])}' if o.get("last_verified") else "")
         wi = f'<p class="desc">{esc(o["what_it_is"])}</p>' if o.get("what_it_is") else ""
         return f'<div class="t">{esc(o["name"])}</div><div class="meta">{meta}</div>{wi}'
-    return _context_shelf("organizations.html", "Context shelf, 132 organizations, described never ranked", "Organizations", orgs, render)
+    return _context_shelf("organizations.html", "Context shelf, 133 organizations, described never ranked", "Organizations", orgs, render)
 
 
 def page_platforms(platforms: list[dict]) -> str:

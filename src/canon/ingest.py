@@ -38,7 +38,7 @@ CONTEXT_XLSX = SOURCE_DIR / "AI_Canon_Voices_Orgs_Platforms.xlsx"
 SEED_DATE = date(2026, 6, 14)  # seed v0.3 (changelog)
 APPARENS_CONFLICT_TITLE = "the ai accountability trap"  # rule 12
 
-EXPECTED = {"books": 573, "papers": 162, "persons": 183, "orgs": 132, "platforms": 90}
+EXPECTED = {"books": 573, "papers": 162, "persons": 184, "orgs": 133, "platforms": 90}
 AUTHORED_BY_BAND = (151, 185)  # ~168 +/-10%
 
 

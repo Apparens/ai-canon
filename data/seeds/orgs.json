@@ -1186,5 +1186,14 @@
     "name": "Partnership on AI",
     "region": "US",
     "what_it_is": "Multistakeholder norms body of the pre-LLM era"
+  },
+  {
+    "canonical": false,
+    "category": "Safety & Audit",
+    "id": "org-0133",
+    "last_verified": "2026-06-14",
+    "name": "Kyvvu B.V.",
+    "region": "NL",
+    "what_it_is": "Netherlands-based company working on runtime governance and compliance for AI agents"
   }
 ]
