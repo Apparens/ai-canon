@@ -207,14 +207,15 @@ def _nav(active: str, prefix: str) -> str:
 
 def shell(active: str, kicker: str, title: str, body: str, *, depth: int = 0) -> str:
     prefix = "../" * depth
+    head_title = esc(title) if title == "The AI Canon" else esc(title) + " - The AI Canon"
     return f"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{esc(title)} - The AI Canon</title>
+<title>{head_title}</title>
 <meta name="description" content="The AI Canon is a free, method-backed reference library for AI knowledge. It ranks texts, not people.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="The AI Canon">
-<meta property="og:title" content="{esc(title)} - The AI Canon">
+<meta property="og:title" content="{head_title}">
 <meta property="og:description" content="{esc(POSITIONING)}">
 <meta property="og:url" content="https://ai-canon.apparens.nl/">
 <meta property="og:image" content="https://ai-canon.apparens.nl/assets/og.png">
@@ -222,7 +223,7 @@ def shell(active: str, kicker: str, title: str, body: str, *, depth: int = 0) ->
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="The AI Canon. A reference library you can check. It ranks texts, not people.">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{esc(title)} - The AI Canon">
+<meta name="twitter:title" content="{head_title}">
 <meta name="twitter:description" content="{esc(POSITIONING)}">
 <meta name="twitter:image" content="https://ai-canon.apparens.nl/assets/og.png">
 <link rel="stylesheet" href="{prefix}assets/fonts.css">
