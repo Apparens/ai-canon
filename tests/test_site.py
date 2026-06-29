@@ -45,6 +45,16 @@ def test_home_is_generated_with_live_teaser():
     assert 'class="brandwrap"' in home  # the apparens-style nav
 
 
+def test_voice_bio_renders_only_when_present():
+    with_bio = site.page_voices([{"id": "person-x", "name": "Test Voice", "category": "X",
+                                  "known_for": "known for line", "bio": "An authored biography sentence.",
+                                  "region": "NL"}])
+    assert "An authored biography sentence." in with_bio and 'class="bio"' in with_bio
+    without = site.page_voices([{"id": "person-y", "name": "No Bio", "category": "X",
+                                 "known_for": "kf", "region": "NL"}])
+    assert 'class="bio"' not in without  # quiet when no bio is written
+
+
 def test_no_em_dashes_anywhere_in_site():
     site.build()
     offenders = [h.name for h in site.SITE.rglob("*.html") if "—" in h.read_text("utf-8")]

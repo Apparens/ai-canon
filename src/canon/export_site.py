@@ -146,6 +146,7 @@ ol,ul{margin:10px 0 10px 22px}li{margin:6px 0}
 .entry .t{font-family:"DM Serif Display",serif;font-size:1.1rem;color:var(--deep)}
 .entry .meta{font-size:.8rem;color:var(--g500);margin:3px 0}
 .entry .desc{font-size:.92rem;margin-top:6px}
+.entry .bio{font-size:.9rem;color:var(--g500);margin-top:6px;max-width:72ch;line-height:1.55}
 .entry .pending{font-size:.85rem;color:var(--g500);font-style:italic;margin-top:6px}
 .badge{display:inline-block;font-size:.62rem;letter-spacing:.04em;text-transform:uppercase;padding:2px 8px;border-radius:20px;border:1px solid var(--g300);color:var(--g500);margin-left:6px}
 .shelf-cat{font-family:"DM Serif Display",serif;font-size:1.25rem;color:var(--deep);margin:30px 0 6px;border-bottom:2px solid var(--orange);display:inline-block;padding-bottom:2px}
@@ -661,7 +662,8 @@ def page_voices(persons: list[dict]) -> str:
         meta = " &middot; ".join(x for x in [esc(p.get("anchor_affiliation", "")), esc(p.get("region", "")),
                                              (f'verified {esc(p["last_verified"])}' if p.get("last_verified") else "")] if x)
         kf = f'<p class="desc">{esc(p["known_for"])}</p>' if p.get("known_for") else ""
-        return f'<div class="t">{esc(p["name"])}</div><div class="meta">{meta}</div>{kf}'
+        bio = f'<p class="bio">{esc(p["bio"])}</p>' if p.get("bio") else ""
+        return f'<div class="t">{esc(p["name"])}</div><div class="meta">{meta}</div>{kf}{bio}'
     return _context_shelf("voices.html", "Context shelf, 184 voices, described never ranked", "Voices", persons, render)
 
 

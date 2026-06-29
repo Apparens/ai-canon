@@ -1,6 +1,7 @@
 [
   {
     "anchor_affiliation": "Scripps Research",
+    "bio": null,
     "canonical": false,
     "category": "AI for Science",
     "id": "person-0001",
@@ -11,6 +12,7 @@
   },
   {
     "anchor_affiliation": "Nobel Chemistry 2024; Google DeepMind",
+    "bio": null,
     "canonical": false,
     "category": "AI for Science",
     "id": "person-0002",
@@ -21,6 +23,7 @@
   },
   {
     "anchor_affiliation": "Google DeepMind science VP",
+    "bio": null,
     "canonical": false,
     "category": "AI for Science",
     "id": "person-0003",
@@ -31,6 +34,7 @@
   },
   {
     "anchor_affiliation": "MIT Jameel Clinic",
+    "bio": null,
     "canonical": false,
     "category": "AI for Science",
     "id": "person-0004",
@@ -41,6 +45,7 @@
   },
   {
     "anchor_affiliation": "CMU; Cartesia",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0005",
@@ -51,6 +56,7 @@
   },
   {
     "anchor_affiliation": "Independent researcher; ex-OpenAI",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0006",
@@ -61,6 +67,7 @@
   },
   {
     "anchor_affiliation": "Eureka Labs; ex-OpenAI, ex-Tesla",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0007",
@@ -71,6 +78,7 @@
   },
   {
     "anchor_affiliation": "DeepLearning.AI, AI Fund; Stanford",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0008",
@@ -81,6 +89,7 @@
   },
   {
     "anchor_affiliation": "Oxford VGG",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0009",
@@ -91,6 +100,7 @@
   },
   {
     "anchor_affiliation": "Essential AI co-founder",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0010",
@@ -101,6 +111,7 @@
   },
   {
     "anchor_affiliation": "Stanford; Physical Intelligence co-founder",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0011",
@@ -111,6 +122,7 @@
   },
   {
     "anchor_affiliation": "Author; ex-Stanford instructor",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0012",
@@ -121,6 +133,7 @@
   },
   {
     "anchor_affiliation": "U. Toronto; Vector",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0013",
@@ -131,6 +144,7 @@
   },
   {
     "anchor_affiliation": "INRIA; Google",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0014",
@@ -141,6 +155,7 @@
   },
   {
     "anchor_affiliation": "Google DeepMind; UCL",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0015",
@@ -151,6 +166,7 @@
   },
   {
     "anchor_affiliation": "Anthropic; ex-Google Brain",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0016",
@@ -161,6 +177,7 @@
   },
   {
     "anchor_affiliation": "Ndea co-founder; ARC Prize",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0017",
@@ -171,6 +188,7 @@
   },
   {
     "anchor_affiliation": "3Blue1Brown",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0018",
@@ -181,6 +199,7 @@
   },
   {
     "anchor_affiliation": "Google DeepMind; ex-Apple",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0019",
@@ -191,6 +210,7 @@
   },
   {
     "anchor_affiliation": "OpenAI; ex-Google",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0020",
@@ -201,6 +221,7 @@
   },
   {
     "anchor_affiliation": "Cohere; author",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0021",
@@ -211,6 +232,7 @@
   },
   {
     "anchor_affiliation": "fast.ai co-founder; answer.ai",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0022",
@@ -221,6 +243,7 @@
   },
   {
     "anchor_affiliation": "UC Berkeley; Meta FAIR",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0023",
@@ -231,6 +254,7 @@
   },
   {
     "anchor_affiliation": "Ex-Meta FAIR VP; McGill/Mila",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0024",
@@ -241,6 +265,7 @@
   },
   {
     "anchor_affiliation": "MIT; ex-Meta FAIR",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0025",
@@ -251,6 +276,7 @@
   },
   {
     "anchor_affiliation": "ByteDance Research; ex-Huawei Noah's Ark",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0026",
@@ -261,6 +287,7 @@
   },
   {
     "anchor_affiliation": "Thinking Machines; ex-OpenAI",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0027",
@@ -271,6 +298,7 @@
   },
   {
     "anchor_affiliation": "University of Amsterdam; CuspAI",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0028",
@@ -281,6 +309,7 @@
   },
   {
     "anchor_affiliation": "Amazon alum; Boson AI",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0029",
@@ -291,6 +320,7 @@
   },
   {
     "anchor_affiliation": "Stanford CRFM director",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0030",
@@ -301,6 +331,7 @@
   },
   {
     "anchor_affiliation": "UC Berkeley; Covariant co-founder",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0031",
@@ -311,6 +342,7 @@
   },
   {
     "anchor_affiliation": "Fudan University",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0032",
@@ -321,6 +353,7 @@
   },
   {
     "anchor_affiliation": "Google DeepMind",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0033",
@@ -331,6 +364,7 @@
   },
   {
     "anchor_affiliation": "Cohere Labs (ex-C4AI) head",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0034",
@@ -341,6 +375,7 @@
   },
   {
     "anchor_affiliation": "Author; ex-UW-Madison; Lightning AI alum",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0035",
@@ -351,6 +386,7 @@
   },
   {
     "anchor_affiliation": "UC Berkeley; Physical Intelligence",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0036",
@@ -361,6 +397,7 @@
   },
   {
     "anchor_affiliation": "Datasette; independent",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0037",
@@ -371,6 +408,7 @@
   },
   {
     "anchor_affiliation": "BIGAI (Beijing); Peking U; ex-UCLA",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0038",
@@ -381,6 +419,7 @@
   },
   {
     "anchor_affiliation": "CIIRC Prague; ex-Google, ex-Meta",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0039",
@@ -391,6 +430,7 @@
   },
   {
     "anchor_affiliation": "Princeton; Together AI",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0040",
@@ -401,6 +441,7 @@
   },
   {
     "anchor_affiliation": "HKUST; WeBank",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0041",
@@ -411,6 +452,7 @@
   },
   {
     "anchor_affiliation": "Stanford; ex-UW/AI2; MacArthur Fellow",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0042",
@@ -421,6 +463,7 @@
   },
   {
     "anchor_affiliation": "Nanjing University",
+    "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0043",
@@ -431,6 +474,7 @@
   },
   {
     "anchor_affiliation": "University of Virginia; NBER",
+    "bio": null,
     "canonical": false,
     "category": "Economics & Labour",
     "id": "person-0044",
@@ -441,6 +485,7 @@
   },
   {
     "anchor_affiliation": "Toronto Rotman",
+    "bio": null,
     "canonical": false,
     "category": "Economics & Labour",
     "id": "person-0045",
@@ -451,6 +496,7 @@
   },
   {
     "anchor_affiliation": "Oxford Martin School",
+    "bio": null,
     "canonical": false,
     "category": "Economics & Labour",
     "id": "person-0046",
@@ -461,6 +507,7 @@
   },
   {
     "anchor_affiliation": "MIT; Nobel Economics 2024",
+    "bio": null,
     "canonical": false,
     "category": "Economics & Labour",
     "id": "person-0047",
@@ -471,6 +518,7 @@
   },
   {
     "anchor_affiliation": "MIT",
+    "bio": null,
     "canonical": false,
     "category": "Economics & Labour",
     "id": "person-0048",
@@ -481,6 +529,7 @@
   },
   {
     "anchor_affiliation": "Stanford Digital Economy Lab",
+    "bio": null,
     "canonical": false,
     "category": "Economics & Labour",
     "id": "person-0049",
@@ -491,6 +540,7 @@
   },
   {
     "anchor_affiliation": "OpenAI",
+    "bio": null,
     "canonical": false,
     "category": "Economics & Labour",
     "id": "person-0050",
@@ -501,6 +551,7 @@
   },
   {
     "anchor_affiliation": "Trinity College Dublin; AI Accountability Lab",
+    "bio": null,
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0051",
@@ -511,6 +562,7 @@
   },
   {
     "anchor_affiliation": "DAIR research director",
+    "bio": null,
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0052",
@@ -521,6 +573,7 @@
   },
   {
     "anchor_affiliation": "Princeton CITP director",
+    "bio": null,
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0053",
@@ -531,6 +584,7 @@
   },
   {
     "anchor_affiliation": "Oxford",
+    "bio": null,
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0054",
@@ -541,6 +595,7 @@
   },
   {
     "anchor_affiliation": "ORCAA founder",
+    "bio": null,
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0055",
@@ -551,6 +606,7 @@
   },
   {
     "anchor_affiliation": "Harvard; Turing-adjacent (Goedel Prize)",
+    "bio": null,
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0056",
@@ -561,6 +617,7 @@
   },
   {
     "anchor_affiliation": "Duke; Squirrel AI Award",
+    "bio": null,
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0057",
@@ -571,6 +628,7 @@
   },
   {
     "anchor_affiliation": "University of Washington; The AI Con co-author",
+    "bio": null,
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0058",
@@ -581,6 +639,7 @@
   },
   {
     "anchor_affiliation": "Cornell Law",
+    "bio": null,
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0059",
@@ -591,6 +650,7 @@
   },
   {
     "anchor_affiliation": "NYU emeritus; author",
+    "bio": null,
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0060",
@@ -601,6 +661,7 @@
   },
   {
     "anchor_affiliation": "UC Berkeley; Mozilla fellow alum",
+    "bio": null,
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0061",
@@ -611,6 +672,7 @@
   },
   {
     "anchor_affiliation": "AJL founder; Unmasking AI author",
+    "bio": null,
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0062",
@@ -621,6 +683,7 @@
   },
   {
     "anchor_affiliation": "USC Annenberg; Microsoft Research",
+    "bio": null,
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0063",
@@ -631,6 +694,7 @@
   },
   {
     "anchor_affiliation": "Yale Digital Ethics Center; ex-Oxford",
+    "bio": null,
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0064",
@@ -641,6 +705,7 @@
   },
   {
     "anchor_affiliation": "Hugging Face chief ethics scientist",
+    "bio": null,
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0065",
@@ -651,6 +716,7 @@
   },
   {
     "anchor_affiliation": "University of Vienna",
+    "bio": null,
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0066",
@@ -661,6 +727,7 @@
   },
   {
     "anchor_affiliation": "NYU",
+    "bio": null,
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0067",
@@ -671,6 +738,7 @@
   },
   {
     "anchor_affiliation": "Signal president",
+    "bio": null,
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0068",
@@ -681,6 +749,7 @@
   },
   {
     "anchor_affiliation": "Max Planck Institute for Intelligent Systems",
+    "bio": null,
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0069",
@@ -691,6 +760,7 @@
   },
   {
     "anchor_affiliation": "Princeton",
+    "bio": null,
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0070",
@@ -701,6 +771,7 @@
   },
   {
     "anchor_affiliation": "UCLA; MacArthur Fellow",
+    "bio": null,
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0071",
@@ -711,6 +782,7 @@
   },
   {
     "anchor_affiliation": "Oxford Internet Institute",
+    "bio": null,
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0072",
@@ -721,6 +793,7 @@
   },
   {
     "anchor_affiliation": "Princeton",
+    "bio": null,
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0073",
@@ -731,6 +804,7 @@
   },
   {
     "anchor_affiliation": "University of Edinburgh",
+    "bio": null,
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0074",
@@ -741,6 +815,7 @@
   },
   {
     "anchor_affiliation": "DAIR founder; ex-Google Ethical AI",
+    "bio": null,
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0075",
@@ -751,6 +826,7 @@
   },
   {
     "anchor_affiliation": "Umea University; UN AI Advisory Body",
+    "bio": null,
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0076",
@@ -761,6 +837,7 @@
   },
   {
     "anchor_affiliation": "Turing Award 2024; UMass Amherst emeritus",
+    "bio": null,
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0077",
@@ -771,6 +848,7 @@
   },
   {
     "anchor_affiliation": "Turing Award 2000; Tsinghua IIIS",
+    "bio": null,
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0078",
@@ -781,6 +859,7 @@
   },
   {
     "anchor_affiliation": "Max Planck Institute for Intelligent Systems",
+    "bio": null,
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0079",
@@ -791,6 +870,7 @@
   },
   {
     "anchor_affiliation": "Stanford NLP Group",
+    "bio": null,
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0080",
@@ -801,6 +881,7 @@
   },
   {
     "anchor_affiliation": "Insitro founder; Coursera co-founder; ex-Stanford",
+    "bio": null,
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0081",
@@ -811,6 +892,7 @@
   },
   {
     "anchor_affiliation": "Stanford HAI co-founder; World Labs",
+    "bio": null,
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0082",
@@ -821,6 +903,7 @@
   },
   {
     "anchor_affiliation": "Turing Award 2018; Nobel Physics 2024; U. Toronto",
+    "bio": null,
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0083",
@@ -831,6 +914,7 @@
   },
   {
     "anchor_affiliation": "Nobel Physics 2024; Princeton",
+    "bio": null,
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0084",
@@ -841,6 +925,7 @@
   },
   {
     "anchor_affiliation": "Turing Award 2011; UCLA",
+    "bio": null,
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0085",
@@ -851,6 +936,7 @@
   },
   {
     "anchor_affiliation": "IDSIA; KAUST AI Initiative",
+    "bio": null,
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0086",
@@ -861,6 +947,7 @@
   },
   {
     "anchor_affiliation": "Independent; ex-NHK labs",
+    "bio": null,
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0087",
@@ -871,6 +958,7 @@
   },
   {
     "anchor_affiliation": "Turing Award 2010; Harvard",
+    "bio": null,
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0088",
@@ -881,6 +969,7 @@
   },
   {
     "anchor_affiliation": "Santa Fe Institute",
+    "bio": null,
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0089",
@@ -891,6 +980,7 @@
   },
   {
     "anchor_affiliation": "UC Berkeley",
+    "bio": null,
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0090",
@@ -901,6 +991,7 @@
   },
   {
     "anchor_affiliation": "Oxford",
+    "bio": null,
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0091",
@@ -911,6 +1002,7 @@
   },
   {
     "anchor_affiliation": "Stanford HAI; ex-Google research director",
+    "bio": null,
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0092",
@@ -921,6 +1013,7 @@
   },
   {
     "anchor_affiliation": "Turing Award 2024; U. Alberta; Keen/Amii",
+    "bio": null,
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0093",
@@ -931,6 +1024,7 @@
   },
   {
     "anchor_affiliation": "JKU Linz; NXAI",
+    "bio": null,
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0094",
@@ -941,6 +1035,7 @@
   },
   {
     "anchor_affiliation": "UC Berkeley; CHAI founder",
+    "bio": null,
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0095",
@@ -951,6 +1046,7 @@
   },
   {
     "anchor_affiliation": "Salk Institute; NeurIPS co-founder",
+    "bio": null,
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0096",
@@ -961,6 +1057,7 @@
   },
   {
     "anchor_affiliation": "Columbia; VC theory",
+    "bio": null,
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0097",
@@ -971,6 +1068,7 @@
   },
   {
     "anchor_affiliation": "Turing Award 2018; Meta chief AI scientist; NYU",
+    "bio": null,
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0098",
@@ -981,6 +1079,7 @@
   },
   {
     "anchor_affiliation": "Turing Award 2018; Mila founder; IAISR chair",
+    "bio": null,
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0099",
@@ -991,6 +1090,7 @@
   },
   {
     "anchor_affiliation": "Cohere co-founder/CEO",
+    "bio": null,
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0100",
@@ -1001,6 +1101,7 @@
   },
   {
     "anchor_affiliation": "Meta; Scale AI founder",
+    "bio": null,
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0101",
@@ -1011,6 +1112,7 @@
   },
   {
     "anchor_affiliation": "Mistral AI co-founder/CEO",
+    "bio": null,
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0102",
@@ -1021,6 +1123,7 @@
   },
   {
     "anchor_affiliation": "Hugging Face co-founder/CEO",
+    "bio": null,
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0103",
@@ -1031,6 +1134,7 @@
   },
   {
     "anchor_affiliation": "Anthropic President",
+    "bio": null,
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0104",
@@ -1041,6 +1145,7 @@
   },
   {
     "anchor_affiliation": "MIT CSAIL director",
+    "bio": null,
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0105",
@@ -1051,6 +1156,7 @@
   },
   {
     "anchor_affiliation": "Anthropic CEO",
+    "bio": null,
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0106",
@@ -1061,6 +1167,7 @@
   },
   {
     "anchor_affiliation": "Nobel Chemistry 2024; Google DeepMind CEO",
+    "bio": null,
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0107",
@@ -1071,6 +1178,7 @@
   },
   {
     "anchor_affiliation": "xAI, Tesla",
+    "bio": null,
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0108",
@@ -1081,6 +1189,7 @@
   },
   {
     "anchor_affiliation": "OpenAI co-founder",
+    "bio": null,
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0109",
@@ -1091,6 +1200,7 @@
   },
   {
     "anchor_affiliation": "Mistral AI co-founder, chief scientist",
+    "bio": null,
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0110",
@@ -1101,6 +1211,7 @@
   },
   {
     "anchor_affiliation": "SSI co-founder; ex-OpenAI chief scientist",
+    "bio": null,
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0111",
@@ -1111,6 +1222,7 @@
   },
   {
     "anchor_affiliation": "OpenAI chief scientist",
+    "bio": null,
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0112",
@@ -1121,6 +1233,7 @@
   },
   {
     "anchor_affiliation": "Anthropic co-founder, chief science officer",
+    "bio": null,
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0113",
@@ -1131,6 +1244,7 @@
   },
   {
     "anchor_affiliation": "Google chief scientist",
+    "bio": null,
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0114",
@@ -1141,6 +1255,7 @@
   },
   {
     "anchor_affiliation": "NVIDIA founder/CEO",
+    "bio": null,
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0115",
@@ -1151,6 +1266,7 @@
   },
   {
     "anchor_affiliation": "Thinking Machines; ex-OpenAI co-founder",
+    "bio": null,
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0116",
@@ -1161,6 +1277,7 @@
   },
   {
     "anchor_affiliation": "Sinovation Ventures; 01.AI founder",
+    "bio": null,
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0117",
@@ -1171,6 +1288,7 @@
   },
   {
     "anchor_affiliation": "Google DeepMind CTO",
+    "bio": null,
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0118",
@@ -1181,6 +1299,7 @@
   },
   {
     "anchor_affiliation": "DeepSeek founder; High-Flyer",
+    "bio": null,
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0119",
@@ -1191,6 +1310,7 @@
   },
   {
     "anchor_affiliation": "AMD CEO",
+    "bio": null,
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0120",
@@ -1201,6 +1321,7 @@
   },
   {
     "anchor_affiliation": "Boston Dynamics founder; AI Institute",
+    "bio": null,
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0121",
@@ -1211,6 +1332,7 @@
   },
   {
     "anchor_affiliation": "Thinking Machines Lab founder; ex-OpenAI CTO",
+    "bio": null,
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0122",
@@ -1221,6 +1343,7 @@
   },
   {
     "anchor_affiliation": "Microsoft AI CEO",
+    "bio": null,
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0123",
@@ -1231,6 +1354,7 @@
   },
   {
     "anchor_affiliation": "Google DeepMind; Transformer co-author",
+    "bio": null,
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0124",
@@ -1241,6 +1365,7 @@
   },
   {
     "anchor_affiliation": "Google DeepMind",
+    "bio": null,
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0125",
@@ -1251,6 +1376,7 @@
   },
   {
     "anchor_affiliation": "OpenAI CEO",
+    "bio": null,
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0126",
@@ -1261,6 +1387,7 @@
   },
   {
     "anchor_affiliation": "DeepMind co-founder, chief AGI scientist",
+    "bio": null,
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0127",
@@ -1271,6 +1398,7 @@
   },
   {
     "anchor_affiliation": "Zhipu AI; Tsinghua",
+    "bio": null,
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0128",
@@ -1281,6 +1409,7 @@
   },
   {
     "anchor_affiliation": "Baidu CTO",
+    "bio": null,
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0129",
@@ -1291,6 +1420,7 @@
   },
   {
     "anchor_affiliation": "OpenAI co-founder",
+    "bio": null,
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0130",
@@ -1301,6 +1431,7 @@
   },
   {
     "anchor_affiliation": "Moonshot AI co-founder",
+    "bio": null,
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0131",
@@ -1311,6 +1442,7 @@
   },
   {
     "anchor_affiliation": "Google DeepMind; GovAI founder",
+    "bio": null,
     "canonical": false,
     "category": "Governance & Policy",
     "id": "person-0132",
@@ -1321,6 +1453,7 @@
   },
   {
     "anchor_affiliation": "IAS; ex-OSTP deputy director",
+    "bio": null,
     "canonical": false,
     "category": "Governance & Policy",
     "id": "person-0133",
@@ -1331,6 +1464,7 @@
   },
   {
     "anchor_affiliation": "Columbia Law",
+    "bio": null,
     "canonical": false,
     "category": "Governance & Policy",
     "id": "person-0134",
@@ -1341,6 +1475,7 @@
   },
   {
     "anchor_affiliation": "ALLAI co-founder",
+    "bio": null,
     "canonical": false,
     "category": "Governance & Policy",
     "id": "person-0135",
@@ -1351,6 +1486,7 @@
   },
   {
     "anchor_affiliation": "NIST chief AI advisor (role as of 2025; verify)",
+    "bio": null,
     "canonical": false,
     "category": "Governance & Policy",
     "id": "person-0136",
@@ -1361,6 +1497,7 @@
   },
   {
     "anchor_affiliation": "MIT; ex-European Commission",
+    "bio": null,
     "canonical": false,
     "category": "Governance & Policy",
     "id": "person-0137",
@@ -1371,6 +1508,7 @@
   },
   {
     "anchor_affiliation": "Johns Hopkins; ex-Schwartz Reisman director",
+    "bio": null,
     "canonical": false,
     "category": "Governance & Policy",
     "id": "person-0138",
@@ -1381,6 +1519,7 @@
   },
   {
     "anchor_affiliation": "CSET Georgetown",
+    "bio": null,
     "canonical": false,
     "category": "Governance & Policy",
     "id": "person-0139",
@@ -1391,6 +1530,7 @@
   },
   {
     "anchor_affiliation": "UK AISI chair; investor",
+    "bio": null,
     "canonical": false,
     "category": "Governance & Policy",
     "id": "person-0140",
@@ -1401,6 +1541,7 @@
   },
   {
     "anchor_affiliation": "Anthropic co-founder, policy head",
+    "bio": null,
     "canonical": false,
     "category": "Governance & Policy",
     "id": "person-0141",
@@ -1411,6 +1552,7 @@
   },
   {
     "anchor_affiliation": "George Washington University",
+    "bio": null,
     "canonical": false,
     "category": "Governance & Policy",
     "id": "person-0142",
@@ -1421,6 +1563,7 @@
   },
   {
     "anchor_affiliation": "Stanford HAI/CPC; ex-MEP",
+    "bio": null,
     "canonical": false,
     "category": "Governance & Policy",
     "id": "person-0143",
@@ -1431,6 +1574,7 @@
   },
   {
     "anchor_affiliation": "GovAI; IAPS",
+    "bio": null,
     "canonical": false,
     "category": "Governance & Policy",
     "id": "person-0144",
@@ -1441,6 +1585,7 @@
   },
   {
     "anchor_affiliation": "Carnegie Endowment",
+    "bio": null,
     "canonical": false,
     "category": "Governance & Policy",
     "id": "person-0145",
@@ -1451,6 +1596,7 @@
   },
   {
     "anchor_affiliation": "Independent policy researcher; ex-OpenAI",
+    "bio": null,
     "canonical": false,
     "category": "Governance & Policy",
     "id": "person-0146",
@@ -1461,6 +1607,7 @@
   },
   {
     "anchor_affiliation": "AstraZeneca; Enterprise AI Governance newsletter",
+    "bio": null,
     "canonical": false,
     "category": "Governance & Policy",
     "id": "person-0147",
@@ -1471,6 +1618,7 @@
   },
   {
     "anchor_affiliation": "CNAS executive VP",
+    "bio": null,
     "canonical": false,
     "category": "Governance & Policy",
     "id": "person-0148",
@@ -1481,6 +1629,7 @@
   },
   {
     "anchor_affiliation": "Humane Intelligence CEO; ex-Twitter META",
+    "bio": null,
     "canonical": false,
     "category": "Governance & Policy",
     "id": "person-0149",
@@ -1491,6 +1640,7 @@
   },
   {
     "anchor_affiliation": "New York Times",
+    "bio": null,
     "canonical": false,
     "category": "Journalism & Analysis",
     "id": "person-0150",
@@ -1501,6 +1651,7 @@
   },
   {
     "anchor_affiliation": "Dwarkesh Podcast",
+    "bio": null,
     "canonical": false,
     "category": "Journalism & Analysis",
     "id": "person-0151",
@@ -1511,6 +1662,7 @@
   },
   {
     "anchor_affiliation": "SemiAnalysis founder",
+    "bio": null,
     "canonical": false,
     "category": "Journalism & Analysis",
     "id": "person-0152",
@@ -1521,6 +1673,7 @@
   },
   {
     "anchor_affiliation": "Wharton",
+    "bio": null,
     "canonical": false,
     "category": "Journalism & Analysis",
     "id": "person-0153",
@@ -1531,6 +1684,7 @@
   },
   {
     "anchor_affiliation": "Independent; ex-MIT Tech Review/WSJ",
+    "bio": null,
     "canonical": false,
     "category": "Journalism & Analysis",
     "id": "person-0154",
@@ -1541,6 +1695,7 @@
   },
   {
     "anchor_affiliation": "New York Times",
+    "bio": null,
     "canonical": false,
     "category": "Journalism & Analysis",
     "id": "person-0155",
@@ -1551,6 +1706,7 @@
   },
   {
     "anchor_affiliation": "Financial Times AI editor",
+    "bio": null,
     "canonical": false,
     "category": "Journalism & Analysis",
     "id": "person-0156",
@@ -1561,6 +1717,7 @@
   },
   {
     "anchor_affiliation": "Air Street Capital",
+    "bio": null,
     "canonical": false,
     "category": "Journalism & Analysis",
     "id": "person-0157",
@@ -1571,6 +1728,7 @@
   },
   {
     "anchor_affiliation": "Ai2",
+    "bio": null,
     "canonical": false,
     "category": "Journalism & Analysis",
     "id": "person-0158",
@@ -1581,6 +1739,7 @@
   },
   {
     "anchor_affiliation": "Bloomberg Opinion",
+    "bio": null,
     "canonical": false,
     "category": "Journalism & Analysis",
     "id": "person-0159",
@@ -1591,6 +1750,7 @@
   },
   {
     "anchor_affiliation": "Transformer; ex-Tortoise",
+    "bio": null,
     "canonical": false,
     "category": "Journalism & Analysis",
     "id": "person-0160",
@@ -1601,6 +1761,7 @@
   },
   {
     "anchor_affiliation": "Don't Worry About the Vase",
+    "bio": null,
     "canonical": false,
     "category": "Journalism & Analysis",
     "id": "person-0161",
@@ -1611,6 +1772,7 @@
   },
   {
     "anchor_affiliation": "Open Philanthropy",
+    "bio": null,
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0162",
@@ -1621,6 +1783,7 @@
   },
   {
     "anchor_affiliation": "Google DeepMind AI safety head; UC Berkeley",
+    "bio": null,
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0163",
@@ -1631,6 +1794,7 @@
   },
   {
     "anchor_affiliation": "METR founder",
+    "bio": null,
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0164",
@@ -1641,6 +1805,7 @@
   },
   {
     "anchor_affiliation": "Anthropic co-founder",
+    "bio": null,
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0165",
@@ -1651,6 +1816,7 @@
   },
   {
     "anchor_affiliation": "Conjecture CEO; EleutherAI co-founder",
+    "bio": null,
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0166",
@@ -1661,6 +1827,7 @@
   },
   {
     "anchor_affiliation": "Center for AI Safety director; xAI/Scale advisor",
+    "bio": null,
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0167",
@@ -1671,6 +1838,7 @@
   },
   {
     "anchor_affiliation": "MIRI co-founder; If Anyone Builds It co-author",
+    "bio": null,
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0168",
@@ -1681,6 +1849,7 @@
   },
   {
     "anchor_affiliation": "Anthropic alignment stress-testing",
+    "bio": null,
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0169",
@@ -1691,6 +1860,7 @@
   },
   {
     "anchor_affiliation": "Anthropic; Open Philanthropy co-founder",
+    "bio": null,
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0170",
@@ -1701,6 +1871,7 @@
   },
   {
     "anchor_affiliation": "UC Berkeley; Transluce",
+    "bio": null,
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0171",
@@ -1711,6 +1882,7 @@
   },
   {
     "anchor_affiliation": "Anthropic; ex-OpenAI/DeepMind",
+    "bio": null,
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0172",
@@ -1721,6 +1893,7 @@
   },
   {
     "anchor_affiliation": "MIT; Future of Life Institute president",
+    "bio": null,
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0173",
@@ -1731,6 +1904,7 @@
   },
   {
     "anchor_affiliation": "MIRI president",
+    "bio": null,
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0174",
@@ -1741,6 +1915,7 @@
   },
   {
     "anchor_affiliation": "Google DeepMind",
+    "bio": null,
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0175",
@@ -1751,6 +1926,7 @@
   },
   {
     "anchor_affiliation": "Macrostrategy Research Initiative; ex-FHI",
+    "bio": null,
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0176",
@@ -1761,6 +1937,7 @@
   },
   {
     "anchor_affiliation": "US CAISI head of safety; ARC founder",
+    "bio": null,
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0177",
@@ -1771,6 +1948,7 @@
   },
   {
     "anchor_affiliation": "Google DeepMind",
+    "bio": null,
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0178",
@@ -1781,6 +1959,7 @@
   },
   {
     "anchor_affiliation": "University of Louisville",
+    "bio": null,
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0179",
@@ -1791,6 +1970,7 @@
   },
   {
     "anchor_affiliation": "Anthropic; NYU",
+    "bio": null,
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0180",
@@ -1801,6 +1981,7 @@
   },
   {
     "anchor_affiliation": "Aligned AI co-founder; ex-FHI",
+    "bio": null,
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0181",
@@ -1811,6 +1992,7 @@
   },
   {
     "anchor_affiliation": "Oxford",
+    "bio": null,
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0182",
@@ -1821,6 +2003,7 @@
   },
   {
     "anchor_affiliation": "Google DeepMind; FLI",
+    "bio": null,
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0183",
@@ -1831,6 +2014,7 @@
   },
   {
     "anchor_affiliation": "Eindhoven University of Technology; Kyvvu B.V.",
+    "bio": "Researcher at Eindhoven University of Technology and Kyvvu B.V. (Nijmegen). Corresponding author of the 2026 framework 'Runtime Governance for AI Agents: Policies on Paths,' which models AI-agent compliance as deterministic policies evaluated on execution paths.",
     "canonical": false,
     "category": "Governance & Policy",
     "id": "person-0184",
