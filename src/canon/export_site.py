@@ -562,16 +562,29 @@ def page_data(release: dict, coverage: dict) -> str:
         f'<p>Metrics: <b>{esc(coverage.get("metrics_total"))}</b> '
         f'({", ".join(f"{esc(k)}: {esc(v)}" for k,v in coverage.get("by_metric_name",{}).items())}); '
         f'declared gaps: {esc(coverage.get("openalex_gaps"))}.</p>',
-        "<h2>Downloads</h2><ul>"
+        "<h2>Downloads</h2>"
+        "<p>The audit bundle below contains everything (code, weights, pinned data, all rankings, and "
+        "every per-work breakdown). The individual files are listed for convenience.</p>"
+        "<h3>Audit package</h3><ul>"
         f'<li><a href="audit/{esc(VERSION)}/audit-bundle.zip"><b>audit-bundle.zip</b></a>, the self-contained '
         "offline package: pipeline code, weights, pinned data, release outputs, and a one-command "
         "reproduce script. Rebuild this release with no repo and no network.</li>"
         f'<li><a href="audit/{esc(VERSION)}/release.json">release.json</a>, the governance record</li>'
         f'<li><a href="audit/{esc(VERSION)}/coverage.json">coverage.json</a>, declared gaps</li>'
-        f'<li><a href="audit/{esc(VERSION)}/rankings/">rankings/</a>, Top-50 per scenario</li>'
-        f'<li><a href="audit/{esc(VERSION)}/breakdowns/">breakdowns/</a>, per-work evidence</li>'
-        '<li><a href="audit/seeds/papers.json">papers.json</a>, the paper corpus (open JSON)</li>'
-        "</ul>",
+        "</ul>"
+        "<h3>Rankings (Top-50 per scenario)</h3><ul>"
+        f'<li><a href="audit/{esc(VERSION)}/rankings/paper__academic.json">paper__academic.json</a></li>'
+        f'<li><a href="audit/{esc(VERSION)}/rankings/paper__broad_influence.json">paper__broad_influence.json</a></li>'
+        f'<li><a href="audit/{esc(VERSION)}/rankings/paper__governance_practitioner.json">paper__governance_practitioner.json</a></li>'
+        "</ul>"
+        "<h3>The corpus, as open data</h3><ul>"
+        '<li><a href="audit/seeds/books.json">books.json</a> &middot; <a href="audit/seeds/books.csv">books.csv</a>, 573 books</li>'
+        '<li><a href="audit/seeds/papers.json">papers.json</a> &middot; <a href="audit/seeds/papers.csv">papers.csv</a>, 162 papers</li>'
+        '<li><a href="audit/seeds/persons.json">persons.json</a>, 184 voices</li>'
+        '<li><a href="audit/seeds/orgs.json">orgs.json</a>, 133 organizations</li>'
+        '<li><a href="audit/seeds/platforms.json">platforms.json</a>, 90 platforms</li>'
+        "</ul>"
+        '<p class="mono">Per-work breakdowns (one file per scored work) are inside the audit bundle.</p>',
         "<h2>Reproduce</h2>"
         '<p class="mono">make install &amp;&amp; make assemble &amp;&amp; make release &amp;&amp; make verify-release</p>'
         "<p>The last command rebuilds this release from the pinned inputs and asserts the corpus_hash "

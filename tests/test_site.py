@@ -31,8 +31,14 @@ def test_no_broken_internal_links():
         for href in re.findall(r'href="([^"]+)"', html.read_text("utf-8")):
             if href.startswith(("http", "mailto:", "#")):
                 continue
-            target = (html.parent / href).resolve()
-            if not (target.exists() or target.is_dir()):
+            path = href.split("#")[0].split("?")[0]
+            if not path:
+                continue
+            target = (html.parent / path).resolve()
+            # Cloudflare Pages has no directory listing: a dir link only works if
+            # it has an index.html, otherwise it 403/404s. Require a real file.
+            ok = (target / "index.html").exists() if target.is_dir() else target.exists()
+            if not ok:
                 broken.append((html.name, href))
     assert broken == [], broken[:10]
 
