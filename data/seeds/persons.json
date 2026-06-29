@@ -12,7 +12,7 @@
     "source_url": "https://www.scripps.edu/faculty/topol/"
   },
   {
-    "anchor_affiliation": "Nobel Chemistry 2024; Google DeepMind",
+    "anchor_affiliation": "Joining Anthropic (2026); ex-Google DeepMind (AlphaFold)",
     "bio": null,
     "canonical": false,
     "category": "AI for Science",
@@ -60,7 +60,7 @@
     "source_url": "https://csd.cmu.edu/people/faculty/albert-gu"
   },
   {
-    "anchor_affiliation": "Independent researcher; ex-OpenAI",
+    "anchor_affiliation": "Thinking Machines Lab adviser; ex-OpenAI",
     "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
@@ -72,7 +72,7 @@
     "source_url": "https://scholar.google.com/citations?hl=en&user=dOad5HoAAAAJ"
   },
   {
-    "anchor_affiliation": "Eureka Labs; ex-OpenAI, ex-Tesla",
+    "anchor_affiliation": "Anthropic (pretraining); Eureka Labs founder; ex-OpenAI, ex-Tesla",
     "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
@@ -216,7 +216,7 @@
     "source_url": "https://www.3blue1brown.com/about/"
   },
   {
-    "anchor_affiliation": "Google DeepMind; ex-Apple",
+    "anchor_affiliation": "Stealth AI startup co-founder; ex-Google DeepMind, ex-Apple",
     "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
@@ -264,7 +264,7 @@
     "source_url": "https://jeremy.fast.ai/"
   },
   {
-    "anchor_affiliation": "UC Berkeley; Meta FAIR",
+    "anchor_affiliation": "UC Berkeley; Amazon FAR (robotics); ex-Meta FAIR",
     "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
@@ -276,7 +276,7 @@
     "source_url": "https://people.eecs.berkeley.edu/~malik/"
   },
   {
-    "anchor_affiliation": "Ex-Meta FAIR VP; McGill/Mila",
+    "anchor_affiliation": "Cohere Chief AI Officer; McGill/Mila; ex-Meta FAIR",
     "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
@@ -360,7 +360,7 @@
     "source_url": "https://profiles.stanford.edu/percy-liang"
   },
   {
-    "anchor_affiliation": "UC Berkeley; Covariant co-founder",
+    "anchor_affiliation": "UC Berkeley; Amazon (Frontier AI & Robotics); ex-Covariant co-founder",
     "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
@@ -408,7 +408,7 @@
     "source_url": "https://scholar.google.com/citations?hl=en&user=2xy6h3sAAAAJ"
   },
   {
-    "anchor_affiliation": "Author; ex-UW-Madison; Lightning AI alum",
+    "anchor_affiliation": "Lightning AI staff research engineer; author; ex-UW-Madison",
     "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
@@ -456,7 +456,7 @@
     "source_url": "https://www.ai.pku.edu.cn/en/info/1386/1665.htm"
   },
   {
-    "anchor_affiliation": "CIIRC Prague; ex-Google, ex-Meta",
+    "anchor_affiliation": "BottleCap AI co-founder/CSO; ex-CIIRC, ex-Google, ex-Meta",
     "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
@@ -1032,7 +1032,7 @@
     "source_url": "https://www.kaust.edu.sa/study/faculty/juergen-schmidhuber"
   },
   {
-    "anchor_affiliation": "Independent; ex-NHK labs",
+    "anchor_affiliation": "Fuzzy Logic Systems Institute (part-time senior researcher); ex-NHK STRL",
     "bio": null,
     "canonical": false,
     "category": "Foundational Research",
@@ -1068,7 +1068,7 @@
     "source_url": "https://www.santafe.edu/people/profile/melanie-mitchell"
   },
   {
-    "anchor_affiliation": "UC Berkeley",
+    "anchor_affiliation": "UC Berkeley (emeritus); Inria Paris",
     "bio": null,
     "canonical": false,
     "category": "Foundational Research",
@@ -1176,7 +1176,7 @@
     "source_url": "https://cims.nyu.edu/people/profiles/LECUN_Yann.html"
   },
   {
-    "anchor_affiliation": "Turing Award 2018; Mila founder; IAISR chair",
+    "anchor_affiliation": "Mila founder; LawZero co-president (2025); Intl AI Safety Report chair",
     "bio": null,
     "canonical": false,
     "category": "Foundational Research",
@@ -1248,7 +1248,7 @@
     "source_url": "https://www.anthropic.com/company"
   },
   {
-    "anchor_affiliation": "MIT CSAIL director",
+    "anchor_affiliation": "MIT CSAIL director; Liquid AI co-founder",
     "bio": null,
     "canonical": false,
     "category": "Frontier Builders",
@@ -1980,7 +1980,7 @@
     "source_url": "https://colah.github.io/about.html"
   },
   {
-    "anchor_affiliation": "Conjecture CEO; EleutherAI co-founder",
+    "anchor_affiliation": "ControlAI US Director; ex-Conjecture CEO; EleutherAI co-founder",
     "bio": null,
     "canonical": false,
     "category": "Safety & Alignment",

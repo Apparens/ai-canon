@@ -1,11 +1,11 @@
 #,voice,url,http_code,link_status,final_url_if_redirected,content_status,content_note,source_severity(1=worst),source_flags,original_note
 1,Eric Topol,https://www.scripps.edu/faculty/topol/,200,LIVE,,QUEUED,,,,institutional_master_source.
-2,John Jumper,https://www.nobelprize.org/prizes/chemistry/2024/press-release/,200,LIVE,,QUEUED,,,,institutional_master_source.
+2,John Jumper,https://www.nobelprize.org/prizes/chemistry/2024/press-release/,200,LIVE,,CORRECTED,CONTENT PASS 2026-06-29: role web-verified + corrected.,,,institutional_master_source.
 3,Pushmeet Kohli,https://blog.google/authors/pushmeet-kohli/,200,LIVE,,VERIFIED,VERIFIED 2026-06-29: current role confirmed.,2,volatile current role,"institutional_master_source, revalidate current title periodically."
 4,Regina Barzilay,https://jclinic.mit.edu/team-member/regina-barzilay/,200,LIVE,,QUEUED,,,,institutional_master_source.
 5,Albert Gu,https://scholar.google.com/citations?hl=en&user=DVCHv1kAAAAJ,200,LIVE,,SOURCE-UPGRADED,SEV3 2026-06-29: source upgraded -> https://csd.cmu.edu/people/faculty/albert-gu,3,weak/needs-stronger source,paper/profile source only in prior pass. Needs official CMU and company source before publication.
-6,Alec Radford,https://scholar.google.com/citations?hl=en&user=dOad5HoAAAAJ,200,LIVE,,QUEUED,,,,paper_metadata/profile_source. Avoid current-role claims unless separately sourced.
-7,Andrej Karpathy,https://karpathy.ai/,200,LIVE,,QUEUED,,,,profile_source. Former-role claims should be cross-checked with reputable media or company archive.
+6,Alec Radford,https://scholar.google.com/citations?hl=en&user=dOad5HoAAAAJ,200,LIVE,,CORRECTED,CONTENT PASS 2026-06-29: role web-verified + corrected.,,,paper_metadata/profile_source. Avoid current-role claims unless separately sourced.
+7,Andrej Karpathy,https://karpathy.ai/,200,LIVE,,CORRECTED,CONTENT PASS 2026-06-29: role web-verified + corrected.,,,profile_source. Former-role claims should be cross-checked with reputable media or company archive.
 8,Andrew Ng,https://www.andrewng.org/,200,LIVE,,QUEUED,,,,"profile_source, with strong public corroboration likely available."
 9,Andrew Zisserman,https://www.robots.ox.ac.uk/~az/,200,LIVE,,QUEUED,,,,institutional/personal academic source.
 10,Ashish Vaswani,https://arxiv.org/abs/1706.03762,200,LIVE,,QUEUED,,,,paper_metadata. Avoid current affiliation without stronger source.
@@ -17,27 +17,27 @@
 16,Diederik P. Kingma,https://dpkingma.com/,200,LIVE,,VERIFIED,VERIFIED 2026-06-29: current role confirmed.,2,volatile current role,profile_source. Revalidate current Anthropic role.
 17,François Chollet,https://fchollet.com/,200,LIVE,,QUEUED,,3,revalidate,profile_source. Revalidate Ndea / ARC Prize role.
 18,Grant Sanderson,https://www.3blue1brown.com/about/,200,LIVE,,QUEUED,,,,profile_source.
-19,Ian Goodfellow,https://scholar.google.com/citations?hl=en&user=iYN86KEAAAAJ,200,LIVE,,QUEUED,,,,paper_metadata/profile_source. Add publisher page for textbook before publication.
+19,Ian Goodfellow,https://scholar.google.com/citations?hl=en&user=iYN86KEAAAAJ,200,LIVE,,CORRECTED,CONTENT PASS 2026-06-29: role web-verified + corrected.,,,paper_metadata/profile_source. Add publisher page for textbook before publication.
 20,Jason Wei,https://www.jasonwei.net/,200,LIVE,,CORRECTED,CORRECTED 2026-06-29: at Meta Superintelligence Labs since Jul 2025 (was OpenAI).,2,volatile current role,"profile_source. Current role volatile, revalidate."
 21,Jay Alammar,https://jalammar.github.io/,200,LIVE,,QUEUED,,,,profile_source.
 22,Jeremy Howard,https://jeremy.fast.ai/,200,LIVE,,QUEUED,,,,profile_source.
-23,Jitendra Malik,https://people.eecs.berkeley.edu/~malik/,200,LIVE,,QUEUED,,,,institutional/personal academic source.
-24,Joelle Pineau,https://mila.quebec/en/directory/joelle-pineau,200,LIVE,,QUEUED,,,,institutional_master_source. Current and former roles should be dated in data layer.
+23,Jitendra Malik,https://people.eecs.berkeley.edu/~malik/,200,LIVE,,CORRECTED,CONTENT PASS 2026-06-29: role web-verified + corrected.,,,institutional/personal academic source.
+24,Joelle Pineau,https://mila.quebec/en/directory/joelle-pineau,200,LIVE,,CORRECTED,CONTENT PASS 2026-06-29: role web-verified + corrected.,,,institutional_master_source. Current and former roles should be dated in data layer.
 25,Kaiming He,https://people.csail.mit.edu/kaiming/,200,LIVE,,QUEUED,,,,institutional/personal academic source.
 26,Li Hang,https://hangli-hl.github.io/,200,LIVE,,VERIFIED,VERIFIED 2026-06-29: current role confirmed.,2,volatile current role,profile_source. Revalidate current ByteDance title.
 27,Lilian Weng,https://lilianweng.github.io/,200,LIVE,,QUEUED,,,,profile_source. Current affiliation should be verified separately.
 28,Max Welling,https://www.uva.nl/en/profile/w/e/m.welling/m.welling.html,200,LIVE,,QUEUED,,3,revalidate,institutional_master_source. Revalidate CuspAI role.
 29,Mu Li,https://d2l.ai/,200,LIVE,,VERIFIED,VERIFIED 2026-06-29: current role confirmed.,2,volatile current role,publication/project source. Add personal or institutional profile if current role matters.
 30,Percy Liang,https://profiles.stanford.edu/percy-liang,200,LIVE,,QUEUED,,,,institutional_master_source.
-31,Pieter Abbeel,https://people.eecs.berkeley.edu/~pabbeel/,200,LIVE,,QUEUED,,,,institutional/personal academic source.
+31,Pieter Abbeel,https://people.eecs.berkeley.edu/~pabbeel/,200,LIVE,,CORRECTED,CONTENT PASS 2026-06-29: role web-verified + corrected.,,,institutional/personal academic source.
 32,Qiu Xipeng,https://xpqiu.github.io/en.html,200,LIVE,,QUEUED,,3,weak/needs-stronger source,profile_source. Add Fudan official source before publication.
 33,Quoc Le,https://www.aisc.events/speakers/quoc-le,200,LIVE,,SOURCE-UPGRADED,SEV3 2026-06-29: source upgraded -> https://research.google/people/quocle/,3,weak/needs-stronger source,event_profile. Needs stronger Google/Scholar/paper source.
 34,Sara Hooker,https://scholar.google.com/citations?hl=en&user=2xy6h3sAAAAJ,200,LIVE,,CORRECTED,CORRECTED 2026-06-29: founded Adaption Labs (left Cohere Sep 2025).,2,volatile current role,paper_metadata/profile_source. Revalidate current role.
-35,Sebastian Raschka,https://sebastianraschka.com/llms-from-scratch/,200,LIVE,,QUEUED,,,,profile/publication source.
+35,Sebastian Raschka,https://sebastianraschka.com/llms-from-scratch/,200,LIVE,,CORRECTED,CONTENT PASS 2026-06-29: role web-verified + corrected.,,,profile/publication source.
 36,Sergey Levine,https://vcresearch.berkeley.edu/faculty/sergey-levine,200,LIVE,,QUEUED,,,,institutional_master_source.
 37,Simon Willison,https://simonwillison.net/series/prompt-injection/,200,LIVE,,QUEUED,,,,profile_source.
 38,Song-Chun Zhu,https://www.ai.pku.edu.cn/en/info/1386/1665.htm,200,LIVE,,QUEUED,,,,institutional_master_source.
-39,Tomas Mikolov,https://signalprocessingsociety.org/newsletter/2021/07/industry-leaders-signal-processing-and-machine-learning-tomas-mikolov,200,LIVE,,QUEUED,,,,profile_source. Add paper metadata for word2vec.
+39,Tomas Mikolov,https://signalprocessingsociety.org/newsletter/2021/07/industry-leaders-signal-processing-and-machine-learning-tomas-mikolov,200,LIVE,,CORRECTED,CONTENT PASS 2026-06-29: role web-verified + corrected.,,,profile_source. Add paper metadata for word2vec.
 40,Tri Dao,https://tridao.me/,200,LIVE,,SOURCE-UPGRADED,SEV3 2026-06-29: source upgraded -> https://www.cs.princeton.edu/people/profile/td8762,3,revalidate,profile_source. Revalidate Together AI role.
 41,Qiang Yang,https://cse.hkust.edu.hk/admin/people/faculty/profile/qyang,200,LIVE,,QUEUED,,,,institutional_master_source.
 42,Yejin Choi,https://yejinc.github.io/,200,LIVE,,QUEUED,,,,profile_source. Add Stanford official profile.
@@ -85,10 +85,10 @@
 84,John Hopfield,https://www.nobelprize.org/prizes/physics/2024/press-release/,200,LIVE,,QUEUED,,,,institutional_master_source.
 85,Judea Pearl,https://amturing.acm.org/award_winners/pearl_2658896.cfm,403,GATED,,QUEUED,,,,institutional_master_source.
 86,Jürgen Schmidhuber,https://www.kaust.edu.sa/study/faculty/juergen-schmidhuber,200,LIVE,https://www.kaust.edu.sa/en/study/faculty/juergen-schmidhuber,QUEUED,,,,institutional_master_source.
-87,Kunihiko Fukushima,https://www.scholarpedia.org/article/Neocognitron,503,GATED,,QUEUED,,,,reference/paper context. Add original paper metadata before publication.
+87,Kunihiko Fukushima,https://www.scholarpedia.org/article/Neocognitron,503,GATED,,CORRECTED,CONTENT PASS 2026-06-29: role web-verified + corrected.,,,reference/paper context. Add original paper metadata before publication.
 88,Leslie Valiant,https://amturing.acm.org/award_winners/valiant_2612174.cfm,403,GATED,,QUEUED,,,,institutional_master_source.
 89,Melanie Mitchell,https://www.santafe.edu/people/profile/melanie-mitchell,200,LIVE,,QUEUED,,,,institutional_master_source.
-90,Michael I. Jordan,https://www2.eecs.berkeley.edu/Faculty/Homepages/jordan.html,200,LIVE,,QUEUED,,,,institutional_master_source.
+90,Michael I. Jordan,https://www2.eecs.berkeley.edu/Faculty/Homepages/jordan.html,200,LIVE,,CORRECTED,CONTENT PASS 2026-06-29: role web-verified + corrected.,,,institutional_master_source.
 91,Michael Wooldridge,https://www.cs.ox.ac.uk/people/michael.wooldridge/,200,LIVE,,QUEUED,,,,institutional_master_source.
 92,Peter Norvig,https://hai.stanford.edu/people/peter-norvig,200,LIVE,,QUEUED,,3,revalidate,institutional_master_source. Revalidate Google role.
 93,Richard Sutton,https://awards.acm.org/about/2024-turing,403,GATED,,QUEUED,,,,institutional_master_source.
@@ -97,13 +97,13 @@
 96,Terrence Sejnowski,https://www.salk.edu/scientist/terrence-sejnowski/,200,LIVE,,QUEUED,,,,institutional_master_source.
 97,Vladimir Vapnik,https://datascience.columbia.edu/people/vladimir-vapnik/,200,LIVE,,QUEUED,,,,institutional_master_source.
 98,Yann LeCun,https://ai.meta.com/people/396469589677838/yann-lecun/,400,GATED,,CORRECTED,SEV3 2026-06-29: role corrected + source upgraded.,3,weak/needs-stronger source,institutional/company source. Add NYU or ACM source for academic/Turing facts.
-99,Yoshua Bengio,https://mila.quebec/en/directory/yoshua-bengio,200,LIVE,,QUEUED,,,,institutional_master_source.
+99,Yoshua Bengio,https://mila.quebec/en/directory/yoshua-bengio,200,LIVE,,CORRECTED,CONTENT PASS 2026-06-29: role web-verified + corrected.,,,institutional_master_source.
 100,Aidan Gomez,https://arxiv.org/abs/1706.03762,200,LIVE,,SOURCE-UPGRADED,SEV3 2026-06-29: source upgraded -> https://cohere.com/about,3,weak/needs-stronger source,paper_metadata. Needs Cohere official profile for CEO role.
 101,Alexandr Wang,https://www.reuters.com/business/meta-deepens-ai-push-with-superintelligence-lab-source-says-2025-06-30/,403,GATED,,VERIFIED,VERIFIED 2026-06-29: current role confirmed.,2,volatile current role,"media_source. Current Meta role volatile, revalidate."
 102,Arthur Mensch,https://mistral.ai/,200,LIVE,,QUEUED,,,,company source. Needs leadership-specific page if available.
 103,Clément Delangue,https://www.qualcomm.com/media/documents/files/bio-clement-delangue-co-founder-and-ceo-hugging-face.pdf,200,LIVE,https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/clem_bio.pdf,QUEUED,,,,profile_source. Prefer Hugging Face official leadership source.
 104,Daniela Amodei,https://www.forbes.com/profile/daniela-amodei/,403,GATED,,SOURCE-UPGRADED,SEV3 2026-06-29: source upgraded -> https://www.anthropic.com/company,3,weak/needs-stronger source,media/profile source. Needs Anthropic official source.
-105,Daniela Rus,https://www.csail.mit.edu/person/daniela-rus,200,LIVE,,QUEUED,,,,institutional_master_source.
+105,Daniela Rus,https://www.csail.mit.edu/person/daniela-rus,200,LIVE,,CORRECTED,CONTENT PASS 2026-06-29: role web-verified + corrected.,,,institutional_master_source.
 106,Dario Amodei,https://darioamodei.com/,200,LIVE,,VERIFIED,VERIFIED 2026-06-29: current role confirmed.,2,volatile current role; weak/needs-stronger source,profile_source. Add Anthropic official source for current role.
 107,Demis Hassabis,https://deepmind.google/blog/demis-hassabis-john-jumper-awarded-nobel-prize-in-chemistry/,200,LIVE,,QUEUED,,,,institutional/company source.
 108,Elon Musk,https://www.tesla.com/elon-musk,403,GATED,,SOURCE-UPGRADED,SEV3 2026-06-29: source upgraded -> https://x.ai/company,3,weak/needs-stronger source,company source. Add xAI/OpenAI source if retaining those claims.
@@ -165,7 +165,7 @@
 164,Anca Dragan,https://people.eecs.berkeley.edu/~anca/,200,LIVE,,VERIFIED,VERIFIED 2026-06-29: current role confirmed.,2,volatile current role,institutional/personal academic source. Current leave/DeepMind role volatile.
 165,Beth Barnes,https://metr.org/team/beth-barnes/,200,LIVE,,QUEUED,,,,institutional/project source.
 166,Chris Olah,https://colah.github.io/about.html,200,LIVE,,QUEUED,,3,weak/needs-stronger source,profile_source. Add Anthropic source for co-founder claim.
-167,Connor Leahy,https://www.conjecture.dev/about,200,LIVE,,QUEUED,,,,company/project source.
+167,Connor Leahy,https://www.conjecture.dev/about,200,LIVE,,CORRECTED,CONTENT PASS 2026-06-29: role web-verified + corrected.,,,company/project source.
 168,Dan Hendrycks,https://danhendrycks.com/,200,LIVE,,QUEUED,,,,profile_source. Add CAIS profile.
 169,Eliezer Yudkowsky,https://intelligence.org/team/,200,LIVE,,QUEUED,,,,institutional/project source.
 170,Evan Hubinger,https://arxiv.org/abs/1906.01820,200,LIVE,,SOURCE-UPGRADED,SEV3 2026-06-29: source upgraded -> https://www.far.ai/events/sessions/evan-hubinger-alignment-stress-testing-at-anthropic,3,weak/needs-stronger source,paper_metadata. Add current-role profile source.
