@@ -1,0 +1,20 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+The AI Canon corpus and data, and the method note, are licensed under CC BY 4.0.
+This covers: the files under data/ (the curated corpus, seeds, harvested metrics,
+and releases), the corpus exports published on the site, and docs/method-note.md.
+
+You are free to share and adapt the material for any purpose, including commercially,
+provided you give appropriate credit, link to the license, and indicate if changes
+were made. You may not apply legal terms or technological measures that legally
+restrict others from doing anything the license permits.
+
+  Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+  Human summary:   https://creativecommons.org/licenses/by/4.0/
+
+Attribution: Jeroen Janssen (Apparens), "The AI Canon." https://apparens.nl/ai-canon/
+
+Note on sources: the corpus records bibliographic facts, public metadata, and lawfully
+accessible signals only. It does not republish copyrighted text, paywalled content, or
+proprietary datasets. Third-party metadata retains its original terms (for example,
+OpenAlex metadata is CC0).

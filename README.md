@@ -90,3 +90,11 @@ licensed CC BY 4.0. A DOI is minted on release via Zenodo:
 > Cognitivum).* Apparens public research initiative. Version 1.0.
 
 See [`CITATION.cff`](CITATION.cff) for machine-readable citation metadata.
+
+## License
+
+- **Code** (`src/`, `scripts/`, `tests/`, build tooling): MIT, see [`LICENSE`](LICENSE).
+- **Corpus, data, and method note** (`data/`, corpus exports, `docs/method-note.md`):
+  CC BY 4.0, see [`LICENSE-DATA`](LICENSE-DATA).
+
+Nothing in this project is for sale. No advertising, affiliate links, or sponsored placement.
