@@ -84,6 +84,15 @@ ol,ul{margin:10px 0 10px 22px}li{margin:6px 0}
 .entry .pending{font-size:.85rem;color:var(--g500);font-style:italic;margin-top:6px}
 .badge{display:inline-block;font-size:.62rem;letter-spacing:.04em;text-transform:uppercase;padding:2px 8px;border-radius:20px;border:1px solid var(--g300);color:var(--g500);margin-left:6px}
 .shelf-cat{font-family:"DM Serif Display",serif;font-size:1.25rem;color:var(--deep);margin:30px 0 6px;border-bottom:2px solid var(--orange);display:inline-block;padding-bottom:2px}
+/* global search */
+.search-wrap{margin:18px 0}
+#sq{width:100%;font:inherit;font-size:1.25rem;padding:16px 18px;border:1px solid var(--g300);border-radius:8px;background:#fff;color:var(--deep)}
+#sq:focus{outline:2px solid var(--orange);border-color:var(--orange)}
+.sresult{display:block;border-bottom:1px solid var(--g200);padding:13px 2px;text-decoration:none}
+.sresult:hover{text-decoration:none;background:var(--g100)}
+.sresult .st{font-family:"DM Serif Display",serif;font-size:1.1rem;color:var(--deep)}
+.sresult .ss{font-size:.85rem;color:var(--g500);margin-top:2px}
+.schip{display:inline-block;font-size:.62rem;letter-spacing:.04em;text-transform:uppercase;padding:2px 8px;border-radius:20px;border:1px solid var(--g300);color:var(--g500);margin-left:8px;vertical-align:middle}
 .pullquote{font-family:"DM Serif Display",serif;font-size:1.3rem;line-height:1.35;color:var(--deep);border-left:3px solid var(--orange);padding:4px 0 4px 18px;margin:16px 0}
 .sharebox{background:var(--g100);border:1px solid var(--g200);border-radius:6px;padding:18px 22px;margin:18px 0}
 .sharebox p{margin:8px 0}.sharebox ul{margin:8px 0 8px 20px}

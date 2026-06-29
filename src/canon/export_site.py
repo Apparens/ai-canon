@@ -40,6 +40,7 @@ VERSION = "pilot-v0.1"
 
 NAV = [
     ("index.html", "Home"),
+    ("search.html", "Search"),
     ("library.html", "Library"),
     ("canon-50.html", "Canon 50"),
     ("papers.html", "Papers"),
@@ -147,6 +148,15 @@ ol,ul{margin:10px 0 10px 22px}li{margin:6px 0}
 .entry .pending{font-size:.85rem;color:var(--g500);font-style:italic;margin-top:6px}
 .badge{display:inline-block;font-size:.62rem;letter-spacing:.04em;text-transform:uppercase;padding:2px 8px;border-radius:20px;border:1px solid var(--g300);color:var(--g500);margin-left:6px}
 .shelf-cat{font-family:"DM Serif Display",serif;font-size:1.25rem;color:var(--deep);margin:30px 0 6px;border-bottom:2px solid var(--orange);display:inline-block;padding-bottom:2px}
+/* global search */
+.search-wrap{margin:18px 0}
+#sq{width:100%;font:inherit;font-size:1.25rem;padding:16px 18px;border:1px solid var(--g300);border-radius:8px;background:#fff;color:var(--deep)}
+#sq:focus{outline:2px solid var(--orange);border-color:var(--orange)}
+.sresult{display:block;border-bottom:1px solid var(--g200);padding:13px 2px;text-decoration:none}
+.sresult:hover{text-decoration:none;background:var(--g100)}
+.sresult .st{font-family:"DM Serif Display",serif;font-size:1.1rem;color:var(--deep)}
+.sresult .ss{font-size:.85rem;color:var(--g500);margin-top:2px}
+.schip{display:inline-block;font-size:.62rem;letter-spacing:.04em;text-transform:uppercase;padding:2px 8px;border-radius:20px;border:1px solid var(--g300);color:var(--g500);margin-left:8px;vertical-align:middle}
 .pullquote{font-family:"DM Serif Display",serif;font-size:1.3rem;line-height:1.35;color:var(--deep);border-left:3px solid var(--orange);padding:4px 0 4px 18px;margin:16px 0}
 .sharebox{background:var(--g100);border:1px solid var(--g200);border-radius:6px;padding:18px 22px;margin:18px 0}
 .sharebox p{margin:8px 0}.sharebox ul{margin:8px 0 8px 20px}
@@ -429,7 +439,7 @@ def page_papers(papers: dict, scored: set) -> str:
         sig = f'<div class="meta">{esc(ed["significance"])}</div>' if ed.get("significance") else ""
         ev = '<span class="tag">scored</span>' if is_scored else '<span class="tag miss">no evidence yet</span>'
         rows.append(
-            f'<tr><td class="num">{esc(pid.split("-")[-1])}</td><td>{title}{sig}</td>'
+            f'<tr id="{esc(pid)}"><td class="num">{esc(pid.split("-")[-1])}</td><td>{title}{sig}</td>'
             f'<td class="num">{esc(p.get("year",""))}</td><td>{esc(ed.get("venue",""))}</td><td>{ev}</td></tr>'
         )
     rows.append("</tbody></table>")
@@ -621,7 +631,7 @@ def page_library(books: list[dict]) -> str:
         desc = (f'<p class="desc">{esc(ed["description"])}</p>' if ed.get("description")
                 else '<p class="pending">Description pending.</p>')
         entries.append(
-            f'<div class="entry" data-cat="{esc(ed.get("category",""))}" data-lang="{esc(b.get("language",""))}" '
+            f'<div class="entry" id="{esc(b["id"])}" data-cat="{esc(ed.get("category",""))}" data-lang="{esc(b.get("language",""))}" '
             f'data-src="{esc(ed.get("source",""))}" data-text="{esc(text)}">'
             f'<div class="t">{esc(b["canonical_title"])}{flag}</div>'
             f'<div class="meta">{meta}<span class="badge">{esc(ed.get("source",""))}</span></div>'
@@ -644,7 +654,7 @@ def _context_shelf(active, kicker, title, rows, render) -> str:
     for cat in sorted(by_cat):
         out.append(f'<div class="shelf-cat">{esc(cat)}</div>')
         for r in sorted(by_cat[cat], key=lambda x: (x.get("name") or "").lower()):
-            out.append(f'<div class="entry">{render(r)}</div>')
+            out.append(f'<div class="entry" id="{esc(r.get("id",""))}">{render(r)}</div>')
     return shell(active, kicker, title, "".join(out))
 
 
@@ -736,6 +746,49 @@ def page_share() -> str:
     return shell("share.html", "If you want to share this", "Share", "".join(body))
 
 
+_SEARCH_JS = """
+(function(){
+  var idx=window.CANON_INDEX||[];
+  var q=document.getElementById('sq'),out=document.getElementById('sresults'),cnt=document.getElementById('scount');
+  var TYPE={book:'Book',paper:'Paper',voice:'Voice',organization:'Organization',platform:'Platform'};
+  var CAP=80;
+  function render(term){
+    term=(term||'').trim().toLowerCase();out.textContent='';
+    if(!term){cnt.textContent=idx.length+' entries in the corpus. Start typing to search.';return;}
+    var hits=[];
+    for(var i=0;i<idx.length&&hits.length<CAP;i++){var e=idx[i];if((e.l+' '+(e.s||'')).toLowerCase().indexOf(term)>-1)hits.push(e);}
+    cnt.textContent=hits.length+(hits.length>=CAP?'+':'')+' result'+(hits.length===1?'':'s');
+    hits.forEach(function(e){
+      var a=document.createElement('a');a.className='sresult';a.href=e.u;
+      var t=document.createElement('div');t.className='st';t.textContent=e.l;
+      var chip=document.createElement('span');chip.className='schip';chip.textContent=TYPE[e.t]||e.t;t.appendChild(chip);
+      a.appendChild(t);
+      if(e.s){var s=document.createElement('div');s.className='ss';s.textContent=e.s;a.appendChild(s);}
+      out.appendChild(a);
+    });
+  }
+  q.addEventListener('input',function(){render(q.value);});
+  var pre=new URLSearchParams(location.search).get('q');if(pre)q.value=pre;
+  render(q.value);q.focus();
+})();
+"""
+
+
+def page_search() -> str:
+    body = (
+        '<p class="note">Search the whole corpus: 573 books, 162 papers, and the voices, '
+        "organizations, and platforms. Every result links to its entry. The search runs entirely "
+        "in your browser; nothing typed here is sent anywhere.</p>"
+        '<div class="search-wrap"><input id="sq" type="search" autocomplete="off" '
+        'placeholder="Search titles, authors, names..." aria-label="Search the corpus"></div>'
+        '<p class="count" id="scount"></p>'
+        '<div id="sresults"></div>'
+        '<script src="assets/search-index.js" defer></script>'
+        '<script src="assets/search.js" defer></script>'
+    )
+    return shell("search.html", "Search the corpus", "Search", body)
+
+
 def _write_csv(path: Path, header: list[str], rows: list[list]) -> None:
     import csv
     import io
@@ -800,6 +853,30 @@ def build() -> dict:
     _write("data.html", page_data(release, coverage))
     _write("press.html", page_press())
     _write("share.html", page_share())
+
+    # Global search: an embedded index (so the strict CSP needs no connect-src) + a self script.
+    si = []
+    for b in books:
+        ed = b["editorial"]
+        meta = " · ".join(x for x in [ed.get("author", ""), str(b.get("year") or ""), ed.get("category", "")] if x)
+        si.append({"t": "book", "l": b["canonical_title"], "s": meta, "u": "library.html#" + b["id"]})
+    for pid in sorted(papers):
+        p = papers[pid]
+        ed = p.get("editorial", {})
+        u = f"work/{pid}.html" if pid in scored else "papers.html#" + pid
+        meta = " · ".join(x for x in [str(p.get("year") or ""), ed.get("venue", "")] if x)
+        si.append({"t": "paper", "l": p["canonical_title"], "s": meta, "u": u})
+    for o in persons:
+        si.append({"t": "voice", "l": o["name"], "s": o.get("known_for") or o.get("anchor_affiliation") or "", "u": "voices.html#" + o["id"]})
+    for o in orgs:
+        si.append({"t": "organization", "l": o["name"], "s": o.get("what_it_is") or "", "u": "organizations.html#" + o["id"]})
+    for o in platforms:
+        si.append({"t": "platform", "l": o["name"], "s": o.get("what_it_is") or "", "u": "platforms.html#" + o["id"]})
+    idx_js = ("window.CANON_INDEX=" + json.dumps(si, ensure_ascii=False, separators=(",", ":"))
+              .replace("</", "<\\/") + ";\n")
+    _write("assets/search-index.js", idx_js)
+    _write("assets/search.js", _SEARCH_JS.strip() + "\n")
+    _write("search.html", page_search())
 
     # Copy the audit package + open corpus so they are publicly downloadable.
     audit_rel = SITE / "audit" / VERSION
