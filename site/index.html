@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The AI Canon — a free, method-backed reference library for AI knowledge</title>
+<meta name="description" content="The AI Canon is a public-good reference library for the AI field. It ranks texts, not people. It invites correction. It sells nothing.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0E2A4A; --navy-soft:#3B5268; --cream:#F4EEE2; --panel:#FBF8F1;
+    --orange:#E87722; --hairline:#D9CFBE; --mono-bg:#0E2A4A; --mono-ink:#EDE6D6;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+  body{background:var(--cream);color:var(--navy);font-family:"DM Sans",system-ui,sans-serif;
+       font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
+  .measure{max-width:860px;margin:0 auto;padding:0 24px}
+  a{color:var(--navy);text-decoration:underline;text-decoration-color:var(--orange);text-underline-offset:3px}
+  a:hover{color:var(--orange)}
+  :focus-visible{outline:3px solid var(--orange);outline-offset:2px}
+
+  /* Masthead: the page is a governed release */
+  .release-bar{font-family:"DM Mono",monospace;font-size:12.5px;letter-spacing:.04em;
+    background:var(--navy);color:var(--mono-ink);padding:10px 0}
+  .release-bar .measure{display:flex;flex-wrap:wrap;gap:8px 28px}
+  .release-bar span b{color:#fff;font-weight:500}
+  header.hero{padding:72px 0 56px;border-bottom:1px solid var(--hairline)}
+  .kicker{font-family:"DM Mono",monospace;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--navy-soft)}
+  h1{font-family:"DM Serif Display",serif;font-weight:400;font-size:clamp(42px,7vw,76px);
+     line-height:1.02;margin:14px 0 26px;letter-spacing:-0.01em}
+  .position{font-size:clamp(19px,2.6vw,23px);line-height:1.5;max-width:42ch}
+  .position em{font-style:normal;border-bottom:3px solid var(--orange);padding-bottom:1px}
+
+  /* Clause sections */
+  section{padding:56px 0;border-bottom:1px solid var(--hairline)}
+  .clause{font-family:"DM Mono",monospace;font-size:12.5px;letter-spacing:.12em;color:var(--orange);
+    text-transform:uppercase;display:block;margin-bottom:10px}
+  h2{font-family:"DM Serif Display",serif;font-weight:400;font-size:clamp(28px,4vw,38px);margin-bottom:18px;line-height:1.12}
+  p+p{margin-top:14px}
+  .lede{font-size:19px}
+
+  /* is / is not */
+  .isnot{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--hairline);background:var(--panel);margin-top:24px}
+  .isnot>div{padding:24px 26px}
+  .isnot>div:first-child{border-right:1px solid var(--hairline)}
+  .isnot h3{font-family:"DM Mono",monospace;font-size:13px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:14px}
+  .isnot ul{list-style:none}
+  .isnot li{padding:7px 0;border-top:1px dashed var(--hairline);font-size:15.5px}
+  .isnot li:first-of-type{border-top:0}
+  .not h3{color:var(--navy-soft)}
+  .not li{color:var(--navy-soft)}
+  @media(max-width:640px){.isnot{grid-template-columns:1fr}.isnot>div:first-child{border-right:0;border-bottom:1px solid var(--hairline)}}
+
+  /* Canon 50: the honest empty ledger */
+  .pending{border:1px solid var(--navy);background:var(--panel);margin-top:26px;position:relative}
+  .pending table{width:100%;border-collapse:collapse;font-family:"DM Mono",monospace;font-size:14px}
+  .pending th{font-weight:500;text-align:left;font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+    padding:12px 16px;border-bottom:1px solid var(--navy);color:var(--navy-soft)}
+  .pending td{padding:11px 16px;border-bottom:1px dashed var(--hairline);color:var(--hairline)}
+  .pending td.rank{color:var(--navy-soft);width:64px}
+  .stamp{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%) rotate(-7deg);
+    font-family:"DM Mono",monospace;font-size:clamp(15px,2.6vw,20px);letter-spacing:.18em;
+    color:var(--orange);border:2.5px solid var(--orange);padding:10px 18px;background:rgba(244,238,226,.88);
+    text-transform:uppercase;white-space:nowrap}
+  .pending-note{font-size:14.5px;color:var(--navy-soft);padding:14px 16px;border-top:1px solid var(--hairline)}
+
+  /* corpus stats */
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:1px;background:var(--hairline);
+    border:1px solid var(--hairline);margin-top:26px}
+  .stats div{background:var(--panel);padding:18px 16px}
+  .stats b{display:block;font-family:"DM Serif Display",serif;font-weight:400;font-size:30px;line-height:1}
+  .stats span{font-size:13px;color:var(--navy-soft)}
+
+  /* method rules */
+  ol.rules{counter-reset:rule;list-style:none;margin-top:22px;border-top:1px solid var(--hairline)}
+  ol.rules li{counter-increment:rule;display:grid;grid-template-columns:64px 1fr;gap:18px;
+    padding:16px 0;border-bottom:1px solid var(--hairline)}
+  ol.rules li::before{content:"R-0" counter(rule);font-family:"DM Mono",monospace;font-size:13px;
+    color:var(--orange);padding-top:3px}
+  ol.rules b{font-weight:700}
+
+  /* mono panels (ontology, changelog) */
+  .ledger{background:var(--mono-bg);color:var(--mono-ink);font-family:"DM Mono",monospace;
+    font-size:13.5px;line-height:1.7;padding:24px 26px;overflow-x:auto;margin-top:24px}
+  .ledger .v{color:#F0A05C}
+  .ledger .dim{color:#8FA3B8}
+  .ledger b{color:#fff;font-weight:500}
+
+  /* challenge */
+  .challenge-box{background:var(--panel);border:1px solid var(--hairline);border-left:5px solid var(--orange);
+    padding:26px 28px;margin-top:24px}
+  .steps{list-style:none;margin-top:10px}
+  .steps li{padding:8px 0;border-top:1px dashed var(--hairline);font-size:15.5px;display:grid;
+    grid-template-columns:34px 1fr;gap:12px}
+  .steps li:first-child{border-top:0}
+  .steps li span{font-family:"DM Mono",monospace;font-size:13px;color:var(--orange)}
+
+  /* footer */
+  footer{background:var(--navy);color:var(--mono-ink);padding:64px 0 48px}
+  footer .big{font-family:"DM Serif Display",serif;font-weight:400;color:#fff;
+    font-size:clamp(24px,3.6vw,34px);line-height:1.3;max-width:30ch}
+  footer .big em{font-style:italic;color:var(--orange)}
+  footer .meta{font-family:"DM Mono",monospace;font-size:12.5px;letter-spacing:.04em;
+    margin-top:34px;padding-top:22px;border-top:1px solid #2A4565;color:#8FA3B8}
+  footer a{color:var(--mono-ink);text-decoration-color:var(--orange)}
+  footer a:hover{color:var(--orange)}
+  .small{font-size:14.5px;color:var(--navy-soft)}
+</style>
+</head>
+<body>
+
+<div class="release-bar" role="note" aria-label="Release status">
+  <div class="measure">
+    <span>RELEASE <b>seed&nbsp;v0.3</b></span>
+    <span>ONTOLOGY <b>v0.2&nbsp;(frozen)</b></span>
+    <span>DATE <b>2026-06-11</b></span>
+    <span>CANON&nbsp;50 <b>pending&nbsp;pilot</b></span>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="measure">
+    <span class="kicker">An Apparens public research initiative</span>
+    <h1>The AI Canon</h1>
+    <p class="position">A free, method-backed reference library for AI knowledge.
+    It ranks <em>texts, not people</em>. It invites correction. It sells nothing.</p>
+  </div>
+</header>
+
+<main>
+
+<section id="thesis">
+  <div class="measure">
+    <span class="clause">Clause 1 — Thesis</span>
+    <h2>Every other list asks you to trust the curator. This one asks you to check the math.</h2>
+    <p class="lede">Curation of AI knowledge has collapsed into affiliate listicles and opinion threads, while the field itself compounds. The Canon's claim is narrow and testable: knowledge curation can be made <strong>auditable, reproducible, and challengeable</strong>. Which works belong to the canon of AI is decided by published method and verifiable evidence — citations, library holdings, syllabus adoption, sustained readership — never by taste alone, and never by anything money can buy.</p>
+    <p>The list is not the product. The method is the product. The list is its first proof.</p>
+  </div>
+</section>
+
+<section id="is-isnot">
+  <div class="measure">
+    <span class="clause">Clause 2 — What the Canon is, and is not</span>
+    <h2>A reference library with a spine.</h2>
+    <div class="isnot">
+      <div class="is">
+        <h3>The Canon is</h3>
+        <ul>
+          <li>A curated, multilingual library of the books, papers, reports, and standards that define the AI field</li>
+          <li>Evidence-ranked within each domain, under a published method and weights</li>
+          <li>Versioned: every release tagged, every change logged, every rank movement traceable</li>
+          <li>Open to challenge from anyone, with public resolutions</li>
+          <li>Free, permanently</li>
+        </ul>
+      </div>
+      <div class="not">
+        <h3>The Canon is not</h3>
+        <ul>
+          <li>A ranking of people or companies — voices and organizations are described, never scored</li>
+          <li>A recommendation engine, a review site, or a bookstore</li>
+          <li>A leaderboard across domains — a standard is never ranked against a novel</li>
+          <li>Sponsored, affiliated, or advertised — no entry can be bought, promoted, or featured</li>
+          <li>Finished — it is maintained, corrected, and re-released</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="canon50">
+  <div class="measure">
+    <span class="clause">Clause 3 — Canon 50 (pilot)</span>
+    <h2>The first ranking will appear here. It hasn't earned the page yet.</h2>
+    <p>The pilot scores roughly 540 candidate works under three published weighting scenarios, producing a first Top 50 with a full audit file. Until that result survives adversarial review, this table stays empty — publishing it early would violate the method it exists to demonstrate.</p>
+    <div class="pending" aria-label="Canon 50 pending">
+      <table>
+        <thead><tr><th>Rank</th><th>Work</th><th>Domain</th><th>Score</th><th>Evidence</th></tr></thead>
+        <tbody>
+          <tr><td class="rank">001</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+          <tr><td class="rank">002</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+          <tr><td class="rank">003</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+          <tr><td class="rank">&nbsp;⋮</td><td></td><td></td><td></td><td></td></tr>
+          <tr><td class="rank">050</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        </tbody>
+      </table>
+      <div class="stamp">Pending pilot — no result claimed</div>
+      <div class="pending-note">Each published rank will link to its score breakdown: every metric, its source, its retrieval date, and its weight.</div>
+    </div>
+
+    <div class="stats" aria-label="Seed corpus state">
+      <div><b>573</b><span>candidate books<br>(250 with curated descriptions)</span></div>
+      <div><b>162</b><span>seed papers, 1943–2025</span></div>
+      <div><b>183</b><span>voices — described, never ranked</span></div>
+      <div><b>132</b><span>organizations</span></div>
+      <div><b>90</b><span>platforms</span></div>
+      <div><b>168</b><span>verified authored-by edges</span></div>
+    </div>
+    <p class="small" style="margin-top:14px">Seed status means candidacy, not canonical status. Inclusion in the seed corpus asserts nothing.</p>
+    <p class="small" style="margin-top:8px"><strong>Coverage, stated plainly:</strong> the corpus is strong in English. The multilingual layer is in development, and the Chinese-language spine is a known gap. We will not describe the Canon as worldwide until that gap is closed. Chinese-literate readers are invited to nominate works and contest rankings through the challenge protocol below — with evidence, and with credit.</p>
+  </div>
+</section>
+
+<section id="method">
+  <div class="measure">
+    <span class="clause">Clause 4 — Method statement</span>
+    <h2>Rules the ranking cannot break.</h2>
+    <p>The full methodology — ontology, weights, normalization, inclusion floor, and governance — is published with each release and is itself versioned. These rules are constitutional:</p>
+    <ol class="rules">
+      <li><div><b>Deterministic scoring.</b> Identical inputs and weights produce identical ranks, bit for bit. Anyone holding the audit file can reproduce a release with one command.</div></li>
+      <li><div><b>Provenance on every number.</b> Each metric carries its source, retrieval date, confidence, and licence note. A number without provenance does not exist.</div></li>
+      <li><div><b>No silent imputation.</b> Missing evidence is recorded as missing and penalized by a published rule — never estimated, never invented.</div></li>
+      <li><div><b>Domains never cross-rank.</b> Books, papers, reports, and standards are scored within their own domain. ISO/IEC 42001 is not ranked against a monograph; the comparison would be meaningless.</div></li>
+      <li><div><b>Each language ecosystem scores within itself first.</b> Chinese works are measured by Chinese-ecosystem evidence (Douban, union catalogues, MOE textbook designations) before any cross-lingual comparison. Coverage gaps are declared, not hidden.</div></li>
+      <li><div><b>People are context, not contestants.</b> Persons, organizations, and platforms are curated and described. They carry no score, no rank, and never will.</div></li>
+      <li><div><b>Manual decisions are records.</b> Every override carries a written rationale and is published. Conflicts of interest — including works authored within Apparens — are flagged in the data itself.</div></li>
+    </ol>
+    <p style="margin-top:22px"><em>A rank is not a verdict on intrinsic worth. It is a transparent output of declared evidence, weights, and missing-data rules at a specific release date.</em></p>
+  </div>
+</section>
+
+<section id="ontology">
+  <div class="measure">
+    <span class="clause">Clause 5 — Ontology v0.2 (frozen)</span>
+    <h2>The model under the library.</h2>
+    <p>The ontology distinguishes canonical entities (scored by evidence) from context entities (described, never ranked) and makes governance itself part of the data: releases, challenges, and overrides are first-class, append-only records. It is frozen for the pilot; changes now require a pilot finding, not an opinion.</p>
+    <div class="ledger" role="figure" aria-label="Ontology summary">
+<b>canonical</b>   work <span class="dim">[book | paper | report | standard]</span>, edition
+<b>context</b>     person, organization, platform, category   <span class="dim">— curated, never ranked</span>
+<b>evidence</b>    metric <span class="dim">{source, value, retrieved_at, confidence, provenance_url}</span>
+<b>governance</b>  release, challenge, override               <span class="dim">— append-only, public</span>
+
+<b>edges</b>       categorized_as · authored_by · cites · has_metric · cited_in_syllabus
+            works_at<span class="dim">*</span> · founded · publishes<span class="dim">*</span> · maintains<span class="dim">*</span> · challenged_by · decided_in
+            <span class="dim">* volatile: expires unless re-verified each release</span>
+
+<b>excluded</b>    influenced · promotes · critiques  <span class="dim">— opinion dressed as data; not edges</span>
+    </div>
+    <p class="small" style="margin-top:14px">Full specification ships with the method paper and each release package.</p>
+  </div>
+</section>
+
+<section id="challenge">
+  <div class="measure">
+    <span class="clause">Clause 6 — Challenge protocol</span>
+    <h2>Disagreement is a feature. File it.</h2>
+    <div class="challenge-box">
+      <p>Anyone may challenge any entry, rank, metric, category, or method rule. A challenge is contested against the cited evidence, not against opinion — including ours.</p>
+      <ol class="steps">
+        <li><span>C-1</span><div>Send the target, your claim, and your evidence to <a href="mailto:office@apparens.nl">office@apparens.nl</a>.</div></li>
+        <li><span>C-2</span><div>Acknowledgement within 7 days; each challenge receives a public identifier.</div></li>
+        <li><span>C-3</span><div>Resolution against the data: upheld challenges change the next release; rejected challenges are answered with the evidence. Either way, the record is published.</div></li>
+        <li><span>C-4</span><div>All challenges and resolutions remain visible permanently. The challenge history is part of the library.</div></li>
+      </ol>
+    </div>
+    <p style="margin-top:18px">An upheld challenge is not an embarrassment. It is the method working in public.</p>
+  </div>
+</section>
+
+<section id="changelog">
+  <div class="measure">
+    <span class="clause">Clause 7 — Changelog</span>
+    <h2>Append-only. Nothing is ever silently changed.</h2>
+    <div class="ledger" role="log" aria-label="Changelog">
+<span class="v">2026-06-14  seed v0.3</span>   Corpus: +73 provenance-tagged candidates from the Monett
+                         Critical-AI list (48 of her titles already held); 573 works total,
+                         multilingual seed (EN/ZH/DE/ES/NL/FR/JA/CS). CN spine flagged as known gap.
+<span class="v">2026-06-11  seed v0.2</span>   Corpus: 500 candidate books fully categorized; 162-paper seed;
+                         voices/organizations/platforms shelves curated. <b>Ontology v0.2 frozen</b>
+                         (governance entities added; multi-category model; standards as
+                         canonical subtype). This page published.
+<span class="v">2026-06-11  seed v0.1</span>   Initial seed: 201-work core with curated descriptions;
+                         299 hunted candidates; first 168 authored-by edges derived.
+<span class="dim">next        pilot v0.1</span>  <span class="dim">Top 50 under three weighting scenarios + public audit file,</span>
+                         <span class="dim">after adversarial review. No date promised; see Clause 9.</span>
+    </div>
+  </div>
+</section>
+
+<section id="data">
+  <div class="measure">
+    <span class="clause">Clause 8 — Data &amp; audit</span>
+    <h2>The proof ships with the claim.</h2>
+    <p>Every release will be downloadable as an audit package: the corpus snapshot, the weights, the code version, the per-work score breakdowns, and the single command that reproduces the ranking. If you cannot rebuild the rank from the package, the release is defective and we want the challenge.</p>
+    <p class="small" style="margin-top:16px">Methodology and audit files are public. The corpus is published progressively as the library launches — each release ships its full corpus snapshot in the audit package. Original descriptions are written by the maintainer, never scraped.</p>
+    <p class="small" style="margin-top:10px">The Canon uses bibliographic facts, public metadata, and explicitly licensed or lawfully accessible sources. It does not republish copyrighted texts, paywalled content, proprietary datasets, or protected expression. Where source terms restrict reuse, the Canon records derived signals only when lawful — and omits the source otherwise, declaring the gap. Cover artwork is excluded by default.</p>
+  </div>
+</section>
+
+<section id="maintenance" style="border-bottom:0">
+  <div class="measure">
+    <span class="clause">Clause 9 — Maintenance promise</span>
+    <h2>Honest about cadence. Absolute about conduct.</h2>
+    <p class="lede">Every update is logged. Every correction is traceable. Every ranking can be challenged. The library is maintained as capacity allows — without deadlines we would resent, and without commercial influence of any kind.</p>
+    <p>What is promised without qualification: <strong>no advertising, no affiliate links, no sponsored placement, no paid inclusion — ever.</strong> Nothing in this library is for sale, which is precisely why it can be trusted.</p>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="measure">
+    <p class="big">A canon you can <em>check</em> is worth more than a canon you must believe.</p>
+    <p class="meta">
+      THE AI CANON · an <a href="https://apparens.nl">Apparens</a> public research initiative ·
+      Deventer, NL · challenge anything: <a href="mailto:office@apparens.nl">office@apparens.nl</a><br>
+      Nothing is for sale. Nothing is hidden. Nothing is final.<br>No ads. No affiliates. No sponsors. Method open · corpus curated · governance append-only.
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>

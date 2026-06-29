@@ -1,0 +1,23 @@
+[
+  {
+    "work_id": "book-aima",
+    "isbn_or_doi": "978-0134610993",
+    "language": "en",
+    "year": 2020,
+    "publisher": "Pearson"
+  },
+  {
+    "work_id": "book-aima",
+    "isbn_or_doi": "978-1292401133",
+    "language": "en",
+    "year": 2021,
+    "publisher": "Pearson (Global Edition)"
+  },
+  {
+    "work_id": "book-cn",
+    "isbn_or_doi": "978-7111600000",
+    "language": "zh",
+    "year": 2018,
+    "publisher": "机械工业出版社"
+  }
+]

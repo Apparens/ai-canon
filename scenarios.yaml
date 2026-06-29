@@ -1,0 +1,46 @@
+# Weighting scenarios for The AI Canon scorer.
+#
+# Weights live HERE, never in code (rule 9). These are PLACEHOLDER weights for
+# the Sprint-1 skeleton — they are deliberately illustrative, not the pilot's
+# final calibration. The real weights are set during Stage A, Sprint 3, and
+# every change to them ships with a changelog entry (rule 10).
+#
+# Each scenario maps metric_name -> weight (weights need not sum to 1; the
+# scorer normalizes per domain). A metric named in a scenario but missing on a
+# work is recorded as missing and penalized by `missing_data_penalty_factor`
+# (rule 8: never imputed).
+
+version: "0.1-pilot"
+
+# How a missing-but-weighted metric is penalized: penalty = weight * factor,
+# subtracted from the work's score. Recorded explicitly in every breakdown.
+missing_data_penalty_factor: 0.5
+
+# Per-domain min-max normalization: each metric is scaled to [0,1] using the
+# min and max observed WITHIN the domain being ranked (rule 4 + rule 5).
+normalization: per_domain_min_max
+
+scenarios:
+  academic:
+    description: Weights scholarly uptake most heavily.
+    weights:
+      citation_count: 0.50
+      library_holdings: 0.20
+      syllabus_adoptions: 0.25
+      sustained_readership: 0.05
+
+  broad_influence:
+    description: Weights reach and sustained public readership.
+    weights:
+      citation_count: 0.20
+      library_holdings: 0.25
+      syllabus_adoptions: 0.15
+      sustained_readership: 0.40
+
+  governance_practitioner:
+    description: Weights adoption signals relevant to practitioners and standards.
+    weights:
+      citation_count: 0.25
+      library_holdings: 0.30
+      syllabus_adoptions: 0.35
+      sustained_readership: 0.10

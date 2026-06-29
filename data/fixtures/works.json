@@ -1,0 +1,38 @@
+[
+  {
+    "id": "book-dl",
+    "canonical_title": "Deep Learning",
+    "language": "en",
+    "year": 2016,
+    "work_type": "book"
+  },
+  {
+    "id": "book-aima",
+    "canonical_title": "Artificial Intelligence: A Modern Approach",
+    "language": "en",
+    "year": 2020,
+    "work_type": "book"
+  },
+  {
+    "id": "book-cn",
+    "canonical_title": "Artificial Intelligence (Chinese)",
+    "original_title": "人工智能",
+    "language": "zh",
+    "year": 2018,
+    "work_type": "book"
+  },
+  {
+    "id": "paper-attn",
+    "canonical_title": "Attention Is All You Need",
+    "language": "en",
+    "year": 2017,
+    "work_type": "paper"
+  },
+  {
+    "id": "std-42001",
+    "canonical_title": "ISO/IEC 42001:2023 Artificial intelligence management system",
+    "language": "en",
+    "year": 2023,
+    "work_type": "standard"
+  }
+]
