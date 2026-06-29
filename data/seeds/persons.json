@@ -168,7 +168,7 @@
     "source_url": "https://thoth.inrialpes.fr/~schmid/"
   },
   {
-    "anchor_affiliation": "Google DeepMind; UCL",
+    "anchor_affiliation": "Ineffable Intelligence founder; UCL; ex-Google DeepMind",
     "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
@@ -228,7 +228,7 @@
     "source_url": "https://scholar.google.com/citations?hl=en&user=iYN86KEAAAAJ"
   },
   {
-    "anchor_affiliation": "OpenAI; ex-Google",
+    "anchor_affiliation": "Meta Superintelligence Labs; ex-OpenAI/Google",
     "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
@@ -396,7 +396,7 @@
     "source_url": "https://www.aisc.events/speakers/quoc-le"
   },
   {
-    "anchor_affiliation": "Cohere Labs (ex-C4AI) head",
+    "anchor_affiliation": "Adaption Labs founder; ex-Cohere Labs",
     "bio": null,
     "canonical": false,
     "category": "DL & LLM Research",
@@ -1620,7 +1620,7 @@
     "source_url": "https://oecd.ai/en/community/catelijne-muller"
   },
   {
-    "anchor_affiliation": "NIST chief AI advisor (role as of 2025; verify)",
+    "anchor_affiliation": "Brookings AI & Emerging Tech director; ex-NIST/US AI Safety Institute",
     "bio": null,
     "canonical": false,
     "category": "Governance & Policy",
@@ -1629,7 +1629,7 @@
     "last_verified": "2026-06-14",
     "name": "Elham Tabassi",
     "region": "US/IR",
-    "source_url": "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10"
+    "source_url": "https://www.brookings.edu/people/elham-tabassi/"
   },
   {
     "anchor_affiliation": "MIT; ex-European Commission",
@@ -1884,7 +1884,7 @@
     "source_url": "https://nathanbenaich.com/"
   },
   {
-    "anchor_affiliation": "Ai2",
+    "anchor_affiliation": "Founder, stealth AI lab; writes Interconnects; ex-Ai2 (Olmo)",
     "bio": null,
     "canonical": false,
     "category": "Journalism & Analysis",
