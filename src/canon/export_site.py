@@ -51,6 +51,7 @@ NAV = [
     ("challenges.html", "Challenges"),
     ("changelog.html", "Changelog"),
     ("data.html", "Data & audit"),
+    ("about.html", "About"),
     ("press.html", "Press"),
 ]
 
@@ -581,18 +582,17 @@ def page_data(release: dict, coverage: dict) -> str:
 _LIB_FILTER_JS = """
 (function(){
   var q=document.getElementById('q'),cat=document.getElementById('fcat'),
-      lang=document.getElementById('flang'),src=document.getElementById('fsrc'),
+      lang=document.getElementById('flang'),
       cnt=document.getElementById('cnt'),items=[].slice.call(document.querySelectorAll('.entry'));
   function apply(){
-    var t=(q.value||'').toLowerCase(),c=cat.value,l=lang.value,s=src.value,n=0;
+    var t=(q.value||'').toLowerCase(),c=cat.value,l=lang.value,n=0;
     items.forEach(function(e){
-      var ok=(!c||e.dataset.cat===c)&&(!l||e.dataset.lang===l)&&(!s||e.dataset.src===s)
-        &&(!t||e.dataset.text.indexOf(t)>-1);
+      var ok=(!c||e.dataset.cat===c)&&(!l||e.dataset.lang===l)&&(!t||e.dataset.text.indexOf(t)>-1);
       e.style.display=ok?'':'none'; if(ok)n++;
     });
     cnt.textContent=n+' of '+items.length+' works shown';
   }
-  [q,cat,lang,src].forEach(function(el){el.addEventListener('input',apply)});
+  [q,cat,lang].forEach(function(el){el.addEventListener('input',apply)});
   apply();
 })();
 """
@@ -601,7 +601,6 @@ _LIB_FILTER_JS = """
 def page_library(books: list[dict]) -> str:
     cats = sorted({b["editorial"].get("category", "") for b in books if b["editorial"].get("category")})
     langs = sorted({b.get("language", "") for b in books if b.get("language")})
-    srcs = sorted({b["editorial"].get("source", "") for b in books if b["editorial"].get("source")})
 
     def opts(values):
         return "".join(f'<option value="{esc(v)}">{esc(v)}</option>' for v in values)
@@ -615,7 +614,6 @@ def page_library(books: list[dict]) -> str:
         '<label>Search<input id="q" type="search" placeholder="title or author"></label>'
         f'<label>Category<select id="fcat"><option value="">All</option>{opts(cats)}</select></label>'
         f'<label>Language<select id="flang"><option value="">All</option>{opts(langs)}</select></label>'
-        f'<label>Provenance<select id="fsrc"><option value="">All</option>{opts(srcs)}</select></label>'
         "</div>"
         f'<p class="count" id="cnt">{len(books)} works</p>'
     )
@@ -632,9 +630,9 @@ def page_library(books: list[dict]) -> str:
                 else '<p class="pending">Description pending.</p>')
         entries.append(
             f'<div class="entry" id="{esc(b["id"])}" data-cat="{esc(ed.get("category",""))}" data-lang="{esc(b.get("language",""))}" '
-            f'data-src="{esc(ed.get("source",""))}" data-text="{esc(text)}">'
+            f'data-text="{esc(text)}">'
             f'<div class="t">{esc(b["canonical_title"])}{flag}</div>'
-            f'<div class="meta">{meta}<span class="badge">{esc(ed.get("source",""))}</span></div>'
+            f'<div class="meta">{meta}</div>'
             f'{desc}</div>'
         )
     body = head + "".join(entries) + '<script src="assets/canon.js" defer></script>'
@@ -774,6 +772,135 @@ _SEARCH_JS = """
 """
 
 
+def page_about() -> str:
+    def p(text):
+        return "<p>" + esc(text) + "</p>"
+    body = [
+        '<p class="lead">Why this exists, what it is, and how to read it.</p>',
+
+        "<h2>Why I built it</h2>",
+        p("The literature of artificial intelligence is now larger than any one person can hold, "
+          "and the maps we have are mostly selling something. Affiliate lists, vendor reading "
+          "guides, threads ranked by who shouted loudest. Each asks you to trust the curator. "
+          "Almost none let you check the curator's work."),
+        p("I build governance for a living. My one rule is that governance is not what you claim, "
+          "it is what you can prove. A field this consequential deserves a reference work held to "
+          "the same standard: a library whose every judgment can be inspected, questioned, and "
+          "overturned with evidence. So I built the thing I wanted to exist and could not find. "
+          "Not to own it. To give it."),
+        p("This is a public good. It is free, it always will be, and nothing in it is for sale."),
+
+        "<h2>What I built</h2>",
+        p("A reference library of the texts that define artificial intelligence: the books, the "
+          "papers, and the standards that shaped how we think, build, and govern it. Alongside the "
+          "texts, a curated record of the people, organizations, and platforms that form the "
+          "field's context."),
+        p("The rankings get the attention, but they are not the product. The library is the "
+          "product. A ranking is one view of it, produced by a published method at a fixed date. "
+          "The method is the part that matters. Anyone can assert that a book is important. The "
+          "Canon shows its reasoning, names its sources, and invites you to prove it wrong."),
+        p("So the Canon is a reference work first and a ranking second. It answers why a text "
+          "matters, what underpins it, and how it relates to the rest, before it answers which one "
+          "is first."),
+
+        "<h2>How it is constructed</h2>",
+        p("Two kinds of thing live here, and they are treated differently on purpose."),
+        "<p><b>Texts are scored.</b> " + esc(
+            "Books, papers, reports, and standards are ranked by evidence: citations, library "
+            "holdings, syllabus adoption, sustained readership over time. The scoring is "
+            "deterministic, which means the same inputs always produce the same result, and anyone "
+            "holding the audit file can rebuild a ranking exactly. Every number carries its source, "
+            "its date, and its confidence. Where evidence is missing, that absence is recorded and "
+            "counted, never guessed. A standard is never ranked against a novel; each kind of text "
+            "is judged within its own domain, because comparing them would be meaningless.") + "</p>",
+        "<p><b>People are not scored.</b> " + esc(
+            "The voices, organizations, and platforms are described and categorized, never ranked. "
+            "There is no score field for a person anywhere in the system. This is built into the "
+            "foundation, not added as a courtesy. I will rank texts. I will not rank human beings, "
+            "and the structure makes it impossible to start.") + "</p>",
+        "<p><b>The method is open.</b> " + esc(
+            "The corpus, the ontology, the weights, and the audit files are all public. The strength "
+            "of this project is not a secret formula. It is the labour of careful curation, the "
+            "discipline of showing the work, and the growing record of challenges met in the open. "
+            "Those cannot be copied by reading the method. They can only be earned by doing the "
+            "work.") + "</p>",
+        "<p><b>A word on honesty about coverage.</b> " + esc(
+            "The Canon is strong in English. Its multilingual layer is still in development, and its "
+            "Chinese-language spine is a known gap. Until that gap is closed, this is not a "
+            "worldwide canon, and it will not call itself one. I would rather state the limit "
+            "plainly than claim a completeness I have not earned.") + "</p>",
+
+        "<h2>How it is maintained</h2>",
+        p("By a person, with help from machines that are not allowed to decide anything."),
+        p("I adjudicate every challenge myself, against the evidence, and publish the resolution. "
+          "I write the descriptions. Automated tools harvest the data, watch for changes, and "
+          "propose updates, but no ranking ever moves without a human reviewing and approving it. "
+          "The tools observe, assess, and escalate. They do not act. That distinction is the whole "
+          "point of a canon you can trust rather than an algorithm you must accept."),
+        p("Every change is logged and nothing is ever quietly altered. Corrections become new "
+          "versions; the old ones remain visible. I do not promise a schedule, because a schedule I "
+          "would resent is a promise I would break. I promise the discipline instead: every update "
+          "logged, every correction traceable, every ranking open to challenge, and no commercial "
+          "influence of any kind, ever. The changelog is the proof. It cannot lie about whether the "
+          "work is being done."),
+
+        "<h2>Sources and acknowledgments</h2>",
+        p("The candidate corpus was seeded, with gratitude, from curated reading lists: Jurgen "
+          "Appelo's AI reading list, the Monett Critical-AI reading list (14th edition), and the "
+          "project's own candidate hunt. Seeding from a list is candidacy for scoring, not an "
+          "endorsement by those curators, and it carries no weight in any ranking. The full "
+          "per-work source is kept in the downloadable corpus data for transparency."),
+
+        "<h2>Who it is for</h2>",
+        p("One library, many doors. A student opens it to find what to learn and in what order. A "
+          "professor opens it to find what to teach. A journalist opens it to find who and what to "
+          "research, and the record of who got things wrong. An investor opens it to read the "
+          "landscape. An author or editor opens it to find the works that endure. A practitioner "
+          "opens it to find the standards that govern their work."),
+        p("It is not built to flatter any of them, and not built to convert anyone into a customer, "
+          "because there is nothing to buy. It is built to be useful and honest to all of them at "
+          "once, the way a good library is."),
+
+        "<h2>How it should be interpreted</h2>",
+        p("A rank is not a verdict on intrinsic worth. It is a transparent output of declared "
+          "evidence, weights, and missing-data rules, at a specific release date. Read it as "
+          "exactly that, and no more."),
+        p("A high rank means a text scored well on the evidence the method measured, under one set "
+          "of weights, on one day. Change the weights and the order changes, which is why three "
+          "different weightings are published rather than one. A low rank, or an absence, is not a "
+          "judgment that a work is bad. It may mean the evidence is thin, the work is recent, or "
+          "the method does not yet see it well. Inclusion in the seed corpus means a work is a "
+          "candidate, not that it is canonical."),
+        p("If you disagree, you are not a nuisance. You are the mechanism. The Canon improves by "
+          "being contested, and a challenge you can file is worth more than a ranking you are asked "
+          "to believe."),
+
+        "<h2>What you can do with it</h2>",
+        p("If you are here to learn AI, start with the library, not the ranking. Pick the domain "
+          "you care about, governance or deep learning or the economics of automation, and read "
+          "the texts that have endured there, in the order their descriptions suggest. Use the "
+          "rankings as a second opinion, not a syllabus. Follow the connections: a book leads to "
+          "the papers under it, the papers to the people who wrote them, the people to the "
+          "institutions they work in. The structure is a map of how the field thinks, and you can "
+          "walk it. Download the whole corpus as open data and keep it. It is yours."),
+        p("If you find yourself here as a subject, an author whose book is listed or a voice in the "
+          "field, two things are true. You are not being ranked against your peers. The people on "
+          "this list are described, never scored, and never placed above or below one another. And "
+          "your entry is built from public, professional, bibliographic facts, held to the same "
+          "standard as everything else. If something about your entry is wrong, a misattributed "
+          "work, an outdated affiliation, a description that misses the mark, tell me, and it will "
+          "be corrected in the open through the same challenge process as any other claim. If you "
+          "believe a text's rank or its absence is unjust, contest it with evidence, and the "
+          "resolution will be published whether it goes your way or not. What you cannot do is buy "
+          "your way up, or have a rival quietly removed, because no one can, and that is precisely "
+          "what makes your presence here mean something."),
+
+        '<p class="note">Nothing is for sale. Nothing is hidden. Nothing is final. '
+        'Challenge anything: <a href="mailto:office@apparens.nl">office@apparens.nl</a></p>',
+    ]
+    return shell("about.html", "The AI Canon", "Statement", "".join(body))
+
+
 def page_search() -> str:
     body = (
         '<p class="note">Search the whole corpus: 573 books, 162 papers, and the voices, '
@@ -851,6 +978,7 @@ def build() -> dict:
     _write("challenges.html", page_challenges())
     _write("changelog.html", page_changelog())
     _write("data.html", page_data(release, coverage))
+    _write("about.html", page_about())
     _write("press.html", page_press())
     _write("share.html", page_share())
 
