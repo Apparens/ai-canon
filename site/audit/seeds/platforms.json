@@ -1,0 +1,812 @@
+[
+  {
+    "canonical": false,
+    "category": "Analysis & Media",
+    "id": "platform-0001",
+    "last_verified": "2026-06-14",
+    "name": "AI Snake Oil (Narayanan & Kapoor)",
+    "status": "Active",
+    "what_it_is": "Evaluation-skeptic analysis with academic grounding"
+  },
+  {
+    "canonical": false,
+    "category": "Analysis & Media",
+    "id": "platform-0002",
+    "last_verified": "2026-06-14",
+    "name": "ChinAI (Jeff Ding)",
+    "status": "Active",
+    "what_it_is": "Translations of Chinese AI discourse"
+  },
+  {
+    "canonical": false,
+    "category": "Analysis & Media",
+    "id": "platform-0003",
+    "last_verified": "2026-06-14",
+    "name": "Don't Worry About the Vase (Zvi)",
+    "status": "Active",
+    "what_it_is": "Exhaustive weekly synthesis of AI developments"
+  },
+  {
+    "canonical": false,
+    "category": "Analysis & Media",
+    "id": "platform-0004",
+    "last_verified": "2026-06-14",
+    "name": "Dwarkesh Podcast",
+    "status": "Active",
+    "what_it_is": "Long-form primary interviews with frontier figures"
+  },
+  {
+    "canonical": false,
+    "category": "Analysis & Media",
+    "id": "platform-0005",
+    "last_verified": "2026-06-14",
+    "name": "Import AI (Jack Clark)",
+    "status": "Active",
+    "what_it_is": "The longest-running serious AI policy/technical newsletter"
+  },
+  {
+    "canonical": false,
+    "category": "Analysis & Media",
+    "id": "platform-0006",
+    "last_verified": "2026-06-14",
+    "name": "Interconnects (Nathan Lambert)",
+    "status": "Active",
+    "what_it_is": "Open-model and post-training analysis"
+  },
+  {
+    "canonical": false,
+    "category": "Analysis & Media",
+    "id": "platform-0007",
+    "last_verified": "2026-06-14",
+    "name": "International AI Safety Report",
+    "status": "Active; periodic",
+    "what_it_is": "Bengio-chaired intergovernmental scientific assessment"
+  },
+  {
+    "canonical": false,
+    "category": "Analysis & Media",
+    "id": "platform-0008",
+    "last_verified": "2026-06-14",
+    "name": "Jiqizhixin (机器之心)",
+    "status": "Active",
+    "what_it_is": "China's leading AI media outlet"
+  },
+  {
+    "canonical": false,
+    "category": "Analysis & Media",
+    "id": "platform-0009",
+    "last_verified": "2026-06-14",
+    "name": "Latent Space",
+    "status": "Active",
+    "what_it_is": "AI engineering podcast/newsletter; defined the AI-engineer role"
+  },
+  {
+    "canonical": false,
+    "category": "Analysis & Media",
+    "id": "platform-0010",
+    "last_verified": "2026-06-14",
+    "name": "MIT Technology Review (AI desk)",
+    "status": "Active",
+    "what_it_is": "The legacy outlet with the strongest AI bench"
+  },
+  {
+    "canonical": false,
+    "category": "Analysis & Media",
+    "id": "platform-0011",
+    "last_verified": "2026-06-14",
+    "name": "Machine Learning Street Talk",
+    "status": "Active",
+    "what_it_is": "Technical long-form research interviews"
+  },
+  {
+    "canonical": false,
+    "category": "Analysis & Media",
+    "id": "platform-0012",
+    "last_verified": "2026-06-14",
+    "name": "QbitAI (量子位)",
+    "status": "Active",
+    "what_it_is": "CN AI industry news"
+  },
+  {
+    "canonical": false,
+    "category": "Analysis & Media",
+    "id": "platform-0013",
+    "last_verified": "2026-06-14",
+    "name": "SemiAnalysis",
+    "status": "Active",
+    "what_it_is": "Compute supply-chain and datacenter analysis"
+  },
+  {
+    "canonical": false,
+    "category": "Analysis & Media",
+    "id": "platform-0014",
+    "last_verified": "2026-06-14",
+    "name": "Stanford AI Index",
+    "status": "Active; annual",
+    "what_it_is": "The reference annual dataset on AI progress and policy"
+  },
+  {
+    "canonical": false,
+    "category": "Analysis & Media",
+    "id": "platform-0015",
+    "last_verified": "2026-06-14",
+    "name": "State of AI Report",
+    "status": "Active; annual",
+    "what_it_is": "Annual field synthesis (Benaich)"
+  },
+  {
+    "canonical": false,
+    "category": "Analysis & Media",
+    "id": "platform-0016",
+    "last_verified": "2026-06-14",
+    "name": "The Batch",
+    "status": "Active",
+    "what_it_is": "Accessible weekly AI news (DeepLearning.AI)"
+  },
+  {
+    "canonical": false,
+    "category": "Analysis & Media",
+    "id": "platform-0017",
+    "last_verified": "2026-06-14",
+    "name": "Transformer (Shakeel Hashim)",
+    "status": "Active",
+    "what_it_is": "AI policy journalism"
+  },
+  {
+    "canonical": false,
+    "category": "Communities",
+    "id": "platform-0018",
+    "last_verified": "2026-06-14",
+    "name": "Alignment Forum",
+    "status": "Active",
+    "what_it_is": "Technical alignment research discussion"
+  },
+  {
+    "canonical": false,
+    "category": "Communities",
+    "id": "platform-0019",
+    "last_verified": "2026-06-14",
+    "name": "EleutherAI Discord",
+    "status": "Active",
+    "what_it_is": "Open-source research collective's home"
+  },
+  {
+    "canonical": false,
+    "category": "Communities",
+    "id": "platform-0020",
+    "last_verified": "2026-06-14",
+    "name": "LessWrong",
+    "status": "Active",
+    "what_it_is": "Rationalist forum where alignment discourse developed"
+  },
+  {
+    "canonical": false,
+    "category": "Communities",
+    "id": "platform-0021",
+    "last_verified": "2026-06-14",
+    "name": "r/MachineLearning + r/LocalLLaMA",
+    "status": "Active",
+    "what_it_is": "Research and local-model practitioner communities"
+  },
+  {
+    "canonical": false,
+    "category": "Consumer & Assistants",
+    "id": "platform-0022",
+    "last_verified": "2026-06-14",
+    "name": "Character.AI",
+    "status": "Active",
+    "what_it_is": "Companion-AI at scale; the test case for AI-relationship governance"
+  },
+  {
+    "canonical": false,
+    "category": "Consumer & Assistants",
+    "id": "platform-0023",
+    "last_verified": "2026-06-14",
+    "name": "ChatGPT",
+    "status": "Active",
+    "what_it_is": "The product that made LLMs a mass medium"
+  },
+  {
+    "canonical": false,
+    "category": "Consumer & Assistants",
+    "id": "platform-0024",
+    "last_verified": "2026-06-14",
+    "name": "Claude (claude.ai / Claude Code)",
+    "status": "Active",
+    "what_it_is": "Anthropic's assistant; Claude Code defined agentic coding"
+  },
+  {
+    "canonical": false,
+    "category": "Consumer & Assistants",
+    "id": "platform-0025",
+    "last_verified": "2026-06-14",
+    "name": "Doubao",
+    "status": "Active",
+    "what_it_is": "ByteDance's assistant; China's largest by users"
+  },
+  {
+    "canonical": false,
+    "category": "Consumer & Assistants",
+    "id": "platform-0026",
+    "last_verified": "2026-06-14",
+    "name": "Gemini (app)",
+    "status": "Active",
+    "what_it_is": "Google's assistant across Android/Workspace"
+  },
+  {
+    "canonical": false,
+    "category": "Consumer & Assistants",
+    "id": "platform-0027",
+    "last_verified": "2026-06-14",
+    "name": "Kimi",
+    "status": "Active",
+    "what_it_is": "Moonshot's consumer assistant (CN)"
+  },
+  {
+    "canonical": false,
+    "category": "Consumer & Assistants",
+    "id": "platform-0028",
+    "last_verified": "2026-06-14",
+    "name": "Microsoft Copilot",
+    "status": "Active",
+    "what_it_is": "AI layer across Windows/Office/GitHub"
+  },
+  {
+    "canonical": false,
+    "category": "Consumer & Assistants",
+    "id": "platform-0029",
+    "last_verified": "2026-06-14",
+    "name": "NotebookLM",
+    "status": "Active",
+    "what_it_is": "Source-grounded research assistant; audio overviews"
+  },
+  {
+    "canonical": false,
+    "category": "Consumer & Assistants",
+    "id": "platform-0030",
+    "last_verified": "2026-06-14",
+    "name": "Perplexity",
+    "status": "Active",
+    "what_it_is": "Answer-engine challenger to search"
+  },
+  {
+    "canonical": false,
+    "category": "Education",
+    "id": "platform-0031",
+    "last_verified": "2026-06-14",
+    "name": "3Blue1Brown",
+    "status": "Active",
+    "what_it_is": "The visual neural-network explainers"
+  },
+  {
+    "canonical": false,
+    "category": "Education",
+    "id": "platform-0032",
+    "last_verified": "2026-06-14",
+    "name": "Coursera",
+    "status": "Active",
+    "what_it_is": "Distribution layer of ML MOOCs since the original Ng course"
+  },
+  {
+    "canonical": false,
+    "category": "Education",
+    "id": "platform-0033",
+    "last_verified": "2026-06-14",
+    "name": "DeepLearning.AI",
+    "status": "Active",
+    "what_it_is": "Ng's course ecosystem; The Batch newsletter"
+  },
+  {
+    "canonical": false,
+    "category": "Education",
+    "id": "platform-0034",
+    "last_verified": "2026-06-14",
+    "name": "Hugging Face Learn",
+    "status": "Active",
+    "what_it_is": "Free courses on transformers, RL, agents"
+  },
+  {
+    "canonical": false,
+    "category": "Education",
+    "id": "platform-0035",
+    "last_verified": "2026-06-14",
+    "name": "Khan Academy (Khanmigo)",
+    "status": "Active",
+    "what_it_is": "AI tutoring at school scale"
+  },
+  {
+    "canonical": false,
+    "category": "Education",
+    "id": "platform-0036",
+    "last_verified": "2026-06-14",
+    "name": "MIT OpenCourseWare",
+    "status": "Active",
+    "what_it_is": "Open university AI/ML courses"
+  },
+  {
+    "canonical": false,
+    "category": "Education",
+    "id": "platform-0037",
+    "last_verified": "2026-06-14",
+    "name": "Stanford CS231n / CS224n materials",
+    "status": "Active",
+    "what_it_is": "The canonical open vision and NLP course materials"
+  },
+  {
+    "canonical": false,
+    "category": "Education",
+    "id": "platform-0038",
+    "last_verified": "2026-06-14",
+    "name": "XuetangX / icourse163",
+    "status": "Active",
+    "what_it_is": "China's MOOC platforms; required-readings signal for CN canon"
+  },
+  {
+    "canonical": false,
+    "category": "Education",
+    "id": "platform-0039",
+    "last_verified": "2026-06-14",
+    "name": "d2l.ai",
+    "status": "Active",
+    "what_it_is": "Dive into Deep Learning interactive book; bilingual EN/CN"
+  },
+  {
+    "canonical": false,
+    "category": "Education",
+    "id": "platform-0040",
+    "last_verified": "2026-06-14",
+    "name": "fast.ai",
+    "status": "Active",
+    "what_it_is": "Top-down practical deep learning curriculum"
+  },
+  {
+    "canonical": false,
+    "category": "Evaluation & Leaderboards",
+    "id": "platform-0041",
+    "last_verified": "2026-06-14",
+    "name": "AI Safety/capability evals (Inspect, UK AISI)",
+    "status": "Active",
+    "what_it_is": "Open-source evaluation framework from a state body"
+  },
+  {
+    "canonical": false,
+    "category": "Evaluation & Leaderboards",
+    "id": "platform-0042",
+    "last_verified": "2026-06-14",
+    "name": "ARC Prize",
+    "status": "Active",
+    "what_it_is": "Chollet's abstraction-and-reasoning challenge"
+  },
+  {
+    "canonical": false,
+    "category": "Evaluation & Leaderboards",
+    "id": "platform-0043",
+    "last_verified": "2026-06-14",
+    "name": "Artificial Analysis",
+    "status": "Active",
+    "what_it_is": "Independent price/performance/latency benchmarking of model APIs"
+  },
+  {
+    "canonical": false,
+    "category": "Evaluation & Leaderboards",
+    "id": "platform-0044",
+    "last_verified": "2026-06-14",
+    "name": "Epoch AI (data hub)",
+    "status": "Active",
+    "what_it_is": "Compute, training-run, and benchmark databases"
+  },
+  {
+    "canonical": false,
+    "category": "Evaluation & Leaderboards",
+    "id": "platform-0045",
+    "last_verified": "2026-06-14",
+    "name": "HELM (Stanford CRFM)",
+    "status": "Active",
+    "what_it_is": "Holistic, transparent LM evaluation suite"
+  },
+  {
+    "canonical": false,
+    "category": "Evaluation & Leaderboards",
+    "id": "platform-0046",
+    "last_verified": "2026-06-14",
+    "name": "LMArena (Chatbot Arena)",
+    "status": "Active",
+    "what_it_is": "Human-preference ELO for chat models; the de facto public scoreboard"
+  },
+  {
+    "canonical": false,
+    "category": "Evaluation & Leaderboards",
+    "id": "platform-0047",
+    "last_verified": "2026-06-14",
+    "name": "LiveBench",
+    "status": "Active",
+    "what_it_is": "Contamination-resistant rolling benchmark"
+  },
+  {
+    "canonical": false,
+    "category": "Evaluation & Leaderboards",
+    "id": "platform-0048",
+    "last_verified": "2026-06-14",
+    "name": "MLPerf (MLCommons)",
+    "status": "Active",
+    "what_it_is": "Industry-standard hardware/training benchmarks"
+  },
+  {
+    "canonical": false,
+    "category": "Evaluation & Leaderboards",
+    "id": "platform-0049",
+    "last_verified": "2026-06-14",
+    "name": "SWE-bench",
+    "status": "Active",
+    "what_it_is": "Real-repository software-engineering benchmark"
+  },
+  {
+    "canonical": false,
+    "category": "Frameworks & Tools",
+    "id": "platform-0050",
+    "last_verified": "2026-06-14",
+    "name": "CUDA",
+    "status": "Active",
+    "what_it_is": "The moat under NVIDIA; the GPU programming layer"
+  },
+  {
+    "canonical": false,
+    "category": "Frameworks & Tools",
+    "id": "platform-0051",
+    "last_verified": "2026-06-14",
+    "name": "Google Colab",
+    "status": "Active",
+    "what_it_is": "Free GPU notebooks; the global on-ramp"
+  },
+  {
+    "canonical": false,
+    "category": "Frameworks & Tools",
+    "id": "platform-0052",
+    "last_verified": "2026-06-14",
+    "name": "JAX",
+    "status": "Active",
+    "what_it_is": "Composable accelerator-native ML (Google)"
+  },
+  {
+    "canonical": false,
+    "category": "Frameworks & Tools",
+    "id": "platform-0053",
+    "last_verified": "2026-06-14",
+    "name": "Jupyter",
+    "status": "Active",
+    "what_it_is": "The notebook substrate of applied ML"
+  },
+  {
+    "canonical": false,
+    "category": "Frameworks & Tools",
+    "id": "platform-0054",
+    "last_verified": "2026-06-14",
+    "name": "LangChain / LangGraph",
+    "status": "Active",
+    "what_it_is": "Agent orchestration ecosystem"
+  },
+  {
+    "canonical": false,
+    "category": "Frameworks & Tools",
+    "id": "platform-0055",
+    "last_verified": "2026-06-14",
+    "name": "MLflow",
+    "status": "Active",
+    "what_it_is": "Experiment tracking and model registry (Databricks)"
+  },
+  {
+    "canonical": false,
+    "category": "Frameworks & Tools",
+    "id": "platform-0056",
+    "last_verified": "2026-06-14",
+    "name": "Model Context Protocol (MCP)",
+    "status": "Active; industry-adopted",
+    "what_it_is": "Anthropic-originated open standard for tool/context connectivity"
+  },
+  {
+    "canonical": false,
+    "category": "Frameworks & Tools",
+    "id": "platform-0057",
+    "last_verified": "2026-06-14",
+    "name": "PyTorch",
+    "status": "Active",
+    "what_it_is": "The research-default deep learning framework (Linux Foundation)"
+  },
+  {
+    "canonical": false,
+    "category": "Frameworks & Tools",
+    "id": "platform-0058",
+    "last_verified": "2026-06-14",
+    "name": "TensorFlow / Keras",
+    "status": "Active; declining research share",
+    "what_it_is": "The first mass DL framework; Keras 3 multi-backend"
+  },
+  {
+    "canonical": false,
+    "category": "Frameworks & Tools",
+    "id": "platform-0059",
+    "last_verified": "2026-06-14",
+    "name": "llama.cpp",
+    "status": "Active",
+    "what_it_is": "Local inference engine behind the consumer open-model wave"
+  },
+  {
+    "canonical": false,
+    "category": "Frameworks & Tools",
+    "id": "platform-0060",
+    "last_verified": "2026-06-14",
+    "name": "scikit-learn",
+    "status": "Active",
+    "what_it_is": "Classical ML standard library"
+  },
+  {
+    "canonical": false,
+    "category": "Frameworks & Tools",
+    "id": "platform-0061",
+    "last_verified": "2026-06-14",
+    "name": "vLLM",
+    "status": "Active",
+    "what_it_is": "The open inference-serving standard"
+  },
+  {
+    "canonical": false,
+    "category": "Models, Code & Data",
+    "id": "platform-0062",
+    "last_verified": "2026-06-14",
+    "name": "Civitai",
+    "status": "Active",
+    "what_it_is": "Community hub for image-generation models"
+  },
+  {
+    "canonical": false,
+    "category": "Models, Code & Data",
+    "id": "platform-0063",
+    "last_verified": "2026-06-14",
+    "name": "Common Crawl",
+    "status": "Active",
+    "what_it_is": "The web corpus under most LLM pretraining"
+  },
+  {
+    "canonical": false,
+    "category": "Models, Code & Data",
+    "id": "platform-0064",
+    "last_verified": "2026-06-14",
+    "name": "GitHub",
+    "status": "Active",
+    "what_it_is": "Where the AI tooling ecosystem lives; Copilot origin"
+  },
+  {
+    "canonical": false,
+    "category": "Models, Code & Data",
+    "id": "platform-0065",
+    "last_verified": "2026-06-14",
+    "name": "Hugging Face Hub",
+    "status": "Active",
+    "what_it_is": "The registry of open models, datasets, and spaces"
+  },
+  {
+    "canonical": false,
+    "category": "Models, Code & Data",
+    "id": "platform-0066",
+    "last_verified": "2026-06-14",
+    "name": "Kaggle",
+    "status": "Active",
+    "what_it_is": "Competitions, datasets, notebooks; ML on-ramp"
+  },
+  {
+    "canonical": false,
+    "category": "Models, Code & Data",
+    "id": "platform-0067",
+    "last_verified": "2026-06-14",
+    "name": "LAION",
+    "status": "Active",
+    "what_it_is": "Open image-text datasets behind the diffusion era"
+  },
+  {
+    "canonical": false,
+    "category": "Models, Code & Data",
+    "id": "platform-0068",
+    "last_verified": "2026-06-14",
+    "name": "ModelScope",
+    "status": "Active",
+    "what_it_is": "Alibaba's open-model hub; the CN mirror of HF"
+  },
+  {
+    "canonical": false,
+    "category": "Models, Code & Data",
+    "id": "platform-0069",
+    "last_verified": "2026-06-14",
+    "name": "Ollama",
+    "status": "Active",
+    "what_it_is": "Local LLM running standard"
+  },
+  {
+    "canonical": false,
+    "category": "Models, Code & Data",
+    "id": "platform-0070",
+    "last_verified": "2026-06-14",
+    "name": "OpenML",
+    "status": "Active",
+    "what_it_is": "Open platform for sharing datasets and ML experiments"
+  },
+  {
+    "canonical": false,
+    "category": "Models, Code & Data",
+    "id": "platform-0071",
+    "last_verified": "2026-06-14",
+    "name": "Replicate",
+    "status": "Active",
+    "what_it_is": "Run open models via API"
+  },
+  {
+    "canonical": false,
+    "category": "Models, Code & Data",
+    "id": "platform-0072",
+    "last_verified": "2026-06-14",
+    "name": "UCI ML Repository",
+    "status": "Active",
+    "what_it_is": "The classical benchmark dataset archive"
+  },
+  {
+    "canonical": false,
+    "category": "Policy & Accountability",
+    "id": "platform-0073",
+    "last_verified": "2026-06-14",
+    "name": "AI Incident Database",
+    "status": "Active",
+    "what_it_is": "Structured registry of AI harms"
+  },
+  {
+    "canonical": false,
+    "category": "Policy & Accountability",
+    "id": "platform-0074",
+    "last_verified": "2026-06-14",
+    "name": "AI Standards Hub (UK)",
+    "status": "Active",
+    "what_it_is": "Tracker of AI standards landscape (Turing Institute)"
+  },
+  {
+    "canonical": false,
+    "category": "Policy & Accountability",
+    "id": "platform-0075",
+    "last_verified": "2026-06-14",
+    "name": "AIAAIC Repository",
+    "status": "Active",
+    "what_it_is": "Independent log of AI incidents and controversies"
+  },
+  {
+    "canonical": false,
+    "category": "Policy & Accountability",
+    "id": "platform-0076",
+    "last_verified": "2026-06-14",
+    "name": "EU AI Act Explorer (artificialintelligenceact.eu)",
+    "status": "Active",
+    "what_it_is": "The reference navigation layer for the Act (FLI)"
+  },
+  {
+    "canonical": false,
+    "category": "Policy & Accountability",
+    "id": "platform-0077",
+    "last_verified": "2026-06-14",
+    "name": "Foundation Model Transparency Index",
+    "status": "Active; periodic",
+    "what_it_is": "Stanford's periodic transparency scoring of major developers"
+  },
+  {
+    "canonical": false,
+    "category": "Policy & Accountability",
+    "id": "platform-0078",
+    "last_verified": "2026-06-14",
+    "name": "IAPP AI Governance Center",
+    "status": "Active",
+    "what_it_is": "Profession-building for AI governance roles (AIGP)"
+  },
+  {
+    "canonical": false,
+    "category": "Policy & Accountability",
+    "id": "platform-0079",
+    "last_verified": "2026-06-14",
+    "name": "NIST AIRC",
+    "status": "Active",
+    "what_it_is": "Resource center around the AI RMF"
+  },
+  {
+    "canonical": false,
+    "category": "Policy & Accountability",
+    "id": "platform-0080",
+    "last_verified": "2026-06-14",
+    "name": "OECD.AI Policy Observatory",
+    "status": "Active",
+    "what_it_is": "Global database of national AI policies"
+  },
+  {
+    "canonical": false,
+    "category": "Research Infrastructure",
+    "id": "platform-0081",
+    "last_verified": "2026-06-14",
+    "name": "CNKI",
+    "status": "Active; access-restricted",
+    "what_it_is": "China's dominant academic database; licensed access only"
+  },
+  {
+    "canonical": false,
+    "category": "Research Infrastructure",
+    "id": "platform-0082",
+    "last_verified": "2026-06-14",
+    "name": "Connected Papers",
+    "status": "Active",
+    "what_it_is": "Visual citation-graph exploration"
+  },
+  {
+    "canonical": false,
+    "category": "Research Infrastructure",
+    "id": "platform-0083",
+    "last_verified": "2026-06-14",
+    "name": "Google Scholar",
+    "status": "Active",
+    "what_it_is": "Default citation lookup, including CN-language coverage"
+  },
+  {
+    "canonical": false,
+    "category": "Research Infrastructure",
+    "id": "platform-0084",
+    "last_verified": "2026-06-14",
+    "name": "OpenAlex",
+    "status": "Active",
+    "what_it_is": "Open bibliographic database and API; the citation substrate"
+  },
+  {
+    "canonical": false,
+    "category": "Research Infrastructure",
+    "id": "platform-0085",
+    "last_verified": "2026-06-14",
+    "name": "OpenReview",
+    "status": "Active",
+    "what_it_is": "Open peer review for ICLR/NeurIPS and others"
+  },
+  {
+    "canonical": false,
+    "category": "Research Infrastructure",
+    "id": "platform-0086",
+    "last_verified": "2026-06-14",
+    "name": "Papers with Code",
+    "status": "Sunset by Meta mid-2025; archives partly absorbed by Hugging Face — verify current state",
+    "what_it_is": "Linked papers, code, and SOTA tables"
+  },
+  {
+    "canonical": false,
+    "category": "Research Infrastructure",
+    "id": "platform-0087",
+    "last_verified": "2026-06-14",
+    "name": "Semantic Scholar",
+    "status": "Active",
+    "what_it_is": "AI-powered literature search and citation graph (Ai2)"
+  },
+  {
+    "canonical": false,
+    "category": "Research Infrastructure",
+    "id": "platform-0088",
+    "last_verified": "2026-06-14",
+    "name": "Zenodo",
+    "status": "Active",
+    "what_it_is": "DOI-issuing open repository (used for MCS line)"
+  },
+  {
+    "canonical": false,
+    "category": "Research Infrastructure",
+    "id": "platform-0089",
+    "last_verified": "2026-06-14",
+    "name": "alphaXiv",
+    "status": "Active",
+    "what_it_is": "Discussion and AI-assisted reading layer over arXiv"
+  },
+  {
+    "canonical": false,
+    "category": "Research Infrastructure",
+    "id": "platform-0090",
+    "last_verified": "2026-06-14",
+    "name": "arXiv",
+    "status": "Active",
+    "what_it_is": "Preprint server where the field actually publishes"
+  }
+]

@@ -1,0 +1,1832 @@
+[
+  {
+    "anchor_affiliation": "Scripps Research",
+    "canonical": false,
+    "category": "AI for Science",
+    "id": "person-0001",
+    "known_for": "Deep Medicine; clinical AI evidence standards",
+    "last_verified": "2026-06-14",
+    "name": "Eric Topol",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Nobel Chemistry 2024; Google DeepMind",
+    "canonical": false,
+    "category": "AI for Science",
+    "id": "person-0002",
+    "known_for": "AlphaFold lead",
+    "last_verified": "2026-06-14",
+    "name": "John Jumper",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Google DeepMind science VP",
+    "canonical": false,
+    "category": "AI for Science",
+    "id": "person-0003",
+    "known_for": "AlphaFold/AlphaTensor science portfolio",
+    "last_verified": "2026-06-14",
+    "name": "Pushmeet Kohli",
+    "region": "UK/IN"
+  },
+  {
+    "anchor_affiliation": "MIT Jameel Clinic",
+    "canonical": false,
+    "category": "AI for Science",
+    "id": "person-0004",
+    "known_for": "ML for drug discovery and oncology",
+    "last_verified": "2026-06-14",
+    "name": "Regina Barzilay",
+    "region": "IL/US"
+  },
+  {
+    "anchor_affiliation": "CMU; Cartesia",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0005",
+    "known_for": "State-space models; Mamba co-author",
+    "last_verified": "2026-06-14",
+    "name": "Albert Gu",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Independent researcher; ex-OpenAI",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0006",
+    "known_for": "GPT-1/2/3 and CLIP first author; the quiet architect of the LLM era",
+    "last_verified": "2026-06-14",
+    "name": "Alec Radford",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Eureka Labs; ex-OpenAI, ex-Tesla",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0007",
+    "known_for": "Vision-to-LLM arc; the field's best explainer of how models work",
+    "last_verified": "2026-06-14",
+    "name": "Andrej Karpathy",
+    "region": "US/SK"
+  },
+  {
+    "anchor_affiliation": "DeepLearning.AI, AI Fund; Stanford",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0008",
+    "known_for": "Google Brain co-founder; the field's largest teaching footprint",
+    "last_verified": "2026-06-14",
+    "name": "Andrew Ng",
+    "region": "US/UK"
+  },
+  {
+    "anchor_affiliation": "Oxford VGG",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0009",
+    "known_for": "Visual geometry and recognition (VGG)",
+    "last_verified": "2026-06-14",
+    "name": "Andrew Zisserman",
+    "region": "UK"
+  },
+  {
+    "anchor_affiliation": "Essential AI co-founder",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0010",
+    "known_for": "Attention Is All You Need lead author",
+    "last_verified": "2026-06-14",
+    "name": "Ashish Vaswani",
+    "region": "US/IN"
+  },
+  {
+    "anchor_affiliation": "Stanford; Physical Intelligence co-founder",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0011",
+    "known_for": "Meta-learning (MAML); robot learning",
+    "last_verified": "2026-06-14",
+    "name": "Chelsea Finn",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Author; ex-Stanford instructor",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0012",
+    "known_for": "ML systems and AI engineering canon",
+    "last_verified": "2026-06-14",
+    "name": "Chip Huyen",
+    "region": "US/VN"
+  },
+  {
+    "anchor_affiliation": "U. Toronto; Vector",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0013",
+    "known_for": "T5; open-model training science",
+    "last_verified": "2026-06-14",
+    "name": "Colin Raffel",
+    "region": "US/CA"
+  },
+  {
+    "anchor_affiliation": "INRIA; Google",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0014",
+    "known_for": "Visual recognition and video understanding",
+    "last_verified": "2026-06-14",
+    "name": "Cordelia Schmid",
+    "region": "FR/DE"
+  },
+  {
+    "anchor_affiliation": "Google DeepMind; UCL",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0015",
+    "known_for": "AlphaGo/AlphaZero lead; RL at scale",
+    "last_verified": "2026-06-14",
+    "name": "David Silver",
+    "region": "UK"
+  },
+  {
+    "anchor_affiliation": "Anthropic; ex-Google Brain",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0016",
+    "known_for": "VAE and Adam author",
+    "last_verified": "2026-06-14",
+    "name": "Diederik Kingma",
+    "region": "NL"
+  },
+  {
+    "anchor_affiliation": "Ndea co-founder; ARC Prize",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0017",
+    "known_for": "Keras; On the Measure of Intelligence; ARC benchmark",
+    "last_verified": "2026-06-14",
+    "name": "Francois Chollet",
+    "region": "US/FR"
+  },
+  {
+    "anchor_affiliation": "3Blue1Brown",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0018",
+    "known_for": "3Blue1Brown; the visual mathematics of neural networks",
+    "last_verified": "2026-06-14",
+    "name": "Grant Sanderson",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Google DeepMind; ex-Apple",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0019",
+    "known_for": "GANs; adversarial examples; Deep Learning textbook",
+    "last_verified": "2026-06-14",
+    "name": "Ian Goodfellow",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "OpenAI; ex-Google",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0020",
+    "known_for": "Chain-of-thought and emergent-abilities papers",
+    "last_verified": "2026-06-14",
+    "name": "Jason Wei",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Cohere; author",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0021",
+    "known_for": "The Illustrated Transformer; visual ML pedagogy",
+    "last_verified": "2026-06-14",
+    "name": "Jay Alammar",
+    "region": "SA"
+  },
+  {
+    "anchor_affiliation": "fast.ai co-founder; answer.ai",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0022",
+    "known_for": "fast.ai; made deep learning learnable; answer.ai",
+    "last_verified": "2026-06-14",
+    "name": "Jeremy Howard",
+    "region": "AU"
+  },
+  {
+    "anchor_affiliation": "UC Berkeley; Meta FAIR",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0023",
+    "known_for": "Computer vision foundations",
+    "last_verified": "2026-06-14",
+    "name": "Jitendra Malik",
+    "region": "US/IN"
+  },
+  {
+    "anchor_affiliation": "Ex-Meta FAIR VP; McGill/Mila",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0024",
+    "known_for": "Reproducibility standards; open research leadership",
+    "last_verified": "2026-06-14",
+    "name": "Joelle Pineau",
+    "region": "CA"
+  },
+  {
+    "anchor_affiliation": "MIT; ex-Meta FAIR",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0025",
+    "known_for": "ResNet; representation learning",
+    "last_verified": "2026-06-14",
+    "name": "Kaiming He",
+    "region": "US/CN"
+  },
+  {
+    "anchor_affiliation": "ByteDance Research; ex-Huawei Noah's Ark",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0026",
+    "known_for": "Statistical learning canon in Chinese; industrial NLP research",
+    "last_verified": "2026-06-14",
+    "name": "Li Hang",
+    "region": "CN"
+  },
+  {
+    "anchor_affiliation": "Thinking Machines; ex-OpenAI",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0027",
+    "known_for": "Safety systems research; canonical technical blog",
+    "last_verified": "2026-06-14",
+    "name": "Lilian Weng",
+    "region": "US/CN"
+  },
+  {
+    "anchor_affiliation": "University of Amsterdam; CuspAI",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0028",
+    "known_for": "VAE co-author; graph networks; ML-for-physics",
+    "last_verified": "2026-06-14",
+    "name": "Max Welling",
+    "region": "NL"
+  },
+  {
+    "anchor_affiliation": "Amazon alum; Boson AI",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0029",
+    "known_for": "Dive into Deep Learning; parameter server; ML systems teaching",
+    "last_verified": "2026-06-14",
+    "name": "Mu Li",
+    "region": "CN/US"
+  },
+  {
+    "anchor_affiliation": "Stanford CRFM director",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0030",
+    "known_for": "HELM evaluation; foundation-models framing (CRFM)",
+    "last_verified": "2026-06-14",
+    "name": "Percy Liang",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "UC Berkeley; Covariant co-founder",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0031",
+    "known_for": "Robot learning; apprenticeship learning",
+    "last_verified": "2026-06-14",
+    "name": "Pieter Abbeel",
+    "region": "US/BE"
+  },
+  {
+    "anchor_affiliation": "Fudan University",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0032",
+    "known_for": "Chinese NLP curriculum; MOSS early Chinese LLM",
+    "last_verified": "2026-06-14",
+    "name": "Qiu Xipeng",
+    "region": "CN"
+  },
+  {
+    "anchor_affiliation": "Google DeepMind",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0033",
+    "known_for": "AutoML, seq2seq, LaMDA lineage",
+    "last_verified": "2026-06-14",
+    "name": "Quoc Le",
+    "region": "US/VN"
+  },
+  {
+    "anchor_affiliation": "Cohere Labs (ex-C4AI) head",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0034",
+    "known_for": "Hardware lottery; multilingual frontier research",
+    "last_verified": "2026-06-14",
+    "name": "Sara Hooker",
+    "region": "US/IE"
+  },
+  {
+    "anchor_affiliation": "Author; ex-UW-Madison; Lightning AI alum",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0035",
+    "known_for": "LLM-from-scratch pedagogy; open technical writing",
+    "last_verified": "2026-06-14",
+    "name": "Sebastian Raschka",
+    "region": "US/DE"
+  },
+  {
+    "anchor_affiliation": "UC Berkeley; Physical Intelligence",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0036",
+    "known_for": "Deep robotic learning; offline RL",
+    "last_verified": "2026-06-14",
+    "name": "Sergey Levine",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Datasette; independent",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0037",
+    "known_for": "Primary technical analysis of LLM tooling; prompt-injection naming",
+    "last_verified": "2026-06-14",
+    "name": "Simon Willison",
+    "region": "UK/US"
+  },
+  {
+    "anchor_affiliation": "BIGAI (Beijing); Peking U; ex-UCLA",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0038",
+    "known_for": "Vision and cognitive architectures; returned to lead BIGAI",
+    "last_verified": "2026-06-14",
+    "name": "Song-Chun Zhu",
+    "region": "CN"
+  },
+  {
+    "anchor_affiliation": "CIIRC Prague; ex-Google, ex-Meta",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0039",
+    "known_for": "word2vec",
+    "last_verified": "2026-06-14",
+    "name": "Tomas Mikolov",
+    "region": "CZ"
+  },
+  {
+    "anchor_affiliation": "Princeton; Together AI",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0040",
+    "known_for": "FlashAttention; Mamba co-author",
+    "last_verified": "2026-06-14",
+    "name": "Tri Dao",
+    "region": "US/VN"
+  },
+  {
+    "anchor_affiliation": "HKUST; WeBank",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0041",
+    "known_for": "Transfer and federated learning",
+    "last_verified": "2026-06-14",
+    "name": "Yang Qiang (Qiang Yang)",
+    "region": "CN/HK"
+  },
+  {
+    "anchor_affiliation": "Stanford; ex-UW/AI2; MacArthur Fellow",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0042",
+    "known_for": "Commonsense reasoning; delphi and value learning",
+    "last_verified": "2026-06-14",
+    "name": "Yejin Choi",
+    "region": "US/KR"
+  },
+  {
+    "anchor_affiliation": "Nanjing University",
+    "canonical": false,
+    "category": "DL & LLM Research",
+    "id": "person-0043",
+    "known_for": "Watermelon Book; ensemble learning; China's ML curriculum",
+    "last_verified": "2026-06-14",
+    "name": "Zhou Zhihua",
+    "region": "CN"
+  },
+  {
+    "anchor_affiliation": "University of Virginia; NBER",
+    "canonical": false,
+    "category": "Economics & Labour",
+    "id": "person-0044",
+    "known_for": "Economics of transformative AI; AGI preparedness",
+    "last_verified": "2026-06-14",
+    "name": "Anton Korinek",
+    "region": "AT/US"
+  },
+  {
+    "anchor_affiliation": "Toronto Rotman",
+    "canonical": false,
+    "category": "Economics & Labour",
+    "id": "person-0045",
+    "known_for": "Prediction-machines economics of AI",
+    "last_verified": "2026-06-14",
+    "name": "Avi Goldfarb",
+    "region": "CA"
+  },
+  {
+    "anchor_affiliation": "Oxford Martin School",
+    "canonical": false,
+    "category": "Economics & Labour",
+    "id": "person-0046",
+    "known_for": "Frey-Osborne automation-exposure estimates; Technology Trap",
+    "last_verified": "2026-06-14",
+    "name": "Carl Benedikt Frey",
+    "region": "SE/DE/UK"
+  },
+  {
+    "anchor_affiliation": "MIT; Nobel Economics 2024",
+    "canonical": false,
+    "category": "Economics & Labour",
+    "id": "person-0047",
+    "known_for": "Power and Progress; task-displacement economics; AI growth skepticism",
+    "last_verified": "2026-06-14",
+    "name": "Daron Acemoglu",
+    "region": "TR/US"
+  },
+  {
+    "anchor_affiliation": "MIT",
+    "canonical": false,
+    "category": "Economics & Labour",
+    "id": "person-0048",
+    "known_for": "Task framework of labour and automation",
+    "last_verified": "2026-06-14",
+    "name": "David Autor",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Stanford Digital Economy Lab",
+    "canonical": false,
+    "category": "Economics & Labour",
+    "id": "person-0049",
+    "known_for": "Second Machine Age; productivity-J-curve; Turing trap",
+    "last_verified": "2026-06-14",
+    "name": "Erik Brynjolfsson",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "OpenAI",
+    "canonical": false,
+    "category": "Economics & Labour",
+    "id": "person-0050",
+    "known_for": "GPTs-are-GPTs labour exposure research",
+    "last_verified": "2026-06-14",
+    "name": "Tyna Eloundou",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Trinity College Dublin; AI Accountability Lab",
+    "canonical": false,
+    "category": "Ethics & Critique",
+    "id": "person-0051",
+    "known_for": "Dataset audits; relational ethics of AI",
+    "last_verified": "2026-06-14",
+    "name": "Abeba Birhane",
+    "region": "ET/IE"
+  },
+  {
+    "anchor_affiliation": "DAIR research director",
+    "canonical": false,
+    "category": "Ethics & Critique",
+    "id": "person-0052",
+    "known_for": "Data practices critique; The AI Con co-author",
+    "last_verified": "2026-06-14",
+    "name": "Alex Hanna",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Princeton CITP director",
+    "canonical": false,
+    "category": "Ethics & Critique",
+    "id": "person-0053",
+    "known_for": "AI Snake Oil; evaluation skepticism with technical depth",
+    "last_verified": "2026-06-14",
+    "name": "Arvind Narayanan",
+    "region": "US/IN"
+  },
+  {
+    "anchor_affiliation": "Oxford",
+    "canonical": false,
+    "category": "Ethics & Critique",
+    "id": "person-0054",
+    "known_for": "Privacy Is Power",
+    "last_verified": "2026-06-14",
+    "name": "Carissa Veliz",
+    "region": "ES/MX/UK"
+  },
+  {
+    "anchor_affiliation": "ORCAA founder",
+    "canonical": false,
+    "category": "Ethics & Critique",
+    "id": "person-0055",
+    "known_for": "Weapons of Math Destruction; algorithmic auditing practice",
+    "last_verified": "2026-06-14",
+    "name": "Cathy O'Neil",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Harvard; Turing-adjacent (Goedel Prize)",
+    "canonical": false,
+    "category": "Ethics & Critique",
+    "id": "person-0056",
+    "known_for": "Differential privacy; formal fairness",
+    "last_verified": "2026-06-14",
+    "name": "Cynthia Dwork",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Duke; Squirrel AI Award",
+    "canonical": false,
+    "category": "Ethics & Critique",
+    "id": "person-0057",
+    "known_for": "Interpretable-models-first position",
+    "last_verified": "2026-06-14",
+    "name": "Cynthia Rudin",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "University of Washington; The AI Con co-author",
+    "canonical": false,
+    "category": "Ethics & Critique",
+    "id": "person-0058",
+    "known_for": "Stochastic Parrots; linguistic critique of LLM claims",
+    "last_verified": "2026-06-14",
+    "name": "Emily M. Bender",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Cornell Law",
+    "canonical": false,
+    "category": "Ethics & Critique",
+    "id": "person-0059",
+    "known_for": "Black Box Society; new laws of robotics",
+    "last_verified": "2026-06-14",
+    "name": "Frank Pasquale",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "NYU emeritus; author",
+    "canonical": false,
+    "category": "Ethics & Critique",
+    "id": "person-0060",
+    "known_for": "Deep-learning limits; hybrid AI advocacy; policy testimony",
+    "last_verified": "2026-06-14",
+    "name": "Gary Marcus",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "UC Berkeley; Mozilla fellow alum",
+    "canonical": false,
+    "category": "Ethics & Critique",
+    "id": "person-0061",
+    "known_for": "Algorithmic auditing frameworks",
+    "last_verified": "2026-06-14",
+    "name": "Inioluwa Deborah Raji",
+    "region": "NG/CA"
+  },
+  {
+    "anchor_affiliation": "AJL founder; Unmasking AI author",
+    "canonical": false,
+    "category": "Ethics & Critique",
+    "id": "person-0062",
+    "known_for": "Algorithmic Justice League; face-recognition audits",
+    "last_verified": "2026-06-14",
+    "name": "Joy Buolamwini",
+    "region": "US/GH"
+  },
+  {
+    "anchor_affiliation": "USC Annenberg; Microsoft Research",
+    "canonical": false,
+    "category": "Ethics & Critique",
+    "id": "person-0063",
+    "known_for": "Atlas of AI; material and political costs of AI",
+    "last_verified": "2026-06-14",
+    "name": "Kate Crawford",
+    "region": "AU/US"
+  },
+  {
+    "anchor_affiliation": "Yale Digital Ethics Center; ex-Oxford",
+    "canonical": false,
+    "category": "Ethics & Critique",
+    "id": "person-0064",
+    "known_for": "Philosophy of information; digital ethics in EU policy",
+    "last_verified": "2026-06-14",
+    "name": "Luciano Floridi",
+    "region": "IT/US"
+  },
+  {
+    "anchor_affiliation": "Hugging Face chief ethics scientist",
+    "canonical": false,
+    "category": "Ethics & Critique",
+    "id": "person-0065",
+    "known_for": "Model Cards; ML documentation practice",
+    "last_verified": "2026-06-14",
+    "name": "Margaret Mitchell",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "University of Vienna",
+    "canonical": false,
+    "category": "Ethics & Critique",
+    "id": "person-0066",
+    "known_for": "AI ethics and political philosophy of AI",
+    "last_verified": "2026-06-14",
+    "name": "Mark Coeckelbergh",
+    "region": "BE/AT"
+  },
+  {
+    "anchor_affiliation": "NYU",
+    "canonical": false,
+    "category": "Ethics & Critique",
+    "id": "person-0067",
+    "known_for": "Artificial Unintelligence; technochauvinism",
+    "last_verified": "2026-06-14",
+    "name": "Meredith Broussard",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Signal president",
+    "canonical": false,
+    "category": "Ethics & Critique",
+    "id": "person-0068",
+    "known_for": "AI Now co-founder; surveillance-business-model critique from inside industry",
+    "last_verified": "2026-06-14",
+    "name": "Meredith Whittaker",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Max Planck Institute for Intelligent Systems",
+    "canonical": false,
+    "category": "Ethics & Critique",
+    "id": "person-0069",
+    "known_for": "Equalized odds; fairness-and-ML textbook",
+    "last_verified": "2026-06-14",
+    "name": "Moritz Hardt",
+    "region": "DE"
+  },
+  {
+    "anchor_affiliation": "Princeton",
+    "canonical": false,
+    "category": "Ethics & Critique",
+    "id": "person-0070",
+    "known_for": "Race After Technology; the New Jim Code",
+    "last_verified": "2026-06-14",
+    "name": "Ruha Benjamin",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "UCLA; MacArthur Fellow",
+    "canonical": false,
+    "category": "Ethics & Critique",
+    "id": "person-0071",
+    "known_for": "Algorithms of Oppression",
+    "last_verified": "2026-06-14",
+    "name": "Safiya Umoja Noble",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Oxford Internet Institute",
+    "canonical": false,
+    "category": "Ethics & Critique",
+    "id": "person-0072",
+    "known_for": "Counterfactual explanations; GDPR-AI bridge",
+    "last_verified": "2026-06-14",
+    "name": "Sandra Wachter",
+    "region": "AT/UK"
+  },
+  {
+    "anchor_affiliation": "Princeton",
+    "canonical": false,
+    "category": "Ethics & Critique",
+    "id": "person-0073",
+    "known_for": "AI Snake Oil co-author; reproducibility in ML-based science",
+    "last_verified": "2026-06-14",
+    "name": "Sayash Kapoor",
+    "region": "IN/US"
+  },
+  {
+    "anchor_affiliation": "University of Edinburgh",
+    "canonical": false,
+    "category": "Ethics & Critique",
+    "id": "person-0074",
+    "known_for": "Technology and the virtues; The AI Mirror",
+    "last_verified": "2026-06-14",
+    "name": "Shannon Vallor",
+    "region": "US/UK"
+  },
+  {
+    "anchor_affiliation": "DAIR founder; ex-Google Ethical AI",
+    "canonical": false,
+    "category": "Ethics & Critique",
+    "id": "person-0075",
+    "known_for": "Gender Shades, Datasheets, Stochastic Parrots; DAIR",
+    "last_verified": "2026-06-14",
+    "name": "Timnit Gebru",
+    "region": "US/ET"
+  },
+  {
+    "anchor_affiliation": "Umea University; UN AI Advisory Body",
+    "canonical": false,
+    "category": "Ethics & Critique",
+    "id": "person-0076",
+    "known_for": "Responsible AI as engineering discipline; UN advisory roles",
+    "last_verified": "2026-06-14",
+    "name": "Virginia Dignum",
+    "region": "NL/SE"
+  },
+  {
+    "anchor_affiliation": "Turing Award 2024; UMass Amherst emeritus",
+    "canonical": false,
+    "category": "Foundational Research",
+    "id": "person-0077",
+    "known_for": "Reinforcement learning co-founder",
+    "last_verified": "2026-06-14",
+    "name": "Andrew Barto",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Turing Award 2000; Tsinghua IIIS",
+    "canonical": false,
+    "category": "Foundational Research",
+    "id": "person-0078",
+    "known_for": "Complexity theory; built China's elite AI pipeline (Yao Class)",
+    "last_verified": "2026-06-14",
+    "name": "Andrew Yao (Yao Qizhi)",
+    "region": "CN"
+  },
+  {
+    "anchor_affiliation": "Max Planck Institute for Intelligent Systems",
+    "canonical": false,
+    "category": "Foundational Research",
+    "id": "person-0079",
+    "known_for": "Kernel methods; causal ML",
+    "last_verified": "2026-06-14",
+    "name": "Bernhard Schoelkopf",
+    "region": "DE"
+  },
+  {
+    "anchor_affiliation": "Stanford NLP Group",
+    "canonical": false,
+    "category": "Foundational Research",
+    "id": "person-0080",
+    "known_for": "Statistical and neural NLP",
+    "last_verified": "2026-06-14",
+    "name": "Christopher Manning",
+    "region": "US/AU"
+  },
+  {
+    "anchor_affiliation": "Insitro founder; Coursera co-founder; ex-Stanford",
+    "canonical": false,
+    "category": "Foundational Research",
+    "id": "person-0081",
+    "known_for": "Probabilistic graphical models; ML for biomedicine",
+    "last_verified": "2026-06-14",
+    "name": "Daphne Koller",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Stanford HAI co-founder; World Labs",
+    "canonical": false,
+    "category": "Foundational Research",
+    "id": "person-0082",
+    "known_for": "ImageNet; human-centered AI; spatial intelligence",
+    "last_verified": "2026-06-14",
+    "name": "Fei-Fei Li",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Turing Award 2018; Nobel Physics 2024; U. Toronto",
+    "canonical": false,
+    "category": "Foundational Research",
+    "id": "person-0083",
+    "known_for": "Backpropagation, deep learning revival; left Google to warn on risk",
+    "last_verified": "2026-06-14",
+    "name": "Geoffrey Hinton",
+    "region": "CA/UK"
+  },
+  {
+    "anchor_affiliation": "Nobel Physics 2024; Princeton",
+    "canonical": false,
+    "category": "Foundational Research",
+    "id": "person-0084",
+    "known_for": "Hopfield networks; physics of neural computation",
+    "last_verified": "2026-06-14",
+    "name": "John Hopfield",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Turing Award 2011; UCLA",
+    "canonical": false,
+    "category": "Foundational Research",
+    "id": "person-0085",
+    "known_for": "Bayesian networks and causality",
+    "last_verified": "2026-06-14",
+    "name": "Judea Pearl",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "IDSIA; KAUST AI Initiative",
+    "canonical": false,
+    "category": "Foundational Research",
+    "id": "person-0086",
+    "known_for": "LSTM lineage; meta-learning; priority debates",
+    "last_verified": "2026-06-14",
+    "name": "Juergen Schmidhuber",
+    "region": "CH/SA"
+  },
+  {
+    "anchor_affiliation": "Independent; ex-NHK labs",
+    "canonical": false,
+    "category": "Foundational Research",
+    "id": "person-0087",
+    "known_for": "Neocognitron, ancestor of CNNs",
+    "last_verified": "2026-06-14",
+    "name": "Kunihiko Fukushima",
+    "region": "JP"
+  },
+  {
+    "anchor_affiliation": "Turing Award 2010; Harvard",
+    "canonical": false,
+    "category": "Foundational Research",
+    "id": "person-0088",
+    "known_for": "PAC learning; computational learning theory",
+    "last_verified": "2026-06-14",
+    "name": "Leslie Valiant",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Santa Fe Institute",
+    "canonical": false,
+    "category": "Foundational Research",
+    "id": "person-0089",
+    "known_for": "Complexity, analogy, and the limits of current AI",
+    "last_verified": "2026-06-14",
+    "name": "Melanie Mitchell",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "UC Berkeley",
+    "canonical": false,
+    "category": "Foundational Research",
+    "id": "person-0090",
+    "known_for": "Probabilistic ML foundations; critic of AI framing",
+    "last_verified": "2026-06-14",
+    "name": "Michael I. Jordan",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Oxford",
+    "canonical": false,
+    "category": "Foundational Research",
+    "id": "person-0091",
+    "known_for": "Multi-agent systems; AI history for the public",
+    "last_verified": "2026-06-14",
+    "name": "Michael Wooldridge",
+    "region": "UK"
+  },
+  {
+    "anchor_affiliation": "Stanford HAI; ex-Google research director",
+    "canonical": false,
+    "category": "Foundational Research",
+    "id": "person-0092",
+    "known_for": "AIMA textbook; data-over-cleverness empiricism",
+    "last_verified": "2026-06-14",
+    "name": "Peter Norvig",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Turing Award 2024; U. Alberta; Keen/Amii",
+    "canonical": false,
+    "category": "Foundational Research",
+    "id": "person-0093",
+    "known_for": "Reinforcement learning; The Bitter Lesson",
+    "last_verified": "2026-06-14",
+    "name": "Richard Sutton",
+    "region": "CA"
+  },
+  {
+    "anchor_affiliation": "JKU Linz; NXAI",
+    "canonical": false,
+    "category": "Foundational Research",
+    "id": "person-0094",
+    "known_for": "LSTM; modern xLSTM revival",
+    "last_verified": "2026-06-14",
+    "name": "Sepp Hochreiter",
+    "region": "AT"
+  },
+  {
+    "anchor_affiliation": "UC Berkeley; CHAI founder",
+    "canonical": false,
+    "category": "Foundational Research",
+    "id": "person-0095",
+    "known_for": "AIMA textbook; provably beneficial AI agenda",
+    "last_verified": "2026-06-14",
+    "name": "Stuart Russell",
+    "region": "US/UK"
+  },
+  {
+    "anchor_affiliation": "Salk Institute; NeurIPS co-founder",
+    "canonical": false,
+    "category": "Foundational Research",
+    "id": "person-0096",
+    "known_for": "Boltzmann machines; computational neuroscience",
+    "last_verified": "2026-06-14",
+    "name": "Terrence Sejnowski",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Columbia; VC theory",
+    "canonical": false,
+    "category": "Foundational Research",
+    "id": "person-0097",
+    "known_for": "Statistical learning theory; SVMs",
+    "last_verified": "2026-06-14",
+    "name": "Vladimir Vapnik",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Turing Award 2018; Meta chief AI scientist; NYU",
+    "canonical": false,
+    "category": "Foundational Research",
+    "id": "person-0098",
+    "known_for": "Convolutional networks; open-research advocate and AGI-risk skeptic",
+    "last_verified": "2026-06-14",
+    "name": "Yann LeCun",
+    "region": "US/FR"
+  },
+  {
+    "anchor_affiliation": "Turing Award 2018; Mila founder; IAISR chair",
+    "canonical": false,
+    "category": "Foundational Research",
+    "id": "person-0099",
+    "known_for": "Deep learning foundations; now leads international AI safety reporting",
+    "last_verified": "2026-06-14",
+    "name": "Yoshua Bengio",
+    "region": "CA"
+  },
+  {
+    "anchor_affiliation": "Cohere co-founder/CEO",
+    "canonical": false,
+    "category": "Frontier Builders",
+    "id": "person-0100",
+    "known_for": "Transformer co-author; enterprise LLMs",
+    "last_verified": "2026-06-14",
+    "name": "Aidan Gomez",
+    "region": "CA"
+  },
+  {
+    "anchor_affiliation": "Meta; Scale AI founder",
+    "canonical": false,
+    "category": "Frontier Builders",
+    "id": "person-0101",
+    "known_for": "Data engine for frontier training; Meta superintelligence push",
+    "last_verified": "2026-06-14",
+    "name": "Alexandr Wang",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Mistral AI co-founder/CEO",
+    "canonical": false,
+    "category": "Frontier Builders",
+    "id": "person-0102",
+    "known_for": "Europe's frontier-lab bet",
+    "last_verified": "2026-06-14",
+    "name": "Arthur Mensch",
+    "region": "FR"
+  },
+  {
+    "anchor_affiliation": "Hugging Face co-founder/CEO",
+    "canonical": false,
+    "category": "Frontier Builders",
+    "id": "person-0103",
+    "known_for": "Open-model ecosystem's central platform",
+    "last_verified": "2026-06-14",
+    "name": "Clement Delangue",
+    "region": "US/FR"
+  },
+  {
+    "anchor_affiliation": "Anthropic President",
+    "canonical": false,
+    "category": "Frontier Builders",
+    "id": "person-0104",
+    "known_for": "Anthropic co-founder; operations and policy posture",
+    "last_verified": "2026-06-14",
+    "name": "Daniela Amodei",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "MIT CSAIL director",
+    "canonical": false,
+    "category": "Frontier Builders",
+    "id": "person-0105",
+    "known_for": "Robotics research leadership; liquid networks",
+    "last_verified": "2026-06-14",
+    "name": "Daniela Rus",
+    "region": "US/RO"
+  },
+  {
+    "anchor_affiliation": "Anthropic CEO",
+    "canonical": false,
+    "category": "Frontier Builders",
+    "id": "person-0106",
+    "known_for": "Anthropic co-founder; scaling-plus-safety thesis; Machines of Loving Grace essay",
+    "last_verified": "2026-06-14",
+    "name": "Dario Amodei",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Nobel Chemistry 2024; Google DeepMind CEO",
+    "canonical": false,
+    "category": "Frontier Builders",
+    "id": "person-0107",
+    "known_for": "DeepMind founder; AlphaGo-to-AlphaFold arc",
+    "last_verified": "2026-06-14",
+    "name": "Demis Hassabis",
+    "region": "UK"
+  },
+  {
+    "anchor_affiliation": "xAI, Tesla",
+    "canonical": false,
+    "category": "Frontier Builders",
+    "id": "person-0108",
+    "known_for": "OpenAI co-founder turned competitor; Grok/xAI; policy lightning rod",
+    "last_verified": "2026-06-14",
+    "name": "Elon Musk",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "OpenAI co-founder",
+    "canonical": false,
+    "category": "Frontier Builders",
+    "id": "person-0109",
+    "known_for": "OpenAI co-founder; engineering of frontier training",
+    "last_verified": "2026-06-14",
+    "name": "Greg Brockman",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Mistral AI co-founder, chief scientist",
+    "canonical": false,
+    "category": "Frontier Builders",
+    "id": "person-0110",
+    "known_for": "LLaMA lineage; Mistral research",
+    "last_verified": "2026-06-14",
+    "name": "Guillaume Lample",
+    "region": "FR"
+  },
+  {
+    "anchor_affiliation": "SSI co-founder; ex-OpenAI chief scientist",
+    "canonical": false,
+    "category": "Frontier Builders",
+    "id": "person-0111",
+    "known_for": "AlexNet, seq2seq, GPT lineage; superintelligence-focused lab",
+    "last_verified": "2026-06-14",
+    "name": "Ilya Sutskever",
+    "region": "US/CA/IL"
+  },
+  {
+    "anchor_affiliation": "OpenAI chief scientist",
+    "canonical": false,
+    "category": "Frontier Builders",
+    "id": "person-0112",
+    "known_for": "Frontier model training leadership at OpenAI",
+    "last_verified": "2026-06-14",
+    "name": "Jakub Pachocki",
+    "region": "US/PL"
+  },
+  {
+    "anchor_affiliation": "Anthropic co-founder, chief science officer",
+    "canonical": false,
+    "category": "Frontier Builders",
+    "id": "person-0113",
+    "known_for": "Scaling laws; Anthropic science direction",
+    "last_verified": "2026-06-14",
+    "name": "Jared Kaplan",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Google chief scientist",
+    "canonical": false,
+    "category": "Frontier Builders",
+    "id": "person-0114",
+    "known_for": "Google's ML infrastructure era; TensorFlow, TPU programme",
+    "last_verified": "2026-06-14",
+    "name": "Jeff Dean",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "NVIDIA founder/CEO",
+    "canonical": false,
+    "category": "Frontier Builders",
+    "id": "person-0115",
+    "known_for": "Built the compute substrate of the AI era",
+    "last_verified": "2026-06-14",
+    "name": "Jensen Huang",
+    "region": "US/TW"
+  },
+  {
+    "anchor_affiliation": "Thinking Machines; ex-OpenAI co-founder",
+    "canonical": false,
+    "category": "Frontier Builders",
+    "id": "person-0116",
+    "known_for": "PPO and RLHF in practice",
+    "last_verified": "2026-06-14",
+    "name": "John Schulman",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Sinovation Ventures; 01.AI founder",
+    "canonical": false,
+    "category": "Frontier Builders",
+    "id": "person-0117",
+    "known_for": "AI Superpowers; China-US ecosystem bridge; 01.AI",
+    "last_verified": "2026-06-14",
+    "name": "Kai-Fu Lee",
+    "region": "CN/TW"
+  },
+  {
+    "anchor_affiliation": "Google DeepMind CTO",
+    "canonical": false,
+    "category": "Frontier Builders",
+    "id": "person-0118",
+    "known_for": "DeepMind research-to-product engine",
+    "last_verified": "2026-06-14",
+    "name": "Koray Kavukcuoglu",
+    "region": "UK/TR"
+  },
+  {
+    "anchor_affiliation": "DeepSeek founder; High-Flyer",
+    "canonical": false,
+    "category": "Frontier Builders",
+    "id": "person-0119",
+    "known_for": "DeepSeek; open frontier models at disruptive cost",
+    "last_verified": "2026-06-14",
+    "name": "Liang Wenfeng",
+    "region": "CN"
+  },
+  {
+    "anchor_affiliation": "AMD CEO",
+    "canonical": false,
+    "category": "Frontier Builders",
+    "id": "person-0120",
+    "known_for": "The credible second source for AI compute",
+    "last_verified": "2026-06-14",
+    "name": "Lisa Su",
+    "region": "US/TW"
+  },
+  {
+    "anchor_affiliation": "Boston Dynamics founder; AI Institute",
+    "canonical": false,
+    "category": "Frontier Builders",
+    "id": "person-0121",
+    "known_for": "Legged robotics from lab to industry",
+    "last_verified": "2026-06-14",
+    "name": "Marc Raibert",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Thinking Machines Lab founder; ex-OpenAI CTO",
+    "canonical": false,
+    "category": "Frontier Builders",
+    "id": "person-0122",
+    "known_for": "Led ChatGPT/GPT-4 product era; new frontier lab",
+    "last_verified": "2026-06-14",
+    "name": "Mira Murati",
+    "region": "US/AL"
+  },
+  {
+    "anchor_affiliation": "Microsoft AI CEO",
+    "canonical": false,
+    "category": "Frontier Builders",
+    "id": "person-0123",
+    "known_for": "DeepMind/Inflection co-founder; The Coming Wave",
+    "last_verified": "2026-06-14",
+    "name": "Mustafa Suleyman",
+    "region": "UK"
+  },
+  {
+    "anchor_affiliation": "Google DeepMind; Transformer co-author",
+    "canonical": false,
+    "category": "Frontier Builders",
+    "id": "person-0124",
+    "known_for": "Transformer co-author; MoE; Character.AI and return to Google",
+    "last_verified": "2026-06-14",
+    "name": "Noam Shazeer",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Google DeepMind",
+    "canonical": false,
+    "category": "Frontier Builders",
+    "id": "person-0125",
+    "known_for": "seq2seq, AlphaStar, Gemini technical leadership",
+    "last_verified": "2026-06-14",
+    "name": "Oriol Vinyals",
+    "region": "UK/ES"
+  },
+  {
+    "anchor_affiliation": "OpenAI CEO",
+    "canonical": false,
+    "category": "Frontier Builders",
+    "id": "person-0126",
+    "known_for": "Scaled OpenAI from lab to consumer platform",
+    "last_verified": "2026-06-14",
+    "name": "Sam Altman",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "DeepMind co-founder, chief AGI scientist",
+    "canonical": false,
+    "category": "Frontier Builders",
+    "id": "person-0127",
+    "known_for": "Coined AGI usage at DeepMind; long-horizon safety",
+    "last_verified": "2026-06-14",
+    "name": "Shane Legg",
+    "region": "UK/NZ"
+  },
+  {
+    "anchor_affiliation": "Zhipu AI; Tsinghua",
+    "canonical": false,
+    "category": "Frontier Builders",
+    "id": "person-0128",
+    "known_for": "GLM model family; Tsinghua-to-industry pipeline",
+    "last_verified": "2026-06-14",
+    "name": "Tang Jie",
+    "region": "CN"
+  },
+  {
+    "anchor_affiliation": "Baidu CTO",
+    "canonical": false,
+    "category": "Frontier Builders",
+    "id": "person-0129",
+    "known_for": "ERNIE; China's first large-scale LLM deployments",
+    "last_verified": "2026-06-14",
+    "name": "Wang Haifeng",
+    "region": "CN"
+  },
+  {
+    "anchor_affiliation": "OpenAI co-founder",
+    "canonical": false,
+    "category": "Frontier Builders",
+    "id": "person-0130",
+    "known_for": "OpenAI co-founder; robotics-to-LLM arc",
+    "last_verified": "2026-06-14",
+    "name": "Wojciech Zaremba",
+    "region": "US/PL"
+  },
+  {
+    "anchor_affiliation": "Moonshot AI co-founder",
+    "canonical": false,
+    "category": "Frontier Builders",
+    "id": "person-0131",
+    "known_for": "Long-context LLMs; Kimi",
+    "last_verified": "2026-06-14",
+    "name": "Yang Zhilin",
+    "region": "CN"
+  },
+  {
+    "anchor_affiliation": "Google DeepMind; GovAI founder",
+    "canonical": false,
+    "category": "Governance & Policy",
+    "id": "person-0132",
+    "known_for": "Founded AI governance as research field (GovAI)",
+    "last_verified": "2026-06-14",
+    "name": "Allan Dafoe",
+    "region": "CA/UK"
+  },
+  {
+    "anchor_affiliation": "IAS; ex-OSTP deputy director",
+    "canonical": false,
+    "category": "Governance & Policy",
+    "id": "person-0133",
+    "known_for": "AI Bill of Rights blueprint",
+    "last_verified": "2026-06-14",
+    "name": "Alondra Nelson",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Columbia Law",
+    "canonical": false,
+    "category": "Governance & Policy",
+    "id": "person-0134",
+    "known_for": "The Brussels Effect; digital-empires framing",
+    "last_verified": "2026-06-14",
+    "name": "Anu Bradford",
+    "region": "FI/US"
+  },
+  {
+    "anchor_affiliation": "ALLAI co-founder",
+    "canonical": false,
+    "category": "Governance & Policy",
+    "id": "person-0135",
+    "known_for": "ALLAI; EU high-level expert group on AI",
+    "last_verified": "2026-06-14",
+    "name": "Catelijne Muller",
+    "region": "NL"
+  },
+  {
+    "anchor_affiliation": "NIST chief AI advisor (role as of 2025; verify)",
+    "canonical": false,
+    "category": "Governance & Policy",
+    "id": "person-0136",
+    "known_for": "NIST AI Risk Management Framework",
+    "last_verified": "2026-06-14",
+    "name": "Elham Tabassi",
+    "region": "US/IR"
+  },
+  {
+    "anchor_affiliation": "MIT; ex-European Commission",
+    "canonical": false,
+    "category": "Governance & Policy",
+    "id": "person-0137",
+    "known_for": "Architect of the EU AI Act text",
+    "last_verified": "2026-06-14",
+    "name": "Gabriele Mazzini",
+    "region": "IT"
+  },
+  {
+    "anchor_affiliation": "Johns Hopkins; ex-Schwartz Reisman director",
+    "canonical": false,
+    "category": "Governance & Policy",
+    "id": "person-0138",
+    "known_for": "Normative infrastructure for AI; regulatory markets",
+    "last_verified": "2026-06-14",
+    "name": "Gillian Hadfield",
+    "region": "CA/US"
+  },
+  {
+    "anchor_affiliation": "CSET Georgetown",
+    "canonical": false,
+    "category": "Governance & Policy",
+    "id": "person-0139",
+    "known_for": "Frontier-lab governance; CSET analysis; OpenAI board episode",
+    "last_verified": "2026-06-14",
+    "name": "Helen Toner",
+    "region": "AU/US"
+  },
+  {
+    "anchor_affiliation": "UK AISI chair; investor",
+    "canonical": false,
+    "category": "Governance & Policy",
+    "id": "person-0140",
+    "known_for": "State of AI report; UK frontier taskforce/AISI chair",
+    "last_verified": "2026-06-14",
+    "name": "Ian Hogarth",
+    "region": "UK"
+  },
+  {
+    "anchor_affiliation": "Anthropic co-founder, policy head",
+    "canonical": false,
+    "category": "Governance & Policy",
+    "id": "person-0141",
+    "known_for": "Import AI; policy from inside a frontier lab",
+    "last_verified": "2026-06-14",
+    "name": "Jack Clark",
+    "region": "UK/US"
+  },
+  {
+    "anchor_affiliation": "George Washington University",
+    "canonical": false,
+    "category": "Governance & Policy",
+    "id": "person-0142",
+    "known_for": "ChinAI; diffusion-centric view of AI power",
+    "last_verified": "2026-06-14",
+    "name": "Jeff Ding",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Stanford HAI/CPC; ex-MEP",
+    "canonical": false,
+    "category": "Governance & Policy",
+    "id": "person-0143",
+    "known_for": "Tech Coup; EU digital policy voice in the US",
+    "last_verified": "2026-06-14",
+    "name": "Marietje Schaake",
+    "region": "NL"
+  },
+  {
+    "anchor_affiliation": "GovAI; IAPS",
+    "canonical": false,
+    "category": "Governance & Policy",
+    "id": "person-0144",
+    "known_for": "Frontier-regulation architecture",
+    "last_verified": "2026-06-14",
+    "name": "Markus Anderljung",
+    "region": "SE/UK"
+  },
+  {
+    "anchor_affiliation": "Carnegie Endowment",
+    "canonical": false,
+    "category": "Governance & Policy",
+    "id": "person-0145",
+    "known_for": "China's AI regulatory system analysis",
+    "last_verified": "2026-06-14",
+    "name": "Matt Sheehan",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Independent policy researcher; ex-OpenAI",
+    "canonical": false,
+    "category": "Governance & Policy",
+    "id": "person-0146",
+    "known_for": "Malicious-use report; AGI readiness critique after OpenAI exit",
+    "last_verified": "2026-06-14",
+    "name": "Miles Brundage",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "AstraZeneca; Enterprise AI Governance newsletter",
+    "canonical": false,
+    "category": "Governance & Policy",
+    "id": "person-0147",
+    "known_for": "Enterprise AI governance curation and frameworks",
+    "last_verified": "2026-06-14",
+    "name": "Oliver Patel",
+    "region": "UK"
+  },
+  {
+    "anchor_affiliation": "CNAS executive VP",
+    "canonical": false,
+    "category": "Governance & Policy",
+    "id": "person-0148",
+    "known_for": "Autonomous weapons; military AI doctrine",
+    "last_verified": "2026-06-14",
+    "name": "Paul Scharre",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Humane Intelligence CEO; ex-Twitter META",
+    "canonical": false,
+    "category": "Governance & Policy",
+    "id": "person-0149",
+    "known_for": "Algorithmic audit practice; red-teaming at scale",
+    "last_verified": "2026-06-14",
+    "name": "Rumman Chowdhury",
+    "region": "US/BD"
+  },
+  {
+    "anchor_affiliation": "New York Times",
+    "canonical": false,
+    "category": "Journalism & Analysis",
+    "id": "person-0150",
+    "known_for": "Genius Makers; deep-learning era chronicle",
+    "last_verified": "2026-06-14",
+    "name": "Cade Metz",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Dwarkesh Podcast",
+    "canonical": false,
+    "category": "Journalism & Analysis",
+    "id": "person-0151",
+    "known_for": "Primary-source long interviews with the frontier; Scaling Era",
+    "last_verified": "2026-06-14",
+    "name": "Dwarkesh Patel",
+    "region": "US/IN"
+  },
+  {
+    "anchor_affiliation": "SemiAnalysis founder",
+    "canonical": false,
+    "category": "Journalism & Analysis",
+    "id": "person-0152",
+    "known_for": "SemiAnalysis; compute supply-chain analysis",
+    "last_verified": "2026-06-14",
+    "name": "Dylan Patel",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Wharton",
+    "canonical": false,
+    "category": "Journalism & Analysis",
+    "id": "person-0153",
+    "known_for": "Co-Intelligence; empirical workplace-AI experiments",
+    "last_verified": "2026-06-14",
+    "name": "Ethan Mollick",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Independent; ex-MIT Tech Review/WSJ",
+    "canonical": false,
+    "category": "Journalism & Analysis",
+    "id": "person-0154",
+    "known_for": "Empire of AI; defining investigative record of OpenAI era",
+    "last_verified": "2026-06-14",
+    "name": "Karen Hao",
+    "region": "US/HK"
+  },
+  {
+    "anchor_affiliation": "New York Times",
+    "canonical": false,
+    "category": "Journalism & Analysis",
+    "id": "person-0155",
+    "known_for": "Clearview exposé; privacy reporting",
+    "last_verified": "2026-06-14",
+    "name": "Kashmir Hill",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Financial Times AI editor",
+    "canonical": false,
+    "category": "Journalism & Analysis",
+    "id": "person-0156",
+    "known_for": "Code Dependent; FT AI editorship",
+    "last_verified": "2026-06-14",
+    "name": "Madhumita Murgia",
+    "region": "UK/IN"
+  },
+  {
+    "anchor_affiliation": "Air Street Capital",
+    "canonical": false,
+    "category": "Journalism & Analysis",
+    "id": "person-0157",
+    "known_for": "State of AI Report",
+    "last_verified": "2026-06-14",
+    "name": "Nathan Benaich",
+    "region": "UK"
+  },
+  {
+    "anchor_affiliation": "Ai2",
+    "canonical": false,
+    "category": "Journalism & Analysis",
+    "id": "person-0158",
+    "known_for": "Interconnects; open post-training analysis",
+    "last_verified": "2026-06-14",
+    "name": "Nathan Lambert",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Bloomberg Opinion",
+    "canonical": false,
+    "category": "Journalism & Analysis",
+    "id": "person-0159",
+    "known_for": "Supremacy; FT Business Book of the Year 2024",
+    "last_verified": "2026-06-14",
+    "name": "Parmy Olson",
+    "region": "US/UK"
+  },
+  {
+    "anchor_affiliation": "Transformer; ex-Tortoise",
+    "canonical": false,
+    "category": "Journalism & Analysis",
+    "id": "person-0160",
+    "known_for": "Transformer newsletter; AI policy reporting",
+    "last_verified": "2026-06-14",
+    "name": "Shakeel Hashim",
+    "region": "UK"
+  },
+  {
+    "anchor_affiliation": "Don't Worry About the Vase",
+    "canonical": false,
+    "category": "Journalism & Analysis",
+    "id": "person-0161",
+    "known_for": "The most thorough weekly synthesis of AI developments",
+    "last_verified": "2026-06-14",
+    "name": "Zvi Mowshowitz",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Open Philanthropy",
+    "canonical": false,
+    "category": "Safety & Alignment",
+    "id": "person-0162",
+    "known_for": "Biological-anchors timelines; AI takeover analysis",
+    "last_verified": "2026-06-14",
+    "name": "Ajeya Cotra",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Google DeepMind AI safety head; UC Berkeley",
+    "canonical": false,
+    "category": "Safety & Alignment",
+    "id": "person-0163",
+    "known_for": "Human-robot interaction; value alignment in practice",
+    "last_verified": "2026-06-14",
+    "name": "Anca Dragan",
+    "region": "US/RO"
+  },
+  {
+    "anchor_affiliation": "METR founder",
+    "canonical": false,
+    "category": "Safety & Alignment",
+    "id": "person-0164",
+    "known_for": "Dangerous-capability evaluations as policy instrument",
+    "last_verified": "2026-06-14",
+    "name": "Beth Barnes",
+    "region": "UK/US"
+  },
+  {
+    "anchor_affiliation": "Anthropic co-founder",
+    "canonical": false,
+    "category": "Safety & Alignment",
+    "id": "person-0165",
+    "known_for": "Founded mechanistic interpretability",
+    "last_verified": "2026-06-14",
+    "name": "Chris Olah",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Conjecture CEO; EleutherAI co-founder",
+    "canonical": false,
+    "category": "Safety & Alignment",
+    "id": "person-0166",
+    "known_for": "Open-source GPT replication turned doom advocacy",
+    "last_verified": "2026-06-14",
+    "name": "Connor Leahy",
+    "region": "DE/UK"
+  },
+  {
+    "anchor_affiliation": "Center for AI Safety director; xAI/Scale advisor",
+    "canonical": false,
+    "category": "Safety & Alignment",
+    "id": "person-0167",
+    "known_for": "ML safety benchmarks; CAIS extinction-risk statement",
+    "last_verified": "2026-06-14",
+    "name": "Dan Hendrycks",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "MIRI co-founder; If Anyone Builds It co-author",
+    "canonical": false,
+    "category": "Safety & Alignment",
+    "id": "person-0168",
+    "known_for": "Founded the alignment problem discourse; doom case",
+    "last_verified": "2026-06-14",
+    "name": "Eliezer Yudkowsky",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Anthropic alignment stress-testing",
+    "canonical": false,
+    "category": "Safety & Alignment",
+    "id": "person-0169",
+    "known_for": "Mesa-optimization; Sleeper Agents",
+    "last_verified": "2026-06-14",
+    "name": "Evan Hubinger",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Anthropic; Open Philanthropy co-founder",
+    "canonical": false,
+    "category": "Safety & Alignment",
+    "id": "person-0170",
+    "known_for": "Most-important-century framing; safety funding architecture",
+    "last_verified": "2026-06-14",
+    "name": "Holden Karnofsky",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "UC Berkeley; Transluce",
+    "canonical": false,
+    "category": "Safety & Alignment",
+    "id": "person-0171",
+    "known_for": "ML robustness and forecasting; measurement-driven safety",
+    "last_verified": "2026-06-14",
+    "name": "Jacob Steinhardt",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Anthropic; ex-OpenAI/DeepMind",
+    "canonical": false,
+    "category": "Safety & Alignment",
+    "id": "person-0172",
+    "known_for": "Led superalignment; public resignations over safety priority",
+    "last_verified": "2026-06-14",
+    "name": "Jan Leike",
+    "region": "DE/US"
+  },
+  {
+    "anchor_affiliation": "MIT; Future of Life Institute president",
+    "canonical": false,
+    "category": "Safety & Alignment",
+    "id": "person-0173",
+    "known_for": "Life 3.0; FLI pause letter and policy campaigns",
+    "last_verified": "2026-06-14",
+    "name": "Max Tegmark",
+    "region": "SE/US"
+  },
+  {
+    "anchor_affiliation": "MIRI president",
+    "canonical": false,
+    "category": "Safety & Alignment",
+    "id": "person-0174",
+    "known_for": "MIRI research leadership; co-author of the 2025 risk bestseller",
+    "last_verified": "2026-06-14",
+    "name": "Nate Soares",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Google DeepMind",
+    "canonical": false,
+    "category": "Safety & Alignment",
+    "id": "person-0175",
+    "known_for": "Mech-interp field-building and training pipeline",
+    "last_verified": "2026-06-14",
+    "name": "Neel Nanda",
+    "region": "UK"
+  },
+  {
+    "anchor_affiliation": "Macrostrategy Research Initiative; ex-FHI",
+    "canonical": false,
+    "category": "Safety & Alignment",
+    "id": "person-0176",
+    "known_for": "Superintelligence; existential-risk framing",
+    "last_verified": "2026-06-14",
+    "name": "Nick Bostrom",
+    "region": "SE/UK"
+  },
+  {
+    "anchor_affiliation": "US CAISI head of safety; ARC founder",
+    "canonical": false,
+    "category": "Safety & Alignment",
+    "id": "person-0177",
+    "known_for": "RLHF origins; alignment research agenda; now in government-adjacent safety",
+    "last_verified": "2026-06-14",
+    "name": "Paul Christiano",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Google DeepMind",
+    "canonical": false,
+    "category": "Safety & Alignment",
+    "id": "person-0178",
+    "known_for": "Alignment Newsletter; DeepMind AGI safety",
+    "last_verified": "2026-06-14",
+    "name": "Rohin Shah",
+    "region": "US/IN"
+  },
+  {
+    "anchor_affiliation": "University of Louisville",
+    "canonical": false,
+    "category": "Safety & Alignment",
+    "id": "person-0179",
+    "known_for": "Uncontrollability thesis",
+    "last_verified": "2026-06-14",
+    "name": "Roman Yampolskiy",
+    "region": "US/LV"
+  },
+  {
+    "anchor_affiliation": "Anthropic; NYU",
+    "canonical": false,
+    "category": "Safety & Alignment",
+    "id": "person-0180",
+    "known_for": "LLM evaluation; safety cases at frontier scale",
+    "last_verified": "2026-06-14",
+    "name": "Sam Bowman",
+    "region": "US"
+  },
+  {
+    "anchor_affiliation": "Aligned AI co-founder; ex-FHI",
+    "canonical": false,
+    "category": "Safety & Alignment",
+    "id": "person-0181",
+    "known_for": "Value extrapolation; safe AI startup research",
+    "last_verified": "2026-06-14",
+    "name": "Stuart Armstrong",
+    "region": "UK/FR"
+  },
+  {
+    "anchor_affiliation": "Oxford",
+    "canonical": false,
+    "category": "Safety & Alignment",
+    "id": "person-0182",
+    "known_for": "The Precipice; existential risk quantification",
+    "last_verified": "2026-06-14",
+    "name": "Toby Ord",
+    "region": "AU/UK"
+  },
+  {
+    "anchor_affiliation": "Google DeepMind; FLI",
+    "canonical": false,
+    "category": "Safety & Alignment",
+    "id": "person-0183",
+    "known_for": "Specification gaming; FLI co-founder",
+    "last_verified": "2026-06-14",
+    "name": "Victoria Krakovna",
+    "region": "CA/RU"
+  }
+]

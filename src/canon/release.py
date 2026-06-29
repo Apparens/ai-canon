@@ -197,7 +197,7 @@ make verify-release    # assert corpus_hash + rankings are bit-identical
 - method_version: `{record['method_version']}`
 - date (metadata, not hashed): {record['date']}
 
-If `make verify-release` reports MISMATCH, the release is defective — file a challenge
+If `make verify-release` reports MISMATCH, the release is defective. File a challenge
 to office@apparens.nl.
 """
 

@@ -1,0 +1,1190 @@
+[
+  {
+    "canonical": false,
+    "category": "AI Infrastructure",
+    "id": "org-0001",
+    "last_verified": "2026-06-14",
+    "name": "Databricks",
+    "region": "US",
+    "what_it_is": "Enterprise data-and-AI platform; MosaicML"
+  },
+  {
+    "canonical": false,
+    "category": "AI Infrastructure",
+    "id": "org-0002",
+    "last_verified": "2026-06-14",
+    "name": "Hugging Face",
+    "region": "US/FR",
+    "what_it_is": "The open-model ecosystem's central platform"
+  },
+  {
+    "canonical": false,
+    "category": "AI Infrastructure",
+    "id": "org-0003",
+    "last_verified": "2026-06-14",
+    "name": "LangChain",
+    "region": "US",
+    "what_it_is": "Agent/orchestration framework ecosystem"
+  },
+  {
+    "canonical": false,
+    "category": "AI Infrastructure",
+    "id": "org-0004",
+    "last_verified": "2026-06-14",
+    "name": "Scale AI",
+    "region": "US",
+    "what_it_is": "Data engine for frontier training; Meta stake"
+  },
+  {
+    "canonical": false,
+    "category": "AI Infrastructure",
+    "id": "org-0005",
+    "last_verified": "2026-06-14",
+    "name": "Surge AI",
+    "region": "US",
+    "what_it_is": "RLHF data labeling at frontier scale"
+  },
+  {
+    "canonical": false,
+    "category": "AI Infrastructure",
+    "id": "org-0006",
+    "last_verified": "2026-06-14",
+    "name": "Together AI",
+    "region": "US",
+    "what_it_is": "Open-model cloud and inference"
+  },
+  {
+    "canonical": false,
+    "category": "AI Infrastructure",
+    "id": "org-0007",
+    "last_verified": "2026-06-14",
+    "name": "Weights & Biases",
+    "region": "US",
+    "what_it_is": "Experiment tracking standard; CoreWeave-owned"
+  },
+  {
+    "canonical": false,
+    "category": "Applied AI",
+    "id": "org-0008",
+    "last_verified": "2026-06-14",
+    "name": "Anduril",
+    "region": "US",
+    "what_it_is": "Autonomous defence systems; Lattice"
+  },
+  {
+    "canonical": false,
+    "category": "Applied AI",
+    "id": "org-0009",
+    "last_verified": "2026-06-14",
+    "name": "Boston Dynamics",
+    "region": "US/KR",
+    "what_it_is": "Legged robotics; Atlas humanoid line"
+  },
+  {
+    "canonical": false,
+    "category": "Applied AI",
+    "id": "org-0010",
+    "last_verified": "2026-06-14",
+    "name": "Cursor (Anysphere)",
+    "region": "US",
+    "what_it_is": "AI-native code editor; fastest-adopted dev tool of the era"
+  },
+  {
+    "canonical": false,
+    "category": "Applied AI",
+    "id": "org-0011",
+    "last_verified": "2026-06-14",
+    "name": "ElevenLabs",
+    "region": "UK/PL",
+    "what_it_is": "Voice synthesis standard"
+  },
+  {
+    "canonical": false,
+    "category": "Applied AI",
+    "id": "org-0012",
+    "last_verified": "2026-06-14",
+    "name": "Figure AI",
+    "region": "US",
+    "what_it_is": "Humanoid robots for labour; Helix VLA models"
+  },
+  {
+    "canonical": false,
+    "category": "Applied AI",
+    "id": "org-0013",
+    "last_verified": "2026-06-14",
+    "name": "Harvey",
+    "region": "US",
+    "what_it_is": "LLMs for elite legal work"
+  },
+  {
+    "canonical": false,
+    "category": "Applied AI",
+    "id": "org-0014",
+    "last_verified": "2026-06-14",
+    "name": "Isomorphic Labs",
+    "region": "UK",
+    "what_it_is": "AlphaFold-derived drug discovery"
+  },
+  {
+    "canonical": false,
+    "category": "Applied AI",
+    "id": "org-0015",
+    "last_verified": "2026-06-14",
+    "name": "Mercor",
+    "region": "US",
+    "what_it_is": "AI-era labour marketplace; expert data"
+  },
+  {
+    "canonical": false,
+    "category": "Applied AI",
+    "id": "org-0016",
+    "last_verified": "2026-06-14",
+    "name": "Midjourney",
+    "region": "US",
+    "what_it_is": "Independent image-generation lab"
+  },
+  {
+    "canonical": false,
+    "category": "Applied AI",
+    "id": "org-0017",
+    "last_verified": "2026-06-14",
+    "name": "Palantir",
+    "region": "US",
+    "what_it_is": "Government and defence AI deployment layer"
+  },
+  {
+    "canonical": false,
+    "category": "Applied AI",
+    "id": "org-0018",
+    "last_verified": "2026-06-14",
+    "name": "Perplexity",
+    "region": "US",
+    "what_it_is": "AI-native search/answer engine"
+  },
+  {
+    "canonical": false,
+    "category": "Applied AI",
+    "id": "org-0019",
+    "last_verified": "2026-06-14",
+    "name": "Physical Intelligence",
+    "region": "US",
+    "what_it_is": "Foundation models for robotics (pi-0)"
+  },
+  {
+    "canonical": false,
+    "category": "Applied AI",
+    "id": "org-0020",
+    "last_verified": "2026-06-14",
+    "name": "Recursion",
+    "region": "US",
+    "what_it_is": "Industrialized ML drug discovery"
+  },
+  {
+    "canonical": false,
+    "category": "Applied AI",
+    "id": "org-0021",
+    "last_verified": "2026-06-14",
+    "name": "Runway",
+    "region": "US",
+    "what_it_is": "Video generation for creative industries"
+  },
+  {
+    "canonical": false,
+    "category": "Applied AI",
+    "id": "org-0022",
+    "last_verified": "2026-06-14",
+    "name": "Sierra",
+    "region": "US",
+    "what_it_is": "Enterprise AI agents (Bret Taylor)"
+  },
+  {
+    "canonical": false,
+    "category": "Applied AI",
+    "id": "org-0023",
+    "last_verified": "2026-06-14",
+    "name": "Tesla",
+    "region": "US",
+    "what_it_is": "FSD; real-world vision-only autonomy bet; Optimus"
+  },
+  {
+    "canonical": false,
+    "category": "Applied AI",
+    "id": "org-0024",
+    "last_verified": "2026-06-14",
+    "name": "Unitree Robotics",
+    "region": "CN",
+    "what_it_is": "Low-cost quadrupeds and humanoids at volume"
+  },
+  {
+    "canonical": false,
+    "category": "Applied AI",
+    "id": "org-0025",
+    "last_verified": "2026-06-14",
+    "name": "Waymo",
+    "region": "US",
+    "what_it_is": "Operating driverless robotaxi service at scale"
+  },
+  {
+    "canonical": false,
+    "category": "Compute & Hardware",
+    "id": "org-0026",
+    "last_verified": "2026-06-14",
+    "name": "AMD",
+    "region": "US",
+    "what_it_is": "Instinct accelerators; the credible second source"
+  },
+  {
+    "canonical": false,
+    "category": "Compute & Hardware",
+    "id": "org-0027",
+    "last_verified": "2026-06-14",
+    "name": "ASML",
+    "region": "NL",
+    "what_it_is": "Sole EUV lithography supplier; Europe's chokepoint asset"
+  },
+  {
+    "canonical": false,
+    "category": "Compute & Hardware",
+    "id": "org-0028",
+    "last_verified": "2026-06-14",
+    "name": "Arm",
+    "region": "UK",
+    "what_it_is": "CPU architecture under every AI datacenter and device"
+  },
+  {
+    "canonical": false,
+    "category": "Compute & Hardware",
+    "id": "org-0029",
+    "last_verified": "2026-06-14",
+    "name": "Broadcom",
+    "region": "US",
+    "what_it_is": "Custom AI ASICs for hyperscalers"
+  },
+  {
+    "canonical": false,
+    "category": "Compute & Hardware",
+    "id": "org-0030",
+    "last_verified": "2026-06-14",
+    "name": "Cerebras",
+    "region": "US",
+    "what_it_is": "Wafer-scale engines; inference speed plays"
+  },
+  {
+    "canonical": false,
+    "category": "Compute & Hardware",
+    "id": "org-0031",
+    "last_verified": "2026-06-14",
+    "name": "CoreWeave",
+    "region": "US",
+    "what_it_is": "GPU-cloud at hyperscale; the neocloud archetype"
+  },
+  {
+    "canonical": false,
+    "category": "Compute & Hardware",
+    "id": "org-0032",
+    "last_verified": "2026-06-14",
+    "name": "Groq",
+    "region": "US",
+    "what_it_is": "LPU inference hardware"
+  },
+  {
+    "canonical": false,
+    "category": "Compute & Hardware",
+    "id": "org-0033",
+    "last_verified": "2026-06-14",
+    "name": "Huawei",
+    "region": "CN",
+    "what_it_is": "Ascend chips; China's sanctioned-but-advancing stack"
+  },
+  {
+    "canonical": false,
+    "category": "Compute & Hardware",
+    "id": "org-0034",
+    "last_verified": "2026-06-14",
+    "name": "Intel",
+    "region": "US",
+    "what_it_is": "Foundry turnaround bet; Gaudi accelerators"
+  },
+  {
+    "canonical": false,
+    "category": "Compute & Hardware",
+    "id": "org-0035",
+    "last_verified": "2026-06-14",
+    "name": "NVIDIA",
+    "region": "US",
+    "what_it_is": "The de facto compute monopoly of the AI era"
+  },
+  {
+    "canonical": false,
+    "category": "Compute & Hardware",
+    "id": "org-0036",
+    "last_verified": "2026-06-14",
+    "name": "SMIC",
+    "region": "CN",
+    "what_it_is": "China's leading foundry under export controls"
+  },
+  {
+    "canonical": false,
+    "category": "Compute & Hardware",
+    "id": "org-0037",
+    "last_verified": "2026-06-14",
+    "name": "TSMC",
+    "region": "TW",
+    "what_it_is": "Fabricates nearly all leading-edge AI chips"
+  },
+  {
+    "canonical": false,
+    "category": "Frontier Labs",
+    "id": "org-0038",
+    "last_verified": "2026-06-14",
+    "name": "AI21 Labs",
+    "region": "IL",
+    "what_it_is": "Jamba models; Israeli NLP lineage"
+  },
+  {
+    "canonical": false,
+    "category": "Frontier Labs",
+    "id": "org-0039",
+    "last_verified": "2026-06-14",
+    "name": "Anthropic",
+    "region": "US",
+    "what_it_is": "Claude; safety-forward frontier lab"
+  },
+  {
+    "canonical": false,
+    "category": "Frontier Labs",
+    "id": "org-0040",
+    "last_verified": "2026-06-14",
+    "name": "Cohere",
+    "region": "CA",
+    "what_it_is": "Enterprise-focused LLMs; Cohere Labs research"
+  },
+  {
+    "canonical": false,
+    "category": "Frontier Labs",
+    "id": "org-0041",
+    "last_verified": "2026-06-14",
+    "name": "Google DeepMind",
+    "region": "UK/US",
+    "what_it_is": "Gemini, AlphaFold; the deepest research bench"
+  },
+  {
+    "canonical": false,
+    "category": "Frontier Labs",
+    "id": "org-0042",
+    "last_verified": "2026-06-14",
+    "name": "Meta AI (FAIR + GenAI)",
+    "region": "US",
+    "what_it_is": "Llama open-weights line; superintelligence reorg"
+  },
+  {
+    "canonical": false,
+    "category": "Frontier Labs",
+    "id": "org-0043",
+    "last_verified": "2026-06-14",
+    "name": "Microsoft AI",
+    "region": "US",
+    "what_it_is": "Copilot consumer AI; in-house MAI models"
+  },
+  {
+    "canonical": false,
+    "category": "Frontier Labs",
+    "id": "org-0044",
+    "last_verified": "2026-06-14",
+    "name": "Mistral AI",
+    "region": "FR",
+    "what_it_is": "Europe's frontier-model bet; open-weight heritage"
+  },
+  {
+    "canonical": false,
+    "category": "Frontier Labs",
+    "id": "org-0045",
+    "last_verified": "2026-06-14",
+    "name": "OpenAI",
+    "region": "US",
+    "what_it_is": "GPT/ChatGPT; the lab that consumerized frontier AI"
+  },
+  {
+    "canonical": false,
+    "category": "Frontier Labs",
+    "id": "org-0046",
+    "last_verified": "2026-06-14",
+    "name": "Safe Superintelligence (SSI)",
+    "region": "US/IL",
+    "what_it_is": "Sutskever's single-product superintelligence lab"
+  },
+  {
+    "canonical": false,
+    "category": "Frontier Labs",
+    "id": "org-0047",
+    "last_verified": "2026-06-14",
+    "name": "Thinking Machines Lab",
+    "region": "US",
+    "what_it_is": "Murati's frontier lab; record seed financing"
+  },
+  {
+    "canonical": false,
+    "category": "Frontier Labs",
+    "id": "org-0048",
+    "last_verified": "2026-06-14",
+    "name": "xAI",
+    "region": "US",
+    "what_it_is": "Grok; compute-aggressive entrant"
+  },
+  {
+    "canonical": false,
+    "category": "Frontier Labs (CN)",
+    "id": "org-0049",
+    "last_verified": "2026-06-14",
+    "name": "01.AI",
+    "region": "CN",
+    "what_it_is": "Yi models; Kai-Fu Lee venture"
+  },
+  {
+    "canonical": false,
+    "category": "Frontier Labs (CN)",
+    "id": "org-0050",
+    "last_verified": "2026-06-14",
+    "name": "Alibaba (Qwen / Tongyi)",
+    "region": "CN",
+    "what_it_is": "Qwen open-weight family; cloud distribution"
+  },
+  {
+    "canonical": false,
+    "category": "Frontier Labs (CN)",
+    "id": "org-0051",
+    "last_verified": "2026-06-14",
+    "name": "Baidu (ERNIE)",
+    "region": "CN",
+    "what_it_is": "ERNIE Bot; earliest mover among CN platforms"
+  },
+  {
+    "canonical": false,
+    "category": "Frontier Labs (CN)",
+    "id": "org-0052",
+    "last_verified": "2026-06-14",
+    "name": "Beijing Academy of AI (BAAI)",
+    "region": "CN",
+    "what_it_is": "Early CN large-model research (WuDao); conference hub"
+  },
+  {
+    "canonical": false,
+    "category": "Frontier Labs (CN)",
+    "id": "org-0053",
+    "last_verified": "2026-06-14",
+    "name": "ByteDance Seed / Doubao",
+    "region": "CN",
+    "what_it_is": "Doubao models; largest CN consumer distribution"
+  },
+  {
+    "canonical": false,
+    "category": "Frontier Labs (CN)",
+    "id": "org-0054",
+    "last_verified": "2026-06-14",
+    "name": "DeepSeek",
+    "region": "CN",
+    "what_it_is": "Open frontier models at disruptive cost; R1 reasoning line"
+  },
+  {
+    "canonical": false,
+    "category": "Frontier Labs (CN)",
+    "id": "org-0055",
+    "last_verified": "2026-06-14",
+    "name": "MiniMax",
+    "region": "CN",
+    "what_it_is": "Multimodal and companion products; HK listing"
+  },
+  {
+    "canonical": false,
+    "category": "Frontier Labs (CN)",
+    "id": "org-0056",
+    "last_verified": "2026-06-14",
+    "name": "Moonshot AI",
+    "region": "CN",
+    "what_it_is": "Kimi long-context models"
+  },
+  {
+    "canonical": false,
+    "category": "Frontier Labs (CN)",
+    "id": "org-0057",
+    "last_verified": "2026-06-14",
+    "name": "Shanghai AI Laboratory",
+    "region": "CN",
+    "what_it_is": "State-backed research lab; InternLM line"
+  },
+  {
+    "canonical": false,
+    "category": "Frontier Labs (CN)",
+    "id": "org-0058",
+    "last_verified": "2026-06-14",
+    "name": "Tencent (Hunyuan)",
+    "region": "CN",
+    "what_it_is": "Hunyuan models; WeChat distribution"
+  },
+  {
+    "canonical": false,
+    "category": "Frontier Labs (CN)",
+    "id": "org-0059",
+    "last_verified": "2026-06-14",
+    "name": "Zhipu AI (Z.ai)",
+    "region": "CN",
+    "what_it_is": "GLM family; Tsinghua lineage"
+  },
+  {
+    "canonical": false,
+    "category": "Frontier Labs (CN)",
+    "id": "org-0060",
+    "last_verified": "2026-06-14",
+    "name": "iFlytek",
+    "region": "CN",
+    "what_it_is": "Speech AI incumbent; Spark models"
+  },
+  {
+    "canonical": false,
+    "category": "Government & IGO",
+    "id": "org-0061",
+    "last_verified": "2026-06-14",
+    "name": "AI Safety Institute (Japan)",
+    "region": "JP",
+    "what_it_is": "Japan's evaluation body under soft-law approach"
+  },
+  {
+    "canonical": false,
+    "category": "Government & IGO",
+    "id": "org-0062",
+    "last_verified": "2026-06-14",
+    "name": "Autoriteit Persoonsgegevens (incl. algoritmetoezicht)",
+    "region": "NL",
+    "what_it_is": "Dutch DPA and algorithm-oversight coordinator"
+  },
+  {
+    "canonical": false,
+    "category": "Government & IGO",
+    "id": "org-0063",
+    "last_verified": "2026-06-14",
+    "name": "BSI (Germany)",
+    "region": "DE",
+    "what_it_is": "Federal cybersecurity office; AI security guidance"
+  },
+  {
+    "canonical": false,
+    "category": "Government & IGO",
+    "id": "org-0064",
+    "last_verified": "2026-06-14",
+    "name": "CAICT",
+    "region": "CN",
+    "what_it_is": "China's AI standards and testing arm under MIIT"
+  },
+  {
+    "canonical": false,
+    "category": "Government & IGO",
+    "id": "org-0065",
+    "last_verified": "2026-06-14",
+    "name": "CNIL",
+    "region": "FR",
+    "what_it_is": "French DPA; leading EU position on AI and data protection"
+  },
+  {
+    "canonical": false,
+    "category": "Government & IGO",
+    "id": "org-0066",
+    "last_verified": "2026-06-14",
+    "name": "Council of Europe",
+    "region": "EU+",
+    "what_it_is": "First binding international AI treaty (Framework Convention)"
+  },
+  {
+    "canonical": false,
+    "category": "Government & IGO",
+    "id": "org-0067",
+    "last_verified": "2026-06-14",
+    "name": "Cyberspace Administration of China (CAC)",
+    "region": "CN",
+    "what_it_is": "Generative-AI measures; algorithm registry"
+  },
+  {
+    "canonical": false,
+    "category": "Government & IGO",
+    "id": "org-0068",
+    "last_verified": "2026-06-14",
+    "name": "EU AI Office",
+    "region": "EU",
+    "what_it_is": "Enforces the AI Act for GPAI models; codes of practice"
+  },
+  {
+    "canonical": false,
+    "category": "Government & IGO",
+    "id": "org-0069",
+    "last_verified": "2026-06-14",
+    "name": "European Commission (DG CNECT)",
+    "region": "EU",
+    "what_it_is": "AI Act implementation; Apply AI / sovereignty packages"
+  },
+  {
+    "canonical": false,
+    "category": "Government & IGO",
+    "id": "org-0070",
+    "last_verified": "2026-06-14",
+    "name": "International Network of AI Safety Institutes",
+    "region": "Global",
+    "what_it_is": "Coordination of national AISIs"
+  },
+  {
+    "canonical": false,
+    "category": "Government & IGO",
+    "id": "org-0071",
+    "last_verified": "2026-06-14",
+    "name": "NIST",
+    "region": "US",
+    "what_it_is": "AI Risk Management Framework; measurement science"
+  },
+  {
+    "canonical": false,
+    "category": "Government & IGO",
+    "id": "org-0072",
+    "last_verified": "2026-06-14",
+    "name": "Nederlandse AI Coalitie / AINed",
+    "region": "NL",
+    "what_it_is": "Dutch public-private AI programme"
+  },
+  {
+    "canonical": false,
+    "category": "Government & IGO",
+    "id": "org-0073",
+    "last_verified": "2026-06-14",
+    "name": "OECD.AI",
+    "region": "Global",
+    "what_it_is": "AI Principles; policy observatory; GPAI integrated"
+  },
+  {
+    "canonical": false,
+    "category": "Government & IGO",
+    "id": "org-0074",
+    "last_verified": "2026-06-14",
+    "name": "Singapore (IMDA / AI Verify Foundation)",
+    "region": "SG",
+    "what_it_is": "AI Verify testing framework; pragmatic governance hub"
+  },
+  {
+    "canonical": false,
+    "category": "Government & IGO",
+    "id": "org-0075",
+    "last_verified": "2026-06-14",
+    "name": "TC260",
+    "region": "CN",
+    "what_it_is": "China's cybersecurity standards committee; GenAI security specs"
+  },
+  {
+    "canonical": false,
+    "category": "Government & IGO",
+    "id": "org-0076",
+    "last_verified": "2026-06-14",
+    "name": "TNO",
+    "region": "NL",
+    "what_it_is": "Dutch applied research; public-sector AI auditing practice"
+  },
+  {
+    "canonical": false,
+    "category": "Government & IGO",
+    "id": "org-0077",
+    "last_verified": "2026-06-14",
+    "name": "UK AI Security Institute (AISI)",
+    "region": "UK",
+    "what_it_is": "First state frontier-model evaluation body"
+  },
+  {
+    "canonical": false,
+    "category": "Government & IGO",
+    "id": "org-0078",
+    "last_verified": "2026-06-14",
+    "name": "UN (Global Dialogue on AI Governance + Scientific Panel)",
+    "region": "Global",
+    "what_it_is": "Post-2024 UN AI governance track"
+  },
+  {
+    "canonical": false,
+    "category": "Government & IGO",
+    "id": "org-0079",
+    "last_verified": "2026-06-14",
+    "name": "UNESCO",
+    "region": "Global",
+    "what_it_is": "Global AI ethics recommendation (193 states)"
+  },
+  {
+    "canonical": false,
+    "category": "Government & IGO",
+    "id": "org-0080",
+    "last_verified": "2026-06-14",
+    "name": "US Center for AI Standards and Innovation (CAISI)",
+    "region": "US",
+    "what_it_is": "US frontier evaluation body (renamed from US AISI 2025)"
+  },
+  {
+    "canonical": false,
+    "category": "Hyperscalers",
+    "id": "org-0081",
+    "last_verified": "2026-06-14",
+    "name": "Amazon / AWS",
+    "region": "US",
+    "what_it_is": "Bedrock; Anthropic investment; Trainium silicon"
+  },
+  {
+    "canonical": false,
+    "category": "Hyperscalers",
+    "id": "org-0082",
+    "last_verified": "2026-06-14",
+    "name": "Apple",
+    "region": "US",
+    "what_it_is": "On-device AI at consumer scale"
+  },
+  {
+    "canonical": false,
+    "category": "Hyperscalers",
+    "id": "org-0083",
+    "last_verified": "2026-06-14",
+    "name": "Google / Google Cloud",
+    "region": "US",
+    "what_it_is": "TPU stack; Gemini distribution"
+  },
+  {
+    "canonical": false,
+    "category": "Hyperscalers",
+    "id": "org-0084",
+    "last_verified": "2026-06-14",
+    "name": "Microsoft / Azure",
+    "region": "US",
+    "what_it_is": "OpenAI partnership; enterprise AI distribution"
+  },
+  {
+    "canonical": false,
+    "category": "Research Institutes",
+    "id": "org-0085",
+    "last_verified": "2026-06-14",
+    "name": "Alan Turing Institute",
+    "region": "UK",
+    "what_it_is": "UK national institute for data science and AI"
+  },
+  {
+    "canonical": false,
+    "category": "Research Institutes",
+    "id": "org-0086",
+    "last_verified": "2026-06-14",
+    "name": "Allen Institute for AI (Ai2)",
+    "region": "US",
+    "what_it_is": "Fully open models (OLMo); nonprofit research"
+  },
+  {
+    "canonical": false,
+    "category": "Research Institutes",
+    "id": "org-0087",
+    "last_verified": "2026-06-14",
+    "name": "CMU School of Computer Science",
+    "region": "US",
+    "what_it_is": "Robotics and ML institutional depth"
+  },
+  {
+    "canonical": false,
+    "category": "Research Institutes",
+    "id": "org-0088",
+    "last_verified": "2026-06-14",
+    "name": "CWI",
+    "region": "NL",
+    "what_it_is": "Dutch national research institute for mathematics and CS"
+  },
+  {
+    "canonical": false,
+    "category": "Research Institutes",
+    "id": "org-0089",
+    "last_verified": "2026-06-14",
+    "name": "ELLIS",
+    "region": "EU",
+    "what_it_is": "European Laboratory for Learning and Intelligent Systems network"
+  },
+  {
+    "canonical": false,
+    "category": "Research Institutes",
+    "id": "org-0090",
+    "last_verified": "2026-06-14",
+    "name": "EleutherAI",
+    "region": "Global",
+    "what_it_is": "Open-source GPT replications; open-science collective"
+  },
+  {
+    "canonical": false,
+    "category": "Research Institutes",
+    "id": "org-0091",
+    "last_verified": "2026-06-14",
+    "name": "Epoch AI",
+    "region": "Global",
+    "what_it_is": "Data and forecasts on compute, models, AI trends"
+  },
+  {
+    "canonical": false,
+    "category": "Research Institutes",
+    "id": "org-0092",
+    "last_verified": "2026-06-14",
+    "name": "INRIA",
+    "region": "FR",
+    "what_it_is": "French national computing research; AI programme"
+  },
+  {
+    "canonical": false,
+    "category": "Research Institutes",
+    "id": "org-0093",
+    "last_verified": "2026-06-14",
+    "name": "KAIST",
+    "region": "KR",
+    "what_it_is": "Korea's leading AI research university"
+  },
+  {
+    "canonical": false,
+    "category": "Research Institutes",
+    "id": "org-0094",
+    "last_verified": "2026-06-14",
+    "name": "MIT CSAIL",
+    "region": "US",
+    "what_it_is": "The largest US academic AI lab"
+  },
+  {
+    "canonical": false,
+    "category": "Research Institutes",
+    "id": "org-0095",
+    "last_verified": "2026-06-14",
+    "name": "Max Planck Institute for Intelligent Systems",
+    "region": "DE",
+    "what_it_is": "Germany's ML research anchor; ELLIS hub"
+  },
+  {
+    "canonical": false,
+    "category": "Research Institutes",
+    "id": "org-0096",
+    "last_verified": "2026-06-14",
+    "name": "Mila",
+    "region": "CA",
+    "what_it_is": "Bengio's institute; the largest academic DL community"
+  },
+  {
+    "canonical": false,
+    "category": "Research Institutes",
+    "id": "org-0097",
+    "last_verified": "2026-06-14",
+    "name": "Oxford / Cambridge AI clusters (incl. Leverhulme CFI)",
+    "region": "UK",
+    "what_it_is": "UK academic AI and AI-futures research"
+  },
+  {
+    "canonical": false,
+    "category": "Research Institutes",
+    "id": "org-0098",
+    "last_verified": "2026-06-14",
+    "name": "Peking University / BIGAI",
+    "region": "CN",
+    "what_it_is": "General-AI research agenda (Song-Chun Zhu)"
+  },
+  {
+    "canonical": false,
+    "category": "Research Institutes",
+    "id": "org-0099",
+    "last_verified": "2026-06-14",
+    "name": "Stanford CRFM",
+    "region": "US",
+    "what_it_is": "Coined foundation models; HELM evaluation"
+  },
+  {
+    "canonical": false,
+    "category": "Research Institutes",
+    "id": "org-0100",
+    "last_verified": "2026-06-14",
+    "name": "Stanford HAI",
+    "region": "US",
+    "what_it_is": "Human-centered AI; the AI Index"
+  },
+  {
+    "canonical": false,
+    "category": "Research Institutes",
+    "id": "org-0101",
+    "last_verified": "2026-06-14",
+    "name": "Tsinghua University (IIIS / AIR)",
+    "region": "CN",
+    "what_it_is": "China's top AI pipeline; Yao Class"
+  },
+  {
+    "canonical": false,
+    "category": "Research Institutes",
+    "id": "org-0102",
+    "last_verified": "2026-06-14",
+    "name": "UC Berkeley BAIR",
+    "region": "US",
+    "what_it_is": "Deep RL and robot learning powerhouse"
+  },
+  {
+    "canonical": false,
+    "category": "Research Institutes",
+    "id": "org-0103",
+    "last_verified": "2026-06-14",
+    "name": "Vector Institute",
+    "region": "CA",
+    "what_it_is": "Toronto's DL institute (Hinton lineage)"
+  },
+  {
+    "canonical": false,
+    "category": "Safety & Audit",
+    "id": "org-0104",
+    "last_verified": "2026-06-14",
+    "name": "AI Incident Database (Responsible AI Collaborative)",
+    "region": "Global",
+    "what_it_is": "Structured registry of AI harms"
+  },
+  {
+    "canonical": false,
+    "category": "Safety & Audit",
+    "id": "org-0105",
+    "last_verified": "2026-06-14",
+    "name": "AI Now Institute",
+    "region": "US",
+    "what_it_is": "Political-economy critique of the AI industry"
+  },
+  {
+    "canonical": false,
+    "category": "Safety & Audit",
+    "id": "org-0106",
+    "last_verified": "2026-06-14",
+    "name": "ALLAI",
+    "region": "NL",
+    "what_it_is": "Dutch responsible-AI advocacy (Muller)"
+  },
+  {
+    "canonical": false,
+    "category": "Safety & Audit",
+    "id": "org-0107",
+    "last_verified": "2026-06-14",
+    "name": "Ada Lovelace Institute",
+    "region": "UK",
+    "what_it_is": "UK public-interest AI policy research"
+  },
+  {
+    "canonical": false,
+    "category": "Safety & Audit",
+    "id": "org-0108",
+    "last_verified": "2026-06-14",
+    "name": "AlgorithmWatch",
+    "region": "DE",
+    "what_it_is": "European algorithmic-accountability watchdog"
+  },
+  {
+    "canonical": false,
+    "category": "Safety & Audit",
+    "id": "org-0109",
+    "last_verified": "2026-06-14",
+    "name": "Algorithmic Justice League",
+    "region": "US",
+    "what_it_is": "Face-recognition audit advocacy (Buolamwini)"
+  },
+  {
+    "canonical": false,
+    "category": "Safety & Audit",
+    "id": "org-0110",
+    "last_verified": "2026-06-14",
+    "name": "Apollo Research",
+    "region": "UK",
+    "what_it_is": "Scheming and deception evaluations"
+  },
+  {
+    "canonical": false,
+    "category": "Safety & Audit",
+    "id": "org-0111",
+    "last_verified": "2026-06-14",
+    "name": "CHAI (UC Berkeley)",
+    "region": "US",
+    "what_it_is": "Provably beneficial AI (Russell)"
+  },
+  {
+    "canonical": false,
+    "category": "Safety & Audit",
+    "id": "org-0112",
+    "last_verified": "2026-06-14",
+    "name": "CSET (Georgetown)",
+    "region": "US",
+    "what_it_is": "Security and emerging-technology analysis; CN translation work"
+  },
+  {
+    "canonical": false,
+    "category": "Safety & Audit",
+    "id": "org-0113",
+    "last_verified": "2026-06-14",
+    "name": "Center for AI Safety (CAIS)",
+    "region": "US",
+    "what_it_is": "Extinction-risk statement; safety benchmarks and compute grants"
+  },
+  {
+    "canonical": false,
+    "category": "Safety & Audit",
+    "id": "org-0114",
+    "last_verified": "2026-06-14",
+    "name": "DAIR",
+    "region": "US/Global",
+    "what_it_is": "Distributed AI research outside big-tech funding (Gebru)"
+  },
+  {
+    "canonical": false,
+    "category": "Safety & Audit",
+    "id": "org-0115",
+    "last_verified": "2026-06-14",
+    "name": "ECP / Platform voor de InformatieSamenleving",
+    "region": "NL",
+    "what_it_is": "Dutch public-private digital-society platform"
+  },
+  {
+    "canonical": false,
+    "category": "Safety & Audit",
+    "id": "org-0116",
+    "last_verified": "2026-06-14",
+    "name": "Electronic Frontier Foundation",
+    "region": "US",
+    "what_it_is": "Digital rights litigation touching AI surveillance"
+  },
+  {
+    "canonical": false,
+    "category": "Safety & Audit",
+    "id": "org-0117",
+    "last_verified": "2026-06-14",
+    "name": "Future of Life Institute",
+    "region": "US/EU",
+    "what_it_is": "Pause letter; policy advocacy; AI safety index"
+  },
+  {
+    "canonical": false,
+    "category": "Safety & Audit",
+    "id": "org-0118",
+    "last_verified": "2026-06-14",
+    "name": "GovAI (Centre for the Governance of AI)",
+    "region": "UK",
+    "what_it_is": "AI governance research pipeline"
+  },
+  {
+    "canonical": false,
+    "category": "Safety & Audit",
+    "id": "org-0119",
+    "last_verified": "2026-06-14",
+    "name": "Humane Intelligence",
+    "region": "US",
+    "what_it_is": "Public red-teaming and algorithmic assessments"
+  },
+  {
+    "canonical": false,
+    "category": "Safety & Audit",
+    "id": "org-0120",
+    "last_verified": "2026-06-14",
+    "name": "METR",
+    "region": "US",
+    "what_it_is": "Dangerous-capability and autonomy evaluations"
+  },
+  {
+    "canonical": false,
+    "category": "Safety & Audit",
+    "id": "org-0121",
+    "last_verified": "2026-06-14",
+    "name": "MIRI",
+    "region": "US",
+    "what_it_is": "Original alignment research org; now advocacy-leaning"
+  },
+  {
+    "canonical": false,
+    "category": "Safety & Audit",
+    "id": "org-0122",
+    "last_verified": "2026-06-14",
+    "name": "Mozilla Foundation",
+    "region": "US/Global",
+    "what_it_is": "Trustworthy-AI programme; open-source advocacy"
+  },
+  {
+    "canonical": false,
+    "category": "Safety & Audit",
+    "id": "org-0123",
+    "last_verified": "2026-06-14",
+    "name": "RAND (Technology and Security Policy)",
+    "region": "US",
+    "what_it_is": "Compute governance and AI national-security analysis"
+  },
+  {
+    "canonical": false,
+    "category": "Safety & Audit",
+    "id": "org-0124",
+    "last_verified": "2026-06-14",
+    "name": "Rathenau Instituut",
+    "region": "NL",
+    "what_it_is": "Dutch technology-assessment body for parliament"
+  },
+  {
+    "canonical": false,
+    "category": "Safety & Audit",
+    "id": "org-0125",
+    "last_verified": "2026-06-14",
+    "name": "Redwood Research",
+    "region": "US",
+    "what_it_is": "AI control research agenda"
+  },
+  {
+    "canonical": false,
+    "category": "Standards & Industry",
+    "id": "org-0126",
+    "last_verified": "2026-06-14",
+    "name": "AI Alliance",
+    "region": "Global",
+    "what_it_is": "IBM/Meta-led open-AI industry coalition"
+  },
+  {
+    "canonical": false,
+    "category": "Standards & Industry",
+    "id": "org-0127",
+    "last_verified": "2026-06-14",
+    "name": "CEN-CENELEC JTC 21",
+    "region": "EU",
+    "what_it_is": "Drafting the harmonized standards under the EU AI Act"
+  },
+  {
+    "canonical": false,
+    "category": "Standards & Industry",
+    "id": "org-0128",
+    "last_verified": "2026-06-14",
+    "name": "Frontier Model Forum",
+    "region": "US",
+    "what_it_is": "Frontier labs' joint safety body"
+  },
+  {
+    "canonical": false,
+    "category": "Standards & Industry",
+    "id": "org-0129",
+    "last_verified": "2026-06-14",
+    "name": "IEEE Standards Association",
+    "region": "Global",
+    "what_it_is": "Ethically-aligned design; 7000-series standards"
+  },
+  {
+    "canonical": false,
+    "category": "Standards & Industry",
+    "id": "org-0130",
+    "last_verified": "2026-06-14",
+    "name": "ISO/IEC JTC 1/SC 42",
+    "region": "Global",
+    "what_it_is": "International AI standards committee (42001 AIMS)"
+  },
+  {
+    "canonical": false,
+    "category": "Standards & Industry",
+    "id": "org-0131",
+    "last_verified": "2026-06-14",
+    "name": "MLCommons",
+    "region": "Global",
+    "what_it_is": "MLPerf benchmarks; AI safety benchmark effort"
+  },
+  {
+    "canonical": false,
+    "category": "Standards & Industry",
+    "id": "org-0132",
+    "last_verified": "2026-06-14",
+    "name": "Partnership on AI",
+    "region": "US",
+    "what_it_is": "Multistakeholder norms body of the pre-LLM era"
+  }
+]

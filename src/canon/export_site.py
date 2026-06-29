@@ -40,13 +40,23 @@ VERSION = "pilot-v0.1"
 
 NAV = [
     ("index.html", "Home"),
+    ("library.html", "Library"),
     ("canon-50.html", "Canon 50"),
     ("papers.html", "Papers"),
+    ("voices.html", "Voices"),
+    ("organizations.html", "Organizations"),
+    ("platforms.html", "Platforms"),
     ("method.html", "Method"),
     ("challenges.html", "Challenges"),
     ("changelog.html", "Changelog"),
     ("data.html", "Data & audit"),
 ]
+
+# The verbatim positioning line (A2) and humility clause (E5), used as-is.
+POSITIONING = ("The AI Canon is a free, method-backed reference library for AI "
+               "knowledge. It ranks texts, not people. It invites correction. It sells nothing.")
+HUMILITY = ("A rank is not a verdict on intrinsic worth. It is a transparent output of "
+            "declared evidence, weights, and missing-data rules at a specific release date.")
 
 _STYLE = """
 :root{--deep:#051C2C;--navy:#0A2540;--mid:#1A3A5C;--white:#fff;--g100:#F5F5F5;
@@ -120,6 +130,18 @@ ol,ul{margin:10px 0 10px 22px}li{margin:6px 0}
 .statgrid .stat span{font-size:.8rem;color:var(--g500)}
 .pill{display:inline-block;background:var(--orange);color:#fff !important;font-size:.85rem;font-weight:600;padding:9px 18px;border-radius:3px;text-decoration:none;margin-top:6px}
 .pill:hover{background:var(--orange-hover);text-decoration:none}
+/* library filter bar + cards */
+.filters{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0;padding:14px 16px;background:var(--g100);border:1px solid var(--g200);border-radius:6px}
+.filters label{font-size:.72rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--g500);display:flex;flex-direction:column;gap:4px}
+.filters select,.filters input{font:inherit;font-size:.85rem;padding:6px 8px;border:1px solid var(--g300);border-radius:4px;background:#fff;color:var(--g700);min-width:150px}
+.count{font-size:.8rem;color:var(--g500);margin:8px 0}
+.entry{border-bottom:1px solid var(--g200);padding:14px 0}
+.entry .t{font-family:"DM Serif Display",serif;font-size:1.1rem;color:var(--deep)}
+.entry .meta{font-size:.8rem;color:var(--g500);margin:3px 0}
+.entry .desc{font-size:.92rem;margin-top:6px}
+.entry .pending{font-size:.85rem;color:var(--g500);font-style:italic;margin-top:6px}
+.badge{display:inline-block;font-size:.62rem;letter-spacing:.04em;text-transform:uppercase;padding:2px 8px;border-radius:20px;border:1px solid var(--g300);color:var(--g500);margin-left:6px}
+.shelf-cat{font-family:"DM Serif Display",serif;font-size:1.25rem;color:var(--deep);margin:30px 0 6px;border-bottom:2px solid var(--orange);display:inline-block;padding-bottom:2px}
 /* footer */
 footer{background:var(--deep);color:rgba(255,255,255,.6);padding:40px 0 34px;margin-top:40px;font-size:.85rem}
 footer .measure{max-width:1080px}
@@ -130,7 +152,10 @@ padding-top:14px;border-top:1px solid rgba(255,255,255,.08);max-width:820px}
 
 
 def esc(x) -> str:
-    return html.escape(str(x if x is not None else ""))
+    # House style: no em-dashes in copy. Normalize at the rendering boundary so
+    # even verbatim seed text (descriptions, significance lines) cannot show one.
+    text = html.escape(str(x if x is not None else ""))
+    return text.replace(" — ", ", ").replace("—", ", ").replace("–", "-")
 
 
 def _nav(active: str, prefix: str) -> str:
@@ -209,7 +234,7 @@ def _teaser_rows(rankings: dict, papers: dict, n: int = 3) -> str:
 def page_home(release: dict, rankings: dict, papers: dict, coverage: dict) -> str:
     teaser = _teaser_rows(rankings, papers)
     body = f"""
-<p class="lead">A free, method-backed reference library for AI knowledge. It ranks <b>texts, not people</b>. It invites correction. It sells nothing.</p>
+<p class="lead">{esc(POSITIONING)}</p>
 
 <h2>Check the math, not the curator.</h2>
 <p>Curation of AI knowledge has collapsed into affiliate listicles and opinion threads while the field itself compounds. The Canon's claim is narrow and testable: knowledge curation can be made <b>auditable, reproducible, and challengeable</b>. Which works belong to the canon of AI is decided by published method and verifiable evidence (citations, library holdings, syllabus adoption, sustained readership), never by taste alone, and never by anything money can buy.</p>
@@ -266,7 +291,8 @@ def page_canon50(release: dict, rankings: dict, papers: dict) -> str:
         "Books carry no harvested metrics yet. Two signals are harvested (all-time citations and "
         "recent-citation momentum); coverage is partial and every gap is declared rather than "
         "zero-filled. A rank is not a verdict on worth. It is a transparent output of declared "
-        "evidence, weights, and missing-data rules at this release date.</p>" % esc(VERSION)
+        "evidence, weights, and missing-data rules at this release date.</p>" % esc(VERSION),
+        f'<p class="note"><b>{esc(HUMILITY)}</b></p>',
     ]
     for scenario in sorted(scn_doc["scenarios"]):
         rows = rankings.get(f"paper__{scenario}", [])
@@ -335,6 +361,7 @@ def page_work(work_id: str, per_scenario: dict, papers: dict) -> str:
         blocks.append("".join(rows))
     subject = f"Challenge rank: {work_id}"
     body = f"mailto:office@apparens.nl?subject={esc(subject)}"
+    blocks.append(f'<p class="note"><b>{esc(HUMILITY)}</b></p>')
     blocks.append(
         f'<p class="note">Disagree with this rank or a number? <a href="{body}">Challenge it</a> '
         "with your evidence. Every challenge gets a public identifier and a published resolution.</p>"
@@ -354,9 +381,10 @@ def page_papers(papers: dict, scored: set) -> str:
         is_scored = pid in scored
         title = (f'<a href="work/{esc(pid)}.html">{esc(p["canonical_title"])}</a>'
                  if is_scored else esc(p["canonical_title"]))
+        sig = f'<div class="meta">{esc(ed["significance"])}</div>' if ed.get("significance") else ""
         ev = '<span class="tag">scored</span>' if is_scored else '<span class="tag miss">no evidence yet</span>'
         rows.append(
-            f'<tr><td class="num">{esc(pid.split("-")[-1])}</td><td>{title}</td>'
+            f'<tr><td class="num">{esc(pid.split("-")[-1])}</td><td>{title}{sig}</td>'
             f'<td class="num">{esc(p.get("year",""))}</td><td>{esc(ed.get("venue",""))}</td><td>{ev}</td></tr>'
         )
     rows.append("</tbody></table>")
@@ -395,6 +423,25 @@ def page_method() -> str:
     body.append(f'<p class="note">Missing-data penalty factor: <b>{esc(scn.get("missing_data_penalty_factor"))}</b>. '
                 f'Normalization: <b>{esc(scn.get("normalization"))}</b>. method_version <b>{esc(METHOD_VERSION)}</b>. '
                 "These are pilot placeholder weights; every change ships with a changelog entry.</p>")
+    body.append("<h2>What each signal means</h2><ul>"
+                "<li><b>citation_count</b>: all-time citations from OpenAlex (CC0). The scale of scholarly impact.</li>"
+                "<li><b>readership_persistence</b>: the number of distinct years a work keeps being cited "
+                "(from OpenAlex counts_by_year). A longevity proxy: a work cited across many years scores "
+                "higher than a one-year spike. It rewards enduring use, not recent volume.</li>"
+                "<li><b>library_holdings</b>, <b>syllabus_adoptions</b>: declared but not yet harvested for "
+                "the pilot (WorldCat / Open Syllabus drops pending). Works are penalized for them by rule, "
+                "never imputed.</li></ul>")
+    body.append("<h2>Declared deferred capabilities</h2>"
+                "<p>The method names these now and does not pretend they are done. Each is deferred openly, "
+                "not silently stubbed:</p><ul>"
+                "<li><b>Per-ecosystem normalization (rule 5)</b>: scoring runs per domain today. Per-language "
+                "normalization activates only once works from more than one ecosystem enter a scored domain. "
+                "Until then the site does not claim worldwide or present-tense multilingual coverage; the "
+                "Chinese spine (28 works) is a declared gap.</li>"
+                "<li><b>A fuller longevity proxy</b>: library holdings over time, edition count, and continued "
+                "availability, to complement readership_persistence.</li>"
+                "<li><b>Book scoring</b>: books are curated and browsable now but not yet scored; the pilot "
+                "ranks papers only.</li></ul>")
     return shell("method.html", "Method statement", "Method", "".join(body))
 
 
@@ -466,6 +513,124 @@ def page_data(release: dict, coverage: dict) -> str:
     return shell("data.html", "Data & audit", "Data & audit", "".join(body))
 
 
+_LIB_FILTER_JS = """
+(function(){
+  var q=document.getElementById('q'),cat=document.getElementById('fcat'),
+      lang=document.getElementById('flang'),src=document.getElementById('fsrc'),
+      cnt=document.getElementById('cnt'),items=[].slice.call(document.querySelectorAll('.entry'));
+  function apply(){
+    var t=(q.value||'').toLowerCase(),c=cat.value,l=lang.value,s=src.value,n=0;
+    items.forEach(function(e){
+      var ok=(!c||e.dataset.cat===c)&&(!l||e.dataset.lang===l)&&(!s||e.dataset.src===s)
+        &&(!t||e.dataset.text.indexOf(t)>-1);
+      e.style.display=ok?'':'none'; if(ok)n++;
+    });
+    cnt.textContent=n+' of '+items.length+' works shown';
+  }
+  [q,cat,lang,src].forEach(function(el){el.addEventListener('input',apply)});
+  apply();
+})();
+"""
+
+
+def page_library(books: list[dict]) -> str:
+    cats = sorted({b["editorial"].get("category", "") for b in books if b["editorial"].get("category")})
+    langs = sorted({b.get("language", "") for b in books if b.get("language")})
+    srcs = sorted({b["editorial"].get("source", "") for b in books if b["editorial"].get("source")})
+
+    def opts(values):
+        return "".join(f'<option value="{esc(v)}">{esc(v)}</option>' for v in values)
+
+    head = (
+        '<p class="note"><b>Seed status means candidacy, not canonical status.</b> Inclusion in '
+        "the seed corpus asserts nothing; it marks a work as a candidate for scoring. Descriptions "
+        "are shown where written and marked pending otherwise, never invented. Books are not yet "
+        "scored (harvesting deferred), so nothing here is ranked.</p>"
+        '<div class="filters">'
+        '<label>Search<input id="q" type="search" placeholder="title or author"></label>'
+        f'<label>Category<select id="fcat"><option value="">All</option>{opts(cats)}</select></label>'
+        f'<label>Language<select id="flang"><option value="">All</option>{opts(langs)}</select></label>'
+        f'<label>Provenance<select id="fsrc"><option value="">All</option>{opts(srcs)}</select></label>'
+        "</div>"
+        f'<p class="count" id="cnt">{len(books)} works</p>'
+    )
+    entries = []
+    for b in sorted(books, key=lambda x: x["id"]):
+        ed = b["editorial"]
+        text = f'{b["canonical_title"]} {ed.get("author","")}'.lower().replace('"', "")
+        flag = ' <span class="badge flag">conflict of interest declared</span>' if b["conflict_flag"] else ""
+        meta = " &middot; ".join(
+            x for x in [esc(ed.get("author", "")), esc(b.get("year", "")), esc(b.get("language", "")),
+                        esc(ed.get("category", ""))] if x
+        )
+        desc = (f'<p class="desc">{esc(ed["description"])}</p>' if ed.get("description")
+                else '<p class="pending">Description pending.</p>')
+        entries.append(
+            f'<div class="entry" data-cat="{esc(ed.get("category",""))}" data-lang="{esc(b.get("language",""))}" '
+            f'data-src="{esc(ed.get("source",""))}" data-text="{esc(text)}">'
+            f'<div class="t">{esc(b["canonical_title"])}{flag}</div>'
+            f'<div class="meta">{meta}<span class="badge">{esc(ed.get("source",""))}</span></div>'
+            f'{desc}</div>'
+        )
+    body = head + "".join(entries) + f"<script>{_LIB_FILTER_JS}</script>"
+    return shell("library.html", "The library, 573 candidate works", "Library", body)
+
+
+def _context_shelf(active, kicker, title, rows, render) -> str:
+    """Render a context shelf grouped by category, alphabetical within category,
+    labelled described-never-ranked. rows: list of dicts; render(row) -> inner HTML."""
+    note = ('<p class="note">These are <b>context entities</b>: described, <b>never ranked</b>. '
+            "They carry no score, by construction. Listed alphabetically within each category, "
+            "with a last-verified date where known.</p>")
+    by_cat: dict[str, list] = {}
+    for r in rows:
+        by_cat.setdefault(r.get("category") or "Uncategorized", []).append(r)
+    out = [note]
+    for cat in sorted(by_cat):
+        out.append(f'<div class="shelf-cat">{esc(cat)}</div>')
+        for r in sorted(by_cat[cat], key=lambda x: (x.get("name") or "").lower()):
+            out.append(f'<div class="entry">{render(r)}</div>')
+    return shell(active, kicker, title, "".join(out))
+
+
+def page_voices(persons: list[dict]) -> str:
+    def render(p):
+        meta = " &middot; ".join(x for x in [esc(p.get("anchor_affiliation", "")), esc(p.get("region", "")),
+                                             (f'verified {esc(p["last_verified"])}' if p.get("last_verified") else "")] if x)
+        kf = f'<p class="desc">{esc(p["known_for"])}</p>' if p.get("known_for") else ""
+        return f'<div class="t">{esc(p["name"])}</div><div class="meta">{meta}</div>{kf}'
+    return _context_shelf("voices.html", "Context shelf, 183 voices, described never ranked", "Voices", persons, render)
+
+
+def page_orgs(orgs: list[dict]) -> str:
+    def render(o):
+        meta = esc(o.get("region", "")) + (f' &middot; verified {esc(o["last_verified"])}' if o.get("last_verified") else "")
+        wi = f'<p class="desc">{esc(o["what_it_is"])}</p>' if o.get("what_it_is") else ""
+        return f'<div class="t">{esc(o["name"])}</div><div class="meta">{meta}</div>{wi}'
+    return _context_shelf("organizations.html", "Context shelf, 132 organizations, described never ranked", "Organizations", orgs, render)
+
+
+def page_platforms(platforms: list[dict]) -> str:
+    def render(p):
+        meta = " &middot; ".join(x for x in [esc(p.get("status", "")),
+                                             (f'verified {esc(p["last_verified"])}' if p.get("last_verified") else "")] if x)
+        wi = f'<p class="desc">{esc(p["what_it_is"])}</p>' if p.get("what_it_is") else ""
+        return f'<div class="t">{esc(p["name"])}</div><div class="meta">{meta}</div>{wi}'
+    return _context_shelf("platforms.html", "Context shelf, 90 platforms, described never ranked", "Platforms", platforms, render)
+
+
+def _write_csv(path: Path, header: list[str], rows: list[list]) -> None:
+    import csv
+    import io
+
+    buf = io.StringIO()
+    w = csv.writer(buf)
+    w.writerow(header)
+    w.writerows(rows)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(buf.getvalue(), encoding="utf-8")
+
+
 def build() -> dict:
     release = _load(RELEASES / VERSION / "release.json")
     rankings = {
@@ -477,12 +642,20 @@ def build() -> dict:
     papers = _papers_index()
     scored = set(breakdowns)
     coverage = _load(RELEASES / VERSION / "coverage.json")
+    books = _load(SEEDS / "books.json")
+    persons = _load(SEEDS / "persons.json")
+    orgs = _load(SEEDS / "orgs.json")
+    platforms = _load(SEEDS / "platforms.json")
 
     _write("index.html", page_home(release, rankings, papers, coverage))
+    _write("library.html", page_library(books))
     _write("canon-50.html", page_canon50(release, rankings, papers))
     for wid, per_scenario in breakdowns.items():
         _write(f"work/{wid}.html", page_work(wid, per_scenario, papers))
     _write("papers.html", page_papers(papers, scored))
+    _write("voices.html", page_voices(persons))
+    _write("organizations.html", page_orgs(orgs))
+    _write("platforms.html", page_platforms(platforms))
     _write("method.html", page_method())
     _write("challenges.html", page_challenges())
     _write("changelog.html", page_changelog())
@@ -493,10 +666,22 @@ def build() -> dict:
     if audit_rel.exists():
         shutil.rmtree(audit_rel)
     shutil.copytree(RELEASES / VERSION, audit_rel)
-    (SITE / "audit" / "seeds").mkdir(parents=True, exist_ok=True)
-    shutil.copy(SEEDS / "papers.json", SITE / "audit" / "seeds" / "papers.json")
+    seeds_out = SITE / "audit" / "seeds"
+    seeds_out.mkdir(parents=True, exist_ok=True)
+    for name in ("papers.json", "books.json", "persons.json", "orgs.json", "platforms.json"):
+        shutil.copy(SEEDS / name, seeds_out / name)
+    # Open CSV mirrors of the corpus (longevity / consumable without the site).
+    _write_csv(seeds_out / "books.csv",
+               ["id", "title", "author", "year", "language", "category", "source", "conflict_flag"],
+               [[b["id"], b["canonical_title"], b["editorial"].get("author", ""), b.get("year", ""),
+                 b.get("language", ""), b["editorial"].get("category", ""),
+                 b["editorial"].get("source", ""), b["conflict_flag"]] for b in books])
+    _write_csv(seeds_out / "papers.csv",
+               ["id", "title", "authors", "year", "venue", "category"],
+               [[p["id"], p["canonical_title"], p["editorial"].get("authors", ""), p.get("year", ""),
+                 p["editorial"].get("venue", ""), p["editorial"].get("category", "")] for p in papers.values()])
 
-    summary = {"pages": 7 + len(breakdowns), "work_pages": len(breakdowns), "version": VERSION}
+    summary = {"pages": 11 + len(breakdowns), "work_pages": len(breakdowns), "version": VERSION}
     print(json.dumps(summary, indent=2))
     return summary
 

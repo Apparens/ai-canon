@@ -13,5 +13,5 @@ make verify-release    # assert corpus_hash + rankings are bit-identical
 - method_version: `0.1-pilot`
 - date (metadata, not hashed): 2026-06-29
 
-If `make verify-release` reports MISMATCH, the release is defective — file a challenge
+If `make verify-release` reports MISMATCH, the release is defective. File a challenge
 to office@apparens.nl.

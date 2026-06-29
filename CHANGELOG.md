@@ -59,6 +59,24 @@ Append-only. Scoring-logic or weight changes must land with an entry here (rule 
   visually consistent and rebuilds from one place. Its Canon-50 teaser is the live top-3.
 - House style: no em-dashes in any site copy (enforced by a test).
 
+### Acceptance audit response (decisions 1 to 6)
+- **Library shipped** (`library.html`): all 573 candidate books, filterable by category / language /
+  provenance, descriptions where written and "Description pending" otherwise, conflict-of-interest flag
+  shown inline, labelled candidacy not canonical. Books are curated and browsable but not yet scored.
+- **Context shelves shipped**: `voices.html` (183), `organizations.html` (132), `platforms.html` (90),
+  grouped by category, alphabetical within category, labelled "described, never ranked" (no score).
+- Nav reordered so the Library leads: the reference library is the primary surface, the ranking is one view.
+- Verbatim positioning line on the home page; verbatim humility clause on the Canon-50 and every per-work
+  page; significance lines added to the papers shelf.
+- Open data: the audit page now offers JSON and CSV for the full corpus (books + papers + context).
+- **Declared deferrals** (stated on the method page, not silently stubbed): per-ecosystem normalization
+  (rule 5) activates only when more than one ecosystem enters a scored domain, so the site makes no
+  worldwide / present-tense multilingual claim and the Chinese spine (28 works) is a declared gap; a fuller
+  longevity proxy (holdings over time, editions, availability); and book scoring. The pilot ranks papers
+  only, behind honest framing, and that scored view passed GATE A.
+- House style enforced at the render boundary: even verbatim seed text shows no em-dashes; a test fails
+  the build on any em-dash in generated HTML.
+
 ### Not yet
 Book metric harvesting (title collisions: deferred), CN verification toward 60-90,
 more harvested metrics (next OpenAlex daily window + WorldCat/Open Syllabus drops),
