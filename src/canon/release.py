@@ -132,7 +132,7 @@ def _divergence(rankings: dict, domains: dict, scenario_names: list) -> dict:
                 "library_holdings / syllabus_adoptions / sustained_readership are "
                 "harvested. This is a declared limitation, not a bug."
                 if identical
-                else "Scenario orderings differ — multi-metric divergence observed."
+                else "Scenario orderings differ: multi-metric divergence observed."
             ),
         }
     return out

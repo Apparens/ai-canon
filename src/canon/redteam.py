@@ -39,7 +39,7 @@ def review(version: str = rel.DEFAULT_VERSION) -> dict:
             "pass" if reproduced else "fail",
             "rebuilt corpus_hash + rankings match the committed release"
             if reproduced
-            else "rebuild does NOT match — release is defective",
+            else "rebuild does NOT match: release is defective",
         )
     )
 
@@ -122,7 +122,7 @@ def review(version: str = rel.DEFAULT_VERSION) -> dict:
             "pass" if declared else "fail",
             f"coverage.json present ({json.loads(coverage_path.read_text())['metrics_total'] if declared else 0} metrics; gaps declared)"
             if declared
-            else "no coverage.json — gaps not declared",
+            else "no coverage.json: gaps not declared",
         )
     )
 
@@ -136,7 +136,7 @@ def review(version: str = rel.DEFAULT_VERSION) -> dict:
         scores = [r["score"] for r in rows]
         if scores != sorted(scores, reverse=True):
             sane = False
-            detail7 = f"{key}: scores not monotonically non-increasing — investigate"
+            detail7 = f"{key}: scores not monotonically non-increasing, investigate"
             break
         if [r["rank"] for r in rows] != list(range(1, len(rows) + 1)):
             sane = False
@@ -152,10 +152,10 @@ def review(version: str = rel.DEFAULT_VERSION) -> dict:
             "scenario_divergence",
             INFO if identical else INFO,
             "declared-limitation" if identical else "observed",
-            "scenarios share an ordering (only citation_count harvested) — declared in release.json; "
+            "scenarios share an ordering (only citation_count harvested), declared in release.json; "
             "the method's divergence claim is NOT yet demonstrated and needs more metrics"
             if identical
-            else "scenario orderings differ — divergence demonstrated",
+            else "scenario orderings differ: divergence demonstrated",
         )
     )
 
@@ -177,7 +177,7 @@ def review(version: str = rel.DEFAULT_VERSION) -> dict:
 def _write_report(summary: dict) -> None:
     REPORTS.mkdir(parents=True, exist_ok=True)
     lines = [
-        f"# Adversarial review — {summary['version']}",
+        f"# Adversarial review: {summary['version']}",
         "",
         f"**GATE A (machinery): {summary['gate_a_machinery']}** "
         f"({summary['blocking_findings']} blocking findings)",
@@ -200,8 +200,8 @@ def _write_report(summary: dict) -> None:
     ]
     if diverged:
         lines += [
-            "Two independent signals are now harvested — all-time `citation_count` and recent-",
-            "momentum `sustained_readership` — and the three weighting scenarios produce **different**",
+            "Two independent signals are now harvested: all-time `citation_count` and recent",
+            "momentum `sustained_readership`, and the three weighting scenarios produce **different**",
             "orderings, so the method's central claim is demonstrated rather than asserted. Coverage is",
             "still partial (a second pass over OpenAlex's daily budget will fill the remaining papers),",
             "and `library_holdings` / `syllabus_adoptions` await WorldCat / Open Syllabus CSV drops;",
@@ -210,7 +210,7 @@ def _write_report(summary: dict) -> None:
     else:
         lines += [
             "Only one signal is harvested, so the scenarios share an ordering and the divergence",
-            "claim is not yet demonstrated — a declared limitation per the master doc's humility rule.",
+            "claim is not yet demonstrated, a declared limitation per the master doc's humility rule.",
         ]
     lines.append("")
     (REPORTS / "red_team_findings.md").write_text("\n".join(lines) + "\n", encoding="utf-8")

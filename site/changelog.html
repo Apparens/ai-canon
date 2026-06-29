@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Changelog — The AI Canon</title>
-<meta name="description" content="The AI Canon — a free, method-backed reference library for AI knowledge.">
+<title>Changelog - The AI Canon</title>
+<meta name="description" content="The AI Canon is a free, method-backed reference library for AI knowledge. It ranks texts, not people.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <style>
@@ -18,7 +18,7 @@ background:var(--white);line-height:1.5;padding-top:86px}
 a{color:var(--orange);text-decoration:none}
 a:hover{color:var(--orange-hover);text-decoration:underline}
 :focus-visible{outline:2px solid var(--orange);outline-offset:2px}
-/* ── fixed two-tier nav ── */
+/* fixed two-tier nav */
 nav.top{position:fixed;top:0;left:0;right:0;z-index:100;background:var(--deep);
 border-bottom:1px solid rgba(255,255,255,.08)}
 nav.top .row1{max-width:1080px;margin:0 auto;padding:0 32px;height:50px;display:flex;
@@ -26,13 +26,14 @@ align-items:center;justify-content:space-between}
 nav.top .brand{display:flex;align-items:center;gap:11px;text-decoration:none}
 nav.top .brand img{height:26px;width:auto}
 nav.top .brand b{color:#fff;font-family:"DM Serif Display",serif;font-weight:400;font-size:18px}
+nav.top .brand:hover{text-decoration:none}
 nav.top .row1 .out{color:var(--orange-dark);font-size:.82rem;text-decoration:none;font-weight:600}
 nav.top .row2{max-width:1080px;margin:0 auto;padding:0 32px;height:38px;display:flex;
 flex-wrap:wrap;align-items:center;gap:22px;border-top:1px solid rgba(255,255,255,.06)}
 nav.top .row2 a{font-size:.82rem;color:rgba(255,255,255,.7);text-decoration:none}
 nav.top .row2 a:hover{color:#fff}
 nav.top .row2 a[aria-current=page]{color:#fff;border-bottom:2px solid var(--orange-dark);padding-bottom:2px}
-/* ── header band ── */
+/* header band */
 header.h{background:var(--white);padding:44px 0 26px;border-bottom:1px solid var(--g200)}
 .overline{font-size:.8rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--orange)}
 h1{font-family:"DM Serif Display",serif;font-weight:400;font-size:clamp(2rem,5vw,3rem);
@@ -40,11 +41,12 @@ line-height:1.1;letter-spacing:-.02em;margin:10px 0;color:var(--deep)}
 h2{font-family:"DM Serif Display",serif;font-weight:400;font-size:1.6rem;line-height:1.25;margin:34px 0 12px;color:var(--deep)}
 h3{font-size:.8rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--orange);margin:24px 0 8px}
 p{margin:10px 0;color:var(--g700)}main{padding:30px 0 70px}
-.lead{font-size:1.125rem;color:var(--g500);line-height:1.7}
-/* ── callout ── */
+.lead{font-size:1.18rem;color:var(--g500);line-height:1.6;max-width:46ch}
+.lead b{color:var(--deep);font-weight:500}
+/* callout */
 .note{background:var(--ice);border-left:3px solid var(--orange);padding:14px 20px;margin:20px 0;font-size:.95rem;color:var(--g700)}
 .note.flag{background:#FCEEE6}
-/* ── tables ── */
+/* tables */
 table{width:100%;border-collapse:collapse;margin:16px 0;font-size:.9rem}
 th{text-align:left;font-size:.7rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;
 color:var(--g500);border-bottom:2px solid var(--navy);padding:9px 10px}
@@ -60,7 +62,22 @@ box-shadow:0 1px 3px rgba(0,0,0,.05);padding:6px 22px 18px}
 .miss{color:var(--g500)}
 .mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.82rem;color:var(--g500)}
 ol,ul{margin:10px 0 10px 22px}li{margin:6px 0}
-/* ── footer ── */
+/* homepage two-column + stats */
+.cols{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--g200);border-radius:6px;overflow:hidden;margin:22px 0}
+.cols>div{padding:22px 24px}
+.cols>div:first-child{border-right:1px solid var(--g200)}
+.cols ul{list-style:none;margin:8px 0 0}
+.cols li{padding:8px 0;border-top:1px solid var(--g200);font-size:.92rem}
+.cols li:first-child{border-top:0}
+.cols .not li{color:var(--g500)}
+@media(max-width:680px){.cols{grid-template-columns:1fr}.cols>div:first-child{border-right:0;border-bottom:1px solid var(--g200)}}
+.statgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:var(--g200);border:1px solid var(--g200);border-radius:6px;overflow:hidden;margin:22px 0}
+.statgrid .stat{background:#fff;padding:18px 16px}
+.statgrid .stat b{display:block;font-family:"DM Serif Display",serif;font-weight:400;font-size:1.8rem;color:var(--deep);line-height:1.05}
+.statgrid .stat span{font-size:.8rem;color:var(--g500)}
+.pill{display:inline-block;background:var(--orange);color:#fff !important;font-size:.85rem;font-weight:600;padding:9px 18px;border-radius:3px;text-decoration:none;margin-top:6px}
+.pill:hover{background:var(--orange-hover);text-decoration:none}
+/* footer */
 footer{background:var(--deep);color:rgba(255,255,255,.6);padding:40px 0 34px;margin-top:40px;font-size:.85rem}
 footer .measure{max-width:1080px}
 footer a{color:rgba(255,255,255,.8)}footer a:hover{color:#fff}
@@ -70,15 +87,15 @@ padding-top:14px;border-top:1px solid rgba(255,255,255,.08);max-width:820px}
 <nav class="top">
   <div class="row1">
     <a class="brand" href="index.html"><img src="apparens-logo-white.png" alt="Apparens" width="510" height="118"><b>The AI Canon</b></a>
-    <a class="out" href="https://apparens.nl">Apparens.nl ↗</a>
+    <a class="out" href="https://apparens.nl">Apparens.nl &#8599;</a>
   </div>
   <div class="row2"><a href="canon-50.html">Canon 50</a><a href="papers.html">Papers</a><a href="method.html">Method</a><a href="challenges.html">Challenges</a><a href="changelog.html" aria-current="page">Changelog</a><a href="data.html">Data &amp; audit</a></div>
 </nav>
 <header class="h"><div class="measure"><span class="overline">Append-only</span><h1>Changelog</h1></div></header>
-<main><div class="measure"><p>Append-only. Scoring-logic or weight changes must land with an entry here (rule 10).</p><h2>seed v0.3 — Stage A skeleton + harvest layer (2026-06-29)</h2><h3>Sprint 1 + CAN-07 — method package &amp; seed import</h3><ul><li>Frozen ontology v0.2 in pydantic v2; context entities have no score field (structural).</li><li>Deterministic, domain-isolated scorer; published missing-data penalty (factor 0.5);</li></ul><p>  weights in `scenarios.yaml` (3 placeholder weightings).</p><ul><li>ER stub: no auto-merge &lt; 0.95; Aggarwal != Nielsen.</li><li>Imported seeds: 573 books / 162 papers / 183 persons / 132 orgs / 90 platforms;</li></ul><p>  250 descriptions; 573 categorized_as + 172 authored_by edges; Trap conflict-flagged.</p><h3>Sprint 2 — harvest layer (CAN-09 / CAN-10 / CAN-12)</h3><ul><li>`data/raw/` write-once store with per-source sha256 manifest (rule 6).</li><li>OpenAlex harvester: live fetch into the write-once cache; metrics derived from the</li></ul><p>  cached snapshot (offline-deterministic); no match / offline =&gt; declared gap, never imputed.</p><ul><li>Manual CSV-drop path (WorldCat / Open Syllabus): each row carries provenance or fails.</li><li>`canon.harvest.assemble`: derives + validates + dedupes metrics (highest confidence wins)</li></ul><p>  into `data/resolved/metrics.json` with a `coverage.json` report.</p><ul><li>Scorer gains `--corpus` mode: ranks real works that have harvested evidence; works</li></ul><p>  without evidence are an honestly-declared coverage gap, not a fabricated zero.</p><h3>Sprint 3 — release builder, audit package, adversarial review (CAN-15/16/17)</h3><ul><li>`canon.release`: frozen release under `data/releases/&lt;version&gt;/` — Top-50 per</li></ul><p>  (domain, scenario), full per-work breakdowns, divergence summary, a `Release`</p><p>  governance record with a deterministic `corpus_hash` (date is metadata, not hashed),</p><p>  coverage.json, and REPRODUCE.md. `--verify` rebuilds and asserts bit-identical (rule 3).</p><ul><li>`canon.redteam`: adversarial-review harness — reproducibility, provenance completeness,</li></ul><p>  domain isolation, no-imputation, conflict-flag surfacing, declared coverage, ranking</p><p>  sanity, divergence honesty → `reports/red_team_findings.md` + a GATE-A verdict.</p><ul><li>**Pilot release `pilot-v0.1`: GATE A PASS (substantive)** — 0 blocking findings; reproducible.</li><li>Second independent signal derived from the SAME cached OpenAlex snapshot (no new network):</li></ul><p>  `sustained_readership` = citations in 2023–2025 (recent momentum), distinct from all-time</p><p>  `citation_count`. Assembled 174 metrics (88 citation_count + 86 sustained_readership).</p><ul><li>With two signals the three scenarios now produce **different orderings** —</li></ul><p>  `scenario_divergence: observed`. The method&#x27;s central claim is demonstrated, not merely asserted.</p><ul><li>Adversarial loop ran the full two iterations: iteration 1 flagged a stale single-metric</li></ul><p>  `ranking_sanity` check (false positive); fixed to assert composite-score monotonicity; iteration 2 clean.</p><ul><li>Still-declared gaps: `library_holdings` / `syllabus_adoptions` await WorldCat / Open Syllabus CSV</li></ul><p>  drops; ~74 papers await the next OpenAlex daily-budget window.</p><h3>Stage C — public site (CAN-21..25)</h3><ul><li>`canon.export_site`: static generator (no framework, no JS deps, no tracker code) emits</li></ul><p>  `site/` from the release JSON + seeds — Canon-50 (3 scenario views), per-work breakdown</p><p>  pages (the trust surface: every metric + provenance + missing-data penalty), papers shelf,</p><p>  method, challenges, changelog, and a downloadable audit package under `site/audit/`.</p><ul><li>The approved homepage (`site/index.html`) is wired to the live pages; its Canon-50 teaser</li></ul><p>  is GENERATED (top-3 injected by the builder, idempotent) so the manifesto never carries</p><p>  hand-typed ranking data that can drift.</p><ul><li>59 pages, 621 internal links (0 broken), verified rendering in-browser. Deploy target:</li></ul><p>  `apparens.nl/ai-canon/` (Cloudflare Pages, static).</p><h3>Not yet</h3><p>Book metric harvesting (title collisions — deferred), CN verification toward 60–90,</p><p>more harvested metrics (next OpenAlex daily window + WorldCat/Open Syllabus drops),</p><p>Zenodo DOI for the method note, deploy to Cloudflare Pages.</p></div></main>
+<main><div class="measure"><p>Append-only. Scoring-logic or weight changes must land with an entry here (rule 10).</p><h2>seed v0.3: Stage A skeleton + harvest layer (2026-06-29)</h2><h3>Sprint 1 + CAN-07: method package &amp; seed import</h3><ul><li>Frozen ontology v0.2 in pydantic v2; context entities have no score field (structural).</li><li>Deterministic, domain-isolated scorer; published missing-data penalty (factor 0.5);</li></ul><p>  weights in `scenarios.yaml` (3 placeholder weightings).</p><ul><li>ER stub: no auto-merge &lt; 0.95; Aggarwal != Nielsen.</li><li>Imported seeds: 573 books / 162 papers / 183 persons / 132 orgs / 90 platforms;</li></ul><p>  250 descriptions; 573 categorized_as + 172 authored_by edges; Trap conflict-flagged.</p><h3>Sprint 2: harvest layer (CAN-09 / CAN-10 / CAN-12)</h3><ul><li>`data/raw/` write-once store with per-source sha256 manifest (rule 6).</li><li>OpenAlex harvester: live fetch into the write-once cache; metrics derived from the</li></ul><p>  cached snapshot (offline-deterministic); no match / offline =&gt; declared gap, never imputed.</p><ul><li>Manual CSV-drop path (WorldCat / Open Syllabus): each row carries provenance or fails.</li><li>`canon.harvest.assemble`: derives + validates + dedupes metrics (highest confidence wins)</li></ul><p>  into `data/resolved/metrics.json` with a `coverage.json` report.</p><ul><li>Scorer gains `--corpus` mode: ranks real works that have harvested evidence; works</li></ul><p>  without evidence are an honestly-declared coverage gap, not a fabricated zero.</p><h3>Sprint 3: release builder, audit package, adversarial review (CAN-15/16/17)</h3><ul><li>`canon.release`: frozen release under `data/releases/&lt;version&gt;/`: Top-50 per</li></ul><p>  (domain, scenario), full per-work breakdowns, divergence summary, a `Release`</p><p>  governance record with a deterministic `corpus_hash` (date is metadata, not hashed),</p><p>  coverage.json, and REPRODUCE.md. `--verify` rebuilds and asserts bit-identical (rule 3).</p><ul><li>`canon.redteam`: adversarial-review harness: reproducibility, provenance completeness,</li></ul><p>  domain isolation, no-imputation, conflict-flag surfacing, declared coverage, ranking</p><p>  sanity, divergence honesty → `reports/red_team_findings.md` + a GATE-A verdict.</p><ul><li>**Pilot release `pilot-v0.1`: GATE A PASS (substantive)**: 0 blocking findings; reproducible.</li><li>Second independent signal derived from the SAME cached OpenAlex snapshot (no new network):</li></ul><p>  `sustained_readership` = citations in 2023-2025 (recent momentum), distinct from all-time</p><p>  `citation_count`. Assembled 174 metrics (88 citation_count + 86 sustained_readership).</p><ul><li>With two signals the three scenarios now produce **different orderings**</li></ul><p>  (`scenario_divergence: observed`). The method&#x27;s central claim is demonstrated, not merely asserted.</p><ul><li>Adversarial loop ran the full two iterations: iteration 1 flagged a stale single-metric</li></ul><p>  `ranking_sanity` check (false positive); fixed to assert composite-score monotonicity; iteration 2 clean.</p><ul><li>Still-declared gaps: `library_holdings` / `syllabus_adoptions` await WorldCat / Open Syllabus CSV</li></ul><p>  drops; ~74 papers await the next OpenAlex daily-budget window.</p><h3>Stage C: public site (CAN-21..25)</h3><ul><li>`canon.export_site`: static generator (no framework, no JS deps, no tracker code) emits</li></ul><p>  `site/` from the release JSON + seeds: Canon-50 (3 scenario views), per-work breakdown</p><p>  pages (the trust surface: every metric + provenance + missing-data penalty), papers shelf,</p><p>  method, challenges, changelog, and a downloadable audit package under `site/audit/`.</p><ul><li>The approved homepage (`site/index.html`) is wired to the live pages; its Canon-50 teaser</li></ul><p>  is GENERATED (top-3 injected by the builder, idempotent) so the manifesto never carries</p><p>  hand-typed ranking data that can drift.</p><ul><li>59 pages, 621 internal links (0 broken), verified rendering in-browser. Deploy target:</li></ul><p>  `apparens.nl/ai-canon/` (Cloudflare Pages, static).</p><h3>Design pass: align to apparens.nl + house style</h3><ul><li>Generated chrome rewritten to mirror `apparens-design-system.css`: deep-blue fixed nav with</li></ul><p>  the white Apparens logo + serif wordmark, white body, orange `#B8430A`, DM Serif + DM Sans.</p><ul><li>The homepage is now GENERATED too (page_home), in the same design, so the whole site is</li></ul><p>  visually consistent and rebuilds from one place. Its Canon-50 teaser is the live top-3.</p><ul><li>House style: no em-dashes in any site copy (enforced by a test).</li></ul><h3>Not yet</h3><p>Book metric harvesting (title collisions: deferred), CN verification toward 60-90,</p><p>more harvested metrics (next OpenAlex daily window + WorldCat/Open Syllabus drops),</p><p>Zenodo DOI for the method note, deploy to Cloudflare Pages.</p></div></main>
 <footer><div class="measure">
-<p>The AI Canon — an <a href="https://apparens.nl">Apparens</a> public research initiative · release <b style="color:#fff;font-weight:600">pilot-v0.1</b> · challenge anything: <a href="mailto:office@apparens.nl">office@apparens.nl</a></p>
+<p>The AI Canon, an <a href="https://apparens.nl">Apparens</a> public research initiative. Release <b style="color:#fff;font-weight:600">pilot-v0.1</b>. Challenge anything: <a href="mailto:office@apparens.nl">office@apparens.nl</a></p>
 <p style="margin-top:6px">Nothing is for sale. Nothing is hidden. Nothing is final.</p>
-<p class="fine">No cookies · No third-party tracking · No ads, affiliates, or sponsored placement — ever. The site is generated statically from the canonical JSON; the only inbound data path is the challenge mailbox.</p>
+<p class="fine">No cookies. No third-party tracking. No ads, affiliates, or sponsored placement, ever. The site is generated statically from the canonical JSON; the only inbound data path is the challenge mailbox.</p>
 </div></footer>
 </body></html>

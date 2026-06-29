@@ -5,7 +5,7 @@
   "divergence": {
     "paper": {
       "identical_ordering_across_scenarios": false,
-      "note": "Scenario orderings differ — multi-metric divergence observed."
+      "note": "Scenario orderings differ: multi-metric divergence observed."
     }
   },
   "method_version": "0.1-pilot",

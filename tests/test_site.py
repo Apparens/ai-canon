@@ -16,13 +16,12 @@ pytestmark = pytest.mark.skipif(
 )
 
 
-def test_build_emits_core_pages_and_work_pages():
+def test_build_emits_home_core_and_work_pages():
     summary = site.build()
-    for name in ("canon-50.html", "papers.html", "method.html", "challenges.html",
-                 "changelog.html", "data.html"):
+    for name in ("index.html", "canon-50.html", "papers.html", "method.html",
+                 "challenges.html", "changelog.html", "data.html"):
         assert (site.SITE / name).exists(), name
     assert summary["work_pages"] > 0
-    assert summary["home_teaser_injected"] is True
 
 
 def test_no_broken_internal_links():
@@ -38,9 +37,15 @@ def test_no_broken_internal_links():
     assert broken == [], broken[:10]
 
 
-def test_home_teaser_is_generated_not_hardcoded():
+def test_home_is_generated_with_live_teaser():
     site.build()
     home = (site.SITE / "index.html").read_text("utf-8")
-    # The marker is preserved (idempotent) and a real work link was injected.
-    assert site._TEASER_MARKER in home
+    # The homepage is generated in the shared design and links a real work page.
     assert re.search(r'work/paper-\d+\.html', home)
+    assert 'class="brand"' in home  # the apparens-style nav
+
+
+def test_no_em_dashes_anywhere_in_site():
+    site.build()
+    offenders = [h.name for h in site.SITE.rglob("*.html") if "—" in h.read_text("utf-8")]
+    assert offenders == [], offenders
