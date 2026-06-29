@@ -76,6 +76,10 @@ Append-only. Scoring-logic or weight changes must land with an entry here (rule 
   only, behind honest framing, and that scored view passed GATE A.
 - House style enforced at the render boundary: even verbatim seed text shows no em-dashes; a test fails
   the build on any em-dash in generated HTML.
+- **Self-contained audit bundle (decision 3):** `canon.release` now emits `audit-bundle.zip`, a
+  byte-deterministic archive carrying the pipeline code, weights, pinned data snapshot, release outputs,
+  and a one-command `reproduce.sh`. Verified: extracted into a clean directory with no repo, it rebuilds
+  the release and reports corpus_hash MATCH. This is what makes the package archival and time-invariant.
 
 ### Not yet
 Book metric harvesting (title collisions: deferred), CN verification toward 60-90,

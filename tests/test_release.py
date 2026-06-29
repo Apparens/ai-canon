@@ -27,6 +27,21 @@ def test_build_then_verify_reproduces():
     assert rel.verify() is True
 
 
+def test_audit_bundle_is_self_contained_and_deterministic():
+    import zipfile
+
+    a = rel.bundle().read_bytes()
+    b = rel.bundle().read_bytes()
+    assert a == b  # byte-identical across builds (fixed timestamps, sorted entries)
+    names = set(zipfile.ZipFile(rel.RELEASES / rel.DEFAULT_VERSION / "audit-bundle.zip").namelist())
+    # carries code, weights, pinned data, reproduce harness
+    assert "src/canon/release.py" in names
+    assert "scenarios.yaml" in names
+    assert "data/resolved/metrics.json" in names
+    assert "reproduce.sh" in names
+    assert any(n.startswith(f"data/releases/{rel.DEFAULT_VERSION}/") for n in names)
+
+
 def test_redteam_gate_a_machinery_passes():
     rel.build()
     summary = redteam.review()

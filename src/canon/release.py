@@ -160,6 +160,7 @@ def build(version: str = DEFAULT_VERSION, date: str = DEFAULT_DATE) -> dict:
             (RESOLVED / "coverage.json").read_text("utf-8"), encoding="utf-8"
         )
     (out_dir / "REPRODUCE.md").write_text(_reproduce_md(payload["release"]), encoding="utf-8")
+    bundle(version)  # self-contained, offline, reproducible audit archive
     print(json.dumps({"built": version, "corpus_hash": payload["corpus_hash"],
                       "rankings": list(payload["rankings"]),
                       "breakdowns": len(payload["breakdowns"])}, indent=2))
@@ -200,6 +201,72 @@ make verify-release    # assert corpus_hash + rankings are bit-identical
 If `make verify-release` reports MISMATCH, the release is defective. File a challenge
 to office@apparens.nl.
 """
+
+
+def bundle(version: str = DEFAULT_VERSION) -> Path:
+    """Write a self-contained, offline, time-invariant audit archive.
+
+    A stranger with only `audit-bundle.zip` can rebuild this release with one
+    command and no network and no repo: it carries the pipeline code, the weights,
+    the pinned data snapshot (seeds + assembled metrics), the release outputs, and
+    a reproduce script. The zip is built deterministically (sorted entries, fixed
+    timestamps) so it is itself reproducible.
+    """
+    import hashlib
+    import zipfile
+
+    rel_dir = RELEASES / version
+    files: dict[str, bytes] = {}
+
+    def add(arcname: str, data: bytes):
+        files[arcname] = data
+
+    # 1. pipeline code
+    src = _ROOT / "src" / "canon"
+    for py in sorted(src.rglob("*.py")):
+        add(f"src/canon/{py.relative_to(src).as_posix()}", py.read_bytes())
+    # 2. weights + 3. pinned data snapshot
+    add("scenarios.yaml", (_ROOT / "scenarios.yaml").read_bytes())
+    for name in ("papers.json", "books.json", "persons.json", "orgs.json", "platforms.json"):
+        add(f"data/seeds/{name}", (_ROOT / "data" / "seeds" / name).read_bytes())
+    for name in ("metrics.json", "coverage.json"):
+        p = RESOLVED / name
+        if p.exists():
+            add(f"data/resolved/{name}", p.read_bytes())
+    # 4. the release outputs being verified (everything except a prior bundle)
+    for f in sorted(rel_dir.rglob("*")):
+        if f.is_file() and f.name != "audit-bundle.zip":
+            add(f"data/releases/{version}/{f.relative_to(rel_dir).as_posix()}", f.read_bytes())
+    # 5. reproduce harness
+    add("requirements.txt", b"pydantic>=2\nopenpyxl\npyyaml\n")
+    add("reproduce.sh",
+        ("#!/usr/bin/env bash\nset -euo pipefail\n"
+         "python3 -m venv .venv\n"
+         '.venv/bin/pip install -q -r requirements.txt\n'
+         f'PYTHONPATH=src .venv/bin/python -m canon.release --verify --version {version}\n'
+         "echo 'If the line above says MATCH, you rebuilt the release exactly.'\n").encode())
+    add("README.md",
+        (f"# The AI Canon audit bundle: {version}\n\n"
+         "Self-contained and offline. Rebuild this release and verify it is bit-identical:\n\n"
+         "    bash reproduce.sh\n\n"
+         "Contents: the pipeline code (src/canon), the weights (scenarios.yaml), the pinned data\n"
+         "snapshot (data/seeds + data/resolved), and the release outputs (data/releases). No network,\n"
+         "no external repo, no time dependence. A MISMATCH means the release is defective.\n").encode())
+    # manifest of sha256 over every payload file
+    manifest = "".join(
+        f"{hashlib.sha256(files[k]).hexdigest()}  {k}\n" for k in sorted(files)
+    )
+    add("MANIFEST.sha256", manifest.encode())
+
+    out = rel_dir / "audit-bundle.zip"
+    with zipfile.ZipFile(out, "w", compression=zipfile.ZIP_DEFLATED) as z:
+        for arcname in sorted(files):
+            info = zipfile.ZipInfo(arcname, date_time=(2026, 6, 29, 0, 0, 0))
+            info.compress_type = zipfile.ZIP_DEFLATED
+            info.external_attr = 0o644 << 16
+            z.writestr(info, files[arcname])
+    print(f"bundle {version}: {out.relative_to(_ROOT)} ({len(files)} files)")
+    return out
 
 
 def _main(argv: list[str] | None = None) -> int:

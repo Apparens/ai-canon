@@ -499,6 +499,9 @@ def page_data(release: dict, coverage: dict) -> str:
         f'({", ".join(f"{esc(k)}: {esc(v)}" for k,v in coverage.get("by_metric_name",{}).items())}); '
         f'declared gaps: {esc(coverage.get("openalex_gaps"))}.</p>',
         "<h2>Downloads</h2><ul>"
+        f'<li><a href="audit/{esc(VERSION)}/audit-bundle.zip"><b>audit-bundle.zip</b></a>, the self-contained '
+        "offline package: pipeline code, weights, pinned data, release outputs, and a one-command "
+        "reproduce script. Rebuild this release with no repo and no network.</li>"
         f'<li><a href="audit/{esc(VERSION)}/release.json">release.json</a>, the governance record</li>'
         f'<li><a href="audit/{esc(VERSION)}/coverage.json">coverage.json</a>, declared gaps</li>'
         f'<li><a href="audit/{esc(VERSION)}/rankings/">rankings/</a>, Top-50 per scenario</li>'
