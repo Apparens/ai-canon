@@ -172,6 +172,7 @@ def import_orgs() -> list[dict]:
             name=str(r["Name"]).strip(),
             category=str(r.get("Category") or "").strip() or None,
             what_it_is=str(r.get("What it is") or "").strip() or None,
+            source_url=str(r.get("Source") or "").strip() or None,
             region=str(r.get("Region") or "").strip() or None,
             last_verified=SEED_DATE,
         )

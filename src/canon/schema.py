@@ -98,6 +98,7 @@ class Organization(ContextEntity):
     name: str
     category: Optional[str] = None
     what_it_is: Optional[str] = None
+    source_url: Optional[str] = None  # checkable provenance (official About page)
     region: Optional[str] = None
     last_verified: Optional[date] = None
 

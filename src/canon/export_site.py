@@ -705,7 +705,9 @@ def page_orgs(orgs: list[dict]) -> str:
     def render(o):
         meta = esc(o.get("region", "")) + (f' &middot; verified {esc(o["last_verified"])}' if o.get("last_verified") else "")
         wi = f'<p class="desc">{esc(o["what_it_is"])}</p>' if o.get("what_it_is") else ""
-        return f'<div class="t">{esc(o["name"])}</div><div class="meta">{meta}</div>{wi}'
+        src = (f'<p class="src"><a href="{safe_url(o["source_url"])}" target="_blank" '
+               f'rel="noopener noreferrer nofollow">about &#8599;</a></p>') if o.get("source_url") else ""
+        return f'<div class="t">{esc(o["name"])}</div><div class="meta">{meta}</div>{wi}{src}'
     return _context_shelf("organizations.html", "Context shelf, 133 organizations, described never ranked", "Organizations", orgs, render)
 
 

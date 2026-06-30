@@ -6,6 +6,7 @@
     "last_verified": "2026-06-14",
     "name": "Databricks",
     "region": "US",
+    "source_url": "https://www.databricks.com/company/about-us",
     "what_it_is": "Enterprise data-and-AI platform; MosaicML"
   },
   {
@@ -15,6 +16,7 @@
     "last_verified": "2026-06-14",
     "name": "Hugging Face",
     "region": "US/FR",
+    "source_url": "https://huggingface.co/huggingface",
     "what_it_is": "The open-model ecosystem's central platform"
   },
   {
@@ -24,6 +26,7 @@
     "last_verified": "2026-06-14",
     "name": "LangChain",
     "region": "US",
+    "source_url": "https://www.langchain.com/about",
     "what_it_is": "Agent/orchestration framework ecosystem"
   },
   {
@@ -33,6 +36,7 @@
     "last_verified": "2026-06-14",
     "name": "Scale AI",
     "region": "US",
+    "source_url": "https://scale.com/about",
     "what_it_is": "Data engine for frontier training; Meta stake"
   },
   {
@@ -42,6 +46,7 @@
     "last_verified": "2026-06-14",
     "name": "Surge AI",
     "region": "US",
+    "source_url": "https://surgehq.ai/",
     "what_it_is": "RLHF data labeling at frontier scale"
   },
   {
@@ -51,6 +56,7 @@
     "last_verified": "2026-06-14",
     "name": "Together AI",
     "region": "US",
+    "source_url": "https://www.together.ai/about",
     "what_it_is": "Open-model cloud and inference"
   },
   {
@@ -60,6 +66,7 @@
     "last_verified": "2026-06-14",
     "name": "Weights & Biases",
     "region": "US",
+    "source_url": "https://wandb.ai/site/company/about-us/",
     "what_it_is": "Experiment tracking standard; CoreWeave-owned"
   },
   {
@@ -69,6 +76,7 @@
     "last_verified": "2026-06-14",
     "name": "Anduril",
     "region": "US",
+    "source_url": "https://www.anduril.com/mission",
     "what_it_is": "Autonomous defence systems; Lattice"
   },
   {
@@ -78,6 +86,7 @@
     "last_verified": "2026-06-14",
     "name": "Boston Dynamics",
     "region": "US/KR",
+    "source_url": "https://bostondynamics.com/about/",
     "what_it_is": "Legged robotics; Atlas humanoid line"
   },
   {
@@ -87,6 +96,7 @@
     "last_verified": "2026-06-14",
     "name": "Cursor (Anysphere)",
     "region": "US",
+    "source_url": "https://www.cursor.com/about",
     "what_it_is": "AI-native code editor; fastest-adopted dev tool of the era"
   },
   {
@@ -96,6 +106,7 @@
     "last_verified": "2026-06-14",
     "name": "ElevenLabs",
     "region": "UK/PL",
+    "source_url": "https://elevenlabs.io/about",
     "what_it_is": "Voice synthesis standard"
   },
   {
@@ -105,6 +116,7 @@
     "last_verified": "2026-06-14",
     "name": "Figure AI",
     "region": "US",
+    "source_url": "https://www.figure.ai/company",
     "what_it_is": "Humanoid robots for labour; Helix VLA models"
   },
   {
@@ -114,6 +126,7 @@
     "last_verified": "2026-06-14",
     "name": "Harvey",
     "region": "US",
+    "source_url": "https://www.harvey.ai/company",
     "what_it_is": "LLMs for elite legal work"
   },
   {
@@ -123,6 +136,7 @@
     "last_verified": "2026-06-14",
     "name": "Isomorphic Labs",
     "region": "UK",
+    "source_url": "https://www.isomorphiclabs.com/",
     "what_it_is": "AlphaFold-derived drug discovery"
   },
   {
@@ -132,6 +146,7 @@
     "last_verified": "2026-06-14",
     "name": "Mercor",
     "region": "US",
+    "source_url": "https://www.mercor.com/mission/",
     "what_it_is": "AI-era labour marketplace; expert data"
   },
   {
@@ -141,6 +156,7 @@
     "last_verified": "2026-06-14",
     "name": "Midjourney",
     "region": "US",
+    "source_url": "https://www.midjourney.com/home",
     "what_it_is": "Independent image-generation lab"
   },
   {
@@ -150,6 +166,7 @@
     "last_verified": "2026-06-14",
     "name": "Palantir",
     "region": "US",
+    "source_url": "https://www.palantir.com/about/",
     "what_it_is": "Government and defence AI deployment layer"
   },
   {
@@ -159,6 +176,7 @@
     "last_verified": "2026-06-14",
     "name": "Perplexity",
     "region": "US",
+    "source_url": "https://www.perplexity.ai/hub/about",
     "what_it_is": "AI-native search/answer engine"
   },
   {
@@ -168,6 +186,7 @@
     "last_verified": "2026-06-14",
     "name": "Physical Intelligence",
     "region": "US",
+    "source_url": "https://www.pi.website/",
     "what_it_is": "Foundation models for robotics (pi-0)"
   },
   {
@@ -177,6 +196,7 @@
     "last_verified": "2026-06-14",
     "name": "Recursion",
     "region": "US",
+    "source_url": "https://www.recursion.com/our-story",
     "what_it_is": "Industrialized ML drug discovery"
   },
   {
@@ -186,6 +206,7 @@
     "last_verified": "2026-06-14",
     "name": "Runway",
     "region": "US",
+    "source_url": "https://runwayml.com/about",
     "what_it_is": "Video generation for creative industries"
   },
   {
@@ -195,6 +216,7 @@
     "last_verified": "2026-06-14",
     "name": "Sierra",
     "region": "US",
+    "source_url": "https://sierra.ai/about",
     "what_it_is": "Enterprise AI agents (Bret Taylor)"
   },
   {
@@ -204,6 +226,7 @@
     "last_verified": "2026-06-14",
     "name": "Tesla",
     "region": "US",
+    "source_url": "https://www.tesla.com/about",
     "what_it_is": "FSD; real-world vision-only autonomy bet; Optimus"
   },
   {
@@ -213,6 +236,7 @@
     "last_verified": "2026-06-14",
     "name": "Unitree Robotics",
     "region": "CN",
+    "source_url": "https://www.unitree.com/about",
     "what_it_is": "Low-cost quadrupeds and humanoids at volume"
   },
   {
@@ -222,6 +246,7 @@
     "last_verified": "2026-06-14",
     "name": "Waymo",
     "region": "US",
+    "source_url": "https://waymo.com/about/",
     "what_it_is": "Operating driverless robotaxi service at scale"
   },
   {
@@ -231,6 +256,7 @@
     "last_verified": "2026-06-14",
     "name": "AMD",
     "region": "US",
+    "source_url": "https://www.amd.com/en/corporate.html",
     "what_it_is": "Instinct accelerators; the credible second source"
   },
   {
@@ -240,6 +266,7 @@
     "last_verified": "2026-06-14",
     "name": "ASML",
     "region": "NL",
+    "source_url": "https://www.asml.com/en/company",
     "what_it_is": "Sole EUV lithography supplier; Europe's chokepoint asset"
   },
   {
@@ -249,6 +276,7 @@
     "last_verified": "2026-06-14",
     "name": "Arm",
     "region": "UK",
+    "source_url": "https://www.arm.com/company",
     "what_it_is": "CPU architecture under every AI datacenter and device"
   },
   {
@@ -258,6 +286,7 @@
     "last_verified": "2026-06-14",
     "name": "Broadcom",
     "region": "US",
+    "source_url": "https://www.broadcom.com/company/about-us",
     "what_it_is": "Custom AI ASICs for hyperscalers"
   },
   {
@@ -267,6 +296,7 @@
     "last_verified": "2026-06-14",
     "name": "Cerebras",
     "region": "US",
+    "source_url": "https://www.cerebras.ai/company",
     "what_it_is": "Wafer-scale engines; inference speed plays"
   },
   {
@@ -276,6 +306,7 @@
     "last_verified": "2026-06-14",
     "name": "CoreWeave",
     "region": "US",
+    "source_url": "https://www.coreweave.com/about-us",
     "what_it_is": "GPU-cloud at hyperscale; the neocloud archetype"
   },
   {
@@ -285,6 +316,7 @@
     "last_verified": "2026-06-14",
     "name": "Groq",
     "region": "US",
+    "source_url": "https://groq.com/",
     "what_it_is": "LPU inference hardware"
   },
   {
@@ -294,6 +326,7 @@
     "last_verified": "2026-06-14",
     "name": "Huawei",
     "region": "CN",
+    "source_url": "https://www.huawei.com/en/corporate-information",
     "what_it_is": "Ascend chips; China's sanctioned-but-advancing stack"
   },
   {
@@ -303,6 +336,7 @@
     "last_verified": "2026-06-14",
     "name": "Intel",
     "region": "US",
+    "source_url": "https://www.intel.com/content/www/us/en/company-overview/company-overview.html",
     "what_it_is": "Foundry turnaround bet; Gaudi accelerators"
   },
   {
@@ -312,6 +346,7 @@
     "last_verified": "2026-06-14",
     "name": "NVIDIA",
     "region": "US",
+    "source_url": "https://www.nvidia.com/en-us/about-nvidia/",
     "what_it_is": "The de facto compute monopoly of the AI era"
   },
   {
@@ -321,6 +356,7 @@
     "last_verified": "2026-06-14",
     "name": "SMIC",
     "region": "CN",
+    "source_url": "https://www.smics.com/en/site/about_summary",
     "what_it_is": "China's leading foundry under export controls"
   },
   {
@@ -330,6 +366,7 @@
     "last_verified": "2026-06-14",
     "name": "TSMC",
     "region": "TW",
+    "source_url": "https://www.tsmc.com/english/aboutTSMC/company_profile",
     "what_it_is": "Fabricates nearly all leading-edge AI chips"
   },
   {
@@ -339,6 +376,7 @@
     "last_verified": "2026-06-14",
     "name": "AI21 Labs",
     "region": "IL",
+    "source_url": "https://www.ai21.com/about/",
     "what_it_is": "Jamba models; Israeli NLP lineage"
   },
   {
@@ -348,6 +386,7 @@
     "last_verified": "2026-06-14",
     "name": "Anthropic",
     "region": "US",
+    "source_url": "https://www.anthropic.com/company",
     "what_it_is": "Claude; safety-forward frontier lab"
   },
   {
@@ -357,6 +396,7 @@
     "last_verified": "2026-06-14",
     "name": "Cohere",
     "region": "CA",
+    "source_url": "https://cohere.com/about",
     "what_it_is": "Enterprise-focused LLMs; Cohere Labs research"
   },
   {
@@ -366,6 +406,7 @@
     "last_verified": "2026-06-14",
     "name": "Google DeepMind",
     "region": "UK/US",
+    "source_url": "https://deepmind.google/about/",
     "what_it_is": "Gemini, AlphaFold; the deepest research bench"
   },
   {
@@ -375,6 +416,7 @@
     "last_verified": "2026-06-14",
     "name": "Meta AI (FAIR + GenAI)",
     "region": "US",
+    "source_url": "https://ai.meta.com/about/",
     "what_it_is": "Llama open-weights line; superintelligence reorg"
   },
   {
@@ -384,6 +426,7 @@
     "last_verified": "2026-06-14",
     "name": "Microsoft AI",
     "region": "US",
+    "source_url": "https://microsoft.ai/about/",
     "what_it_is": "Copilot consumer AI; in-house MAI models"
   },
   {
@@ -393,6 +436,7 @@
     "last_verified": "2026-06-14",
     "name": "Mistral AI",
     "region": "FR",
+    "source_url": "https://mistral.ai/about",
     "what_it_is": "Europe's frontier-model bet; open-weight heritage"
   },
   {
@@ -402,6 +446,7 @@
     "last_verified": "2026-06-14",
     "name": "OpenAI",
     "region": "US",
+    "source_url": "https://openai.com/about/",
     "what_it_is": "GPT/ChatGPT; the lab that consumerized frontier AI"
   },
   {
@@ -411,6 +456,7 @@
     "last_verified": "2026-06-14",
     "name": "Safe Superintelligence (SSI)",
     "region": "US/IL",
+    "source_url": "https://ssi.inc/",
     "what_it_is": "Sutskever's single-product superintelligence lab"
   },
   {
@@ -420,6 +466,7 @@
     "last_verified": "2026-06-14",
     "name": "Thinking Machines Lab",
     "region": "US",
+    "source_url": "https://thinkingmachines.ai/",
     "what_it_is": "Murati's frontier lab; record seed financing"
   },
   {
@@ -429,6 +476,7 @@
     "last_verified": "2026-06-14",
     "name": "xAI",
     "region": "US",
+    "source_url": "https://x.ai/about",
     "what_it_is": "Grok; compute-aggressive entrant"
   },
   {
@@ -438,6 +486,7 @@
     "last_verified": "2026-06-14",
     "name": "01.AI",
     "region": "CN",
+    "source_url": "https://www.01.ai/#about-us",
     "what_it_is": "Yi models; Kai-Fu Lee venture"
   },
   {
@@ -447,6 +496,7 @@
     "last_verified": "2026-06-14",
     "name": "Alibaba (Qwen / Tongyi)",
     "region": "CN",
+    "source_url": "https://qwen.ai/home",
     "what_it_is": "Qwen open-weight family; cloud distribution"
   },
   {
@@ -456,6 +506,7 @@
     "last_verified": "2026-06-14",
     "name": "Baidu (ERNIE)",
     "region": "CN",
+    "source_url": "https://home.baidu.com/",
     "what_it_is": "ERNIE Bot; earliest mover among CN platforms"
   },
   {
@@ -465,6 +516,7 @@
     "last_verified": "2026-06-14",
     "name": "Beijing Academy of AI (BAAI)",
     "region": "CN",
+    "source_url": "https://www.baai.ac.cn/en",
     "what_it_is": "Early CN large-model research (WuDao); conference hub"
   },
   {
@@ -474,6 +526,7 @@
     "last_verified": "2026-06-14",
     "name": "ByteDance Seed / Doubao",
     "region": "CN",
+    "source_url": "https://seed.bytedance.com/en/",
     "what_it_is": "Doubao models; largest CN consumer distribution"
   },
   {
@@ -483,6 +536,7 @@
     "last_verified": "2026-06-14",
     "name": "DeepSeek",
     "region": "CN",
+    "source_url": "https://www.deepseek.com/",
     "what_it_is": "Open frontier models at disruptive cost; R1 reasoning line"
   },
   {
@@ -492,6 +546,7 @@
     "last_verified": "2026-06-14",
     "name": "MiniMax",
     "region": "CN",
+    "source_url": "https://www.minimax.io/about",
     "what_it_is": "Multimodal and companion products; HK listing"
   },
   {
@@ -501,6 +556,7 @@
     "last_verified": "2026-06-14",
     "name": "Moonshot AI",
     "region": "CN",
+    "source_url": "https://www.moonshot.ai/",
     "what_it_is": "Kimi long-context models"
   },
   {
@@ -510,6 +566,7 @@
     "last_verified": "2026-06-14",
     "name": "Shanghai AI Laboratory",
     "region": "CN",
+    "source_url": "https://www.shlab.org.cn/aboutus",
     "what_it_is": "State-backed research lab; InternLM line"
   },
   {
@@ -519,6 +576,7 @@
     "last_verified": "2026-06-14",
     "name": "Tencent (Hunyuan)",
     "region": "CN",
+    "source_url": "https://hunyuan.tencent.com/",
     "what_it_is": "Hunyuan models; WeChat distribution"
   },
   {
@@ -528,6 +586,7 @@
     "last_verified": "2026-06-14",
     "name": "Zhipu AI (Z.ai)",
     "region": "CN",
+    "source_url": "https://www.zhipuai.cn/en",
     "what_it_is": "GLM family; Tsinghua lineage"
   },
   {
@@ -537,6 +596,7 @@
     "last_verified": "2026-06-14",
     "name": "iFlytek",
     "region": "CN",
+    "source_url": "https://global.iflytek.com/about-us/",
     "what_it_is": "Speech AI incumbent; Spark models"
   },
   {
@@ -546,6 +606,7 @@
     "last_verified": "2026-06-14",
     "name": "AI Safety Institute (Japan)",
     "region": "JP",
+    "source_url": "https://aisi.go.jp/",
     "what_it_is": "Japan's evaluation body under soft-law approach"
   },
   {
@@ -555,6 +616,7 @@
     "last_verified": "2026-06-14",
     "name": "Autoriteit Persoonsgegevens (incl. algoritmetoezicht)",
     "region": "NL",
+    "source_url": "https://www.autoriteitpersoonsgegevens.nl/en/about-the-ap",
     "what_it_is": "Dutch DPA and algorithm-oversight coordinator"
   },
   {
@@ -564,6 +626,7 @@
     "last_verified": "2026-06-14",
     "name": "BSI (Germany)",
     "region": "DE",
+    "source_url": "https://www.bsi.bund.de/EN/Home/home_node.html",
     "what_it_is": "Federal cybersecurity office; AI security guidance"
   },
   {
@@ -573,6 +636,7 @@
     "last_verified": "2026-06-14",
     "name": "CAICT",
     "region": "CN",
+    "source_url": "http://www.caict.ac.cn/english/about/",
     "what_it_is": "China's AI standards and testing arm under MIIT"
   },
   {
@@ -582,6 +646,7 @@
     "last_verified": "2026-06-14",
     "name": "CNIL",
     "region": "FR",
+    "source_url": "https://www.cnil.fr/en/cnil/cnils-missions",
     "what_it_is": "French DPA; leading EU position on AI and data protection"
   },
   {
@@ -591,6 +656,7 @@
     "last_verified": "2026-06-14",
     "name": "Council of Europe",
     "region": "EU+",
+    "source_url": "https://www.coe.int/en/web/artificial-intelligence",
     "what_it_is": "First binding international AI treaty (Framework Convention)"
   },
   {
@@ -600,6 +666,7 @@
     "last_verified": "2026-06-14",
     "name": "Cyberspace Administration of China (CAC)",
     "region": "CN",
+    "source_url": "http://www.cac.gov.cn/english",
     "what_it_is": "Generative-AI measures; algorithm registry"
   },
   {
@@ -609,6 +676,7 @@
     "last_verified": "2026-06-14",
     "name": "EU AI Office",
     "region": "EU",
+    "source_url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
     "what_it_is": "Enforces the AI Act for GPAI models; codes of practice"
   },
   {
@@ -618,6 +686,7 @@
     "last_verified": "2026-06-14",
     "name": "European Commission (DG CNECT)",
     "region": "EU",
+    "source_url": "https://commission.europa.eu/about/departments-and-executive-agencies/communications-networks-content-and-technology_en",
     "what_it_is": "AI Act implementation; Apply AI / sovereignty packages"
   },
   {
@@ -627,6 +696,7 @@
     "last_verified": "2026-06-14",
     "name": "International Network of AI Safety Institutes",
     "region": "Global",
+    "source_url": "https://www.nist.gov/document/international-network-ai-safety-institutes-mission-statement",
     "what_it_is": "Coordination of national AISIs"
   },
   {
@@ -636,6 +706,7 @@
     "last_verified": "2026-06-14",
     "name": "NIST",
     "region": "US",
+    "source_url": "https://www.nist.gov/about-nist",
     "what_it_is": "AI Risk Management Framework; measurement science"
   },
   {
@@ -645,6 +716,7 @@
     "last_verified": "2026-06-14",
     "name": "Nederlandse AI Coalitie / AINed",
     "region": "NL",
+    "source_url": "https://nlaic.com/en/",
     "what_it_is": "Dutch public-private AI programme"
   },
   {
@@ -654,6 +726,7 @@
     "last_verified": "2026-06-14",
     "name": "OECD.AI",
     "region": "Global",
+    "source_url": "https://oecd.ai/en/about",
     "what_it_is": "AI Principles; policy observatory; GPAI integrated"
   },
   {
@@ -663,6 +736,7 @@
     "last_verified": "2026-06-14",
     "name": "Singapore (IMDA / AI Verify Foundation)",
     "region": "SG",
+    "source_url": "https://aiverifyfoundation.sg/ai-verify-foundation/",
     "what_it_is": "AI Verify testing framework; pragmatic governance hub"
   },
   {
@@ -672,6 +746,7 @@
     "last_verified": "2026-06-14",
     "name": "TC260",
     "region": "CN",
+    "source_url": "https://www.tc260.org.cn/",
     "what_it_is": "China's cybersecurity standards committee; GenAI security specs"
   },
   {
@@ -681,6 +756,7 @@
     "last_verified": "2026-06-14",
     "name": "TNO",
     "region": "NL",
+    "source_url": "https://www.tno.nl/en/about-tno/",
     "what_it_is": "Dutch applied research; public-sector AI auditing practice"
   },
   {
@@ -690,6 +766,7 @@
     "last_verified": "2026-06-14",
     "name": "UK AI Security Institute (AISI)",
     "region": "UK",
+    "source_url": "https://www.aisi.gov.uk/about",
     "what_it_is": "First state frontier-model evaluation body"
   },
   {
@@ -699,6 +776,7 @@
     "last_verified": "2026-06-14",
     "name": "UN (Global Dialogue on AI Governance + Scientific Panel)",
     "region": "Global",
+    "source_url": "https://www.un.org/global-dialogue-ai-governance/en/faq",
     "what_it_is": "Post-2024 UN AI governance track"
   },
   {
@@ -708,6 +786,7 @@
     "last_verified": "2026-06-14",
     "name": "UNESCO",
     "region": "Global",
+    "source_url": "https://www.unesco.org/en/artificial-intelligence/recommendation-ethics",
     "what_it_is": "Global AI ethics recommendation (193 states)"
   },
   {
@@ -717,6 +796,7 @@
     "last_verified": "2026-06-14",
     "name": "US Center for AI Standards and Innovation (CAISI)",
     "region": "US",
+    "source_url": "https://www.nist.gov/caisi",
     "what_it_is": "US frontier evaluation body (renamed from US AISI 2025)"
   },
   {
@@ -726,6 +806,7 @@
     "last_verified": "2026-06-14",
     "name": "Amazon / AWS",
     "region": "US",
+    "source_url": "https://www.aboutamazon.com/about-us",
     "what_it_is": "Bedrock; Anthropic investment; Trainium silicon"
   },
   {
@@ -735,6 +816,7 @@
     "last_verified": "2026-06-14",
     "name": "Apple",
     "region": "US",
+    "source_url": "https://www.apple.com/leadership/",
     "what_it_is": "On-device AI at consumer scale"
   },
   {
@@ -744,6 +826,7 @@
     "last_verified": "2026-06-14",
     "name": "Google / Google Cloud",
     "region": "US",
+    "source_url": "https://about.google/",
     "what_it_is": "TPU stack; Gemini distribution"
   },
   {
@@ -753,6 +836,7 @@
     "last_verified": "2026-06-14",
     "name": "Microsoft / Azure",
     "region": "US",
+    "source_url": "https://www.microsoft.com/en-us/about",
     "what_it_is": "OpenAI partnership; enterprise AI distribution"
   },
   {
@@ -762,6 +846,7 @@
     "last_verified": "2026-06-14",
     "name": "Alan Turing Institute",
     "region": "UK",
+    "source_url": "https://www.turing.ac.uk/about-us",
     "what_it_is": "UK national institute for data science and AI"
   },
   {
@@ -771,6 +856,7 @@
     "last_verified": "2026-06-14",
     "name": "Allen Institute for AI (Ai2)",
     "region": "US",
+    "source_url": "https://allenai.org/about",
     "what_it_is": "Fully open models (OLMo); nonprofit research"
   },
   {
@@ -780,6 +866,7 @@
     "last_verified": "2026-06-14",
     "name": "CMU School of Computer Science",
     "region": "US",
+    "source_url": "https://www.cs.cmu.edu/about/",
     "what_it_is": "Robotics and ML institutional depth"
   },
   {
@@ -789,6 +876,7 @@
     "last_verified": "2026-06-14",
     "name": "CWI",
     "region": "NL",
+    "source_url": "https://www.cwi.nl/en/about/",
     "what_it_is": "Dutch national research institute for mathematics and CS"
   },
   {
@@ -798,6 +886,7 @@
     "last_verified": "2026-06-14",
     "name": "ELLIS",
     "region": "EU",
+    "source_url": "https://ellis.eu/about",
     "what_it_is": "European Laboratory for Learning and Intelligent Systems network"
   },
   {
@@ -807,6 +896,7 @@
     "last_verified": "2026-06-14",
     "name": "EleutherAI",
     "region": "Global",
+    "source_url": "https://www.eleuther.ai/about",
     "what_it_is": "Open-source GPT replications; open-science collective"
   },
   {
@@ -816,6 +906,7 @@
     "last_verified": "2026-06-14",
     "name": "Epoch AI",
     "region": "Global",
+    "source_url": "https://epoch.ai/about",
     "what_it_is": "Data and forecasts on compute, models, AI trends"
   },
   {
@@ -825,6 +916,7 @@
     "last_verified": "2026-06-14",
     "name": "INRIA",
     "region": "FR",
+    "source_url": "https://www.inria.fr/en/about-inria",
     "what_it_is": "French national computing research; AI programme"
   },
   {
@@ -834,6 +926,7 @@
     "last_verified": "2026-06-14",
     "name": "KAIST",
     "region": "KR",
+    "source_url": "https://www.kaist.ac.kr/en/html/kaist/01.html",
     "what_it_is": "Korea's leading AI research university"
   },
   {
@@ -843,6 +936,7 @@
     "last_verified": "2026-06-14",
     "name": "MIT CSAIL",
     "region": "US",
+    "source_url": "https://www.csail.mit.edu/about",
     "what_it_is": "The largest US academic AI lab"
   },
   {
@@ -852,6 +946,7 @@
     "last_verified": "2026-06-14",
     "name": "Max Planck Institute for Intelligent Systems",
     "region": "DE",
+    "source_url": "https://is.mpg.de/en/the-institute",
     "what_it_is": "Germany's ML research anchor; ELLIS hub"
   },
   {
@@ -861,6 +956,7 @@
     "last_verified": "2026-06-14",
     "name": "Mila",
     "region": "CA",
+    "source_url": "https://mila.quebec/en/about/about-mila",
     "what_it_is": "Bengio's institute; the largest academic DL community"
   },
   {
@@ -870,6 +966,7 @@
     "last_verified": "2026-06-14",
     "name": "Oxford / Cambridge AI clusters (incl. Leverhulme CFI)",
     "region": "UK",
+    "source_url": "https://www.lcfi.ac.uk/about",
     "what_it_is": "UK academic AI and AI-futures research"
   },
   {
@@ -879,6 +976,7 @@
     "last_verified": "2026-06-14",
     "name": "Peking University / BIGAI",
     "region": "CN",
+    "source_url": "https://eng.bigai.ai/about",
     "what_it_is": "General-AI research agenda (Song-Chun Zhu)"
   },
   {
@@ -888,6 +986,7 @@
     "last_verified": "2026-06-14",
     "name": "Stanford CRFM",
     "region": "US",
+    "source_url": "https://crfm.stanford.edu/",
     "what_it_is": "Coined foundation models; HELM evaluation"
   },
   {
@@ -897,6 +996,7 @@
     "last_verified": "2026-06-14",
     "name": "Stanford HAI",
     "region": "US",
+    "source_url": "https://hai.stanford.edu/about",
     "what_it_is": "Human-centered AI; the AI Index"
   },
   {
@@ -906,6 +1006,7 @@
     "last_verified": "2026-06-14",
     "name": "Tsinghua University (IIIS / AIR)",
     "region": "CN",
+    "source_url": "https://www.tsinghua.edu.cn/en/About.htm",
     "what_it_is": "China's top AI pipeline; Yao Class"
   },
   {
@@ -915,6 +1016,7 @@
     "last_verified": "2026-06-14",
     "name": "UC Berkeley BAIR",
     "region": "US",
+    "source_url": "https://bair.berkeley.edu/about.html",
     "what_it_is": "Deep RL and robot learning powerhouse"
   },
   {
@@ -924,6 +1026,7 @@
     "last_verified": "2026-06-14",
     "name": "Vector Institute",
     "region": "CA",
+    "source_url": "https://vectorinstitute.ai/about/",
     "what_it_is": "Toronto's DL institute (Hinton lineage)"
   },
   {
@@ -933,6 +1036,7 @@
     "last_verified": "2026-06-14",
     "name": "AI Incident Database (Responsible AI Collaborative)",
     "region": "Global",
+    "source_url": "https://incidentdatabase.ai/about/",
     "what_it_is": "Structured registry of AI harms"
   },
   {
@@ -942,6 +1046,7 @@
     "last_verified": "2026-06-14",
     "name": "AI Now Institute",
     "region": "US",
+    "source_url": "https://ainowinstitute.org/about",
     "what_it_is": "Political-economy critique of the AI industry"
   },
   {
@@ -951,6 +1056,7 @@
     "last_verified": "2026-06-14",
     "name": "ALLAI",
     "region": "NL",
+    "source_url": "https://allai.nl/about-us/",
     "what_it_is": "Dutch responsible-AI advocacy (Muller)"
   },
   {
@@ -960,6 +1066,7 @@
     "last_verified": "2026-06-14",
     "name": "Ada Lovelace Institute",
     "region": "UK",
+    "source_url": "https://www.adalovelaceinstitute.org/about/",
     "what_it_is": "UK public-interest AI policy research"
   },
   {
@@ -969,6 +1076,7 @@
     "last_verified": "2026-06-14",
     "name": "AlgorithmWatch",
     "region": "DE",
+    "source_url": "https://algorithmwatch.org/en/what-we-do/",
     "what_it_is": "European algorithmic-accountability watchdog"
   },
   {
@@ -978,6 +1086,7 @@
     "last_verified": "2026-06-14",
     "name": "Algorithmic Justice League",
     "region": "US",
+    "source_url": "https://www.ajl.org/about",
     "what_it_is": "Face-recognition audit advocacy (Buolamwini)"
   },
   {
@@ -987,6 +1096,7 @@
     "last_verified": "2026-06-14",
     "name": "Apollo Research",
     "region": "UK",
+    "source_url": "https://www.apolloresearch.ai/about",
     "what_it_is": "Scheming and deception evaluations"
   },
   {
@@ -996,6 +1106,7 @@
     "last_verified": "2026-06-14",
     "name": "CHAI (UC Berkeley)",
     "region": "US",
+    "source_url": "https://humancompatible.ai/about/",
     "what_it_is": "Provably beneficial AI (Russell)"
   },
   {
@@ -1005,6 +1116,7 @@
     "last_verified": "2026-06-14",
     "name": "CSET (Georgetown)",
     "region": "US",
+    "source_url": "https://cset.georgetown.edu/about-us/",
     "what_it_is": "Security and emerging-technology analysis; CN translation work"
   },
   {
@@ -1014,6 +1126,7 @@
     "last_verified": "2026-06-14",
     "name": "Center for AI Safety (CAIS)",
     "region": "US",
+    "source_url": "https://safe.ai/about",
     "what_it_is": "Extinction-risk statement; safety benchmarks and compute grants"
   },
   {
@@ -1023,6 +1136,7 @@
     "last_verified": "2026-06-14",
     "name": "DAIR",
     "region": "US/Global",
+    "source_url": "https://www.dair-institute.org/",
     "what_it_is": "Distributed AI research outside big-tech funding (Gebru)"
   },
   {
@@ -1032,6 +1146,7 @@
     "last_verified": "2026-06-14",
     "name": "ECP / Platform voor de InformatieSamenleving",
     "region": "NL",
+    "source_url": "https://ecp.nl/over-ecp/",
     "what_it_is": "Dutch public-private digital-society platform"
   },
   {
@@ -1041,6 +1156,7 @@
     "last_verified": "2026-06-14",
     "name": "Electronic Frontier Foundation",
     "region": "US",
+    "source_url": "https://www.eff.org/about",
     "what_it_is": "Digital rights litigation touching AI surveillance"
   },
   {
@@ -1050,6 +1166,7 @@
     "last_verified": "2026-06-14",
     "name": "Future of Life Institute",
     "region": "US/EU",
+    "source_url": "https://futureoflife.org/about-us/",
     "what_it_is": "Pause letter; policy advocacy; AI safety index"
   },
   {
@@ -1059,6 +1176,7 @@
     "last_verified": "2026-06-14",
     "name": "GovAI (Centre for the Governance of AI)",
     "region": "UK",
+    "source_url": "https://www.governance.ai/about",
     "what_it_is": "AI governance research pipeline"
   },
   {
@@ -1068,6 +1186,7 @@
     "last_verified": "2026-06-14",
     "name": "Humane Intelligence",
     "region": "US",
+    "source_url": "https://www.humane-intelligence.org/about",
     "what_it_is": "Public red-teaming and algorithmic assessments"
   },
   {
@@ -1077,6 +1196,7 @@
     "last_verified": "2026-06-14",
     "name": "METR",
     "region": "US",
+    "source_url": "https://metr.org/about",
     "what_it_is": "Dangerous-capability and autonomy evaluations"
   },
   {
@@ -1086,6 +1206,7 @@
     "last_verified": "2026-06-14",
     "name": "MIRI",
     "region": "US",
+    "source_url": "https://intelligence.org/about/",
     "what_it_is": "Original alignment research org; now advocacy-leaning"
   },
   {
@@ -1095,6 +1216,7 @@
     "last_verified": "2026-06-14",
     "name": "Mozilla Foundation",
     "region": "US/Global",
+    "source_url": "https://www.mozillafoundation.org/en/about/",
     "what_it_is": "Trustworthy-AI programme; open-source advocacy"
   },
   {
@@ -1104,6 +1226,7 @@
     "last_verified": "2026-06-14",
     "name": "RAND (Technology and Security Policy)",
     "region": "US",
+    "source_url": "https://www.rand.org/global-and-emerging-risks/centers/technology-and-security-policy.html",
     "what_it_is": "Compute governance and AI national-security analysis"
   },
   {
@@ -1113,6 +1236,7 @@
     "last_verified": "2026-06-14",
     "name": "Rathenau Instituut",
     "region": "NL",
+    "source_url": "https://www.rathenau.nl/en/about-us",
     "what_it_is": "Dutch technology-assessment body for parliament"
   },
   {
@@ -1122,6 +1246,7 @@
     "last_verified": "2026-06-14",
     "name": "Redwood Research",
     "region": "US",
+    "source_url": "https://www.redwoodresearch.org/",
     "what_it_is": "AI control research agenda"
   },
   {
@@ -1131,6 +1256,7 @@
     "last_verified": "2026-06-14",
     "name": "AI Alliance",
     "region": "Global",
+    "source_url": "https://thealliance.ai/about-aia",
     "what_it_is": "IBM/Meta-led open-AI industry coalition"
   },
   {
@@ -1140,6 +1266,7 @@
     "last_verified": "2026-06-14",
     "name": "CEN-CENELEC JTC 21",
     "region": "EU",
+    "source_url": "https://jtc21.eu/about/",
     "what_it_is": "Drafting the harmonized standards under the EU AI Act"
   },
   {
@@ -1149,6 +1276,7 @@
     "last_verified": "2026-06-14",
     "name": "Frontier Model Forum",
     "region": "US",
+    "source_url": "https://www.frontiermodelforum.org/about-us/",
     "what_it_is": "Frontier labs' joint safety body"
   },
   {
@@ -1158,6 +1286,7 @@
     "last_verified": "2026-06-14",
     "name": "IEEE Standards Association",
     "region": "Global",
+    "source_url": "https://standards.ieee.org/about/",
     "what_it_is": "Ethically-aligned design; 7000-series standards"
   },
   {
@@ -1167,6 +1296,7 @@
     "last_verified": "2026-06-14",
     "name": "ISO/IEC JTC 1/SC 42",
     "region": "Global",
+    "source_url": "https://www.iso.org/committee/6794475.html",
     "what_it_is": "International AI standards committee (42001 AIMS)"
   },
   {
@@ -1176,6 +1306,7 @@
     "last_verified": "2026-06-14",
     "name": "MLCommons",
     "region": "Global",
+    "source_url": "https://mlcommons.org/about-us/",
     "what_it_is": "MLPerf benchmarks; AI safety benchmark effort"
   },
   {
@@ -1185,6 +1316,7 @@
     "last_verified": "2026-06-14",
     "name": "Partnership on AI",
     "region": "US",
+    "source_url": "https://partnershiponai.org/about/",
     "what_it_is": "Multistakeholder norms body of the pre-LLM era"
   },
   {
@@ -1194,6 +1326,7 @@
     "last_verified": "2026-06-14",
     "name": "Kyvvu B.V.",
     "region": "NL",
+    "source_url": "https://kyvvu.com/about/",
     "what_it_is": "Netherlands-based company working on runtime governance and compliance for AI agents"
   }
 ]
