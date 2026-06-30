@@ -2,6 +2,16 @@
 
 Append-only. Scoring-logic or weight changes must land with an entry here (rule 10).
 
+## Chinese-language papers, and an importer that admits them (2026-06-30)
+
+No scoring change: the new papers are candidates in the Chinese citation ecosystem, which
+has no harvester yet, so they are browsable, not scored.
+
+- The papers importer no longer hard-codes English. It reads a Lang column (default English) and a Source column, so a Chinese-language paper can enter as a work in its own ecosystem. The OpenAlex harvester now skips non-English papers by design: scoring a Chinese paper by its English-index citations would be exactly the cross-language comparison the method defers, so each is left as a declared gap for a future Chinese-ecosystem harvester.
+- Added 12 foundational Chinese-language papers (the corpus's first), each verified against a source actually opened: Wu Wenjun's mechanization of geometry theorem proving (the Wu method, 1977), Li Deyi's cloud model (1995), Wang Fei-Yue's parallel systems (2004, the basis of ACP), the Zeng and Tan brain-inspired-intelligence survey (2016), two classic Chinese word-segmentation papers (N-shortest-path 2002, the decade review 2007), AI-law and AI-ethics work (Wu Handong 2017, the Zhang and Tan ethics survey 2021, Li Haiying on data-protection law 2020), and computer-vision and speech papers in Acta Automatica Sinica.
+- Held back, not added: a 1990 monograph that is a book and not a paper (quotient-space theory), one segmentation paper whose proposed source resolved to a different work, and the two landmark national documents (the 2017 State Council AI plan, the 2021 national AI Ethics Norms), which are reports or standards rather than papers and would be a category error to file as papers.
+- Counts: papers 214 to 226. Site copy counts updated accordingly.
+
 ## Chinese spine deepened (2026-06-30)
 
 No scoring change: these are curated candidates, browsable not scored. The Chinese citation
@@ -19,7 +29,7 @@ A new frozen release. The method, weights, and ontology are unchanged (method_ve
 evidence base: more papers now carry harvested metrics, so the ranking is computed over a
 larger, stronger corpus. corpus_hash c379e0a8…, verified bit-identical on rebuild, GATE A pass.
 
-- Harvested OpenAlex citation evidence for the papers added since launch (the notable-model papers), nearly doubling the scored set: 88 to 163 papers with at least one metric, 332 metrics total (was 174). Scenario divergence still observed.
+- Harvested OpenAlex citation evidence for the papers added since launch (the notable-model papers), nearly doubling the scored set: 88 to 163 papers with at least one metric, 326 metrics total (was 174). Scenario divergence still observed.
 - Every scored paper now has its own trust-surface page, not just the Top-50. A paper outside the Canon-50 links to its real evidence and real rank instead of showing "no evidence yet".
 - Metric-matching hardened (entity resolution against OpenAlex): among duplicate records for one work, the canonical, most-cited record is chosen within a one-year window. This fixes cases where a zero-citation stub was picked over the real record, for example Mixtral of Experts now reads 122 citations, not 0.
 - A zero from OpenAlex is treated as a declared gap, not a value: a fresh or unindexed record with no citations yet (Llama 3, Kimi K2, ERNIE 4.5) is shown as "no evidence yet", never as "0 citations", because a wrong number is worse than an honest gap.

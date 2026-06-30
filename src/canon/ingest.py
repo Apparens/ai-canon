@@ -1,7 +1,7 @@
 """CAN-07 — import the three seed workbooks into schema-valid JSON.
 
 Every row is validated against schema.py before it is written. Counts are
-asserted hard (573 / 214 / 184 / 133 / 90). Editorial metadata about a book's
+asserted hard (608 / 226 / 184 / 133 / 90). Editorial metadata about a book's
 description (DescConfidence, Source, Description) is kept verbatim but stored
 in an `editorial` block — it is NOT canonical evidence (master doc: DescConfidence
 is confidence in the description, not in any ranking signal).
@@ -38,7 +38,7 @@ CONTEXT_XLSX = SOURCE_DIR / "AI_Canon_Voices_Orgs_Platforms.xlsx"
 SEED_DATE = date(2026, 6, 14)  # seed v0.3 (changelog)
 APPARENS_CONFLICT_TITLE = "the ai accountability trap"  # rule 12
 
-EXPECTED = {"books": 608, "papers": 214, "persons": 184, "orgs": 133, "platforms": 90}
+EXPECTED = {"books": 608, "papers": 226, "persons": 184, "orgs": 133, "platforms": 90}
 AUTHORED_BY_BAND = (151, 185)  # ~168 +/-10%
 
 
@@ -124,10 +124,12 @@ def import_papers() -> list[dict]:
     for r in _rows(PAPERS_XLSX):
         num = int(str(r["#"]).strip())
         wid = f"paper-{num:04d}"
+        # Lang defaults to English (the seed papers are English); a non-empty Lang
+        # column lets a Chinese-language paper enter as a work in its own ecosystem.
         work = Work(
             id=wid,
             canonical_title=str(r["Title"]).strip(),
-            language="en",
+            language=(str(r.get("Lang") or "").strip().lower() or "en"),
             year=_year(r.get("Year")),
             work_type="paper",
         )
@@ -138,6 +140,7 @@ def import_papers() -> list[dict]:
             "category": str(r.get("Category") or "").strip(),
             "confidence": str(r.get("Confidence") or "").strip(),
             "significance": str(r.get("Significance") or "").strip(),
+            "source": str(r.get("Source") or "").strip(),
         }
         records.append(rec)
     return records

@@ -264,8 +264,68 @@
       "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0214"
+    },
+    {
+      "metric": "*",
+      "reason": "non-English work; belongs to its own citation ecosystem (a deferred harvester), not scored via OpenAlex",
+      "work_id": "paper-0215"
+    },
+    {
+      "metric": "*",
+      "reason": "non-English work; belongs to its own citation ecosystem (a deferred harvester), not scored via OpenAlex",
+      "work_id": "paper-0216"
+    },
+    {
+      "metric": "*",
+      "reason": "non-English work; belongs to its own citation ecosystem (a deferred harvester), not scored via OpenAlex",
+      "work_id": "paper-0217"
+    },
+    {
+      "metric": "*",
+      "reason": "non-English work; belongs to its own citation ecosystem (a deferred harvester), not scored via OpenAlex",
+      "work_id": "paper-0218"
+    },
+    {
+      "metric": "*",
+      "reason": "non-English work; belongs to its own citation ecosystem (a deferred harvester), not scored via OpenAlex",
+      "work_id": "paper-0219"
+    },
+    {
+      "metric": "*",
+      "reason": "non-English work; belongs to its own citation ecosystem (a deferred harvester), not scored via OpenAlex",
+      "work_id": "paper-0220"
+    },
+    {
+      "metric": "*",
+      "reason": "non-English work; belongs to its own citation ecosystem (a deferred harvester), not scored via OpenAlex",
+      "work_id": "paper-0221"
+    },
+    {
+      "metric": "*",
+      "reason": "non-English work; belongs to its own citation ecosystem (a deferred harvester), not scored via OpenAlex",
+      "work_id": "paper-0222"
+    },
+    {
+      "metric": "*",
+      "reason": "non-English work; belongs to its own citation ecosystem (a deferred harvester), not scored via OpenAlex",
+      "work_id": "paper-0223"
+    },
+    {
+      "metric": "*",
+      "reason": "non-English work; belongs to its own citation ecosystem (a deferred harvester), not scored via OpenAlex",
+      "work_id": "paper-0224"
+    },
+    {
+      "metric": "*",
+      "reason": "non-English work; belongs to its own citation ecosystem (a deferred harvester), not scored via OpenAlex",
+      "work_id": "paper-0225"
+    },
+    {
+      "metric": "*",
+      "reason": "non-English work; belongs to its own citation ecosystem (a deferred harvester), not scored via OpenAlex",
+      "work_id": "paper-0226"
     }
   ],
   "metrics_total": 326,
-  "openalex_gaps": 52
+  "openalex_gaps": 64
 }

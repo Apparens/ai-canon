@@ -114,7 +114,7 @@ def test_identical_work_auto_merges_above_floor():
 
 EXPECTED_FILES = {
     "books.json": 608,
-    "papers.json": 214,
+    "papers.json": 226,
     "persons.json": 184,
     "orgs.json": 133,
     "platforms.json": 90,

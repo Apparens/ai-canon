@@ -13,7 +13,7 @@ Pages generated (the homepage is generated too, in the same design):
   index.html             the manifesto + the live Canon-50 teaser
   canon-50.html          three scenario views; each rank links to its breakdown
   work/<id>.html         the per-work trust surface (every metric + provenance)
-  papers.html            all 214 papers, honest about scored-vs-seed status
+  papers.html            all 226 papers, honest about scored-vs-seed status
   method.html            the 8 rules, ontology, weighting scenarios, missing-data rule
   challenges.html        the challenge protocol + log (the differentiator; empty for now)
   changelog.html         rendered from CHANGELOG.md
@@ -366,8 +366,8 @@ def page_home(release: dict, rankings: dict, papers: dict, coverage: dict) -> st
 <p><a class="pill" href="canon-50.html">See the full Canon 50 &#8594;</a></p>
 
 <div class="statgrid">
-  <div class="stat"><b>573</b><span>candidate books (250 described)</span></div>
-  <div class="stat"><b>214</b><span>seed papers, 1943-2025</span></div>
+  <div class="stat"><b>608</b><span>candidate books, all described</span></div>
+  <div class="stat"><b>226</b><span>seed papers, 1943-2025</span></div>
   <div class="stat"><b>184</b><span>voices, described, never ranked</span></div>
   <div class="stat"><b>133</b><span>organizations</span></div>
   <div class="stat"><b>90</b><span>platforms</span></div>
@@ -474,7 +474,7 @@ def page_work(work_id: str, per_scenario: dict, papers: dict) -> str:
 
 
 def page_papers(papers: dict, scored: set) -> str:
-    rows = ['<p class="note">All 214 seed papers. <b>Seed status means candidacy, not canonical '
+    rows = [f'<p class="note">All {len(papers)} seed papers. <b>Seed status means candidacy, not canonical '
             "status.</b> Papers with harvested evidence link to their breakdown; the rest are an "
             "honestly-declared coverage gap, not a zero.</p>",
             "<table><thead><tr><th>#</th><th>Paper</th><th>Year</th><th>Venue</th><th>Evidence</th></tr></thead><tbody>"]
@@ -721,8 +721,8 @@ def page_data(release: dict, coverage: dict) -> str:
         f'<li><a href="audit/{esc(VERSION)}/rankings/paper__governance_practitioner.json">paper__governance_practitioner.json</a></li>'
         "</ul>"
         "<h3>The corpus, as open data</h3><ul>"
-        '<li><a href="audit/seeds/books.json">books.json</a> &middot; <a href="audit/seeds/books.csv">books.csv</a>, 573 books</li>'
-        '<li><a href="audit/seeds/papers.json">papers.json</a> &middot; <a href="audit/seeds/papers.csv">papers.csv</a>, 214 papers</li>'
+        '<li><a href="audit/seeds/books.json">books.json</a> &middot; <a href="audit/seeds/books.csv">books.csv</a>, 608 books</li>'
+        '<li><a href="audit/seeds/papers.json">papers.json</a> &middot; <a href="audit/seeds/papers.csv">papers.csv</a>, 226 papers</li>'
         '<li><a href="audit/seeds/persons.json">persons.json</a>, 184 voices</li>'
         '<li><a href="audit/seeds/orgs.json">orgs.json</a>, 133 organizations</li>'
         '<li><a href="audit/seeds/platforms.json">platforms.json</a>, 90 platforms</li>'
@@ -793,7 +793,7 @@ def page_library(books: list[dict]) -> str:
             f'{desc}</div>'
         )
     body = head + "".join(entries) + '<script src="assets/canon.js" defer></script>'
-    return shell("library.html", "The library, 573 candidate works", "Library", body)
+    return shell("library.html", f"The library, {len(books)} candidate works", "Library", body)
 
 
 def _context_shelf(active, kicker, title, rows, render) -> str:
@@ -1068,7 +1068,7 @@ def page_about() -> str:
 
 def page_search() -> str:
     body = (
-        '<p class="note">Search the whole corpus: 573 books, 214 papers, and the voices, '
+        '<p class="note">Search the whole corpus: 608 books, 226 papers, and the voices, '
         "organizations, and platforms. Every result links to its entry. The search runs entirely "
         "in your browser; nothing typed here is sent anywhere.</p>"
         '<div class="search-wrap"><input id="sq" type="search" autocomplete="off" '

@@ -152,6 +152,12 @@ def parse(paper: dict, response: dict | None) -> dict:
         count, continued availability) is a declared deferred enhancement.
     Never imputes a value (rule 8); a missing field is a gap, not a zero.
     """
+    if (paper.get("language") or "en").lower() != "en":
+        # OpenAlex is an English-centric global index. Scoring a Chinese-language
+        # work by its OpenAlex citations would be exactly the cross-language
+        # comparison the method defers (per-ecosystem normalization, rule 5). So a
+        # non-English work is left as a declared gap for its own ecosystem harvester.
+        return {"metrics": [], "gaps": [{"metric": "*", "reason": "non-English work; belongs to its own citation ecosystem (a deferred harvester), not scored via OpenAlex"}]}
     if response is None:
         return {"metrics": [], "gaps": [{"metric": "*", "reason": "no cached OpenAlex response (offline / not harvested)"}]}
     match = _pick(paper, response)
@@ -192,8 +198,11 @@ def harvest(limit: int | None = None, *, allow_network: bool = True) -> dict:
     papers = load_papers()
     if limit:
         papers = papers[:limit]
-    fetched = cached = gaps = 0
+    fetched = cached = gaps = skipped = 0
     for paper in papers:
+        if (paper.get("language") or "en").lower() != "en":
+            skipped += 1  # non-English work, not queried against OpenAlex (see parse)
+            continue
         had_cache = raw.exists(SOURCE, _cache_name(paper["id"]))
         resp = fetch(paper, allow_network=allow_network)
         if resp is None:
@@ -208,6 +217,7 @@ def harvest(limit: int | None = None, *, allow_network: bool = True) -> dict:
         "newly_fetched": fetched,
         "served_from_cache": cached,
         "uncovered": gaps,
+        "non_english_skipped": skipped,
     }
     print(json.dumps(report, indent=2))
     return report
