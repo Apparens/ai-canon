@@ -161,3 +161,39 @@ paper-0159,Sleeper Agents: Training Deceptive LLMs That Persist Through Safety T
 paper-0160,Managing Extreme AI Risks Amid Rapid Progress,Yoshua Bengio et al.,2024,Science,Safety & Alignment
 paper-0161,Accurate Structure Prediction of Biomolecular Interactions with AlphaFold 3,Josh Abramson et al.,2024,Nature,AI for Science
 paper-0162,DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning,DeepSeek-AI,2025,arXiv,Scaling & Frontier
+paper-0163,Llama 2: Open Foundation and Fine-Tuned Chat Models,Hugo Touvron et al. (Meta),2023,arXiv:2307.09288,Scaling & Frontier
+paper-0164,The Llama 3 Herd of Models,Llama Team (Meta),2024,arXiv:2407.21783,Scaling & Frontier
+paper-0165,Mistral 7B,Mistral AI,2023,arXiv:2310.06825,Scaling & Frontier
+paper-0166,Mixtral of Experts,Mistral AI,2024,arXiv:2401.04088,Scaling & Frontier
+paper-0167,Gemma: Open Models Based on Gemini Research and Technology,Gemma Team (Google DeepMind),2024,arXiv:2403.08295,Scaling & Frontier
+paper-0168,Gemma 2: Improving Open Language Models at a Practical Size,Gemma Team (Google DeepMind),2024,arXiv:2408.00118,Scaling & Frontier
+paper-0169,OLMo: Accelerating the Science of Language Models,Dirk Groeneveld et al. (Allen Institute for AI),2024,arXiv:2402.00838,Scaling & Frontier
+paper-0170,2 OLMo 2 Furious,Team OLMo (Allen Institute for AI),2025,arXiv:2501.00656,Scaling & Frontier
+paper-0171,The Falcon Series of Open Language Models,Ebtesam Almazrouei et al. (TII),2023,arXiv:2311.16867,Scaling & Frontier
+paper-0172,Textbooks Are All You Need,Suriya Gunasekar et al. (Microsoft Research),2023,arXiv:2306.11644,LLM Methods
+paper-0173,Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone,Marah Abdin et al. (Microsoft),2024,arXiv:2404.14219,Scaling & Frontier
+paper-0174,DeepSeek-V3 Technical Report,DeepSeek-AI,2024,arXiv:2412.19437,Scaling & Frontier
+paper-0175,"DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model",DeepSeek-AI,2024,arXiv:2405.04434,Scaling & Frontier
+paper-0176,DeepSeek LLM: Scaling Open-Source Language Models with Longtermism,DeepSeek-AI,2024,arXiv:2401.02954,Scaling & Frontier
+paper-0177,Qwen Technical Report,"Jinze Bai et al. (Alibaba, Qwen Team)",2023,arXiv:2309.16609,Scaling & Frontier
+paper-0178,Qwen2 Technical Report,"An Yang et al. (Alibaba, Qwen Team)",2024,arXiv:2407.10671,Scaling & Frontier
+paper-0179,Qwen2.5 Technical Report,"An Yang et al. (Alibaba, Qwen Team)",2024,arXiv:2412.15115,Scaling & Frontier
+paper-0180,Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution,"Peng Wang, Shuai Bai et al. (Alibaba, Qwen Team)",2024,arXiv:2409.12191,Scaling & Frontier
+paper-0181,GLM-130B: An Open Bilingual Pre-trained Model,"Aohan Zeng et al. (THUDM, Zhipu AI)",2022,arXiv:2210.02414,Scaling & Frontier
+paper-0182,ChatGLM: A Family of Large Language Models from GLM-130B to GLM-4 All Tools,"Team GLM (THUDM, Zhipu AI)",2024,arXiv:2406.12793,Scaling & Frontier
+paper-0183,Kimi K2: Open Agentic Intelligence,Kimi Team (Moonshot AI),2025,arXiv:2507.20534,Scaling & Frontier
+paper-0184,Kimi k1.5: Scaling Reinforcement Learning with LLMs,Kimi Team (Moonshot AI),2025,arXiv:2501.12599,Scaling & Frontier
+paper-0185,Hunyuan-Large: An Open-Source MoE Model with 52 Billion Activated Parameters by Tencent,Tencent Hunyuan Team,2024,arXiv:2411.02265,Scaling & Frontier
+paper-0186,ERNIE 3.0: Large-scale Knowledge Enhanced Pre-training for Language Understanding and Generation,Yu Sun et al. (Baidu),2021,arXiv:2107.02137,Scaling & Frontier
+paper-0187,Yi: Open Foundation Models by 01.AI,01.AI,2024,arXiv:2403.04652,Scaling & Frontier
+paper-0188,MiniMax-01: Scaling Foundation Models with Lightning Attention,MiniMax,2025,arXiv:2501.08313,Scaling & Frontier
+paper-0189,InternLM2 Technical Report,InternLM Team (Shanghai AI Laboratory),2024,arXiv:2403.17297,Scaling & Frontier
+paper-0190,Baichuan 2: Open Large-scale Language Models,Baichuan Inc.,2023,arXiv:2309.10305,Scaling & Frontier
+paper-0191,Skywork: A More Open Bilingual Foundation Model,Skywork Team (Kunlun Inc.),2023,arXiv:2310.19341,Scaling & Frontier
+paper-0192,Gemini: A Family of Highly Capable Multimodal Models,Gemini Team (Google),2023,arXiv:2312.11805,Scaling & Frontier
+paper-0193,Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context,Gemini Team (Google),2024,arXiv:2403.05530,Scaling & Frontier
+paper-0194,PaLM: Scaling Language Modeling with Pathways,Aakanksha Chowdhery et al. (Google),2022,arXiv:2204.02311,Scaling & Frontier
+paper-0195,PaLM 2 Technical Report,Google,2023,arXiv:2305.10403,Scaling & Frontier
+paper-0196,OpenAI o1 System Card,OpenAI,2024,arXiv:2412.16720,Scaling & Frontier
+paper-0197,Aya Model: An Instruction Finetuned Open-Access Multilingual Language Model,Ahmet Ustun et al. (Cohere For AI),2024,arXiv:2402.07827,NLP & Language Models
+paper-0198,Flamingo: a Visual Language Model for Few-Shot Learning,Jean-Baptiste Alayrac et al. (DeepMind),2022,arXiv:2204.14198,Scaling & Frontier

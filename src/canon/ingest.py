@@ -1,7 +1,7 @@
 """CAN-07 — import the three seed workbooks into schema-valid JSON.
 
 Every row is validated against schema.py before it is written. Counts are
-asserted hard (573 / 162 / 183 / 132 / 90). Editorial metadata about a book's
+asserted hard (573 / 198 / 184 / 133 / 90). Editorial metadata about a book's
 description (DescConfidence, Source, Description) is kept verbatim but stored
 in an `editorial` block — it is NOT canonical evidence (master doc: DescConfidence
 is confidence in the description, not in any ranking signal).
@@ -38,7 +38,7 @@ CONTEXT_XLSX = SOURCE_DIR / "AI_Canon_Voices_Orgs_Platforms.xlsx"
 SEED_DATE = date(2026, 6, 14)  # seed v0.3 (changelog)
 APPARENS_CONFLICT_TITLE = "the ai accountability trap"  # rule 12
 
-EXPECTED = {"books": 573, "papers": 162, "persons": 184, "orgs": 133, "platforms": 90}
+EXPECTED = {"books": 573, "papers": 198, "persons": 184, "orgs": 133, "platforms": 90}
 AUTHORED_BY_BAND = (151, 185)  # ~168 +/-10%
 
 

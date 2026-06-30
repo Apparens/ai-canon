@@ -2914,5 +2914,653 @@
     "original_title": null,
     "work_type": "paper",
     "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Hugo Touvron et al. (Meta)",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable AI model (verified primary source).",
+      "venue": "arXiv:2307.09288"
+    },
+    "id": "paper-0163",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2023
+  },
+  {
+    "canonical": true,
+    "canonical_title": "The Llama 3 Herd of Models",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Llama Team (Meta)",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable AI model (verified primary source).",
+      "venue": "arXiv:2407.21783"
+    },
+    "id": "paper-0164",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2024
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Mistral 7B",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Mistral AI",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable AI model (verified primary source).",
+      "venue": "arXiv:2310.06825"
+    },
+    "id": "paper-0165",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2023
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Mixtral of Experts",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Mistral AI",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable AI model (verified primary source).",
+      "venue": "arXiv:2401.04088"
+    },
+    "id": "paper-0166",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2024
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Gemma: Open Models Based on Gemini Research and Technology",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Gemma Team (Google DeepMind)",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable AI model (verified primary source).",
+      "venue": "arXiv:2403.08295"
+    },
+    "id": "paper-0167",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2024
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Gemma 2: Improving Open Language Models at a Practical Size",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Gemma Team (Google DeepMind)",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable AI model (verified primary source).",
+      "venue": "arXiv:2408.00118"
+    },
+    "id": "paper-0168",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2024
+  },
+  {
+    "canonical": true,
+    "canonical_title": "OLMo: Accelerating the Science of Language Models",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Dirk Groeneveld et al. (Allen Institute for AI)",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable AI model (verified primary source).",
+      "venue": "arXiv:2402.00838"
+    },
+    "id": "paper-0169",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2024
+  },
+  {
+    "canonical": true,
+    "canonical_title": "2 OLMo 2 Furious",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Team OLMo (Allen Institute for AI)",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable AI model (verified primary source).",
+      "venue": "arXiv:2501.00656"
+    },
+    "id": "paper-0170",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "The Falcon Series of Open Language Models",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Ebtesam Almazrouei et al. (TII)",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable AI model (verified primary source).",
+      "venue": "arXiv:2311.16867"
+    },
+    "id": "paper-0171",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2023
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Textbooks Are All You Need",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Suriya Gunasekar et al. (Microsoft Research)",
+      "category": "LLM Methods",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable AI model (verified primary source).",
+      "venue": "arXiv:2306.11644"
+    },
+    "id": "paper-0172",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2023
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Marah Abdin et al. (Microsoft)",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable AI model (verified primary source).",
+      "venue": "arXiv:2404.14219"
+    },
+    "id": "paper-0173",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2024
+  },
+  {
+    "canonical": true,
+    "canonical_title": "DeepSeek-V3 Technical Report",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "DeepSeek-AI",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable AI model (verified primary source).",
+      "venue": "arXiv:2412.19437"
+    },
+    "id": "paper-0174",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2024
+  },
+  {
+    "canonical": true,
+    "canonical_title": "DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "DeepSeek-AI",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable AI model (verified primary source).",
+      "venue": "arXiv:2405.04434"
+    },
+    "id": "paper-0175",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2024
+  },
+  {
+    "canonical": true,
+    "canonical_title": "DeepSeek LLM: Scaling Open-Source Language Models with Longtermism",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "DeepSeek-AI",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable AI model (verified primary source).",
+      "venue": "arXiv:2401.02954"
+    },
+    "id": "paper-0176",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2024
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Qwen Technical Report",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Jinze Bai et al. (Alibaba, Qwen Team)",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable AI model (verified primary source).",
+      "venue": "arXiv:2309.16609"
+    },
+    "id": "paper-0177",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2023
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Qwen2 Technical Report",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "An Yang et al. (Alibaba, Qwen Team)",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable AI model (verified primary source).",
+      "venue": "arXiv:2407.10671"
+    },
+    "id": "paper-0178",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2024
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Qwen2.5 Technical Report",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "An Yang et al. (Alibaba, Qwen Team)",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable AI model (verified primary source).",
+      "venue": "arXiv:2412.15115"
+    },
+    "id": "paper-0179",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2024
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Peng Wang, Shuai Bai et al. (Alibaba, Qwen Team)",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable AI model (verified primary source).",
+      "venue": "arXiv:2409.12191"
+    },
+    "id": "paper-0180",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2024
+  },
+  {
+    "canonical": true,
+    "canonical_title": "GLM-130B: An Open Bilingual Pre-trained Model",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Aohan Zeng et al. (THUDM, Zhipu AI)",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable AI model (verified primary source).",
+      "venue": "arXiv:2210.02414"
+    },
+    "id": "paper-0181",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2022
+  },
+  {
+    "canonical": true,
+    "canonical_title": "ChatGLM: A Family of Large Language Models from GLM-130B to GLM-4 All Tools",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Team GLM (THUDM, Zhipu AI)",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable AI model (verified primary source).",
+      "venue": "arXiv:2406.12793"
+    },
+    "id": "paper-0182",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2024
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Kimi K2: Open Agentic Intelligence",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Kimi Team (Moonshot AI)",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable AI model (verified primary source).",
+      "venue": "arXiv:2507.20534"
+    },
+    "id": "paper-0183",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Kimi k1.5: Scaling Reinforcement Learning with LLMs",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Kimi Team (Moonshot AI)",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable AI model (verified primary source).",
+      "venue": "arXiv:2501.12599"
+    },
+    "id": "paper-0184",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Hunyuan-Large: An Open-Source MoE Model with 52 Billion Activated Parameters by Tencent",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Tencent Hunyuan Team",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable AI model (verified primary source).",
+      "venue": "arXiv:2411.02265"
+    },
+    "id": "paper-0185",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2024
+  },
+  {
+    "canonical": true,
+    "canonical_title": "ERNIE 3.0: Large-scale Knowledge Enhanced Pre-training for Language Understanding and Generation",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Yu Sun et al. (Baidu)",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable AI model (verified primary source).",
+      "venue": "arXiv:2107.02137"
+    },
+    "id": "paper-0186",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2021
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Yi: Open Foundation Models by 01.AI",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "01.AI",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable AI model (verified primary source).",
+      "venue": "arXiv:2403.04652"
+    },
+    "id": "paper-0187",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2024
+  },
+  {
+    "canonical": true,
+    "canonical_title": "MiniMax-01: Scaling Foundation Models with Lightning Attention",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "MiniMax",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable AI model (verified primary source).",
+      "venue": "arXiv:2501.08313"
+    },
+    "id": "paper-0188",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "InternLM2 Technical Report",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "InternLM Team (Shanghai AI Laboratory)",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable AI model (verified primary source).",
+      "venue": "arXiv:2403.17297"
+    },
+    "id": "paper-0189",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2024
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Baichuan 2: Open Large-scale Language Models",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Baichuan Inc.",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable AI model (verified primary source).",
+      "venue": "arXiv:2309.10305"
+    },
+    "id": "paper-0190",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2023
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Skywork: A More Open Bilingual Foundation Model",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Skywork Team (Kunlun Inc.)",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable AI model (verified primary source).",
+      "venue": "arXiv:2310.19341"
+    },
+    "id": "paper-0191",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2023
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Gemini: A Family of Highly Capable Multimodal Models",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Gemini Team (Google)",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable AI model (verified primary source).",
+      "venue": "arXiv:2312.11805"
+    },
+    "id": "paper-0192",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2023
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Gemini Team (Google)",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable AI model (verified primary source).",
+      "venue": "arXiv:2403.05530"
+    },
+    "id": "paper-0193",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2024
+  },
+  {
+    "canonical": true,
+    "canonical_title": "PaLM: Scaling Language Modeling with Pathways",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Aakanksha Chowdhery et al. (Google)",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable AI model (verified primary source).",
+      "venue": "arXiv:2204.02311"
+    },
+    "id": "paper-0194",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2022
+  },
+  {
+    "canonical": true,
+    "canonical_title": "PaLM 2 Technical Report",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Google",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable AI model (verified primary source).",
+      "venue": "arXiv:2305.10403"
+    },
+    "id": "paper-0195",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2023
+  },
+  {
+    "canonical": true,
+    "canonical_title": "OpenAI o1 System Card",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "OpenAI",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable AI model (verified primary source).",
+      "venue": "arXiv:2412.16720"
+    },
+    "id": "paper-0196",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2024
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Aya Model: An Instruction Finetuned Open-Access Multilingual Language Model",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Ahmet Ustun et al. (Cohere For AI)",
+      "category": "NLP & Language Models",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable AI model (verified primary source).",
+      "venue": "arXiv:2402.07827"
+    },
+    "id": "paper-0197",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2024
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Flamingo: a Visual Language Model for Few-Shot Learning",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Jean-Baptiste Alayrac et al. (DeepMind)",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable AI model (verified primary source).",
+      "venue": "arXiv:2204.14198"
+    },
+    "id": "paper-0198",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2022
   }
 ]
