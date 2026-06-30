@@ -3832,5 +3832,23 @@
     "original_title": null,
     "work_type": "paper",
     "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "ERNIE 4.5 Technical Report",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "ERNIE Team, Baidu",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for Baidu's ERNIE 4.5 model family. Vendor-hosted PDF, not on arXiv (flagged).",
+      "venue": "Baidu technical report (ernie.baidu.com)"
+    },
+    "id": "paper-0214",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
   }
 ]

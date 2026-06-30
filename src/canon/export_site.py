@@ -13,7 +13,7 @@ Pages generated (the homepage is generated too, in the same design):
   index.html             the manifesto + the live Canon-50 teaser
   canon-50.html          three scenario views; each rank links to its breakdown
   work/<id>.html         the per-work trust surface (every metric + provenance)
-  papers.html            all 213 papers, honest about scored-vs-seed status
+  papers.html            all 214 papers, honest about scored-vs-seed status
   method.html            the 8 rules, ontology, weighting scenarios, missing-data rule
   challenges.html        the challenge protocol + log (the differentiator; empty for now)
   changelog.html         rendered from CHANGELOG.md
@@ -364,7 +364,7 @@ def page_home(release: dict, rankings: dict, papers: dict, coverage: dict) -> st
 
 <div class="statgrid">
   <div class="stat"><b>573</b><span>candidate books (250 described)</span></div>
-  <div class="stat"><b>213</b><span>seed papers, 1943-2025</span></div>
+  <div class="stat"><b>214</b><span>seed papers, 1943-2025</span></div>
   <div class="stat"><b>184</b><span>voices, described, never ranked</span></div>
   <div class="stat"><b>133</b><span>organizations</span></div>
   <div class="stat"><b>90</b><span>platforms</span></div>
@@ -471,7 +471,7 @@ def page_work(work_id: str, per_scenario: dict, papers: dict) -> str:
 
 
 def page_papers(papers: dict, scored: set) -> str:
-    rows = ['<p class="note">All 213 seed papers. <b>Seed status means candidacy, not canonical '
+    rows = ['<p class="note">All 214 seed papers. <b>Seed status means candidacy, not canonical '
             "status.</b> Papers with harvested evidence link to their breakdown; the rest are an "
             "honestly-declared coverage gap, not a zero.</p>",
             "<table><thead><tr><th>#</th><th>Paper</th><th>Year</th><th>Venue</th><th>Evidence</th></tr></thead><tbody>"]
@@ -542,6 +542,28 @@ def page_method() -> str:
                 "availability, to complement readership_persistence.</li>"
                 "<li><b>Book scoring</b>: books are curated and browsable now but not yet scored; the pilot "
                 "ranks papers only.</li></ul>")
+    body.append('<h2 id="not-here">What is not here, and why</h2>'
+                "<p>A reference is defined as much by what it excludes as by what it lists. These gaps "
+                "are deliberate and declared, not oversights.</p><ul>"
+                "<li><b>The closed frontier ships no papers.</b> Many of the most capable 2025 models, "
+                "including the latest GPT, Claude, Gemini, Grok, and Llama releases, are documented only "
+                "by a system card or a blog post, not a paper. A canon of the literature cannot rank "
+                "what was never written down. We note this not as a complaint but as a finding: the "
+                "most-discussed models are increasingly the least-documented, and open-weight and "
+                "Chinese labs now carry most of the published record.</li>"
+                "<li><b>Models are not entities; their papers are.</b> The Canon ranks texts, not "
+                "products. A model enters only through a primary paper or technical report. Where a "
+                "model has none, it is absent by design, however important it is.</li>"
+                "<li><b>Stable sources are preferred.</b> We cite arXiv or a DOI wherever possible, "
+                "because those are permanent and versioned. A few significant reports exist only as a "
+                "PDF on a company's own site, such as Baidu's ERNIE 4.5. We include those sparingly and "
+                "flag them, since vendor links can change or disappear.</li>"
+                "<li><b>New entries are candidates, not verdicts.</b> A freshly added paper is in the "
+                "corpus but not yet scored. Scoring waits on harvested evidence, so a 2025 model report "
+                "sits unranked until that evidence accrues. Candidacy asserts nothing.</li>"
+                "<li><b>The corpus is still partial.</b> Coverage is a pilot. The Chinese-language "
+                "section in particular is openly under construction, and the paper set leans English. "
+                "We would rather say so than pretend completeness.</li></ul>")
     body.append('<h2 id="how-made">How this was made</h2>'
                 "<p>The Canon is curated and computed, with AI used as a drafting aid, never as the "
                 "authority. To be exact:</p><ul>"
@@ -640,7 +662,7 @@ def page_data(release: dict, coverage: dict) -> str:
         "</ul>"
         "<h3>The corpus, as open data</h3><ul>"
         '<li><a href="audit/seeds/books.json">books.json</a> &middot; <a href="audit/seeds/books.csv">books.csv</a>, 573 books</li>'
-        '<li><a href="audit/seeds/papers.json">papers.json</a> &middot; <a href="audit/seeds/papers.csv">papers.csv</a>, 213 papers</li>'
+        '<li><a href="audit/seeds/papers.json">papers.json</a> &middot; <a href="audit/seeds/papers.csv">papers.csv</a>, 214 papers</li>'
         '<li><a href="audit/seeds/persons.json">persons.json</a>, 184 voices</li>'
         '<li><a href="audit/seeds/orgs.json">orgs.json</a>, 133 organizations</li>'
         '<li><a href="audit/seeds/platforms.json">platforms.json</a>, 90 platforms</li>'
@@ -986,7 +1008,7 @@ def page_about() -> str:
 
 def page_search() -> str:
     body = (
-        '<p class="note">Search the whole corpus: 573 books, 213 papers, and the voices, '
+        '<p class="note">Search the whole corpus: 573 books, 214 papers, and the voices, '
         "organizations, and platforms. Every result links to its entry. The search runs entirely "
         "in your browser; nothing typed here is sent anywhere.</p>"
         '<div class="search-wrap"><input id="sq" type="search" autocomplete="off" '
