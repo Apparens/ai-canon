@@ -98,6 +98,11 @@ ol,ul{margin:10px 0 10px 22px}li{margin:6px 0}
 .sresult .ss{font-size:.85rem;color:var(--g500);margin-top:2px}
 .schip{display:inline-block;font-size:.62rem;letter-spacing:.04em;text-transform:uppercase;padding:2px 8px;border-radius:20px;border:1px solid var(--g300);color:var(--g500);margin-left:8px;vertical-align:middle}
 .pullquote{font-family:"DM Serif Display",serif;font-size:1.3rem;line-height:1.35;color:var(--deep);border-left:3px solid var(--orange);padding:4px 0 4px 18px;margin:16px 0}
+.share{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:14px 0}
+.share-l{font-size:.85rem;opacity:.8;margin-right:2px}
+.share a{display:inline-flex;width:34px;height:34px;align-items:center;justify-content:center;border-radius:8px;color:inherit;border:1px solid rgba(127,127,127,.35);transition:color .15s ease,border-color .15s ease}
+.share a:hover{color:var(--accent);border-color:var(--accent)}
+.share svg{fill:currentColor;display:block}
 .sharebox{background:var(--g100);border:1px solid var(--g200);border-radius:6px;padding:18px 22px;margin:18px 0}
 .sharebox p{margin:8px 0}.sharebox ul{margin:8px 0 8px 20px}
 /* footer */

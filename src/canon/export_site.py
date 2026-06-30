@@ -27,6 +27,7 @@ import html
 import json
 import shutil
 from pathlib import Path
+from urllib.parse import quote
 
 import yaml
 
@@ -61,6 +62,38 @@ POSITIONING = ("The AI Canon is a free, method-backed reference library for AI "
                "knowledge. It ranks texts, not people. It invites correction. It sells nothing.")
 HUMILITY = ("A rank is not a verdict on intrinsic worth. It is a transparent output of "
             "declared evidence, weights, and missing-data rules at a specific release date.")
+
+# --- share row (inline SVG, CSP-safe: no external requests, no inline script) ---
+SHARE_URL = "https://ai-canon.apparens.nl/"
+SHARE_TEXT = ("The AI Canon: a free, public reference library for AI knowledge. "
+              "It ranks texts, not people, and you can check every call.")
+GITHUB_REPO = "https://github.com/Apparens/ai-canon"
+# Brand glyphs (simple-icons paths, CC0) sized to a 24x24 viewBox; envelope is generic.
+_ICONS = {
+    "x": "M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.153h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z",
+    "linkedin": "M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z",
+    "github": "M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222 0 1.606-.014 2.898-.014 3.293 0 .322.216.694.825.576C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12",
+    "email": "M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5z",
+}
+
+
+def _icon(name):
+    return (f'<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" '
+            f'focusable="false"><path d="{_ICONS[name]}"/></svg>')
+
+
+def share_row(prefix="", label="Share"):
+    u, t = quote(SHARE_URL, safe=""), quote(SHARE_TEXT, safe="")
+    links = [
+        (f"https://x.com/intent/tweet?text={t}&url={u}", "x", "Share on X"),
+        (f"https://www.linkedin.com/sharing/share-offsite/?url={u}", "linkedin", "Share on LinkedIn"),
+        (f"mailto:?subject={quote('The AI Canon', safe='')}&body={t}%20{u}", "email", "Share by email"),
+        (GITHUB_REPO, "github", "View the source on GitHub"),
+    ]
+    items = "".join(f'<a href="{href}" target="_blank" rel="noopener noreferrer" '
+                    f'aria-label="{esc(lab)}" title="{esc(lab)}">{_icon(ic)}</a>'
+                    for href, ic, lab in links)
+    return f'<p class="share"><span class="share-l">{esc(label)}</span>{items}</p>'
 
 _STYLE = """
 :root{--deep:#051C2C;--navy:#0A2540;--mid:#1A3A5C;--white:#fff;--g100:#F5F5F5;
@@ -163,6 +196,11 @@ ol,ul{margin:10px 0 10px 22px}li{margin:6px 0}
 .sresult .ss{font-size:.85rem;color:var(--g500);margin-top:2px}
 .schip{display:inline-block;font-size:.62rem;letter-spacing:.04em;text-transform:uppercase;padding:2px 8px;border-radius:20px;border:1px solid var(--g300);color:var(--g500);margin-left:8px;vertical-align:middle}
 .pullquote{font-family:"DM Serif Display",serif;font-size:1.3rem;line-height:1.35;color:var(--deep);border-left:3px solid var(--orange);padding:4px 0 4px 18px;margin:16px 0}
+.share{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:14px 0}
+.share-l{font-size:.85rem;opacity:.8;margin-right:2px}
+.share a{display:inline-flex;width:34px;height:34px;align-items:center;justify-content:center;border-radius:8px;color:inherit;border:1px solid rgba(127,127,127,.35);transition:color .15s ease,border-color .15s ease}
+.share a:hover{color:var(--accent);border-color:var(--accent)}
+.share svg{fill:currentColor;display:block}
 .sharebox{background:var(--g100);border:1px solid var(--g200);border-radius:6px;padding:18px 22px;margin:18px 0}
 .sharebox p{margin:8px 0}.sharebox ul{margin:8px 0 8px 20px}
 /* footer */
@@ -250,6 +288,7 @@ def shell(active: str, kicker: str, title: str, body: str, *, depth: int = 0) ->
 <footer><div class="measure">
 <p>The AI Canon, a public research initiative by <a href="https://apparens.nl">Apparens</a>, creator of the <a href="https://apparens.nl/app/ai-control-index">AI Control Index</a> app. Release <b style="color:#fff;font-weight:600">{esc(VERSION)}</b>. Challenge anything: <a href="mailto:office@apparens.nl">office@apparens.nl</a></p>
 <p style="margin-top:6px">Nothing is for sale. Nothing is hidden. Nothing is final.</p>
+{share_row(prefix)}
 <p class="fine">No cookies. No third-party tracking. No ads, affiliates, or sponsored placement, ever. The site is generated statically from the canonical JSON; the only inbound data path is the challenge mailbox.</p>
 <p class="fine">AI use: ranks are computed, not generated. Voice biographies are AI-drafted from each voice's cited source; some entry descriptions are AI-drafted and human-reviewed; the cover image is AI-generated. <a href="{prefix}method.html#how-made">How this was made</a>.</p>
 </div></footer>
@@ -756,6 +795,7 @@ def page_press() -> str:
 
 def page_share() -> str:
     body = [
+        share_row("", "Share the Canon"),
         f'<p class="lead">{esc("Use any of this freely. The only thing asked is that you keep it honest, which is easy here, because the honest version is the interesting one. Do not call it the world\'s first or the definitive anything. It has not earned those words yet, and the fact that it refuses to claim them is part of what makes it worth sharing.")}</p>',
         "<h2>The problem it speaks to, in one breath</h2>",
         f'<p>{esc("There is too much to read, you cannot tell who to trust, and almost every reading list you have ever seen was either someone\'s opinion or someone\'s affiliate income. Meanwhile the field itself has split in two, English and Chinese, and most maps only show you one half.")}</p>',
