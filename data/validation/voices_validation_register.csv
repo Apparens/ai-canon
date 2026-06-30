@@ -4,7 +4,7 @@
 3,Pushmeet Kohli,https://blog.google/authors/pushmeet-kohli/,200,LIVE,,VERIFIED,VERIFIED 2026-06-29: current role confirmed.,2,volatile current role,"institutional_master_source, revalidate current title periodically."
 4,Regina Barzilay,https://jclinic.mit.edu/team-member/regina-barzilay/,200,LIVE,,QUEUED,,,,institutional_master_source.
 5,Albert Gu,https://scholar.google.com/citations?hl=en&user=DVCHv1kAAAAJ,200,LIVE,,SOURCE-UPGRADED,SEV3 2026-06-29: source upgraded -> https://csd.cmu.edu/people/faculty/albert-gu,3,weak/needs-stronger source,paper/profile source only in prior pass. Needs official CMU and company source before publication.
-6,Alec Radford,https://scholar.google.com/citations?hl=en&user=dOad5HoAAAAJ,200,LIVE,,CORRECTED,CONTENT PASS 2026-06-29: role web-verified + corrected.,,,paper_metadata/profile_source. Avoid current-role claims unless separately sourced.
+6,Alec Radford,https://scholar.google.com/citations?hl=en&user=dOad5HoAAAAJ,200,LIVE,,SOURCE-UPGRADED,2026-06-29: replaced Google Scholar (serves bot-block to users) with official personal site.,,,paper_metadata/profile_source. Avoid current-role claims unless separately sourced.
 7,Andrej Karpathy,https://karpathy.ai/,200,LIVE,,CORRECTED,CONTENT PASS 2026-06-29: role web-verified + corrected.,,,profile_source. Former-role claims should be cross-checked with reputable media or company archive.
 8,Andrew Ng,https://www.andrewng.org/,200,LIVE,,QUEUED,,,,"profile_source, with strong public corroboration likely available."
 9,Andrew Zisserman,https://www.robots.ox.ac.uk/~az/,200,LIVE,,QUEUED,,,,institutional/personal academic source.
@@ -17,7 +17,7 @@
 16,Diederik P. Kingma,https://dpkingma.com/,200,LIVE,,VERIFIED,VERIFIED 2026-06-29: current role confirmed.,2,volatile current role,profile_source. Revalidate current Anthropic role.
 17,François Chollet,https://fchollet.com/,200,LIVE,,QUEUED,,3,revalidate,profile_source. Revalidate Ndea / ARC Prize role.
 18,Grant Sanderson,https://www.3blue1brown.com/about/,200,LIVE,,QUEUED,,,,profile_source.
-19,Ian Goodfellow,https://scholar.google.com/citations?hl=en&user=iYN86KEAAAAJ,200,LIVE,,CORRECTED,CONTENT PASS 2026-06-29: role web-verified + corrected.,,,paper_metadata/profile_source. Add publisher page for textbook before publication.
+19,Ian Goodfellow,https://scholar.google.com/citations?hl=en&user=iYN86KEAAAAJ,200,LIVE,,SOURCE-UPGRADED,2026-06-29: replaced Google Scholar (serves bot-block to users) with official personal site.,,,paper_metadata/profile_source. Add publisher page for textbook before publication.
 20,Jason Wei,https://www.jasonwei.net/,200,LIVE,,CORRECTED,CORRECTED 2026-06-29: at Meta Superintelligence Labs since Jul 2025 (was OpenAI).,2,volatile current role,"profile_source. Current role volatile, revalidate."
 21,Jay Alammar,https://jalammar.github.io/,200,LIVE,,QUEUED,,,,profile_source.
 22,Jeremy Howard,https://jeremy.fast.ai/,200,LIVE,,QUEUED,,,,profile_source.
@@ -32,7 +32,7 @@
 31,Pieter Abbeel,https://people.eecs.berkeley.edu/~pabbeel/,200,LIVE,,CORRECTED,CONTENT PASS 2026-06-29: role web-verified + corrected.,,,institutional/personal academic source.
 32,Qiu Xipeng,https://xpqiu.github.io/en.html,200,LIVE,,QUEUED,,3,weak/needs-stronger source,profile_source. Add Fudan official source before publication.
 33,Quoc Le,https://www.aisc.events/speakers/quoc-le,200,LIVE,,SOURCE-UPGRADED,SEV3 2026-06-29: source upgraded -> https://research.google/people/quocle/,3,weak/needs-stronger source,event_profile. Needs stronger Google/Scholar/paper source.
-34,Sara Hooker,https://scholar.google.com/citations?hl=en&user=2xy6h3sAAAAJ,200,LIVE,,CORRECTED,CORRECTED 2026-06-29: founded Adaption Labs (left Cohere Sep 2025).,2,volatile current role,paper_metadata/profile_source. Revalidate current role.
+34,Sara Hooker,https://scholar.google.com/citations?hl=en&user=2xy6h3sAAAAJ,200,LIVE,,SOURCE-UPGRADED,2026-06-29: replaced Google Scholar (serves bot-block to users) with official personal site.,2,volatile current role,paper_metadata/profile_source. Revalidate current role.
 35,Sebastian Raschka,https://sebastianraschka.com/llms-from-scratch/,200,LIVE,,CORRECTED,CONTENT PASS 2026-06-29: role web-verified + corrected.,,,profile/publication source.
 36,Sergey Levine,https://vcresearch.berkeley.edu/faculty/sergey-levine,200,LIVE,,QUEUED,,,,institutional_master_source.
 37,Simon Willison,https://simonwillison.net/series/prompt-injection/,200,LIVE,,QUEUED,,,,profile_source.
