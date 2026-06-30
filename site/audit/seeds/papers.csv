@@ -197,3 +197,18 @@ paper-0195,PaLM 2 Technical Report,Google,2023,arXiv:2305.10403,Scaling & Fronti
 paper-0196,OpenAI o1 System Card,OpenAI,2024,arXiv:2412.16720,Scaling & Frontier
 paper-0197,Aya Model: An Instruction Finetuned Open-Access Multilingual Language Model,Ahmet Ustun et al. (Cohere For AI),2024,arXiv:2402.07827,NLP & Language Models
 paper-0198,Flamingo: a Visual Language Model for Few-Shot Learning,Jean-Baptiste Alayrac et al. (DeepMind),2022,arXiv:2204.14198,Scaling & Frontier
+paper-0199,Qwen3 Technical Report,Alibaba (Qwen Team),2025,arXiv:2505.09388,Scaling & Frontier
+paper-0200,"GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models","Zhipu AI, Tsinghua",2025,arXiv:2508.06471,Scaling & Frontier
+paper-0201,Hunyuan-TurboS: Advancing Large Language Models through Mamba-Transformer Synergy and Adaptive Chain-of-Thought,Tencent Hunyuan,2025,arXiv:2505.15431,Scaling & Frontier
+paper-0202,Pangu Ultra: Pushing the Limits of Dense Large Language Models on Ascend NPUs,Huawei,2025,arXiv:2504.07866,Scaling & Frontier
+paper-0203,Every Activation Boosted: Scaling General Reasoner to 1 Trillion Open Language Foundation,Ant Group (inclusionAI),2025,arXiv:2510.22115,Scaling & Frontier
+paper-0204,LongCat-Flash Technical Report,Meituan,2025,arXiv:2509.01322,Scaling & Frontier
+paper-0205,DeepSeekMath-V2: Towards Self-Verifiable Mathematical Reasoning,DeepSeek-AI,2025,arXiv:2511.22570,Scaling & Frontier
+paper-0206,Tongyi DeepResearch Technical Report,Alibaba (Tongyi),2025,arXiv:2510.24701,Scaling & Frontier
+paper-0207,P1: Mastering Physics Olympiads with Reinforcement Learning,Shanghai AI Laboratory,2025,arXiv:2511.13612,Scaling & Frontier
+paper-0208,Seed1.5-VL Technical Report,ByteDance Seed,2025,arXiv:2505.07062,Scaling & Frontier
+paper-0209,Gemma 3 Technical Report,Gemma Team (Google DeepMind),2025,arXiv:2503.19786,Scaling & Frontier
+paper-0210,Phi-4 Technical Report,Microsoft,2024,arXiv:2412.08905,Scaling & Frontier
+paper-0211,Phi-4-reasoning Technical Report,Microsoft,2025,arXiv:2504.21318,Scaling & Frontier
+paper-0212,Command A: An Enterprise-Ready Large Language Model,Cohere,2025,arXiv:2504.00698,Scaling & Frontier
+paper-0213,Magistral,Mistral AI,2025,arXiv:2506.10910,Scaling & Frontier

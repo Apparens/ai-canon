@@ -3562,5 +3562,275 @@
     "original_title": null,
     "work_type": "paper",
     "year": 2022
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Qwen3 Technical Report",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Alibaba (Qwen Team)",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable 2025 AI model (Epoch AI cohort; verified arXiv).",
+      "venue": "arXiv:2505.09388"
+    },
+    "id": "paper-0199",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Zhipu AI, Tsinghua",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable 2025 AI model (Epoch AI cohort; verified arXiv).",
+      "venue": "arXiv:2508.06471"
+    },
+    "id": "paper-0200",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Hunyuan-TurboS: Advancing Large Language Models through Mamba-Transformer Synergy and Adaptive Chain-of-Thought",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Tencent Hunyuan",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable 2025 AI model (Epoch AI cohort; verified arXiv).",
+      "venue": "arXiv:2505.15431"
+    },
+    "id": "paper-0201",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Pangu Ultra: Pushing the Limits of Dense Large Language Models on Ascend NPUs",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Huawei",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable 2025 AI model (Epoch AI cohort; verified arXiv).",
+      "venue": "arXiv:2504.07866"
+    },
+    "id": "paper-0202",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Every Activation Boosted: Scaling General Reasoner to 1 Trillion Open Language Foundation",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Ant Group (inclusionAI)",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable 2025 AI model (Epoch AI cohort; verified arXiv).",
+      "venue": "arXiv:2510.22115"
+    },
+    "id": "paper-0203",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "LongCat-Flash Technical Report",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Meituan",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable 2025 AI model (Epoch AI cohort; verified arXiv).",
+      "venue": "arXiv:2509.01322"
+    },
+    "id": "paper-0204",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "DeepSeekMath-V2: Towards Self-Verifiable Mathematical Reasoning",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "DeepSeek-AI",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable 2025 AI model (Epoch AI cohort; verified arXiv).",
+      "venue": "arXiv:2511.22570"
+    },
+    "id": "paper-0205",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Tongyi DeepResearch Technical Report",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Alibaba (Tongyi)",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable 2025 AI model (Epoch AI cohort; verified arXiv).",
+      "venue": "arXiv:2510.24701"
+    },
+    "id": "paper-0206",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "P1: Mastering Physics Olympiads with Reinforcement Learning",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Shanghai AI Laboratory",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable 2025 AI model (Epoch AI cohort; verified arXiv).",
+      "venue": "arXiv:2511.13612"
+    },
+    "id": "paper-0207",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Seed1.5-VL Technical Report",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "ByteDance Seed",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable 2025 AI model (Epoch AI cohort; verified arXiv).",
+      "venue": "arXiv:2505.07062"
+    },
+    "id": "paper-0208",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Gemma 3 Technical Report",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Gemma Team (Google DeepMind)",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable 2025 AI model (Epoch AI cohort; verified arXiv).",
+      "venue": "arXiv:2503.19786"
+    },
+    "id": "paper-0209",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Phi-4 Technical Report",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Microsoft",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable 2025 AI model (Epoch AI cohort; verified arXiv).",
+      "venue": "arXiv:2412.08905"
+    },
+    "id": "paper-0210",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2024
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Phi-4-reasoning Technical Report",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Microsoft",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable 2025 AI model (Epoch AI cohort; verified arXiv).",
+      "venue": "arXiv:2504.21318"
+    },
+    "id": "paper-0211",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Command A: An Enterprise-Ready Large Language Model",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Cohere",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable 2025 AI model (Epoch AI cohort; verified arXiv).",
+      "venue": "arXiv:2504.00698"
+    },
+    "id": "paper-0212",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Magistral",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Mistral AI",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Primary technical report for a notable 2025 AI model (Epoch AI cohort; verified arXiv).",
+      "venue": "arXiv:2506.10910"
+    },
+    "id": "paper-0213",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
   }
 ]
