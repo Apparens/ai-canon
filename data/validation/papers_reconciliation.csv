@@ -1,0 +1,169 @@
+id,title,year,doi,arxiv,cr_title,cr_year,verdict,note
+paper-0001,A Logical Calculus of the Ideas Immanent in Nervous Activity,1943,10.1007/bf02478259,,A logical calculus of the ideas immanent in nervous activity,1943,OK,
+paper-0002,As We May Think,1945,,,“As we May Think”,2003,OK_NO_DOI,only later record in Crossref (2003); corpus year 1945 trusted
+paper-0003,A Mathematical Theory of Communication,1948,,,Mathematical Theory of Communication,2009,OK_NO_DOI,only later record in Crossref (2009); corpus year 1948 trusted
+paper-0004,Computing Machinery and Intelligence,1950,,,13. Computing machinery and intelligence,1966,OK_NO_DOI,only later record in Crossref (1966); corpus year 1950 trusted
+paper-0005,A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence,1955,,,Dartmouth Summer Research Project and the Origin Myth of Artificial Intelligence,2023,REVIEW_MATCH,title_sim=0.75 (no DOI assigned)
+paper-0006,The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain,1958,,,The Perceptron: A Probabilistic Model for Information Storage and Organization (1958),2021,OK_NO_DOI,only later record in Crossref (2021); corpus year 1958 trusted
+paper-0007,Some Studies in Machine Learning Using the Game of Checkers,1959,10.1147/rd.33.0210,,Some Studies in Machine Learning Using the Game of Checkers,1959,OK,
+paper-0008,Programs with Common Sense,1959,,,3 Common Sense,2020,REVIEW_MATCH,title_sim=0.65 (no DOI assigned)
+paper-0009,Man-Computer Symbiosis,1960,,,Man-computer symbiosis,1971,OK_NO_DOI,only later record in Crossref (1971); corpus year 1960 trusted
+paper-0010,Steps Toward Artificial Intelligence,1961,10.1109/jrproc.1961.287775,,Steps toward Artificial Intelligence,1961,OK,
+paper-0011,GPS: A Program That Simulates Human Thought,1961,,,"GPS, A PROGRAM THAT SIMULATES HUMAN THOUGHT",1988,OK_NO_DOI,only later record in Crossref (1988); corpus year 1961 trusted
+paper-0012,Fuzzy Sets,1965,,,Fuzzy sets engineering,1996,REVIEW_MATCH,title_sim=0.62 (no DOI assigned)
+paper-0013,ELIZA: A Computer Program for the Study of Natural Language Communication,1966,10.1145/365153.365168,,ELIZA—a computer program for the study of natural language communication between man and machine,1966,OK,
+paper-0014,Some Philosophical Problems from the Standpoint of Artificial Intelligence,1969,,,Section 21 - Philosophical Problems of Artificial Intelligence,1993,REVIEW_MATCH,title_sim=0.78 (no DOI assigned)
+paper-0015,STRIPS: A New Approach to the Application of Theorem Proving to Problem Solving,1971,,,Application of Theorem Proving to Problem Solving,1969,REVIEW_MATCH,title_sim=0.77 (no DOI assigned)
+paper-0016,Adaptation in Natural and Artificial Systems (foundational monograph),1975,,,Perspectives on Adaptation in Natural and Artificial Systems,2005,REVIEW_MATCH,title_sim=0.69 (no DOI assigned)
+paper-0017,Maximum Likelihood from Incomplete Data via the EM Algorithm,1977,10.1111/j.2517-6161.1977.tb01600.x,,"Maximum Likelihood from Incomplete Data Via the
+                    <i>EM</i>
+                    Algorithm",1977,OK,
+paper-0018,"Minds, Brains, and Programs",1980,,,"Minds, brains, and programs",1988,OK_NO_DOI,only later record in Crossref (1988); corpus year 1980 trusted
+paper-0019,Neocognitron: A Self-Organizing Neural Network Model,1980,,,The digi-neocognitron: a digital neocognitron neural network model for VLSI,1992,REVIEW_MATCH,title_sim=0.67 (no DOI assigned)
+paper-0020,Neural Networks and Physical Systems with Emergent Collective Computational Abilities,1982,10.1073/pnas.79.8.2554,,Neural networks and physical systems with emergent collective computational abilities.,1982,OK,
+paper-0021,Self-Organized Formation of Topologically Correct Feature Maps,1982,10.1007/bf00337288,,Self-organized formation of topologically correct feature maps,1982,OK,
+paper-0022,A Learning Algorithm for Boltzmann Machines,1985,10.1207/s15516709cog0901_7,,A Learning Algorithm for Boltzmann Machines*,1985,OK,
+paper-0023,A Robust Layered Control System for a Mobile Robot,1986,10.1109/jra.1986.1087032,,A robust layered control system for a mobile robot,1986,OK,
+paper-0024,Learning Representations by Back-Propagating Errors,1986,10.1038/323533a0,,Learning representations by back-propagating errors,1986,OK,
+paper-0025,"Fusion, Propagation, and Structuring in Belief Networks",1986,10.1016/0004-3702(86)90072-x,,"Fusion, propagation, and structuring in belief networks",1986,OK,
+paper-0026,Learning to Predict by the Methods of Temporal Differences,1988,10.1023/a:1022633531479,,Learning to Predict by the Methods of Temporal Differences,1988,OK,
+paper-0027,Multilayer Feedforward Networks Are Universal Approximators,1989,10.1016/0893-6080(89)90020-8,,Multilayer feedforward networks are universal approximators,1989,OK,
+paper-0028,A Tutorial on Hidden Markov Models and Selected Applications in Speech Recognition,1989,,,The Application of Hidden Markov Models in Speech Recognition,2007,REVIEW_MATCH,title_sim=0.67 (no DOI assigned)
+paper-0029,The Symbol Grounding Problem,1990,,,Symbol‐grounding Problem,2006,OK_NO_DOI,only later record in Crossref (2006); corpus year 1990 trusted
+paper-0030,Finding Structure in Time,1990,10.1207/s15516709cog1402_1,,Finding Structure in Time,1990,OK,
+paper-0031,Intelligence Without Representation,1991,10.1016/0004-3702(91)90053-m,,Intelligence without representation,1991,OK,
+paper-0032,Q-Learning,1992,,,Introduction: learning transnational learning,2013,REVIEW_MATCH,title_sim=0.33 (no DOI assigned)
+paper-0033,Simple Statistical Gradient-Following Algorithms for Connectionist Reinforcement Learning,1992,10.1007/978-1-4615-3618-5_2,,Simple Statistical Gradient-Following Algorithms for Connectionist Reinforcement Learning,1992,OK,
+paper-0034,Causal Diagrams for Empirical Research,1995,10.1093/biomet/82.4.702,,Causal diagrams for empirical research,1995,OK,
+paper-0035,Support-Vector Networks,1995,,,A neural support vector machine,2010,REVIEW_MATCH,title_sim=0.63 (no DOI assigned)
+paper-0036,Temporal Difference Learning and TD-Gammon,1995,10.3233/icg-1995-18207,,Temporal Difference Learning and TD-Gammon,1995,OK,
+paper-0037,Regression Shrinkage and Selection via the Lasso,1996,,,Figure 4: Feature selection using Least Absolute Shrinkage and Selection Operator (LASSO) regression.,,REVIEW_MATCH,title_sim=0.57 (no DOI assigned)
+paper-0038,Long Short-Term Memory,1997,,,Figure 7: Long short-term memory.,,REVIEW_MATCH,title_sim=0.83 (no DOI assigned)
+paper-0039,A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting,1997,10.1006/jcss.1997.1504,,A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting,1997,OK,
+paper-0040,No Free Lunch Theorems for Optimization,1997,10.1109/4235.585893,,No free lunch theorems for optimization,1997,OK,
+paper-0041,Gradient-Based Learning Applied to Document Recognition,1998,10.1109/5.726791,,Gradient-based learning applied to document recognition,1998,OK,
+paper-0042,The PageRank Citation Ranking: Bringing Order to the Web,1998,,,Weighted PageRank Algorithm Search Engine Ranking Model for Web Pages,2023,REVIEW_MATCH,title_sim=0.53 (no DOI assigned)
+paper-0043,Random Forests,2001,,,Random Forests,2020,OK_NO_DOI,only later record in Crossref (2020); corpus year 2001 trusted
+paper-0044,Statistical Modeling: The Two Cultures,2001,,,"Comment on ""Statistical Modeling: The Two Cultures"" by Leo Breiman",2021,REVIEW_MATCH,title_sim=0.74 (no DOI assigned)
+paper-0045,Greedy Function Approximation: A Gradient Boosting Machine,2001,10.1214/aos/1013203451,,Greedy function approximation: A gradient boosting machine.,2001,OK,
+paper-0046,BLEU: A Method for Automatic Evaluation of Machine Translation,2002,,,Linguistic measures for automatic machine translation evaluation,2010,REVIEW_MATCH,title_sim=0.62 (no DOI assigned)
+paper-0047,Latent Dirichlet Allocation,2003,,,Partial membership latent Dirichlet allocation,,REVIEW_MATCH,title_sim=0.74 (no DOI assigned)
+paper-0048,A Neural Probabilistic Language Model,2003,,,A Probabilistic Network Model of Population Responses,2002,REVIEW_MATCH,title_sim=0.53 (no DOI assigned)
+paper-0049,A Fast Learning Algorithm for Deep Belief Nets,2006,10.1162/neco.2006.18.7.1527,,A Fast Learning Algorithm for Deep Belief Nets,2006,OK,
+paper-0050,Reducing the Dimensionality of Data with Neural Networks,2006,10.1126/science.1127647,,Reducing the Dimensionality of Data with Neural Networks,2006,OK,
+paper-0051,Universal Intelligence: A Definition of Machine Intelligence,2007,10.1007/s11023-007-9079-x,,Universal Intelligence: A Definition of Machine Intelligence,2007,OK,
+paper-0052,The Basic AI Drives,2008,,,The Basic AI Drives,2018,OK_NO_DOI,only later record in Crossref (2018); corpus year 2008 trusted
+paper-0053,Matrix Factorization Techniques for Recommender Systems,2009,,,Introduction to Matrix Factorization for Recommender Systems,2021,REVIEW_MATCH,title_sim=0.77 (no DOI assigned)
+paper-0054,ImageNet: A Large-Scale Hierarchical Image Database,2009,10.1109/cvpr.2009.5206848,,ImageNet: A large-scale hierarchical image database,2009,OK,
+paper-0055,The Unreasonable Effectiveness of Data,2009,10.1109/mis.2009.36,,The Unreasonable Effectiveness of Data,2009,OK,
+paper-0056,ImageNet Classification with Deep Convolutional Neural Networks,2012,,,Texture Classification Using Deep Convolutional Neural Networks,2025,OK_NO_DOI,only later record in Crossref (2025); corpus year 2012 trusted
+paper-0057,Deep Neural Networks for Acoustic Modeling in Speech Recognition,2012,,,Deep neural networks for syllable based acoustic modeling in Chinese speech recognition,2013,REVIEW_MATCH,title_sim=0.85 (no DOI assigned)
+paper-0058,Fairness Through Awareness,2012,10.1145/2090236.2090255,,Fairness through awareness,2012,OK,
+paper-0059,A Few Useful Things to Know About Machine Learning,2012,10.1145/2347736.2347755,,A few useful things to know about machine learning,2012,OK,
+paper-0060,Efficient Estimation of Word Representations in Vector Space,2013,,arXiv:1301.3781,Efficient Estimation of Nepali Word Representations in Vector Space,2020,OK,only later record in Crossref (2020); corpus year 2013 trusted | arXiv resolved
+paper-0061,Dropout: A Simple Way to Prevent Neural Networks from Overfitting,2014,,,Dropout: An Effective Approach to Prevent Neural Networks from Overfitting,2025,REVIEW_MATCH,title_sim=0.85 (no DOI assigned)
+paper-0062,Generative Adversarial Networks,2014,,arXiv:1406.2661,Generative Adversarial Networks (GANs),2020,OK,only later record in Crossref (2020); corpus year 2014 trusted | arXiv resolved
+paper-0063,Auto-Encoding Variational Bayes,2014,,,Auto-Encoding Variational Neural Machine Translation,2019,REVIEW_MATCH,title_sim=0.70 (no DOI assigned)
+paper-0064,Intriguing Properties of Neural Networks,2014,,arXiv:1312.6199,Fooling Examples: Another Intriguing Property of Neural Networks,2023,OK,title_sim=0.72 (no DOI assigned) | arXiv resolved
+paper-0065,GloVe: Global Vectors for Word Representation,2014,,,Analysis of Internet Movie Database with Global Vectors for Word Representation,2024,REVIEW_MATCH,title_sim=0.70 (no DOI assigned)
+paper-0066,Sequence to Sequence Learning with Neural Networks,2014,,arXiv:1409.3215,Understanding Sequence-to-Sequence Learning with Neural Networks,2025,OK,only later record in Crossref (2025); corpus year 2014 trusted | arXiv resolved
+paper-0067,Very Deep Convolutional Networks for Large-Scale Image Recognition,2015,,arXiv:1409.1556,Optimizing Convolutional Neural Networks Utilizing Tensor Decomposition Techniques for Large-Scale Image Recognition Tasks,2023,OK,title_sim=0.62 (no DOI assigned) | arXiv resolved
+paper-0068,Going Deeper with Convolutions,2015,10.1109/cvpr.2015.7298594,,Going deeper with convolutions,2015,OK,
+paper-0069,Batch Normalization: Accelerating Deep Network Training,2015,,,Generalized Batch Normalization: Towards Accelerating Deep Neural Networks,2019,REVIEW_MATCH,title_sim=0.71 (no DOI assigned)
+paper-0070,Adam: A Method for Stochastic Optimization,2015,,,madgrad: 'MADGRAD' Method for Stochastic Optimization,2021,OK_NO_DOI,only later record in Crossref (2021); corpus year 2015 trusted
+paper-0071,Deep Learning (review),2015,,,"Review for ""Machine learning and deep learning—A review for ecologists""",2022,REVIEW_MATCH,title_sim=0.45 (no DOI assigned)
+paper-0072,U-Net: Convolutional Networks for Biomedical Image Segmentation,2015,,,Invited Talk: U-Net Convolutional Networks for Biomedical Image Segmentation,2017,OK_NO_DOI,only later record in Crossref (2017); corpus year 2015 trusted
+paper-0073,Distilling the Knowledge in a Neural Network,2015,,arXiv:1503.02531,Distilling Multi-Teacher Knowledge from Distinct Graph Neural Networks,2025,OK,title_sim=0.77 (no DOI assigned) | arXiv resolved
+paper-0074,Explaining and Harnessing Adversarial Examples,2015,,arXiv:1412.6572,"Understanding, taming, and defending from adversarial examples",,OK,title_sim=0.70 (no DOI assigned) | arXiv resolved
+paper-0075,Neural Machine Translation by Jointly Learning to Align and Translate,2015,,arXiv:1409.0473,AligNART: Non-autoregressive Neural Machine Translation by Jointly Learning to Estimate Alignment and Translate,2021,OK,title_sim=0.77 (no DOI assigned) | arXiv resolved
+paper-0076,Human-Level Control Through Deep Reinforcement Learning,2015,,,Faculty Opinions recommendation of Human-level control through deep reinforcement learning.,2015,REVIEW_MATCH,title_sim=0.76 (no DOI assigned)
+paper-0077,Hidden Technical Debt in Machine Learning Systems,2015,,,Technical Debt in Machine Learning Systems,2021,OK_NO_DOI,only later record in Crossref (2021); corpus year 2015 trusted
+paper-0078,XGBoost: A Scalable Tree Boosting System,2016,,,Robust Detection of Static and Moving Chipless RFID Tags Using Scalable Tree Boosting System,2023,REVIEW_MATCH,title_sim=0.53 (no DOI assigned)
+paper-0079,Deep Residual Learning for Image Recognition,2016,10.1109/cvpr.2016.90,,Deep Residual Learning for Image Recognition,2016,OK,
+paper-0080,"You Only Look Once: Unified, Real-Time Object Detection",2016,10.1109/cvpr.2016.91,,"You Only Look Once: Unified, Real-Time Object Detection",2016,OK,
+paper-0081,WaveNet: A Generative Model for Raw Audio,2016,,,A Generative Model for Raw Audio Using Transformer Architectures,2021,REVIEW_MATCH,title_sim=0.62 (no DOI assigned)
+paper-0082,Mastering the Game of Go with Deep Neural Networks and Tree Search,2016,10.1038/nature16961,,Mastering the game of Go with deep neural networks and tree search,2016,OK,
+paper-0083,End-to-End Training of Deep Visuomotor Policies,2016,,,End-to-End Learning of Deep Visuomotor Policy for Needle Picking,2023,REVIEW_MATCH,title_sim=0.76 (no DOI assigned)
+paper-0084,Concrete Problems in AI Safety,2016,,arXiv:1606.06565,Health And Safety,1997,OK,title_sim=0.47 (no DOI assigned) | arXiv resolved
+paper-0085,Why Should I Trust You? Explaining the Predictions of Any Classifier,2016,,arXiv:1602.04938,Documenting evidence of a reuse of ‘“why should I trust you?”: explaining the predictions of any classifier’,2021,OK,title_sim=0.79 (no DOI assigned) | arXiv resolved
+paper-0086,Big Data's Disparate Impact,2016,10.2139/ssrn.2477899,,Big Data's Disparate Impact,2016,OK,
+paper-0087,Machine Bias,2016,,,Bias in Machine Learning,2022,REVIEW_MATCH,title_sim=0.50 (no DOI assigned)
+paper-0088,Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings,2016,,arXiv:1607.06520,Joint Multiclass Debiasing of Word Embeddings,2020,OK,title_sim=0.51 (no DOI assigned) | arXiv resolved
+paper-0089,Equality of Opportunity in Supervised Learning,2016,,arXiv:1610.02413,7 Equality of Opportunity for Welfare,1998,OK,title_sim=0.70 (no DOI assigned) | arXiv resolved
+paper-0090,The Ethics of Algorithms: Mapping the Debate,2016,10.1177/2053951716679679,,The ethics of algorithms: Mapping the debate,2016,OK,
+paper-0091,Deep Learning with Differential Privacy,2016,,arXiv:1607.00133,Privacy-Preserving Deep Reinforcement Learning based on Differential Privacy,2024,OK,title_sim=0.61 (no DOI assigned) | arXiv resolved
+paper-0092,Semi-Supervised Classification with Graph Convolutional Networks,2017,,,Semi-Supervised Node Classification With Discriminable Squeeze Excitation Graph Convolutional Networks,2020,REVIEW_MATCH,title_sim=0.77 (no DOI assigned)
+paper-0093,Attention Is All You Need,2017,,arXiv:1706.03762,Is Attention All You Need?,2025,OK,only later record in Crossref (2025); corpus year 2017 trusted | arXiv resolved
+paper-0094,Mastering the Game of Go Without Human Knowledge,2017,10.1038/nature24270,,Mastering the game of Go without human knowledge,2017,OK,
+paper-0095,Proximal Policy Optimization Algorithms,2017,,arXiv:1707.06347,Proximal Policy Optimization for Radiation Source Search,,OK,title_sim=0.72 (no DOI assigned) | arXiv resolved
+paper-0096,Deep Reinforcement Learning from Human Preferences,2017,,arXiv:1706.03741,Deep Reinforcement Learning,2023,OK,title_sim=0.70 (no DOI assigned) | arXiv resolved
+paper-0097,A Unified Approach to Interpreting Model Predictions,2017,,arXiv:1705.07874,Unified Deep Learning Model for Multitask Reaction Predictions with Explanation,,OK,title_sim=0.49 (no DOI assigned) | arXiv resolved
+paper-0098,Inherent Trade-Offs in the Fair Determination of Risk Scores,2017,,arXiv:1609.05807,Inherent Tradeoffs in the Fair Determination of Risk Scores,2023,OK,only later record in Crossref (2023); corpus year 2017 trusted | arXiv resolved
+paper-0099,Semantics Derived Automatically from Language Corpora Contain Human-Like Biases,2017,10.1126/science.aal4230,,Semantics derived automatically from language corpora contain human-like biases,2017,OK,
+paper-0100,Membership Inference Attacks Against Machine Learning Models,2017,10.1109/sp.2017.41,,Membership Inference Attacks Against Machine Learning Models,2017,OK,
+paper-0101,Communication-Efficient Learning of Deep Networks from Decentralized Data,2017,,,Communication-efficient decentralized learning for intelligent networked systems,,REVIEW_MATCH,title_sim=0.52 (no DOI assigned)
+paper-0102,World Models,2018,,arXiv:1803.10122,Models within models,2004,OK,title_sim=0.50 (no DOI assigned) | arXiv resolved
+paper-0103,Improving Language Understanding by Generative Pre-Training,2018,,,LoTLIP: Improving Language-Image Pre-training for Long Text Understanding,2024,REVIEW_MATCH,title_sim=0.53 (no DOI assigned)
+paper-0104,"A General Reinforcement Learning Algorithm That Masters Chess, Shogi, and Go Through Self-Play",2018,10.1126/science.aar6404,,"A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play",2018,OK,
+paper-0105,The Mythos of Model Interpretability,2018,10.1145/3236386.3241340,,The Mythos of Model Interpretability,2018,OK,
+paper-0106,Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification,2018,,,Figure 9: Accuracy of chest radiograph gender classification dataset.,,REVIEW_MATCH,title_sim=0.50 (no DOI assigned)
+paper-0107,Counterfactual Explanations Without Opening the Black Box,2018,,,Counterfactual Explanations Without Opening the Black Box: Automated Decisions and the GDPR,2017,REVIEW_MATCH,title_sim=0.78 (no DOI assigned)
+paper-0108,"The Malicious Use of Artificial Intelligence: Forecasting, Prevention, and Mitigation",2018,,arXiv:1802.07228,The Malicious Use of Artificial Intelligence Through Agenda Setting,2023,OK,title_sim=0.71 (no DOI assigned) | arXiv resolved
+paper-0109,BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding,2019,,,Arabic Image Captioning using Pre-training of Deep Bidirectional Transformers,2022,REVIEW_MATCH,title_sim=0.65 (no DOI assigned)
+paper-0110,Language Models are Unsupervised Multitask Learners,2019,,,Instruction Pre-Training: Language Models are Supervised Multitask Learners,2024,REVIEW_MATCH,title_sim=0.78 (no DOI assigned)
+paper-0111,Grandmaster Level in StarCraft II Using Multi-Agent Reinforcement Learning,2019,,,Spellcaster Control Agent in StarCraft II Using Deep Reinforcement Learning,2020,REVIEW_MATCH,title_sim=0.74 (no DOI assigned)
+paper-0112,Risks from Learned Optimization in Advanced Machine Learning Systems,2019,,arXiv:1906.01820,Meta-Learned Dynamic Distillation for Automated Hyperparameter Optimization in Machine Learning Systems,2025,OK,title_sim=0.58 (no DOI assigned) | arXiv resolved
+paper-0113,Stop Explaining Black Box Machine Learning Models for High Stakes Decisions,2019,,,Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead,2019,REVIEW_MATCH,title_sim=0.80 (no DOI assigned)
+paper-0114,Model Cards for Model Reporting,2019,,arXiv:1810.03993,Figure S1: Model validity (reporting questions),,OK,title_sim=0.48 (no DOI assigned) | arXiv resolved
+paper-0115,Dissecting Racial Bias in an Algorithm Used to Manage the Health of Populations,2019,10.1126/science.aax2342,,Dissecting racial bias in an algorithm used to manage the health of populations,2019,OK,
+paper-0116,Energy and Policy Considerations for Deep Learning in NLP,2019,,arXiv:1906.02243,Energy and Policy Considerations for Modern Deep Learning Research,2020,OK,title_sim=0.83 (no DOI assigned) | arXiv resolved
+paper-0117,The Global Landscape of AI Ethics Guidelines,2019,,,AI and Information: The Global Landscape of AI Ethics and Regulation,2026,REVIEW_MATCH,title_sim=0.68 (no DOI assigned)
+paper-0118,The Bitter Lesson,2019,,,A bitter lesson,1999,OK_NO_DOI,only later record in Crossref (1999); corpus year 2019 trusted
+paper-0119,On the Measure of Intelligence,2019,,arXiv:1911.01547,Composite Measure of Fluid Intelligence,2012,OK,title_sim=0.78 (no DOI assigned) | arXiv resolved
+paper-0120,Denoising Diffusion Probabilistic Models,2020,,,Riemannian Denoising Diffusion Probabilistic Models,2025,OK_NO_DOI,only later record in Crossref (2025); corpus year 2020 trusted
+paper-0121,Neural Radiance Fields (NeRF): Representing Scenes for View Synthesis,2020,,,TeX-NeRF: Neural Radiance Fields for Novel HADAR View Synthesis,2025,REVIEW_MATCH,title_sim=0.64 (no DOI assigned)
+paper-0122,Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer,2020,,arXiv:1910.10683,ViHateT5: Enhancing Hate Speech Detection in Vietnamese With a Unified Text-to-Text Transformer Model,2024,OK,title_sim=0.57 (no DOI assigned) | arXiv resolved
+paper-0123,Language Models are Few-Shot Learners,2020,,arXiv:2005.14165,Language Models of Code are Few-Shot Commonsense Learners,2022,OK,title_sim=0.79 (no DOI assigned) | arXiv resolved
+paper-0124,Scaling Laws for Neural Language Models,2020,,arXiv:2001.08361,Scaling laws for language encoding models in fMRI,2023,OK,title_sim=0.73 (no DOI assigned) | arXiv resolved
+paper-0125,Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks,2020,,,Multilingual Retrieval-Augmented Generation for Knowledge-Intensive Question Answering Task,2026,REVIEW_MATCH,title_sim=0.79 (no DOI assigned)
+paper-0126,"Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model",2020,10.1038/s41586-020-03051-4,,"Mastering Atari, Go, chess and shogi by planning with a learned model",2020,OK,
+paper-0127,Zoom In: An Introduction to Circuits,2020,10.23915/distill.00024.001,,Zoom In: An Introduction to Circuits,2020,OK,
+paper-0128,Closing the AI Accountability Gap: Defining an End-to-End Framework for Internal Algorithmic Auditing,2020,,arXiv:2001.00973,"Closing the Accountability Gap&amp;nbsp;
+&lt;div&gt;
+ A Governance Framework for AI in Private Equity, Venture Capital, and Strategic Consulting
+&lt;/div&gt;",2026,OK,title_sim=0.57 (no DOI assigned) | arXiv resolved
+paper-0129,An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale,2021,,arXiv:2010.11929,An Image Equals 16x16 Words: Scaling Image Recogni:on with Transformers,2025,OK,title_sim=0.63 (no DOI assigned) | arXiv resolved
+paper-0130,Learning Transferable Visual Models From Natural Language Supervision,2021,,arXiv:2103.00020,Understanding Surgical Triplet Videos Through Transferable Visual Models from Natural Language Supervision,2026,OK,title_sim=0.77 (no DOI assigned) | arXiv resolved
+paper-0131,Evaluating Large Language Models Trained on Code,2021,,arXiv:2107.03374,Evaluating Language Models for Computer Graphics Code Completion,2025,OK,title_sim=0.64 (no DOI assigned) | arXiv resolved
+paper-0132,Unsolved Problems in ML Safety,2021,,arXiv:2109.13916,5. UNSOLVED PROBLEMS IN GRAVITATIONAL LENSING,1997,OK,title_sim=0.65 (no DOI assigned) | arXiv resolved
+paper-0133,Datasheets for Datasets,2021,,,"Excerpt from Datasheets for Datasets
+*",2022,REVIEW_MATCH,title_sim=0.78 (no DOI assigned)
+paper-0134,On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?,2021,,,On the Dangers of Stochastic Parrots,2021,REVIEW_MATCH,title_sim=0.70 (no DOI assigned)
+paper-0135,Extracting Training Data from Large Language Models,2021,,arXiv:2012.07805,Extracting Financial Data From Unstructured Sources: Leveraging Large Language Models,2023,OK,title_sim=0.68 (no DOI assigned) | arXiv resolved
+paper-0136,Highly Accurate Protein Structure Prediction with AlphaFold,2021,,,Faculty Opinions recommendation of Highly accurate protein structure prediction with AlphaFold.,2021,REVIEW_MATCH,title_sim=0.77 (no DOI assigned)
+paper-0137,The Hardware Lottery,2021,10.1145/3467017,,The hardware lottery,2021,OK,
+paper-0138,High-Resolution Image Synthesis with Latent Diffusion Models,2022,10.1109/cvpr52688.2022.01042,,High-Resolution Image Synthesis with Latent Diffusion Models,2022,OK,
+paper-0139,Training Compute-Optimal Large Language Models,2022,,arXiv:2203.15556,Training Compute-Optimal Protein Language Models,2024,OK,only later record in Crossref (2024); corpus year 2022 trusted | arXiv resolved
+paper-0140,LoRA: Low-Rank Adaptation of Large Language Models,2022,,,PE-LoRA: Parameter-Efficient Bayesian Low-Rank Adaptation for Large Language Models,2026,REVIEW_MATCH,title_sim=0.73 (no DOI assigned)
+paper-0141,Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity,2022,,arXiv:2101.03961,Sparse Experts Scale Better in Efficient Mixture Architectures for Trillion Parameter Models,2026,OK,title_sim=0.45 (no DOI assigned) | arXiv resolved
+paper-0142,Chain-of-Thought Prompting Elicits Reasoning in Large Language Models,2022,10.52202/068431-1800,,Chain-Of-Thought Prompting Elicits Reasoning in Large Language Models,2022,OK,
+paper-0143,Emergent Abilities of Large Language Models,2022,,,Understanding Emergent Abilities in Large Language Models,2026,REVIEW_MATCH,title_sim=0.82 (no DOI assigned)
+paper-0144,Training Language Models to Follow Instructions with Human Feedback,2022,10.52202/068431-2011,,Training Language Models to Follow Instructions with Human Feedback,2022,OK,
+paper-0145,Constitutional AI: Harmlessness from AI Feedback,2022,,arXiv:2212.08073,Operationalising Harmlessness in Online AI Systems,2025,OK,title_sim=0.58 (no DOI assigned) | arXiv resolved
+paper-0146,Toy Models of Superposition,2022,,arXiv:2209.10652,"Review for ""Milking a spherical cow: Toy models in neuroscience""",2024,OK,title_sim=0.41 (no DOI assigned) | arXiv resolved
+paper-0147,Discovering Faster Matrix Multiplication Algorithms with Reinforcement Learning,2022,10.1038/s41586-022-05172-4,,Discovering faster matrix multiplication algorithms with reinforcement learning,2022,OK,
+paper-0148,Segment Anything,2023,,arXiv:2304.02643,ON SEGMENTATION OF POLYPS USING SEGMENT ANYTHING MODEL,2025,OK,title_sim=0.46 (no DOI assigned) | arXiv resolved
+paper-0149,ReAct: Synergizing Reasoning and Acting in Language Models,2023,,,Meta-of-Thought: Reasoning About Reasoning in Large Language Models,2025,REVIEW_MATCH,title_sim=0.63 (no DOI assigned)
+paper-0150,Toolformer: Language Models Can Teach Themselves to Use Tools,2023,10.52202/075280-2997,,Toolformer: Language Models Can Teach Themselves to Use Tools,2023,OK,
+paper-0151,LLaMA: Open and Efficient Foundation Language Models,2023,,,Model Inversion Attacks on Llama 3: Extracting PII from Large Language Models,2025,REVIEW_MATCH,title_sim=0.47 (no DOI assigned)
+paper-0152,GPT-4 Technical Report,2023,,,How to use GPT-4V For Stoplight Report,2024,REVIEW_MATCH,title_sim=0.50 (no DOI assigned)
+paper-0153,Sparks of Artificial General Intelligence: Early Experiments with GPT-4,2023,,arXiv:2303.12712,Sparks of Artificial General Recommender (AGR): Experiments with ChatGPT,2023,OK,title_sim=0.82 (no DOI assigned) | arXiv resolved
+paper-0154,Mamba: Linear-Time Sequence Modeling with Selective State Spaces,2023,,,Linear-Time Sequence Modeling with Selective State Spaces for the Ukrainian Language,2025,REVIEW_MATCH,title_sim=0.78 (no DOI assigned)
+paper-0155,Universal and Transferable Adversarial Attacks on Aligned Language Models,2023,,arXiv:2307.15043,Universal and Transferable Adversarial Attack on Large Language Models Using Exponentiated Gradient Descent,2025,OK,title_sim=0.76 (no DOI assigned) | arXiv resolved
+paper-0156,Towards Monosemanticity: Decomposing Language Models with Dictionary Learning,2023,,,Towards Gamifying Interactive Language Learning using Large Language Models for Children,2024,REVIEW_MATCH,title_sim=0.48 (no DOI assigned)
+paper-0157,Frontier AI Regulation: Managing Emerging Risks to Public Safety,2023,,arXiv:2307.03718,Enabling Frontier Lab Collaboration to Mitigate AI Safety Risks,2025,OK,title_sim=0.46 (no DOI assigned) | arXiv resolved
+paper-0158,GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models,2023,,arXiv:2303.10130,GPTs are GPTs: Labor market impact potential of LLMs,2024,OK,title_sim=0.73 (no DOI assigned) | arXiv resolved
+paper-0159,Sleeper Agents: Training Deceptive LLMs That Persist Through Safety Training,2024,,arXiv:2401.05566,Applying Serious Game Elements to Enhance the Flood Safety Training Apps (Preprint),2020,OK,title_sim=0.44 (no DOI assigned) | arXiv resolved
+paper-0160,Managing Extreme AI Risks Amid Rapid Progress,2024,10.1126/science.adn0117,,Managing extreme AI risks amid rapid progress,2024,OK,
+paper-0161,Accurate Structure Prediction of Biomolecular Interactions with AlphaFold 3,2024,,,Accurate structure prediction of biomolecular interactions with AlphaFold 3,2026,OK_NO_DOI,only later record in Crossref (2026); corpus year 2024 trusted
+paper-0162,DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning,2025,,,WorkForceAgent-R1: Incentivizing Reasoning Capability in LLM-based Web Agents via Reinforcement Learning,2026,REVIEW_MATCH,title_sim=0.82 (no DOI assigned)

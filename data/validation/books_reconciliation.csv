@@ -1,0 +1,574 @@
+id,title,author,year,ol_title,ol_author,ol_year,verdict,note
+book-0001,The Nvidia Way: Jensen Huang and the Making of a Tech Giant,Tae Kim,2024,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0002,2084 and the AI Revolution (Updated and Expanded Edition): How Artificial Intelligence Informs Our Future,John C. Lennox,2024,"2084 and the AI Revolution, Updated and Expanded Edition",John C. Lennox,2024,OK,
+book-0003,Boom: Bubbles and the End of Stagnation,"Byrne Hobart, Tobias Huber",2024,Boom,Jean Tay,2009,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0004,"Genesis: Artificial Intelligence, Hope, and the Human Spirit","Henry A. Kissinger, Eric Schmidt, Craig Mundie",2024,Genesis,Bernard Beckett; Bernard Beckett; Bernard Beckett,2006,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0005,ChatGPT and the Future of AI: The Deep Language Revolution,Terrence J. Sejnowski,2024,"ChatGPT, AI, and the Future of Writing",Avery Elizabeth Hurt,2024,REVIEW_MATCH,title_sim=0.84 author_ok=False (may be DB gap)
+book-0006,"Tech Agnostic: How Technology Became the World's Most Powerful Religion, and Why It Desperately Needs a Reformation",Greg Epstein,2024,Tech Agnostic,Greg M. Epstein,2024,OK,
+book-0007,The Line: AI and the Future of Personhood,James Boyle,2024,Cross the line,James Patterson,2016,REVIEW_MATCH,title_sim=0.73 author_ok=False (may be DB gap)
+book-0008,Personalized: Customer Strategy in the Age of AI,"Mark Abraham, David C. Edelman",2024,Personality,Lawrence A. Pervin; Daniel Cervone; Oliver P. John,1975,REVIEW_MATCH,title_sim=0.78 author_ok=False (may be DB gap)
+book-0009,Robot-Proof (Revised and Updated Edition): Higher Education in the Age of Artificial Intelligence,Joseph E. Aoun,2024,"I, Robot",Isaac Asimov,1950,REVIEW_MATCH,title_sim=0.83 author_ok=False (may be DB gap)
+book-0010,Hands-On Large Language Models: Language Understanding and Generation,"Jay Alammar, Maarten Grootendorst",2024,Gifted hands,Ben Carson; Cecil Murphey; Benjamin S. Carson Sr.,1990,REVIEW_MATCH,title_sim=0.59 author_ok=False (may be DB gap)
+book-0011,"AI Snake Oil: What Artificial Intelligence Can Do, What It Can't, and How to Tell the Difference","Arvind Narayanan, Sayash Kapoor",2024,AI Snake Oil,Arvind Narayanan; Sayash Kapoor,2024,OK,
+book-0012,Artificial General Intelligence: The MIT Press Essential Knowledge series,Julian Togelius,2024,Artificial general intelligence,Ben Goertzel; Cassio Pennachin,2007,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0013,The Digitalist Papers: Artificial Intelligence and Democracy in America,"Erik Brynjolfsson, et al.",2024,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0014,Taming Silicon Valley: How We Can Ensure That AI Works for Us,Gary Marcus,2024,Taming Silicon Valley,Gary F. Marcus,2024,OK,
+book-0015,"The AI-Driven Leader: Harnessing AI to Make Faster, Smarter Decisions",Geoff Woods,2024,The AI Con,Emily M. Bender; Alex Hanna,2025,REVIEW_MATCH,title_sim=0.75 author_ok=False (may be DB gap)
+book-0016,Mastering AI Prompt Engineering: The Ultimate Guide for ChatGPT Users,Adriano Damiao,2024,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0017,Human+Machine: Reimagining Work in the Age of AI (Updated and Expanded),"Paul R. Daugherty, H. James Wilson",2024,Human + machine,Paul R. Daugherty,2018,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0018,Nexus: A Brief History of Information Networks from the Stone Age to AI,Yuval Noah Harari,2024,Nexus,Yuval Noah Harari,2024,OK,
+book-0019,"Supremacy: AI, ChatGPT, and the Race that Will Change the World",Parmy Olson,2024,Quantum Supremacy,Michio Kaku,2023,REVIEW_MATCH,title_sim=0.69 author_ok=False (may be DB gap)
+book-0020,Irreplaceable: The Art of Standing Out in the Age of Artificial Intelligence,Pascal Bornet,2024,Irreplaceable,Julian Hoffman; Anonymous,2019,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0021,The Atomic Human: What Makes Us Unique in the Age of AI,Neil D. Lawrence,2024,The Atom in the History of Human Thought,Bernard Pullman,1998,REVIEW_MATCH,title_sim=0.54 author_ok=False (may be DB gap)
+book-0022,The AI Agent Mandate: Reimagining Work in the Age of AI,Marco Buchbinder,2024,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0023,The Mind's Mirror: Risk and Reward in the Age of AI,"Daniela Rus, Gregory Mone",2024,Three Maidens of the Mind's Mirror,Simon Dennis,2011,REVIEW_MATCH,title_sim=0.67 author_ok=False (may be DB gap)
+book-0024,The Hidden Human Labor Powering A.I.,"Callum Cant, James Muldoon, Mark Graham",2024,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0025,Humanity Redefined: How AI is Going to Reshape Our Shared Destiny in the Next 40 Years,Val Kaplan,2024,Human Destiny Redefined,Alexis Ephraim,2013,REVIEW_MATCH,title_sim=0.83 author_ok=False (may be DB gap)
+book-0026,AI Money Making Strategies for Beginners: With Zero Experience Master ChatGPT & Leverage AI,William Harrow,2024,"ChatGPT Money Handbook, Make Money with AI, AI Side Hustle Guide, Passive Income with ChatGPT, AI Business & Marketing Strategies, Online Income Ideas, AI Entrepreneurship, Digital Marketing, AI Automation for Beginners",Uu,2026,REVIEW_MATCH,title_sim=0.17 author_ok=False (may be DB gap)
+book-0027,Why Machines Learn: The Elegant Math Behind Modern AI,Anil Ananthaswamy,2024,Why Machines Learn,Anil Ananthaswamy,2024,OK,
+book-0028,Mastering AI: A Survival Guide to Our Superpowered Future,Jeremy Kahn,2024,Mastering AI,Jeremy Kahn,2024,OK,
+book-0029,AI for Beginners Made Easy: Master Artificial Intelligence from Generative AI to Machine Learning,Alex Bennett,2024,AI FOR BEGINNERS MADE EASY,,2024,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0030,Prompt Engineering for Generative AI: Future-Proof Inputs for Reliable AI Outputs,"James Phoenix, Mike Taylor",2024,Prompt Engineering for Generative AI,James Phoenix; Mike Taylor,2024,OK,
+book-0031,The Singularity Is Nearer: When We Merge with AI,Ray Kurzweil,2024,The Singularity is Nearer,Ray Kurzweil,2024,OK,
+book-0032,Code Dependent: Living in the Shadow of AI,Madhumita Murgia,2024,Code-Dependent,Madhumita Murgia,2024,OK,
+book-0033,The AI-Savvy Leader: Nine Ways to Take Back Control and Make AI Work,David De Cremer,2024,The AI Con,Emily M. Bender; Alex Hanna,2025,REVIEW_MATCH,title_sim=0.75 author_ok=False (may be DB gap)
+book-0034,AI in Business: A Winning Guide to Artificial Intelligence,Sebastian Forbes,2024,AI In Business,Sarah Burnett,2024,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0035,The Skill Code: How to Save Human Ability in an Age of Intelligent Machines,Matt Beane,2024,Code Up! Taking Your Software Project Skills to the Next Level,Patrick Cauldwell,2008,REVIEW_MATCH,title_sim=0.29 author_ok=False (may be DB gap)
+book-0036,AI Driven: Staying Alive in the Age of Digital Darwinism,"Wolf Ruzicka, Victor Shilo",2024,AI-Driven,Wael M. S. Yafooz; Yousef Al-Gumaei,2025,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0037,The AI Mirror: How to Reclaim Our Humanity in an Age of Machine Thinking,Shannon Vallor,2024,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0038,As If Human: Ethics and Artificial Intelligence,"Nigel Shadbolt, Roger Hampson",2024,As If Human,Nigel Shadbolt; Roger Hampson,2024,OK,
+book-0039,Brave New Words: How AI Will Revolutionize Education (and Why That's a Good Thing),Salman Khan,2024,Brave New Words,Salman Khan,2024,OK,
+book-0040,How AI Ate the World: A Brief History of Artificial Intelligence - And Its Long Future,Chris Stokel-Walker,2024,How AI Ate the World,Chris Stokel-Walker,2024,OK,
+book-0041,Teaching with AI: A Practical Guide to a New Era of Human Learning,"José Antonio Bowen, C. Edward Watson",2024,Teaching with AI,José Antonio Bowen; C. Edward Watson,2024,OK,
+book-0042,"Your AI Survival Guide: Scraped Knees, Bruised Elbows, and Lessons Learned from Real-World AI Deployments",Sol Rashidi,2024,Your AI Survival Guide,Sol Rashidi,2024,OK,
+book-0043,The Ordinal Society,"Marion Fourcade, Kieran Healy",2024,The Ordinal Society,Marion Fourcade; Kieran Healy,2024,OK,
+book-0044,"Generative AI for the Rest of Us: Your Future, Decoded",Aymen El Amri,2024,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0045,The AI Glossary: Demystifying 101 Essential Artificial Intelligence Terms for Everyone,Richard R. Khan,2024,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0046,AI Entrepreneur's Handbook: Build a Profitable Business and Make Money by Unleashing the Power of ChatGPT and Artificial Intelligence,Kartikeya Malhotra,2024,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0047,Co-Intelligence: Living and Working with AI,Ethan Mollick,2024,Co-Intelligence,Ethan Mollick,2024,REVIEW_MATCH,title_sim=0.53 author_ok=True (may be DB gap)
+book-0048,Generative Artificial Intelligence for Beginners,Gwen Taylor,2024,Generative AI for Beginners : Understanding Artificial Intelligence,Alex Quant,2025,REVIEW_MATCH,title_sim=0.60 author_ok=False (may be DB gap)
+book-0049,AI Literacy Fundamentals: Helping You Join the AI Conversation,Ben Jones,2024,AI Literacy Fundamentals,Ben Jones; Alli Torban,2024,OK,
+book-0050,Deep Utopia: Life and Meaning in a Solved World,Nick Bostrom,2024,Deep Utopia,Nick Bostrom,2024,OK,
+book-0051,Generative AI in Practice: 100+ Amazing Ways Generative Artificial Intelligence is Changing Business and Society,Bernard Marr,2024,Generative AI in Practice,Bernard Marr,2024,OK,
+book-0052,Mastering the Data Paradox: Key to Winning in the AI Age,Nitin Seth,2024,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0053,"Write with AI: Conquer Writer's Block, Unleash Your Creativity, and Write Your Book Using Artificial Intelligence",Rob Kosberg,2024,Write with AI,Rob Kosberg,2024,OK,
+book-0054,AI Needs You: How We Can Change AI's Future and Save Our Own,Verity Harding,2024,AI Needs You,Verity Harding,2024,OK,
+book-0055,Fusion Strategy: How Real-Time Data and AI Will Power the Industrial Future,"Vijay Govindarajan, Venkat Venkatraman",2024,Fusion Strategy,Vijay Govindarajan; Venkat Venkatraman,2024,OK,
+book-0056,"The AI Accelerator: How to 10X Your Productivity, Clone Your Smartest Employees, and Monetize Your IP in the New AI-Economy",Mike Koenigs,2024,The Ai Accelerator,Mike Koenigs,2024,OK,
+book-0057,Guardrails: Guiding Human Decisions in the Age of AI,"Urs Gasser, Viktor Mayer-Schönberger",2024,Guardrails,Alan Briggs,2016,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0058,The Heart and the Chip: Our Bright Future with Robots,"Daniela Rus, Gregory Mone",2024,Heart and the Chip,Daniela Rus; Greg Mone,2024,OK,
+book-0059,Future of Work: From Cubicle to Tribe,"Paul Lalovich, et al.",2024,Future of Work,Darrell M. West,2018,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0060,"AI: Unexplainable, Unpredictable, Uncontrollable",Roman V. Yampolskiy,2024,痴人の愛 (Chijin no ai),谷崎潤一郎,1947,REVIEW_MATCH,title_sim=0.29 author_ok=False (may be DB gap)
+book-0061,Generative Artificial Intelligence: What Everyone Needs to Know,Jerry Kaplan,2024,Generative Artificial Intelligence,Jerry Kaplan,2024,OK,
+book-0062,Applied Artificial Intelligence: A Handbook For Business Leaders (Second Edition),"Mariya Yao, Adelyn Zhou, Marlene Jia",2024,Applied Artificial Intelligence,Mariya Yao; Adelyn Zhou; Marlene Jia,2017,OK,
+book-0063,"How AI Thinks: How we built it, how it can help us, and how we can control it",Nigel Toon,2024,How AI Thinks,Nigel Toon,2024,OK,
+book-0064,Moral AI: And How We Get There,"Jana Schaich Borg, Walter Sinnott-Armstrong, Vincent Conitzer",2024,Moral AI,Jana Schaich Borg; Walter Sinnott-Armstrong; Vincent Conitzer,2024,OK,
+book-0065,Literary Theory for Robots: How Computers Learned to Write,Dennis Yi Tenen,2024,Literary Theory for Robots,Dennis Yi Tenen,2024,OK,
+book-0066,The AI Playbook: Mastering the Rare Art of Machine Learning Deployment,Eric Siegel,2024,Summary of Eric Siegel's the AI Playbook,Irb Media,2024,REVIEW_MATCH,title_sim=0.55 author_ok=False (may be DB gap)
+book-0067,Generative AI: The Insights You Need from Harvard Business Review,Harvard Business Review,2024,Generative AI,HBR; Ethan Mollick; David De Cremer,2024,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0068,"AI for Good: Applications in Sustainability, Humanitarian Action, and Health","Juan M. Lavista Ferres, William B. Weeks",2024,AI for Good,Juan Lavista Ferres; William Weeks; Brad Smith,2024,OK,
+book-0069,AI for Defence and Intelligence,Dr. Patrick T. Biltgen,2024,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0070,"The Algorithm: How AI Decides Who Gets Hired, Monitored, Promoted, and Fired and Why We Need to Fight Back Now",Hilke Schellmann,2024,The Master Algorithm,Pedro Domingos,2015,REVIEW_MATCH,title_sim=0.79 author_ok=False (may be DB gap)
+book-0071,Critical Theory of AI,Simon Lindgren,2023,Critical Theory of AI,Simon Lindgren,2023,OK,
+book-0072,"Trust: Responsible AI, Innovation, Privacy and Data Leadership",Dominique Shelton Leipzig,2023,Trust,Hernán Díaz,2022,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0073,From Deep Learning to Rational Machines: What the History of Philosophy Can Teach Us about the Future of Artificial Intelligence,Cameron J. Buckner,2023,From Deep Learning to Rational Machines,Buckner,2023,OK,
+book-0074,Artificial Intelligence & Generative AI for Beginners: The Complete Guide,David M. Patel,2023,Generative AI for Beginners : Understanding Artificial Intelligence,Alex Quant,2025,REVIEW_MATCH,title_sim=0.53 author_ok=False (may be DB gap)
+book-0075,"The Worlds I See: Curiosity, Exploration, and Discovery at the Dawn of AI",Fei-Fei Li,2023,The Worlds I See,Fei-Fei Lee,2023,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0076,Unmasking AI: My Mission to Protect What Is Human in a World of Machines,Joy Buolamwini,2023,Unmasking AI,Joy Buolamwini,2023,OK,
+book-0077,"A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains",Max Bennett,2023,A Brief History of Artificial Intelligence,Michael Wooldridge,2021,REVIEW_MATCH,title_sim=0.85 author_ok=False (may be DB gap)
+book-0078,How AI Works: From Sorcery to Science,Ronald T. Kneusel,2023,How AI Works,Ronald T. Kneusel,2023,OK,
+book-0079,Prompt Design Patterns: Mastering the Art and Science of Prompt Engineering,Yu Zhou,2023,Prompt Design Patterns,Yi Zhou,2023,OK,
+book-0080,AI Made Simple: A Beginner's Guide to Generative Intelligence,Rajeev Kapur,2023,AI Made Simple,Rajeev Kapur,2024,OK,
+book-0081,Your Face Belongs to Us: A Secretive Startup's Quest to End Privacy as We Know It,Kashmir Hill,2023,Your Face Belongs to Us,Kashmir Hill,2023,OK,
+book-0082,"The AI Edge: Sales Strategies for Unleashing the Power of AI to Save Time, Sell More, and Crush the Competition","Jeb Blount, Anthony Iannarino",2024,AI at the Edge,Daniel Situnayake; Jenny Plunkett,2023,REVIEW_MATCH,title_sim=0.64 author_ok=False (may be DB gap)
+book-0083,AI and the Future of Education: Teaching in the Age of Artificial Intelligence,Priten Shah,2023,AI and the Future of Education,Priten Shah,2023,OK,
+book-0084,"The Coming Wave: Technology, Power, and the Twenty-first Century's Greatest Dilemma","Mustafa Suleyman, Michael Bhaskar",2023,The Coming Wave,Mustafa Suleyman,2023,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0085,Introduction to Large Language Models for Business Leaders: Responsible AI Strategy Beyond Fear and Hype,I. Almeida,2023,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0086,"Practical Uncertainty: Useful Ideas in Decision-Making, Risk, Randomness & AI",Hossein Pishro-Nik,2023,Practical Uncertainty,Hossein Pishro-Nik,2023,OK,
+book-0087,Machine Learning: Advanced Topics,Kevin P. Murphy,2023,Machine learning,Kevin P. Murphy; Kevin P. Murphy,2012,REVIEW_YEAR,year gap 2023 vs OL 2012 (OL=earliest edition)
+book-0088,Artificial Intelligence Fundamentals for Business Leaders: Up to Date With Generative AI,I. Almeida,2023,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0089,Neural Networks and Deep Learning: A Textbook (Second Edition),Charu C. Aggarwal,2023,Neural Networks and Deep Learning,Charu C. Aggarwal,2018,OK,
+book-0090,Rewired: The McKinsey Guide to Outcompeting in the Age of Digital and AI,"Eric Lamarre, Kate Smaje, Rodney Zemmel",2023,Rewired,Eric Lamarre; Kate Smaje; Rodney Zemmel,2023,OK,
+book-0091,The Chief AI Officer Blueprint: Harness The Power Of AI For Business And Beyond,Chris Daigle,2024,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0092,Smart Until It's Dumb: Why artificial intelligence keeps making epic mistakes (and why the AI bubble will burst),Emmanuel Maggiori,2023,Smart until Its Dumb,Emmanuel Maggiori,2023,OK,
+book-0093,The AI Revolution in Medicine: GPT-4 and Beyond,"Peter Lee, Carey Goldberg, Isaac Kohane",2023,The AI Revolution in Medicine,Peter Lee; Carey Goldberg; Isaac Kohane,2023,OK,
+book-0094,"AI for Educators: Learning Strategies, Teacher Efficiencies, and a Vision for an Artificial Intelligence Future",Matt Miller,2023,AI for Educators,Matt Miller,2023,OK,
+book-0095,Impromptu: Amplifying Our Humanity Through AI,Reid Hoffman,2023,Impromptu,Amelia Rosselli,1981,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0096,What Is ChatGPT Doing ... and Why Does It Work?,Stephen Wolfram,2023,What Is ChatGPT Doing ... and Why Does It Work?,Stephen Wolfram,2023,OK,
+book-0097,Four Battlegrounds: Power in the Age of Artificial Intelligence,Paul Scharre,2023,Four Battlegrounds,Paul Scharre,2023,OK,
+book-0098,AI Bullseye Tactics for Non-technical Business Leaders,Thomas Gilbertson,2023,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0099,All-in on AI: How Smart Companies Win Big with Artificial Intelligence,"Thomas H. Davenport, Nitin Mittal",2022,All About Love,Bell Hooks,2000,REVIEW_MATCH,title_sim=0.35 author_ok=False (may be DB gap)
+book-0100,Power and Prediction: The Disruptive Economics of Artificial Intelligence,"Ajay Agrawal, Joshua Gans, Avi Goldfarb",2022,Power and Prediction,Ajay Agrawal; Joshua Gans; Avi Goldfarb,2022,OK,
+book-0101,Prediction Machines: The Simple Economics of Artificial Intelligence (Updated and Expanded),"Ajay Agrawal, Joshua Gans, Avi Goldfarb",2022,Prediction machines,Ajay Agrawal,2018,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0102,Hacking Healthcare: How AI and the Intelligence Revolution Will Reboot an Ailing System,Tom Lawry,2022,Hacking Healthcare,Tom Lawry,2022,OK,
+book-0103,"Ethical Machines: Your Concise Guide to Totally Unbiased, Transparent, and Respectful AI",Reid Blackman,2022,Ethical Machines,Reid Blackman,2022,OK,
+book-0104,"Marketing Artificial Intelligence: AI, Marketing, and the Future of Business","Paul Roetzer, Mike Kaput",2022,Marketing Artificial Intelligence,Paul Roetzer; Mike Kaput,2022,OK,
+book-0105,Designing Machine Learning Systems: An Iterative Process for Production-Ready Applications,Chip Huyen,2022,Designing Machine Learning Systems,Chip Huyen,2022,OK,
+book-0106,"The Business Case for AI: A Leader's Guide to AI Strategies, Best Practices & Real-World Applications",Kavita Ganesan,2022,The Business Case for AI,Kavita Ganesan,2022,OK,
+book-0107,"The Digital Mindset: What It Really Takes to Thrive in the Age of Data, Algorithms, and AI","Paul Leonardi, Tsedal Neeley",2022,The digital mindset,Carol Ingley,2011,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0108,Artificial Intelligence for Dummies,"John Paul Mueller, Luca Massaron",2021,Artificial Intelligence for Dummies,John Paul Mueller; Luca Massaron,2018,OK,
+book-0109,The Age of AI and Our Human Future,"Henry A. Kissinger, Eric Schmidt, Daniel Huttenlocher",2021,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0110,Scary Smart: The Future of Artificial Intelligence and How You Can Save Our World,Mo Gawdat,2021,Scary Smart,Mo Gawdat,2021,OK,
+book-0111,AI 2041: Ten Visions for Our Future,"Kai-Fu Lee, Chen Qiufan",2021,AI 2041,Kai-Fu Lee; 陈楸帆,2021,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0112,"God, Human, Animal, Machine: Technology, Metaphor, and the Search for Meaning",Meghan O'Gieblyn,2021,"God, Human, Animal, Machine",Meghan O'Gieblyn,2021,OK,
+book-0113,Machine Learning: revised and updated edition,Ethem Alpaydin,2021,Machine learning,Kevin P. Murphy; Kevin P. Murphy,2012,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0114,The AI Marketing Canvas: A Five-Stage Road Map to Implementing Artificial Intelligence in Marketing,"Raj Venkatesan, Jim Lecinski",2021,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0115,Artificial Intelligence: A Modern Approach (Fourth Edition),"Stuart Russell, Peter Norvig",2021,Artificial Intelligence,Stuart J. Russell; Peter Norvig,1994,REVIEW_YEAR,year gap 2021 vs OL 1994 (OL=earliest edition)
+book-0116,The AI-First Company: How to Compete and Win with Artificial Intelligence,Ash Fontana,2021,The AI Con,Emily M. Bender; Alex Hanna,2025,REVIEW_MATCH,title_sim=0.75 author_ok=False (may be DB gap)
+book-0117,The Myth of Artificial Intelligence: Why Computers Can't Think the Way We Do,Erik J. Larson,2021,The Myth of Artificial Intelligence,Erik J Larson,2022,OK,
+book-0118,"Genius Makers: The Mavericks Who Brought AI to Google, Facebook, and the World",Cade Metz,2021,Genius Makers,Cade Metz,2021,OK,
+book-0119,A Thousand Brains: A New Theory of Intelligence,Jeff Hawkins,2021,A Thousand Brains,Jeff Hawkins,2021,OK,
+book-0120,"A Brief History of Artificial Intelligence: What It Is, Where We Are, and Where We Are Going",Michael Wooldridge,2021,A Brief History of Artificial Intelligence,Michael Wooldridge,2021,OK,
+book-0121,Futureproof: 9 Rules for Humans in the Age of Automation,Kevin Roose,2021,Futureproof,Kevin Roose,2021,OK,
+book-0122,Intelligent Automation: Learn how to harness Artificial Intelligence to boost business & make our world more human,"Pascal Bornet, Ian Barkin, Jochen Wirtz",2020,Intelligent Automation,Pascal Bornet; Ian Barkin; Jochen Wirtz,2020,OK,
+book-0123,The Alignment Problem: Machine Learning and Human Values,Brian Christian,2020,The Alignment Problem,Brian Christian,2020,OK,
+book-0124,Rebooting AI: Building Artificial Intelligence We Can Trust,"Gary Marcus, Ernest Davis",2020,Rebooting AI,Gary Marcus; Ernest Davis,2019,OK,
+book-0125,T-Minus AI: Humanity's Countdown to Artificial Intelligence and the New Pursuit of Global Power,Michael Kanaan,2020,Don't Let the Pigeon Drive the Bus!,Mo Willems,2003,REVIEW_MATCH,title_sim=0.27 author_ok=False (may be DB gap)
+book-0126,The Oxford Handbook of Ethics of AI,"Markus D. Dubber, Frank Pasquale, Sunit Das",2020,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0127,The Political Philosophy of AI: An Introduction,Mark Coeckelbergh,2020,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0128,AI Ethics: The MIT Press Essential Knowledge series,Mark Coeckelbergh,2020,AI Ethics,Mark Coeckelbergh,2020,OK,
+book-0129,Mathematics for Machine Learning,"Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong",2020,Mathematics for Machine Learning,Marc Peter Deisenroth; A. Aldo Faisal; Cheng Soon Ong,2019,OK,
+book-0130,"A World Without Work: Technology, Automation, and How We Should Respond",Daniel Susskind,2020,A world without work,Eli Ginzberg,1991,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0131,Competing in the Age of AI: Strategy and Leadership When Algorithms and Networks Run the World,"Marco Iansiti, Karim R. Lakhani",2020,Competing in the Age of AI,Marco Iansiti; Karim R. Lakhani,2020,OK,
+book-0132,"Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence",Kate Crawford,2020,Atlas of AI,Kate Crawford,2021,OK,
+book-0133,"The Simulation Hypothesis: An MIT Computer Scientist Shows Why AI, Quantum Physics and Eastern Mystics All Agree We Are In A Video Game",Rizwan Virk,2019,The Simulation Hypothesis,Rizwan Virk,2019,OK,
+book-0134,You Look Like a Thing and I Love You: How Artificial Intelligence Works and Why It's Making the World a Weirder Place,Janelle Shane,2019,You Look Like a Thing and I Love You,Janelle Shane,2019,OK,
+book-0135,Artificial Intelligence: A Guide for Thinking Humans,Melanie Mitchell,2019,Artificial Intelligence,Stuart J. Russell; Peter Norvig,1994,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0136,Human Compatible: Artificial Intelligence and the Problem of Control,Stuart Russell,2019,Human Compatible,Stuart J. Russell,2019,OK,
+book-0137,The Promise of Artificial Intelligence: Reckoning and Judgment,Brian Cantwell Smith,2019,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0138,Artificial You: AI and the Future of Your Mind,Susan Schneider,2019,Artificial You,Susan Schneider,2019,OK,
+book-0139,Artificial Intelligence: The Insights You Need from Harvard Business Review,Harvard Business Review,2019,Artificial Intelligence,Stuart J. Russell; Peter Norvig,1994,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0140,Deep Learning: The MIT Press Essential Knowledge series,John D. Kelleher,2019,Deep Learning,Ian Goodfellow; Yoshua Bengio; Aaron Courville,2016,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0141,Novacene: The Coming Age of Hyperintelligence,James E. Lovelock,2019,Novacene,James Lovelock; Bryan Appleyard,2019,OK,
+book-0142,The Sciences of the Artificial: reissue of the third edition,Herbert A. Simon,2019,The sciences of the artificial,Herbert Alexander Simon,1969,REVIEW_YEAR,year gap 2019 vs OL 1969 (OL=earliest edition)
+book-0143,Artificial Intelligence Basics: A Non-Technical Introduction,Tom Taulli,2019,Artificial Intelligence Basics,Tom Taulli,2019,OK,
+book-0144,The Technology Fallacy: How People Are the Real Key to Digital Transformation,Gerald C. Kane,2019,The Technology Fallacy,Gerald C. Kane; Anh Nguyen Phillips; Jonathan R. Copulsky,2019,OK,
+book-0145,Artificial Intelligence in Practice: How 50 Successful Companies Used AI and Machine Learning to Solve Problems,Bernard Marr,2019,Artificial Intelligence in Practice,Allan Ramsay; Rosalind Barrett,1986,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0146,A Human's Guide to Machine Intelligence: How Algorithms Are Shaping Our Lives and How We Can Stay in Control,Kartik Hosanagar,2019,A Human's Guide to Machine Intelligence,Kartik Hosanagar,2019,OK,
+book-0147,The Big Nine: How the Tech Titans and Their Thinking Machines Could Warp Humanity,Amy Webb,2019,The Big Nine,Amy Webb,2019,OK,
+book-0148,Possible Minds: Twenty-Five Ways of Looking at AI,John Brockman,2019,Possible Minds,John Brockman,2019,OK,
+book-0149,Creativity Code: Art and Innovation in the Age of AI,Marcus du Sautoy,2019,The Creativity Code,Marcus du Sautoy,2019,OK,
+book-0150,The Hundred-Page Machine Learning Book,Andriy Burkov,2019,The Hundred Dresses,Eleanor Estes; Louis Slobodkin; Jim Stelljes,1944,REVIEW_MATCH,title_sim=0.73 author_ok=False (may be DB gap)
+book-0151,Deep Medicine: How Artificial Intelligence Can Make Healthcare Human Again,Eric J. Topol,2019,Deep Medicine,Eric J. Topol,2019,OK,
+book-0152,Artificial Intelligence: A Very Short Introduction,Margaret A. Boden,2018,Artificial Intelligence,Stuart J. Russell; Peter Norvig,1994,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0153,Reinforcement Learning: An Introduction (Second Edition),"Richard S. Sutton, Andrew G. Barto",2018,Reinforcement Learning,Richard S. Sutton,1992,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0154,Architects of Intelligence: The truth about AI from the people building it,Martin Ford,2018,Architects of Intelligence,Martin Ford,2018,OK,
+book-0155,The Deep Learning Revolution,Terrence J. Sejnowski,2018,The deep learning revolution,Terrence J. Sejnowski,2018,OK,
+book-0156,The AI Advantage: How to Put the Artificial Intelligence Revolution to Work,Thomas H. Davenport,2018,AI Advantage - How to Put the Artificial Intelligence Revolution to Work,"Davenport, Thomas H.",2019,OK,
+book-0157,"AI Superpowers: China, Silicon Valley, and the New World Order",Kai-Fu Lee,2018,AI superpowers,Kai-Fu Lee,2018,OK,
+book-0158,Hello World: Being Human in the Age of Algorithms,Hannah Fry,2018,Hello world,Hannah Fry,2018,OK,
+book-0159,The Book of Why: The New Science of Cause and Effect,"Judea Pearl, Dana Mackenzie",2018,The Book of Why,Judea Pearl; Dana Mackenzie; Dana Mackenzie Judea Pearl,2018,OK,
+book-0160,Army of None: Autonomous Weapons and the Future of War,Paul Scharre,2018,Army of none,Paul Scharre,2018,OK,
+book-0161,"The Fourth Age: Smart Robots, Conscious Computers, and the Future of Humanity",Byron Reese,2018,The Fourth Age,Byron Reese,2018,OK,
+book-0162,Artificial Intelligence: 101 Things You Must Know Today About Our Future,Lasse Rouhiainen,2018,Artificial Intelligence,Stuart J. Russell; Peter Norvig,1994,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0163,Artificial Unintelligence: How Computers Misunderstand the World,Meredith Broussard,2018,Artificial Unintelligence,Meredith Broussard,2018,OK,
+book-0164,The Economic Singularity: Artificial intelligence and the death of capitalism (Third Edition),Calum Chace,2018,The Economic Singularity: Artificial intelligence and the death of capitalism,Calum Chace,2016,OK,
+book-0165,The Sentient Machine: The Coming Age of Artificial Intelligence,Amir Husain,2017,The sentient machine,"Husain, Amir (Businessman)",2017,OK,
+book-0166,Life 3.0: Being Human in the Age of Artificial Intelligence,Max Tegmark,2017,Life 3.0,Max Tegmark,2017,OK,
+book-0167,"Machine, Platform, Crowd: Harnessing Our Digital Future","Andrew McAfee, Erik Brynjolfsson",2017,"Machine, platform, crowd",Andrew McAfee,2017,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0168,Deep Thinking: Where Machine Intelligence Ends and Human Creativity Begins,Gary Kasparov,2017,Deep Thinking,Garry Kasparov; Mig Greengard,2017,OK,
+book-0169,Deep Learning: Adaptive Computation and Machine Learning series,"Ian Goodfellow, Yoshua Bengio, Aaron Courville",2016,Deep Learning,Ian Goodfellow; Yoshua Bengio; Aaron Courville,2016,OK,
+book-0170,Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy,Cathy O'Neil,2016,Weapons of Math Destruction,Cathy O'Neil,2016,OK,
+book-0171,Artificial Intelligence: What Everyone Needs to Know,Jerry Kaplan,2016,Artificial Intelligence,Stuart J. Russell; Peter Norvig,1994,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0172,Pattern Recognition and Machine Learning,Christopher M. Bishop,2016,Pattern Recognition and Machine Learning,Christopher M. Bishop,2016,OK,
+book-0173,The Inevitable: Understanding the 12 Technological Forces That Will Shape Our Future,Kevin Kelly,2016,The Inevitable,Kevin Kelly,2016,OK,
+book-0174,Algorithms to Live By: The Computer Science of Human Decisions,"Brian Christian, Tom Griffiths",2016,Algorithms to Live By,Brian Christian; Tom Griffiths; Brian Christian,2016,OK,
+book-0175,"The Age of Em: Work, Love, and Life when Robots Rule the Earth",Robin Hanson,2016,The age of em,Robin Hanson,2016,OK,
+book-0176,Make Your Own Neural Network,Tariq Rashid,2016,Make your own neural network,Tariq Rashid,2016,OK,
+book-0177,The Industries of the Future,Alec Ross,2016,The Industries of the Future,Alec Ross,2016,OK,
+book-0178,What to Think About Machines That Think: Today's Leading Thinkers on the Age of Machine Intelligence,John Brockman,2015,What to think about machines that think,John Brockman,2015,OK,
+book-0179,The Master Algorithm: How the Quest for the Ultimate Learning Machine Will Remake Our World,Pedro Domingos,2015,The Master Algorithm,Pedro Domingos,2015,OK,
+book-0180,The Future of Professions: How Technology Will Transform the Work of Human Experts,"Richard Susskind, Daniel Susskind",2015,The future of professions ,Richard E. Susskind,2015,OK,
+book-0181,Humans Need Not Apply: A Guide to Wealth and Work in the Age of Artificial Intelligence,Jerry Kaplan,2015,Humans Need Not Apply,Tony Ruggiero,2013,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0182,Surviving AI: The promise and peril of artificial intelligence (Third Edition),Calum Chace,2015,Surviving AI,Calum Chace,2015,OK,
+book-0183,Machines of Loving Grace: The Quest for Common Ground Between Humans and Robots,John Markoff,2015,Machines of loving grace,John Markoff,2015,OK,
+book-0184,Rise of the Robots: Technology and the Threat of a Jobless Future,Martin Ford,2015,Rise of the Robots,Martin Ford,1708,REVIEW_YEAR,year gap 2015 vs OL 1708 (OL=earliest edition)
+book-0185,Homo Deus: A Brief History of Tomorrow,Yuval Noah Harari,2015,Homo-Deus,Felicien Champsaur,2014,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0186,The Future of the Brain: Essays by the World's Leading Neuroscientists,"Gary Marcus, Jeremy Freeman",2014,The future of the brain,Gary F. Marcus; Jeremy Andrew Freeman,2015,OK,
+book-0187,"Superintelligence: Paths, Dangers, Strategies",Nick Bostrom,2014,Superintelligence,Nick Bostrom,2014,OK,
+book-0188,"The Second Machine Age: Work, Progress, and Prosperity in a Time of Brilliant Technologies","Erik Brynjolfsson, Andrew McAfee",2014,The Second Machine Age,Erik Brynjolfsson; Andrew McAfee,2014,OK,
+book-0189,Our Final Invention: Artificial Intelligence and the End of the Human Era,James Barrat,2013,Our final invention,James Barrat,2013,OK,
+book-0190,How to Create a Mind: The Secret of Human Thought Revealed,Ray Kurzweil,2012,How to Create a Mind,Ray Kurzweil,2012,OK,
+book-0191,The Computer and the Brain: Third Edition,John von Neumann,2012,The computer and the brain,John Von Neumann,1958,REVIEW_YEAR,year gap 2012 vs OL 1958 (OL=earliest edition)
+book-0192,The Most Human Human: A Defence of Humanity in the Age of the Computer,Brian Christian,2011,The Most Human Human,Brian Christian,2011,OK,
+book-0193,The Quest for Artificial Intelligence,Nils J. Nilsson,2009,The quest for artificial intelligence,"Nilsson, Nils J.",2010,OK,
+book-0194,"The Emotion Machine: Commonsense Thinking, Artificial Intelligence, and the Future of the Human Mind",Marvin Minsky,2006,The emotion machine,Marvin Minsky; Mercedes García Garmilla,2006,OK,
+book-0195,The Singularity Is Near: When Humans Transcend Biology,Ray Kurzweil,2005,The Singularity Is Near,Ray Kurzweil,2005,OK,
+book-0196,Fantastic Voyage: Live Long Enough to Live Forever,Ray Kurzweil,2004,Fantastic Voyage,Isaac Asimov,1966,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0197,On Intelligence: How a New Understanding of the Brain Will Lead to the Creation of Truly Intelligent Machines,"Jeff Hawkins, Sandra Blakeslee",2004,On intelligence,Jeff Hawkins; Sandra Blakeslee,2005,OK,
+book-0198,"Information Theory, Inference, and Learning Algorithms",David J.C. MacKay,2002,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0199,The Age of Spiritual Machines: When Computers Exceed Human Intelligence,Ray Kurzweil,1999,The age of spiritual machines,Ray Kurzweil,1999,OK,
+book-0200,The Age of Intelligent Machines,Ray Kurzweil,1990,The Age of Intelligent Machines,Ray Kurzweil,1990,OK,
+book-0201,"The Emperor's New Mind: Concerning Computers, Minds, and the Laws of Physics",Roger Penrose,1989,"The Emperor's New Mind Concerning computer's, Minds, and the Laws Of physics ",Martin Gardner  Roger Penrose,1989,OK,
+book-0202,"The Elements of Statistical Learning: Data Mining, Inference, and Prediction (2nd ed.)","Trevor Hastie, Robert Tibshirani, Jerome Friedman",2009,The Elements of Statistical Learning,Trevor Hastie; Robert Tibshirani; Jerome Friedman,2001,OK,
+book-0203,An Introduction to Statistical Learning: with Applications in Python (2nd ed.),"Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani",2021,An Introduction to Statistical Learning,Gareth James,2013,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0204,Machine Learning,Tom M. Mitchell,1997,Machine learning,Kevin P. Murphy; Kevin P. Murphy,2012,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0205,Pattern Classification (2nd ed.),"Richard O. Duda, Peter E. Hart, David G. Stork",2000,"Pattern Classification, 2Nd Ed",Richard O Duda,2007,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0206,Machine Learning: A Probabilistic Perspective,Kevin P. Murphy,2012,Machine learning,Kevin P. Murphy; Kevin P. Murphy,2012,OK,
+book-0207,Probabilistic Machine Learning: An Introduction,Kevin P. Murphy,2022,Probabilistic Machine Learning,Kevin P. Murphy,2022,OK,
+book-0208,Probabilistic Machine Learning: Advanced Topics,Kevin P. Murphy,2023,Probabilistic Machine Learning,Kevin P. Murphy,2022,OK,
+book-0209,Understanding Machine Learning: From Theory to Algorithms,"Shai Shalev-Shwartz, Shai Ben-David",2014,Understanding Machine Learning,Shai Shalev-Shwartz; Shai Ben-David,2014,OK,
+book-0210,Foundations of Machine Learning (2nd ed.),"Mehryar Mohri, Afshin Rostamizadeh, Ameet Talwalkar",2018,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0211,Bayesian Reasoning and Machine Learning,David Barber,2012,Bayesian reasoning and machine learning,David Barber,2011,OK,
+book-0212,Gaussian Processes for Machine Learning,"Carl Edward Rasmussen, Christopher K. I. Williams",2006,Gaussian processes for machine learning,Carl Edward Rasmussen,2005,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0213,Probabilistic Graphical Models: Principles and Techniques,"Daphne Koller, Nir Friedman",2009,Probabilistic Graphical Models,Daphne Koller; Nir Friedman,2009,OK,
+book-0214,The Nature of Statistical Learning Theory (2nd ed.),Vladimir N. Vapnik,2000,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0215,Ensemble Methods: Foundations and Algorithms,Zhi-Hua Zhou,2012,Ensemble Methods,Zhi-Hua Zhou,2012,OK,
+book-0216,All of Statistics: A Concise Course in Statistical Inference,Larry Wasserman,2004,All of Statistics,Larry Wasserman,2004,OK,
+book-0217,Convex Optimization,"Stephen Boyd, Lieven Vandenberghe",2004,Convex optimization,,2004,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0218,"Causality: Models, Reasoning, and Inference (2nd ed.)",Judea Pearl,2009,Causality,Judea Pearl,2000,REVIEW_YEAR,year gap 2009 vs OL 2000 (OL=earliest edition)
+book-0219,Causal Inference in Statistics: A Primer,"Judea Pearl, Madelyn Glymour, Nicholas P. Jewell",2016,Causal Inference in Statistics,Judea Pearl; Nicholas P. Jewell,2016,OK,
+book-0220,Elements of Causal Inference: Foundations and Learning Algorithms,"Jonas Peters, Dominik Janzing, Bernhard Schoelkopf",2017,Elements of Causal Inference,Jonas Peters; Dominik Janzing; Bernhard Schölkopf,2017,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0221,Speech and Language Processing (2nd ed.),"Daniel Jurafsky, James H. Martin",2009,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0222,Foundations of Statistical Natural Language Processing,"Christopher D. Manning, Hinrich Schuetze",1999,Foundations of Statistical Natural Language Processing,Christopher Manning; Hinrich Schütze,1999,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0223,Introduction to Information Retrieval,"Christopher D. Manning, Prabhakar Raghavan, Hinrich Schuetze",2008,Introduction to information retrieval,Christopher D. Manning; Prabhakar Raghavan; Hinrich Schütze,2008,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0224,Natural Language Processing with Transformers (Revised ed.),"Lewis Tunstall, Leandro von Werra, Thomas Wolf",2022,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0225,Build a Large Language Model (From Scratch),Sebastian Raschka,2024,Build a Large Language Model (from Scratch),Sebastian Raschka,2024,OK,
+book-0226,AI Engineering: Building Applications with Foundation Models,Chip Huyen,2025,AI Engineering,Chip Huyen,2024,OK,
+book-0227,Machine Learning Engineering,Andriy Burkov,2020,Machine Learning Engineering,Andriy Burkov,2020,OK,
+book-0228,Machine Learning Yearning,Andrew Ng,2018,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0229,Building Machine Learning Powered Applications,Emmanuel Ameisen,2020,Building Machine Learning Powered Applications,Emmanuel Ameisen,2020,OK,
+book-0230,Interpretable Machine Learning: A Guide for Making Black Box Models Explainable,Christoph Molnar,2020,Interpretable Machine Learning,Christoph Molnar,2020,OK,
+book-0231,Prompt Engineering for LLMs,"John Berryman, Albert Ziegler",2024,Prompt Engineering for LLMs,John Berryman; Albert Ziegler,2024,OK,
+book-0232,"Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow (3rd ed.)",Aurelien Geron,2022,Gifted hands,Ben Carson; Cecil Murphey; Benjamin S. Carson Sr.,1990,REVIEW_MATCH,title_sim=0.59 author_ok=False (may be DB gap)
+book-0233,Deep Learning with Python (2nd ed.),Francois Chollet,2021,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0234,Deep Learning for Coders with fastai and PyTorch,"Jeremy Howard, Sylvain Gugger",2020,Deep Learning for Coders with Fastai and Pytorch,Jeremy Howard; Sylvain Gugger,2020,OK,
+book-0235,Deep Learning with PyTorch,"Eli Stevens, Luca Antiga, Thomas Viehmann",2020,Deep Learning with Pytorch,Eli Eli Stevens; Luca Luca Antiga; Thomas Thomas Viehmann,2020,OK,
+book-0236,Grokking Deep Learning,Andrew W. Trask,2019,Grokking Deep Learning,Andrew Trask,2019,OK,
+book-0237,Neural Networks and Deep Learning,Michael Nielsen,2015,Neural Networks and Deep Learning,Charu C. Aggarwal,2018,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0238,Deep Learning: Foundations and Concepts,"Christopher M. Bishop, Hugh Bishop",2024,Deep Learning,Ian Goodfellow; Yoshua Bengio; Aaron Courville,2016,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0239,Understanding Deep Learning,Simon J.D. Prince,2023,Understanding Deep Learning,Simon J. D. Prince,2023,OK,
+book-0240,The Little Book of Deep Learning,Francois Fleuret,2023,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0241,Dive into Deep Learning,"Aston Zhang, Zachary C. Lipton, Mu Li, Alexander J. Smola",2023,Dive into Deep Learning,Joanne Quinn; Joanne et al.,2019,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0242,Generative Deep Learning (2nd ed.),David Foster,2023,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0243,Algorithms for Reinforcement Learning,Csaba Szepesvari,2010,Algorithms for Reinforcement Learning,Csaba Szepesvari,2010,OK,
+book-0244,Bandit Algorithms,"Tor Lattimore, Csaba Szepesvari",2020,Bandit Algorithms,Tor Lattimore; Csaba Szepesvári,2020,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0245,Grokking Deep Reinforcement Learning,Miguel Morales,2020,Grokking Deep Reinforcement Learning,Miguel Morales,2020,OK,
+book-0246,Computer Vision: Algorithms and Applications (2nd ed.),Richard Szeliski,2022,Computer vision,David Forsyth; David A. Forsyth; Jean Ponce,2002,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0247,Multiple View Geometry in Computer Vision (2nd ed.),"Richard Hartley, Andrew Zisserman",2004,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0248,Probabilistic Robotics,"Sebastian Thrun, Wolfram Burgard, Dieter Fox",2005,Probabilistic robotics,Sebastian Thrun; Dieter Fox; Wolfram Burgard,2005,OK,
+book-0249,Planning Algorithms,Steven M. LaValle,2006,Planning Algorithms,Steven M. LaValle,2006,OK,
+book-0250,"Modern Robotics: Mechanics, Planning, and Control","Kevin M. Lynch, Frank C. Park",2017,Modern Robotics,Frank C. Park; Kevin M. Lynch,2017,OK,
+book-0251,Introduction to Autonomous Mobile Robots (2nd ed.),"Roland Siegwart, Illah R. Nourbakhsh, Davide Scaramuzza",2011,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0252,Artificial Intelligence: Foundations of Computational Agents (3rd ed.),"David L. Poole, Alan K. Mackworth",2023,Artificial Intelligence,Stuart J. Russell; Peter Norvig,1994,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0253,Artificial Intelligence: A New Synthesis,Nils J. Nilsson,1998,Artificial Intelligence,Stuart J. Russell; Peter Norvig,1994,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0254,Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp,Peter Norvig,1992,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0255,Data Mining: Concepts and Techniques (3rd ed.),"Jiawei Han, Micheline Kamber, Jian Pei",2011,Data Mining,Mehmed Kantardzic,2002,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0256,Mining of Massive Datasets (3rd ed.),"Jure Leskovec, Anand Rajaraman, Jeffrey D. Ullman",2020,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0257,Data Science for Business,"Foster Provost, Tom Fawcett",2013,Data Science for Business,Foster Provost; Tom Fawcett,2013,OK,
+book-0258,Neural Networks for Pattern Recognition,Christopher M. Bishop,1995,Neural networks for pattern recognition,Christopher M. Bishop,1995,OK,
+book-0259,Perceptrons: An Introduction to Computational Geometry,"Marvin Minsky, Seymour Papert",1969,Perceptrons,Marvin Minsky; Seymour Papert; Léon Bottou,1969,OK,
+book-0260,Empire of AI: Dreams and Nightmares in Sam Altman's OpenAI,Karen Hao,2025,Empire of AI,Karen Hao,2025,OK,
+book-0261,"The Thinking Machine: Jensen Huang, Nvidia, and the World's Most Coveted Microchip",Stephen Witt,2025,The thinking machine,Jacques Futrelle,1959,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0262,"The Optimist: Sam Altman, OpenAI, and the Race to Invent the Future",Keach Hagey,2025,The optimistic child,Martin Elias Pete Seligman,1995,REVIEW_MATCH,title_sim=0.75 author_ok=False (may be DB gap)
+book-0263,"AI Valley: Microsoft, Google, and the Trillion-Dollar Race to Cash In on Artificial Intelligence",Gary Rivlin,2025,AI Valley,Gary Rivlin,2025,OK,
+book-0264,"More Everything Forever: AI Overlords, Space Empires, and Silicon Valley's Crusade to Control the Fate of Humanity",Adam Becker,2025,More everything forever,Adam Becker,2025,OK,
+book-0265,The AI Con: How to Fight Big Tech's Hype and Create the Future We Want,"Emily M. Bender, Alex Hanna",2025,The AI Con,Emily M. Bender; Alex Hanna,2025,OK,
+book-0266,Superagency: What Could Possibly Go Right with Our AI Future,"Reid Hoffman, Greg Beato",2025,Superagency,Reid Hoffman; Greg Beato,2025,OK,
+book-0267,These Strange New Minds: How AI Learned to Talk and What It Means,Christopher Summerfield,2025,These Strange New Minds,Christopher Summerfield,2024,OK,
+book-0268,"The Scaling Era: An Oral History of AI, 2019-2025",Dwarkesh Patel,2025,Small-scale units in the era of globalisation,T. A. Bhavani,2001,REVIEW_MATCH,title_sim=0.37 author_ok=False (may be DB gap)
+book-0269,Raising AI: An Essential Guide to Parenting Our Future,De Kai,2025,Raising AI,De Kai,2025,OK,
+book-0270,AI & I: An Intellectual History of Artificial Intelligence,Eugene Charniak,2024,The Age of A.I.,Henry Kissinger; Eric Schmidt; Daniel Huttenlocher,2021,REVIEW_MATCH,title_sim=0.33 author_ok=False (may be DB gap)
+book-0271,"The Algorithm: How AI Decides Who Gets Hired, Monitored, Promoted, and Fired",Hilke Schellmann,2024,The Master Algorithm,Pedro Domingos,2015,REVIEW_MATCH,title_sim=0.79 author_ok=False (may be DB gap)
+book-0272,The Tech Coup: How to Save Democracy from Silicon Valley,Marietje Schaake,2024,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0273,Breakneck: China's Quest to Engineer the Future,Dan Wang,2025,Breakneck,Dan Wang,2025,OK,
+book-0274,Chip War: The Fight for the World's Most Critical Technology,Chris Miller,2022,Chip War,Chris Miller; Chris Miller,2022,OK,
+book-0275,"The Technological Republic: Hard Power, Soft Belief, and the Future of the West","Alexander C. Karp, Nicholas W. Zamiska",2025,The Technological Republic,Alexander C. Karp,,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0276,I Am Not a Robot: My Year Using AI to Do (Almost) Everything,Joanna Stern,2026,I Am Not a Robot,Ashleigh Scott,2021,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0277,Feeding the Machine: The Hidden Human Labor Powering AI,"James Muldoon, Mark Graham, Callum Cant",2024,Feeding the Machine,James Muldoon; Mark Graham; Callum Cant,2024,OK,
+book-0278,Race After Technology: Abolitionist Tools for the New Jim Code,Ruha Benjamin,2019,Race After Technology,Ruha Benjamin,2019,OK,
+book-0279,Algorithms of Oppression: How Search Engines Reinforce Racism,Safiya Umoja Noble,2018,Algorithms of Oppression,Safiya Umoja Noble,2018,OK,
+book-0280,"Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor",Virginia Eubanks,2018,Automating Inequality,Virginia Eubanks; Eubanks,2018,OK,
+book-0281,The Age of Surveillance Capitalism,Shoshana Zuboff,2019,The Age of Surveillance Capitalism,Shoshana Zuboff,2018,OK,
+book-0282,Data Feminism,"Catherine D'Ignazio, Lauren F. Klein",2020,Data Feminism,Catherine D`ignazio; Lauren F. Klein,2020,OK,
+book-0283,Design Justice: Community-Led Practices to Build the Worlds We Need,Sasha Costanza-Chock,2020,Design Justice,Sasha Costanza-Chock,2020,OK,
+book-0284,Ghost Work: How to Stop Silicon Valley from Building a New Global Underclass,"Mary L. Gray, Siddharth Suri",2019,Ghost Work,Mary L. Gray; Siddharth Suri,2019,OK,
+book-0285,Behind the Screen: Content Moderation in the Shadows of Social Media,Sarah T. Roberts,2019,Behind the screen,William J. Mann,2001,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0286,Privacy Is Power: Why and How You Should Take Back Control of Your Data,Carissa Veliz,2020,Privacy is Power,Carissa Véliz,2020,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0287,The Ethical Algorithm: The Science of Socially Aware Algorithm Design,"Michael Kearns, Aaron Roth",2019,Ethics of the Algorithm,Todd Presner,2024,REVIEW_MATCH,title_sim=0.68 author_ok=False (may be DB gap)
+book-0288,Fairness and Machine Learning: Limitations and Opportunities,"Solon Barocas, Moritz Hardt, Arvind Narayanan",2023,Fairness and Machine Learning,Solon Barocas; Moritz Hardt; Arvind Narayanan,2023,OK,
+book-0289,Moral Machines: Teaching Robots Right from Wrong,"Wendell Wallach, Colin Allen",2009,Moral Machines,Wendell Wallach; Colin Allen,2008,OK,
+book-0290,Robot Ethics: The Ethical and Social Implications of Robotics,"Patrick Lin, Keith Abney, George A. Bekey (eds.)",2012,Robot ethics,Patrick Lin; Keith Abney; George A. Bekey,2011,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0291,Resisting AI: An Anti-fascist Approach to Artificial Intelligence,Dan McQuillan,2022,Resisting AI,Dan McQuillan,2022,OK,
+book-0292,New Dark Age: Technology and the End of the Future,James Bridle,2018,New Dark Age,James Bridle,2018,OK,
+book-0293,"Ways of Being: Animals, Plants, Machines: The Search for a Planetary Intelligence",James Bridle,2022,Ways of Being,James Bridle,2022,OK,
+book-0294,The Eye of the Master: A Social History of Artificial Intelligence,Matteo Pasquinelli,2023,The Eye of the Master,Matteo Pasquinelli,2023,OK,
+book-0295,Blood in the Machine: The Origins of the Rebellion Against Big Tech,Brian Merchant,2023,Blood in the Machine,Brian Merchant,2023,OK,
+book-0296,"Technically Wrong: Sexist Apps, Biased Algorithms, and Other Threats of Toxic Tech",Sara Wachter-Boettcher,2017,Technically Wrong,Sara Wachter-Boettcher,2017,OK,
+book-0297,"Discriminating Data: Correlation, Neighborhoods, and the New Politics of Recognition",Wendy Hui Kyong Chun,2021,Discriminating Data,Wendy Hui Kyong Chun; Alex Barnett,2021,OK,
+book-0298,"More than a Glitch: Confronting Race, Gender, and Ability Bias in Tech",Meredith Broussard,2023,More Than a Glitch,Meredith Broussard,2023,OK,
+book-0299,"Voices in the Code: A Story about People, Their Values, and the Algorithm They Made",David G. Robinson,2022,Voices in the Code,David G. Robinson,2022,OK,
+book-0300,The Digital Republic: On Freedom and Democracy in the 21st Century,Jamie Susskind,2022,Promoting Digital Business Skills in the Republic of Moldova,Organisation for Economic Co-operation and Development,2023,REVIEW_MATCH,title_sim=0.45 author_ok=False (may be DB gap)
+book-0301,Future Politics: Living Together in a World Transformed by Tech,Jamie Susskind,2018,Future Politics,Jamie Susskind,2018,OK,
+book-0302,Re-Engineering Humanity,"Brett Frischmann, Evan Selinger",2018,We're Going on a Bear Hunt,Michael Rosen,1746,REVIEW_MATCH,title_sim=0.49 author_ok=False (may be DB gap)
+book-0303,The Loop: How Technology Is Creating a World Without Choices and How to Fight Back,Jacob Ward,2022,The Loop,Ben Oliver; Benjamin Oliver; Ben Oliver,2020,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0304,System Error: Where Big Tech Went Wrong and How We Can Reboot,"Rob Reich, Mehran Sahami, Jeremy M. Weinstein",2021,System Error,Rob Reich; Mehran Sahami; Jeremy M. Weinstein,2021,OK,
+book-0305,Tools and Weapons: The Promise and the Peril of the Digital Age,"Brad Smith, Carol Ann Browne",2019,Tools And Weapons,Brad Smith; Carol Ann Browne,2019,OK,
+book-0306,Automation and Utopia: Human Flourishing in a World without Work,John Danaher,2019,Automation and Utopia,John Danaher,2019,OK,
+book-0307,The Fourth Revolution: How the Infosphere is Reshaping Human Reality,Luciano Floridi,2014,The fourth revolution,John Micklethwait,2014,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0308,"The Ethics of Artificial Intelligence: Principles, Challenges, and Opportunities",Luciano Floridi,2023,The Ethics of Artificial Intelligence in Education,Wayne Holmes; Kaśka Porayska-Pomsta,2022,REVIEW_MATCH,title_sim=0.85 author_ok=False (may be DB gap)
+book-0309,Human-Centered AI,Ben Shneiderman,2022,The Human Condition,Hannah Arendt,1958,REVIEW_MATCH,title_sim=0.56 author_ok=False (may be DB gap)
+book-0310,Machines Behaving Badly: The Morality of AI,Toby Walsh,2022,Machines Behaving Badly,Toby Walsh,2022,OK,
+book-0311,2062: The World that AI Made,Toby Walsh,2018,2062,Toby Walsh,2018,OK,
+book-0312,Faking It: Artificial Intelligence in a Human World,Toby Walsh,2023,Faking it,Jennifer Crusie,2002,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0313,The Oxford Handbook of AI Governance,Justin B. Bullock et al. (eds.),2024,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0314,New Laws of Robotics: Defending Human Expertise in the Age of AI,Frank Pasquale,2020,New Laws of Robotics,Frank Pasquale,2020,OK,
+book-0315,The Black Box Society: The Secret Algorithms That Control Money and Information,Frank Pasquale,2015,The black box society,Frank Pasquale,2015,OK,
+book-0316,The Reasonable Robot: Artificial Intelligence and the Law,Ryan Abbott,2020,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0317,Robot Rules: Regulating Artificial Intelligence,Jacob Turner,2018,Robot Rules,Jacob Turner,2018,OK,
+book-0318,Algorithmic Regulation,"Karen Yeung, Martin Lodge (eds.)",2019,Algorithmic Regulation,Karen Yeung; Martin Lodge,2019,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0319,Trustworthy AI: A Business Guide for Navigating Trust and Ethics in AI,Beena Ammanath,2022,Trustworthy AI,Beena Ammanath,2022,OK,
+book-0320,Responsible AI: Implement an Ethical Approach in Your Organization,Olivia Gambelin,2024,Responsible AI,CSIRO; Qinghua Lu; Liming Zhu,2024,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0321,The AI Accountability Trap,Jeroen Janssen,2026,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0322,The Precipice: Existential Risk and the Future of Humanity,Toby Ord,2020,The Precipice,Toby Ord,2020,OK,
+book-0323,What We Owe the Future,William MacAskill,2022,What We Owe the Future,William MacAskill,2022,OK,
+book-0324,"If Anyone Builds It, Everyone Dies: Why Superhuman AI Would Kill Us All","Eliezer Yudkowsky, Nate Soares",2025,"If Anyone Builds It, Everyone Dies",Eliezer Yudkowsky; Nate Soares,2025,OK,
+book-0325,Uncontrollable: The Threat of Artificial Superintelligence and the Race to Save the World,Darren McKee,2023,Uncontrollable,Susan Kearney,2005,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0326,"The AI Does Not Hate You: Superintelligence, Rationality and the Race to Save the World",Tom Chivers,2019,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0327,Smarter Than Us: The Rise of Machine Intelligence,Stuart Armstrong,2014,Smarter Than Us,Stuart Armstrong,2014,OK,
+book-0328,Rationality: From AI to Zombies,Eliezer Yudkowsky,2015,Rationality,Steven Pinker; Pablo Hermida Lazcano,2021,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0329,Global Catastrophic Risks,"Nick Bostrom, Milan M. Cirkovic (eds.)",2008,Global catastrophic risks,Nick Bostrom,2008,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0330,"Introduction to AI Safety, Ethics, and Society",Dan Hendrycks,2024,"Introduction to AI Safety, Ethics, and Society",Dan Hendrycks,2025,OK,
+book-0331,"Goedel, Escher, Bach: An Eternal Golden Braid",Douglas R. Hofstadter,1979,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0332,I Am a Strange Loop,Douglas R. Hofstadter,2007,I Am a Strange Loop,Douglas R. Hofstadter,2007,OK,
+book-0333,The Mind's I: Fantasies and Reflections on Self and Soul,"Douglas R. Hofstadter, Daniel C. Dennett",1981,The Mind's I,Douglas R. Hofstadter; Daniel C. Dennett,1962,REVIEW_YEAR,year gap 1981 vs OL 1962 (OL=earliest edition)
+book-0334,Consciousness Explained,Daniel C. Dennett,1991,Consciousness explained,Daniel C. Dennett,1991,OK,
+book-0335,From Bacteria to Bach and Back: The Evolution of Minds,Daniel C. Dennett,2017,From Bacteria to Bach and Back: The Evolution of Minds,Daniel C. Dennett,2017,OK,
+book-0336,The Society of Mind,Marvin Minsky,1986,The society of mind,Marvin Minsky,1986,OK,
+book-0337,Alan Turing: The Enigma,Andrew Hodges,1983,Alan Turing,Andrew Hodges,1983,OK,
+book-0338,Cybernetics: Or Control and Communication in the Animal and the Machine,Norbert Wiener,1948,"Cybernetics, or control and communication in the animal and the machine",Norbert Wiener,1948,OK,
+book-0339,The Human Use of Human Beings: Cybernetics and Society,Norbert Wiener,1950,The Human Use of Human Beings,Norbert Wiener,1950,OK,
+book-0340,"God & Golem, Inc.",Norbert Wiener,1964,God & Golem Inc.,Norbert Wiener,1964,OK,
+book-0341,Computer Power and Human Reason: From Judgment to Calculation,Joseph Weizenbaum,1976,Computer Power and Human Reason,Joseph Weizenbaum,1975,OK,
+book-0342,What Computers Still Can't Do: A Critique of Artificial Reason,Hubert L. Dreyfus,1992,What computers still can't do,Hubert L. Dreyfus,1972,REVIEW_YEAR,year gap 1992 vs OL 1972 (OL=earliest edition)
+book-0343,Mind Over Machine: The Power of Human Intuition and Expertise in the Era of the Computer,"Hubert L. Dreyfus, Stuart E. Dreyfus",1986,Mind Over Machine,Hubert L. Dreyfus,1986,OK,
+book-0344,Understanding Computers and Cognition: A New Foundation for Design,"Terry Winograd, Fernando Flores",1986,Understanding computers and cognition,Terry Winograd; Fernando Flores; Fernando Flores,1986,OK,
+book-0345,Artificial Intelligence: The Very Idea,John Haugeland,1985,Artificial Intelligence,Stuart J. Russell; Peter Norvig,1994,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0346,Vehicles: Experiments in Synthetic Psychology,Valentino Braitenberg,1984,Race car vehicle dynamics,William F. Milliken,1995,REVIEW_MATCH,title_sim=0.48 author_ok=False (may be DB gap)
+book-0347,The Computational Brain,"Patricia S. Churchland, Terrence J. Sejnowski",1992,The computational brain,Patricia Smith Churchland,1992,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0348,Reality+: Virtual Worlds and the Problems of Philosophy,David J. Chalmers,2022,Separate Reality,Carlos Castaneda,1971,REVIEW_MATCH,title_sim=0.61 author_ok=False (may be DB gap)
+book-0349,Being You: A New Science of Consciousness,Anil Seth,2021,I'll Be Seeing You,Mary Higgins Clark,1993,REVIEW_MATCH,title_sim=0.67 author_ok=False (may be DB gap)
+book-0350,How We Became Posthuman,N. Katherine Hayles,1999,How we became posthuman,N. Katherine Hayles,1999,OK,
+book-0351,Darwin Among the Machines: The Evolution of Global Intelligence,George Dyson,1997,Darwin among the machines,George Dyson,1997,OK,
+book-0352,Turing's Cathedral: The Origins of the Digital Universe,George Dyson,2012,Turing's cathedral,George Dyson,2012,OK,
+book-0353,"The Information: A History, a Theory, a Flood",James Gleick,2011,The Information,James Gleick,2011,OK,
+book-0354,The Dream Machine: J.C.R. Licklider and the Revolution That Made Computing Personal,M. Mitchell Waldrop,2001,The Dream Machine,M. Mitchell Waldrop,2001,OK,
+book-0355,Machines Who Think (25th Anniversary ed.),Pamela McCorduck,2004,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0356,AI: The Tumultuous History of the Search for Artificial Intelligence,Daniel Crevier,1993,Ai hen chih chien,Susan Forward; Joan Torres,1986,REVIEW_MATCH,title_sim=0.33 author_ok=False (may be DB gap)
+book-0357,A Mind at Play: How Claude Shannon Invented the Information Age,"Jimmy Soni, Rob Goodman",2017,A mind at play,Jimmy Soni; Rob Goodman,2017,OK,
+book-0358,The Innovators,Walter Isaacson,2014,The Innovators,Walter Isaacson; Francisco José Ramos Mena; Marcos Pérez Sánchez,2014,OK,
+book-0359,"Out of Control: The New Biology of Machines, Social Systems, and the Economic World",Kevin Kelly,1994,Out of Control,Charlotte Lamb,1987,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0360,"The Book of Minds: How to Understand Ourselves and Other Beings, from Animals to AI to Aliens",Philip Ball,2022,The Ultimate Book of Mind Maps,T Buzan,2005,REVIEW_MATCH,title_sim=0.72 author_ok=False (may be DB gap)
+book-0361,"Models of the Mind: How Physics, Engineering and Mathematics Have Shaped Our Understanding of the Brain",Grace Lindsay,2021,Models of the Mind,Grace Lindsay,2021,OK,
+book-0362,The Self-Assembling Brain: How Neural Networks Grow Smarter,Peter Robin Hiesinger,2021,The Divided Self,R. D. Laing,1959,REVIEW_MATCH,title_sim=0.67 author_ok=False (may be DB gap)
+book-0363,The Idea of the Brain: The Past and Future of Neuroscience,Matthew Cobb,2020,The Idea of the Brain: The Past and Future of Neuroscience,Matthew Cobb,2020,OK,
+book-0364,"The Technology Trap: Capital, Labor, and Power in the Age of Automation",Carl Benedikt Frey,2019,The Technology Trap,Carl Benedikt Frey,2019,OK,
+book-0365,"The Globotics Upheaval: Globalization, Robotics, and the Future of Work",Richard Baldwin,2019,The Globotics Upheaval,Richard Baldwin,2019,OK,
+book-0366,"The Wealth of Humans: Work, Power, and Status in the Twenty-first Century",Ryan Avent,2016,The wealth of humans,Ryan Avent,2016,OK,
+book-0367,Average Is Over: Powering America Beyond the Age of the Great Stagnation,Tyler Cowen,2013,Average is Over,Tyler Cowen,2013,OK,
+book-0368,Only Humans Need Apply: Winners and Losers in the Age of Smart Machines,"Thomas H. Davenport, Julia Kirby",2016,Only humans need apply,"Davenport, Thomas H.",2016,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0369,Work Without the Worker: Labour in the Age of Platform Capitalism,Phil Jones,2021,Work Without the Worker,Phil Jones,2021,OK,
+book-0370,"The Exponential Age: How Accelerating Technology is Transforming Business, Politics and Society",Azeem Azhar,2021,The Exponential Age,Azeem Azhar,2021,OK,
+book-0371,The Economics of Artificial Intelligence: An Agenda,"Ajay Agrawal, Joshua Gans, Avi Goldfarb (eds.)",2019,Economic Renaissance in the Age of Artificial Intelligence,Apek Mulay,2018,REVIEW_MATCH,title_sim=0.73 author_ok=False (may be DB gap)
+book-0372,"Frankenstein; or, The Modern Prometheus",Mary Shelley,1818,"Frankenstein; or, The Modern Prometheus",Mary Shelley,1818,OK,
+book-0373,R.U.R. (Rossum's Universal Robots),Karel Capek,1920,R.U.R. (Rossum's universal robots),Karel Čapek,1925,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0374,"I, Robot",Isaac Asimov,1950,"I, Robot",Isaac Asimov,1950,OK,
+book-0375,Do Androids Dream of Electric Sheep?,Philip K. Dick,1968,Do Androids Dream of Electric Sheep?,Philip K. Dick,1968,OK,
+book-0376,Neuromancer,William Gibson,1984,Neuromancer,William Gibson,1984,OK,
+book-0377,Galatea 2.2,Richard Powers,1995,Galatea 2.2,Richard Powers,1995,OK,
+book-0378,The Lifecycle of Software Objects,Ted Chiang,2010,The Lifecycle of Software Objects,Ted Chiang,2010,OK,
+book-0379,Speak,Louisa Hall,2015,Speak,Laurie Halse Anderson,1999,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0380,Machines Like Me,Ian McEwan,2019,Machines Like Me,Ian McEwan,2019,OK,
+book-0381,Klara and the Sun,Kazuo Ishiguro,2021,Klara and the Sun,Kazuo Ishiguro,2019,OK,
+book-0382,The Maniac,Benjamin Labatut,2023,The maniac,Benjamín Labatut,2023,OK,
+book-0383,Annie Bot,Sierra Greer,2024,Annie Bot,Sierra Greer,2024,OK,
+book-0384,Playground,Richard Powers,2024,Playground,Aron Beauregard,2022,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0385,"Jiqi Xuexi (机器学习, 'Watermelon Book')",Zhou Zhihua (周志华),2016,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0386,"Tongji Xuexi Fangfa (统计学习方法, 2nd ed.)",Li Hang (李航),2019,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0387,Jiqi Xuexi Fangfa (机器学习方法),Li Hang (李航),2022,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0388,Shenjing Wangluo yu Shendu Xuexi (神经网络与深度学习),Qiu Xipeng (邱锡鹏),2020,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0389,"Dongshou Xue Shendu Xuexi (动手学深度学习 / Dive into Deep Learning, CN original)","Aston Zhang, Mu Li (李沐) et al.",2019,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0390,Shuxue zhi Mei (数学之美),Wu Jun (吴军),2012,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0391,Zhineng Shidai (智能时代),Wu Jun (吴军),2016,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0392,Langchao zhi Dian (浪潮之巅),Wu Jun (吴军),2011,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0393,Baimian Jiqi Xuexi (百面机器学习),Zhuge Yue (诸葛越) et al.,2018,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0394,"Pumpkin Book (机器学习公式详解, companion to Watermelon Book)","Xie Wenrui (谢文睿), Qin Zhou (秦州)",2021,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0395,Jiqi Xuexi Lilun Daoyin (机器学习理论导引),Zhou Zhihua (周志华) et al.,2020,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0396,"Easy RL (强化学习教程, 'Mushroom Book')",Wang Qi (王琦) et al.,2022,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0397,"Tongji Ziran Yuyan Chuli (统计自然语言处理, 2nd ed.)",Zong Chengqing (宗成庆),2013,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0398,Ziran Yuyan Chuli Rumen (自然语言处理入门),"He Han (何晗, hankcs)",2019,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0399,Da Guimo Yuyan Moxing: Cong Lilun dao Shijian (大规模语言模型：从理论到实践),"Zhang Qi (张奇) et al., Fudan NLP",2023,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0400,Rengong Zhineng Jianshi (人工智能简史),Nick (尼克),2017,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0401,Rengong Zhineng (人工智能),"Li Kaifu (李开复), Wang Yonggang (王咏刚)",2017,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0402,Zhineng Geming (智能革命),Li Yanhong (李彦宏) et al.,2017,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0403,Tuijian Xitong Shijian (推荐系统实践),Xiang Liang (项亮),2012,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0404,Shendu Xuexi Tuijian Xitong (深度学习推荐系统),Wang Zhe (王喆),2020,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0405,Fenbushi Jiqi Xuexi (分布式机器学习：算法、理论与实践),Liu Tieyan (刘铁岩) et al.,2018,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0406,Qianyi Xuexi (迁移学习),Yang Qiang (杨强) et al.,2020,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0407,Lianbang Xuexi (联邦学习),Yang Qiang (杨强) et al.,2019,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0408,"Zhishi Tupu: Fangfa, Shijian yu Yingyong (知识图谱：方法、实践与应用)",Wang Haofen (王昊奋) et al.,2019,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0409,Zhineng Jisuan Xitong (智能计算系统),Chen Yunji (陈云霁) et al.,2020,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0410,Rengong Zhineng Anquan (人工智能安全),Fang Binxing (方滨兴) et al.,2020,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0411,Zhihui de Jiangjie (智慧的疆界),Zhou Zhiming (周志明),2018,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0412,Rengong Zhineng Zhexue Shiwu Jiang (人工智能哲学十五讲),Xu Yingjin (徐英瑾),2021,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0413,Deep Learning from Scratch (ゼロから作るDeep Learning),Saito Koki (斎藤康毅),2016,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0414,Le mythe de la Singularite: Faut-il craindre l'intelligence artificielle?,Jean-Gabriel Ganascia,2017,Le mythe de la singularité,Jean-Gabriel Ganascia,2017,OK,
+book-0415,Kuenstliche Intelligenz: Was sie kann & was uns erwartet,Manuela Lenzen,2018,Kuenstliche Intelligenz Aus Staatlicher Perspektive,Richard Rotermund,2020,REVIEW_MATCH,title_sim=0.65 author_ok=False (may be DB gap)
+book-0416,Kuenstliche Intelligenz und der Sinn des Lebens,Richard David Precht,2020,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0417,Doe zelf normaal: Menselijk recht in tijden van datasturing en natuurgeweld,Maxim Februari,2023,Doe zelf normaal,Maxim Februari,2023,OK,
+book-0418,"Algoritmisering, wen er maar aan",Jim Stolze,2018,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0419,Reinforcement Learning and Optimal Control,Dimitri P. Bertsekas,2019,Reinforcement Learning and Optimal Control,Dimitri Bertsekas,2019,OK,
+book-0420,Distributional Reinforcement Learning,"Marc G. Bellemare, Will Dabney, Mark Rowland",2023,Distributional Reinforcement Learning,Marc G. Bellemare; Will Dabney; Mark Rowland,2023,OK,
+book-0421,Graph Representation Learning,William L. Hamilton,2020,Graph Representation Learning,William L. Hamilton,2020,OK,
+book-0422,The Principles of Deep Learning Theory,"Daniel A. Roberts, Sho Yaida",2022,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0423,Machine Learning Design Patterns,"Valliappa Lakshmanan, Sara Robinson, Michael Munn",2020,Machine Learning Design Patterns,Valliappa Lakshmanan; Sara Robinson; Michael Munn,2020,OK,
+book-0424,Machine Learning with PyTorch and Scikit-Learn,"Sebastian Raschka, Yuxi Liu, Vahid Mirjalili",2022,Machine Learning with Pytorch and Scikit-Learn,Sebastian Raschka; Yuxi (Hayden) Liu; Vahid Mirjalili,2022,OK,
+book-0425,Programming Collective Intelligence,Toby Segaran,2007,Programming Collective Intelligence,Toby Segaran,2007,OK,
+book-0426,Probability Theory: The Logic of Science,E. T. Jaynes,2003,Probability Theory,E. T. Jaynes,2003,OK,
+book-0427,The Hundred-Page Language Models Book,Andriy Burkov,2025,The Hundred Dresses,Eleanor Estes; Louis Slobodkin; Jim Stelljes,1944,REVIEW_MATCH,title_sim=0.73 author_ok=False (may be DB gap)
+book-0428,The Kaggle Book,"Konrad Banachewicz, Luca Massaron",2022,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0429,Approaching (Almost) Any Machine Learning Problem,Abhishek Thakur,2020,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0430,Deep Learning Illustrated,"Jon Krohn, Grant Beyleveld, Aglae Bassens",2019,Deep Learning Illustrated,Jon Krohn; Beyleveld Grant; Bassens Aglaé,2019,OK,
+book-0431,Natural Language Processing in Action (2nd ed.),"Hobson Lane, Maria Dyshel",2024,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0432,Advances in Financial Machine Learning,Marcos Lopez de Prado,2018,Advances in Financial Machine Learning,Marcos Lopez de Prado,2018,OK,
+book-0433,Artificial Intelligence in Finance: A Python-Based Guide,Yves Hilpisch,2020,Artificial Intelligence in Finance,Yves Hilpisch,2020,OK,
+book-0434,The Glass Cage: Automation and Us,Nicholas Carr,2014,The Glass Cage,Nicholas G. Carr,2014,OK,
+book-0435,Smarter Than You Think: How Technology Is Changing Our Minds for the Better,Clive Thompson,2013,Smarter Than You Think,Clive Thompson,2014,OK,
+book-0436,You Are Not a Gadget: A Manifesto,Jaron Lanier,2010,You are not a gadget,Jaron Lanier,2010,OK,
+book-0437,Who Owns the Future?,Jaron Lanier,2013,Who Owns the Future?,Jaron Lanier,2013,OK,
+book-0438,Superminds: The Surprising Power of People and Computers Thinking Together,Thomas W. Malone,2018,Superminds,Thomas W. Malone,2018,OK,
+book-0439,"The Handover: How We Gave Control of Our Lives to Corporations, States and AIs",David Runciman,2023,The handover,"Sargeson, Frank.",1967,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0440,How to Stay Smart in a Smart World,Gerd Gigerenzer,2022,How to Stay Smart in a Smart World,Gerd Gigerenzer,2022,OK,
+book-0441,A Citizen's Guide to Artificial Intelligence,John Zerilli et al.,2021,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0442,Rule of the Robots: How Artificial Intelligence Will Transform Everything,Martin Ford,2021,Rule of the Robots,Martin Ford,2021,OK,
+book-0443,Competing in the Age of AI,"Marco Iansiti, Karim R. Lakhani",2020,Competing in the Age of AI,Marco Iansiti; Karim R. Lakhani,2020,OK,
+book-0444,The Fourth Industrial Revolution,Klaus Schwab,2016,The fourth industrial revolution,Klaus Schwab,2017,OK,
+book-0445,21 Lessons for the 21st Century,Yuval Noah Harari,2018,21 Lessons for the 21st Century,Yuval Noah Harari,2018,OK,
+book-0446,Solomon's Code: Humanity in a World of Thinking Machines,"Olaf Groth, Mark Nitzberg",2018,Solomon's Code,Olaf Groth; Mark Nitzberg,2018,OK,
+book-0447,In Our Own Image: Savior or Destroyer? The History and Future of AI,George Zarkadakis,2015,In our own image,Maureen Caudill,1992,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0448,Heartificial Intelligence: Embracing Our Humanity to Maximize Machines,John C. Havens,2016,Heartificial intelligence,John C. Havens,2016,OK,
+book-0449,Alone Together: Why We Expect More from Technology and Less from Each Other,Sherry Turkle,2011,Alone Together,Sherry Turkle,2011,OK,
+book-0450,The Second Self: Computers and the Human Spirit,Sherry Turkle,1984,The second self,Sherry Turkle,1984,OK,
+book-0451,The New Breed: What Our History with Animals Reveals about Our Future with Robots,Kate Darling,2021,The new breed,William E. Butterworth III,1987,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0452,"Turned On: Science, Sex and Robots",Kate Devlin,2018,Turning on learning,Carl A. Grant; Christine E. Sleeter,1989,REVIEW_MATCH,title_sim=0.50 author_ok=False (may be DB gap)
+book-0453,Robots and the People Who Love Them,Eve Herold,2024,Robots and the People Who Love Them,Eve Herold,2024,OK,
+book-0454,"Artificial Intimacy: Virtual Friends, Digital Lovers, and Algorithmic Matchmakers",Rob Brooks,2021,Artificial Intimacy,Rob Brooks,2021,OK,
+book-0455,The Artist in the Machine: The World of AI-Powered Creativity,Arthur I. Miller,2019,Artist in the Machine,Arthur I. Miller,2019,OK,
+book-0456,"The Uncanny Muse: Music, Art, and Machines from Automata to AI",David Hajdu,2025,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0457,The Battle for Your Brain: Defending the Right to Think Freely in the Age of Neurotechnology,Nita A. Farahany,2023,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0458,Wired for War: The Robotics Revolution and Conflict in the 21st Century,P. W. Singer,2009,Wired for war,P. W. Singer,,OK,
+book-0459,The Kill Chain: Defending America in the Future of High-Tech Warfare,Christian Brose,2020,The Kill Chain,Christian Brose,2020,OK,
+book-0460,Autonomy: The Quest to Build the Driverless Car,"Lawrence D. Burns, Christopher Shulgan",2018,Autonomy,Daniel Blythe,2009,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0461,Driverless: Intelligent Cars and the Road Ahead,"Hod Lipson, Melba Kurman",2016,Driverless,Hod Lipson,2016,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0462,The Man from the Future: The Visionary Life of John von Neumann,Ananyo Bhattacharya,2021,The Man from the Future,Ananyo Bhattacharya,2021,OK,
+book-0463,Rise of the Machines: A Cybernetic History,Thomas Rid,2016,Rise of the machines,Thomas Rid,2016,OK,
+book-0464,Mind as Machine: A History of Cognitive Science (2 vols.),Margaret A. Boden,2006,Mind As Machine,Margaret A. Boden,2006,OK,
+book-0465,Ada's Algorithm: How Lord Byron's Daughter Ada Lovelace Launched the Digital Age,James Essinger,2014,Ada's algorithm,James Essinger,2014,OK,
+book-0466,The Annotated Turing,Charles Petzold,2008,The Annotated Turing,Charles Petzold,2008,OK,
+book-0467,Artificial General Intelligence,"Ben Goertzel, Cassio Pennachin (eds.)",2007,Artificial general intelligence,Ben Goertzel; Cassio Pennachin,2007,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0468,How to Build a Brain: A Neural Architecture for Biological Cognition,Chris Eliasmith,2013,How to Build a Brain,Chris Eliasmith,2013,OK,
+book-0469,Principles of Synthetic Intelligence: PSI: An Architecture of Motivated Cognition,Joscha Bach,2009,Principles of synthetic intelligence,Joscha Bach,2009,OK,
+book-0470,Failure to Disrupt: Why Technology Alone Can't Transform Education,Justin Reich,2020,Failure to Disrupt,Justin Reich,2020,OK,
+book-0471,"The Digital Doctor: Hope, Hype, and Harm at the Dawn of Medicine's Computer Age",Robert Wachter,2015,The digital doctor,Robert M. Wachter,2015,OK,
+book-0472,2001: A Space Odyssey,Arthur C. Clarke,1968,2001,Arthur C. Clarke,1968,OK,
+book-0473,The Moon Is a Harsh Mistress,Robert A. Heinlein,1966,The moon is a harsh mistress,Robert A. Heinlein,1965,OK,
+book-0474,The Player of Games,Iain M. Banks,1988,The player of games,Iain Banks,1988,OK,
+book-0475,Permutation City,Greg Egan,1994,Permutation City,Greg Egan,1994,OK,
+book-0476,Accelerando,Charles Stross,2005,Accelerando,Charles Stross,1900,REVIEW_YEAR,year gap 2005 vs OL 1900 (OL=earliest edition)
+book-0477,Daemon,Daniel Suarez,2006,Daemon,Daniel Suarez,2009,REVIEW_YEAR,our year 2006 < OL first-publish 2009
+book-0478,All Systems Red (The Murderbot Diaries #1),Martha Wells,2017,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0479,A Closed and Common Orbit,Becky Chambers,2016,A Closed and Common Orbit,Becky Chambers,2016,OK,
+book-0480,Machinehood,S. B. Divya,2021,Machinehood,S. B. Divya,2021,OK,
+book-0481,The Mountain in the Sea,Ray Nayler,2022,The Mountain in the Sea,Victor Hernández Cruz,2006,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0482,Burn-In: A Novel of the Real Robotic Revolution,"P. W. Singer, August Cole",2020,Burned,Ellen Hopkins,2006,REVIEW_MATCH,title_sim=0.80 author_ok=False (may be DB gap)
+book-0483,QualityLand,Marc-Uwe Kling,2017,QualityLand,Marc-Uwe Kling,2017,OK,
+book-0484,Power and Progress: Our Thousand-Year Struggle Over Technology and Prosperity,"Daron Acemoglu, Simon Johnson",2023,Power and Progress,Daron Acemoglu; Simon Johnson,2023,OK,
+book-0485,"Android Dreams: The Past, Present and Future of Artificial Intelligence",Toby Walsh,2017,The Android's Dream,John Scalzi,2006,REVIEW_MATCH,title_sim=0.79 author_ok=False (may be DB gap)
+book-0486,"An Artificial Revolution: On Power, Politics and AI",Ivana Bartoletti,2020,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0487,Working with AI: Real Stories of Human-Machine Collaboration,"Thomas H. Davenport, Steven M. Miller",2022,Working with AI,"Davenport, Thomas H.; Steven M. Miller",2022,OK,
+book-0488,Complexity: A Guided Tour,Melanie Mitchell,2009,Complexity,M. Mitchell Waldrop,1992,REVIEW_YEAR,year gap 2009 vs OL 1992 (OL=earliest edition)
+book-0489,Artificial Life: A Report from the Frontier Where Computers Meet Biology,Steven Levy,1992,Artificial life,Steven Levy,1992,OK,
+book-0490,Fluid Concepts and Creative Analogies,"Douglas R. Hofstadter, FARG",1995,Fluid Concepts and Creative Analogies,Douglas R. Hofstadter; Fluid Analogies Research Group,1995,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0491,The Pattern on the Stone: The Simple Ideas That Make Computers Work,W. Daniel Hillis,1998,The pattern on the stone,W. Daniel Hillis,1998,OK,
+book-0492,Shadows of the Mind: A Search for the Missing Science of Consciousness,Roger Penrose,1994,Shadows of the mind,Roger Penrose,1994,OK,
+book-0493,The Essential Turing,B. Jack Copeland (ed.),2004,The Essential Turing,Alan Mathison Turing; Jack Copeland,2002,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0494,Adaptation in Natural and Artificial Systems,John H. Holland,1975,Adaptation in natural and artificial systems,"Holland, John H.",1975,OK,
+book-0495,Unified Theories of Cognition,Allen Newell,1990,Unified theories of cognition,Allen Newell,1990,OK,
+book-0496,Human Problem Solving,"Allen Newell, Herbert A. Simon",1972,Human problem solving,Allen Newell; Herbert Alexander Simon,1972,OK,
+book-0497,"Scripts, Plans, Goals, and Understanding","Roger C. Schank, Robert P. Abelson",1977,"Scripts, Plans, Goals, and Understanding",Roger C. Schank; Robert P. Abelson,1977,OK,
+book-0498,Parallel Distributed Processing: Explorations in the Microstructure of Cognition (Vols. 1-2),"David E. Rumelhart, James L. McClelland, PDP Research Group",1986,Parallel distributed processing,David E. Rumelhart,1986,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0499,The Cambridge Handbook of Artificial Intelligence,"Keith Frankish, William M. Ramsey (eds.)",2014,The Cambridge handbook of artificial intelligence,Keith Frankish,2008,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0500,AI: Its Nature and Future,Margaret A. Boden,2016,AI superpowers,Kai-Fu Lee,2018,REVIEW_MATCH,title_sim=0.42 author_ok=False (may be DB gap)
+book-0501,Technopoly: The Surrender of Culture to Technology,Neil Postman,1992,Technopoly,Neil Postman,1992,OK,
+book-0502,Islands in the Cyberstream: Seeking Havens of Reason in a Programmed Society,Joseph Weizenbaum,2015,Islands in the cyberstream,Joseph Weizenbaum,2015,OK,
+book-0503,Data Grab: The New Colonialism of Big Tech and How to Fight Back,Ulises A. Mejias and Nick Couldry,2024,Data Grab,Nick Couldry; Ulises A. Mejias,2024,OK,
+book-0504,Teaching Machines: The History of Personalized Learning,Audrey Watters,2023,Teaching Machines,Audrey Watters,2021,OK,
+book-0505,The Mechanic and the Luddite: A Ruthless Criticism of Technology and Capitalism,Jathan Sadowski,2025,Mechanic and the Luddite,Jathan Wayne Sadowski,2024,OK,
+book-0506,Breaking Things at Work: The Luddites Are Right About Why You Hate Your Job,Gavin Mueller,2021,Breaking Things at Work,Gavin Mueller,2021,OK,
+book-0507,Disabling Intelligences: Legacies of Eugenics and How We are Wrong about AI,Rua M. Williams,2025,Disabling Intelligences,Rua M. Williams,2025,OK,
+book-0508,Artifictional Intelligence: Against Humanity's Surrender to Computers,Harry Collins,2018,Artifictional Intelligence,Harry Collins,2018,OK,
+book-0509,Human Power: Seven Traits for the Politics of the AI Machine Age,Gry Hasselbalch,2025,The Human-Powered Home,Tamara Dean,2008,REVIEW_MATCH,title_sim=0.67 author_ok=False (may be DB gap)
+book-0510,Imagination: A Manifesto,Ruha Benjamin,2025,Applied Imagination,Alex Faickney Osborn,1953,REVIEW_MATCH,title_sim=0.73 author_ok=False (may be DB gap)
+book-0511,Another Science is Possible: A Manifesto for Slow Science,Isabelle Stengers,2017,Another Science Is Possible,Isabelle Stengers; Stephen Muecke,2017,OK,
+book-0512,Artificial Whiteness: Politics and Ideology in Artificial Intelligence,Yarden Katz,2020,Artificial Whiteness - Politics and Ideology in Artificial Intelligence,Yarden Katz,2020,OK,
+book-0513,Technocolonialism: When Technology for Good is Harmful,Mirca Madianou,2024,Technocolonialism,M. Madianou,2024,OK,
+book-0514,The Shame Machine: Who Profits in the New Age of Humiliation,Cathy O'Neil,2023,The Shame Machine,Cathy O'Neil,2022,OK,
+book-0515,Datafied Childhoods: Data Practices and Imaginaries in Children's Lives,Giovanna Mascheroni and Andra Siibak,2021,Datafied Childhoods,Giovanna Mascheroni; Andra Siibak,2021,OK,
+book-0516,Why Machines Will Never Rule the World: Artificial Intelligence without Fear,Jobst Landgrebe and Barry Smith,2022,Why Machines Will Never Rule the World,Jobst Landgrebe; Barry Smith,2022,OK,
+book-0517,The Unaccountability Machine: Why Big Systems Make Terrible Decisions,Dan Davies,2024,The Unaccountability Machine,Dan Davies,2024,OK,
+book-0518,Technology Is Not Neutral: A Short Guide to Technology Ethics,Stephanie Hare,2022,Technology Is Not Neutral,Stephanie Hare,2022,OK,
+book-0519,The Ethics of Privacy and Surveillance,Carissa Veliz,2024,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0520,Ethics for People Who Work in Tech,Marc Steen,2023,Ethics for People Who Work in Tech,Marc Steen,2022,OK,
+book-0521,"Distrust: Big Data, Data-Torturing, and the Assault on Science",Gary Smith,2023,Distrust,Russell Hardin,2004,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0522,Oxford Handbook of Digital Ethics,Carissa Veliz (ed.),2023,The Oxford Handbook of Digital Ethics,Carissa Véliz,2024,REVIEW_MATCH,title_sim=0.94 author_ok=False (may be DB gap)
+book-0523,Superbloom: How Technologies of Connection Tear Us Apart,Nicholas Carr,2025,Superbloom,Nicholas G. Carr,2025,OK,
+book-0524,The Internet Con: How to Seize the Means of Computation,Cory Doctorow,2023,The Internet Con,Cory Doctorow,2023,OK,
+book-0525,Enshittification: Why Everything Suddenly Got Worse and What to Do About It,Cory Doctorow,2025,Enshittification,Cory Doctorow,2025,OK,
+book-0526,Scorched Earth: Beyond the Digital Age to a Post-Capitalist World,Jonathan Crary,2022,Scorched Earth,Robert Muchamore,2013,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0527,Slow Computing: Why We Need Balanced Digital Lives,Rob Kitchin and Alistair Fraser,2020,Slow Computing,Rob Kitchin; Alistair Fraser,2020,OK,
+book-0528,The Digital Innovation Race: Conceptualizing the Emerging New World Order,Cecilia Rikap and Bengt-Ake Lundvall,2021,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0529,The Economy of Algorithms: AI and the Rise of the Digital Minions,Marek Kowalkiewicz,2024,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0530,Rhythm and Vigilance: Ethnographies of Surveillance and Time,Vita Peacock et al.,2025,Rhythm and Vigilance,Vita Peacock; Mikkel Kenni Bruun; Claire Dungey,2025,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0531,"The Tensions of Algorithmic Thinking: Automation, Intelligence and the Politics of Knowing",David Beer,2024,The Tensions of Algorithmic Thinking,David Beer,2022,OK,
+book-0532,"Postgrowth Digital Futures: Digital Technologies, Degrowth, and Radical Abundance",Sy Taffel,2026,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0533,La Silicolonizacion del Mundo,Eric Sadin,2020,La silicolonización del mundo : la irresistible expansión del liberalismo digital,,2018,REVIEW_MATCH,title_sim=0.52 author_ok=False (may be DB gap)
+book-0534,La Inteligencia Artificial o el Desafio del Siglo,Eric Sadin,2020,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0535,La Era del Individuo Tirano,Eric Sadin,2022,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0536,More than Words: How to Think About Writing in the Age of AI,John Warner,2025,More Than Words,Fern Sussman,1999,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0537,Data Conscience: Algorithmic Siege on our Humanity,Brandeis Marshall,2022,Data Conscience,Brandeis Marshall,2022,OK,
+book-0538,Medium Hot: Images in the Age of Heat,Hito Steyerl,2025,Cool medium hot,Erick van Egeraat,1997,REVIEW_MATCH,title_sim=0.80 author_ok=False (may be DB gap)
+book-0539,The Nerd Reich: Silicon Valley Fascism and the War on Democracy,Gil Duran,2026,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0540,Writings of the Luddites,Kevin Binfield (ed.),2015,Writings of the Luddites,Kevin Binfield,2004,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0541,Filterworld: How Algorithms Make Everything the Same,Kyle Chayka,2024,Filterworld,Kyle Chayka,2024,OK,
+book-0542,You Must Become an Algorithmic Problem,Jose Marichal,2025,You Must Become an Algorithmic Problem,José Marichal,2025,OK,
+book-0543,Kunstliche Intelligenz und der neue Faschismus,Rainer Muhlhoff,2025,Künstliche Intelligenz und der neue Faschismus,Rainer Mühlhoff,2025,REVIEW_MATCH,title_sim=0.98 author_ok=False (may be DB gap)
+book-0544,Silicon Values: The Future of Free Speech Under Surveillance Capitalism,Jillian C. York,2022,Silicon Values,Jillian York,2021,OK,
+book-0545,How Silicon Valley Unleashed Techno-feudalism: The Making of the Digital Economy,Cedric Durand,2024,How Silicon Valley Unleashed Techno-Feudalism,Cédric Durand,2024,OK,
+book-0546,Radical Technologies: The Design of Everyday Life,Adam Greenfield,2018,Radical Technologies,Adam Greenfield,2017,OK,
+book-0547,Cyberboss: The Rise of Algorithmic Management and the New Struggle for Control at Work,Craig Gent,2024,Cyberboss,Craig Gent,2024,OK,
+book-0548,Cybernetic Circulation Complex: Big Tech and Planetary Crisis,Nick Dyer-Witheford and Alessandra Mularoni,2025,Cybernetic Circulation Complex,Nick Dyer-Witheford; Alessandra Mularoni,2025,OK,
+book-0549,"Augmented Exploitation: Artificial Intelligence, Automation and Work",Phoebe Moore and Jamie Woodcock (eds.),2021,Augmented Exploitation,Phoebe V. Moore; Jamie Woodcock,2021,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0550,Algorithms of Resistance: The Everyday Fight against Platform Power,Tiziano Bonini and Emiliano Trere,2024,Algorithms of Resistance,Tiziano Bonini; Emiliano Trere,2024,OK,
+book-0551,Computational Reflections,Brian Cantwell Smith,2026,Computational reflection,Patricia Maes,1987,REVIEW_MATCH,title_sim=0.98 author_ok=False (may be DB gap)
+book-0552,Programmed Inequality: How Britain Discarded Women Technologists and Lost Its Edge in Computing,Mar Hicks,2018,Programmed inequality,Mar Hicks,2017,OK,
+book-0553,"Dark Patterns, Deceptive Design, and the Law",Mark Leiser,2025,"Dark Patterns, Deceptive Design, and the Law",Mark Leiser,2025,OK,
+book-0554,Collaborative Research in the Datafied Society,"Mirko Tobias Schafer, Karin van Es, Tracey Lauriault (eds.)",2024,Collaborative Research in the Datafied Society,Mirko Tobias Schäfer; Karin van Es; Tracey Lauriault,2024,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0555,Techno-Negative: A Long History of Refusing the Machine,Thomas Dekeyser,2026,Techno,Raver Kalender,2019,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
+book-0556,"Bad Data: How Governments, Politicians and the Rest of Us Get Misled by Numbers",Georgina Sturge,2023,Bad Data,Georgina Sturge,2022,OK,
+book-0557,Bit Tyrants: The Political Economy of Silicon Valley,Rob Larson,2020,Bit Tyrants,Rob Larson,2020,OK,
+book-0558,"Careless People: A Cautionary Tale of Power, Greed, and Lost Idealism",Sarah Wynn-Williams,2025,Careless People,Sarah Wynn-Williams,2025,OK,
+book-0559,The Age of Extraction: How Tech Platforms Conquered the Economy and Threaten Our Future Prosperity,Tim Wu,2025,The Age of Extraction,Tim Wu,2025,OK,
+book-0560,Gilded Rage: Elon Musk and the Radicalization of Silicon Valley,Jacob Silverman,2025,Gilded Rage,Jacob Silverman,2025,OK,
+book-0561,Brotopia: Breaking Up the Boys' Club of Silicon Valley,Emily Chang,2018,Brotopia,Emily Chang,2018,OK,
+book-0562,What Tech Calls Thinking: An Inquiry into the Intellectual Bedrock of Silicon Valley,Adrian Daub,2020,What Tech Calls Thinking,Adrian Daub,2020,OK,
+book-0563,Platform Extractivism: Data Work and the People Powering Artificial Intelligence,Julian Posada,2026,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0564,Our Minds Under Siege: How to Avoid Being Manipulated in the Age of Artificial Intelligence,Bruno Giussani,2026,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0565,The Cultural Logic of Computation,David Golumbia,2009,The cultural logic of computation,David Golumbia,2009,OK,
+book-0566,The Real World of Technology,Ursula Franklin,1999,The real world of technology,Ursula M. Franklin,1990,REVIEW_YEAR,year gap 1999 vs OL 1990 (OL=earliest edition)
+book-0567,Big Tech Must Go!,Martin Andree,2025,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0568,Digital Habitus: A Critique of the Imaginaries of Artificial Intelligence,Alberto Romele,2024,Digital Habitus,Alberto Romele,2023,OK,
+book-0569,"Promptism: Fluent Machines, Forgotten Questions, and the Fight for Meaning in the Age of AI",Sune Selsbak-Reitz,2026,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0570,Cyberselfish: A Critical Romp Through The Terribly Libertarian Culture of High Tech,Paulina Borsook,2000,Cyberselfish,Paulina Borsook,2000,OK,
+book-0571,Studying Those Who Study Us: An Anthropologist in the World of Artificial Intelligence,Diana E. Forsythe,2002,Studying Those Who Study Us,Diana E. Forsythe,2001,OK,
+book-0572,Algorithmic Capital: Resistance in the Age of Artificial Intelligence,Jonathan Durand Folco and Jonathan Martineau,2026,Global Algorithmic Capital Markets,Walter Mattli,2019,REVIEW_MATCH,title_sim=0.72 author_ok=False (may be DB gap)
+book-0573,Who Wrote This? How AI and the Lure of Efficiency Threaten Human Writing,Naomi S. Baron,2023,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
