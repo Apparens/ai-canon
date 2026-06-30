@@ -246,8 +246,8 @@ def run() -> dict:
             raise AssertionError(f"{key}: expected {expected}, got {counts[key]}")
 
     described = sum(1 for b in books if b["editorial"]["description"])
-    if described != 250:
-        raise AssertionError(f"expected 250 book descriptions, got {described}")
+    if described != 573:
+        raise AssertionError(f"expected 573 book descriptions, got {described}")
 
     authored = derive_authored_by(
         books, persons, lambda w: w["editorial"]["author"]

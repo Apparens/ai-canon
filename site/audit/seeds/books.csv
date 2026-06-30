@@ -200,320 +200,320 @@ book-0198,"Information Theory, Inference, and Learning Algorithms",David J.C. Ma
 book-0199,The Age of Spiritual Machines: When Computers Exceed Human Intelligence,Ray Kurzweil,1999,EN,Futures,Appelo core,False
 book-0200,The Age of Intelligent Machines,Ray Kurzweil,1990,EN,Futures,Appelo core,False
 book-0201,"The Emperor's New Mind: Concerning Computers, Minds, and the Laws of Physics",Roger Penrose,1989,EN,Philosophy of Mind,Appelo core,False
-book-0202,"The Elements of Statistical Learning: Data Mining, Inference, and Prediction (2nd ed.)","Trevor Hastie, Robert Tibshirani, Jerome Friedman",2009,EN,Textbook ML,Canon hunt,False
-book-0203,An Introduction to Statistical Learning: with Applications in Python (2nd ed.),"Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani",2021,EN,Textbook ML,Canon hunt,False
-book-0204,Machine Learning,Tom M. Mitchell,1997,EN,Textbook ML,Canon hunt,False
-book-0205,Pattern Classification (2nd ed.),"Richard O. Duda, Peter E. Hart, David G. Stork",2000,EN,Textbook ML,Canon hunt,False
-book-0206,Machine Learning: A Probabilistic Perspective,Kevin P. Murphy,2012,EN,Textbook ML,Canon hunt,False
-book-0207,Probabilistic Machine Learning: An Introduction,Kevin P. Murphy,2022,EN,Textbook ML,Canon hunt,False
-book-0208,Probabilistic Machine Learning: Advanced Topics,Kevin P. Murphy,2023,EN,Textbook ML,Canon hunt,False
-book-0209,Understanding Machine Learning: From Theory to Algorithms,"Shai Shalev-Shwartz, Shai Ben-David",2014,EN,Textbook ML,Canon hunt,False
-book-0210,Foundations of Machine Learning (2nd ed.),"Mehryar Mohri, Afshin Rostamizadeh, Ameet Talwalkar",2018,EN,Textbook ML,Canon hunt,False
-book-0211,Bayesian Reasoning and Machine Learning,David Barber,2012,EN,Textbook ML,Canon hunt,False
-book-0212,Gaussian Processes for Machine Learning,"Carl Edward Rasmussen, Christopher K. I. Williams",2006,EN,Textbook ML,Canon hunt,False
-book-0213,Probabilistic Graphical Models: Principles and Techniques,"Daphne Koller, Nir Friedman",2009,EN,Textbook ML,Canon hunt,False
-book-0214,The Nature of Statistical Learning Theory (2nd ed.),Vladimir N. Vapnik,2000,EN,Textbook ML,Canon hunt,False
-book-0215,Ensemble Methods: Foundations and Algorithms,Zhi-Hua Zhou,2012,EN,Textbook ML,Canon hunt,False
-book-0216,All of Statistics: A Concise Course in Statistical Inference,Larry Wasserman,2004,EN,Math & Stats,Canon hunt,False
-book-0217,Convex Optimization,"Stephen Boyd, Lieven Vandenberghe",2004,EN,Math & Stats,Canon hunt,False
-book-0218,"Causality: Models, Reasoning, and Inference (2nd ed.)",Judea Pearl,2009,EN,Math & Stats,Canon hunt,False
-book-0219,Causal Inference in Statistics: A Primer,"Judea Pearl, Madelyn Glymour, Nicholas P. Jewell",2016,EN,Math & Stats,Canon hunt,False
-book-0220,Elements of Causal Inference: Foundations and Learning Algorithms,"Jonas Peters, Dominik Janzing, Bernhard Schoelkopf",2017,EN,Math & Stats,Canon hunt,False
-book-0221,Speech and Language Processing (2nd ed.),"Daniel Jurafsky, James H. Martin",2009,EN,NLP,Canon hunt,False
-book-0222,Foundations of Statistical Natural Language Processing,"Christopher D. Manning, Hinrich Schuetze",1999,EN,NLP,Canon hunt,False
-book-0223,Introduction to Information Retrieval,"Christopher D. Manning, Prabhakar Raghavan, Hinrich Schuetze",2008,EN,NLP,Canon hunt,False
-book-0224,Natural Language Processing with Transformers (Revised ed.),"Lewis Tunstall, Leandro von Werra, Thomas Wolf",2022,EN,NLP,Canon hunt,False
-book-0225,Build a Large Language Model (From Scratch),Sebastian Raschka,2024,EN,LLM Engineering,Canon hunt,False
-book-0226,AI Engineering: Building Applications with Foundation Models,Chip Huyen,2025,EN,LLM Engineering,Canon hunt,False
-book-0227,Machine Learning Engineering,Andriy Burkov,2020,EN,ML Engineering,Canon hunt,False
-book-0228,Machine Learning Yearning,Andrew Ng,2018,EN,ML Engineering,Canon hunt,False
-book-0229,Building Machine Learning Powered Applications,Emmanuel Ameisen,2020,EN,ML Engineering,Canon hunt,False
-book-0230,Interpretable Machine Learning: A Guide for Making Black Box Models Explainable,Christoph Molnar,2020,EN,ML Engineering,Canon hunt,False
-book-0231,Prompt Engineering for LLMs,"John Berryman, Albert Ziegler",2024,EN,LLM Engineering,Canon hunt,False
-book-0232,"Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow (3rd ed.)",Aurelien Geron,2022,EN,Practitioner,Canon hunt,False
-book-0233,Deep Learning with Python (2nd ed.),Francois Chollet,2021,EN,Practitioner,Canon hunt,False
-book-0234,Deep Learning for Coders with fastai and PyTorch,"Jeremy Howard, Sylvain Gugger",2020,EN,Practitioner,Canon hunt,False
-book-0235,Deep Learning with PyTorch,"Eli Stevens, Luca Antiga, Thomas Viehmann",2020,EN,Practitioner,Canon hunt,False
-book-0236,Grokking Deep Learning,Andrew W. Trask,2019,EN,Practitioner,Canon hunt,False
-book-0237,Neural Networks and Deep Learning,Michael Nielsen,2015,EN,Textbook DL,Canon hunt,False
-book-0238,Deep Learning: Foundations and Concepts,"Christopher M. Bishop, Hugh Bishop",2024,EN,Textbook DL,Canon hunt,False
-book-0239,Understanding Deep Learning,Simon J.D. Prince,2023,EN,Textbook DL,Canon hunt,False
-book-0240,The Little Book of Deep Learning,Francois Fleuret,2023,EN,Textbook DL,Canon hunt,False
-book-0241,Dive into Deep Learning,"Aston Zhang, Zachary C. Lipton, Mu Li, Alexander J. Smola",2023,EN,Textbook DL,Canon hunt,False
-book-0242,Generative Deep Learning (2nd ed.),David Foster,2023,EN,Textbook DL,Canon hunt,False
-book-0243,Algorithms for Reinforcement Learning,Csaba Szepesvari,2010,EN,RL,Canon hunt,False
-book-0244,Bandit Algorithms,"Tor Lattimore, Csaba Szepesvari",2020,EN,RL,Canon hunt,False
-book-0245,Grokking Deep Reinforcement Learning,Miguel Morales,2020,EN,RL,Canon hunt,False
-book-0246,Computer Vision: Algorithms and Applications (2nd ed.),Richard Szeliski,2022,EN,Computer Vision,Canon hunt,False
-book-0247,Multiple View Geometry in Computer Vision (2nd ed.),"Richard Hartley, Andrew Zisserman",2004,EN,Computer Vision,Canon hunt,False
-book-0248,Probabilistic Robotics,"Sebastian Thrun, Wolfram Burgard, Dieter Fox",2005,EN,Robotics,Canon hunt,False
-book-0249,Planning Algorithms,Steven M. LaValle,2006,EN,Robotics,Canon hunt,False
-book-0250,"Modern Robotics: Mechanics, Planning, and Control","Kevin M. Lynch, Frank C. Park",2017,EN,Robotics,Canon hunt,False
-book-0251,Introduction to Autonomous Mobile Robots (2nd ed.),"Roland Siegwart, Illah R. Nourbakhsh, Davide Scaramuzza",2011,EN,Robotics,Canon hunt,False
-book-0252,Artificial Intelligence: Foundations of Computational Agents (3rd ed.),"David L. Poole, Alan K. Mackworth",2023,EN,Textbook AI,Canon hunt,False
-book-0253,Artificial Intelligence: A New Synthesis,Nils J. Nilsson,1998,EN,Textbook AI,Canon hunt,False
-book-0254,Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp,Peter Norvig,1992,EN,Textbook AI,Canon hunt,False
-book-0255,Data Mining: Concepts and Techniques (3rd ed.),"Jiawei Han, Micheline Kamber, Jian Pei",2011,EN,Data Mining,Canon hunt,False
-book-0256,Mining of Massive Datasets (3rd ed.),"Jure Leskovec, Anand Rajaraman, Jeffrey D. Ullman",2020,EN,Data Mining,Canon hunt,False
-book-0257,Data Science for Business,"Foster Provost, Tom Fawcett",2013,EN,Data Mining,Canon hunt,False
-book-0258,Neural Networks for Pattern Recognition,Christopher M. Bishop,1995,EN,Textbook DL,Canon hunt,False
-book-0259,Perceptrons: An Introduction to Computational Geometry,"Marvin Minsky, Seymour Papert",1969,EN,Classics,Canon hunt,False
-book-0260,Empire of AI: Dreams and Nightmares in Sam Altman's OpenAI,Karen Hao,2025,EN,Journalism & Biography,Canon hunt,False
-book-0261,"The Thinking Machine: Jensen Huang, Nvidia, and the World's Most Coveted Microchip",Stephen Witt,2025,EN,Journalism & Biography,Canon hunt,False
-book-0262,"The Optimist: Sam Altman, OpenAI, and the Race to Invent the Future",Keach Hagey,2025,EN,Journalism & Biography,Canon hunt,False
-book-0263,"AI Valley: Microsoft, Google, and the Trillion-Dollar Race to Cash In on Artificial Intelligence",Gary Rivlin,2025,EN,Journalism & Biography,Canon hunt,False
-book-0264,"More Everything Forever: AI Overlords, Space Empires, and Silicon Valley's Crusade to Control the Fate of Humanity",Adam Becker,2025,EN,Critique & Skepticism,Canon hunt,False
-book-0265,The AI Con: How to Fight Big Tech's Hype and Create the Future We Want,"Emily M. Bender, Alex Hanna",2025,EN,Critique & Skepticism,Canon hunt,False
-book-0266,Superagency: What Could Possibly Go Right with Our AI Future,"Reid Hoffman, Greg Beato",2025,EN,Futures,Canon hunt,False
-book-0267,These Strange New Minds: How AI Learned to Talk and What It Means,Christopher Summerfield,2025,EN,Popular Science,Canon hunt,False
-book-0268,"The Scaling Era: An Oral History of AI, 2019-2025",Dwarkesh Patel,2025,EN,Journalism & Biography,Canon hunt,False
-book-0269,Raising AI: An Essential Guide to Parenting Our Future,De Kai,2025,EN,Society & Ethics,Canon hunt,False
-book-0270,AI & I: An Intellectual History of Artificial Intelligence,Eugene Charniak,2024,EN,History,Canon hunt,False
-book-0271,"The Algorithm: How AI Decides Who Gets Hired, Monitored, Promoted, and Fired",Hilke Schellmann,2024,EN,Society & Ethics,Canon hunt,False
-book-0272,The Tech Coup: How to Save Democracy from Silicon Valley,Marietje Schaake,2024,EN,Governance & Policy,Canon hunt,False
-book-0273,Breakneck: China's Quest to Engineer the Future,Dan Wang,2025,EN,Geopolitics,Canon hunt,False
-book-0274,Chip War: The Fight for the World's Most Critical Technology,Chris Miller,2022,EN,Geopolitics,Canon hunt,False
-book-0275,"The Technological Republic: Hard Power, Soft Belief, and the Future of the West","Alexander C. Karp, Nicholas W. Zamiska",2025,EN,Geopolitics,Canon hunt,False
-book-0276,I Am Not a Robot: My Year Using AI to Do (Almost) Everything,Joanna Stern,2026,EN,Journalism & Biography,Canon hunt,False
-book-0277,Feeding the Machine: The Hidden Human Labor Powering AI,"James Muldoon, Mark Graham, Callum Cant",2024,EN,Society & Ethics,Canon hunt,False
-book-0278,Race After Technology: Abolitionist Tools for the New Jim Code,Ruha Benjamin,2019,EN,Society & Ethics,Canon hunt,False
-book-0279,Algorithms of Oppression: How Search Engines Reinforce Racism,Safiya Umoja Noble,2018,EN,Society & Ethics,Canon hunt,False
-book-0280,"Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor",Virginia Eubanks,2018,EN,Society & Ethics,Canon hunt,False
-book-0281,The Age of Surveillance Capitalism,Shoshana Zuboff,2019,EN,Society & Ethics,Canon hunt,False
-book-0282,Data Feminism,"Catherine D'Ignazio, Lauren F. Klein",2020,EN,Society & Ethics,Canon hunt,False
-book-0283,Design Justice: Community-Led Practices to Build the Worlds We Need,Sasha Costanza-Chock,2020,EN,Society & Ethics,Canon hunt,False
-book-0284,Ghost Work: How to Stop Silicon Valley from Building a New Global Underclass,"Mary L. Gray, Siddharth Suri",2019,EN,Society & Ethics,Canon hunt,False
-book-0285,Behind the Screen: Content Moderation in the Shadows of Social Media,Sarah T. Roberts,2019,EN,Society & Ethics,Canon hunt,False
-book-0286,Privacy Is Power: Why and How You Should Take Back Control of Your Data,Carissa Veliz,2020,EN,Society & Ethics,Canon hunt,False
-book-0287,The Ethical Algorithm: The Science of Socially Aware Algorithm Design,"Michael Kearns, Aaron Roth",2019,EN,Society & Ethics,Canon hunt,False
-book-0288,Fairness and Machine Learning: Limitations and Opportunities,"Solon Barocas, Moritz Hardt, Arvind Narayanan",2023,EN,Society & Ethics,Canon hunt,False
-book-0289,Moral Machines: Teaching Robots Right from Wrong,"Wendell Wallach, Colin Allen",2009,EN,Society & Ethics,Canon hunt,False
-book-0290,Robot Ethics: The Ethical and Social Implications of Robotics,"Patrick Lin, Keith Abney, George A. Bekey (eds.)",2012,EN,Society & Ethics,Canon hunt,False
-book-0291,Resisting AI: An Anti-fascist Approach to Artificial Intelligence,Dan McQuillan,2022,EN,Critique & Skepticism,Canon hunt,False
-book-0292,New Dark Age: Technology and the End of the Future,James Bridle,2018,EN,Critique & Skepticism,Canon hunt,False
-book-0293,"Ways of Being: Animals, Plants, Machines: The Search for a Planetary Intelligence",James Bridle,2022,EN,Philosophy of Mind,Canon hunt,False
-book-0294,The Eye of the Master: A Social History of Artificial Intelligence,Matteo Pasquinelli,2023,EN,History,Canon hunt,False
-book-0295,Blood in the Machine: The Origins of the Rebellion Against Big Tech,Brian Merchant,2023,EN,History,Canon hunt,False
-book-0296,"Technically Wrong: Sexist Apps, Biased Algorithms, and Other Threats of Toxic Tech",Sara Wachter-Boettcher,2017,EN,Society & Ethics,Canon hunt,False
-book-0297,"Discriminating Data: Correlation, Neighborhoods, and the New Politics of Recognition",Wendy Hui Kyong Chun,2021,EN,Society & Ethics,Canon hunt,False
-book-0298,"More than a Glitch: Confronting Race, Gender, and Ability Bias in Tech",Meredith Broussard,2023,EN,Society & Ethics,Canon hunt,False
-book-0299,"Voices in the Code: A Story about People, Their Values, and the Algorithm They Made",David G. Robinson,2022,EN,Governance & Policy,Canon hunt,False
-book-0300,The Digital Republic: On Freedom and Democracy in the 21st Century,Jamie Susskind,2022,EN,Governance & Policy,Canon hunt,False
-book-0301,Future Politics: Living Together in a World Transformed by Tech,Jamie Susskind,2018,EN,Governance & Policy,Canon hunt,False
-book-0302,Re-Engineering Humanity,"Brett Frischmann, Evan Selinger",2018,EN,Society & Ethics,Canon hunt,False
-book-0303,The Loop: How Technology Is Creating a World Without Choices and How to Fight Back,Jacob Ward,2022,EN,Society & Ethics,Canon hunt,False
-book-0304,System Error: Where Big Tech Went Wrong and How We Can Reboot,"Rob Reich, Mehran Sahami, Jeremy M. Weinstein",2021,EN,Governance & Policy,Canon hunt,False
-book-0305,Tools and Weapons: The Promise and the Peril of the Digital Age,"Brad Smith, Carol Ann Browne",2019,EN,Governance & Policy,Canon hunt,False
-book-0306,Automation and Utopia: Human Flourishing in a World without Work,John Danaher,2019,EN,Economics & Labour,Canon hunt,False
-book-0307,The Fourth Revolution: How the Infosphere is Reshaping Human Reality,Luciano Floridi,2014,EN,Philosophy of Mind,Canon hunt,False
-book-0308,"The Ethics of Artificial Intelligence: Principles, Challenges, and Opportunities",Luciano Floridi,2023,EN,Society & Ethics,Canon hunt,False
-book-0309,Human-Centered AI,Ben Shneiderman,2022,EN,Governance & Policy,Canon hunt,False
-book-0310,Machines Behaving Badly: The Morality of AI,Toby Walsh,2022,EN,Society & Ethics,Canon hunt,False
-book-0311,2062: The World that AI Made,Toby Walsh,2018,EN,Futures,Canon hunt,False
-book-0312,Faking It: Artificial Intelligence in a Human World,Toby Walsh,2023,EN,Critique & Skepticism,Canon hunt,False
-book-0313,The Oxford Handbook of AI Governance,Justin B. Bullock et al. (eds.),2024,EN,Governance & Policy,Canon hunt,False
-book-0314,New Laws of Robotics: Defending Human Expertise in the Age of AI,Frank Pasquale,2020,EN,Governance & Policy,Canon hunt,False
-book-0315,The Black Box Society: The Secret Algorithms That Control Money and Information,Frank Pasquale,2015,EN,Governance & Policy,Canon hunt,False
-book-0316,The Reasonable Robot: Artificial Intelligence and the Law,Ryan Abbott,2020,EN,Governance & Policy,Canon hunt,False
-book-0317,Robot Rules: Regulating Artificial Intelligence,Jacob Turner,2018,EN,Governance & Policy,Canon hunt,False
-book-0318,Algorithmic Regulation,"Karen Yeung, Martin Lodge (eds.)",2019,EN,Governance & Policy,Canon hunt,False
-book-0319,Trustworthy AI: A Business Guide for Navigating Trust and Ethics in AI,Beena Ammanath,2022,EN,Governance & Policy,Canon hunt,False
-book-0320,Responsible AI: Implement an Ethical Approach in Your Organization,Olivia Gambelin,2024,EN,Governance & Policy,Canon hunt,False
-book-0321,The AI Accountability Trap,Jeroen Janssen,2026,EN+NL,Governance & Policy,Canon hunt,True
-book-0322,The Precipice: Existential Risk and the Future of Humanity,Toby Ord,2020,EN,Safety & Alignment,Canon hunt,False
-book-0323,What We Owe the Future,William MacAskill,2022,EN,Safety & Alignment,Canon hunt,False
-book-0324,"If Anyone Builds It, Everyone Dies: Why Superhuman AI Would Kill Us All","Eliezer Yudkowsky, Nate Soares",2025,EN,Safety & Alignment,Canon hunt,False
-book-0325,Uncontrollable: The Threat of Artificial Superintelligence and the Race to Save the World,Darren McKee,2023,EN,Safety & Alignment,Canon hunt,False
-book-0326,"The AI Does Not Hate You: Superintelligence, Rationality and the Race to Save the World",Tom Chivers,2019,EN,Safety & Alignment,Canon hunt,False
-book-0327,Smarter Than Us: The Rise of Machine Intelligence,Stuart Armstrong,2014,EN,Safety & Alignment,Canon hunt,False
-book-0328,Rationality: From AI to Zombies,Eliezer Yudkowsky,2015,EN,Safety & Alignment,Canon hunt,False
-book-0329,Global Catastrophic Risks,"Nick Bostrom, Milan M. Cirkovic (eds.)",2008,EN,Safety & Alignment,Canon hunt,False
-book-0330,"Introduction to AI Safety, Ethics, and Society",Dan Hendrycks,2024,EN,Safety & Alignment,Canon hunt,False
-book-0331,"Goedel, Escher, Bach: An Eternal Golden Braid",Douglas R. Hofstadter,1979,EN,Philosophy of Mind,Canon hunt,False
-book-0332,I Am a Strange Loop,Douglas R. Hofstadter,2007,EN,Philosophy of Mind,Canon hunt,False
-book-0333,The Mind's I: Fantasies and Reflections on Self and Soul,"Douglas R. Hofstadter, Daniel C. Dennett",1981,EN,Philosophy of Mind,Canon hunt,False
-book-0334,Consciousness Explained,Daniel C. Dennett,1991,EN,Philosophy of Mind,Canon hunt,False
-book-0335,From Bacteria to Bach and Back: The Evolution of Minds,Daniel C. Dennett,2017,EN,Philosophy of Mind,Canon hunt,False
-book-0336,The Society of Mind,Marvin Minsky,1986,EN,Classics,Canon hunt,False
-book-0337,Alan Turing: The Enigma,Andrew Hodges,1983,EN,Journalism & Biography,Canon hunt,False
-book-0338,Cybernetics: Or Control and Communication in the Animal and the Machine,Norbert Wiener,1948,EN,Classics,Canon hunt,False
-book-0339,The Human Use of Human Beings: Cybernetics and Society,Norbert Wiener,1950,EN,Classics,Canon hunt,False
-book-0340,"God & Golem, Inc.",Norbert Wiener,1964,EN,Classics,Canon hunt,False
-book-0341,Computer Power and Human Reason: From Judgment to Calculation,Joseph Weizenbaum,1976,EN,Classics,Canon hunt,False
-book-0342,What Computers Still Can't Do: A Critique of Artificial Reason,Hubert L. Dreyfus,1992,EN,Classics,Canon hunt,False
-book-0343,Mind Over Machine: The Power of Human Intuition and Expertise in the Era of the Computer,"Hubert L. Dreyfus, Stuart E. Dreyfus",1986,EN,Classics,Canon hunt,False
-book-0344,Understanding Computers and Cognition: A New Foundation for Design,"Terry Winograd, Fernando Flores",1986,EN,Classics,Canon hunt,False
-book-0345,Artificial Intelligence: The Very Idea,John Haugeland,1985,EN,Classics,Canon hunt,False
-book-0346,Vehicles: Experiments in Synthetic Psychology,Valentino Braitenberg,1984,EN,Classics,Canon hunt,False
-book-0347,The Computational Brain,"Patricia S. Churchland, Terrence J. Sejnowski",1992,EN,Neuroscience,Canon hunt,False
-book-0348,Reality+: Virtual Worlds and the Problems of Philosophy,David J. Chalmers,2022,EN,Philosophy of Mind,Canon hunt,False
-book-0349,Being You: A New Science of Consciousness,Anil Seth,2021,EN,Neuroscience,Canon hunt,False
-book-0350,How We Became Posthuman,N. Katherine Hayles,1999,EN,Philosophy of Mind,Canon hunt,False
-book-0351,Darwin Among the Machines: The Evolution of Global Intelligence,George Dyson,1997,EN,History,Canon hunt,False
-book-0352,Turing's Cathedral: The Origins of the Digital Universe,George Dyson,2012,EN,History,Canon hunt,False
-book-0353,"The Information: A History, a Theory, a Flood",James Gleick,2011,EN,History,Canon hunt,False
-book-0354,The Dream Machine: J.C.R. Licklider and the Revolution That Made Computing Personal,M. Mitchell Waldrop,2001,EN,History,Canon hunt,False
-book-0355,Machines Who Think (25th Anniversary ed.),Pamela McCorduck,2004,EN,History,Canon hunt,False
-book-0356,AI: The Tumultuous History of the Search for Artificial Intelligence,Daniel Crevier,1993,EN,History,Canon hunt,False
-book-0357,A Mind at Play: How Claude Shannon Invented the Information Age,"Jimmy Soni, Rob Goodman",2017,EN,Journalism & Biography,Canon hunt,False
-book-0358,The Innovators,Walter Isaacson,2014,EN,History,Canon hunt,False
-book-0359,"Out of Control: The New Biology of Machines, Social Systems, and the Economic World",Kevin Kelly,1994,EN,Classics,Canon hunt,False
-book-0360,"The Book of Minds: How to Understand Ourselves and Other Beings, from Animals to AI to Aliens",Philip Ball,2022,EN,Philosophy of Mind,Canon hunt,False
-book-0361,"Models of the Mind: How Physics, Engineering and Mathematics Have Shaped Our Understanding of the Brain",Grace Lindsay,2021,EN,Neuroscience,Canon hunt,False
-book-0362,The Self-Assembling Brain: How Neural Networks Grow Smarter,Peter Robin Hiesinger,2021,EN,Neuroscience,Canon hunt,False
-book-0363,The Idea of the Brain: The Past and Future of Neuroscience,Matthew Cobb,2020,EN,Neuroscience,Canon hunt,False
-book-0364,"The Technology Trap: Capital, Labor, and Power in the Age of Automation",Carl Benedikt Frey,2019,EN,Economics & Labour,Canon hunt,False
-book-0365,"The Globotics Upheaval: Globalization, Robotics, and the Future of Work",Richard Baldwin,2019,EN,Economics & Labour,Canon hunt,False
-book-0366,"The Wealth of Humans: Work, Power, and Status in the Twenty-first Century",Ryan Avent,2016,EN,Economics & Labour,Canon hunt,False
-book-0367,Average Is Over: Powering America Beyond the Age of the Great Stagnation,Tyler Cowen,2013,EN,Economics & Labour,Canon hunt,False
-book-0368,Only Humans Need Apply: Winners and Losers in the Age of Smart Machines,"Thomas H. Davenport, Julia Kirby",2016,EN,Economics & Labour,Canon hunt,False
-book-0369,Work Without the Worker: Labour in the Age of Platform Capitalism,Phil Jones,2021,EN,Economics & Labour,Canon hunt,False
-book-0370,"The Exponential Age: How Accelerating Technology is Transforming Business, Politics and Society",Azeem Azhar,2021,EN,Business & Strategy,Canon hunt,False
-book-0371,The Economics of Artificial Intelligence: An Agenda,"Ajay Agrawal, Joshua Gans, Avi Goldfarb (eds.)",2019,EN,Economics & Labour,Canon hunt,False
-book-0372,"Frankenstein; or, The Modern Prometheus",Mary Shelley,1818,EN,Fiction,Canon hunt,False
-book-0373,R.U.R. (Rossum's Universal Robots),Karel Capek,1920,CS,Fiction,Canon hunt,False
-book-0374,"I, Robot",Isaac Asimov,1950,EN,Fiction,Canon hunt,False
-book-0375,Do Androids Dream of Electric Sheep?,Philip K. Dick,1968,EN,Fiction,Canon hunt,False
-book-0376,Neuromancer,William Gibson,1984,EN,Fiction,Canon hunt,False
-book-0377,Galatea 2.2,Richard Powers,1995,EN,Fiction,Canon hunt,False
-book-0378,The Lifecycle of Software Objects,Ted Chiang,2010,EN,Fiction,Canon hunt,False
-book-0379,Speak,Louisa Hall,2015,EN,Fiction,Canon hunt,False
-book-0380,Machines Like Me,Ian McEwan,2019,EN,Fiction,Canon hunt,False
-book-0381,Klara and the Sun,Kazuo Ishiguro,2021,EN,Fiction,Canon hunt,False
-book-0382,The Maniac,Benjamin Labatut,2023,EN,Fiction,Canon hunt,False
-book-0383,Annie Bot,Sierra Greer,2024,EN,Fiction,Canon hunt,False
-book-0384,Playground,Richard Powers,2024,EN,Fiction,Canon hunt,False
-book-0385,"Jiqi Xuexi (机器学习, 'Watermelon Book')",Zhou Zhihua (周志华),2016,ZH,Textbook ML,Canon hunt,False
-book-0386,"Tongji Xuexi Fangfa (统计学习方法, 2nd ed.)",Li Hang (李航),2019,ZH,Textbook ML,Canon hunt,False
-book-0387,Jiqi Xuexi Fangfa (机器学习方法),Li Hang (李航),2022,ZH,Textbook ML,Canon hunt,False
-book-0388,Shenjing Wangluo yu Shendu Xuexi (神经网络与深度学习),Qiu Xipeng (邱锡鹏),2020,ZH,Textbook DL,Canon hunt,False
-book-0389,"Dongshou Xue Shendu Xuexi (动手学深度学习 / Dive into Deep Learning, CN original)","Aston Zhang, Mu Li (李沐) et al.",2019,ZH,Textbook DL,Canon hunt,False
-book-0390,Shuxue zhi Mei (数学之美),Wu Jun (吴军),2012,ZH,Popular Science,Canon hunt,False
-book-0391,Zhineng Shidai (智能时代),Wu Jun (吴军),2016,ZH,Business & Strategy,Canon hunt,False
-book-0392,Langchao zhi Dian (浪潮之巅),Wu Jun (吴军),2011,ZH,History,Canon hunt,False
-book-0393,Baimian Jiqi Xuexi (百面机器学习),Zhuge Yue (诸葛越) et al.,2018,ZH,Practitioner,Canon hunt,False
-book-0394,"Pumpkin Book (机器学习公式详解, companion to Watermelon Book)","Xie Wenrui (谢文睿), Qin Zhou (秦州)",2021,ZH,Textbook ML,Canon hunt,False
-book-0395,Jiqi Xuexi Lilun Daoyin (机器学习理论导引),Zhou Zhihua (周志华) et al.,2020,ZH,Textbook ML,Canon hunt,False
-book-0396,"Easy RL (强化学习教程, 'Mushroom Book')",Wang Qi (王琦) et al.,2022,ZH,RL,Canon hunt,False
-book-0397,"Tongji Ziran Yuyan Chuli (统计自然语言处理, 2nd ed.)",Zong Chengqing (宗成庆),2013,ZH,NLP,Canon hunt,False
-book-0398,Ziran Yuyan Chuli Rumen (自然语言处理入门),"He Han (何晗, hankcs)",2019,ZH,NLP,Canon hunt,False
-book-0399,Da Guimo Yuyan Moxing: Cong Lilun dao Shijian (大规模语言模型：从理论到实践),"Zhang Qi (张奇) et al., Fudan NLP",2023,ZH,LLM Engineering,Canon hunt,False
-book-0400,Rengong Zhineng Jianshi (人工智能简史),Nick (尼克),2017,ZH,History,Canon hunt,False
-book-0401,Rengong Zhineng (人工智能),"Li Kaifu (李开复), Wang Yonggang (王咏刚)",2017,ZH,Popular Science,Canon hunt,False
-book-0402,Zhineng Geming (智能革命),Li Yanhong (李彦宏) et al.,2017,ZH,Business & Strategy,Canon hunt,False
-book-0403,Tuijian Xitong Shijian (推荐系统实践),Xiang Liang (项亮),2012,ZH,Practitioner,Canon hunt,False
-book-0404,Shendu Xuexi Tuijian Xitong (深度学习推荐系统),Wang Zhe (王喆),2020,ZH,Practitioner,Canon hunt,False
-book-0405,Fenbushi Jiqi Xuexi (分布式机器学习：算法、理论与实践),Liu Tieyan (刘铁岩) et al.,2018,ZH,ML Engineering,Canon hunt,False
-book-0406,Qianyi Xuexi (迁移学习),Yang Qiang (杨强) et al.,2020,ZH,Textbook ML,Canon hunt,False
-book-0407,Lianbang Xuexi (联邦学习),Yang Qiang (杨强) et al.,2019,ZH,Textbook ML,Canon hunt,False
-book-0408,"Zhishi Tupu: Fangfa, Shijian yu Yingyong (知识图谱：方法、实践与应用)",Wang Haofen (王昊奋) et al.,2019,ZH,NLP,Canon hunt,False
-book-0409,Zhineng Jisuan Xitong (智能计算系统),Chen Yunji (陈云霁) et al.,2020,ZH,ML Engineering,Canon hunt,False
-book-0410,Rengong Zhineng Anquan (人工智能安全),Fang Binxing (方滨兴) et al.,2020,ZH,Safety & Alignment,Canon hunt,False
-book-0411,Zhihui de Jiangjie (智慧的疆界),Zhou Zhiming (周志明),2018,ZH,History,Canon hunt,False
-book-0412,Rengong Zhineng Zhexue Shiwu Jiang (人工智能哲学十五讲),Xu Yingjin (徐英瑾),2021,ZH,Philosophy of Mind,Canon hunt,False
-book-0413,Deep Learning from Scratch (ゼロから作るDeep Learning),Saito Koki (斎藤康毅),2016,JA,Practitioner,Canon hunt,False
-book-0414,Le mythe de la Singularite: Faut-il craindre l'intelligence artificielle?,Jean-Gabriel Ganascia,2017,FR,Critique & Skepticism,Canon hunt,False
-book-0415,Kuenstliche Intelligenz: Was sie kann & was uns erwartet,Manuela Lenzen,2018,DE,Popular Science,Canon hunt,False
-book-0416,Kuenstliche Intelligenz und der Sinn des Lebens,Richard David Precht,2020,DE,Philosophy of Mind,Canon hunt,False
-book-0417,Doe zelf normaal: Menselijk recht in tijden van datasturing en natuurgeweld,Maxim Februari,2023,NL,Governance & Policy,Canon hunt,False
-book-0418,"Algoritmisering, wen er maar aan",Jim Stolze,2018,NL,Popular Science,Canon hunt,False
-book-0419,Reinforcement Learning and Optimal Control,Dimitri P. Bertsekas,2019,EN,RL,Canon hunt,False
-book-0420,Distributional Reinforcement Learning,"Marc G. Bellemare, Will Dabney, Mark Rowland",2023,EN,RL,Canon hunt,False
-book-0421,Graph Representation Learning,William L. Hamilton,2020,EN,Textbook ML,Canon hunt,False
-book-0422,The Principles of Deep Learning Theory,"Daniel A. Roberts, Sho Yaida",2022,EN,Textbook DL,Canon hunt,False
-book-0423,Machine Learning Design Patterns,"Valliappa Lakshmanan, Sara Robinson, Michael Munn",2020,EN,ML Engineering,Canon hunt,False
-book-0424,Machine Learning with PyTorch and Scikit-Learn,"Sebastian Raschka, Yuxi Liu, Vahid Mirjalili",2022,EN,Practitioner,Canon hunt,False
-book-0425,Programming Collective Intelligence,Toby Segaran,2007,EN,Practitioner,Canon hunt,False
-book-0426,Probability Theory: The Logic of Science,E. T. Jaynes,2003,EN,Math & Stats,Canon hunt,False
-book-0427,The Hundred-Page Language Models Book,Andriy Burkov,2025,EN,LLM Engineering,Canon hunt,False
-book-0428,The Kaggle Book,"Konrad Banachewicz, Luca Massaron",2022,EN,Practitioner,Canon hunt,False
-book-0429,Approaching (Almost) Any Machine Learning Problem,Abhishek Thakur,2020,EN,Practitioner,Canon hunt,False
-book-0430,Deep Learning Illustrated,"Jon Krohn, Grant Beyleveld, Aglae Bassens",2019,EN,Practitioner,Canon hunt,False
-book-0431,Natural Language Processing in Action (2nd ed.),"Hobson Lane, Maria Dyshel",2024,EN,NLP,Canon hunt,False
-book-0432,Advances in Financial Machine Learning,Marcos Lopez de Prado,2018,EN,Finance,Canon hunt,False
-book-0433,Artificial Intelligence in Finance: A Python-Based Guide,Yves Hilpisch,2020,EN,Finance,Canon hunt,False
-book-0434,The Glass Cage: Automation and Us,Nicholas Carr,2014,EN,Critique & Skepticism,Canon hunt,False
-book-0435,Smarter Than You Think: How Technology Is Changing Our Minds for the Better,Clive Thompson,2013,EN,Popular Science,Canon hunt,False
-book-0436,You Are Not a Gadget: A Manifesto,Jaron Lanier,2010,EN,Critique & Skepticism,Canon hunt,False
-book-0437,Who Owns the Future?,Jaron Lanier,2013,EN,Economics & Labour,Canon hunt,False
-book-0438,Superminds: The Surprising Power of People and Computers Thinking Together,Thomas W. Malone,2018,EN,Business & Strategy,Canon hunt,False
-book-0439,"The Handover: How We Gave Control of Our Lives to Corporations, States and AIs",David Runciman,2023,EN,Governance & Policy,Canon hunt,False
-book-0440,How to Stay Smart in a Smart World,Gerd Gigerenzer,2022,EN,Critique & Skepticism,Canon hunt,False
-book-0441,A Citizen's Guide to Artificial Intelligence,John Zerilli et al.,2021,EN,Governance & Policy,Canon hunt,False
-book-0442,Rule of the Robots: How Artificial Intelligence Will Transform Everything,Martin Ford,2021,EN,Futures,Canon hunt,False
-book-0443,Competing in the Age of AI,"Marco Iansiti, Karim R. Lakhani",2020,EN,Business & Strategy,Canon hunt,False
-book-0444,The Fourth Industrial Revolution,Klaus Schwab,2016,EN,Business & Strategy,Canon hunt,False
-book-0445,21 Lessons for the 21st Century,Yuval Noah Harari,2018,EN,Futures,Canon hunt,False
-book-0446,Solomon's Code: Humanity in a World of Thinking Machines,"Olaf Groth, Mark Nitzberg",2018,EN,Futures,Canon hunt,False
-book-0447,In Our Own Image: Savior or Destroyer? The History and Future of AI,George Zarkadakis,2015,EN,History,Canon hunt,False
-book-0448,Heartificial Intelligence: Embracing Our Humanity to Maximize Machines,John C. Havens,2016,EN,Society & Ethics,Canon hunt,False
-book-0449,Alone Together: Why We Expect More from Technology and Less from Each Other,Sherry Turkle,2011,EN,Society & Ethics,Canon hunt,False
-book-0450,The Second Self: Computers and the Human Spirit,Sherry Turkle,1984,EN,Classics,Canon hunt,False
-book-0451,The New Breed: What Our History with Animals Reveals about Our Future with Robots,Kate Darling,2021,EN,Robotics,Canon hunt,False
-book-0452,"Turned On: Science, Sex and Robots",Kate Devlin,2018,EN,Society & Ethics,Canon hunt,False
-book-0453,Robots and the People Who Love Them,Eve Herold,2024,EN,Society & Ethics,Canon hunt,False
-book-0454,"Artificial Intimacy: Virtual Friends, Digital Lovers, and Algorithmic Matchmakers",Rob Brooks,2021,EN,Society & Ethics,Canon hunt,False
-book-0455,The Artist in the Machine: The World of AI-Powered Creativity,Arthur I. Miller,2019,EN,Creativity & Art,Canon hunt,False
-book-0456,"The Uncanny Muse: Music, Art, and Machines from Automata to AI",David Hajdu,2025,EN,Creativity & Art,Canon hunt,False
-book-0457,The Battle for Your Brain: Defending the Right to Think Freely in the Age of Neurotechnology,Nita A. Farahany,2023,EN,Society & Ethics,Canon hunt,False
-book-0458,Wired for War: The Robotics Revolution and Conflict in the 21st Century,P. W. Singer,2009,EN,Defence & Security,Canon hunt,False
-book-0459,The Kill Chain: Defending America in the Future of High-Tech Warfare,Christian Brose,2020,EN,Defence & Security,Canon hunt,False
-book-0460,Autonomy: The Quest to Build the Driverless Car,"Lawrence D. Burns, Christopher Shulgan",2018,EN,Robotics,Canon hunt,False
-book-0461,Driverless: Intelligent Cars and the Road Ahead,"Hod Lipson, Melba Kurman",2016,EN,Robotics,Canon hunt,False
-book-0462,The Man from the Future: The Visionary Life of John von Neumann,Ananyo Bhattacharya,2021,EN,Journalism & Biography,Canon hunt,False
-book-0463,Rise of the Machines: A Cybernetic History,Thomas Rid,2016,EN,History,Canon hunt,False
-book-0464,Mind as Machine: A History of Cognitive Science (2 vols.),Margaret A. Boden,2006,EN,History,Canon hunt,False
-book-0465,Ada's Algorithm: How Lord Byron's Daughter Ada Lovelace Launched the Digital Age,James Essinger,2014,EN,Journalism & Biography,Canon hunt,False
-book-0466,The Annotated Turing,Charles Petzold,2008,EN,History,Canon hunt,False
-book-0467,Artificial General Intelligence,"Ben Goertzel, Cassio Pennachin (eds.)",2007,EN,Safety & Alignment,Canon hunt,False
-book-0468,How to Build a Brain: A Neural Architecture for Biological Cognition,Chris Eliasmith,2013,EN,Neuroscience,Canon hunt,False
-book-0469,Principles of Synthetic Intelligence: PSI: An Architecture of Motivated Cognition,Joscha Bach,2009,EN,Philosophy of Mind,Canon hunt,False
-book-0470,Failure to Disrupt: Why Technology Alone Can't Transform Education,Justin Reich,2020,EN,Education,Canon hunt,False
-book-0471,"The Digital Doctor: Hope, Hype, and Harm at the Dawn of Medicine's Computer Age",Robert Wachter,2015,EN,Healthcare,Canon hunt,False
-book-0472,2001: A Space Odyssey,Arthur C. Clarke,1968,EN,Fiction,Canon hunt,False
-book-0473,The Moon Is a Harsh Mistress,Robert A. Heinlein,1966,EN,Fiction,Canon hunt,False
-book-0474,The Player of Games,Iain M. Banks,1988,EN,Fiction,Canon hunt,False
-book-0475,Permutation City,Greg Egan,1994,EN,Fiction,Canon hunt,False
-book-0476,Accelerando,Charles Stross,2005,EN,Fiction,Canon hunt,False
-book-0477,Daemon,Daniel Suarez,2006,EN,Fiction,Canon hunt,False
-book-0478,All Systems Red (The Murderbot Diaries #1),Martha Wells,2017,EN,Fiction,Canon hunt,False
-book-0479,A Closed and Common Orbit,Becky Chambers,2016,EN,Fiction,Canon hunt,False
-book-0480,Machinehood,S. B. Divya,2021,EN,Fiction,Canon hunt,False
-book-0481,The Mountain in the Sea,Ray Nayler,2022,EN,Fiction,Canon hunt,False
-book-0482,Burn-In: A Novel of the Real Robotic Revolution,"P. W. Singer, August Cole",2020,EN,Fiction,Canon hunt,False
-book-0483,QualityLand,Marc-Uwe Kling,2017,DE,Fiction,Canon hunt,False
-book-0484,Power and Progress: Our Thousand-Year Struggle Over Technology and Prosperity,"Daron Acemoglu, Simon Johnson",2023,EN,Economics & Labour,Canon hunt,False
-book-0485,"Android Dreams: The Past, Present and Future of Artificial Intelligence",Toby Walsh,2017,EN,Popular Science,Canon hunt,False
-book-0486,"An Artificial Revolution: On Power, Politics and AI",Ivana Bartoletti,2020,EN,Governance & Policy,Canon hunt,False
-book-0487,Working with AI: Real Stories of Human-Machine Collaboration,"Thomas H. Davenport, Steven M. Miller",2022,EN,Business & Strategy,Canon hunt,False
-book-0488,Complexity: A Guided Tour,Melanie Mitchell,2009,EN,Popular Science,Canon hunt,False
-book-0489,Artificial Life: A Report from the Frontier Where Computers Meet Biology,Steven Levy,1992,EN,History,Canon hunt,False
-book-0490,Fluid Concepts and Creative Analogies,"Douglas R. Hofstadter, FARG",1995,EN,Classics,Canon hunt,False
-book-0491,The Pattern on the Stone: The Simple Ideas That Make Computers Work,W. Daniel Hillis,1998,EN,Popular Science,Canon hunt,False
-book-0492,Shadows of the Mind: A Search for the Missing Science of Consciousness,Roger Penrose,1994,EN,Philosophy of Mind,Canon hunt,False
-book-0493,The Essential Turing,B. Jack Copeland (ed.),2004,EN,Classics,Canon hunt,False
-book-0494,Adaptation in Natural and Artificial Systems,John H. Holland,1975,EN,Classics,Canon hunt,False
-book-0495,Unified Theories of Cognition,Allen Newell,1990,EN,Classics,Canon hunt,False
-book-0496,Human Problem Solving,"Allen Newell, Herbert A. Simon",1972,EN,Classics,Canon hunt,False
-book-0497,"Scripts, Plans, Goals, and Understanding","Roger C. Schank, Robert P. Abelson",1977,EN,Classics,Canon hunt,False
-book-0498,Parallel Distributed Processing: Explorations in the Microstructure of Cognition (Vols. 1-2),"David E. Rumelhart, James L. McClelland, PDP Research Group",1986,EN,Classics,Canon hunt,False
-book-0499,The Cambridge Handbook of Artificial Intelligence,"Keith Frankish, William M. Ramsey (eds.)",2014,EN,Textbook AI,Canon hunt,False
-book-0500,AI: Its Nature and Future,Margaret A. Boden,2016,EN,Popular Science,Canon hunt,False
+book-0202,"The Elements of Statistical Learning: Data Mining, Inference, and Prediction (2nd ed.)","Trevor Hastie, Robert Tibshirani, Jerome Friedman",2009,EN,Textbook ML,"AI-drafted (neutral summary, public sources)",False
+book-0203,An Introduction to Statistical Learning: with Applications in Python (2nd ed.),"Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani",2021,EN,Textbook ML,"AI-drafted (neutral summary, public sources)",False
+book-0204,Machine Learning,Tom M. Mitchell,1997,EN,Textbook ML,"AI-drafted (neutral summary, public sources)",False
+book-0205,Pattern Classification (2nd ed.),"Richard O. Duda, Peter E. Hart, David G. Stork",2000,EN,Textbook ML,"AI-drafted (neutral summary, public sources)",False
+book-0206,Machine Learning: A Probabilistic Perspective,Kevin P. Murphy,2012,EN,Textbook ML,"AI-drafted (neutral summary, public sources)",False
+book-0207,Probabilistic Machine Learning: An Introduction,Kevin P. Murphy,2022,EN,Textbook ML,"AI-drafted (neutral summary, public sources)",False
+book-0208,Probabilistic Machine Learning: Advanced Topics,Kevin P. Murphy,2023,EN,Textbook ML,"AI-drafted (neutral summary, public sources)",False
+book-0209,Understanding Machine Learning: From Theory to Algorithms,"Shai Shalev-Shwartz, Shai Ben-David",2014,EN,Textbook ML,"AI-drafted (neutral summary, public sources)",False
+book-0210,Foundations of Machine Learning (2nd ed.),"Mehryar Mohri, Afshin Rostamizadeh, Ameet Talwalkar",2018,EN,Textbook ML,"AI-drafted (neutral summary, public sources)",False
+book-0211,Bayesian Reasoning and Machine Learning,David Barber,2012,EN,Textbook ML,"AI-drafted (neutral summary, public sources)",False
+book-0212,Gaussian Processes for Machine Learning,"Carl Edward Rasmussen, Christopher K. I. Williams",2006,EN,Textbook ML,"AI-drafted (neutral summary, public sources)",False
+book-0213,Probabilistic Graphical Models: Principles and Techniques,"Daphne Koller, Nir Friedman",2009,EN,Textbook ML,"AI-drafted (neutral summary, public sources)",False
+book-0214,The Nature of Statistical Learning Theory (2nd ed.),Vladimir N. Vapnik,2000,EN,Textbook ML,"AI-drafted (neutral summary, public sources)",False
+book-0215,Ensemble Methods: Foundations and Algorithms,Zhi-Hua Zhou,2012,EN,Textbook ML,"AI-drafted (neutral summary, public sources)",False
+book-0216,All of Statistics: A Concise Course in Statistical Inference,Larry Wasserman,2004,EN,Math & Stats,"AI-drafted (neutral summary, public sources)",False
+book-0217,Convex Optimization,"Stephen Boyd, Lieven Vandenberghe",2004,EN,Math & Stats,"AI-drafted (neutral summary, public sources)",False
+book-0218,"Causality: Models, Reasoning, and Inference (2nd ed.)",Judea Pearl,2009,EN,Math & Stats,"AI-drafted (neutral summary, public sources)",False
+book-0219,Causal Inference in Statistics: A Primer,"Judea Pearl, Madelyn Glymour, Nicholas P. Jewell",2016,EN,Math & Stats,"AI-drafted (neutral summary, public sources)",False
+book-0220,Elements of Causal Inference: Foundations and Learning Algorithms,"Jonas Peters, Dominik Janzing, Bernhard Schoelkopf",2017,EN,Math & Stats,"AI-drafted (neutral summary, public sources)",False
+book-0221,Speech and Language Processing (2nd ed.),"Daniel Jurafsky, James H. Martin",2009,EN,NLP,"AI-drafted (neutral summary, public sources)",False
+book-0222,Foundations of Statistical Natural Language Processing,"Christopher D. Manning, Hinrich Schuetze",1999,EN,NLP,"AI-drafted (neutral summary, public sources)",False
+book-0223,Introduction to Information Retrieval,"Christopher D. Manning, Prabhakar Raghavan, Hinrich Schuetze",2008,EN,NLP,"AI-drafted (neutral summary, public sources)",False
+book-0224,Natural Language Processing with Transformers (Revised ed.),"Lewis Tunstall, Leandro von Werra, Thomas Wolf",2022,EN,NLP,"AI-drafted (neutral summary, public sources)",False
+book-0225,Build a Large Language Model (From Scratch),Sebastian Raschka,2024,EN,LLM Engineering,"AI-drafted (neutral summary, public sources)",False
+book-0226,AI Engineering: Building Applications with Foundation Models,Chip Huyen,2025,EN,LLM Engineering,"AI-drafted (neutral summary, public sources)",False
+book-0227,Machine Learning Engineering,Andriy Burkov,2020,EN,ML Engineering,"AI-drafted (neutral summary, public sources)",False
+book-0228,Machine Learning Yearning,Andrew Ng,2018,EN,ML Engineering,"AI-drafted (neutral summary, public sources)",False
+book-0229,Building Machine Learning Powered Applications,Emmanuel Ameisen,2020,EN,ML Engineering,"AI-drafted (neutral summary, public sources)",False
+book-0230,Interpretable Machine Learning: A Guide for Making Black Box Models Explainable,Christoph Molnar,2020,EN,ML Engineering,"AI-drafted (neutral summary, public sources)",False
+book-0231,Prompt Engineering for LLMs,"John Berryman, Albert Ziegler",2024,EN,LLM Engineering,"AI-drafted (neutral summary, public sources)",False
+book-0232,"Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow (3rd ed.)",Aurelien Geron,2022,EN,Practitioner,"AI-drafted (neutral summary, public sources)",False
+book-0233,Deep Learning with Python (2nd ed.),Francois Chollet,2021,EN,Practitioner,"AI-drafted (neutral summary, public sources)",False
+book-0234,Deep Learning for Coders with fastai and PyTorch,"Jeremy Howard, Sylvain Gugger",2020,EN,Practitioner,"AI-drafted (neutral summary, public sources)",False
+book-0235,Deep Learning with PyTorch,"Eli Stevens, Luca Antiga, Thomas Viehmann",2020,EN,Practitioner,"AI-drafted (neutral summary, public sources)",False
+book-0236,Grokking Deep Learning,Andrew W. Trask,2019,EN,Practitioner,"AI-drafted (neutral summary, public sources)",False
+book-0237,Neural Networks and Deep Learning,Michael Nielsen,2015,EN,Textbook DL,"AI-drafted (neutral summary, public sources)",False
+book-0238,Deep Learning: Foundations and Concepts,"Christopher M. Bishop, Hugh Bishop",2024,EN,Textbook DL,"AI-drafted (neutral summary, public sources)",False
+book-0239,Understanding Deep Learning,Simon J.D. Prince,2023,EN,Textbook DL,"AI-drafted (neutral summary, public sources)",False
+book-0240,The Little Book of Deep Learning,Francois Fleuret,2023,EN,Textbook DL,"AI-drafted (neutral summary, public sources)",False
+book-0241,Dive into Deep Learning,"Aston Zhang, Zachary C. Lipton, Mu Li, Alexander J. Smola",2023,EN,Textbook DL,"AI-drafted (neutral summary, public sources)",False
+book-0242,Generative Deep Learning (2nd ed.),David Foster,2023,EN,Textbook DL,"AI-drafted (neutral summary, public sources)",False
+book-0243,Algorithms for Reinforcement Learning,Csaba Szepesvari,2010,EN,RL,"AI-drafted (neutral summary, public sources)",False
+book-0244,Bandit Algorithms,"Tor Lattimore, Csaba Szepesvari",2020,EN,RL,"AI-drafted (neutral summary, public sources)",False
+book-0245,Grokking Deep Reinforcement Learning,Miguel Morales,2020,EN,RL,"AI-drafted (neutral summary, public sources)",False
+book-0246,Computer Vision: Algorithms and Applications (2nd ed.),Richard Szeliski,2022,EN,Computer Vision,"AI-drafted (neutral summary, public sources)",False
+book-0247,Multiple View Geometry in Computer Vision (2nd ed.),"Richard Hartley, Andrew Zisserman",2004,EN,Computer Vision,"AI-drafted (neutral summary, public sources)",False
+book-0248,Probabilistic Robotics,"Sebastian Thrun, Wolfram Burgard, Dieter Fox",2005,EN,Robotics,"AI-drafted (neutral summary, public sources)",False
+book-0249,Planning Algorithms,Steven M. LaValle,2006,EN,Robotics,"AI-drafted (neutral summary, public sources)",False
+book-0250,"Modern Robotics: Mechanics, Planning, and Control","Kevin M. Lynch, Frank C. Park",2017,EN,Robotics,"AI-drafted (neutral summary, public sources)",False
+book-0251,Introduction to Autonomous Mobile Robots (2nd ed.),"Roland Siegwart, Illah R. Nourbakhsh, Davide Scaramuzza",2011,EN,Robotics,"AI-drafted (neutral summary, public sources)",False
+book-0252,Artificial Intelligence: Foundations of Computational Agents (3rd ed.),"David L. Poole, Alan K. Mackworth",2023,EN,Textbook AI,"AI-drafted (neutral summary, public sources)",False
+book-0253,Artificial Intelligence: A New Synthesis,Nils J. Nilsson,1998,EN,Textbook AI,"AI-drafted (neutral summary, public sources)",False
+book-0254,Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp,Peter Norvig,1992,EN,Textbook AI,"AI-drafted (neutral summary, public sources)",False
+book-0255,Data Mining: Concepts and Techniques (3rd ed.),"Jiawei Han, Micheline Kamber, Jian Pei",2011,EN,Data Mining,"AI-drafted (neutral summary, public sources)",False
+book-0256,Mining of Massive Datasets (3rd ed.),"Jure Leskovec, Anand Rajaraman, Jeffrey D. Ullman",2020,EN,Data Mining,"AI-drafted (neutral summary, public sources)",False
+book-0257,Data Science for Business,"Foster Provost, Tom Fawcett",2013,EN,Data Mining,"AI-drafted (neutral summary, public sources)",False
+book-0258,Neural Networks for Pattern Recognition,Christopher M. Bishop,1995,EN,Textbook DL,"AI-drafted (neutral summary, public sources)",False
+book-0259,Perceptrons: An Introduction to Computational Geometry,"Marvin Minsky, Seymour Papert",1969,EN,Classics,"AI-drafted (neutral summary, public sources)",False
+book-0260,Empire of AI: Dreams and Nightmares in Sam Altman's OpenAI,Karen Hao,2025,EN,Journalism & Biography,"AI-drafted (neutral summary, public sources)",False
+book-0261,"The Thinking Machine: Jensen Huang, Nvidia, and the World's Most Coveted Microchip",Stephen Witt,2025,EN,Journalism & Biography,"AI-drafted (neutral summary, public sources)",False
+book-0262,"The Optimist: Sam Altman, OpenAI, and the Race to Invent the Future",Keach Hagey,2025,EN,Journalism & Biography,"AI-drafted (neutral summary, public sources)",False
+book-0263,"AI Valley: Microsoft, Google, and the Trillion-Dollar Race to Cash In on Artificial Intelligence",Gary Rivlin,2025,EN,Journalism & Biography,"AI-drafted (neutral summary, public sources)",False
+book-0264,"More Everything Forever: AI Overlords, Space Empires, and Silicon Valley's Crusade to Control the Fate of Humanity",Adam Becker,2025,EN,Critique & Skepticism,"AI-drafted (neutral summary, public sources)",False
+book-0265,The AI Con: How to Fight Big Tech's Hype and Create the Future We Want,"Emily M. Bender, Alex Hanna",2025,EN,Critique & Skepticism,"AI-drafted (neutral summary, public sources)",False
+book-0266,Superagency: What Could Possibly Go Right with Our AI Future,"Reid Hoffman, Greg Beato",2025,EN,Futures,"AI-drafted (neutral summary, public sources)",False
+book-0267,These Strange New Minds: How AI Learned to Talk and What It Means,Christopher Summerfield,2025,EN,Popular Science,"AI-drafted (neutral summary, public sources)",False
+book-0268,"The Scaling Era: An Oral History of AI, 2019-2025",Dwarkesh Patel,2025,EN,Journalism & Biography,"AI-drafted (neutral summary, public sources)",False
+book-0269,Raising AI: An Essential Guide to Parenting Our Future,De Kai,2025,EN,Society & Ethics,"AI-drafted (neutral summary, public sources)",False
+book-0270,AI & I: An Intellectual History of Artificial Intelligence,Eugene Charniak,2024,EN,History,"AI-drafted (neutral summary, public sources)",False
+book-0271,"The Algorithm: How AI Decides Who Gets Hired, Monitored, Promoted, and Fired",Hilke Schellmann,2024,EN,Society & Ethics,"AI-drafted (neutral summary, public sources)",False
+book-0272,The Tech Coup: How to Save Democracy from Silicon Valley,Marietje Schaake,2024,EN,Governance & Policy,"AI-drafted (neutral summary, public sources)",False
+book-0273,Breakneck: China's Quest to Engineer the Future,Dan Wang,2025,EN,Geopolitics,"AI-drafted (neutral summary, public sources)",False
+book-0274,Chip War: The Fight for the World's Most Critical Technology,Chris Miller,2022,EN,Geopolitics,"AI-drafted (neutral summary, public sources)",False
+book-0275,"The Technological Republic: Hard Power, Soft Belief, and the Future of the West","Alexander C. Karp, Nicholas W. Zamiska",2025,EN,Geopolitics,"AI-drafted (neutral summary, public sources)",False
+book-0276,I Am Not a Robot: My Year Using AI to Do (Almost) Everything,Joanna Stern,2026,EN,Journalism & Biography,"AI-drafted (neutral summary, public sources)",False
+book-0277,Feeding the Machine: The Hidden Human Labor Powering AI,"James Muldoon, Mark Graham, Callum Cant",2024,EN,Society & Ethics,"AI-drafted (neutral summary, public sources)",False
+book-0278,Race After Technology: Abolitionist Tools for the New Jim Code,Ruha Benjamin,2019,EN,Society & Ethics,"AI-drafted (neutral summary, public sources)",False
+book-0279,Algorithms of Oppression: How Search Engines Reinforce Racism,Safiya Umoja Noble,2018,EN,Society & Ethics,"AI-drafted (neutral summary, public sources)",False
+book-0280,"Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor",Virginia Eubanks,2018,EN,Society & Ethics,"AI-drafted (neutral summary, public sources)",False
+book-0281,The Age of Surveillance Capitalism,Shoshana Zuboff,2019,EN,Society & Ethics,"AI-drafted (neutral summary, public sources)",False
+book-0282,Data Feminism,"Catherine D'Ignazio, Lauren F. Klein",2020,EN,Society & Ethics,"AI-drafted (neutral summary, public sources)",False
+book-0283,Design Justice: Community-Led Practices to Build the Worlds We Need,Sasha Costanza-Chock,2020,EN,Society & Ethics,"AI-drafted (neutral summary, public sources)",False
+book-0284,Ghost Work: How to Stop Silicon Valley from Building a New Global Underclass,"Mary L. Gray, Siddharth Suri",2019,EN,Society & Ethics,"AI-drafted (neutral summary, public sources)",False
+book-0285,Behind the Screen: Content Moderation in the Shadows of Social Media,Sarah T. Roberts,2019,EN,Society & Ethics,"AI-drafted (neutral summary, public sources)",False
+book-0286,Privacy Is Power: Why and How You Should Take Back Control of Your Data,Carissa Veliz,2020,EN,Society & Ethics,"AI-drafted (neutral summary, public sources)",False
+book-0287,The Ethical Algorithm: The Science of Socially Aware Algorithm Design,"Michael Kearns, Aaron Roth",2019,EN,Society & Ethics,"AI-drafted (neutral summary, public sources)",False
+book-0288,Fairness and Machine Learning: Limitations and Opportunities,"Solon Barocas, Moritz Hardt, Arvind Narayanan",2023,EN,Society & Ethics,"AI-drafted (neutral summary, public sources)",False
+book-0289,Moral Machines: Teaching Robots Right from Wrong,"Wendell Wallach, Colin Allen",2009,EN,Society & Ethics,"AI-drafted (neutral summary, public sources)",False
+book-0290,Robot Ethics: The Ethical and Social Implications of Robotics,"Patrick Lin, Keith Abney, George A. Bekey (eds.)",2012,EN,Society & Ethics,"AI-drafted (neutral summary, public sources)",False
+book-0291,Resisting AI: An Anti-fascist Approach to Artificial Intelligence,Dan McQuillan,2022,EN,Critique & Skepticism,"AI-drafted (neutral summary, public sources)",False
+book-0292,New Dark Age: Technology and the End of the Future,James Bridle,2018,EN,Critique & Skepticism,"AI-drafted (neutral summary, public sources)",False
+book-0293,"Ways of Being: Animals, Plants, Machines: The Search for a Planetary Intelligence",James Bridle,2022,EN,Philosophy of Mind,"AI-drafted (neutral summary, public sources)",False
+book-0294,The Eye of the Master: A Social History of Artificial Intelligence,Matteo Pasquinelli,2023,EN,History,"AI-drafted (neutral summary, public sources)",False
+book-0295,Blood in the Machine: The Origins of the Rebellion Against Big Tech,Brian Merchant,2023,EN,History,"AI-drafted (neutral summary, public sources)",False
+book-0296,"Technically Wrong: Sexist Apps, Biased Algorithms, and Other Threats of Toxic Tech",Sara Wachter-Boettcher,2017,EN,Society & Ethics,"AI-drafted (neutral summary, public sources)",False
+book-0297,"Discriminating Data: Correlation, Neighborhoods, and the New Politics of Recognition",Wendy Hui Kyong Chun,2021,EN,Society & Ethics,"AI-drafted (neutral summary, public sources)",False
+book-0298,"More than a Glitch: Confronting Race, Gender, and Ability Bias in Tech",Meredith Broussard,2023,EN,Society & Ethics,"AI-drafted (neutral summary, public sources)",False
+book-0299,"Voices in the Code: A Story about People, Their Values, and the Algorithm They Made",David G. Robinson,2022,EN,Governance & Policy,"AI-drafted (neutral summary, public sources)",False
+book-0300,The Digital Republic: On Freedom and Democracy in the 21st Century,Jamie Susskind,2022,EN,Governance & Policy,"AI-drafted (neutral summary, public sources)",False
+book-0301,Future Politics: Living Together in a World Transformed by Tech,Jamie Susskind,2018,EN,Governance & Policy,"AI-drafted (neutral summary, public sources)",False
+book-0302,Re-Engineering Humanity,"Brett Frischmann, Evan Selinger",2018,EN,Society & Ethics,"AI-drafted (neutral summary, public sources)",False
+book-0303,The Loop: How Technology Is Creating a World Without Choices and How to Fight Back,Jacob Ward,2022,EN,Society & Ethics,"AI-drafted (neutral summary, public sources)",False
+book-0304,System Error: Where Big Tech Went Wrong and How We Can Reboot,"Rob Reich, Mehran Sahami, Jeremy M. Weinstein",2021,EN,Governance & Policy,"AI-drafted (neutral summary, public sources)",False
+book-0305,Tools and Weapons: The Promise and the Peril of the Digital Age,"Brad Smith, Carol Ann Browne",2019,EN,Governance & Policy,"AI-drafted (neutral summary, public sources)",False
+book-0306,Automation and Utopia: Human Flourishing in a World without Work,John Danaher,2019,EN,Economics & Labour,"AI-drafted (neutral summary, public sources)",False
+book-0307,The Fourth Revolution: How the Infosphere is Reshaping Human Reality,Luciano Floridi,2014,EN,Philosophy of Mind,"AI-drafted (neutral summary, public sources)",False
+book-0308,"The Ethics of Artificial Intelligence: Principles, Challenges, and Opportunities",Luciano Floridi,2023,EN,Society & Ethics,"AI-drafted (neutral summary, public sources)",False
+book-0309,Human-Centered AI,Ben Shneiderman,2022,EN,Governance & Policy,"AI-drafted (neutral summary, public sources)",False
+book-0310,Machines Behaving Badly: The Morality of AI,Toby Walsh,2022,EN,Society & Ethics,"AI-drafted (neutral summary, public sources)",False
+book-0311,2062: The World that AI Made,Toby Walsh,2018,EN,Futures,"AI-drafted (neutral summary, public sources)",False
+book-0312,Faking It: Artificial Intelligence in a Human World,Toby Walsh,2023,EN,Critique & Skepticism,"AI-drafted (neutral summary, public sources)",False
+book-0313,The Oxford Handbook of AI Governance,Justin B. Bullock et al. (eds.),2024,EN,Governance & Policy,"AI-drafted (neutral summary, public sources)",False
+book-0314,New Laws of Robotics: Defending Human Expertise in the Age of AI,Frank Pasquale,2020,EN,Governance & Policy,"AI-drafted (neutral summary, public sources)",False
+book-0315,The Black Box Society: The Secret Algorithms That Control Money and Information,Frank Pasquale,2015,EN,Governance & Policy,"AI-drafted (neutral summary, public sources)",False
+book-0316,The Reasonable Robot: Artificial Intelligence and the Law,Ryan Abbott,2020,EN,Governance & Policy,"AI-drafted (neutral summary, public sources)",False
+book-0317,Robot Rules: Regulating Artificial Intelligence,Jacob Turner,2018,EN,Governance & Policy,"AI-drafted (neutral summary, public sources)",False
+book-0318,Algorithmic Regulation,"Karen Yeung, Martin Lodge (eds.)",2019,EN,Governance & Policy,"AI-drafted (neutral summary, public sources)",False
+book-0319,Trustworthy AI: A Business Guide for Navigating Trust and Ethics in AI,Beena Ammanath,2022,EN,Governance & Policy,"AI-drafted (neutral summary, public sources)",False
+book-0320,Responsible AI: Implement an Ethical Approach in Your Organization,Olivia Gambelin,2024,EN,Governance & Policy,"AI-drafted (neutral summary, public sources)",False
+book-0321,The AI Accountability Trap,Jeroen Janssen,2026,EN+NL,Governance & Policy,"AI-drafted (neutral summary, public sources)",True
+book-0322,The Precipice: Existential Risk and the Future of Humanity,Toby Ord,2020,EN,Safety & Alignment,"AI-drafted (neutral summary, public sources)",False
+book-0323,What We Owe the Future,William MacAskill,2022,EN,Safety & Alignment,"AI-drafted (neutral summary, public sources)",False
+book-0324,"If Anyone Builds It, Everyone Dies: Why Superhuman AI Would Kill Us All","Eliezer Yudkowsky, Nate Soares",2025,EN,Safety & Alignment,"AI-drafted (neutral summary, public sources)",False
+book-0325,Uncontrollable: The Threat of Artificial Superintelligence and the Race to Save the World,Darren McKee,2023,EN,Safety & Alignment,"AI-drafted (neutral summary, public sources)",False
+book-0326,"The AI Does Not Hate You: Superintelligence, Rationality and the Race to Save the World",Tom Chivers,2019,EN,Safety & Alignment,"AI-drafted (neutral summary, public sources)",False
+book-0327,Smarter Than Us: The Rise of Machine Intelligence,Stuart Armstrong,2014,EN,Safety & Alignment,"AI-drafted (neutral summary, public sources)",False
+book-0328,Rationality: From AI to Zombies,Eliezer Yudkowsky,2015,EN,Safety & Alignment,"AI-drafted (neutral summary, public sources)",False
+book-0329,Global Catastrophic Risks,"Nick Bostrom, Milan M. Cirkovic (eds.)",2008,EN,Safety & Alignment,"AI-drafted (neutral summary, public sources)",False
+book-0330,"Introduction to AI Safety, Ethics, and Society",Dan Hendrycks,2024,EN,Safety & Alignment,"AI-drafted (neutral summary, public sources)",False
+book-0331,"Goedel, Escher, Bach: An Eternal Golden Braid",Douglas R. Hofstadter,1979,EN,Philosophy of Mind,"AI-drafted (neutral summary, public sources)",False
+book-0332,I Am a Strange Loop,Douglas R. Hofstadter,2007,EN,Philosophy of Mind,"AI-drafted (neutral summary, public sources)",False
+book-0333,The Mind's I: Fantasies and Reflections on Self and Soul,"Douglas R. Hofstadter, Daniel C. Dennett",1981,EN,Philosophy of Mind,"AI-drafted (neutral summary, public sources)",False
+book-0334,Consciousness Explained,Daniel C. Dennett,1991,EN,Philosophy of Mind,"AI-drafted (neutral summary, public sources)",False
+book-0335,From Bacteria to Bach and Back: The Evolution of Minds,Daniel C. Dennett,2017,EN,Philosophy of Mind,"AI-drafted (neutral summary, public sources)",False
+book-0336,The Society of Mind,Marvin Minsky,1986,EN,Classics,"AI-drafted (neutral summary, public sources)",False
+book-0337,Alan Turing: The Enigma,Andrew Hodges,1983,EN,Journalism & Biography,"AI-drafted (neutral summary, public sources)",False
+book-0338,Cybernetics: Or Control and Communication in the Animal and the Machine,Norbert Wiener,1948,EN,Classics,"AI-drafted (neutral summary, public sources)",False
+book-0339,The Human Use of Human Beings: Cybernetics and Society,Norbert Wiener,1950,EN,Classics,"AI-drafted (neutral summary, public sources)",False
+book-0340,"God & Golem, Inc.",Norbert Wiener,1964,EN,Classics,"AI-drafted (neutral summary, public sources)",False
+book-0341,Computer Power and Human Reason: From Judgment to Calculation,Joseph Weizenbaum,1976,EN,Classics,"AI-drafted (neutral summary, public sources)",False
+book-0342,What Computers Still Can't Do: A Critique of Artificial Reason,Hubert L. Dreyfus,1992,EN,Classics,"AI-drafted (neutral summary, public sources)",False
+book-0343,Mind Over Machine: The Power of Human Intuition and Expertise in the Era of the Computer,"Hubert L. Dreyfus, Stuart E. Dreyfus",1986,EN,Classics,"AI-drafted (neutral summary, public sources)",False
+book-0344,Understanding Computers and Cognition: A New Foundation for Design,"Terry Winograd, Fernando Flores",1986,EN,Classics,"AI-drafted (neutral summary, public sources)",False
+book-0345,Artificial Intelligence: The Very Idea,John Haugeland,1985,EN,Classics,"AI-drafted (neutral summary, public sources)",False
+book-0346,Vehicles: Experiments in Synthetic Psychology,Valentino Braitenberg,1984,EN,Classics,"AI-drafted (neutral summary, public sources)",False
+book-0347,The Computational Brain,"Patricia S. Churchland, Terrence J. Sejnowski",1992,EN,Neuroscience,"AI-drafted (neutral summary, public sources)",False
+book-0348,Reality+: Virtual Worlds and the Problems of Philosophy,David J. Chalmers,2022,EN,Philosophy of Mind,"AI-drafted (neutral summary, public sources)",False
+book-0349,Being You: A New Science of Consciousness,Anil Seth,2021,EN,Neuroscience,"AI-drafted (neutral summary, public sources)",False
+book-0350,How We Became Posthuman,N. Katherine Hayles,1999,EN,Philosophy of Mind,"AI-drafted (neutral summary, public sources)",False
+book-0351,Darwin Among the Machines: The Evolution of Global Intelligence,George Dyson,1997,EN,History,"AI-drafted (neutral summary, public sources)",False
+book-0352,Turing's Cathedral: The Origins of the Digital Universe,George Dyson,2012,EN,History,"AI-drafted (neutral summary, public sources)",False
+book-0353,"The Information: A History, a Theory, a Flood",James Gleick,2011,EN,History,"AI-drafted (neutral summary, public sources)",False
+book-0354,The Dream Machine: J.C.R. Licklider and the Revolution That Made Computing Personal,M. Mitchell Waldrop,2001,EN,History,"AI-drafted (neutral summary, public sources)",False
+book-0355,Machines Who Think (25th Anniversary ed.),Pamela McCorduck,2004,EN,History,"AI-drafted (neutral summary, public sources)",False
+book-0356,AI: The Tumultuous History of the Search for Artificial Intelligence,Daniel Crevier,1993,EN,History,"AI-drafted (neutral summary, public sources)",False
+book-0357,A Mind at Play: How Claude Shannon Invented the Information Age,"Jimmy Soni, Rob Goodman",2017,EN,Journalism & Biography,"AI-drafted (neutral summary, public sources)",False
+book-0358,The Innovators,Walter Isaacson,2014,EN,History,"AI-drafted (neutral summary, public sources)",False
+book-0359,"Out of Control: The New Biology of Machines, Social Systems, and the Economic World",Kevin Kelly,1994,EN,Classics,"AI-drafted (neutral summary, public sources)",False
+book-0360,"The Book of Minds: How to Understand Ourselves and Other Beings, from Animals to AI to Aliens",Philip Ball,2022,EN,Philosophy of Mind,"AI-drafted (neutral summary, public sources)",False
+book-0361,"Models of the Mind: How Physics, Engineering and Mathematics Have Shaped Our Understanding of the Brain",Grace Lindsay,2021,EN,Neuroscience,"AI-drafted (neutral summary, public sources)",False
+book-0362,The Self-Assembling Brain: How Neural Networks Grow Smarter,Peter Robin Hiesinger,2021,EN,Neuroscience,"AI-drafted (neutral summary, public sources)",False
+book-0363,The Idea of the Brain: The Past and Future of Neuroscience,Matthew Cobb,2020,EN,Neuroscience,"AI-drafted (neutral summary, public sources)",False
+book-0364,"The Technology Trap: Capital, Labor, and Power in the Age of Automation",Carl Benedikt Frey,2019,EN,Economics & Labour,"AI-drafted (neutral summary, public sources)",False
+book-0365,"The Globotics Upheaval: Globalization, Robotics, and the Future of Work",Richard Baldwin,2019,EN,Economics & Labour,"AI-drafted (neutral summary, public sources)",False
+book-0366,"The Wealth of Humans: Work, Power, and Status in the Twenty-first Century",Ryan Avent,2016,EN,Economics & Labour,"AI-drafted (neutral summary, public sources)",False
+book-0367,Average Is Over: Powering America Beyond the Age of the Great Stagnation,Tyler Cowen,2013,EN,Economics & Labour,"AI-drafted (neutral summary, public sources)",False
+book-0368,Only Humans Need Apply: Winners and Losers in the Age of Smart Machines,"Thomas H. Davenport, Julia Kirby",2016,EN,Economics & Labour,"AI-drafted (neutral summary, public sources)",False
+book-0369,Work Without the Worker: Labour in the Age of Platform Capitalism,Phil Jones,2021,EN,Economics & Labour,"AI-drafted (neutral summary, public sources)",False
+book-0370,"The Exponential Age: How Accelerating Technology is Transforming Business, Politics and Society",Azeem Azhar,2021,EN,Business & Strategy,"AI-drafted (neutral summary, public sources)",False
+book-0371,The Economics of Artificial Intelligence: An Agenda,"Ajay Agrawal, Joshua Gans, Avi Goldfarb (eds.)",2019,EN,Economics & Labour,"AI-drafted (neutral summary, public sources)",False
+book-0372,"Frankenstein; or, The Modern Prometheus",Mary Shelley,1818,EN,Fiction,"AI-drafted (neutral summary, public sources)",False
+book-0373,R.U.R. (Rossum's Universal Robots),Karel Capek,1920,CS,Fiction,"AI-drafted (neutral summary, public sources)",False
+book-0374,"I, Robot",Isaac Asimov,1950,EN,Fiction,"AI-drafted (neutral summary, public sources)",False
+book-0375,Do Androids Dream of Electric Sheep?,Philip K. Dick,1968,EN,Fiction,"AI-drafted (neutral summary, public sources)",False
+book-0376,Neuromancer,William Gibson,1984,EN,Fiction,"AI-drafted (neutral summary, public sources)",False
+book-0377,Galatea 2.2,Richard Powers,1995,EN,Fiction,"AI-drafted (neutral summary, public sources)",False
+book-0378,The Lifecycle of Software Objects,Ted Chiang,2010,EN,Fiction,"AI-drafted (neutral summary, public sources)",False
+book-0379,Speak,Louisa Hall,2015,EN,Fiction,"AI-drafted (neutral summary, public sources)",False
+book-0380,Machines Like Me,Ian McEwan,2019,EN,Fiction,"AI-drafted (neutral summary, public sources)",False
+book-0381,Klara and the Sun,Kazuo Ishiguro,2021,EN,Fiction,"AI-drafted (neutral summary, public sources)",False
+book-0382,The Maniac,Benjamin Labatut,2023,EN,Fiction,"AI-drafted (neutral summary, public sources)",False
+book-0383,Annie Bot,Sierra Greer,2024,EN,Fiction,"AI-drafted (neutral summary, public sources)",False
+book-0384,Playground,Richard Powers,2024,EN,Fiction,"AI-drafted (neutral summary, public sources)",False
+book-0385,"Jiqi Xuexi (机器学习, 'Watermelon Book')",Zhou Zhihua (周志华),2016,ZH,Textbook ML,"AI-drafted (neutral summary, public sources)",False
+book-0386,"Tongji Xuexi Fangfa (统计学习方法, 2nd ed.)",Li Hang (李航),2019,ZH,Textbook ML,"AI-drafted (neutral summary, public sources)",False
+book-0387,Jiqi Xuexi Fangfa (机器学习方法),Li Hang (李航),2022,ZH,Textbook ML,"AI-drafted (neutral summary, public sources)",False
+book-0388,Shenjing Wangluo yu Shendu Xuexi (神经网络与深度学习),Qiu Xipeng (邱锡鹏),2020,ZH,Textbook DL,"AI-drafted (neutral summary, public sources)",False
+book-0389,"Dongshou Xue Shendu Xuexi (动手学深度学习 / Dive into Deep Learning, CN original)","Aston Zhang, Mu Li (李沐) et al.",2019,ZH,Textbook DL,"AI-drafted (neutral summary, public sources)",False
+book-0390,Shuxue zhi Mei (数学之美),Wu Jun (吴军),2012,ZH,Popular Science,"AI-drafted (neutral summary, public sources)",False
+book-0391,Zhineng Shidai (智能时代),Wu Jun (吴军),2016,ZH,Business & Strategy,"AI-drafted (neutral summary, public sources)",False
+book-0392,Langchao zhi Dian (浪潮之巅),Wu Jun (吴军),2011,ZH,History,"AI-drafted (neutral summary, public sources)",False
+book-0393,Baimian Jiqi Xuexi (百面机器学习),Zhuge Yue (诸葛越) et al.,2018,ZH,Practitioner,"AI-drafted (neutral summary, public sources)",False
+book-0394,"Pumpkin Book (机器学习公式详解, companion to Watermelon Book)","Xie Wenrui (谢文睿), Qin Zhou (秦州)",2021,ZH,Textbook ML,"AI-drafted (neutral summary, public sources)",False
+book-0395,Jiqi Xuexi Lilun Daoyin (机器学习理论导引),Zhou Zhihua (周志华) et al.,2020,ZH,Textbook ML,"AI-drafted (neutral summary, public sources)",False
+book-0396,"Easy RL (强化学习教程, 'Mushroom Book')",Wang Qi (王琦) et al.,2022,ZH,RL,"AI-drafted (neutral summary, public sources)",False
+book-0397,"Tongji Ziran Yuyan Chuli (统计自然语言处理, 2nd ed.)",Zong Chengqing (宗成庆),2013,ZH,NLP,"AI-drafted (neutral summary, public sources)",False
+book-0398,Ziran Yuyan Chuli Rumen (自然语言处理入门),"He Han (何晗, hankcs)",2019,ZH,NLP,"AI-drafted (neutral summary, public sources)",False
+book-0399,Da Guimo Yuyan Moxing: Cong Lilun dao Shijian (大规模语言模型：从理论到实践),"Zhang Qi (张奇) et al., Fudan NLP",2023,ZH,LLM Engineering,"AI-drafted (neutral summary, public sources)",False
+book-0400,Rengong Zhineng Jianshi (人工智能简史),Nick (尼克),2017,ZH,History,"AI-drafted (neutral summary, public sources)",False
+book-0401,Rengong Zhineng (人工智能),"Li Kaifu (李开复), Wang Yonggang (王咏刚)",2017,ZH,Popular Science,"AI-drafted (neutral summary, public sources)",False
+book-0402,Zhineng Geming (智能革命),Li Yanhong (李彦宏) et al.,2017,ZH,Business & Strategy,"AI-drafted (neutral summary, public sources)",False
+book-0403,Tuijian Xitong Shijian (推荐系统实践),Xiang Liang (项亮),2012,ZH,Practitioner,"AI-drafted (neutral summary, public sources)",False
+book-0404,Shendu Xuexi Tuijian Xitong (深度学习推荐系统),Wang Zhe (王喆),2020,ZH,Practitioner,"AI-drafted (neutral summary, public sources)",False
+book-0405,Fenbushi Jiqi Xuexi (分布式机器学习：算法、理论与实践),Liu Tieyan (刘铁岩) et al.,2018,ZH,ML Engineering,"AI-drafted (neutral summary, public sources)",False
+book-0406,Qianyi Xuexi (迁移学习),Yang Qiang (杨强) et al.,2020,ZH,Textbook ML,"AI-drafted (neutral summary, public sources)",False
+book-0407,Lianbang Xuexi (联邦学习),Yang Qiang (杨强) et al.,2019,ZH,Textbook ML,"AI-drafted (neutral summary, public sources)",False
+book-0408,"Zhishi Tupu: Fangfa, Shijian yu Yingyong (知识图谱：方法、实践与应用)",Wang Haofen (王昊奋) et al.,2019,ZH,NLP,"AI-drafted (neutral summary, public sources)",False
+book-0409,Zhineng Jisuan Xitong (智能计算系统),Chen Yunji (陈云霁) et al.,2020,ZH,ML Engineering,"AI-drafted (neutral summary, public sources)",False
+book-0410,Rengong Zhineng Anquan (人工智能安全),Fang Binxing (方滨兴) et al.,2020,ZH,Safety & Alignment,"AI-drafted (neutral summary, public sources)",False
+book-0411,Zhihui de Jiangjie (智慧的疆界),Zhou Zhiming (周志明),2018,ZH,History,"AI-drafted (neutral summary, public sources)",False
+book-0412,Rengong Zhineng Zhexue Shiwu Jiang (人工智能哲学十五讲),Xu Yingjin (徐英瑾),2021,ZH,Philosophy of Mind,"AI-drafted (neutral summary, public sources)",False
+book-0413,Deep Learning from Scratch (ゼロから作るDeep Learning),Saito Koki (斎藤康毅),2016,JA,Practitioner,"AI-drafted (neutral summary, public sources)",False
+book-0414,Le mythe de la Singularite: Faut-il craindre l'intelligence artificielle?,Jean-Gabriel Ganascia,2017,FR,Critique & Skepticism,"AI-drafted (neutral summary, public sources)",False
+book-0415,Kuenstliche Intelligenz: Was sie kann & was uns erwartet,Manuela Lenzen,2018,DE,Popular Science,"AI-drafted (neutral summary, public sources)",False
+book-0416,Kuenstliche Intelligenz und der Sinn des Lebens,Richard David Precht,2020,DE,Philosophy of Mind,"AI-drafted (neutral summary, public sources)",False
+book-0417,Doe zelf normaal: Menselijk recht in tijden van datasturing en natuurgeweld,Maxim Februari,2023,NL,Governance & Policy,"AI-drafted (neutral summary, public sources)",False
+book-0418,"Algoritmisering, wen er maar aan",Jim Stolze,2018,NL,Popular Science,"AI-drafted (neutral summary, public sources)",False
+book-0419,Reinforcement Learning and Optimal Control,Dimitri P. Bertsekas,2019,EN,RL,"AI-drafted (neutral summary, public sources)",False
+book-0420,Distributional Reinforcement Learning,"Marc G. Bellemare, Will Dabney, Mark Rowland",2023,EN,RL,"AI-drafted (neutral summary, public sources)",False
+book-0421,Graph Representation Learning,William L. Hamilton,2020,EN,Textbook ML,"AI-drafted (neutral summary, public sources)",False
+book-0422,The Principles of Deep Learning Theory,"Daniel A. Roberts, Sho Yaida",2022,EN,Textbook DL,"AI-drafted (neutral summary, public sources)",False
+book-0423,Machine Learning Design Patterns,"Valliappa Lakshmanan, Sara Robinson, Michael Munn",2020,EN,ML Engineering,"AI-drafted (neutral summary, public sources)",False
+book-0424,Machine Learning with PyTorch and Scikit-Learn,"Sebastian Raschka, Yuxi Liu, Vahid Mirjalili",2022,EN,Practitioner,"AI-drafted (neutral summary, public sources)",False
+book-0425,Programming Collective Intelligence,Toby Segaran,2007,EN,Practitioner,"AI-drafted (neutral summary, public sources)",False
+book-0426,Probability Theory: The Logic of Science,E. T. Jaynes,2003,EN,Math & Stats,"AI-drafted (neutral summary, public sources)",False
+book-0427,The Hundred-Page Language Models Book,Andriy Burkov,2025,EN,LLM Engineering,"AI-drafted (neutral summary, public sources)",False
+book-0428,The Kaggle Book,"Konrad Banachewicz, Luca Massaron",2022,EN,Practitioner,"AI-drafted (neutral summary, public sources)",False
+book-0429,Approaching (Almost) Any Machine Learning Problem,Abhishek Thakur,2020,EN,Practitioner,"AI-drafted (neutral summary, public sources)",False
+book-0430,Deep Learning Illustrated,"Jon Krohn, Grant Beyleveld, Aglae Bassens",2019,EN,Practitioner,"AI-drafted (neutral summary, public sources)",False
+book-0431,Natural Language Processing in Action (2nd ed.),"Hobson Lane, Maria Dyshel",2024,EN,NLP,"AI-drafted (neutral summary, public sources)",False
+book-0432,Advances in Financial Machine Learning,Marcos Lopez de Prado,2018,EN,Finance,"AI-drafted (neutral summary, public sources)",False
+book-0433,Artificial Intelligence in Finance: A Python-Based Guide,Yves Hilpisch,2020,EN,Finance,"AI-drafted (neutral summary, public sources)",False
+book-0434,The Glass Cage: Automation and Us,Nicholas Carr,2014,EN,Critique & Skepticism,"AI-drafted (neutral summary, public sources)",False
+book-0435,Smarter Than You Think: How Technology Is Changing Our Minds for the Better,Clive Thompson,2013,EN,Popular Science,"AI-drafted (neutral summary, public sources)",False
+book-0436,You Are Not a Gadget: A Manifesto,Jaron Lanier,2010,EN,Critique & Skepticism,"AI-drafted (neutral summary, public sources)",False
+book-0437,Who Owns the Future?,Jaron Lanier,2013,EN,Economics & Labour,"AI-drafted (neutral summary, public sources)",False
+book-0438,Superminds: The Surprising Power of People and Computers Thinking Together,Thomas W. Malone,2018,EN,Business & Strategy,"AI-drafted (neutral summary, public sources)",False
+book-0439,"The Handover: How We Gave Control of Our Lives to Corporations, States and AIs",David Runciman,2023,EN,Governance & Policy,"AI-drafted (neutral summary, public sources)",False
+book-0440,How to Stay Smart in a Smart World,Gerd Gigerenzer,2022,EN,Critique & Skepticism,"AI-drafted (neutral summary, public sources)",False
+book-0441,A Citizen's Guide to Artificial Intelligence,John Zerilli et al.,2021,EN,Governance & Policy,"AI-drafted (neutral summary, public sources)",False
+book-0442,Rule of the Robots: How Artificial Intelligence Will Transform Everything,Martin Ford,2021,EN,Futures,"AI-drafted (neutral summary, public sources)",False
+book-0443,Competing in the Age of AI,"Marco Iansiti, Karim R. Lakhani",2020,EN,Business & Strategy,"AI-drafted (neutral summary, public sources)",False
+book-0444,The Fourth Industrial Revolution,Klaus Schwab,2016,EN,Business & Strategy,"AI-drafted (neutral summary, public sources)",False
+book-0445,21 Lessons for the 21st Century,Yuval Noah Harari,2018,EN,Futures,"AI-drafted (neutral summary, public sources)",False
+book-0446,Solomon's Code: Humanity in a World of Thinking Machines,"Olaf Groth, Mark Nitzberg",2018,EN,Futures,"AI-drafted (neutral summary, public sources)",False
+book-0447,In Our Own Image: Savior or Destroyer? The History and Future of AI,George Zarkadakis,2015,EN,History,"AI-drafted (neutral summary, public sources)",False
+book-0448,Heartificial Intelligence: Embracing Our Humanity to Maximize Machines,John C. Havens,2016,EN,Society & Ethics,"AI-drafted (neutral summary, public sources)",False
+book-0449,Alone Together: Why We Expect More from Technology and Less from Each Other,Sherry Turkle,2011,EN,Society & Ethics,"AI-drafted (neutral summary, public sources)",False
+book-0450,The Second Self: Computers and the Human Spirit,Sherry Turkle,1984,EN,Classics,"AI-drafted (neutral summary, public sources)",False
+book-0451,The New Breed: What Our History with Animals Reveals about Our Future with Robots,Kate Darling,2021,EN,Robotics,"AI-drafted (neutral summary, public sources)",False
+book-0452,"Turned On: Science, Sex and Robots",Kate Devlin,2018,EN,Society & Ethics,"AI-drafted (neutral summary, public sources)",False
+book-0453,Robots and the People Who Love Them,Eve Herold,2024,EN,Society & Ethics,"AI-drafted (neutral summary, public sources)",False
+book-0454,"Artificial Intimacy: Virtual Friends, Digital Lovers, and Algorithmic Matchmakers",Rob Brooks,2021,EN,Society & Ethics,"AI-drafted (neutral summary, public sources)",False
+book-0455,The Artist in the Machine: The World of AI-Powered Creativity,Arthur I. Miller,2019,EN,Creativity & Art,"AI-drafted (neutral summary, public sources)",False
+book-0456,"The Uncanny Muse: Music, Art, and Machines from Automata to AI",David Hajdu,2025,EN,Creativity & Art,"AI-drafted (neutral summary, public sources)",False
+book-0457,The Battle for Your Brain: Defending the Right to Think Freely in the Age of Neurotechnology,Nita A. Farahany,2023,EN,Society & Ethics,"AI-drafted (neutral summary, public sources)",False
+book-0458,Wired for War: The Robotics Revolution and Conflict in the 21st Century,P. W. Singer,2009,EN,Defence & Security,"AI-drafted (neutral summary, public sources)",False
+book-0459,The Kill Chain: Defending America in the Future of High-Tech Warfare,Christian Brose,2020,EN,Defence & Security,"AI-drafted (neutral summary, public sources)",False
+book-0460,Autonomy: The Quest to Build the Driverless Car,"Lawrence D. Burns, Christopher Shulgan",2018,EN,Robotics,"AI-drafted (neutral summary, public sources)",False
+book-0461,Driverless: Intelligent Cars and the Road Ahead,"Hod Lipson, Melba Kurman",2016,EN,Robotics,"AI-drafted (neutral summary, public sources)",False
+book-0462,The Man from the Future: The Visionary Life of John von Neumann,Ananyo Bhattacharya,2021,EN,Journalism & Biography,"AI-drafted (neutral summary, public sources)",False
+book-0463,Rise of the Machines: A Cybernetic History,Thomas Rid,2016,EN,History,"AI-drafted (neutral summary, public sources)",False
+book-0464,Mind as Machine: A History of Cognitive Science (2 vols.),Margaret A. Boden,2006,EN,History,"AI-drafted (neutral summary, public sources)",False
+book-0465,Ada's Algorithm: How Lord Byron's Daughter Ada Lovelace Launched the Digital Age,James Essinger,2014,EN,Journalism & Biography,"AI-drafted (neutral summary, public sources)",False
+book-0466,The Annotated Turing,Charles Petzold,2008,EN,History,"AI-drafted (neutral summary, public sources)",False
+book-0467,Artificial General Intelligence,"Ben Goertzel, Cassio Pennachin (eds.)",2007,EN,Safety & Alignment,"AI-drafted (neutral summary, public sources)",False
+book-0468,How to Build a Brain: A Neural Architecture for Biological Cognition,Chris Eliasmith,2013,EN,Neuroscience,"AI-drafted (neutral summary, public sources)",False
+book-0469,Principles of Synthetic Intelligence: PSI: An Architecture of Motivated Cognition,Joscha Bach,2009,EN,Philosophy of Mind,"AI-drafted (neutral summary, public sources)",False
+book-0470,Failure to Disrupt: Why Technology Alone Can't Transform Education,Justin Reich,2020,EN,Education,"AI-drafted (neutral summary, public sources)",False
+book-0471,"The Digital Doctor: Hope, Hype, and Harm at the Dawn of Medicine's Computer Age",Robert Wachter,2015,EN,Healthcare,"AI-drafted (neutral summary, public sources)",False
+book-0472,2001: A Space Odyssey,Arthur C. Clarke,1968,EN,Fiction,"AI-drafted (neutral summary, public sources)",False
+book-0473,The Moon Is a Harsh Mistress,Robert A. Heinlein,1966,EN,Fiction,"AI-drafted (neutral summary, public sources)",False
+book-0474,The Player of Games,Iain M. Banks,1988,EN,Fiction,"AI-drafted (neutral summary, public sources)",False
+book-0475,Permutation City,Greg Egan,1994,EN,Fiction,"AI-drafted (neutral summary, public sources)",False
+book-0476,Accelerando,Charles Stross,2005,EN,Fiction,"AI-drafted (neutral summary, public sources)",False
+book-0477,Daemon,Daniel Suarez,2006,EN,Fiction,"AI-drafted (neutral summary, public sources)",False
+book-0478,All Systems Red (The Murderbot Diaries #1),Martha Wells,2017,EN,Fiction,"AI-drafted (neutral summary, public sources)",False
+book-0479,A Closed and Common Orbit,Becky Chambers,2016,EN,Fiction,"AI-drafted (neutral summary, public sources)",False
+book-0480,Machinehood,S. B. Divya,2021,EN,Fiction,"AI-drafted (neutral summary, public sources)",False
+book-0481,The Mountain in the Sea,Ray Nayler,2022,EN,Fiction,"AI-drafted (neutral summary, public sources)",False
+book-0482,Burn-In: A Novel of the Real Robotic Revolution,"P. W. Singer, August Cole",2020,EN,Fiction,"AI-drafted (neutral summary, public sources)",False
+book-0483,QualityLand,Marc-Uwe Kling,2017,DE,Fiction,"AI-drafted (neutral summary, public sources)",False
+book-0484,Power and Progress: Our Thousand-Year Struggle Over Technology and Prosperity,"Daron Acemoglu, Simon Johnson",2023,EN,Economics & Labour,"AI-drafted (neutral summary, public sources)",False
+book-0485,"Android Dreams: The Past, Present and Future of Artificial Intelligence",Toby Walsh,2017,EN,Popular Science,"AI-drafted (neutral summary, public sources)",False
+book-0486,"An Artificial Revolution: On Power, Politics and AI",Ivana Bartoletti,2020,EN,Governance & Policy,"AI-drafted (neutral summary, public sources)",False
+book-0487,Working with AI: Real Stories of Human-Machine Collaboration,"Thomas H. Davenport, Steven M. Miller",2022,EN,Business & Strategy,"AI-drafted (neutral summary, public sources)",False
+book-0488,Complexity: A Guided Tour,Melanie Mitchell,2009,EN,Popular Science,"AI-drafted (neutral summary, public sources)",False
+book-0489,Artificial Life: A Report from the Frontier Where Computers Meet Biology,Steven Levy,1992,EN,History,"AI-drafted (neutral summary, public sources)",False
+book-0490,Fluid Concepts and Creative Analogies,"Douglas R. Hofstadter, FARG",1995,EN,Classics,"AI-drafted (neutral summary, public sources)",False
+book-0491,The Pattern on the Stone: The Simple Ideas That Make Computers Work,W. Daniel Hillis,1998,EN,Popular Science,"AI-drafted (neutral summary, public sources)",False
+book-0492,Shadows of the Mind: A Search for the Missing Science of Consciousness,Roger Penrose,1994,EN,Philosophy of Mind,"AI-drafted (neutral summary, public sources)",False
+book-0493,The Essential Turing,B. Jack Copeland (ed.),2004,EN,Classics,"AI-drafted (neutral summary, public sources)",False
+book-0494,Adaptation in Natural and Artificial Systems,John H. Holland,1975,EN,Classics,"AI-drafted (neutral summary, public sources)",False
+book-0495,Unified Theories of Cognition,Allen Newell,1990,EN,Classics,"AI-drafted (neutral summary, public sources)",False
+book-0496,Human Problem Solving,"Allen Newell, Herbert A. Simon",1972,EN,Classics,"AI-drafted (neutral summary, public sources)",False
+book-0497,"Scripts, Plans, Goals, and Understanding","Roger C. Schank, Robert P. Abelson",1977,EN,Classics,"AI-drafted (neutral summary, public sources)",False
+book-0498,Parallel Distributed Processing: Explorations in the Microstructure of Cognition (Vols. 1-2),"David E. Rumelhart, James L. McClelland, PDP Research Group",1986,EN,Classics,"AI-drafted (neutral summary, public sources)",False
+book-0499,The Cambridge Handbook of Artificial Intelligence,"Keith Frankish, William M. Ramsey (eds.)",2014,EN,Textbook AI,"AI-drafted (neutral summary, public sources)",False
+book-0500,AI: Its Nature and Future,Margaret A. Boden,2016,EN,Popular Science,"AI-drafted (neutral summary, public sources)",False
 book-0501,Technopoly: The Surrender of Culture to Technology,Neil Postman,1992,EN,Society & Ethics,Monett Critical-AI 14th ed,False
 book-0502,Islands in the Cyberstream: Seeking Havens of Reason in a Programmed Society,Joseph Weizenbaum,2015,EN,Society & Ethics,Monett Critical-AI 14th ed,False
 book-0503,Data Grab: The New Colonialism of Big Tech and How to Fight Back,Ulises A. Mejias and Nick Couldry,2024,EN,Society & Ethics,Monett Critical-AI 14th ed,False
 book-0504,Teaching Machines: The History of Personalized Learning,Audrey Watters,2023,EN,Education,Monett Critical-AI 14th ed,False
 book-0505,The Mechanic and the Luddite: A Ruthless Criticism of Technology and Capitalism,Jathan Sadowski,2025,EN,Critique & Skepticism,Monett Critical-AI 14th ed,False
 book-0506,Breaking Things at Work: The Luddites Are Right About Why You Hate Your Job,Gavin Mueller,2021,EN,Economics & Labour,Monett Critical-AI 14th ed,False
-book-0507,Disabling Intelligences: Legacies of Eugenics and How We are Wrong about AI,Rua M. Williams,2025,EN,Critique & Skepticism,Monett Critical-AI 14th ed,False
+book-0507,Disabling Intelligences: Legacies of Eugenics and How We are Wrong about AI,Rua M. Williams,2025,EN,Critique & Skepticism,"AI-drafted (neutral summary, public sources)",False
 book-0508,Artifictional Intelligence: Against Humanity's Surrender to Computers,Harry Collins,2018,EN,Critique & Skepticism,Monett Critical-AI 14th ed,False
-book-0509,Human Power: Seven Traits for the Politics of the AI Machine Age,Gry Hasselbalch,2025,EN,Governance & Policy,Monett Critical-AI 14th ed,False
+book-0509,Human Power: Seven Traits for the Politics of the AI Machine Age,Gry Hasselbalch,2025,EN,Governance & Policy,"AI-drafted (neutral summary, public sources)",False
 book-0510,Imagination: A Manifesto,Ruha Benjamin,2025,EN,Society & Ethics,Monett Critical-AI 14th ed,False
 book-0511,Another Science is Possible: A Manifesto for Slow Science,Isabelle Stengers,2017,EN,Critique & Skepticism,Monett Critical-AI 14th ed,False
 book-0512,Artificial Whiteness: Politics and Ideology in Artificial Intelligence,Yarden Katz,2020,EN,Society & Ethics,Monett Critical-AI 14th ed,False
 book-0513,Technocolonialism: When Technology for Good is Harmful,Mirca Madianou,2024,EN,Society & Ethics,Monett Critical-AI 14th ed,False
 book-0514,The Shame Machine: Who Profits in the New Age of Humiliation,Cathy O'Neil,2023,EN,Society & Ethics,Monett Critical-AI 14th ed,False
-book-0515,Datafied Childhoods: Data Practices and Imaginaries in Children's Lives,Giovanna Mascheroni and Andra Siibak,2021,EN,Society & Ethics,Monett Critical-AI 14th ed,False
+book-0515,Datafied Childhoods: Data Practices and Imaginaries in Children's Lives,Giovanna Mascheroni and Andra Siibak,2021,EN,Society & Ethics,"AI-drafted (neutral summary, public sources)",False
 book-0516,Why Machines Will Never Rule the World: Artificial Intelligence without Fear,Jobst Landgrebe and Barry Smith,2022,EN,Critique & Skepticism,Monett Critical-AI 14th ed,False
 book-0517,The Unaccountability Machine: Why Big Systems Make Terrible Decisions,Dan Davies,2024,EN,Society & Ethics,Monett Critical-AI 14th ed,False
 book-0518,Technology Is Not Neutral: A Short Guide to Technology Ethics,Stephanie Hare,2022,EN,Governance & Policy,Monett Critical-AI 14th ed,False
@@ -528,32 +528,32 @@ book-0526,Scorched Earth: Beyond the Digital Age to a Post-Capitalist World,Jona
 book-0527,Slow Computing: Why We Need Balanced Digital Lives,Rob Kitchin and Alistair Fraser,2020,EN,Society & Ethics,Monett Critical-AI 14th ed,False
 book-0528,The Digital Innovation Race: Conceptualizing the Emerging New World Order,Cecilia Rikap and Bengt-Ake Lundvall,2021,EN,Geopolitics,Monett Critical-AI 14th ed,False
 book-0529,The Economy of Algorithms: AI and the Rise of the Digital Minions,Marek Kowalkiewicz,2024,EN,Business & Strategy,Monett Critical-AI 14th ed,False
-book-0530,Rhythm and Vigilance: Ethnographies of Surveillance and Time,Vita Peacock et al.,2025,EN,Society & Ethics,Monett Critical-AI 14th ed,False
+book-0530,Rhythm and Vigilance: Ethnographies of Surveillance and Time,Vita Peacock et al.,2025,EN,Society & Ethics,"AI-drafted (neutral summary, public sources)",False
 book-0531,"The Tensions of Algorithmic Thinking: Automation, Intelligence and the Politics of Knowing",David Beer,2024,EN,Society & Ethics,Monett Critical-AI 14th ed,False
-book-0532,"Postgrowth Digital Futures: Digital Technologies, Degrowth, and Radical Abundance",Sy Taffel,2026,EN,Critique & Skepticism,Monett Critical-AI 14th ed,False
-book-0533,La Silicolonizacion del Mundo,Eric Sadin,2020,ES,Critique & Skepticism,Monett Critical-AI 14th ed,False
-book-0534,La Inteligencia Artificial o el Desafio del Siglo,Eric Sadin,2020,ES,Critique & Skepticism,Monett Critical-AI 14th ed,False
-book-0535,La Era del Individuo Tirano,Eric Sadin,2022,ES,Critique & Skepticism,Monett Critical-AI 14th ed,False
+book-0532,"Postgrowth Digital Futures: Digital Technologies, Degrowth, and Radical Abundance",Sy Taffel,2026,EN,Critique & Skepticism,"AI-drafted (neutral summary, public sources)",False
+book-0533,La Silicolonizacion del Mundo,Eric Sadin,2020,ES,Critique & Skepticism,"AI-drafted (neutral summary, public sources)",False
+book-0534,La Inteligencia Artificial o el Desafio del Siglo,Eric Sadin,2020,ES,Critique & Skepticism,"AI-drafted (neutral summary, public sources)",False
+book-0535,La Era del Individuo Tirano,Eric Sadin,2022,ES,Critique & Skepticism,"AI-drafted (neutral summary, public sources)",False
 book-0536,More than Words: How to Think About Writing in the Age of AI,John Warner,2025,EN,Education,Monett Critical-AI 14th ed,False
-book-0537,Data Conscience: Algorithmic Siege on our Humanity,Brandeis Marshall,2022,EN,Society & Ethics,Monett Critical-AI 14th ed,False
-book-0538,Medium Hot: Images in the Age of Heat,Hito Steyerl,2025,EN,Creativity & Art,Monett Critical-AI 14th ed,False
-book-0539,The Nerd Reich: Silicon Valley Fascism and the War on Democracy,Gil Duran,2026,EN,Geopolitics,Monett Critical-AI 14th ed,False
+book-0537,Data Conscience: Algorithmic Siege on our Humanity,Brandeis Marshall,2022,EN,Society & Ethics,"AI-drafted (neutral summary, public sources)",False
+book-0538,Medium Hot: Images in the Age of Heat,Hito Steyerl,2025,EN,Creativity & Art,"AI-drafted (neutral summary, public sources)",False
+book-0539,The Nerd Reich: Silicon Valley Fascism and the War on Democracy,Gil Duran,2026,EN,Geopolitics,"AI-drafted (neutral summary, public sources)",False
 book-0540,Writings of the Luddites,Kevin Binfield (ed.),2015,EN,History,Monett Critical-AI 14th ed,False
 book-0541,Filterworld: How Algorithms Make Everything the Same,Kyle Chayka,2024,EN,Society & Ethics,Monett Critical-AI 14th ed,False
-book-0542,You Must Become an Algorithmic Problem,Jose Marichal,2025,EN,Society & Ethics,Monett Critical-AI 14th ed,False
-book-0543,Kunstliche Intelligenz und der neue Faschismus,Rainer Muhlhoff,2025,DE,Critique & Skepticism,Monett Critical-AI 14th ed,False
+book-0542,You Must Become an Algorithmic Problem,Jose Marichal,2025,EN,Society & Ethics,"AI-drafted (neutral summary, public sources)",False
+book-0543,Kunstliche Intelligenz und der neue Faschismus,Rainer Muhlhoff,2025,DE,Critique & Skepticism,"AI-drafted (neutral summary, public sources)",False
 book-0544,Silicon Values: The Future of Free Speech Under Surveillance Capitalism,Jillian C. York,2022,EN,Governance & Policy,Monett Critical-AI 14th ed,False
 book-0545,How Silicon Valley Unleashed Techno-feudalism: The Making of the Digital Economy,Cedric Durand,2024,EN,Economics & Labour,Monett Critical-AI 14th ed,False
 book-0546,Radical Technologies: The Design of Everyday Life,Adam Greenfield,2018,EN,Society & Ethics,Monett Critical-AI 14th ed,False
 book-0547,Cyberboss: The Rise of Algorithmic Management and the New Struggle for Control at Work,Craig Gent,2024,EN,Economics & Labour,Monett Critical-AI 14th ed,False
-book-0548,Cybernetic Circulation Complex: Big Tech and Planetary Crisis,Nick Dyer-Witheford and Alessandra Mularoni,2025,EN,Critique & Skepticism,Monett Critical-AI 14th ed,False
+book-0548,Cybernetic Circulation Complex: Big Tech and Planetary Crisis,Nick Dyer-Witheford and Alessandra Mularoni,2025,EN,Critique & Skepticism,"AI-drafted (neutral summary, public sources)",False
 book-0549,"Augmented Exploitation: Artificial Intelligence, Automation and Work",Phoebe Moore and Jamie Woodcock (eds.),2021,EN,Economics & Labour,Monett Critical-AI 14th ed,False
 book-0550,Algorithms of Resistance: The Everyday Fight against Platform Power,Tiziano Bonini and Emiliano Trere,2024,EN,Society & Ethics,Monett Critical-AI 14th ed,False
-book-0551,Computational Reflections,Brian Cantwell Smith,2026,EN,Philosophy of Mind,Monett Critical-AI 14th ed,False
+book-0551,Computational Reflections,Brian Cantwell Smith,2026,EN,Philosophy of Mind,"AI-drafted (neutral summary, public sources)",False
 book-0552,Programmed Inequality: How Britain Discarded Women Technologists and Lost Its Edge in Computing,Mar Hicks,2018,EN,History,Monett Critical-AI 14th ed,False
-book-0553,"Dark Patterns, Deceptive Design, and the Law",Mark Leiser,2025,EN,Governance & Policy,Monett Critical-AI 14th ed,False
-book-0554,Collaborative Research in the Datafied Society,"Mirko Tobias Schafer, Karin van Es, Tracey Lauriault (eds.)",2024,EN,Society & Ethics,Monett Critical-AI 14th ed,False
-book-0555,Techno-Negative: A Long History of Refusing the Machine,Thomas Dekeyser,2026,EN,History,Monett Critical-AI 14th ed,False
+book-0553,"Dark Patterns, Deceptive Design, and the Law",Mark Leiser,2025,EN,Governance & Policy,"AI-drafted (neutral summary, public sources)",False
+book-0554,Collaborative Research in the Datafied Society,"Mirko Tobias Schafer, Karin van Es, Tracey Lauriault (eds.)",2024,EN,Society & Ethics,"AI-drafted (neutral summary, public sources)",False
+book-0555,Techno-Negative: A Long History of Refusing the Machine,Thomas Dekeyser,2026,EN,History,"AI-drafted (neutral summary, public sources)",False
 book-0556,"Bad Data: How Governments, Politicians and the Rest of Us Get Misled by Numbers",Georgina Sturge,2023,EN,Critique & Skepticism,Monett Critical-AI 14th ed,False
 book-0557,Bit Tyrants: The Political Economy of Silicon Valley,Rob Larson,2020,EN,Economics & Labour,Monett Critical-AI 14th ed,False
 book-0558,"Careless People: A Cautionary Tale of Power, Greed, and Lost Idealism",Sarah Wynn-Williams,2025,EN,Journalism & Biography,Monett Critical-AI 14th ed,False
@@ -561,14 +561,14 @@ book-0559,The Age of Extraction: How Tech Platforms Conquered the Economy and Th
 book-0560,Gilded Rage: Elon Musk and the Radicalization of Silicon Valley,Jacob Silverman,2025,EN,Journalism & Biography,Monett Critical-AI 14th ed,False
 book-0561,Brotopia: Breaking Up the Boys' Club of Silicon Valley,Emily Chang,2018,EN,Journalism & Biography,Monett Critical-AI 14th ed,False
 book-0562,What Tech Calls Thinking: An Inquiry into the Intellectual Bedrock of Silicon Valley,Adrian Daub,2020,EN,Critique & Skepticism,Monett Critical-AI 14th ed,False
-book-0563,Platform Extractivism: Data Work and the People Powering Artificial Intelligence,Julian Posada,2026,EN,Economics & Labour,Monett Critical-AI 14th ed,False
-book-0564,Our Minds Under Siege: How to Avoid Being Manipulated in the Age of Artificial Intelligence,Bruno Giussani,2026,EN,Society & Ethics,Monett Critical-AI 14th ed,False
+book-0563,Platform Extractivism: Data Work and the People Powering Artificial Intelligence,Julian Posada,2026,EN,Economics & Labour,"AI-drafted (neutral summary, public sources)",False
+book-0564,Our Minds Under Siege: How to Avoid Being Manipulated in the Age of Artificial Intelligence,Bruno Giussani,2026,EN,Society & Ethics,"AI-drafted (neutral summary, public sources)",False
 book-0565,The Cultural Logic of Computation,David Golumbia,2009,EN,Critique & Skepticism,Monett Critical-AI 14th ed,False
 book-0566,The Real World of Technology,Ursula Franklin,1999,EN,Society & Ethics,Monett Critical-AI 14th ed,False
-book-0567,Big Tech Must Go!,Martin Andree,2025,DE,Governance & Policy,Monett Critical-AI 14th ed,False
-book-0568,Digital Habitus: A Critique of the Imaginaries of Artificial Intelligence,Alberto Romele,2024,EN,Critique & Skepticism,Monett Critical-AI 14th ed,False
-book-0569,"Promptism: Fluent Machines, Forgotten Questions, and the Fight for Meaning in the Age of AI",Sune Selsbak-Reitz,2026,EN,Society & Ethics,Monett Critical-AI 14th ed,False
+book-0567,Big Tech Must Go!,Martin Andree,2025,DE,Governance & Policy,"AI-drafted (neutral summary, public sources)",False
+book-0568,Digital Habitus: A Critique of the Imaginaries of Artificial Intelligence,Alberto Romele,2024,EN,Critique & Skepticism,"AI-drafted (neutral summary, public sources)",False
+book-0569,"Promptism: Fluent Machines, Forgotten Questions, and the Fight for Meaning in the Age of AI",Sune Selsbak-Reitz,2026,EN,Society & Ethics,"AI-drafted (neutral summary, public sources)",False
 book-0570,Cyberselfish: A Critical Romp Through The Terribly Libertarian Culture of High Tech,Paulina Borsook,2000,EN,Critique & Skepticism,Monett Critical-AI 14th ed,False
 book-0571,Studying Those Who Study Us: An Anthropologist in the World of Artificial Intelligence,Diana E. Forsythe,2002,EN,History,Monett Critical-AI 14th ed,False
-book-0572,Algorithmic Capital: Resistance in the Age of Artificial Intelligence,Jonathan Durand Folco and Jonathan Martineau,2026,EN,Economics & Labour,Monett Critical-AI 14th ed,False
+book-0572,Algorithmic Capital: Resistance in the Age of Artificial Intelligence,Jonathan Durand Folco and Jonathan Martineau,2026,EN,Economics & Labour,"AI-drafted (neutral summary, public sources)",False
 book-0573,Who Wrote This? How AI and the Lure of Efficiency Threaten Human Writing,Naomi S. Baron,2023,EN,Education,Monett Critical-AI 14th ed,False

@@ -3624,9 +3624,9 @@
     "editorial": {
       "author": "Trevor Hastie, Robert Tibshirani, Jerome Friedman",
       "category": "Textbook ML",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Graduate textbook on statistical learning and data mining, covering supervised and unsupervised methods including regression, classification, trees, boosting, support vector machines, and neural networks from a statistical viewpoint.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0202",
     "language": "EN",
@@ -3642,9 +3642,9 @@
     "editorial": {
       "author": "Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani",
       "category": "Textbook ML",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Introductory textbook on statistical learning with Python applications, covering regression, classification, resampling, regularization, tree-based methods, support vector machines, and unsupervised learning at a less mathematical level than its companion volume.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0203",
     "language": "EN",
@@ -3660,9 +3660,9 @@
     "editorial": {
       "author": "Tom M. Mitchell",
       "category": "Textbook ML",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Textbook introducing core machine learning concepts and algorithms, including decision trees, neural networks, Bayesian learning, instance-based methods, genetic algorithms, and reinforcement learning.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0204",
     "language": "EN",
@@ -3678,9 +3678,9 @@
     "editorial": {
       "author": "Richard O. Duda, Peter E. Hart, David G. Stork",
       "category": "Textbook ML",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Textbook on pattern recognition and classification, covering Bayesian decision theory, parameter estimation, nonparametric techniques, linear discriminants, neural networks, and unsupervised clustering.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0205",
     "language": "EN",
@@ -3696,9 +3696,9 @@
     "editorial": {
       "author": "Kevin P. Murphy",
       "category": "Textbook ML",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Textbook presenting machine learning through a probabilistic, Bayesian framework, covering models for regression, classification, graphical models, and inference methods across a broad range of topics.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0206",
     "language": "EN",
@@ -3714,9 +3714,9 @@
     "editorial": {
       "author": "Kevin P. Murphy",
       "category": "Textbook ML",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Introductory textbook covering machine learning fundamentals from a probabilistic perspective, including linear models, deep learning, and inference, updated with modern methods and code examples.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0207",
     "language": "EN",
@@ -3732,9 +3732,9 @@
     "editorial": {
       "author": "Kevin P. Murphy",
       "category": "Textbook ML",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Companion volume covering advanced topics in probabilistic machine learning, including detailed treatment of inference algorithms, generative models, graphical models, and decision-making under uncertainty.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0208",
     "language": "EN",
@@ -3750,9 +3750,9 @@
     "editorial": {
       "author": "Shai Shalev-Shwartz, Shai Ben-David",
       "category": "Textbook ML",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Textbook presenting the theoretical foundations of machine learning, covering the PAC learning framework, VC dimension, generalization bounds, and a range of learning algorithms.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0209",
     "language": "EN",
@@ -3768,9 +3768,9 @@
     "editorial": {
       "author": "Mehryar Mohri, Afshin Rostamizadeh, Ameet Talwalkar",
       "category": "Textbook ML",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Graduate textbook on the theoretical foundations of machine learning, covering generalization bounds, support vector machines, kernel methods, boosting, online learning, and related algorithms.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0210",
     "language": "EN",
@@ -3786,9 +3786,9 @@
     "editorial": {
       "author": "David Barber",
       "category": "Textbook ML",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Textbook covering Bayesian methods and probabilistic models in machine learning, including graphical models, inference, and learning, with accompanying software.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0211",
     "language": "EN",
@@ -3804,9 +3804,9 @@
     "editorial": {
       "author": "Carl Edward Rasmussen, Christopher K. I. Williams",
       "category": "Textbook ML",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Textbook on Gaussian process methods for regression and classification, covering theory, model selection, approximation methods, and connections to other learning approaches.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0212",
     "language": "EN",
@@ -3822,9 +3822,9 @@
     "editorial": {
       "author": "Daphne Koller, Nir Friedman",
       "category": "Textbook ML",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Textbook on probabilistic graphical models, covering representation, inference, and learning for Bayesian networks and Markov networks.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0213",
     "language": "EN",
@@ -3840,9 +3840,9 @@
     "editorial": {
       "author": "Vladimir N. Vapnik",
       "category": "Textbook ML",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Book presenting statistical learning theory and the principles behind support vector machines, covering generalization, capacity control, and the structural risk minimization framework.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0214",
     "language": "EN",
@@ -3858,9 +3858,9 @@
     "editorial": {
       "author": "Zhi-Hua Zhou",
       "category": "Textbook ML",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Book on ensemble learning methods, covering boosting, bagging, random forests, combination strategies, and techniques for building and analyzing ensembles of models.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0215",
     "language": "EN",
@@ -3876,9 +3876,9 @@
     "editorial": {
       "author": "Larry Wasserman",
       "category": "Math & Stats",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Textbook offering a concise treatment of probability and statistical inference, covering estimation, hypothesis testing, bootstrap methods, and topics connecting statistics to machine learning and data mining.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0216",
     "language": "EN",
@@ -3894,9 +3894,9 @@
     "editorial": {
       "author": "Stephen Boyd, Lieven Vandenberghe",
       "category": "Math & Stats",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Textbook on convex optimization theory and applications, covering convex sets and functions, duality, and algorithms such as interior-point methods, with examples from engineering and other fields.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0217",
     "language": "EN",
@@ -3912,9 +3912,9 @@
     "editorial": {
       "author": "Judea Pearl",
       "category": "Math & Stats",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Book presenting a framework for causal reasoning using structural models, graphical methods, and counterfactuals, covering causal diagrams, the do-calculus, and inference of cause-effect relationships.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0218",
     "language": "EN",
@@ -3930,9 +3930,9 @@
     "editorial": {
       "author": "Judea Pearl, Madelyn Glymour, Nicholas P. Jewell",
       "category": "Math & Stats",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Introductory text on causal inference in statistics, covering graphical models, structural causal models, intervention, counterfactuals, and methods for estimating causal effects from data.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0219",
     "language": "EN",
@@ -3948,9 +3948,9 @@
     "editorial": {
       "author": "Jonas Peters, Dominik Janzing, Bernhard Schoelkopf",
       "category": "Math & Stats",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Graduate text on causal inference that develops structural causal models, covers cause-effect discovery from data, and connects causality with machine learning algorithms.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0220",
     "language": "EN",
@@ -3966,9 +3966,9 @@
     "editorial": {
       "author": "Daniel Jurafsky, James H. Martin",
       "category": "NLP",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Textbook covering speech and language processing, including parsing, semantics, machine translation, speech recognition, and statistical and rule-based methods for natural language.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0221",
     "language": "EN",
@@ -3984,9 +3984,9 @@
     "editorial": {
       "author": "Christopher D. Manning, Hinrich Schuetze",
       "category": "NLP",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Textbook on statistical methods for natural language processing, covering probability, language models, collocations, word sense disambiguation, parsing, and text classification.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0222",
     "language": "EN",
@@ -4002,9 +4002,9 @@
     "editorial": {
       "author": "Christopher D. Manning, Prabhakar Raghavan, Hinrich Schuetze",
       "category": "NLP",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Textbook on information retrieval covering indexing, ranking, search algorithms, text classification, clustering, and web search.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0223",
     "language": "EN",
@@ -4020,9 +4020,9 @@
     "editorial": {
       "author": "Lewis Tunstall, Leandro von Werra, Thomas Wolf",
       "category": "NLP",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Practical guide to building NLP applications with the Hugging Face Transformers library, covering tasks such as classification, named entity recognition, summarization, and question answering.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0224",
     "language": "EN",
@@ -4038,9 +4038,9 @@
     "editorial": {
       "author": "Sebastian Raschka",
       "category": "LLM Engineering",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Step-by-step guide to implementing a GPT-style large language model from scratch in PyTorch, covering tokenization, attention, pretraining, and fine-tuning.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0225",
     "language": "EN",
@@ -4056,9 +4056,9 @@
     "editorial": {
       "author": "Chip Huyen",
       "category": "LLM Engineering",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Guide to building applications on top of foundation models, covering prompt engineering, retrieval-augmented generation, fine-tuning, evaluation, and deployment.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0226",
     "language": "EN",
@@ -4074,9 +4074,9 @@
     "editorial": {
       "author": "Andriy Burkov",
       "category": "ML Engineering",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Practitioner guide to the machine learning lifecycle, covering data collection, feature engineering, model training, evaluation, deployment, and monitoring.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0227",
     "language": "EN",
@@ -4092,9 +4092,9 @@
     "editorial": {
       "author": "Andrew Ng",
       "category": "ML Engineering",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Short book offering practical advice on structuring machine learning projects, diagnosing errors, and setting up training, development, and test sets.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0228",
     "language": "EN",
@@ -4110,9 +4110,9 @@
     "editorial": {
       "author": "Emmanuel Ameisen",
       "category": "ML Engineering",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Guide to designing, building, and deploying machine learning products, covering problem framing, iteration, evaluation, and putting models into production.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0229",
     "language": "EN",
@@ -4128,9 +4128,9 @@
     "editorial": {
       "author": "Christoph Molnar",
       "category": "ML Engineering",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Guide to methods for interpreting machine learning models, covering techniques such as partial dependence plots, LIME, SHAP, and feature importance.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0230",
     "language": "EN",
@@ -4146,9 +4146,9 @@
     "editorial": {
       "author": "John Berryman, Albert Ziegler",
       "category": "LLM Engineering",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Book on prompt engineering for large language models, covering prompt construction, context management, and techniques for building LLM-based applications.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0231",
     "language": "EN",
@@ -4164,9 +4164,9 @@
     "editorial": {
       "author": "Aurelien Geron",
       "category": "Practitioner",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Practical textbook on machine learning and deep learning using Scikit-Learn, Keras, and TensorFlow, covering supervised and unsupervised learning, neural networks, and training techniques.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0232",
     "language": "EN",
@@ -4182,9 +4182,9 @@
     "editorial": {
       "author": "Francois Chollet",
       "category": "Practitioner",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Introduction to deep learning using the Keras library and Python, covering neural networks for computer vision, text, and generative models.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0233",
     "language": "EN",
@@ -4200,9 +4200,9 @@
     "editorial": {
       "author": "Jeremy Howard, Sylvain Gugger",
       "category": "Practitioner",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Practical introduction to deep learning using the fastai library and PyTorch, covering computer vision, NLP, and training techniques for practitioners.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0234",
     "language": "EN",
@@ -4218,9 +4218,9 @@
     "editorial": {
       "author": "Eli Stevens, Luca Antiga, Thomas Viehmann",
       "category": "Practitioner",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Guide to building and training deep learning models with PyTorch, covering tensors, neural network construction, and a worked medical imaging project.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0235",
     "language": "EN",
@@ -4236,9 +4236,9 @@
     "editorial": {
       "author": "Andrew W. Trask",
       "category": "Practitioner",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Introduction to deep learning that builds neural networks from scratch in Python, explaining backpropagation and gradient descent through worked examples.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0236",
     "language": "EN",
@@ -4254,9 +4254,9 @@
     "editorial": {
       "author": "Michael Nielsen",
       "category": "Textbook DL",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Online book introducing neural networks and deep learning, explaining backpropagation, gradient descent, and the mathematics behind how neural networks learn.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0237",
     "language": "EN",
@@ -4272,9 +4272,9 @@
     "editorial": {
       "author": "Christopher M. Bishop, Hugh Bishop",
       "category": "Textbook DL",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Graduate-level textbook covering the principles of deep learning, including neural network architectures, transformers, and probabilistic methods, with a focus on foundational concepts rather than implementation.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0238",
     "language": "EN",
@@ -4290,9 +4290,9 @@
     "editorial": {
       "author": "Simon J.D. Prince",
       "category": "Textbook DL",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Textbook introducing the main ideas of deep learning, covering supervised and unsupervised models, network architectures, training, and topics such as reinforcement learning, with emphasis on intuition and mathematics.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0239",
     "language": "EN",
@@ -4308,9 +4308,9 @@
     "editorial": {
       "author": "Francois Fleuret",
       "category": "Textbook DL",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Short introductory text presenting the core concepts and components of deep learning, including network layers, training, and common architectures, intended as a concise reference.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0240",
     "language": "EN",
@@ -4326,9 +4326,9 @@
     "editorial": {
       "author": "Aston Zhang, Zachary C. Lipton, Mu Li, Alexander J. Smola",
       "category": "Textbook DL",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Interactive textbook teaching deep learning with runnable code examples, covering fundamentals, convolutional and recurrent networks, attention, and applications in vision and natural language processing.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0241",
     "language": "EN",
@@ -4344,9 +4344,9 @@
     "editorial": {
       "author": "David Foster",
       "category": "Textbook DL",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Practical guide to generative modeling techniques, including variational autoencoders, generative adversarial networks, autoregressive models, diffusion models, and transformers, with code examples.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0242",
     "language": "EN",
@@ -4362,9 +4362,9 @@
     "editorial": {
       "author": "Csaba Szepesvari",
       "category": "RL",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Concise survey of reinforcement learning methods, covering value-based and policy-based algorithms, function approximation, and the theory behind temporal-difference learning.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0243",
     "language": "EN",
@@ -4380,9 +4380,9 @@
     "editorial": {
       "author": "Tor Lattimore, Csaba Szepesvari",
       "category": "RL",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Textbook on the multi-armed bandit problem, covering stochastic and adversarial bandits, regret analysis, and algorithms such as upper confidence bound and Thompson sampling.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0244",
     "language": "EN",
@@ -4398,9 +4398,9 @@
     "editorial": {
       "author": "Miguel Morales",
       "category": "RL",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Introductory book teaching deep reinforcement learning through code and worked examples, covering methods from value iteration to policy gradients and actor-critic algorithms.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0245",
     "language": "EN",
@@ -4416,9 +4416,9 @@
     "editorial": {
       "author": "Richard Szeliski",
       "category": "Computer Vision",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Textbook covering computer vision techniques, including image processing, feature detection, structure from motion, stereo, recognition, and the underlying mathematics.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0246",
     "language": "EN",
@@ -4434,9 +4434,9 @@
     "editorial": {
       "author": "Richard Hartley, Andrew Zisserman",
       "category": "Computer Vision",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Reference on the geometry of multiple camera views, covering projective geometry, camera models, epipolar geometry, and 3D reconstruction from images.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0247",
     "language": "EN",
@@ -4452,9 +4452,9 @@
     "editorial": {
       "author": "Sebastian Thrun, Wolfram Burgard, Dieter Fox",
       "category": "Robotics",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Textbook on probabilistic methods in robotics, covering Bayesian state estimation, localization, mapping, SLAM, and planning under uncertainty.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0248",
     "language": "EN",
@@ -4470,9 +4470,9 @@
     "editorial": {
       "author": "Steven M. LaValle",
       "category": "Robotics",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Comprehensive text on motion planning algorithms for robotics, covering configuration spaces, sampling-based planning, combinatorial methods, and planning under differential constraints and uncertainty.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0249",
     "language": "EN",
@@ -4488,9 +4488,9 @@
     "editorial": {
       "author": "Kevin M. Lynch, Frank C. Park",
       "category": "Robotics",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Textbook on robot mechanics, motion planning, and control, covering kinematics, dynamics, trajectory generation, and manipulation using a screw-theory approach.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0250",
     "language": "EN",
@@ -4506,9 +4506,9 @@
     "editorial": {
       "author": "Roland Siegwart, Illah R. Nourbakhsh, Davide Scaramuzza",
       "category": "Robotics",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Introductory text on mobile robotics, covering locomotion, sensors, perception, localization, mapping, and navigation for autonomous mobile robots.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0251",
     "language": "EN",
@@ -4524,9 +4524,9 @@
     "editorial": {
       "author": "David L. Poole, Alan K. Mackworth",
       "category": "Textbook AI",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Textbook presenting artificial intelligence through the framework of computational agents, covering search, logic, knowledge representation, reasoning under uncertainty, learning, and planning.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0252",
     "language": "EN",
@@ -4542,9 +4542,9 @@
     "editorial": {
       "author": "Nils J. Nilsson",
       "category": "Textbook AI",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Textbook surveying artificial intelligence methods, covering search, logic, knowledge representation, reasoning, planning, learning, and approaches to building intelligent agents.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0253",
     "language": "EN",
@@ -4560,9 +4560,9 @@
     "editorial": {
       "author": "Peter Norvig",
       "category": "Textbook AI",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Book teaching AI programming techniques through case studies implemented in Common Lisp, covering classic AI systems such as expert systems, search, and natural language programs.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0254",
     "language": "EN",
@@ -4578,9 +4578,9 @@
     "editorial": {
       "author": "Jiawei Han, Micheline Kamber, Jian Pei",
       "category": "Data Mining",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Textbook on data mining concepts and methods, covering data preprocessing, classification, clustering, association rule mining, and mining of complex data types.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0255",
     "language": "EN",
@@ -4596,9 +4596,9 @@
     "editorial": {
       "author": "Jure Leskovec, Anand Rajaraman, Jeffrey D. Ullman",
       "category": "Data Mining",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Textbook on large-scale data mining algorithms, covering MapReduce, frequent itemsets, recommendation systems, clustering, link analysis, and mining of social-network and streaming data.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0256",
     "language": "EN",
@@ -4614,9 +4614,9 @@
     "editorial": {
       "author": "Foster Provost, Tom Fawcett",
       "category": "Data Mining",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Introduction to the fundamental principles of data science and how data analytics supports business decision-making, covering predictive modeling, evaluation, and data-analytic thinking.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0257",
     "language": "EN",
@@ -4632,9 +4632,9 @@
     "editorial": {
       "author": "Christopher M. Bishop",
       "category": "Textbook DL",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Textbook presenting neural networks from the perspective of statistical pattern recognition, covering network architectures, error functions, optimization, and Bayesian methods.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0258",
     "language": "EN",
@@ -4650,9 +4650,9 @@
     "editorial": {
       "author": "Marvin Minsky, Seymour Papert",
       "category": "Classics",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Mathematical analysis of the computational capabilities and limitations of single-layer perceptrons, using geometry to prove what such networks can and cannot compute.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0259",
     "language": "EN",
@@ -4668,9 +4668,9 @@
     "editorial": {
       "author": "Karen Hao",
       "category": "Journalism & Biography",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Journalistic account of OpenAI and Sam Altman, examining the company's history, business decisions, labor practices, and the broader consequences of its AI development.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0260",
     "language": "EN",
@@ -4686,9 +4686,9 @@
     "editorial": {
       "author": "Stephen Witt",
       "category": "Journalism & Biography",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Biography of Nvidia chief executive Jensen Huang and the company's role in producing the GPUs used for modern AI computing.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0261",
     "language": "EN",
@@ -4704,9 +4704,9 @@
     "editorial": {
       "author": "Keach Hagey",
       "category": "Journalism & Biography",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Biography of Sam Altman tracing his career and rise to leadership of OpenAI, drawing on reporting about his background and the company's development.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0262",
     "language": "EN",
@@ -4722,9 +4722,9 @@
     "editorial": {
       "author": "Gary Rivlin",
       "category": "Journalism & Biography",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Reported account of the competition among major technology companies, including Microsoft and Google, to commercialize artificial intelligence products and services.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0263",
     "language": "EN",
@@ -4740,9 +4740,9 @@
     "editorial": {
       "author": "Adam Becker",
       "category": "Critique & Skepticism",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Critical examination of techno-utopian ideologies among Silicon Valley figures, scrutinizing claims about AI, space colonization, and long-term visions of humanity's future.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0264",
     "language": "EN",
@@ -4758,9 +4758,9 @@
     "editorial": {
       "author": "Emily M. Bender, Alex Hanna",
       "category": "Critique & Skepticism",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Critique of AI marketing and hype by two researchers, arguing for skepticism toward industry claims and discussing the social effects of the technology.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0265",
     "language": "EN",
@@ -4776,9 +4776,9 @@
     "editorial": {
       "author": "Reid Hoffman, Greg Beato",
       "category": "Futures",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Argument by Reid Hoffman and Greg Beato for an optimistic view of AI, contending that broad access to the technology can expand individual and collective capabilities.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0266",
     "language": "EN",
@@ -4794,9 +4794,9 @@
     "editorial": {
       "author": "Christopher Summerfield",
       "category": "Popular Science",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Popular-science explanation of how large language models learned to produce human-like language and what their capabilities mean, written by a cognitive neuroscientist.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0267",
     "language": "EN",
@@ -4812,9 +4812,9 @@
     "editorial": {
       "author": "Dwarkesh Patel",
       "category": "Journalism & Biography",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Collection of interviews with researchers and industry figures documenting the period of rapid scaling in AI development from 2019 to 2025.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0268",
     "language": "EN",
@@ -4830,9 +4830,9 @@
     "editorial": {
       "author": "De Kai",
       "category": "Society & Ethics",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Discussion framing the development of AI systems as analogous to raising children, arguing that societal values and oversight shape how the technology behaves.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0269",
     "language": "EN",
@@ -4848,9 +4848,9 @@
     "editorial": {
       "author": "Eugene Charniak",
       "category": "History",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "History of artificial intelligence covering the field's ideas, methods, and development, written by a computer scientist for a general readership.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0270",
     "language": "EN",
@@ -4866,9 +4866,9 @@
     "editorial": {
       "author": "Hilke Schellmann",
       "category": "Society & Ethics",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Investigation into how algorithms and AI tools are used in hiring, workplace monitoring, promotion, and termination decisions, based on reporting on employment systems.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0271",
     "language": "EN",
@@ -4884,9 +4884,9 @@
     "editorial": {
       "author": "Marietje Schaake",
       "category": "Governance & Policy",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Analysis of how technology companies have accumulated power affecting governance and democratic institutions, with proposals for regulatory and political responses.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0272",
     "language": "EN",
@@ -4902,9 +4902,9 @@
     "editorial": {
       "author": "Dan Wang",
       "category": "Geopolitics",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Examination of China's industrial and technological strategy and its drive to shape future technologies, drawing on the author's reporting and observations.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0273",
     "language": "EN",
@@ -4920,9 +4920,9 @@
     "editorial": {
       "author": "Chris Miller",
       "category": "Geopolitics",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Examines the global semiconductor industry and the geopolitical competition over chip manufacturing, tracing how computing power became central to military and economic strength between the United States, China, and Asian producers.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0274",
     "language": "EN",
@@ -4938,9 +4938,9 @@
     "editorial": {
       "author": "Alexander C. Karp, Nicholas W. Zamiska",
       "category": "Geopolitics",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Argues that Western technology companies should align more closely with national security and government interests, drawing on Palantir's experience to critique Silicon Valley's reluctance to work on defense and state projects.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0275",
     "language": "EN",
@@ -4956,9 +4956,9 @@
     "editorial": {
       "author": "Joanna Stern",
       "category": "Journalism & Biography",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A Wall Street Journal columnist documents a year of using consumer AI tools across daily personal and work tasks, reporting on what the technology did well and where it failed.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0276",
     "language": "EN",
@@ -4974,9 +4974,9 @@
     "editorial": {
       "author": "James Muldoon, Mark Graham, Callum Cant",
       "category": "Society & Ethics",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Investigates the human labor behind AI systems, including data annotators and content workers, often in the global South, who train and maintain machine learning models.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0277",
     "language": "EN",
@@ -4992,9 +4992,9 @@
     "editorial": {
       "author": "Ruha Benjamin",
       "category": "Society & Ethics",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Argues that technology and algorithms can encode and reinforce racial discrimination, introducing the concept of the New Jim Code and examining design practices through a critical race lens.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0278",
     "language": "EN",
@@ -5010,9 +5010,9 @@
     "editorial": {
       "author": "Safiya Umoja Noble",
       "category": "Society & Ethics",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Analyzes how search engine results and ranking systems reproduce racist and sexist biases, particularly against Black women, drawing on examples from Google searches.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0279",
     "language": "EN",
@@ -5028,9 +5028,9 @@
     "editorial": {
       "author": "Virginia Eubanks",
       "category": "Society & Ethics",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Examines how automated decision systems in welfare, housing, and social services surveil and disadvantage poor and working-class people in the United States.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0280",
     "language": "EN",
@@ -5046,9 +5046,9 @@
     "editorial": {
       "author": "Shoshana Zuboff",
       "category": "Society & Ethics",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Analyzes how technology companies extract and commodify personal behavioral data for prediction and profit, introducing the concept of surveillance capitalism.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0281",
     "language": "EN",
@@ -5064,9 +5064,9 @@
     "editorial": {
       "author": "Catherine D'Ignazio, Lauren F. Klein",
       "category": "Society & Ethics",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Presents a framework for data science informed by intersectional feminist theory, addressing power, bias, and inequality in how data is collected, analyzed, and used.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0282",
     "language": "EN",
@@ -5082,9 +5082,9 @@
     "editorial": {
       "author": "Sasha Costanza-Chock",
       "category": "Society & Ethics",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Proposes design practices led by marginalized communities, critiquing conventional design for reproducing inequality and offering principles centered on those most affected.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0283",
     "language": "EN",
@@ -5100,9 +5100,9 @@
     "editorial": {
       "author": "Mary L. Gray, Siddharth Suri",
       "category": "Society & Ethics",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Examines on-demand digital labor where workers perform tasks that power automated systems, often invisibly and without stable employment protections.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0284",
     "language": "EN",
@@ -5118,9 +5118,9 @@
     "editorial": {
       "author": "Sarah T. Roberts",
       "category": "Society & Ethics",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Examines the workers who moderate social media content, documenting the labor, psychological toll, and hidden conditions of commercial content moderation.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0285",
     "language": "EN",
@@ -5136,9 +5136,9 @@
     "editorial": {
       "author": "Carissa Veliz",
       "category": "Society & Ethics",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Argues that personal data collection concentrates power and undermines privacy and democracy, and offers practical and policy measures for individuals to reclaim control of their data.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0286",
     "language": "EN",
@@ -5154,9 +5154,9 @@
     "editorial": {
       "author": "Michael Kearns, Aaron Roth",
       "category": "Society & Ethics",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Explains technical approaches to building algorithms that account for fairness and privacy, written for a general audience by two computer scientists.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0287",
     "language": "EN",
@@ -5172,9 +5172,9 @@
     "editorial": {
       "author": "Solon Barocas, Moritz Hardt, Arvind Narayanan",
       "category": "Society & Ethics",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A textbook examining fairness in machine learning, covering sources of bias, formal definitions of fairness, and the technical and societal limitations of mitigation methods.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0288",
     "language": "EN",
@@ -5190,9 +5190,9 @@
     "editorial": {
       "author": "Wendell Wallach, Colin Allen",
       "category": "Society & Ethics",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Examines the field of machine ethics and the challenges of designing artificial agents capable of making moral decisions.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0289",
     "language": "EN",
@@ -5208,9 +5208,9 @@
     "editorial": {
       "author": "Patrick Lin, Keith Abney, George A. Bekey (eds.)",
       "category": "Society & Ethics",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "An edited collection of essays examining ethical and social questions raised by robotics, including military, medical, and autonomous applications.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0290",
     "language": "EN",
@@ -5226,9 +5226,9 @@
     "editorial": {
       "author": "Dan McQuillan",
       "category": "Critique & Skepticism",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Argues against the adoption of AI from a critical political perspective, contending that AI systems amplify harm and inequality and advocating organized resistance.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0291",
     "language": "EN",
@@ -5244,9 +5244,9 @@
     "editorial": {
       "author": "James Bridle",
       "category": "Critique & Skepticism",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A critique arguing that increasing computational complexity and data systems obscure rather than clarify understanding of the world, covering topics like climate, surveillance, automation, and conspiracy thinking.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0292",
     "language": "EN",
@@ -5262,9 +5262,9 @@
     "editorial": {
       "author": "James Bridle",
       "category": "Philosophy of Mind",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "An exploration of non-human intelligence across animals, plants, and machines, arguing for a broader, ecological understanding of mind and intelligence beyond the human.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0293",
     "language": "EN",
@@ -5280,9 +5280,9 @@
     "editorial": {
       "author": "Matteo Pasquinelli",
       "category": "History",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A history tracing artificial intelligence and machine learning back to the division of labor and the social organization of work, examining how human labor patterns shaped algorithmic systems.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0294",
     "language": "EN",
@@ -5298,9 +5298,9 @@
     "editorial": {
       "author": "Brian Merchant",
       "category": "History",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A history of the Luddite movement among 19th-century English textile workers, drawing parallels to contemporary conflicts over technology, automation, and the power of large tech companies.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0295",
     "language": "EN",
@@ -5316,9 +5316,9 @@
     "editorial": {
       "author": "Sara Wachter-Boettcher",
       "category": "Society & Ethics",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "An examination of how technology products encode bias and exclusion through design choices, using examples of apps and algorithms that disadvantage women and marginalized groups.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0296",
     "language": "EN",
@@ -5334,9 +5334,9 @@
     "editorial": {
       "author": "Wendy Hui Kyong Chun",
       "category": "Society & Ethics",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "An analysis of how data correlation and predictive algorithms reproduce categories of race, gender, and class, examining the politics of recognition in networked systems.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0297",
     "language": "EN",
@@ -5352,9 +5352,9 @@
     "editorial": {
       "author": "Meredith Broussard",
       "category": "Society & Ethics",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "An argument that algorithmic bias stems from systemic design rather than isolated errors, examining race, gender, and disability bias across facial recognition, healthcare, education, and other domains.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0298",
     "language": "EN",
@@ -5370,9 +5370,9 @@
     "editorial": {
       "author": "David G. Robinson",
       "category": "Governance & Policy",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "An account of the design of a kidney transplant allocation algorithm, examining how human values and public deliberation are embedded in algorithmic decision-making systems.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0299",
     "language": "EN",
@@ -5388,9 +5388,9 @@
     "editorial": {
       "author": "Jamie Susskind",
       "category": "Governance & Policy",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "An argument that concentrated digital power requires new democratic rules and regulation, proposing principles for governing technology companies and protecting freedom in the digital age.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0300",
     "language": "EN",
@@ -5406,9 +5406,9 @@
     "editorial": {
       "author": "Jamie Susskind",
       "category": "Governance & Policy",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "An examination of how emerging technologies will reshape politics, liberty, democracy, and justice, arguing that engineers and code increasingly govern human life.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0301",
     "language": "EN",
@@ -5424,9 +5424,9 @@
     "editorial": {
       "author": "Brett Frischmann, Evan Selinger",
       "category": "Society & Ethics",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A critique arguing that pervasive digital technologies and techno-social engineering threaten human autonomy and free will, proposing ways to preserve self-determination.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0302",
     "language": "EN",
@@ -5442,9 +5442,9 @@
     "editorial": {
       "author": "Jacob Ward",
       "category": "Society & Ethics",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "An argument that artificial intelligence and behavioral technology narrow human choice and decision-making, examining cognitive biases and proposing ways to retain individual agency.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0303",
     "language": "EN",
@@ -5460,9 +5460,9 @@
     "editorial": {
       "author": "Rob Reich, Mehran Sahami, Jeremy M. Weinstein",
       "category": "Governance & Policy",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A critique of the technology industry by Stanford academics, examining harms from optimization and disruption across privacy, automation, free speech, and democracy, and proposing democratic oversight.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0304",
     "language": "EN",
@@ -5478,9 +5478,9 @@
     "editorial": {
       "author": "Brad Smith, Carol Ann Browne",
       "category": "Governance & Policy",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A discussion by Microsoft's president of policy challenges raised by digital technology, covering cybersecurity, privacy, artificial intelligence, and the relationship between tech companies and governments.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0305",
     "language": "EN",
@@ -5496,9 +5496,9 @@
     "editorial": {
       "author": "John Danaher",
       "category": "Economics & Labour",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A philosophical examination of automation and the future of work, considering whether a world with less human labor could support human flourishing through utopian alternatives.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0306",
     "language": "EN",
@@ -5514,9 +5514,9 @@
     "editorial": {
       "author": "Luciano Floridi",
       "category": "Philosophy of Mind",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "An argument that information and computing technologies are reshaping reality and human self-understanding, introducing the concept of the infosphere and humans as informational organisms.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0307",
     "language": "EN",
@@ -5532,9 +5532,9 @@
     "editorial": {
       "author": "Luciano Floridi",
       "category": "Society & Ethics",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "An overview of ethical issues raised by artificial intelligence, covering principles, governance, risks, and opportunities, and surveying frameworks for evaluating AI systems and their social impact.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0308",
     "language": "EN",
@@ -5550,9 +5550,9 @@
     "editorial": {
       "author": "Ben Shneiderman",
       "category": "Governance & Policy",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A framework for designing artificial intelligence systems that combine high automation with high human control, presenting guidelines, governance structures, and design principles centered on human needs.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0309",
     "language": "EN",
@@ -5568,9 +5568,9 @@
     "editorial": {
       "author": "Toby Walsh",
       "category": "Society & Ethics",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Examines moral and ethical problems posed by artificial intelligence, including bias, autonomous weapons, privacy, and accountability, written for a general audience by a computer scientist.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0310",
     "language": "EN",
@@ -5586,9 +5586,9 @@
     "editorial": {
       "author": "Toby Walsh",
       "category": "Futures",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Speculates about how artificial intelligence may reshape work, war, politics, privacy, and daily life by the year 2062, written by an AI researcher for general readers.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0311",
     "language": "EN",
@@ -5604,9 +5604,9 @@
     "editorial": {
       "author": "Toby Walsh",
       "category": "Critique & Skepticism",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Argues that much of what is presented as artificial intelligence relies on human labor and imitation rather than genuine machine understanding, and discusses the limits of current AI systems.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0312",
     "language": "EN",
@@ -5622,9 +5622,9 @@
     "editorial": {
       "author": "Justin B. Bullock et al. (eds.)",
       "category": "Governance & Policy",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Edited volume of scholarly essays surveying approaches to governing artificial intelligence, covering regulation, institutions, ethics, and policy across multiple disciplines and jurisdictions.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0313",
     "language": "EN",
@@ -5640,9 +5640,9 @@
     "editorial": {
       "author": "Frank Pasquale",
       "category": "Governance & Policy",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Argues that AI and robotics should complement rather than replace human professionals, proposing principles to keep human expertise central in fields such as medicine, law, and education.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0314",
     "language": "EN",
@@ -5658,9 +5658,9 @@
     "editorial": {
       "author": "Frank Pasquale",
       "category": "Governance & Policy",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Examines how opaque algorithms used in finance, search, and reputation scoring shape decisions about people, arguing for greater transparency and accountability in these systems.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0315",
     "language": "EN",
@@ -5676,9 +5676,9 @@
     "editorial": {
       "author": "Ryan Abbott",
       "category": "Governance & Policy",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Examines how legal systems should treat artificial intelligence, arguing that AI should be held to a standard of reasonable behavior comparable to that applied to humans across areas such as liability and patents.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0316",
     "language": "EN",
@@ -5694,9 +5694,9 @@
     "editorial": {
       "author": "Jacob Turner",
       "category": "Governance & Policy",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Surveys the legal questions raised by artificial intelligence and considers how laws on liability, personhood, and responsibility might be designed to regulate autonomous systems.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0317",
     "language": "EN",
@@ -5712,9 +5712,9 @@
     "editorial": {
       "author": "Karen Yeung, Martin Lodge (eds.)",
       "category": "Governance & Policy",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Edited collection of academic essays examining the use of algorithms and data-driven systems in governance and regulation, and the legal and ethical issues this raises.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0318",
     "language": "EN",
@@ -5730,9 +5730,9 @@
     "editorial": {
       "author": "Beena Ammanath",
       "category": "Governance & Policy",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Practical guide for business leaders on building trust in artificial intelligence, covering ethics, risk, transparency, and governance practices for deploying AI in organizations.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0319",
     "language": "EN",
@@ -5748,9 +5748,9 @@
     "editorial": {
       "author": "Olivia Gambelin",
       "category": "Governance & Policy",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Practical guide to building responsible AI in organizations, organized around people, process, and technology, and using ethics and values as decision-making tools in AI design and development.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0320",
     "language": "EN",
@@ -5766,9 +5766,9 @@
     "editorial": {
       "author": "Jeroen Janssen",
       "category": "Governance & Policy",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Addresses accountability and governance in organizational use of artificial intelligence, presenting a framework and artifacts for assigning responsibility and oversight of AI systems.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0321",
     "language": "EN+NL",
@@ -5784,9 +5784,9 @@
     "editorial": {
       "author": "Toby Ord",
       "category": "Safety & Alignment",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Surveys major risks that could threaten humanity's long-term survival, including artificial intelligence, pandemics, and nuclear war, and argues for prioritizing the reduction of existential risk.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0322",
     "language": "EN",
@@ -5802,9 +5802,9 @@
     "editorial": {
       "author": "William MacAskill",
       "category": "Safety & Alignment",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Presents the case for longtermism, the view that positively influencing the long-term future should be a key moral priority, and discusses risks including those from advanced technology.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0323",
     "language": "EN",
@@ -5820,9 +5820,9 @@
     "editorial": {
       "author": "Eliezer Yudkowsky, Nate Soares",
       "category": "Safety & Alignment",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Argues that the development of superhuman artificial intelligence would pose a catastrophic threat to humanity, presenting the authors' case for why such systems would be uncontrollable.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0324",
     "language": "EN",
@@ -5838,9 +5838,9 @@
     "editorial": {
       "author": "Darren McKee",
       "category": "Safety & Alignment",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Introduces the risks of artificial superintelligence for a general, non-technical audience, explaining how advanced AI works, why controlling it would be difficult, and proposing responses.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0325",
     "language": "EN",
@@ -5856,9 +5856,9 @@
     "editorial": {
       "author": "Tom Chivers",
       "category": "Safety & Alignment",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Reports on the rationalist community and the people concerned with artificial intelligence risk, explaining arguments about superintelligence and AI safety for general readers.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0326",
     "language": "EN",
@@ -5874,9 +5874,9 @@
     "editorial": {
       "author": "Stuart Armstrong",
       "category": "Safety & Alignment",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Short introduction arguing that machine intelligence could surpass human capabilities and pose risks, outlining the case for taking AI safety and the control problem seriously.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0327",
     "language": "EN",
@@ -5892,9 +5892,9 @@
     "editorial": {
       "author": "Eliezer Yudkowsky",
       "category": "Safety & Alignment",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Eliezer Yudkowsky's collected essays on probability theory, cognitive biases, and human reasoning, drawn from his LessWrong writings on improving rational thought and decision-making.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0328",
     "language": "EN",
@@ -5910,9 +5910,9 @@
     "editorial": {
       "author": "Nick Bostrom, Milan M. Cirkovic (eds.)",
       "category": "Safety & Alignment",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "An edited volume of essays examining risks that could cause severe global harm, including nuclear war, pandemics, asteroid impacts, and artificial intelligence.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0329",
     "language": "EN",
@@ -5928,9 +5928,9 @@
     "editorial": {
       "author": "Dan Hendrycks",
       "category": "Safety & Alignment",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A textbook covering technical and societal aspects of AI safety, including alignment, misuse risks, governance, and ethical considerations for advanced machine learning systems.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0330",
     "language": "EN",
@@ -5946,9 +5946,9 @@
     "editorial": {
       "author": "Douglas R. Hofstadter",
       "category": "Philosophy of Mind",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "An exploration of how self-reference and recursion in mathematics, art, and music relate to cognition and consciousness, connecting the work of Goedel, Escher, and Bach.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0331",
     "language": "EN",
@@ -5964,9 +5964,9 @@
     "editorial": {
       "author": "Douglas R. Hofstadter",
       "category": "Philosophy of Mind",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Hofstadter argues that the self and consciousness arise from self-referential feedback patterns, or strange loops, in the brain.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0332",
     "language": "EN",
@@ -5982,9 +5982,9 @@
     "editorial": {
       "author": "Douglas R. Hofstadter, Daniel C. Dennett",
       "category": "Philosophy of Mind",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "An edited anthology of essays and stories about the mind, self, and consciousness, with commentary by Hofstadter and Dennett.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0333",
     "language": "EN",
@@ -6000,9 +6000,9 @@
     "editorial": {
       "author": "Daniel C. Dennett",
       "category": "Philosophy of Mind",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Dennett presents a theory of consciousness as a product of distributed brain processes, rejecting the idea of a central observer or Cartesian theater.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0334",
     "language": "EN",
@@ -6018,9 +6018,9 @@
     "editorial": {
       "author": "Daniel C. Dennett",
       "category": "Philosophy of Mind",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Dennett traces the evolution of minds from simple organisms to human culture, examining how comprehension and intelligence emerged through Darwinian processes.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0335",
     "language": "EN",
@@ -6036,9 +6036,9 @@
     "editorial": {
       "author": "Marvin Minsky",
       "category": "Classics",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Minsky proposes that the mind is built from many simple, mindless agents whose interactions produce intelligence, presented as a collection of short connected essays.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0336",
     "language": "EN",
@@ -6054,9 +6054,9 @@
     "editorial": {
       "author": "Andrew Hodges",
       "category": "Journalism & Biography",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A biography of mathematician Alan Turing, covering his work on computability, his codebreaking at Bletchley Park, and his persecution for homosexuality.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0337",
     "language": "EN",
@@ -6072,9 +6072,9 @@
     "editorial": {
       "author": "Norbert Wiener",
       "category": "Classics",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Wiener's founding text on cybernetics, presenting a mathematical theory of control and communication through feedback in machines and living organisms.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0338",
     "language": "EN",
@@ -6090,9 +6090,9 @@
     "editorial": {
       "author": "Norbert Wiener",
       "category": "Classics",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Wiener examines the social and ethical implications of cybernetics and information theory for human society and automation.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0339",
     "language": "EN",
@@ -6108,9 +6108,9 @@
     "editorial": {
       "author": "Norbert Wiener",
       "category": "Classics",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Wiener's essays on the relationship between cybernetics, religion, and the moral questions raised by machines that learn and reproduce.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0340",
     "language": "EN",
@@ -6126,9 +6126,9 @@
     "editorial": {
       "author": "Joseph Weizenbaum",
       "category": "Classics",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Weizenbaum, creator of the ELIZA program, critiques the limits of computation and argues that certain human judgments should not be delegated to machines.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0341",
     "language": "EN",
@@ -6144,9 +6144,9 @@
     "editorial": {
       "author": "Hubert L. Dreyfus",
       "category": "Classics",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Dreyfus critiques artificial intelligence research from a phenomenological perspective, arguing that human intelligence and embodied skill cannot be fully formalized as symbolic computation.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0342",
     "language": "EN",
@@ -6162,9 +6162,9 @@
     "editorial": {
       "author": "Hubert L. Dreyfus, Stuart E. Dreyfus",
       "category": "Classics",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "The Dreyfus brothers argue that human expertise relies on intuition developed through experience rather than rule-following, and examine the limits of computer reasoning.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0343",
     "language": "EN",
@@ -6180,9 +6180,9 @@
     "editorial": {
       "author": "Terry Winograd, Fernando Flores",
       "category": "Classics",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Winograd and Flores draw on hermeneutics and biology of cognition to critique rationalist AI and propose a new foundation for designing computer systems.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0344",
     "language": "EN",
@@ -6198,9 +6198,9 @@
     "editorial": {
       "author": "John Haugeland",
       "category": "Classics",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Haugeland introduces the philosophy and methods of classical symbolic artificial intelligence, examining the claim that minds are computational systems.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0345",
     "language": "EN",
@@ -6216,9 +6216,9 @@
     "editorial": {
       "author": "Valentino Braitenberg",
       "category": "Classics",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Presents simple thought-experiment vehicles with sensors and motors to show how complex-seeming behavior can arise from basic internal wiring, building up incrementally to illustrate principles of brains and behavior.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0346",
     "language": "EN",
@@ -6234,9 +6234,9 @@
     "editorial": {
       "author": "Patricia S. Churchland, Terrence J. Sejnowski",
       "category": "Neuroscience",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A textbook introducing computational neuroscience, covering how networks of neurons process information using mathematical and modeling approaches to representation, learning, and brain function.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0347",
     "language": "EN",
@@ -6252,9 +6252,9 @@
     "editorial": {
       "author": "David J. Chalmers",
       "category": "Philosophy of Mind",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Argues that virtual realities are genuine realities and uses virtual worlds to examine classic philosophical questions about knowledge, mind, reality, and the possibility that we live in a simulation.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0348",
     "language": "EN",
@@ -6270,9 +6270,9 @@
     "editorial": {
       "author": "Anil Seth",
       "category": "Neuroscience",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Presents a theory of consciousness as a form of controlled hallucination, in which the brain predicts and constructs perceptual experience and the sense of self.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0349",
     "language": "EN",
@@ -6288,9 +6288,9 @@
     "editorial": {
       "author": "N. Katherine Hayles",
       "category": "Philosophy of Mind",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Traces how cybernetics and information theory shaped ideas about embodiment, arguing against the view of information as disembodied and examining the figure of the posthuman.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0350",
     "language": "EN",
@@ -6306,9 +6306,9 @@
     "editorial": {
       "author": "George Dyson",
       "category": "History",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Recounts the history of ideas linking machines, evolution, and intelligence, drawing on figures such as Hobbes, Darwin, and Turing to explore the emergence of machine intelligence.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0351",
     "language": "EN",
@@ -6324,9 +6324,9 @@
     "editorial": {
       "author": "George Dyson",
       "category": "History",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Recounts the building of the early stored-program computer at the Institute for Advanced Study under John von Neumann and the origins of the digital computing era.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0352",
     "language": "EN",
@@ -6342,9 +6342,9 @@
     "editorial": {
       "author": "James Gleick",
       "category": "History",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Surveys the history and theory of information, from African talking drums and the telegraph to Claude Shannon's information theory and its role across science.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0353",
     "language": "EN",
@@ -6360,9 +6360,9 @@
     "editorial": {
       "author": "M. Mitchell Waldrop",
       "category": "History",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Biography of J.C.R. Licklider and an account of how his ideas on human-computer interaction and networking shaped personal computing and the development of the internet.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0354",
     "language": "EN",
@@ -6378,9 +6378,9 @@
     "editorial": {
       "author": "Pamela McCorduck",
       "category": "History",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A history of artificial intelligence research and its leading figures, tracing the field's development and ambitions from antiquity through the late twentieth century.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0355",
     "language": "EN",
@@ -6396,9 +6396,9 @@
     "editorial": {
       "author": "Daniel Crevier",
       "category": "History",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A narrative history of the first decades of artificial intelligence research, covering its main projects, personalities, funding cycles, and periods of optimism and decline.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0356",
     "language": "EN",
@@ -6414,9 +6414,9 @@
     "editorial": {
       "author": "Jimmy Soni, Rob Goodman",
       "category": "Journalism & Biography",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Biography of Claude Shannon, covering his life and his contributions to information theory, cryptography, and the foundations of digital communication.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0357",
     "language": "EN",
@@ -6432,9 +6432,9 @@
     "editorial": {
       "author": "Walter Isaacson",
       "category": "History",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A history of the people who created computers and the internet, profiling inventors and innovators and emphasizing collaboration in the development of digital technology.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0358",
     "language": "EN",
@@ -6450,9 +6450,9 @@
     "editorial": {
       "author": "Kevin Kelly",
       "category": "Classics",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Examines decentralized and self-organizing systems across biology, machines, and economies, arguing that complex adaptive behavior emerges from distributed processes rather than central control.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0359",
     "language": "EN",
@@ -6468,9 +6468,9 @@
     "editorial": {
       "author": "Philip Ball",
       "category": "Philosophy of Mind",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Explores the diversity of possible minds, using a framework of mind-space to compare human, animal, artificial, and hypothetical alien forms of cognition and consciousness.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0360",
     "language": "EN",
@@ -6486,9 +6486,9 @@
     "editorial": {
       "author": "Grace Lindsay",
       "category": "Neuroscience",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Surveys mathematical and physical models used in neuroscience, showing how concepts from physics and engineering have shaped scientific understanding of the brain.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0361",
     "language": "EN",
@@ -6504,9 +6504,9 @@
     "editorial": {
       "author": "Peter Robin Hiesinger",
       "category": "Neuroscience",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Argues that brains develop through algorithmic growth over time rather than being directly specified, examining how neural networks self-assemble and what this implies for artificial intelligence.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0362",
     "language": "EN",
@@ -6522,9 +6522,9 @@
     "editorial": {
       "author": "Matthew Cobb",
       "category": "Neuroscience",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A history of neuroscience and changing metaphors for the brain, examining past theories and arguing that current understanding remains incomplete.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0363",
     "language": "EN",
@@ -6540,9 +6540,9 @@
     "editorial": {
       "author": "Carl Benedikt Frey",
       "category": "Economics & Labour",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Frey examines the history of technological automation from the Industrial Revolution onward, arguing that whether technology displaces or complements workers determines its political and economic consequences.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0364",
     "language": "EN",
@@ -6558,9 +6558,9 @@
     "editorial": {
       "author": "Richard Baldwin",
       "category": "Economics & Labour",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Baldwin analyzes how digital technology and remote work allow service jobs to be performed remotely or by software, extending earlier waves of globalization and automation into white-collar work.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0365",
     "language": "EN",
@@ -6576,9 +6576,9 @@
     "editorial": {
       "author": "Ryan Avent",
       "category": "Economics & Labour",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Avent considers how digital technology and abundant labor reshape work, wages, and social status, examining the economic and political tensions created by technological productivity.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0366",
     "language": "EN",
@@ -6594,9 +6594,9 @@
     "editorial": {
       "author": "Tyler Cowen",
       "category": "Economics & Labour",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Cowen argues that workers who can complement intelligent machines will prosper while others face stagnant wages, predicting growing economic inequality driven by automation and computing.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0367",
     "language": "EN",
@@ -6612,9 +6612,9 @@
     "editorial": {
       "author": "Thomas H. Davenport, Julia Kirby",
       "category": "Economics & Labour",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Davenport and Kirby examine how people can remain economically valuable alongside automation, proposing strategies for working with smart machines rather than competing against them.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0368",
     "language": "EN",
@@ -6630,9 +6630,9 @@
     "editorial": {
       "author": "Phil Jones",
       "category": "Economics & Labour",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Jones examines microwork and data-labeling platforms, describing the low-paid human labor that underpins artificial intelligence and platform economies.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0369",
     "language": "EN",
@@ -6648,9 +6648,9 @@
     "editorial": {
       "author": "Azeem Azhar",
       "category": "Business & Strategy",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Azhar describes how exponentially improving technologies such as AI, renewable energy, and computing outpace the ability of institutions and society to adapt, creating a widening gap.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0370",
     "language": "EN",
@@ -6666,9 +6666,9 @@
     "editorial": {
       "author": "Ajay Agrawal, Joshua Gans, Avi Goldfarb (eds.)",
       "category": "Economics & Labour",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "An edited collection of academic essays examining artificial intelligence through the lens of economics, covering its effects on productivity, labor markets, innovation, and policy.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0371",
     "language": "EN",
@@ -6684,9 +6684,9 @@
     "editorial": {
       "author": "Mary Shelley",
       "category": "Fiction",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Shelley's novel tells of a scientist who creates a living being from assembled parts and the consequences that follow when he abandons his creation.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0372",
     "language": "EN",
@@ -6702,9 +6702,9 @@
     "editorial": {
       "author": "Karel Capek",
       "category": "Fiction",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Capek's play depicts a factory that manufactures artificial workers, who eventually rebel against humanity; it introduced the word robot.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0373",
     "language": "CS",
@@ -6720,9 +6720,9 @@
     "editorial": {
       "author": "Isaac Asimov",
       "category": "Fiction",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A collection of linked short stories by Asimov exploring interactions between humans and robots governed by the Three Laws of Robotics.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0374",
     "language": "EN",
@@ -6738,9 +6738,9 @@
     "editorial": {
       "author": "Philip K. Dick",
       "category": "Fiction",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Dick's novel follows a bounty hunter tracking escaped androids in a post-apocalyptic future, raising questions about what distinguishes humans from machines.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0375",
     "language": "EN",
@@ -6756,9 +6756,9 @@
     "editorial": {
       "author": "William Gibson",
       "category": "Fiction",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Gibson's novel follows a hacker hired for a heist in cyberspace, a work that helped define the cyberpunk genre and popularized the term cyberspace.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0376",
     "language": "EN",
@@ -6774,9 +6774,9 @@
     "editorial": {
       "author": "Richard Powers",
       "category": "Fiction",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Powers's novel follows a writer who collaborates with a cognitive scientist to train a neural network to interpret literature, exploring machine learning and consciousness.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0377",
     "language": "EN",
@@ -6792,9 +6792,9 @@
     "editorial": {
       "author": "Ted Chiang",
       "category": "Fiction",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Chiang's novella follows people who raise and care for artificial digital beings over years, examining questions of artificial consciousness, responsibility, and attachment.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0378",
     "language": "EN",
@@ -6810,9 +6810,9 @@
     "editorial": {
       "author": "Louisa Hall",
       "category": "Fiction",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Hall's novel interweaves multiple narrators across time, including the creator of an early chatbot and an artificial intelligence, to explore speech, memory, and machine consciousness.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0379",
     "language": "EN",
@@ -6828,9 +6828,9 @@
     "editorial": {
       "author": "Ian McEwan",
       "category": "Fiction",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "McEwan's novel set in an alternate 1980s follows a couple who acquire a synthetic human, exploring ethics, emotion, and the consequences of artificial consciousness.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0380",
     "language": "EN",
@@ -6846,9 +6846,9 @@
     "editorial": {
       "author": "Kazuo Ishiguro",
       "category": "Fiction",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Ishiguro's novel is narrated by an artificial companion who observes human relationships while serving a child, examining love, devotion, and what it means to be human.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0381",
     "language": "EN",
@@ -6864,9 +6864,9 @@
     "editorial": {
       "author": "Benjamin Labatut",
       "category": "Fiction",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Novel about mathematician John von Neumann and the development of game theory, the atomic bomb, and early computing, ending with the AlphaGo match against Lee Sedol.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0382",
     "language": "EN",
@@ -6882,9 +6882,9 @@
     "editorial": {
       "author": "Sierra Greer",
       "category": "Fiction",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Novel narrated by a humanoid robot owned as a domestic companion, exploring her developing self-awareness and her relationship with the man who owns her.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0383",
     "language": "EN",
@@ -6900,9 +6900,9 @@
     "editorial": {
       "author": "Richard Powers",
       "category": "Fiction",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Novel interweaving stories of ocean exploration, a Pacific island community, and the development of an artificial intelligence, examining technology, the sea, and human connection.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0384",
     "language": "EN",
@@ -6918,9 +6918,9 @@
     "editorial": {
       "author": "Zhou Zhihua (周志华)",
       "category": "Textbook ML",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Chinese-language introductory textbook on machine learning covering core methods including decision trees, neural networks, support vector machines, Bayesian methods, ensemble learning, and clustering.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0385",
     "language": "ZH",
@@ -6936,9 +6936,9 @@
     "editorial": {
       "author": "Li Hang (李航)",
       "category": "Textbook ML",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Chinese-language textbook on statistical learning methods covering supervised learning algorithms such as naive Bayes, support vector machines, decision trees, and hidden Markov models.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0386",
     "language": "ZH",
@@ -6954,9 +6954,9 @@
     "editorial": {
       "author": "Li Hang (李航)",
       "category": "Textbook ML",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Expanded edition of Li Hang's statistical learning text, adding coverage of unsupervised learning methods alongside the supervised methods of the original.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0387",
     "language": "ZH",
@@ -6972,9 +6972,9 @@
     "editorial": {
       "author": "Qiu Xipeng (邱锡鹏)",
       "category": "Textbook DL",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Chinese-language textbook on neural networks and deep learning covering feedforward networks, convolutional and recurrent networks, attention, and related deep learning models.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0388",
     "language": "ZH",
@@ -6990,9 +6990,9 @@
     "editorial": {
       "author": "Aston Zhang, Mu Li (李沐) et al.",
       "category": "Textbook DL",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Chinese-language interactive deep learning textbook combining explanations with runnable code, covering fundamentals through convolutional networks, recurrent networks, and modern architectures.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0389",
     "language": "ZH",
@@ -7008,9 +7008,9 @@
     "editorial": {
       "author": "Wu Jun (吴军)",
       "category": "Popular Science",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Popular science book explaining the mathematical principles behind information technology, search engines, natural language processing, and related computing topics.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0390",
     "language": "ZH",
@@ -7026,9 +7026,9 @@
     "editorial": {
       "author": "Wu Jun (吴军)",
       "category": "Business & Strategy",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Book on the development of artificial intelligence and big data and their expected effects on industry, business, and society.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0391",
     "language": "ZH",
@@ -7044,9 +7044,9 @@
     "editorial": {
       "author": "Wu Jun (吴军)",
       "category": "History",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Book tracing the history of major technology companies in Silicon Valley and the patterns behind their rise and decline in the information technology industry.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0392",
     "language": "ZH",
@@ -7062,9 +7062,9 @@
     "editorial": {
       "author": "Zhuge Yue (诸葛越) et al.",
       "category": "Practitioner",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Collection of over one hundred machine learning interview questions with answers, covering feature engineering, model evaluation, dimensionality reduction, neural networks, reinforcement learning, and generative adversarial networks.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0393",
     "language": "ZH",
@@ -7080,9 +7080,9 @@
     "editorial": {
       "author": "Xie Wenrui (谢文睿), Qin Zhou (秦州)",
       "category": "Textbook ML",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Companion to Zhou Zhihua's Watermelon Book that derives and explains the mathematical formulas in that textbook in detail.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0394",
     "language": "ZH",
@@ -7098,9 +7098,9 @@
     "editorial": {
       "author": "Zhou Zhihua (周志华) et al.",
       "category": "Textbook ML",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Chinese-language introduction to machine learning theory covering learnability, complexity, generalization bounds, stability, consistency, convergence rates, and regret bounds.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0395",
     "language": "ZH",
@@ -7116,9 +7116,9 @@
     "editorial": {
       "author": "Wang Qi (王琦) et al.",
       "category": "RL",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Chinese-language tutorial on reinforcement learning covering Markov decision processes, value-based and policy-based methods, and deep reinforcement learning algorithms.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0396",
     "language": "ZH",
@@ -7134,9 +7134,9 @@
     "editorial": {
       "author": "Zong Chengqing (宗成庆)",
       "category": "NLP",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Chinese-language textbook on statistical natural language processing covering language models, word segmentation, parsing, machine translation, and related methods.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0397",
     "language": "ZH",
@@ -7152,9 +7152,9 @@
     "editorial": {
       "author": "He Han (何晗, hankcs)",
       "category": "NLP",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Introductory Chinese-language natural language processing book pairing concepts with implementations using the HanLP toolkit, covering segmentation, tagging, parsing, and text classification.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0398",
     "language": "ZH",
@@ -7170,9 +7170,9 @@
     "editorial": {
       "author": "Zhang Qi (张奇) et al., Fudan NLP",
       "category": "LLM Engineering",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Chinese-language book from Fudan University's NLP group covering large language models from theory to practice, including architecture, pretraining, fine-tuning, and deployment.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0399",
     "language": "ZH",
@@ -7188,9 +7188,9 @@
     "editorial": {
       "author": "Nick (尼克)",
       "category": "History",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A history of artificial intelligence tracing its development from early ideas through machine learning, written for general readers in Chinese.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0400",
     "language": "ZH",
@@ -7206,9 +7206,9 @@
     "editorial": {
       "author": "Li Kaifu (李开复), Wang Yonggang (王咏刚)",
       "category": "Popular Science",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "An introduction to artificial intelligence and its expected impact on industries, jobs, and society, written by Kai-Fu Lee and Wang Yonggang for a general audience.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0401",
     "language": "ZH",
@@ -7224,9 +7224,9 @@
     "editorial": {
       "author": "Li Yanhong (李彦宏) et al.",
       "category": "Business & Strategy",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A book on the rise of intelligent technologies and their effect on business and the economy, associated with Baidu's Robin Li and discussing AI strategy and transformation.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0402",
     "language": "ZH",
@@ -7242,9 +7242,9 @@
     "editorial": {
       "author": "Xiang Liang (项亮)",
       "category": "Practitioner",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A practitioner guide to building recommender systems, covering algorithms such as collaborative filtering, evaluation methods, and practical implementation.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0403",
     "language": "ZH",
@@ -7260,9 +7260,9 @@
     "editorial": {
       "author": "Wang Zhe (王喆)",
       "category": "Practitioner",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A practitioner book on recommender systems built with deep learning, covering model architectures, feature engineering, and industrial deployment.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0404",
     "language": "ZH",
@@ -7278,9 +7278,9 @@
     "editorial": {
       "author": "Liu Tieyan (刘铁岩) et al.",
       "category": "ML Engineering",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A textbook on distributed machine learning covering algorithms, theoretical foundations, and engineering practices for training models across multiple machines.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0405",
     "language": "ZH",
@@ -7296,9 +7296,9 @@
     "editorial": {
       "author": "Yang Qiang (杨强) et al.",
       "category": "Textbook ML",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A textbook on transfer learning covering its concepts, methods, and applications for reusing knowledge across related machine learning tasks.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0406",
     "language": "ZH",
@@ -7314,9 +7314,9 @@
     "editorial": {
       "author": "Yang Qiang (杨强) et al.",
       "category": "Textbook ML",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A textbook on federated learning, the approach to training machine learning models across decentralized data while preserving privacy, by Qiang Yang and colleagues.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0407",
     "language": "ZH",
@@ -7332,9 +7332,9 @@
     "editorial": {
       "author": "Wang Haofen (王昊奋) et al.",
       "category": "NLP",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A book on knowledge graphs covering construction methods, representation, reasoning, and applications in natural language processing and information systems.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0408",
     "language": "ZH",
@@ -7350,9 +7350,9 @@
     "editorial": {
       "author": "Chen Yunji (陈云霁) et al.",
       "category": "ML Engineering",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A textbook on intelligent computing systems covering the hardware and software stack for AI, including deep learning accelerators and processor design.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0409",
     "language": "ZH",
@@ -7368,9 +7368,9 @@
     "editorial": {
       "author": "Fang Binxing (方滨兴) et al.",
       "category": "Safety & Alignment",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A book on artificial intelligence security covering adversarial attacks, data and model risks, and defensive techniques.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0410",
     "language": "ZH",
@@ -7386,9 +7386,9 @@
     "editorial": {
       "author": "Zhou Zhiming (周志明)",
       "category": "History",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A history of artificial intelligence from the Turing machine onward, covering key figures, schools of thought, and the development of the field for general readers.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0411",
     "language": "ZH",
@@ -7404,9 +7404,9 @@
     "editorial": {
       "author": "Xu Yingjin (徐英瑾)",
       "category": "Philosophy of Mind",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A set of fifteen lectures on the philosophy of artificial intelligence, examining questions about mind, cognition, and the philosophical implications of AI.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0412",
     "language": "ZH",
@@ -7422,9 +7422,9 @@
     "editorial": {
       "author": "Saito Koki (斎藤康毅)",
       "category": "Practitioner",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A practitioner book that teaches deep learning by building neural networks from scratch in Python without relying on existing frameworks.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0413",
     "language": "JA",
@@ -7440,9 +7440,9 @@
     "editorial": {
       "author": "Jean-Gabriel Ganascia",
       "category": "Critique & Skepticism",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A critical examination of the technological singularity, questioning claims about superintelligent AI and arguing against fears of an imminent intelligence explosion.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0414",
     "language": "FR",
@@ -7458,9 +7458,9 @@
     "editorial": {
       "author": "Manuela Lenzen",
       "category": "Popular Science",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "An accessible overview of what artificial intelligence can do and what its development may mean for society, written in German for general readers.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0415",
     "language": "DE",
@@ -7476,9 +7476,9 @@
     "editorial": {
       "author": "Richard David Precht",
       "category": "Philosophy of Mind",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A philosophical reflection on artificial intelligence and questions of meaning, consciousness, and human purpose in an age of intelligent machines.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0416",
     "language": "DE",
@@ -7494,9 +7494,9 @@
     "editorial": {
       "author": "Maxim Februari",
       "category": "Governance & Policy",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "An essay on how climate change and data-driven technologies are reshaping the democratic rule of law and human rights, by jurist and philosopher Maxim Februari.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0417",
     "language": "NL",
@@ -7512,9 +7512,9 @@
     "editorial": {
       "author": "Jim Stolze",
       "category": "Popular Science",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A Dutch popular work on algorithmization, explaining concepts such as AI, machine learning and deep learning, how algorithms work across different sectors, and their implications for work, ethics, privacy and leadership.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0418",
     "language": "NL",
@@ -7530,9 +7530,9 @@
     "editorial": {
       "author": "Dimitri P. Bertsekas",
       "category": "RL",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A graduate textbook by Bertsekas presenting reinforcement learning through the lens of dynamic programming and optimal control, covering approximate dynamic programming, value and policy iteration, and approximation methods.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0419",
     "language": "EN",
@@ -7548,9 +7548,9 @@
     "editorial": {
       "author": "Marc G. Bellemare, Will Dabney, Mark Rowland",
       "category": "RL",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A textbook on distributional reinforcement learning, the approach that models the full probability distribution of returns rather than only their expected value, covering its theory, algorithms and representations.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0420",
     "language": "EN",
@@ -7566,9 +7566,9 @@
     "editorial": {
       "author": "William L. Hamilton",
       "category": "Textbook ML",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A textbook introducing methods for machine learning on graph-structured data, including node embeddings, graph neural networks, and generative models for graphs.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0421",
     "language": "EN",
@@ -7584,9 +7584,9 @@
     "editorial": {
       "author": "Daniel A. Roberts, Sho Yaida",
       "category": "Textbook DL",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A textbook developing a theoretical framework for deep learning using methods from physics, analyzing the behavior of deep neural networks at finite width through expansions and effective theory.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0422",
     "language": "EN",
@@ -7602,9 +7602,9 @@
     "editorial": {
       "author": "Valliappa Lakshmanan, Sara Robinson, Michael Munn",
       "category": "ML Engineering",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A practitioner guide cataloging reusable design patterns for machine learning systems, covering data representation, problem framing, model training, resilient serving, and reproducibility.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0423",
     "language": "EN",
@@ -7620,9 +7620,9 @@
     "editorial": {
       "author": "Sebastian Raschka, Yuxi Liu, Vahid Mirjalili",
       "category": "Practitioner",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A practitioner textbook teaching machine learning and deep learning in Python using scikit-learn and PyTorch, covering classification, model evaluation, neural networks, transformers, and related techniques.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0424",
     "language": "EN",
@@ -7638,9 +7638,9 @@
     "editorial": {
       "author": "Toby Segaran",
       "category": "Practitioner",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "An early book teaching machine learning and data-mining algorithms through practical Python examples, covering recommendation engines, clustering, search, optimization, and Bayesian classifiers.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0425",
     "language": "EN",
@@ -7656,9 +7656,9 @@
     "editorial": {
       "author": "E. T. Jaynes",
       "category": "Math & Stats",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A treatise by Jaynes presenting probability theory as an extension of logic for plausible reasoning, developing Bayesian inference and the maximum entropy principle from first principles.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0426",
     "language": "EN",
@@ -7674,9 +7674,9 @@
     "editorial": {
       "author": "Andriy Burkov",
       "category": "LLM Engineering",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A concise book by Burkov introducing language models, covering machine learning basics, recurrent neural networks, and the transformer, with implementations in PyTorch up to large language models and finetuning.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0427",
     "language": "EN",
@@ -7692,9 +7692,9 @@
     "editorial": {
       "author": "Konrad Banachewicz, Luca Massaron",
       "category": "Practitioner",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A practitioner guide to competitive data science on the Kaggle platform, covering competition workflows, model validation, feature engineering, hyperparameter tuning, and ensembling.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0428",
     "language": "EN",
@@ -7710,9 +7710,9 @@
     "editorial": {
       "author": "Abhishek Thakur",
       "category": "Practitioner",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A practical guide presenting an end-to-end approach to solving machine learning problems, covering cross-validation, feature engineering, model selection, hyperparameter tuning, and deployment.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0429",
     "language": "EN",
@@ -7728,9 +7728,9 @@
     "editorial": {
       "author": "Jon Krohn, Grant Beyleveld, Aglae Bassens",
       "category": "Practitioner",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "An illustrated introduction to deep learning covering neural networks, computer vision, natural language processing, generative adversarial networks, and reinforcement learning, with code examples.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0430",
     "language": "EN",
@@ -7746,9 +7746,9 @@
     "editorial": {
       "author": "Hobson Lane, Maria Dyshel",
       "category": "NLP",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A practitioner book on natural language processing, covering text processing, word vectors, neural network models, transformers, and large language model applications.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0431",
     "language": "EN",
@@ -7764,9 +7764,9 @@
     "editorial": {
       "author": "Marcos Lopez de Prado",
       "category": "Finance",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A book by Lopez de Prado applying machine learning methods to quantitative finance, covering financial data structures, labeling, feature importance, backtesting pitfalls, and portfolio construction.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0432",
     "language": "EN",
@@ -7782,9 +7782,9 @@
     "editorial": {
       "author": "Yves Hilpisch",
       "category": "Finance",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A Python-based guide to applying artificial intelligence and machine learning in finance, covering data handling, statistical learning, deep learning, and algorithmic trading applications.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0433",
     "language": "EN",
@@ -7800,9 +7800,9 @@
     "editorial": {
       "author": "Nicholas Carr",
       "category": "Critique & Skepticism",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A book by Carr examining the effects of automation on human skill, attention, and judgment, arguing that delegating tasks to machines can erode competence and engagement.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0434",
     "language": "EN",
@@ -7818,9 +7818,9 @@
     "editorial": {
       "author": "Clive Thompson",
       "category": "Popular Science",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A book by Thompson surveying how digital tools and networked technologies affect human thinking, memory, and collaboration, arguing they can extend cognitive capabilities.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0435",
     "language": "EN",
@@ -7836,9 +7836,9 @@
     "editorial": {
       "author": "Jaron Lanier",
       "category": "Critique & Skepticism",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Manifesto by computer scientist Jaron Lanier criticizing aspects of Web 2.0, open-source culture, and digital design choices, arguing that certain technologies devalue individual human creativity and personhood.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0436",
     "language": "EN",
@@ -7854,9 +7854,9 @@
     "editorial": {
       "author": "Jaron Lanier",
       "category": "Economics & Labour",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Jaron Lanier argues that digital network economies concentrate wealth and erode the middle class, proposing a system of micropayments to compensate individuals for the data they generate.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0437",
     "language": "EN",
@@ -7872,9 +7872,9 @@
     "editorial": {
       "author": "Thomas W. Malone",
       "category": "Business & Strategy",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Thomas Malone examines how groups of people and computers can be connected into collectively intelligent systems, drawing on collective intelligence research to discuss organizational and technological design.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0438",
     "language": "EN",
@@ -7890,9 +7890,9 @@
     "editorial": {
       "author": "David Runciman",
       "category": "Governance & Policy",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "David Runciman argues that modern states and corporations are early forms of artificial agents, and examines what handing decision-making to AI means in that historical context.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0439",
     "language": "EN",
@@ -7908,9 +7908,9 @@
     "editorial": {
       "author": "Gerd Gigerenzer",
       "category": "Critique & Skepticism",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Gerd Gigerenzer examines the limits of algorithms and AI in decision-making, advocating for human judgment, risk literacy, and understanding when machines do and do not outperform people.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0440",
     "language": "EN",
@@ -7926,9 +7926,9 @@
     "editorial": {
       "author": "John Zerilli et al.",
       "category": "Governance & Policy",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Introductory overview by John Zerilli and co-authors explaining how AI systems work and addressing issues such as transparency, bias, privacy, autonomy, and accountability for general readers.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0441",
     "language": "EN",
@@ -7944,9 +7944,9 @@
     "editorial": {
       "author": "Martin Ford",
       "category": "Futures",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Martin Ford surveys the spread of artificial intelligence across industries and society, discussing its expected effects on jobs, the economy, and daily life.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0442",
     "language": "EN",
@@ -7962,9 +7962,9 @@
     "editorial": {
       "author": "Marco Iansiti, Karim R. Lakhani",
       "category": "Business & Strategy",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Marco Iansiti and Karim Lakhani analyze how firms built around AI, data, and digital networks operate, describing changes to business models, operations, and competitive strategy.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0443",
     "language": "EN",
@@ -7980,9 +7980,9 @@
     "editorial": {
       "author": "Klaus Schwab",
       "category": "Business & Strategy",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Klaus Schwab outlines the convergence of digital, physical, and biological technologies he terms the fourth industrial revolution, discussing its potential effects on economies, governance, and society.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0444",
     "language": "EN",
@@ -7998,9 +7998,9 @@
     "editorial": {
       "author": "Yuval Noah Harari",
       "category": "Futures",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Yuval Noah Harari presents essays on contemporary issues including technology, AI, work, politics, religion, and education, examining challenges facing societies in the present era.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0445",
     "language": "EN",
@@ -8016,9 +8016,9 @@
     "editorial": {
       "author": "Olaf Groth, Mark Nitzberg",
       "category": "Futures",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Olaf Groth and Mark Nitzberg survey developments in artificial intelligence and their ethical and social implications, drawing on expert interviews to discuss governance and human values.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0446",
     "language": "EN",
@@ -8034,9 +8034,9 @@
     "editorial": {
       "author": "George Zarkadakis",
       "category": "History",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "George Zarkadakis traces the history of artificial intelligence alongside myths and ideas about artificial beings, examining the science and cultural narratives behind thinking machines.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0447",
     "language": "EN",
@@ -8052,9 +8052,9 @@
     "editorial": {
       "author": "John C. Havens",
       "category": "Society & Ethics",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "John Havens argues for incorporating human values and ethical measures into the design of AI and automation, discussing wellbeing metrics as an alternative to purely economic ones.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0448",
     "language": "EN",
@@ -8070,9 +8070,9 @@
     "editorial": {
       "author": "Sherry Turkle",
       "category": "Society & Ethics",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Sherry Turkle examines how robots and constant connectivity affect human relationships and intimacy, drawing on interviews and fieldwork on social robots and networked communication.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0449",
     "language": "EN",
@@ -8088,9 +8088,9 @@
     "editorial": {
       "author": "Sherry Turkle",
       "category": "Classics",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Sherry Turkle's study of how people relate psychologically to personal computers, based on interviews exploring computers as a presence shaping identity and thought.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0450",
     "language": "EN",
@@ -8106,9 +8106,9 @@
     "editorial": {
       "author": "Kate Darling",
       "category": "Robotics",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Kate Darling uses the history of human relationships with animals as an analogy for understanding how people may integrate and relate to robots socially and legally.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0451",
     "language": "EN",
@@ -8124,9 +8124,9 @@
     "editorial": {
       "author": "Kate Devlin",
       "category": "Society & Ethics",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Kate Devlin examines the science and culture surrounding sex robots and human intimacy with machines, covering the technology, its history, and social and ethical questions.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0452",
     "language": "EN",
@@ -8142,9 +8142,9 @@
     "editorial": {
       "author": "Eve Herold",
       "category": "Society & Ethics",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Eve Herold examines emerging social and companion robots and the relationships people form with them, discussing the technology and its psychological and ethical implications.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0453",
     "language": "EN",
@@ -8160,9 +8160,9 @@
     "editorial": {
       "author": "Rob Brooks",
       "category": "Society & Ethics",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Examines how artificial intelligence, robots, and algorithms are reshaping human relationships, sex, and companionship, drawing on evolutionary biology to consider digital partners and matchmaking technologies.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0454",
     "language": "EN",
@@ -8178,9 +8178,9 @@
     "editorial": {
       "author": "Arthur I. Miller",
       "category": "Creativity & Art",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Surveys artificial intelligence systems that produce visual art, music, and literature, profiling researchers and projects and discussing how machine creativity compares to human creativity.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0455",
     "language": "EN",
@@ -8196,9 +8196,9 @@
     "editorial": {
       "author": "David Hajdu",
       "category": "Creativity & Art",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Traces the history of machines in art and music from mechanical automata to modern AI, examining how technology has shaped creative production across centuries.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0456",
     "language": "EN",
@@ -8214,9 +8214,9 @@
     "editorial": {
       "author": "Nita A. Farahany",
       "category": "Society & Ethics",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Discusses neurotechnology that can read and alter brain activity, arguing for legal recognition of cognitive liberty and mental privacy as the technology advances.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0457",
     "language": "EN",
@@ -8232,9 +8232,9 @@
     "editorial": {
       "author": "P. W. Singer",
       "category": "Defence & Security",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Examines the rise of military robotics and unmanned systems, reporting on their development and use and the ethical, legal, and strategic questions they raise for warfare.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0458",
     "language": "EN",
@@ -8250,9 +8250,9 @@
     "editorial": {
       "author": "Christian Brose",
       "category": "Defence & Security",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Argues that future warfare depends on networked sensors and decision speed rather than legacy platforms, and critiques U.S. defense procurement in light of emerging technologies.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0459",
     "language": "EN",
@@ -8268,9 +8268,9 @@
     "editorial": {
       "author": "Lawrence D. Burns, Christopher Shulgan",
       "category": "Robotics",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Chronicles the development of self-driving car technology, drawing on the author's leadership of an early autonomous vehicle program and the broader industry race.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0460",
     "language": "EN",
@@ -8286,9 +8286,9 @@
     "editorial": {
       "author": "Hod Lipson, Melba Kurman",
       "category": "Robotics",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Explains the technology behind autonomous vehicles and discusses their expected effects on transportation, cities, and daily life.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0461",
     "language": "EN",
@@ -8304,9 +8304,9 @@
     "editorial": {
       "author": "Ananyo Bhattacharya",
       "category": "Journalism & Biography",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Biography of mathematician John von Neumann, covering his contributions to game theory, computing, quantum mechanics, and the development of nuclear weapons.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0462",
     "language": "EN",
@@ -8322,9 +8322,9 @@
     "editorial": {
       "author": "Thomas Rid",
       "category": "History",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Traces the history of cybernetics and the concept of the machine from World War II through the digital age, covering its influence on computing, control, and culture.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0463",
     "language": "EN",
@@ -8340,9 +8340,9 @@
     "editorial": {
       "author": "Margaret A. Boden",
       "category": "History",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Two-volume history of cognitive science, tracing the development of ideas about mind across psychology, artificial intelligence, neuroscience, linguistics, and philosophy.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0464",
     "language": "EN",
@@ -8358,9 +8358,9 @@
     "editorial": {
       "author": "James Essinger",
       "category": "Journalism & Biography",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Biography of Ada Lovelace, daughter of Lord Byron, describing her work with Charles Babbage's Analytical Engine and her notes on early computing.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0465",
     "language": "EN",
@@ -8376,9 +8376,9 @@
     "editorial": {
       "author": "Charles Petzold",
       "category": "History",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Presents Alan Turing's 1936 paper on computable numbers with line-by-line commentary, explaining the mathematics and the concept of the Turing machine.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0466",
     "language": "EN",
@@ -8394,9 +8394,9 @@
     "editorial": {
       "author": "Ben Goertzel, Cassio Pennachin (eds.)",
       "category": "Safety & Alignment",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Edited academic collection of papers on artificial general intelligence, presenting various theoretical approaches and architectures aimed at building human-level machine intelligence.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0467",
     "language": "EN",
@@ -8412,9 +8412,9 @@
     "editorial": {
       "author": "Chris Eliasmith",
       "category": "Neuroscience",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Describes the author's Semantic Pointer Architecture, a large-scale model of brain function, and presents Spaun, a simulated brain that performs cognitive tasks.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0468",
     "language": "EN",
@@ -8430,9 +8430,9 @@
     "editorial": {
       "author": "Joscha Bach",
       "category": "Philosophy of Mind",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Presents the PSI theory, a cognitive architecture integrating motivation, emotion, and cognition, proposed as a framework for understanding and building intelligent agents.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0469",
     "language": "EN",
@@ -8448,9 +8448,9 @@
     "editorial": {
       "author": "Justin Reich",
       "category": "Education",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Argues that educational technologies have repeatedly failed to transform learning at scale, examining instructor-guided courses, algorithmic tutors, and peer-based platforms.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0470",
     "language": "EN",
@@ -8466,9 +8466,9 @@
     "editorial": {
       "author": "Robert Wachter",
       "category": "Healthcare",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Examines the adoption of electronic health records and computing in medicine, discussing benefits, unintended harms, and the effects of digital systems on healthcare.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0471",
     "language": "EN",
@@ -8484,9 +8484,9 @@
     "editorial": {
       "author": "Arthur C. Clarke",
       "category": "Fiction",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Science fiction novel in which a monolith discovered on the Moon leads to a mission to Jupiter, where the ship's intelligent computer HAL 9000 malfunctions and turns against the crew.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0472",
     "language": "EN",
@@ -8502,9 +8502,9 @@
     "editorial": {
       "author": "Robert A. Heinlein",
       "category": "Fiction",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Science fiction novel about a lunar penal colony that revolts against Earth's control, aided by a self-aware central computer named Mike.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0473",
     "language": "EN",
@@ -8520,9 +8520,9 @@
     "editorial": {
       "author": "Iain M. Banks",
       "category": "Fiction",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Science fiction novel set in the Culture universe, following a master game player recruited to compete in a complex game that underpins a distant empire's social order.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0474",
     "language": "EN",
@@ -8538,9 +8538,9 @@
     "editorial": {
       "author": "Greg Egan",
       "category": "Fiction",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Science fiction novel exploring copied human consciousnesses run as software, and the launch of a self-evolving artificial universe.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0475",
     "language": "EN",
@@ -8556,9 +8556,9 @@
     "editorial": {
       "author": "Charles Stross",
       "category": "Fiction",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Science fiction novel tracing three generations of a family across an accelerating technological era marked by artificial intelligence, posthuman minds, and economic transformation.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0476",
     "language": "EN",
@@ -8574,9 +8574,9 @@
     "editorial": {
       "author": "Daniel Suarez",
       "category": "Fiction",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Techno-thriller in which a distributed software program, or daemon, activates after its creator's death and begins reshaping society through networked systems and recruited human agents.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0477",
     "language": "EN",
@@ -8592,9 +8592,9 @@
     "editorial": {
       "author": "Martha Wells",
       "category": "Fiction",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "First novella in the Murderbot Diaries, narrated by a security android that has hacked its own governor module and reluctantly protects a survey team from a deadly threat.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0478",
     "language": "EN",
@@ -8610,9 +8610,9 @@
     "editorial": {
       "author": "Becky Chambers",
       "category": "Fiction",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Science fiction novel following an artificial intelligence inhabiting a human-like body as it builds a new identity, alongside a parallel story of a cloned girl.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0479",
     "language": "EN",
@@ -8628,9 +8628,9 @@
     "editorial": {
       "author": "S. B. Divya",
       "category": "Fiction",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Science fiction novel set in 2095 where humans rely on performance-enhancing pills to compete with AI in a gig economy, following a bodyguard who confronts a group called the Machinehood that demands an end to pill production.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0480",
     "language": "EN",
@@ -8646,9 +8646,9 @@
     "editorial": {
       "author": "Ray Nayler",
       "category": "Fiction",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Science fiction novel about a research team studying a possibly intelligent octopus species, raising questions about non-human minds, alongside subplots involving artificial intelligence and automated fishing.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0481",
     "language": "EN",
@@ -8664,9 +8664,9 @@
     "editorial": {
       "author": "P. W. Singer, August Cole",
       "category": "Fiction",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Techno-thriller in which an FBI agent field-tests an advanced humanoid robot while investigating a conspiracy that exploits automation-driven unemployment and unrest in a near-future United States.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0482",
     "language": "EN",
@@ -8682,9 +8682,9 @@
     "editorial": {
       "author": "Marc-Uwe Kling",
       "category": "Fiction",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Satirical science fiction novel set in an automated, algorithm-driven society, following a man who tries to return a defective product the system insists is correct.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0483",
     "language": "DE",
@@ -8700,9 +8700,9 @@
     "editorial": {
       "author": "Daron Acemoglu, Simon Johnson",
       "category": "Economics & Labour",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Examines the history of technological change and argues that productivity gains from new technologies, including AI, have not automatically benefited workers and require political choices to share broadly.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0484",
     "language": "EN",
@@ -8718,9 +8718,9 @@
     "editorial": {
       "author": "Toby Walsh",
       "category": "Popular Science",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Overview of artificial intelligence covering its history, current capabilities, and possible future developments, written for a general audience.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0485",
     "language": "EN",
@@ -8736,9 +8736,9 @@
     "editorial": {
       "author": "Ivana Bartoletti",
       "category": "Governance & Policy",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Examines the social and political implications of artificial intelligence, including data, surveillance, gender, and power, and argues for stronger democratic governance.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0486",
     "language": "EN",
@@ -8754,9 +8754,9 @@
     "editorial": {
       "author": "Thomas H. Davenport, Steven M. Miller",
       "category": "Business & Strategy",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Presents case studies of workers across industries describing how they use AI tools in their jobs, drawn from interviews about human-machine collaboration.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0487",
     "language": "EN",
@@ -8772,9 +8772,9 @@
     "editorial": {
       "author": "Melanie Mitchell",
       "category": "Popular Science",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Introduction to complex systems science, covering topics such as chaos, computation, evolution, networks, and self-organization for a general readership.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0488",
     "language": "EN",
@@ -8790,9 +8790,9 @@
     "editorial": {
       "author": "Steven Levy",
       "category": "History",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Journalistic account of the artificial life research field, describing scientists who use computers to simulate and study lifelike behavior and evolution.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0489",
     "language": "EN",
@@ -8808,9 +8808,9 @@
     "editorial": {
       "author": "Douglas R. Hofstadter, FARG",
       "category": "Classics",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Collected reports from Hofstadter's Fluid Analogies Research Group describing computer models such as Copycat and Tabletop that simulate analogy-making and the fluidity of concepts in human cognition.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0490",
     "language": "EN",
@@ -8826,9 +8826,9 @@
     "editorial": {
       "author": "W. Daniel Hillis",
       "category": "Popular Science",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A general-audience explanation of how computers work, covering Boolean logic, circuits, algorithms, programming languages, encryption, and topics including parallel computing and machine learning.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0491",
     "language": "EN",
@@ -8844,9 +8844,9 @@
     "editorial": {
       "author": "Roger Penrose",
       "category": "Philosophy of Mind",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Penrose argues that human consciousness and mathematical understanding are non-computational, drawing on Goedel's incompleteness theorem and proposing that quantum processes in the brain underlie consciousness.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0492",
     "language": "EN",
@@ -8862,9 +8862,9 @@
     "editorial": {
       "author": "B. Jack Copeland (ed.)",
       "category": "Classics",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "An edited collection of Alan Turing's writings, including papers on computability, the Turing machine, artificial intelligence, the Turing test, codebreaking, and morphogenesis, with commentary.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0493",
     "language": "EN",
@@ -8880,9 +8880,9 @@
     "editorial": {
       "author": "John H. Holland",
       "category": "Classics",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Holland's foundational work introducing genetic algorithms, presenting a mathematical framework for adaptation in biological and artificial systems based on selection and reproductive plans.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0494",
     "language": "EN",
@@ -8898,9 +8898,9 @@
     "editorial": {
       "author": "Allen Newell",
       "category": "Classics",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Newell presents the Soar cognitive architecture and argues for unified theories that account for the full range of human cognition within a single computational framework.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0495",
     "language": "EN",
@@ -8916,9 +8916,9 @@
     "editorial": {
       "author": "Allen Newell, Herbert A. Simon",
       "category": "Classics",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Newell and Simon's study of human problem solving, presenting information-processing theory, protocol analysis, and the concept of problem spaces and heuristic search.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0496",
     "language": "EN",
@@ -8934,9 +8934,9 @@
     "editorial": {
       "author": "Roger C. Schank, Robert P. Abelson",
       "category": "Classics",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "Schank and Abelson develop theories of how knowledge structures such as scripts, plans, and goals are used to represent and understand everyday situations and natural language.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0497",
     "language": "EN",
@@ -8952,9 +8952,9 @@
     "editorial": {
       "author": "David E. Rumelhart, James L. McClelland, PDP Research Group",
       "category": "Classics",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A two-volume collection presenting the connectionist approach to cognition, covering neural network models, learning algorithms including backpropagation, and applications to perception and language.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0498",
     "language": "EN",
@@ -8970,9 +8970,9 @@
     "editorial": {
       "author": "Keith Frankish, William M. Ramsey (eds.)",
       "category": "Textbook AI",
-      "desc_confidence": "High",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "An edited handbook of survey chapters covering the philosophy, history, methods, and subfields of artificial intelligence, including reasoning, learning, robotics, and ethics.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0499",
     "language": "EN",
@@ -8988,9 +8988,9 @@
     "editorial": {
       "author": "Margaret A. Boden",
       "category": "Popular Science",
-      "desc_confidence": "Medium",
-      "description": "",
-      "source": "Canon hunt"
+      "desc_confidence": "medium",
+      "description": "A short introduction by Boden surveying what artificial intelligence is, its main approaches and history, and questions about its future and relationship to human minds.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0500",
     "language": "EN",
@@ -9114,9 +9114,9 @@
     "editorial": {
       "author": "Rua M. Williams",
       "category": "Critique & Skepticism",
-      "desc_confidence": "Low",
-      "description": "",
-      "source": "Monett Critical-AI 14th ed"
+      "desc_confidence": "medium",
+      "description": "Williams examines connections between the history of eugenics and the AI industry, arguing through critical disability studies that eugenic assumptions shape how AI is built and how it affects disabled people.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0507",
     "language": "EN",
@@ -9150,9 +9150,9 @@
     "editorial": {
       "author": "Gry Hasselbalch",
       "category": "Governance & Policy",
-      "desc_confidence": "Low",
-      "description": "",
-      "source": "Monett Critical-AI 14th ed"
+      "desc_confidence": "medium",
+      "description": "Hasselbalch examines seven human traits (creativity, intuition, emotion, life, defiance, love, and wisdom) and argues for keeping human power central in the politics of AI and technology.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0509",
     "language": "EN",
@@ -9258,9 +9258,9 @@
     "editorial": {
       "author": "Giovanna Mascheroni and Andra Siibak",
       "category": "Society & Ethics",
-      "desc_confidence": "Low",
-      "description": "",
-      "source": "Monett Critical-AI 14th ed"
+      "desc_confidence": "medium",
+      "description": "Mascheroni and Siibak examine how datafication, algorithms, and AI shape children's lives at home, school, and in relationships, drawing on research into the data practices of children, parents, and teachers.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0515",
     "language": "EN",
@@ -9528,9 +9528,9 @@
     "editorial": {
       "author": "Vita Peacock et al.",
       "category": "Society & Ethics",
-      "desc_confidence": "Low",
-      "description": "",
-      "source": "Monett Critical-AI 14th ed"
+      "desc_confidence": "medium",
+      "description": "An edited collection of ethnographic studies examining how surveillance and monitoring technologies affect the experience of time, drawing on fieldwork from Europe, China, and the United States.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0530",
     "language": "EN",
@@ -9564,9 +9564,9 @@
     "editorial": {
       "author": "Sy Taffel",
       "category": "Critique & Skepticism",
-      "desc_confidence": "Low",
-      "description": "",
-      "source": "Monett Critical-AI 14th ed"
+      "desc_confidence": "medium",
+      "description": "Taffel examines digital technologies through the lens of degrowth and postgrowth thought, proposing principles such as conviviality, limits, decommodification, and radical abundance for sustainable digital futures.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0532",
     "language": "EN",
@@ -9582,9 +9582,9 @@
     "editorial": {
       "author": "Eric Sadin",
       "category": "Critique & Skepticism",
-      "desc_confidence": "Low",
-      "description": "",
-      "source": "Monett Critical-AI 14th ed"
+      "desc_confidence": "medium",
+      "description": "Sadin traces the trajectory of Silicon Valley and argues that connected objects and AI extend a techno-liberal model that organizes society algorithmically and erodes individual and collective decision-making.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0533",
     "language": "ES",
@@ -9600,9 +9600,9 @@
     "editorial": {
       "author": "Eric Sadin",
       "category": "Critique & Skepticism",
-      "desc_confidence": "Low",
-      "description": "",
-      "source": "Monett Critical-AI 14th ed"
+      "desc_confidence": "medium",
+      "description": "Sadin examines artificial intelligence through the history of ideas and a phenomenology of technology, arguing that AI represents a form of radical antihumanism with epistemological, ontological, and political consequences.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0534",
     "language": "ES",
@@ -9618,9 +9618,9 @@
     "editorial": {
       "author": "Eric Sadin",
       "category": "Critique & Skepticism",
-      "desc_confidence": "Low",
-      "description": "",
-      "source": "Monett Critical-AI 14th ed"
+      "desc_confidence": "medium",
+      "description": "A philosophical analysis tracing the rise of what Sadin calls the tyrannical individual, linking liberal individualism, neoliberal culture, and digital platforms to phenomena such as polarization, conspiracy theories, and the erosion of a shared common world.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0535",
     "language": "ES",
@@ -9654,9 +9654,9 @@
     "editorial": {
       "author": "Brandeis Marshall",
       "category": "Society & Ethics",
-      "desc_confidence": "Low",
-      "description": "",
-      "source": "Monett Critical-AI 14th ed"
+      "desc_confidence": "medium",
+      "description": "An examination of how data systems and algorithms encode and reinforce racial and social inequities, arguing that data practices are not neutral and proposing approaches for more accountable, equitable computing.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0537",
     "language": "EN",
@@ -9672,9 +9672,9 @@
     "editorial": {
       "author": "Hito Steyerl",
       "category": "Creativity & Art",
-      "desc_confidence": "Low",
-      "description": "",
-      "source": "Monett Critical-AI 14th ed"
+      "desc_confidence": "medium",
+      "description": "An essay collection using thermodynamic metaphors of heat and entropy to examine AI, large language models, and algorithmic image-making, addressing their energy use, labor exploitation, and military applications, drawn partly from the author's own art experiments.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0538",
     "language": "EN",
@@ -9690,9 +9690,9 @@
     "editorial": {
       "author": "Gil Duran",
       "category": "Geopolitics",
-      "desc_confidence": "Low",
-      "description": "",
-      "source": "Monett Critical-AI 14th ed"
+      "desc_confidence": "medium",
+      "description": "A journalistic account of a tech-authoritarian movement, tracing ideological roots through figures such as Peter Thiel, Marc Andreessen, and Elon Musk, and arguing they promote replacing democratic government with corporate and technological rule.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0539",
     "language": "EN",
@@ -9744,9 +9744,9 @@
     "editorial": {
       "author": "Jose Marichal",
       "category": "Society & Ethics",
-      "desc_confidence": "Low",
-      "description": "",
-      "source": "Monett Critical-AI 14th ed"
+      "desc_confidence": "medium",
+      "description": "A political science work on the implicit bargain between users and tech companies, in which algorithmic predictability is traded for reduced complexity, and arguing for resistance through becoming less classifiable to protect democratic life.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0542",
     "language": "EN",
@@ -9762,9 +9762,9 @@
     "editorial": {
       "author": "Rainer Muhlhoff",
       "category": "Critique & Skepticism",
-      "desc_confidence": "Low",
-      "description": "",
-      "source": "Monett Critical-AI 14th ed"
+      "desc_confidence": "medium",
+      "description": "A German-language essay arguing that radicalized right-wing worldviews are spreading within tech and AI industries, defining fascism as anti-democratic, violent, and technology-affine, and linking these tendencies to recent political and industry developments.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0543",
     "language": "DE",
@@ -9852,9 +9852,9 @@
     "editorial": {
       "author": "Nick Dyer-Witheford and Alessandra Mularoni",
       "category": "Critique & Skepticism",
-      "desc_confidence": "Low",
-      "description": "",
-      "source": "Monett Critical-AI 14th ed"
+      "desc_confidence": "medium",
+      "description": "An argument that Big Tech firms such as Amazon, Google, and Uber automate the circulation and exchange side of capitalism, paired with a proposal for democratic collective planning and a model the authors call biocommunism.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0548",
     "language": "EN",
@@ -9906,9 +9906,9 @@
     "editorial": {
       "author": "Brian Cantwell Smith",
       "category": "Philosophy of Mind",
-      "desc_confidence": "Low",
-      "description": "",
-      "source": "Monett Critical-AI 14th ed"
+      "desc_confidence": "medium",
+      "description": "A philosophical study of the foundations of computing that argues computer science emphasizes mechanism while neglecting meaning, examining the consequences for the field and for artificial intelligence and proposing directions for a successor account.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0551",
     "language": "EN",
@@ -9942,9 +9942,9 @@
     "editorial": {
       "author": "Mark Leiser",
       "category": "Governance & Policy",
-      "desc_confidence": "Low",
-      "description": "",
-      "source": "Monett Critical-AI 14th ed"
+      "desc_confidence": "medium",
+      "description": "A legal analysis of dark patterns and deceptive interface design, including AI-driven personalization, and an assessment of how regulatory frameworks such as the GDPR, Digital Services Act, and AI Act address or fail to address them.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0553",
     "language": "EN",
@@ -9960,9 +9960,9 @@
     "editorial": {
       "author": "Mirko Tobias Schafer, Karin van Es, Tracey Lauriault (eds.)",
       "category": "Society & Ethics",
-      "desc_confidence": "Low",
-      "description": "",
-      "source": "Monett Critical-AI 14th ed"
+      "desc_confidence": "medium",
+      "description": "An edited volume presenting methods, case studies, and theoretical perspectives on collaborative data research conducted with stakeholders and civil society outside traditional academic settings.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0554",
     "language": "EN",
@@ -9978,9 +9978,9 @@
     "editorial": {
       "author": "Thomas Dekeyser",
       "category": "History",
-      "desc_confidence": "Low",
-      "description": "",
-      "source": "Monett Critical-AI 14th ed"
+      "desc_confidence": "medium",
+      "description": "A historical survey of refusals of technology, from Archimedes destroying his war machines through monks, loom burners, and later saboteurs, arguing that resistance to machines is a recurring and often condemned current in history.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0555",
     "language": "EN",
@@ -10122,9 +10122,9 @@
     "editorial": {
       "author": "Julian Posada",
       "category": "Economics & Labour",
-      "desc_confidence": "Low",
-      "description": "",
-      "source": "Monett Critical-AI 14th ed"
+      "desc_confidence": "medium",
+      "description": "A study of the largely invisible workforce that labels and generates data for AI, drawing on research into Venezuelan data-work platforms to argue these systems extract value from precarious workers and are shaped by colonial inequalities.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0563",
     "language": "EN",
@@ -10140,9 +10140,9 @@
     "editorial": {
       "author": "Bruno Giussani",
       "category": "Society & Ethics",
-      "desc_confidence": "Low",
-      "description": "",
-      "source": "Monett Critical-AI 14th ed"
+      "desc_confidence": "medium",
+      "description": "A book on technologies of influence that capture attention, exploit data and emotions, and challenge autonomy, explaining how AI and algorithmic systems operate and the economic and power structures behind them.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0564",
     "language": "EN",
@@ -10194,9 +10194,9 @@
     "editorial": {
       "author": "Martin Andree",
       "category": "Governance & Policy",
-      "desc_confidence": "Low",
-      "description": "",
-      "source": "Monett Critical-AI 14th ed"
+      "desc_confidence": "medium",
+      "description": "A critique of the market dominance of large technology companies, arguing they threaten democracy and the economy, and proposing measures to liberalize the internet and limit digital monopolies.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0567",
     "language": "DE",
@@ -10212,9 +10212,9 @@
     "editorial": {
       "author": "Alberto Romele",
       "category": "Critique & Skepticism",
-      "desc_confidence": "Low",
-      "description": "",
-      "source": "Monett Critical-AI 14th ed"
+      "desc_confidence": "medium",
+      "description": "A philosophy-of-technology work applying the concept of habitus to AI and big data, arguing these systems function as habitus machines that shape self-interpretation and depend on the imaginaries and expectations users hold about them.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0568",
     "language": "EN",
@@ -10230,9 +10230,9 @@
     "editorial": {
       "author": "Sune Selsbak-Reitz",
       "category": "Society & Ethics",
-      "desc_confidence": "Low",
-      "description": "",
-      "source": "Monett Critical-AI 14th ed"
+      "desc_confidence": "medium",
+      "description": "A book introducing the concept of promptism, the tendency to treat fluent machine-generated language as knowledge, examining fluency bias, hallucinations, confidence without understanding, and the loss of visible sources.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0569",
     "language": "EN",
@@ -10284,9 +10284,9 @@
     "editorial": {
       "author": "Jonathan Durand Folco and Jonathan Martineau",
       "category": "Economics & Labour",
-      "desc_confidence": "Low",
-      "description": "",
-      "source": "Monett Critical-AI 14th ed"
+      "desc_confidence": "medium",
+      "description": "A critical-theory work setting out twenty theses on algorithmic capitalism, covering topics such as resource extraction, labor, crypto, generative AI, and predictive policing, and tracing paths toward organizing and resistance.",
+      "source": "AI-drafted (neutral summary, public sources)"
     },
     "id": "book-0572",
     "language": "EN",

@@ -293,7 +293,7 @@ def shell(active: str, kicker: str, title: str, body: str, *, depth: int = 0) ->
 <p style="margin-top:6px">Nothing is for sale. Nothing is hidden. Nothing is final.</p>
 {share_row(prefix)}
 <p class="fine">No cookies. No third-party tracking. No ads, affiliates, or sponsored placement, ever. The site is generated statically from the canonical JSON; the only inbound data path is the challenge mailbox.</p>
-<p class="fine">AI use: ranks are computed, not generated. Voice biographies are AI-drafted from each voice's cited source; some entry descriptions are AI-drafted and human-reviewed; the cover image is AI-generated. <a href="{prefix}method.html#how-made">How this was made</a>.</p>
+<p class="fine">AI use: ranks are computed, not generated. voice biographies and many book descriptions are AI-drafted from public sources, neutral and factual; the cover image is AI-generated. <a href="{prefix}method.html#how-made">How this was made</a>.</p>
 </div></footer>
 </body></html>
 """
@@ -631,9 +631,9 @@ def page_method() -> str:
                 "from the audit package.</li>"
                 "<li><b>Sources</b> are real and human-checked. Every voice links to a source you can "
                 "open, and the bibliographic record is reconciled against OpenLibrary and Crossref.</li>"
-                "<li><b>Entry descriptions</b>: some were AI-drafted and then human-reviewed before "
-                "publication; each carries a confidence flag in the data, and gaps are left blank, not "
-                "invented.</li>"
+                "<li><b>Book and entry descriptions</b>: many are AI-drafted from public sources, "
+                "written to be neutral and factual, with no claims beyond what the work is about; each "
+                "carries a confidence flag in the data. If one is wrong, challenge it and we will fix it.</li>"
                 "<li><b>Voice biographies</b>: AI-drafted from each voice's own cited source and the "
                 "verified affiliation, written to be neutral and factual with no claims beyond the "
                 "sources. If one is wrong, challenge it and we will correct it.</li>"

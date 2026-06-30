@@ -141,4 +141,4 @@ def test_ingest_is_deterministic():
     ingest.run()
     books_b = (SEEDS / "books.json").read_bytes()
     assert books_a == books_b
-    assert first["books"] == 573 and first["descriptions"] == 250
+    assert first["books"] == 573 and first["descriptions"] == 573
