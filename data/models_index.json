@@ -3,73 +3,481 @@
   "note": "Models, indexed by their paper. Described and linked, never ranked. A way into the literature via the models you know, not a leaderboard. For the live, exhaustive model tracker see Epoch AI.",
   "epoch_url": "https://epoch.ai/data/notable-ai-models",
   "models": [
-    {"name": "GPT-3", "lab": "OpenAI", "country": "United States", "paper": "Language Models are Few-Shot Learners", "ext": "https://openai.com"},
-    {"name": "GPT-4", "lab": "OpenAI", "country": "United States", "paper": "GPT-4 Technical Report", "ext": "https://openai.com"},
-    {"name": "OpenAI o1", "lab": "OpenAI", "country": "United States", "paper": "OpenAI o1 System Card", "ext": "https://openai.com"},
-    {"name": "GPT-4o", "lab": "OpenAI", "country": "United States", "paper": null, "ext": "https://openai.com/index/hello-gpt-4o/"},
-    {"name": "GPT-5", "lab": "OpenAI", "country": "United States", "paper": null, "ext": "https://openai.com"},
-    {"name": "gpt-oss", "lab": "OpenAI", "country": "United States", "paper": null, "ext": "https://huggingface.co/openai"},
-    {"name": "BERT", "lab": "Google", "country": "United States", "paper": "BERT: Pre-training of Deep Bidirectional Transformers", "ext": "https://huggingface.co/google-bert"},
-    {"name": "Switch Transformer", "lab": "Google", "country": "United States", "paper": "Switch Transformers", "ext": "https://huggingface.co/google"},
-    {"name": "PaLM", "lab": "Google", "country": "United States", "paper": "PaLM: Scaling Language Modeling with Pathways", "ext": "https://huggingface.co/google"},
-    {"name": "PaLM 2", "lab": "Google", "country": "United States", "paper": "PaLM 2 Technical Report", "ext": "https://ai.google/discover/palm2/"},
-    {"name": "Gemini", "lab": "Google DeepMind", "country": "United States", "paper": "Gemini: A Family of Highly Capable Multimodal Models", "ext": "https://deepmind.google/models/gemini/"},
-    {"name": "Gemini 1.5", "lab": "Google DeepMind", "country": "United States", "paper": "Gemini 1.5", "ext": "https://deepmind.google/models/gemini/"},
-    {"name": "Gemini 2.5 / 3", "lab": "Google DeepMind", "country": "United States", "paper": null, "ext": "https://deepmind.google/models/gemini/"},
-    {"name": "Gemma", "lab": "Google DeepMind", "country": "United States", "paper": "Gemma: Open Models Based on Gemini Research", "ext": "https://huggingface.co/google"},
-    {"name": "Gemma 2", "lab": "Google DeepMind", "country": "United States", "paper": "Gemma 2: Improving Open Language Models", "ext": "https://huggingface.co/google"},
-    {"name": "Gemma 3", "lab": "Google DeepMind", "country": "United States", "paper": "Gemma 3 Technical Report", "ext": "https://huggingface.co/google"},
-    {"name": "Flamingo", "lab": "Google DeepMind", "country": "United States", "paper": "Flamingo: a Visual Language Model for Few-Shot Learning", "ext": "https://deepmind.google"},
-    {"name": "Llama 2", "lab": "Meta", "country": "United States", "paper": "Llama 2: Open Foundation and Fine-Tuned Chat Models", "ext": "https://huggingface.co/meta-llama"},
-    {"name": "Llama 3", "lab": "Meta", "country": "United States", "paper": "The Llama 3 Herd of Models", "ext": "https://huggingface.co/meta-llama"},
-    {"name": "Llama 4", "lab": "Meta", "country": "United States", "paper": null, "ext": "https://huggingface.co/meta-llama"},
-    {"name": "Claude 3 / 4", "lab": "Anthropic", "country": "United States", "paper": null, "ext": "https://www.anthropic.com/claude"},
-    {"name": "Phi", "lab": "Microsoft", "country": "United States", "paper": "Textbooks Are All You Need", "ext": "https://huggingface.co/microsoft"},
-    {"name": "Phi-3", "lab": "Microsoft", "country": "United States", "paper": "Phi-3 Technical Report", "ext": "https://huggingface.co/microsoft"},
-    {"name": "Phi-4", "lab": "Microsoft", "country": "United States", "paper": "Phi-4 Technical Report", "ext": "https://huggingface.co/microsoft"},
-    {"name": "Phi-4-reasoning", "lab": "Microsoft", "country": "United States", "paper": "Phi-4-reasoning Technical Report", "ext": "https://huggingface.co/microsoft"},
-    {"name": "OLMo", "lab": "Allen Institute for AI", "country": "United States", "paper": "OLMo: Accelerating the Science of Language Models", "ext": "https://huggingface.co/allenai"},
-    {"name": "OLMo 2", "lab": "Allen Institute for AI", "country": "United States", "paper": "OLMo 2 Furious", "ext": "https://huggingface.co/allenai"},
-    {"name": "Mamba", "lab": "Princeton / CMU", "country": "United States", "paper": "Mamba: Linear-Time Sequence Modeling", "ext": "https://github.com/state-spaces/mamba"},
-    {"name": "Grok 3 / 4", "lab": "xAI", "country": "United States", "paper": null, "ext": "https://x.ai"},
-    {"name": "Mistral 7B", "lab": "Mistral AI", "country": "Europe (France)", "paper": "Mistral 7B", "ext": "https://huggingface.co/mistralai"},
-    {"name": "Mixtral", "lab": "Mistral AI", "country": "Europe (France)", "paper": "Mixtral of Experts", "ext": "https://huggingface.co/mistralai"},
-    {"name": "Magistral", "lab": "Mistral AI", "country": "Europe (France)", "paper": "Magistral", "ext": "https://huggingface.co/mistralai"},
-    {"name": "Mistral Large 3", "lab": "Mistral AI", "country": "Europe (France)", "paper": null, "ext": "https://mistral.ai"},
-    {"name": "Aya", "lab": "Cohere", "country": "Canada", "paper": "Aya Model", "ext": "https://huggingface.co/CohereLabs"},
-    {"name": "Command A", "lab": "Cohere", "country": "Canada", "paper": "Command A: An Enterprise-Ready Large Language Model", "ext": "https://huggingface.co/CohereLabs"},
-    {"name": "Falcon", "lab": "TII", "country": "UAE", "paper": "The Falcon Series of Open Language Models", "ext": "https://huggingface.co/tiiuae"},
-    {"name": "DeepSeek LLM", "lab": "DeepSeek", "country": "China", "paper": "DeepSeek LLM: Scaling Open-Source Language Models", "ext": "https://huggingface.co/deepseek-ai"},
-    {"name": "DeepSeek-V2", "lab": "DeepSeek", "country": "China", "paper": "DeepSeek-V2", "ext": "https://huggingface.co/deepseek-ai"},
-    {"name": "DeepSeek-V3", "lab": "DeepSeek", "country": "China", "paper": "DeepSeek-V3 Technical Report", "ext": "https://huggingface.co/deepseek-ai"},
-    {"name": "DeepSeek-R1", "lab": "DeepSeek", "country": "China", "paper": "DeepSeek-R1: Incentivizing Reasoning", "ext": "https://huggingface.co/deepseek-ai"},
-    {"name": "DeepSeekMath-V2", "lab": "DeepSeek", "country": "China", "paper": "DeepSeekMath-V2", "ext": "https://huggingface.co/deepseek-ai"},
-    {"name": "Qwen", "lab": "Alibaba", "country": "China", "paper": "Qwen Technical Report", "ext": "https://huggingface.co/Qwen"},
-    {"name": "Qwen2", "lab": "Alibaba", "country": "China", "paper": "Qwen2 Technical Report", "ext": "https://huggingface.co/Qwen"},
-    {"name": "Qwen2.5", "lab": "Alibaba", "country": "China", "paper": "Qwen2.5 Technical Report", "ext": "https://huggingface.co/Qwen"},
-    {"name": "Qwen2-VL", "lab": "Alibaba", "country": "China", "paper": "Qwen2-VL", "ext": "https://huggingface.co/Qwen"},
-    {"name": "Qwen3", "lab": "Alibaba", "country": "China", "paper": "Qwen3 Technical Report", "ext": "https://huggingface.co/Qwen"},
-    {"name": "Tongyi DeepResearch", "lab": "Alibaba", "country": "China", "paper": "Tongyi DeepResearch Technical Report", "ext": "https://huggingface.co/Alibaba-NLP"},
-    {"name": "QwQ", "lab": "Alibaba", "country": "China", "paper": null, "ext": "https://huggingface.co/Qwen"},
-    {"name": "GLM-130B", "lab": "Zhipu AI", "country": "China", "paper": "GLM-130B: An Open Bilingual Pre-trained Model", "ext": "https://huggingface.co/zai-org"},
-    {"name": "ChatGLM / GLM-4", "lab": "Zhipu AI", "country": "China", "paper": "ChatGLM: A Family of Large Language Models", "ext": "https://huggingface.co/zai-org"},
-    {"name": "GLM-4.5", "lab": "Zhipu AI", "country": "China", "paper": "GLM-4.5: Agentic, Reasoning, and Coding", "ext": "https://huggingface.co/zai-org"},
-    {"name": "Kimi k1.5", "lab": "Moonshot AI", "country": "China", "paper": "Kimi k1.5", "ext": "https://huggingface.co/moonshotai"},
-    {"name": "Kimi K2", "lab": "Moonshot AI", "country": "China", "paper": "Kimi K2: Open Agentic Intelligence", "ext": "https://huggingface.co/moonshotai"},
-    {"name": "Hunyuan-Large", "lab": "Tencent", "country": "China", "paper": "Hunyuan-Large", "ext": "https://huggingface.co/tencent"},
-    {"name": "Hunyuan-TurboS", "lab": "Tencent", "country": "China", "paper": "Hunyuan-TurboS", "ext": "https://huggingface.co/tencent"},
-    {"name": "ERNIE 3.0", "lab": "Baidu", "country": "China", "paper": "ERNIE 3.0: Large-scale Knowledge Enhanced", "ext": "https://huggingface.co/baidu"},
-    {"name": "ERNIE 4.5", "lab": "Baidu", "country": "China", "paper": "ERNIE 4.5 Technical Report", "ext": "https://huggingface.co/baidu"},
-    {"name": "Yi", "lab": "01.AI", "country": "China", "paper": "Yi: Open Foundation Models by 01.AI", "ext": "https://huggingface.co/01-ai"},
-    {"name": "MiniMax-01", "lab": "MiniMax", "country": "China", "paper": "MiniMax-01", "ext": "https://huggingface.co/MiniMaxAI"},
-    {"name": "InternLM2", "lab": "Shanghai AI Laboratory", "country": "China", "paper": "InternLM2 Technical Report", "ext": "https://huggingface.co/internlm"},
-    {"name": "P1", "lab": "Shanghai AI Laboratory", "country": "China", "paper": "P1: Mastering Physics Olympiads", "ext": "https://huggingface.co/internlm"},
-    {"name": "Baichuan 2", "lab": "Baichuan", "country": "China", "paper": "Baichuan 2: Open Large-scale Language Models", "ext": "https://huggingface.co/baichuan-inc"},
-    {"name": "Skywork", "lab": "Skywork", "country": "China", "paper": "Skywork: A More Open Bilingual Foundation Model", "ext": "https://huggingface.co/Skywork"},
-    {"name": "Pangu Ultra", "lab": "Huawei", "country": "China", "paper": "Pangu Ultra", "ext": null},
-    {"name": "Ling-1T", "lab": "Ant Group", "country": "China", "paper": "Every Activation Boosted", "ext": "https://huggingface.co/inclusionAI"},
-    {"name": "LongCat-Flash", "lab": "Meituan", "country": "China", "paper": "LongCat-Flash Technical Report", "ext": "https://huggingface.co/meituan-longcat"},
-    {"name": "Seed1.5-VL", "lab": "ByteDance", "country": "China", "paper": "Seed1.5-VL Technical Report", "ext": "https://huggingface.co/ByteDance-Seed"},
-    {"name": "Doubao", "lab": "ByteDance", "country": "China", "paper": null, "ext": "https://www.doubao.com/"}
+    {
+      "name": "GPT-3",
+      "lab": "OpenAI",
+      "country": "United States",
+      "paper": "Language Models are Few-Shot Learners",
+      "ext": "https://arxiv.org/abs/2005.14165"
+    },
+    {
+      "name": "GPT-4",
+      "lab": "OpenAI",
+      "country": "United States",
+      "paper": "GPT-4 Technical Report",
+      "ext": "https://openai.com/index/gpt-4/"
+    },
+    {
+      "name": "OpenAI o1",
+      "lab": "OpenAI",
+      "country": "United States",
+      "paper": "OpenAI o1 System Card",
+      "ext": "https://openai.com/index/learning-to-reason-with-llms/"
+    },
+    {
+      "name": "GPT-4o",
+      "lab": "OpenAI",
+      "country": "United States",
+      "paper": null,
+      "ext": "https://openai.com/index/hello-gpt-4o/"
+    },
+    {
+      "name": "GPT-5",
+      "lab": "OpenAI",
+      "country": "United States",
+      "paper": null,
+      "ext": "https://openai.com/index/introducing-gpt-5/"
+    },
+    {
+      "name": "gpt-oss",
+      "lab": "OpenAI",
+      "country": "United States",
+      "paper": null,
+      "ext": "https://huggingface.co/openai/gpt-oss-120b"
+    },
+    {
+      "name": "BERT",
+      "lab": "Google",
+      "country": "United States",
+      "paper": "BERT: Pre-training of Deep Bidirectional Transformers",
+      "ext": "https://huggingface.co/google-bert/bert-base-uncased"
+    },
+    {
+      "name": "Switch Transformer",
+      "lab": "Google",
+      "country": "United States",
+      "paper": "Switch Transformers",
+      "ext": "https://huggingface.co/google/switch-base-128"
+    },
+    {
+      "name": "PaLM",
+      "lab": "Google",
+      "country": "United States",
+      "paper": "PaLM: Scaling Language Modeling with Pathways",
+      "ext": "https://research.google/blog/pathways-language-model-palm-scaling-to-540-billion-parameters-for-breakthrough-performance/"
+    },
+    {
+      "name": "PaLM 2",
+      "lab": "Google",
+      "country": "United States",
+      "paper": "PaLM 2 Technical Report",
+      "ext": "https://ai.google/discover/palm2/"
+    },
+    {
+      "name": "Gemini",
+      "lab": "Google DeepMind",
+      "country": "United States",
+      "paper": "Gemini: A Family of Highly Capable Multimodal Models",
+      "ext": "https://deepmind.google/models/gemini/"
+    },
+    {
+      "name": "Gemini 1.5",
+      "lab": "Google DeepMind",
+      "country": "United States",
+      "paper": "Gemini 1.5",
+      "ext": "https://deepmind.google/models/gemini/"
+    },
+    {
+      "name": "Gemini 2.5 / 3",
+      "lab": "Google DeepMind",
+      "country": "United States",
+      "paper": null,
+      "ext": "https://deepmind.google/models/gemini/"
+    },
+    {
+      "name": "Gemma",
+      "lab": "Google DeepMind",
+      "country": "United States",
+      "paper": "Gemma: Open Models Based on Gemini Research",
+      "ext": "https://huggingface.co/google/gemma-7b"
+    },
+    {
+      "name": "Gemma 2",
+      "lab": "Google DeepMind",
+      "country": "United States",
+      "paper": "Gemma 2: Improving Open Language Models",
+      "ext": "https://huggingface.co/google/gemma-2-27b-it"
+    },
+    {
+      "name": "Gemma 3",
+      "lab": "Google DeepMind",
+      "country": "United States",
+      "paper": "Gemma 3 Technical Report",
+      "ext": "https://huggingface.co/google/gemma-3-27b-it"
+    },
+    {
+      "name": "Flamingo",
+      "lab": "Google DeepMind",
+      "country": "United States",
+      "paper": "Flamingo: a Visual Language Model for Few-Shot Learning",
+      "ext": "https://deepmind.google/blog/tackling-multiple-tasks-with-a-single-visual-language-model/"
+    },
+    {
+      "name": "Llama 2",
+      "lab": "Meta",
+      "country": "United States",
+      "paper": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+      "ext": "https://huggingface.co/meta-llama/Llama-2-7b"
+    },
+    {
+      "name": "Llama 3",
+      "lab": "Meta",
+      "country": "United States",
+      "paper": "The Llama 3 Herd of Models",
+      "ext": "https://huggingface.co/meta-llama/Meta-Llama-3-8B"
+    },
+    {
+      "name": "Llama 4",
+      "lab": "Meta",
+      "country": "United States",
+      "paper": null,
+      "ext": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E"
+    },
+    {
+      "name": "Claude 3 / 4",
+      "lab": "Anthropic",
+      "country": "United States",
+      "paper": null,
+      "ext": "https://www.anthropic.com/claude"
+    },
+    {
+      "name": "Phi",
+      "lab": "Microsoft",
+      "country": "United States",
+      "paper": "Textbooks Are All You Need",
+      "ext": "https://huggingface.co/microsoft/phi-1"
+    },
+    {
+      "name": "Phi-3",
+      "lab": "Microsoft",
+      "country": "United States",
+      "paper": "Phi-3 Technical Report",
+      "ext": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct"
+    },
+    {
+      "name": "Phi-4",
+      "lab": "Microsoft",
+      "country": "United States",
+      "paper": "Phi-4 Technical Report",
+      "ext": "https://huggingface.co/microsoft/phi-4"
+    },
+    {
+      "name": "Phi-4-reasoning",
+      "lab": "Microsoft",
+      "country": "United States",
+      "paper": "Phi-4-reasoning Technical Report",
+      "ext": "https://huggingface.co/microsoft/Phi-4-reasoning"
+    },
+    {
+      "name": "OLMo",
+      "lab": "Allen Institute for AI",
+      "country": "United States",
+      "paper": "OLMo: Accelerating the Science of Language Models",
+      "ext": "https://huggingface.co/allenai/OLMo-7B"
+    },
+    {
+      "name": "OLMo 2",
+      "lab": "Allen Institute for AI",
+      "country": "United States",
+      "paper": "OLMo 2 Furious",
+      "ext": "https://huggingface.co/allenai/OLMo-2-1124-13B"
+    },
+    {
+      "name": "Mamba",
+      "lab": "Princeton / CMU",
+      "country": "United States",
+      "paper": "Mamba: Linear-Time Sequence Modeling",
+      "ext": "https://huggingface.co/state-spaces/mamba-2.8b"
+    },
+    {
+      "name": "Grok 3 / 4",
+      "lab": "xAI",
+      "country": "United States",
+      "paper": null,
+      "ext": "https://x.ai"
+    },
+    {
+      "name": "Mistral 7B",
+      "lab": "Mistral AI",
+      "country": "Europe (France)",
+      "paper": "Mistral 7B",
+      "ext": "https://huggingface.co/mistralai/Mistral-7B-v0.1"
+    },
+    {
+      "name": "Mixtral",
+      "lab": "Mistral AI",
+      "country": "Europe (France)",
+      "paper": "Mixtral of Experts",
+      "ext": "https://huggingface.co/mistralai/Mixtral-8x7B-v0.1"
+    },
+    {
+      "name": "Magistral",
+      "lab": "Mistral AI",
+      "country": "Europe (France)",
+      "paper": "Magistral",
+      "ext": "https://huggingface.co/mistralai/Magistral-Small-2506"
+    },
+    {
+      "name": "Mistral Large 3",
+      "lab": "Mistral AI",
+      "country": "Europe (France)",
+      "paper": null,
+      "ext": "https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512"
+    },
+    {
+      "name": "Aya",
+      "lab": "Cohere",
+      "country": "Canada",
+      "paper": "Aya Model",
+      "ext": "https://huggingface.co/CohereLabs/aya-101"
+    },
+    {
+      "name": "Command A",
+      "lab": "Cohere",
+      "country": "Canada",
+      "paper": "Command A: An Enterprise-Ready Large Language Model",
+      "ext": "https://huggingface.co/CohereLabs/c4ai-command-a-03-2025"
+    },
+    {
+      "name": "Falcon",
+      "lab": "TII",
+      "country": "UAE",
+      "paper": "The Falcon Series of Open Language Models",
+      "ext": "https://huggingface.co/tiiuae/falcon-40b"
+    },
+    {
+      "name": "DeepSeek LLM",
+      "lab": "DeepSeek",
+      "country": "China",
+      "paper": "DeepSeek LLM: Scaling Open-Source Language Models",
+      "ext": "https://huggingface.co/deepseek-ai/deepseek-llm-7b-base"
+    },
+    {
+      "name": "DeepSeek-V2",
+      "lab": "DeepSeek",
+      "country": "China",
+      "paper": "DeepSeek-V2",
+      "ext": "https://huggingface.co/deepseek-ai/DeepSeek-V2"
+    },
+    {
+      "name": "DeepSeek-V3",
+      "lab": "DeepSeek",
+      "country": "China",
+      "paper": "DeepSeek-V3 Technical Report",
+      "ext": "https://huggingface.co/deepseek-ai/DeepSeek-V3"
+    },
+    {
+      "name": "DeepSeek-R1",
+      "lab": "DeepSeek",
+      "country": "China",
+      "paper": "DeepSeek-R1: Incentivizing Reasoning",
+      "ext": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+    },
+    {
+      "name": "DeepSeekMath-V2",
+      "lab": "DeepSeek",
+      "country": "China",
+      "paper": "DeepSeekMath-V2",
+      "ext": "https://huggingface.co/deepseek-ai/DeepSeek-Math-V2"
+    },
+    {
+      "name": "Qwen",
+      "lab": "Alibaba",
+      "country": "China",
+      "paper": "Qwen Technical Report",
+      "ext": "https://huggingface.co/Qwen/Qwen-7B"
+    },
+    {
+      "name": "Qwen2",
+      "lab": "Alibaba",
+      "country": "China",
+      "paper": "Qwen2 Technical Report",
+      "ext": "https://huggingface.co/Qwen/Qwen2-72B"
+    },
+    {
+      "name": "Qwen2.5",
+      "lab": "Alibaba",
+      "country": "China",
+      "paper": "Qwen2.5 Technical Report",
+      "ext": "https://huggingface.co/Qwen/Qwen2.5-72B-Instruct"
+    },
+    {
+      "name": "Qwen2-VL",
+      "lab": "Alibaba",
+      "country": "China",
+      "paper": "Qwen2-VL",
+      "ext": "https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct"
+    },
+    {
+      "name": "Qwen3",
+      "lab": "Alibaba",
+      "country": "China",
+      "paper": "Qwen3 Technical Report",
+      "ext": "https://huggingface.co/Qwen/Qwen3-235B-A22B"
+    },
+    {
+      "name": "Tongyi DeepResearch",
+      "lab": "Alibaba",
+      "country": "China",
+      "paper": "Tongyi DeepResearch Technical Report",
+      "ext": "https://huggingface.co/Alibaba-NLP/Tongyi-DeepResearch-30B-A3B"
+    },
+    {
+      "name": "QwQ",
+      "lab": "Alibaba",
+      "country": "China",
+      "paper": null,
+      "ext": "https://huggingface.co/Qwen/QwQ-32B"
+    },
+    {
+      "name": "GLM-130B",
+      "lab": "Zhipu AI",
+      "country": "China",
+      "paper": "GLM-130B: An Open Bilingual Pre-trained Model",
+      "ext": "https://github.com/zai-org/GLM-130B"
+    },
+    {
+      "name": "ChatGLM / GLM-4",
+      "lab": "Zhipu AI",
+      "country": "China",
+      "paper": "ChatGLM: A Family of Large Language Models",
+      "ext": "https://huggingface.co/zai-org/glm-4-9b-chat"
+    },
+    {
+      "name": "GLM-4.5",
+      "lab": "Zhipu AI",
+      "country": "China",
+      "paper": "GLM-4.5: Agentic, Reasoning, and Coding",
+      "ext": "https://huggingface.co/zai-org/GLM-4.5"
+    },
+    {
+      "name": "Kimi k1.5",
+      "lab": "Moonshot AI",
+      "country": "China",
+      "paper": "Kimi k1.5",
+      "ext": "https://github.com/MoonshotAI/Kimi-k1.5"
+    },
+    {
+      "name": "Kimi K2",
+      "lab": "Moonshot AI",
+      "country": "China",
+      "paper": "Kimi K2: Open Agentic Intelligence",
+      "ext": "https://huggingface.co/moonshotai/Kimi-K2-Instruct"
+    },
+    {
+      "name": "Hunyuan-Large",
+      "lab": "Tencent",
+      "country": "China",
+      "paper": "Hunyuan-Large",
+      "ext": "https://huggingface.co/tencent/Tencent-Hunyuan-Large"
+    },
+    {
+      "name": "Hunyuan-TurboS",
+      "lab": "Tencent",
+      "country": "China",
+      "paper": "Hunyuan-TurboS",
+      "ext": "https://huggingface.co/tencent"
+    },
+    {
+      "name": "ERNIE 3.0",
+      "lab": "Baidu",
+      "country": "China",
+      "paper": "ERNIE 3.0: Large-scale Knowledge Enhanced",
+      "ext": "https://huggingface.co/baidu"
+    },
+    {
+      "name": "ERNIE 4.5",
+      "lab": "Baidu",
+      "country": "China",
+      "paper": "ERNIE 4.5 Technical Report",
+      "ext": "https://huggingface.co/baidu/ERNIE-4.5-300B-A47B-Base-PT"
+    },
+    {
+      "name": "Yi",
+      "lab": "01.AI",
+      "country": "China",
+      "paper": "Yi: Open Foundation Models by 01.AI",
+      "ext": "https://huggingface.co/01-ai/Yi-34B"
+    },
+    {
+      "name": "MiniMax-01",
+      "lab": "MiniMax",
+      "country": "China",
+      "paper": "MiniMax-01",
+      "ext": "https://huggingface.co/MiniMaxAI/MiniMax-Text-01"
+    },
+    {
+      "name": "InternLM2",
+      "lab": "Shanghai AI Laboratory",
+      "country": "China",
+      "paper": "InternLM2 Technical Report",
+      "ext": "https://huggingface.co/internlm/internlm2-chat-7b"
+    },
+    {
+      "name": "P1",
+      "lab": "Shanghai AI Laboratory",
+      "country": "China",
+      "paper": "P1: Mastering Physics Olympiads",
+      "ext": "https://huggingface.co/PRIME-RL/P1-235B-A22B"
+    },
+    {
+      "name": "Baichuan 2",
+      "lab": "Baichuan",
+      "country": "China",
+      "paper": "Baichuan 2: Open Large-scale Language Models",
+      "ext": "https://huggingface.co/baichuan-inc/Baichuan2-13B-Base"
+    },
+    {
+      "name": "Skywork",
+      "lab": "Skywork",
+      "country": "China",
+      "paper": "Skywork: A More Open Bilingual Foundation Model",
+      "ext": "https://huggingface.co/Skywork/Skywork-13B-base"
+    },
+    {
+      "name": "Pangu Ultra",
+      "lab": "Huawei",
+      "country": "China",
+      "paper": "Pangu Ultra",
+      "ext": null
+    },
+    {
+      "name": "Ling-1T",
+      "lab": "Ant Group",
+      "country": "China",
+      "paper": "Every Activation Boosted",
+      "ext": "https://huggingface.co/inclusionAI/Ling-1T"
+    },
+    {
+      "name": "LongCat-Flash",
+      "lab": "Meituan",
+      "country": "China",
+      "paper": "LongCat-Flash Technical Report",
+      "ext": "https://huggingface.co/meituan-longcat/LongCat-Flash-Chat"
+    },
+    {
+      "name": "Seed1.5-VL",
+      "lab": "ByteDance",
+      "country": "China",
+      "paper": "Seed1.5-VL Technical Report",
+      "ext": "https://huggingface.co/ByteDance-Seed"
+    },
+    {
+      "name": "Doubao",
+      "lab": "ByteDance",
+      "country": "China",
+      "paper": null,
+      "ext": "https://www.doubao.com/"
+    }
   ]
 }
