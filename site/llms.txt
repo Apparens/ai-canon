@@ -1,0 +1,25 @@
+# The AI Canon
+
+> The AI Canon is a free, method-backed, reproducible reference library for artificial intelligence. It ranks texts, not people, and shows the evidence behind every rank.
+
+The AI Canon is a free, public-good project by Apparens. It is reproducible and method-backed: every ranking links to its evidence, the corpus and weights are open, and anyone can challenge any entry. It ranks texts, not people, and it is built to include the Chinese-language literature in the core, not as a footnote.
+
+## Start here
+- [The Canon 50](https://ai-canon.apparens.nl/canon-50.html): AI papers ranked under three published weighting scenarios, each rank linking to its full evidence.
+- [Method](https://ai-canon.apparens.nl/method.html): how scoring works, the weights, and what is deliberately deferred or excluded.
+- [About](https://ai-canon.apparens.nl/about.html): what the Canon is and is not.
+
+## The corpus
+- [Library](https://ai-canon.apparens.nl/library.html): candidate books across every theme, each described, filterable by category, language, and provenance.
+- [Papers](https://ai-canon.apparens.nl/papers.html): seed papers from 1943 to 2025, including the Chinese-language research spine.
+- [Models](https://ai-canon.apparens.nl/models.html): notable AI models indexed to their paper in the Canon.
+- [Voices](https://ai-canon.apparens.nl/voices.html): people in AI, described and never ranked, each with a checkable source.
+- [Organizations](https://ai-canon.apparens.nl/organizations.html) and [Platforms](https://ai-canon.apparens.nl/platforms.html): context, never ranked.
+
+## Data and integrity
+- [Open data and audit](https://ai-canon.apparens.nl/data.html): the full corpus, the weights, every per-work breakdown, and the one command that reproduces the release.
+- [Challenge protocol](https://ai-canon.apparens.nl/challenges.html): contest any ranking or omission with evidence; every challenge and resolution is logged.
+- [Changelog](https://ai-canon.apparens.nl/changelog.html): every release and correction, dated and public.
+
+## How to cite
+Cite the release version shown on each page and the Zenodo DOI 10.5281/zenodo.21042034. A rank is an output of declared evidence and weights at a release date, not a verdict on worth.

@@ -92,12 +92,23 @@ def test_headers_file_has_strict_csp_and_security_headers():
 
 @pytest.mark.skipif(not (_REL / "release.json").exists(), reason="no release built")
 def test_no_inline_script_or_style_survives_in_html():
+    import base64
+    import hashlib
+
     site.build()
+    headers = (site.SITE / "_headers").read_text("utf-8")
     for html in site.SITE.rglob("*.html"):
         text = html.read_text("utf-8")
         assert "<style" not in text, f"inline style in {html.name}"
-        # inline script BLOCK (content between tags) would break the CSP; src= is fine
-        assert not re.search(r"<script(?![^>]*\ssrc=)[^>]*>", text), f"inline script in {html.name}"
+        # Inline EXECUTABLE script would break the CSP; src= is fine. A JSON-LD data
+        # block is the ONE allowed inline script, and only because every such block is
+        # pinned by a sha256 in the CSP (never unsafe-inline) — asserted below.
+        assert not re.search(
+            r'<script(?![^>]*\ssrc=)(?![^>]*type="application/ld\+json")[^>]*>', text
+        ), f"inline executable script in {html.name}"
+        for block in re.findall(r'<script type="application/ld\+json">(.*?)</script>', text, re.S):
+            h = "sha256-" + base64.b64encode(hashlib.sha256(block.encode("utf-8")).digest()).decode()
+            assert h in headers, f"unpinned JSON-LD (not in CSP) in {html.name}"
 
 
 @pytest.mark.skipif(not (_REL / "release.json").exists(), reason="no release built")

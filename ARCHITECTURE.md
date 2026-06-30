@@ -89,7 +89,10 @@ is enforced by `scripts/static-gate.sh`.
 - **[S5] Strict CSP + security headers.** `site/_headers` sets `default-src 'none'` with no
   `unsafe-inline` / `unsafe-eval`, plus `frame-ancestors 'none'`, `object-src 'none'`,
   X-Content-Type-Options, Referrer-Policy, X-Frame-Options, COOP, CORP, Permissions-Policy, HSTS.
-- **[S6] No inline script or style.** All CSS/JS is external `'self'`, so the strict CSP holds.
+- **[S6] No inline executable script or style.** All CSS/JS is external `'self'`. The only inline
+  `<script>` permitted is the site-wide `application/ld+json` SEO block, and only because its sha256
+  is pinned in the CSP `script-src` (never `unsafe-inline`); a test fails the build on any other
+  inline script or any unpinned JSON-LD.
 - **[S7] No third-party requests.** Fonts and assets are self-hosted; no Google Fonts, CDN, or
   tracker origin appears in any page or stylesheet.
 - **[S8] Output safety.** Every data field is HTML-escaped at the render boundary (`esc`,

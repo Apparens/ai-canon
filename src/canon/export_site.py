@@ -64,6 +64,77 @@ POSITIONING = ("The AI Canon is a free, method-backed reference library for AI "
 HUMILITY = ("A rank is not a verdict on intrinsic worth. It is a transparent output of "
             "declared evidence, weights, and missing-data rules at a specific release date.")
 
+# --- SEO: canonical site URL, per-page descriptions, and structured data ---
+SITE_URL = "https://ai-canon.apparens.nl/"
+DEFAULT_DESC = ("The AI Canon is a free, method-backed, reproducible reference library for "
+                "artificial intelligence. It ranks texts, not people, and shows the evidence behind every rank.")
+
+# Per-page meta descriptions, keyed by the page's own path. Pages not listed fall
+# back to DEFAULT_DESC; work pages pass their own description. Each is a distinct,
+# honest summary (no two pages share a description, which search engines reward).
+PAGE_DESC = {
+    "index.html": DEFAULT_DESC,
+    "canon-50.html": "The Canon 50: AI papers ranked under three published weighting scenarios, each rank linking to its full evidence. A pilot release, honest about its scope.",
+    "library.html": "Browse 608 candidate AI books across every theme, filterable by category, language, and provenance. Curated and described, labelled candidacy, not canon.",
+    "papers.html": "All 226 seed AI papers from 1943 to 2025, including the Chinese-language research spine. Each scored paper links to its harvested evidence.",
+    "models.html": "An index of 68 notable AI models, each linked to its paper in the Canon and to its own model page. A way into the literature, never a leaderboard.",
+    "voices.html": "184 voices in artificial intelligence, described and never ranked, each with a checkable source. The Canon ranks texts, not people.",
+    "organizations.html": "The organizations shaping artificial intelligence, each described with a link to learn more. Context for the Canon, never ranked.",
+    "platforms.html": "The platforms and tools of artificial intelligence, described and linked. Context for the Canon, never ranked.",
+    "method.html": "How the AI Canon is built: a deterministic, reproducible scoring method with published weights, declared evidence, and no imputed numbers.",
+    "challenges.html": "Challenge any ranking or omission in the AI Canon with evidence. Every challenge and its resolution is published in a permanent, public log.",
+    "changelog.html": "The append-only changelog of the AI Canon: every release, every scoring change, and every correction, dated and public.",
+    "data.html": "Download the AI Canon as open data: the full corpus, the weights, every per-work breakdown, and the one command that reproduces the release.",
+    "about.html": "The AI Canon is a public research initiative by Apparens. Free, checkable, and built to include the Chinese-language literature in the core, not as a footnote.",
+    "press.html": "A press and writers' guide to the AI Canon: what it is, what it is not, and how to cite it.",
+    "share.html": "Share the AI Canon, a free reference library for AI knowledge that ranks texts, not people.",
+    "search.html": "Search the whole AI Canon corpus: books, papers, models, voices, organizations, and platforms. The search runs entirely in your browser.",
+}
+
+
+def _build_jsonld() -> str:
+    """One site-wide JSON-LD graph (WebSite + Organization), identical on every
+    page, so a single sha256 added to the CSP keeps script-src strict (no
+    unsafe-inline). Crawlers read it; the byte-exact string is what the CSP hashes."""
+    graph = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "WebSite", "@id": SITE_URL + "#website",
+                "name": "The AI Canon", "url": SITE_URL, "description": DEFAULT_DESC,
+                "inLanguage": "en", "publisher": {"@id": "https://apparens.nl/#org"},
+                "license": "https://creativecommons.org/licenses/by/4.0/",
+                "potentialAction": {
+                    "@type": "SearchAction",
+                    "target": {"@type": "EntryPoint", "urlTemplate": SITE_URL + "search.html?q={search_term_string}"},
+                    "query-input": "required name=search_term_string",
+                },
+            },
+            {
+                "@type": "Organization", "@id": "https://apparens.nl/#org",
+                "name": "Apparens", "url": "https://apparens.nl",
+                "description": "Apparens, creator of the AI Control Index and the public-good AI Canon.",
+            },
+        ],
+    }
+    return json.dumps(graph, ensure_ascii=False, separators=(",", ":"))
+
+
+JSONLD = _build_jsonld()
+
+
+def _csp_hash(text: str) -> str:
+    import base64
+    import hashlib
+    return "sha256-" + base64.b64encode(hashlib.sha256(text.encode("utf-8")).digest()).decode()
+
+
+JSONLD_HASH = _csp_hash(JSONLD)
+
+
+def _canonical_url(path: str) -> str:
+    return SITE_URL + ("" if path == "index.html" else path)
+
 # --- share row (inline SVG, CSP-safe: no external requests, no inline script) ---
 SHARE_URL = "https://ai-canon.apparens.nl/"
 SHARE_TEXT = ("The AI Canon: a free, public reference library for AI knowledge. "
@@ -261,29 +332,37 @@ def _nav(active: str, prefix: str) -> str:
 </nav>"""
 
 
-def shell(active: str, kicker: str, title: str, body: str, *, depth: int = 0) -> str:
+def shell(active: str, kicker: str, title: str, body: str, *, depth: int = 0,
+          canonical: str | None = None, description: str | None = None,
+          og_type: str = "website") -> str:
     prefix = "../" * depth
     head_title = esc(title) if title == "The AI Canon" else esc(title) + " - The AI Canon"
+    path = canonical if canonical is not None else active
+    url = _canonical_url(path)
+    desc = esc(description or PAGE_DESC.get(path, DEFAULT_DESC))
     return f"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{head_title}</title>
-<meta name="description" content="The AI Canon is a free, method-backed reference library for AI knowledge. It ranks texts, not people.">
-<meta property="og:type" content="website">
+<meta name="description" content="{desc}">
+<link rel="canonical" href="{url}">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="{og_type}">
 <meta property="og:site_name" content="The AI Canon">
 <meta property="og:title" content="{head_title}">
-<meta property="og:description" content="{esc(POSITIONING)}">
-<meta property="og:url" content="https://ai-canon.apparens.nl/">
+<meta property="og:description" content="{desc}">
+<meta property="og:url" content="{url}">
 <meta property="og:image" content="https://ai-canon.apparens.nl/assets/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="The AI Canon. A reference library you can check. It ranks texts, not people.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{head_title}">
-<meta name="twitter:description" content="{esc(POSITIONING)}">
+<meta name="twitter:description" content="{desc}">
 <meta name="twitter:image" content="https://ai-canon.apparens.nl/assets/og.png">
 <link rel="stylesheet" href="{prefix}assets/fonts.css">
 <link rel="stylesheet" href="{prefix}assets/canon.css">
+<script type="application/ld+json">{JSONLD}</script>
 </head><body>
 {_nav(active, prefix)}
 <header class="h"><div class="measure"><span class="overline">{esc(kicker)}</span><h1>{esc(title)}</h1></div></header>
@@ -469,8 +548,12 @@ def page_work(work_id: str, per_scenario: dict, papers: dict) -> str:
         f'<p class="note">Disagree with this rank or a number? <a href="{body}">Challenge it</a> '
         "with your evidence. Every challenge gets a public identifier and a published resolution.</p>"
     )
-    return shell("canon-50.html", "Score breakdown", esc(p.get("canonical_title", work_id)),
-                 "".join(blocks), depth=1)
+    wt = (p.get("canonical_title") or work_id)
+    work_desc = (f"Evidence and ranking for {wt} in The AI Canon: every harvested metric, its "
+                 "source and provenance, the weights applied, and any missing-data penalty.")
+    return shell("canon-50.html", "Score breakdown", esc(wt),
+                 "".join(blocks), depth=1,
+                 canonical=f"work/{work_id}.html", description=work_desc, og_type="article")
 
 
 def page_papers(papers: dict, scored: set) -> str:
@@ -1106,8 +1189,8 @@ def _write_csv(path: Path, header: list[str], rows: list[list]) -> None:
 # and JS are external 'self' files, fonts are self-hosted, the only image is the
 # self logo. default-src 'none' denies everything not explicitly allowed. There is
 # no backend, no form, no third-party request, so connect/form/frame all close.
-_HEADERS = """/*
-  Content-Security-Policy: default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; object-src 'none'; upgrade-insecure-requests
+_HEADERS = f"""/*
+  Content-Security-Policy: default-src 'none'; script-src 'self' '{JSONLD_HASH}'; style-src 'self'; img-src 'self'; font-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; object-src 'none'; upgrade-insecure-requests
   X-Content-Type-Options: nosniff
   Referrer-Policy: no-referrer
   X-Frame-Options: DENY
@@ -1212,6 +1295,49 @@ def build() -> dict:
                ["id", "title", "authors", "year", "venue", "category"],
                [[p["id"], p["canonical_title"], p["editorial"].get("authors", ""), p.get("year", ""),
                  p["editorial"].get("venue", ""), p["editorial"].get("category", "")] for p in papers.values()])
+
+    # --- SEO: sitemap.xml, robots.txt, llms.txt ---
+    lastmod = release.get("date", "")
+    html_files = sorted(p.relative_to(SITE).as_posix() for p in SITE.glob("**/*.html"))
+    sm = ['<?xml version="1.0" encoding="UTF-8"?>',
+          '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for rel in html_files:
+        sm.append(f"  <url><loc>{esc(_canonical_url(rel))}</loc>"
+                  + (f"<lastmod>{esc(lastmod)}</lastmod>" if lastmod else "") + "</url>")
+    sm.append("</urlset>")
+    _write("sitemap.xml", "\n".join(sm) + "\n")
+
+    # The Canon is a public-good, CC BY reference meant to be read and cited, by
+    # people and by machines, so crawling is welcomed rather than fenced off.
+    _write("robots.txt",
+           "User-agent: *\nAllow: /\n\nSitemap: " + SITE_URL + "sitemap.xml\n")
+
+    llms = (
+        f"# The AI Canon\n\n"
+        f"> {DEFAULT_DESC}\n\n"
+        "The AI Canon is a free, public-good project by Apparens. It is reproducible and "
+        "method-backed: every ranking links to its evidence, the corpus and weights are open, "
+        "and anyone can challenge any entry. It ranks texts, not people, and it is built to "
+        "include the Chinese-language literature in the core, not as a footnote.\n\n"
+        "## Start here\n"
+        f"- [The Canon 50]({SITE_URL}canon-50.html): AI papers ranked under three published weighting scenarios, each rank linking to its full evidence.\n"
+        f"- [Method]({SITE_URL}method.html): how scoring works, the weights, and what is deliberately deferred or excluded.\n"
+        f"- [About]({SITE_URL}about.html): what the Canon is and is not.\n\n"
+        "## The corpus\n"
+        f"- [Library]({SITE_URL}library.html): candidate books across every theme, each described, filterable by category, language, and provenance.\n"
+        f"- [Papers]({SITE_URL}papers.html): seed papers from 1943 to 2025, including the Chinese-language research spine.\n"
+        f"- [Models]({SITE_URL}models.html): notable AI models indexed to their paper in the Canon.\n"
+        f"- [Voices]({SITE_URL}voices.html): people in AI, described and never ranked, each with a checkable source.\n"
+        f"- [Organizations]({SITE_URL}organizations.html) and [Platforms]({SITE_URL}platforms.html): context, never ranked.\n\n"
+        "## Data and integrity\n"
+        f"- [Open data and audit]({SITE_URL}data.html): the full corpus, the weights, every per-work breakdown, and the one command that reproduces the release.\n"
+        f"- [Challenge protocol]({SITE_URL}challenges.html): contest any ranking or omission with evidence; every challenge and resolution is logged.\n"
+        f"- [Changelog]({SITE_URL}changelog.html): every release and correction, dated and public.\n\n"
+        "## How to cite\n"
+        "Cite the release version shown on each page and the Zenodo DOI 10.5281/zenodo.21042034. "
+        "A rank is an output of declared evidence and weights at a release date, not a verdict on worth.\n"
+    )
+    _write("llms.txt", llms)
 
     summary = {"pages": 13 + len(breakdowns), "work_pages": len(breakdowns), "version": VERSION}
     print(json.dumps(summary, indent=2))
