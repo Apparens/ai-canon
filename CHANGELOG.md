@@ -2,6 +2,37 @@
 
 Append-only. Scoring-logic or weight changes must land with an entry here (rule 10).
 
+## Post-launch enrichment (2026-06-29)
+
+No scoring-logic or weight changes. The pilot ranking is unchanged; the work below adds
+provenance, descriptions, and corpus coverage, all as candidates pending evidence harvest.
+
+### Provenance: every context entity is now checkable
+- A source link on all 184 voices, an "about" link on all 133 organizations and 89 of 90 platforms (Papers with Code is defunct, left blank).
+- A validation pass fixed real integrity problems: an entry that cited the Canon itself as its own source (removed), Wikipedia-as-primary and LinkedIn-only sources (replaced with official pages), and Google Scholar links that served readers a bot-block page. 33 sources upgraded to official pages.
+
+### Voices: stale roles corrected, biographies added
+- Web-verified the volatile current-role claims and corrected about 15 stale ones (lab moves such as Jumper to Anthropic, LeCun to AMI Labs, Wei to Meta); removed an internal "verify" note that had leaked into public text.
+- Added a neutral, source-grounded biography to every voice. AI-drafted from each voice's cited source.
+
+### Papers: model coverage, Chinese-first (162 to 214)
+- Added 52 notable-model papers, each from its own primary arXiv or DOI, leading with Chinese labs (DeepSeek, Qwen, GLM, Kimi, Hunyuan, ERNIE, Pangu, Ling, LongCat, Seed and others). Cross-checked against Epoch AI's 2025 notable-models cohort; every arXiv id verified against the API to keep out a contaminated snapshot.
+- Method page gains "What is not here, and why": the closed frontier (latest GPT, Claude, Gemini, Grok, Llama) ships system cards, not papers, so it cannot enter a paper canon; models enter only via a primary paper; stable arXiv/DOI sources are preferred; new entries are candidates.
+
+### Models index
+- New Models page: 68 models grouped by country and lab, each linking to its paper in the canon or shown as a declared "no paper, system card only" gap, plus an external link to the model. An index, described and linked, never ranked. Carries an as-of date and links Epoch AI for the live tracker.
+
+### Library: every book now described (250 to 573)
+- Wrote the 323 remaining book descriptions. Neutral and factual, AI-drafted from public sources and flagged as such in the data. No "Description pending" remains.
+
+### Bibliographic reconciliation
+- Reconciled all 573 books against OpenLibrary and 162 papers against Crossref and arXiv. Zero genuine errors (one book year corrected). A re-runnable tool with coverage records saved under data/validation.
+
+### Transparency and security
+- Site-wide AI-use disclosure (footer and a method note): ranks are computed not generated; voice biographies and many book descriptions are AI-drafted from public sources; the cover image is AI-generated.
+- Social share icons (X, LinkedIn, email, GitHub) as inline SVG, CSP-safe.
+- New gate guard [S14]: scans every tracked file for credential signatures, since the repo is public and the Zenodo archive is permanent.
+
 ## seed v0.3: Stage A skeleton + harvest layer (2026-06-29)
 
 ### Sprint 1 + CAN-07: method package & seed import
