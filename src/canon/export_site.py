@@ -494,6 +494,15 @@ def page_papers(papers: dict, scored: set) -> str:
     return shell("papers.html", "Shelf", "Papers", "".join(rows))
 
 
+def _model_slug(name: str) -> str:
+    """Stable anchor slug for a model, shared by the models page and the search index."""
+    import re as _re
+    import unicodedata as _ud
+    base = _re.sub(r"[^a-z0-9]+", " ",
+                   _ud.normalize("NFKD", name or "").encode("ascii", "ignore").decode().lower()).strip()
+    return "model-" + base.replace(" ", "-")
+
+
 def page_models(midx: dict, papers: dict, scored: set) -> str:
     """A derived INDEX (not a ranking, not a scored entity): model -> its paper(s)
     in the canon -> an external link. The card-only frontier is shown as a declared gap."""
@@ -545,7 +554,7 @@ def page_models(midx: dict, papers: dict, scored: set) -> str:
                     plink = '<span class="gap">no paper, system card only</span>'
                 ext = (f' &middot; <a href="{safe_url(m["ext"])}" target="_blank" '
                        f'rel="noopener noreferrer nofollow">model &#8599;</a>') if m.get("ext") else ""
-                body.append(f'<div class="entry"><div class="t">{esc(m["name"])}</div>'
+                body.append(f'<div class="entry" id="{_model_slug(m["name"])}"><div class="t">{esc(m["name"])}</div>'
                             f'<div class="meta">{plink}{ext}</div></div>')
     return shell("models.html", "Models, indexed by their paper", "Models", "".join(body))
 
@@ -1068,7 +1077,7 @@ def page_about() -> str:
 
 def page_search() -> str:
     body = (
-        '<p class="note">Search the whole corpus: 608 books, 226 papers, and the voices, '
+        '<p class="note">Search the whole corpus: 608 books, 226 papers, the models index, and the voices, '
         "organizations, and platforms. Every result links to its entry. The search runs entirely "
         "in your browser; nothing typed here is sent anywhere.</p>"
         '<div class="search-wrap"><input id="sq" type="search" autocomplete="off" '
@@ -1144,7 +1153,8 @@ def build() -> dict:
     for wid, per_scenario in breakdowns.items():
         _write(f"work/{wid}.html", page_work(wid, per_scenario, papers))
     _write("papers.html", page_papers(papers, scored))
-    _write("models.html", page_models(_load(SEEDS.parent / "models_index.json"), papers, scored))
+    models_index = _load(SEEDS.parent / "models_index.json")
+    _write("models.html", page_models(models_index, papers, scored))
     _write("voices.html", page_voices(persons))
     _write("organizations.html", page_orgs(orgs))
     _write("platforms.html", page_platforms(platforms))
@@ -1174,6 +1184,9 @@ def build() -> dict:
         si.append({"t": "organization", "l": o["name"], "s": o.get("what_it_is") or "", "u": "organizations.html#" + o["id"]})
     for o in platforms:
         si.append({"t": "platform", "l": o["name"], "s": o.get("what_it_is") or "", "u": "platforms.html#" + o["id"]})
+    for m in models_index["models"]:
+        meta = " · ".join(x for x in [m.get("lab", ""), m.get("country", "")] if x)
+        si.append({"t": "model", "l": m["name"], "s": meta, "u": "models.html#" + _model_slug(m["name"])})
     idx_js = ("window.CANON_INDEX=" + json.dumps(si, ensure_ascii=False, separators=(",", ":"))
               .replace("</", "<\\/") + ";\n")
     _write("assets/search-index.js", idx_js)
