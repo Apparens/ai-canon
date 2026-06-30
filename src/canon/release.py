@@ -38,8 +38,8 @@ _ROOT = Path(__file__).resolve().parents[2]
 RELEASES = _ROOT / "data" / "releases"
 RESOLVED = _ROOT / "data" / "resolved"
 TOP_N = 50
-DEFAULT_VERSION = "pilot-v0.1"
-DEFAULT_DATE = "2026-06-29"  # metadata only; not part of corpus_hash
+DEFAULT_VERSION = "pilot-v0.2"
+DEFAULT_DATE = "2026-06-30"  # metadata only; not part of corpus_hash
 
 
 def _canonical(obj) -> str:
@@ -87,7 +87,12 @@ def _build_payload(version: str, date: str) -> dict:
             rows = rank_within_domain(works, metrics_by_work, scenario, scenarios_doc)
             key = f"{domain}__{scenario}"
             rankings[key] = rows[:TOP_N]
-            for row in rankings[key]:
+            # The published ranking is the Top-N (the Canon-50), but every work that
+            # has harvested evidence gets its full trust-surface breakdown, so a scored
+            # work outside the Top-N still links to its real evidence and its real rank,
+            # never shown as "no evidence yet". Breakdowns are derived output and do not
+            # enter corpus_hash.
+            for row in rows:
                 breakdowns.setdefault(row["work_id"], {})[scenario] = row
 
     divergence = _divergence(rankings, domains, scenario_names)
@@ -143,6 +148,12 @@ def build(version: str = DEFAULT_VERSION, date: str = DEFAULT_DATE) -> dict:
     out_dir = RELEASES / version
     (out_dir / "rankings").mkdir(parents=True, exist_ok=True)
     (out_dir / "breakdowns").mkdir(parents=True, exist_ok=True)
+    # A release is a clean snapshot, not an accumulation: clear prior rankings and
+    # breakdowns so a rebuild on changed evidence cannot leave stale files behind.
+    for stale in (out_dir / "rankings").glob("*.json"):
+        stale.unlink()
+    for stale in (out_dir / "breakdowns").glob("*.json"):
+        stale.unlink()
 
     (out_dir / "release.json").write_text(
         json.dumps(payload["release"], sort_keys=True, ensure_ascii=False, indent=2) + "\n",

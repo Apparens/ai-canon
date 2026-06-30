@@ -1,4 +1,4 @@
-# Adversarial review: pilot-v0.1
+# Adversarial review: pilot-v0.2
 
 **GATE A (machinery): PASS** (0 blocking findings)
 
@@ -9,7 +9,7 @@
 | no_cross_domain | CRITICAL | pass | each ranking is a single domain |
 | no_silent_imputation | CRITICAL | pass | missing metrics carry an explicit penalty |
 | conflict_flag_surfaced | HIGH | pass | every ranked row exposes conflict_flag |
-| coverage_declared | HIGH | pass | coverage.json present (174 metrics; gaps declared) |
+| coverage_declared | HIGH | pass | coverage.json present (326 metrics; gaps declared) |
 | ranking_sanity | HIGH | pass | rows ordered by score desc with sequential ranks |
 | scenario_divergence | INFO | observed | scenario orderings differ: divergence demonstrated |
 

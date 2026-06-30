@@ -2,6 +2,20 @@
 
 Append-only. Scoring-logic or weight changes must land with an entry here (rule 10).
 
+## pilot-v0.2: paper evidence harvest (2026-06-30)
+
+A new frozen release. The method, weights, and ontology are unchanged (method_version
+0.1-pilot); pilot-v0.1 stays on disk as the prior frozen record. What changed is the
+evidence base: more papers now carry harvested metrics, so the ranking is computed over a
+larger, stronger corpus. corpus_hash c379e0a8…, verified bit-identical on rebuild, GATE A pass.
+
+- Harvested OpenAlex citation evidence for the papers added since launch (the notable-model papers), nearly doubling the scored set: 88 to 163 papers with at least one metric, 332 metrics total (was 174). Scenario divergence still observed.
+- Every scored paper now has its own trust-surface page, not just the Top-50. A paper outside the Canon-50 links to its real evidence and real rank instead of showing "no evidence yet".
+- Metric-matching hardened (entity resolution against OpenAlex): among duplicate records for one work, the canonical, most-cited record is chosen within a one-year window. This fixes cases where a zero-citation stub was picked over the real record, for example Mixtral of Experts now reads 122 citations, not 0.
+- A zero from OpenAlex is treated as a declared gap, not a value: a fresh or unindexed record with no citations yet (Llama 3, Kimi K2, ERNIE 4.5) is shown as "no evidence yet", never as "0 citations", because a wrong number is worse than an honest gap.
+- The recent model papers mostly rank below the long-cited classics, as the method intends: it rewards citations sustained across many years, which a 2025 paper has not had time to earn. They are scored and visible, not inflated.
+- Release and site builds are now clean snapshots: a rebuild clears stale rankings, breakdowns, and work pages so changed evidence cannot leave orphaned files behind.
+
 ## Post-launch enrichment (2026-06-29)
 
 No scoring-logic or weight changes. The pilot ranking is unchanged; the work below adds

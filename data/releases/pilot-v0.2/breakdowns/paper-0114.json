@@ -1,0 +1,149 @@
+{
+  "academic": {
+    "canonical_title": "Model Cards for Model Reporting",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.003842,
+        "metric": "citation_count",
+        "normalized": 0.007684,
+        "provenance_url": "https://openalex.org/W2897042519",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 1708.0,
+        "weight": 0.5
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.1,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.2
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.028571,
+        "metric": "readership_persistence",
+        "normalized": 0.571429,
+        "provenance_url": "https://openalex.org/W2897042519",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 9.0,
+        "weight": 0.05
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 98,
+    "scenario": "academic",
+    "score": -0.192587,
+    "work_id": "paper-0114",
+    "work_type": "paper"
+  },
+  "broad_influence": {
+    "canonical_title": "Model Cards for Model Reporting",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.001537,
+        "metric": "citation_count",
+        "normalized": 0.007684,
+        "provenance_url": "https://openalex.org/W2897042519",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 1708.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.228571,
+        "metric": "readership_persistence",
+        "normalized": 0.571429,
+        "provenance_url": "https://openalex.org/W2897042519",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 9.0,
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 90,
+    "scenario": "broad_influence",
+    "score": 0.030108,
+    "work_id": "paper-0114",
+    "work_type": "paper"
+  },
+  "governance_practitioner": {
+    "canonical_title": "Model Cards for Model Reporting",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.001921,
+        "metric": "citation_count",
+        "normalized": 0.007684,
+        "provenance_url": "https://openalex.org/W2897042519",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 1708.0,
+        "weight": 0.25
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.15,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.3
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.057143,
+        "metric": "readership_persistence",
+        "normalized": 0.571429,
+        "provenance_url": "https://openalex.org/W2897042519",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 9.0,
+        "weight": 0.1
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.175,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.35
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 91,
+    "scenario": "governance_practitioner",
+    "score": -0.265936,
+    "work_id": "paper-0114",
+    "work_type": "paper"
+  }
+}

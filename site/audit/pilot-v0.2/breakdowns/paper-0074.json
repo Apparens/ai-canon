@@ -1,0 +1,149 @@
+{
+  "academic": {
+    "canonical_title": "Explaining and Harnessing Adversarial Examples",
+    "components": [
+      {
+        "confidence": "medium",
+        "contribution": 0.018348,
+        "metric": "citation_count",
+        "normalized": 0.036695,
+        "provenance_url": "https://openalex.org/W1945616565",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 8153.0,
+        "weight": 0.5
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.1,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.2
+      },
+      {
+        "confidence": "low",
+        "contribution": 0.042857,
+        "metric": "readership_persistence",
+        "normalized": 0.857143,
+        "provenance_url": "https://openalex.org/W1945616565",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 13.0,
+        "weight": 0.05
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 47,
+    "scenario": "academic",
+    "score": -0.163795,
+    "work_id": "paper-0074",
+    "work_type": "paper"
+  },
+  "broad_influence": {
+    "canonical_title": "Explaining and Harnessing Adversarial Examples",
+    "components": [
+      {
+        "confidence": "medium",
+        "contribution": 0.007339,
+        "metric": "citation_count",
+        "normalized": 0.036695,
+        "provenance_url": "https://openalex.org/W1945616565",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 8153.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "confidence": "low",
+        "contribution": 0.342857,
+        "metric": "readership_persistence",
+        "normalized": 0.857143,
+        "provenance_url": "https://openalex.org/W1945616565",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 13.0,
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 64,
+    "scenario": "broad_influence",
+    "score": 0.150196,
+    "work_id": "paper-0074",
+    "work_type": "paper"
+  },
+  "governance_practitioner": {
+    "canonical_title": "Explaining and Harnessing Adversarial Examples",
+    "components": [
+      {
+        "confidence": "medium",
+        "contribution": 0.009174,
+        "metric": "citation_count",
+        "normalized": 0.036695,
+        "provenance_url": "https://openalex.org/W1945616565",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 8153.0,
+        "weight": 0.25
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.15,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.3
+      },
+      {
+        "confidence": "low",
+        "contribution": 0.085714,
+        "metric": "readership_persistence",
+        "normalized": 0.857143,
+        "provenance_url": "https://openalex.org/W1945616565",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 13.0,
+        "weight": 0.1
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.175,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.35
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 64,
+    "scenario": "governance_practitioner",
+    "score": -0.230112,
+    "work_id": "paper-0074",
+    "work_type": "paper"
+  }
+}

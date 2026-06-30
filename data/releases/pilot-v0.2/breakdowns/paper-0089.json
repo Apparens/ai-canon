@@ -1,0 +1,149 @@
+{
+  "academic": {
+    "canonical_title": "Equality of Opportunity in Supervised Learning",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.00433,
+        "metric": "citation_count",
+        "normalized": 0.008661,
+        "provenance_url": "https://openalex.org/W2530395818",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 1925.0,
+        "weight": 0.5
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.1,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.2
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.035714,
+        "metric": "readership_persistence",
+        "normalized": 0.714286,
+        "provenance_url": "https://openalex.org/W2530395818",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 11.0,
+        "weight": 0.05
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 86,
+    "scenario": "academic",
+    "score": -0.184956,
+    "work_id": "paper-0089",
+    "work_type": "paper"
+  },
+  "broad_influence": {
+    "canonical_title": "Equality of Opportunity in Supervised Learning",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.001732,
+        "metric": "citation_count",
+        "normalized": 0.008661,
+        "provenance_url": "https://openalex.org/W2530395818",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 1925.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.285714,
+        "metric": "readership_persistence",
+        "normalized": 0.714286,
+        "provenance_url": "https://openalex.org/W2530395818",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 11.0,
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 79,
+    "scenario": "broad_influence",
+    "score": 0.087446,
+    "work_id": "paper-0089",
+    "work_type": "paper"
+  },
+  "governance_practitioner": {
+    "canonical_title": "Equality of Opportunity in Supervised Learning",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.002165,
+        "metric": "citation_count",
+        "normalized": 0.008661,
+        "provenance_url": "https://openalex.org/W2530395818",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 1925.0,
+        "weight": 0.25
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.15,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.3
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.071429,
+        "metric": "readership_persistence",
+        "normalized": 0.714286,
+        "provenance_url": "https://openalex.org/W2530395818",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 11.0,
+        "weight": 0.1
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.175,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.35
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 81,
+    "scenario": "governance_practitioner",
+    "score": -0.251406,
+    "work_id": "paper-0089",
+    "work_type": "paper"
+  }
+}

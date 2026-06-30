@@ -1,0 +1,149 @@
+{
+  "academic": {
+    "canonical_title": "A Unified Approach to Interpreting Model Predictions",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.017153,
+        "metric": "citation_count",
+        "normalized": 0.034305,
+        "provenance_url": "https://openalex.org/W2618851150",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 7622.0,
+        "weight": 0.5
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.1,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.2
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.039286,
+        "metric": "readership_persistence",
+        "normalized": 0.785714,
+        "provenance_url": "https://openalex.org/W2618851150",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 12.0,
+        "weight": 0.05
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 56,
+    "scenario": "academic",
+    "score": -0.168561,
+    "work_id": "paper-0097",
+    "work_type": "paper"
+  },
+  "broad_influence": {
+    "canonical_title": "A Unified Approach to Interpreting Model Predictions",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.006861,
+        "metric": "citation_count",
+        "normalized": 0.034305,
+        "provenance_url": "https://openalex.org/W2618851150",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 7622.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.314286,
+        "metric": "readership_persistence",
+        "normalized": 0.785714,
+        "provenance_url": "https://openalex.org/W2618851150",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 12.0,
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 70,
+    "scenario": "broad_influence",
+    "score": 0.121147,
+    "work_id": "paper-0097",
+    "work_type": "paper"
+  },
+  "governance_practitioner": {
+    "canonical_title": "A Unified Approach to Interpreting Model Predictions",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.008576,
+        "metric": "citation_count",
+        "normalized": 0.034305,
+        "provenance_url": "https://openalex.org/W2618851150",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 7622.0,
+        "weight": 0.25
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.15,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.3
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.078571,
+        "metric": "readership_persistence",
+        "normalized": 0.785714,
+        "provenance_url": "https://openalex.org/W2618851150",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 12.0,
+        "weight": 0.1
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.175,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.35
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 68,
+    "scenario": "governance_practitioner",
+    "score": -0.237853,
+    "work_id": "paper-0097",
+    "work_type": "paper"
+  }
+}

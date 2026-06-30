@@ -1,0 +1,149 @@
+{
+  "academic": {
+    "canonical_title": "DeepSeek LLM: Scaling Open-Source Language Models with Longtermism",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.000198,
+        "metric": "citation_count",
+        "normalized": 0.000396,
+        "provenance_url": "https://openalex.org/W4390690464",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 89.0,
+        "weight": 0.5
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.1,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.2
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.007143,
+        "metric": "readership_persistence",
+        "normalized": 0.142857,
+        "provenance_url": "https://openalex.org/W4390690464",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 3.0,
+        "weight": 0.05
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 149,
+    "scenario": "academic",
+    "score": -0.217659,
+    "work_id": "paper-0176",
+    "work_type": "paper"
+  },
+  "broad_influence": {
+    "canonical_title": "DeepSeek LLM: Scaling Open-Source Language Models with Longtermism",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 7.9e-05,
+        "metric": "citation_count",
+        "normalized": 0.000396,
+        "provenance_url": "https://openalex.org/W4390690464",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 89.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.057143,
+        "metric": "readership_persistence",
+        "normalized": 0.142857,
+        "provenance_url": "https://openalex.org/W4390690464",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 3.0,
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 149,
+    "scenario": "broad_influence",
+    "score": -0.142778,
+    "work_id": "paper-0176",
+    "work_type": "paper"
+  },
+  "governance_practitioner": {
+    "canonical_title": "DeepSeek LLM: Scaling Open-Source Language Models with Longtermism",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 9.9e-05,
+        "metric": "citation_count",
+        "normalized": 0.000396,
+        "provenance_url": "https://openalex.org/W4390690464",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 89.0,
+        "weight": 0.25
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.15,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.3
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.014286,
+        "metric": "readership_persistence",
+        "normalized": 0.142857,
+        "provenance_url": "https://openalex.org/W4390690464",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 3.0,
+        "weight": 0.1
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.175,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.35
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 149,
+    "scenario": "governance_practitioner",
+    "score": -0.310615,
+    "work_id": "paper-0176",
+    "work_type": "paper"
+  }
+}

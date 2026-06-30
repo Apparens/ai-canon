@@ -37,7 +37,7 @@ _ROOT = Path(__file__).resolve().parents[2]
 SITE = _ROOT / "site"
 SEEDS = _ROOT / "data" / "seeds"
 RELEASES = _ROOT / "data" / "releases"
-VERSION = "pilot-v0.1"
+VERSION = "pilot-v0.2"
 
 NAV = [
     ("index.html", "Home"),
@@ -1132,6 +1132,14 @@ def build() -> dict:
     _write("index.html", page_home(release, rankings, papers, coverage))
     _write("library.html", page_library(books))
     _write("canon-50.html", page_canon50(release, rankings, papers))
+    # Clear stale work pages so a rebuild on changed evidence cannot leave an
+    # orphaned "scored" page for a work that is now a declared gap.
+    work_dir = SITE / "work"
+    if work_dir.exists():
+        keep = {f"{wid}.html" for wid in breakdowns}
+        for stale in work_dir.glob("*.html"):
+            if stale.name not in keep:
+                stale.unlink()
     for wid, per_scenario in breakdowns.items():
         _write(f"work/{wid}.html", page_work(wid, per_scenario, papers))
     _write("papers.html", page_papers(papers, scored))

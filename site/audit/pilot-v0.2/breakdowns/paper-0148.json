@@ -1,0 +1,149 @@
+{
+  "academic": {
+    "canonical_title": "Segment Anything",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.020515,
+        "metric": "citation_count",
+        "normalized": 0.04103,
+        "provenance_url": "https://openalex.org/W4390874575",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 9116.0,
+        "weight": 0.5
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.1,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.2
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.017857,
+        "metric": "readership_persistence",
+        "normalized": 0.357143,
+        "provenance_url": "https://openalex.org/W4390874575",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 6.0,
+        "weight": 0.05
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 89,
+    "scenario": "academic",
+    "score": -0.186628,
+    "work_id": "paper-0148",
+    "work_type": "paper"
+  },
+  "broad_influence": {
+    "canonical_title": "Segment Anything",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.008206,
+        "metric": "citation_count",
+        "normalized": 0.04103,
+        "provenance_url": "https://openalex.org/W4390874575",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 9116.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.142857,
+        "metric": "readership_persistence",
+        "normalized": 0.357143,
+        "provenance_url": "https://openalex.org/W4390874575",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 6.0,
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 117,
+    "scenario": "broad_influence",
+    "score": -0.048937,
+    "work_id": "paper-0148",
+    "work_type": "paper"
+  },
+  "governance_practitioner": {
+    "canonical_title": "Segment Anything",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.010258,
+        "metric": "citation_count",
+        "normalized": 0.04103,
+        "provenance_url": "https://openalex.org/W4390874575",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 9116.0,
+        "weight": 0.25
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.15,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.3
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.035714,
+        "metric": "readership_persistence",
+        "normalized": 0.357143,
+        "provenance_url": "https://openalex.org/W4390874575",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 6.0,
+        "weight": 0.1
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.175,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.35
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 110,
+    "scenario": "governance_practitioner",
+    "score": -0.279028,
+    "work_id": "paper-0148",
+    "work_type": "paper"
+  }
+}

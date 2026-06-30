@@ -96,20 +96,33 @@ def fetch(paper: dict, *, allow_network: bool = True) -> dict | None:
 
 
 def _pick(paper: dict, response: dict) -> dict | None:
-    """Choose the best-matching OpenAlex result, or None if none clears the bar."""
+    """Choose the canonical OpenAlex record for a paper, or None if none clears the bar.
+
+    OpenAlex frequently holds several records for one work (a preprint, a published
+    version, and stub duplicates). Title overlap alone cannot tell them apart, and the
+    stubs sit at zero citations. So among records that both clear the title threshold
+    AND are within a year of ours (a same-title work from another era is excluded), we
+    take the one that actually accumulated the citations: the canonical record. Ties
+    break by title similarity then by a stable id, so the choice is deterministic.
+    """
     results = (response or {}).get("results") or []
-    best, best_score = None, 0.0
+    our_year = paper.get("year")
+    qualified: list[tuple[dict, float]] = []
     for r in results:
-        title_sim = _overlap(paper["canonical_title"], r.get("display_name") or r.get("title"))
-        year_bonus = 0.0
-        if paper.get("year") and r.get("publication_year"):
-            year_bonus = 0.1 if paper["year"] == r["publication_year"] else -0.1
-        score = title_sim + year_bonus
-        if score > best_score:
-            best, best_score = r, title_sim  # keep raw title sim for confidence
-    if best is None or best_score < _MIN_TITLE_OVERLAP:
+        sim = _overlap(paper["canonical_title"], r.get("display_name") or r.get("title"))
+        if sim < _MIN_TITLE_OVERLAP:
+            continue
+        ry = r.get("publication_year")
+        if our_year and ry and abs(ry - our_year) > 1:
+            continue  # same title, different era: a different work
+        qualified.append((r, sim))
+    if not qualified:
         return None
-    best["_title_sim"] = best_score
+    best, sim = max(
+        qualified,
+        key=lambda t: (t[0].get("cited_by_count") or 0, t[1], str(t[0].get("id") or "")),
+    )
+    best["_title_sim"] = sim
     return best
 
 
@@ -151,17 +164,21 @@ def parse(paper: dict, response: dict | None) -> dict:
 
     metrics, gaps = [], []
     citations = match.get("cited_by_count")
-    if citations is None:
-        gaps.append({"metric": "citation_count", "reason": "matched work has no cited_by_count"})
+    if not citations:  # None or 0
+        # A zero is not a credible impact signal here: it means OpenAlex matched a
+        # fresh or stub record it has not yet aggregated citations into. Publishing
+        # "0 citations" for a paper that plainly has them would be a wrong number,
+        # which the method treats as worse than an honest gap (rule 8 in spirit).
+        gaps.append({"metric": "citation_count", "reason": "OpenAlex record carries no citations yet (fresh or unindexed); declared gap, not a zero"})
     else:
         metrics.append(_metric(paper, match, "citation_count", citations, base_conf))
 
     cby = match.get("counts_by_year")
-    if not cby:
-        gaps.append({"metric": "readership_persistence", "reason": "matched work has no counts_by_year"})
+    persistence = sum(1 for e in (cby or []) if (e.get("cited_by_count") or 0) > 0)
+    if not persistence:
+        gaps.append({"metric": "readership_persistence", "reason": "OpenAlex record has no year-by-year citations yet; declared gap, not a zero"})
     else:
         # Longevity proxy: distinct years in which the work kept being cited.
-        persistence = sum(1 for e in cby if (e.get("cited_by_count") or 0) > 0)
         # Derived proxy: one notch below the all-time count's confidence.
         conf = "medium" if base_conf == "high" else "low"
         metrics.append(_metric(paper, match, "readership_persistence", persistence, conf))
