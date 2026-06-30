@@ -45,6 +45,7 @@ NAV = [
     ("library.html", "Library"),
     ("canon-50.html", "Canon 50"),
     ("papers.html", "Papers"),
+    ("models.html", "Models"),
     ("voices.html", "Voices"),
     ("organizations.html", "Organizations"),
     ("platforms.html", "Platforms"),
@@ -183,6 +184,8 @@ ol,ul{margin:10px 0 10px 22px}li{margin:6px 0}
 .entry .src{margin-top:6px;font-size:.8rem}
 .entry .src a{color:var(--accent);text-decoration:none;letter-spacing:.02em}
 .entry .src a:hover{text-decoration:underline}
+.muted{color:var(--g500);font-weight:400;font-size:.82em}
+.gap{color:var(--g500);font-style:italic}
 .entry .pending{font-size:.85rem;color:var(--g500);font-style:italic;margin-top:6px}
 .badge{display:inline-block;font-size:.62rem;letter-spacing:.04em;text-transform:uppercase;padding:2px 8px;border-radius:20px;border:1px solid var(--g300);color:var(--g500);margin-left:6px}
 .shelf-cat{font-family:"DM Serif Display",serif;font-size:1.25rem;color:var(--deep);margin:30px 0 6px;border-bottom:2px solid var(--orange);display:inline-block;padding-bottom:2px}
@@ -489,6 +492,62 @@ def page_papers(papers: dict, scored: set) -> str:
         )
     rows.append("</tbody></table>")
     return shell("papers.html", "Shelf", "Papers", "".join(rows))
+
+
+def page_models(midx: dict, papers: dict, scored: set) -> str:
+    """A derived INDEX (not a ranking, not a scored entity): model -> its paper(s)
+    in the canon -> an external link. The card-only frontier is shown as a declared gap."""
+    import re as _re
+    import unicodedata as _ud
+
+    def nrm(s):
+        return _re.sub(r"[^a-z0-9]+", " ",
+                       _ud.normalize("NFKD", s or "").encode("ascii", "ignore").decode().lower()).strip()
+
+    def resolve(sub):
+        q = nrm(sub)
+        for p in papers.values():
+            if q and q in nrm(p["canonical_title"]):
+                return p["id"]
+        return None
+
+    models = midx["models"]
+    order = ["United States", "China", "Europe (France)", "Canada", "UAE"]
+    countries = [c for c in order if any(m["country"] == c for m in models)]
+    for m in models:
+        if m["country"] not in countries:
+            countries.append(m["country"])
+
+    body = [
+        f'<p class="lead">{esc(midx["note"])}</p>',
+        f'<p class="note">Indexed as of {esc(midx["as_of"])}. This is a way in, not a leaderboard; '
+        f'for the live, exhaustive tracker see <a href="{safe_url(midx["epoch_url"])}" target="_blank" '
+        f'rel="noopener noreferrer nofollow">Epoch AI &#8599;</a>.</p>',
+    ]
+    for c in countries:
+        cm = [m for m in models if m["country"] == c]
+        withp = sum(1 for m in cm if m["paper"])
+        body.append(f'<h2>{esc(c)} <span class="muted">({len(cm)} models, {withp} with a paper here)</span></h2>')
+        labs = []
+        for m in cm:
+            if m["lab"] not in labs:
+                labs.append(m["lab"])
+        for lab in labs:
+            body.append(f'<h3>{esc(lab)}</h3>')
+            for m in cm:
+                if m["lab"] != lab:
+                    continue
+                pid = resolve(m["paper"]) if m["paper"] else None
+                if pid:
+                    href = f"work/{pid}.html" if pid in scored else f"papers.html#{pid}"
+                    plink = f'<a href="{href}">paper in the canon</a>'
+                else:
+                    plink = '<span class="gap">no paper, system card only</span>'
+                ext = (f' &middot; <a href="{safe_url(m["ext"])}" target="_blank" '
+                       f'rel="noopener noreferrer nofollow">model &#8599;</a>') if m.get("ext") else ""
+                body.append(f'<div class="entry"><div class="t">{esc(m["name"])}</div>'
+                            f'<div class="meta">{plink}{ext}</div></div>')
+    return shell("models.html", "Models, indexed by their paper", "Models", "".join(body))
 
 
 def page_method() -> str:
@@ -1076,6 +1135,7 @@ def build() -> dict:
     for wid, per_scenario in breakdowns.items():
         _write(f"work/{wid}.html", page_work(wid, per_scenario, papers))
     _write("papers.html", page_papers(papers, scored))
+    _write("models.html", page_models(_load(SEEDS.parent / "models_index.json"), papers, scored))
     _write("voices.html", page_voices(persons))
     _write("organizations.html", page_orgs(orgs))
     _write("platforms.html", page_platforms(platforms))
