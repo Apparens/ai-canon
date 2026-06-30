@@ -595,8 +595,9 @@ def page_method() -> str:
                 "not silently stubbed:</p><ul>"
                 "<li><b>Per-ecosystem normalization (rule 5)</b>: scoring runs per domain today. Per-language "
                 "normalization activates only once works from more than one ecosystem enter a scored domain. "
-                "Until then the site does not claim worldwide or present-tense multilingual coverage; the "
-                "Chinese spine (28 works) is a declared gap.</li>"
+                "Until then the site does not claim worldwide or present-tense multilingual coverage. The "
+                "Chinese-language spine is now a curated 63 books, but it carries no harvested metrics yet "
+                "(the Chinese citation ecosystem is a separate, deferred harvester), so it is browsable, not scored.</li>"
                 "<li><b>A fuller longevity proxy</b>: library holdings over time, edition count, and continued "
                 "availability, to complement readership_persistence.</li>"
                 "<li><b>Book scoring</b>: books are curated and browsable now but not yet scored; the pilot "
@@ -859,7 +860,7 @@ def page_press() -> str:
         "<h2>What is genuinely new here, and verifiable</h2>",
         f'<p>{esc("Three things, each checkable rather than asserted. First, it ranks texts and refuses to rank people: the voices and organizations in the field are described, never scored, and the data model has no way to rank a human being. Second, it is checkable end to end: the method, the corpus, the weights, and the audit files are public, and every rank links to the evidence that produced it. Third, it invites correction as a feature, not a complaint box: anyone can formally challenge any ranking or omission with evidence, and every challenge and its resolution is published in a permanent, public log.")}</p>',
         "<h2>The China and United States angle</h2>",
-        f'<p>{esc("Most maps of AI thought only see half the field. You cannot understand artificial intelligence in 2026 by reading only what was written in English. The AI Canon is built, as a published rule, to score Chinese-language works within their own publishing and citation ecosystem before any cross-language comparison, rather than against English metrics that would erase them. That rule is written into the method; the mechanism that enforces it, and the Chinese corpus it needs, are still being built. Today the scored pilot is English-language papers, and the Chinese section is thin and openly under construction, with the project actively recruiting Chinese-literate scholars and readers to help build and verify it. The story is not a finished global canon. It is a Western-built reference work that is structurally committed to including China and is openly asking Chinese experts to help, at a moment when most Western and Chinese AI discourse barely acknowledge each other.")}</p>',
+        f'<p>{esc("Most maps of AI thought only see half the field. You cannot understand artificial intelligence in 2026 by reading only what was written in English. The AI Canon is built, as a published rule, to score Chinese-language works within their own publishing and citation ecosystem before any cross-language comparison, rather than against English metrics that would erase them. That rule is written into the method; the mechanism that enforces it, and the Chinese corpus it needs, are still being built. Today the scored pilot is English-language papers, and the Chinese section is a curated spine of dozens of works that is openly under construction and not yet scored, with the project actively recruiting Chinese-literate scholars and readers to help build and verify it. The story is not a finished global canon. It is a Western-built reference work that is structurally committed to including China and is openly asking Chinese experts to help, at a moment when most Western and Chinese AI discourse barely acknowledge each other.")}</p>',
         "<h2>Quotable, attributable to Jeroen Janssen</h2>",
     ]
     body += [f'<p class="pullquote">{esc(q)}</p>' for q in quotes]

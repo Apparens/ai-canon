@@ -572,3 +572,38 @@ book-0570,Cyberselfish: A Critical Romp Through The Terribly Libertarian Culture
 book-0571,Studying Those Who Study Us: An Anthropologist in the World of Artificial Intelligence,Diana E. Forsythe,2002,EN,History,Monett Critical-AI 14th ed,False
 book-0572,Algorithmic Capital: Resistance in the Age of Artificial Intelligence,Jonathan Durand Folco and Jonathan Martineau,2026,EN,Economics & Labour,"AI-drafted (neutral summary, public sources)",False
 book-0573,Who Wrote This? How AI and the Lure of Efficiency Threaten Human Writing,Naomi S. Baron,2023,EN,Education,Monett Critical-AI 14th ed,False
+book-0574,"Rengong Zhineng ji qi Yingyong (人工智能及其应用, Artificial Intelligence and Its Applications)",蔡自兴、徐光祐,2010,ZH,Textbook AI,https://book.douban.com/subject/4852200/,False
+book-0575,"Rengong Zhineng Daolun (人工智能导论（第5版）, Introduction to Artificial Intelligence, 5th ed.)",王万良,2020,ZH,Textbook AI,https://book.douban.com/subject/35243753/,False
+book-0576,"Zuiyouhua Lilun yu Fangfa (最优化理论与方法, Optimization Theory and Methods)",袁亚湘、孙文瑜,1997,ZH,Math & Stats,https://book.douban.com/subject/1230338/,False
+book-0577,"Shenjing Wangluo Xitong Lilun (神经网络系统理论, Neural Network System Theory)",焦李成,1990,ZH,Classics,https://book.douban.com/subject/1231181/,False
+book-0578,"Gailülun yu Shuli Tongji (概率论与数理统计, Probability Theory and Mathematical Statistics)",陈希孺,2009,ZH,Math & Stats,https://book.douban.com/subject/2201479/,False
+book-0579,"Shuju Kexue (数据科学, Data Science)",朝乐门,2016,ZH,Data Mining,https://book.douban.com/subject/26852355/,False
+book-0580,"Shenru Qianchu Tu Shenjing Wangluo: GNN Yuanli Jiexi (深入浅出图神经网络：GNN原理解析, A Concise Introduction to Graph Neural Networks)","刘忠雨, 李彦霖, 周洋",2019,ZH,Practitioner,https://book.douban.com/subject/34927262/,False
+book-0581,"Zhishi Tupu: Gainian yu Jishu (知识图谱：概念与技术, Knowledge Graphs: Concepts and Technology)",肖仰华 等,2020,ZH,Practitioner,https://book.douban.com/subject/34930415/,False
+book-0582,"Tuijian Xitong yu Shendu Xuexi (推荐系统与深度学习, Recommender Systems and Deep Learning)","黄昕, 赵伟, 王本友, 吕慧伟, 杨敏",2019,ZH,Practitioner,https://book.douban.com/subject/30419577/,False
+book-0583,"Shenru Qianchu Qianghua Xuexi: Yuanli Rumen (深入浅出强化学习：原理入门, A Concise Introduction to Reinforcement Learning)","郭宪, 方勇纯",2018,ZH,RL,https://book.douban.com/subject/27624485/,False
+book-0584,"MLOps Gongcheng Shijian (MLOps工程实践：工具、技术与企业级应用, MLOps Engineering Practice)",陈雨强 等,2023,ZH,ML Engineering,https://book.douban.com/subject/36538396/,False
+book-0585,"Da Yuyan Moxing (大语言模型, Large Language Models)","赵鑫, 李军毅, 周昆, 唐天一, 文继荣",2024,ZH,LLM Engineering,https://book.douban.com/subject/37178518/,False
+book-0586,"Shendu Qianghua Xuexi: Xueshu Qianyan yu Shizhan Yingyong (深度强化学习：学术前沿与实战应用, Deep Reinforcement Learning: Frontiers and Applications)","刘驰, 王占健, 戴子彭 等",2020,ZH,RL,https://book.douban.com/subject/35012134/,False
+book-0587,"Shuzi Tuxiang Chuli (数字图像处理, Digital Image Processing)",姚敏,2012,ZH,Computer Vision,https://book.douban.com/subject/10617545/,False
+book-0588,"Tuxiang Gongcheng Shangce (图像工程（上册）, Image Engineering Volume 1)",章毓晋,2006,ZH,Computer Vision,https://book.douban.com/subject/1737364/,False
+book-0589,"Jisuanji Shijue Jiaocheng (计算机视觉教程, Computer Vision Tutorial)",章毓晋,2011,ZH,Computer Vision,https://book.douban.com/subject/6011434/,False
+book-0590,"Moshi Shibie (模式识别, Pattern Recognition)",边肇祺、张学工,2000,ZH,Textbook ML,https://book.douban.com/subject/1119445/,False
+book-0591,"Jiqiren Xue (机器人学, Robotics)",蔡自兴,2009,ZH,Robotics,https://book.douban.com/subject/4058612/,False
+book-0592,"Yuyin Xinhao Chuli (语音信号处理, Speech Signal Processing)",韩纪庆、张磊、郑铁然,2013,ZH,NLP,https://book.douban.com/subject/22793127/,False
+book-0593,"Zhe Jiushi Sousuo Yinqing (这就是搜索引擎：核心技术详解, This Is Search Engine: Core Technologies Explained)",张俊林,2012,ZH,NLP,https://book.douban.com/subject/7006719/,False
+book-0594,"Rengong Zhineng de Shenhua huo Beige (人工智能的神话或悲歌, The Myth or Elegy of Artificial Intelligence)",赵汀阳,2022,ZH,Philosophy of Mind,https://book.douban.com/subject/36075893/,False
+book-0595,"Renlei Hai You Weilai Ma (人类还有未来吗, Does Humanity Still Have a Future?)",何怀宏,2020,ZH,Society & Ethics,https://book.douban.com/subject/35197706/,False
+book-0596,"Rengong Zhineng: Xunfu Saiweitan (人工智能：驯服赛维坦, Artificial Intelligence: Taming Leviathan)",高奇琦,2018,ZH,Society & Ethics,https://book.douban.com/subject/30176654/,False
+book-0597,"Xinxi Shidai de Shijie Gongchang (信息时代的世界工厂：新工人阶级的网络社会, The World's Factory in the Information Age)",邱林川,2013,ZH,Economics & Labour,https://book.douban.com/subject/25723889/,False
+book-0598,"Zhineng yu Zhihui (智能与智慧：人工智能遇见中国哲学家, Intelligence and Wisdom: AI Meets Chinese Philosophers)",宋冰 编,2020,ZH,Philosophy of Mind,https://book.douban.com/subject/34972233/,False
+book-0599,"Rengong Zhineng (人工智能（国家人工智能战略行动抓手）, Artificial Intelligence)",腾讯研究院 等,2017,ZH,Society & Ethics,https://book.douban.com/subject/27179562/,False
+book-0600,"Quanqiu Keji Tongshi (全球科技通史, A Global History of Science and Technology)",吴军,2019,ZH,History,https://book.douban.com/subject/33385217/,False
+book-0601,"Rengong Zhineng yu Zhili (人工智能与治理, AI and Governance)",清华大学战略与安全研究中心,2022,ZH,Governance & Policy,https://book.douban.com/subject/36234578/,False
+book-0602,"Quanli zhi Zhi (权力之治：人工智能时代的算法规制, The Governance of Power: Algorithm Regulation in the Age of AI)",张凌寒,2021,ZH,Governance & Policy,https://book.douban.com/subject/35476571/,False
+book-0603,"Rengong Zhineng Zhili Kuangjia yu Shishi Lujing (人工智能治理框架与实施路径, AI Governance Framework and Implementation Pathways)",薛澜、梁正、张辉、曾雄 等,2023,ZH,Governance & Policy,https://book.douban.com/subject/36706155/,False
+book-0604,"Rengong Zhineng yu Falu (人工智能与法律, Artificial Intelligence and Law)",冯子轩 等,2020,ZH,Governance & Policy,https://book.douban.com/subject/35294631/,False
+book-0605,"Rang Falu Ren Dudong Rengong Zhineng (让法律人读懂人工智能, Making AI Comprehensible to Legal Professionals)",华宇元典法律人工智能研究院,2019,ZH,Governance & Policy,https://book.douban.com/subject/30403830/,False
+book-0606,"Rengong Zhineng Lunli Daolun (人工智能伦理导论, Introduction to AI Ethics)",莫宏伟,2022,ZH,Society & Ethics,https://book.douban.com/subject/35837721/,False
+book-0607,"Rengong Zhineng Lunli (人工智能伦理, AI Ethics)",于江生,2022,ZH,Society & Ethics,https://book.douban.com/subject/35799754/,False
+book-0608,"Rengong Zhineng Lunli Yinlun (人工智能伦理引论, An Introduction to AI Ethics)",杜严勇,2020,ZH,Society & Ethics,https://read.douban.com/ebook/159326691/,False

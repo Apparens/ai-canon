@@ -2,6 +2,16 @@
 
 Append-only. Scoring-logic or weight changes must land with an entry here (rule 10).
 
+## Chinese spine deepened (2026-06-30)
+
+No scoring change: these are curated candidates, browsable not scored. The Chinese citation
+ecosystem needs its own harvester, which stays deferred.
+
+- Added 35 originally Chinese-language books (not translations), nearly doubling the Chinese spine from 28 to 63 works. Every one was verified against its live Douban page (title and author confirmed on the page); 2 candidates were dropped because the source did not confirm them, and a duplicate edition was merged out.
+- Weighted toward the dimensions the spine was missing: 11 on AI ethics, governance, and law (Zhang Linghan on algorithm regulation; Xue Lan and Liang Zheng on AI governance frameworks; several AI-ethics texts), plus AI-and-society and philosophy (Zhao Tingyang, Jack Linchuan Qiu, the Berggruen Institute volume), computer vision, optimization theory, and an early Chinese neural-network classic (Jiao Licheng, 1990).
+- Each carries its Douban source and a neutral AI-drafted description, flagged in the data like the rest of the corpus.
+- Copy corrected: the method page and the China note now describe the spine as 63 curated books, browsable not scored, replacing the old "28 works" figure and the word "thin".
+
 ## pilot-v0.2: paper evidence harvest (2026-06-30)
 
 A new frozen release. The method, weights, and ontology are unchanged (method_version

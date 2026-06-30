@@ -6703,5 +6703,320 @@
     "source": "AI_Canon_SeedCorpus_v03.xlsx",
     "to_id": "category:Education",
     "volatile": false
+  },
+  {
+    "derivation_method": "Category column (single tag; model supports many)",
+    "edge_type": "categorized_as",
+    "from_id": "book-0574",
+    "last_verified": "2026-06-14",
+    "source": "AI_Canon_SeedCorpus_v03.xlsx",
+    "to_id": "category:Textbook AI",
+    "volatile": false
+  },
+  {
+    "derivation_method": "Category column (single tag; model supports many)",
+    "edge_type": "categorized_as",
+    "from_id": "book-0575",
+    "last_verified": "2026-06-14",
+    "source": "AI_Canon_SeedCorpus_v03.xlsx",
+    "to_id": "category:Textbook AI",
+    "volatile": false
+  },
+  {
+    "derivation_method": "Category column (single tag; model supports many)",
+    "edge_type": "categorized_as",
+    "from_id": "book-0576",
+    "last_verified": "2026-06-14",
+    "source": "AI_Canon_SeedCorpus_v03.xlsx",
+    "to_id": "category:Math & Stats",
+    "volatile": false
+  },
+  {
+    "derivation_method": "Category column (single tag; model supports many)",
+    "edge_type": "categorized_as",
+    "from_id": "book-0577",
+    "last_verified": "2026-06-14",
+    "source": "AI_Canon_SeedCorpus_v03.xlsx",
+    "to_id": "category:Classics",
+    "volatile": false
+  },
+  {
+    "derivation_method": "Category column (single tag; model supports many)",
+    "edge_type": "categorized_as",
+    "from_id": "book-0578",
+    "last_verified": "2026-06-14",
+    "source": "AI_Canon_SeedCorpus_v03.xlsx",
+    "to_id": "category:Math & Stats",
+    "volatile": false
+  },
+  {
+    "derivation_method": "Category column (single tag; model supports many)",
+    "edge_type": "categorized_as",
+    "from_id": "book-0579",
+    "last_verified": "2026-06-14",
+    "source": "AI_Canon_SeedCorpus_v03.xlsx",
+    "to_id": "category:Data Mining",
+    "volatile": false
+  },
+  {
+    "derivation_method": "Category column (single tag; model supports many)",
+    "edge_type": "categorized_as",
+    "from_id": "book-0580",
+    "last_verified": "2026-06-14",
+    "source": "AI_Canon_SeedCorpus_v03.xlsx",
+    "to_id": "category:Practitioner",
+    "volatile": false
+  },
+  {
+    "derivation_method": "Category column (single tag; model supports many)",
+    "edge_type": "categorized_as",
+    "from_id": "book-0581",
+    "last_verified": "2026-06-14",
+    "source": "AI_Canon_SeedCorpus_v03.xlsx",
+    "to_id": "category:Practitioner",
+    "volatile": false
+  },
+  {
+    "derivation_method": "Category column (single tag; model supports many)",
+    "edge_type": "categorized_as",
+    "from_id": "book-0582",
+    "last_verified": "2026-06-14",
+    "source": "AI_Canon_SeedCorpus_v03.xlsx",
+    "to_id": "category:Practitioner",
+    "volatile": false
+  },
+  {
+    "derivation_method": "Category column (single tag; model supports many)",
+    "edge_type": "categorized_as",
+    "from_id": "book-0583",
+    "last_verified": "2026-06-14",
+    "source": "AI_Canon_SeedCorpus_v03.xlsx",
+    "to_id": "category:RL",
+    "volatile": false
+  },
+  {
+    "derivation_method": "Category column (single tag; model supports many)",
+    "edge_type": "categorized_as",
+    "from_id": "book-0584",
+    "last_verified": "2026-06-14",
+    "source": "AI_Canon_SeedCorpus_v03.xlsx",
+    "to_id": "category:ML Engineering",
+    "volatile": false
+  },
+  {
+    "derivation_method": "Category column (single tag; model supports many)",
+    "edge_type": "categorized_as",
+    "from_id": "book-0585",
+    "last_verified": "2026-06-14",
+    "source": "AI_Canon_SeedCorpus_v03.xlsx",
+    "to_id": "category:LLM Engineering",
+    "volatile": false
+  },
+  {
+    "derivation_method": "Category column (single tag; model supports many)",
+    "edge_type": "categorized_as",
+    "from_id": "book-0586",
+    "last_verified": "2026-06-14",
+    "source": "AI_Canon_SeedCorpus_v03.xlsx",
+    "to_id": "category:RL",
+    "volatile": false
+  },
+  {
+    "derivation_method": "Category column (single tag; model supports many)",
+    "edge_type": "categorized_as",
+    "from_id": "book-0587",
+    "last_verified": "2026-06-14",
+    "source": "AI_Canon_SeedCorpus_v03.xlsx",
+    "to_id": "category:Computer Vision",
+    "volatile": false
+  },
+  {
+    "derivation_method": "Category column (single tag; model supports many)",
+    "edge_type": "categorized_as",
+    "from_id": "book-0588",
+    "last_verified": "2026-06-14",
+    "source": "AI_Canon_SeedCorpus_v03.xlsx",
+    "to_id": "category:Computer Vision",
+    "volatile": false
+  },
+  {
+    "derivation_method": "Category column (single tag; model supports many)",
+    "edge_type": "categorized_as",
+    "from_id": "book-0589",
+    "last_verified": "2026-06-14",
+    "source": "AI_Canon_SeedCorpus_v03.xlsx",
+    "to_id": "category:Computer Vision",
+    "volatile": false
+  },
+  {
+    "derivation_method": "Category column (single tag; model supports many)",
+    "edge_type": "categorized_as",
+    "from_id": "book-0590",
+    "last_verified": "2026-06-14",
+    "source": "AI_Canon_SeedCorpus_v03.xlsx",
+    "to_id": "category:Textbook ML",
+    "volatile": false
+  },
+  {
+    "derivation_method": "Category column (single tag; model supports many)",
+    "edge_type": "categorized_as",
+    "from_id": "book-0591",
+    "last_verified": "2026-06-14",
+    "source": "AI_Canon_SeedCorpus_v03.xlsx",
+    "to_id": "category:Robotics",
+    "volatile": false
+  },
+  {
+    "derivation_method": "Category column (single tag; model supports many)",
+    "edge_type": "categorized_as",
+    "from_id": "book-0592",
+    "last_verified": "2026-06-14",
+    "source": "AI_Canon_SeedCorpus_v03.xlsx",
+    "to_id": "category:NLP",
+    "volatile": false
+  },
+  {
+    "derivation_method": "Category column (single tag; model supports many)",
+    "edge_type": "categorized_as",
+    "from_id": "book-0593",
+    "last_verified": "2026-06-14",
+    "source": "AI_Canon_SeedCorpus_v03.xlsx",
+    "to_id": "category:NLP",
+    "volatile": false
+  },
+  {
+    "derivation_method": "Category column (single tag; model supports many)",
+    "edge_type": "categorized_as",
+    "from_id": "book-0594",
+    "last_verified": "2026-06-14",
+    "source": "AI_Canon_SeedCorpus_v03.xlsx",
+    "to_id": "category:Philosophy of Mind",
+    "volatile": false
+  },
+  {
+    "derivation_method": "Category column (single tag; model supports many)",
+    "edge_type": "categorized_as",
+    "from_id": "book-0595",
+    "last_verified": "2026-06-14",
+    "source": "AI_Canon_SeedCorpus_v03.xlsx",
+    "to_id": "category:Society & Ethics",
+    "volatile": false
+  },
+  {
+    "derivation_method": "Category column (single tag; model supports many)",
+    "edge_type": "categorized_as",
+    "from_id": "book-0596",
+    "last_verified": "2026-06-14",
+    "source": "AI_Canon_SeedCorpus_v03.xlsx",
+    "to_id": "category:Society & Ethics",
+    "volatile": false
+  },
+  {
+    "derivation_method": "Category column (single tag; model supports many)",
+    "edge_type": "categorized_as",
+    "from_id": "book-0597",
+    "last_verified": "2026-06-14",
+    "source": "AI_Canon_SeedCorpus_v03.xlsx",
+    "to_id": "category:Economics & Labour",
+    "volatile": false
+  },
+  {
+    "derivation_method": "Category column (single tag; model supports many)",
+    "edge_type": "categorized_as",
+    "from_id": "book-0598",
+    "last_verified": "2026-06-14",
+    "source": "AI_Canon_SeedCorpus_v03.xlsx",
+    "to_id": "category:Philosophy of Mind",
+    "volatile": false
+  },
+  {
+    "derivation_method": "Category column (single tag; model supports many)",
+    "edge_type": "categorized_as",
+    "from_id": "book-0599",
+    "last_verified": "2026-06-14",
+    "source": "AI_Canon_SeedCorpus_v03.xlsx",
+    "to_id": "category:Society & Ethics",
+    "volatile": false
+  },
+  {
+    "derivation_method": "Category column (single tag; model supports many)",
+    "edge_type": "categorized_as",
+    "from_id": "book-0600",
+    "last_verified": "2026-06-14",
+    "source": "AI_Canon_SeedCorpus_v03.xlsx",
+    "to_id": "category:History",
+    "volatile": false
+  },
+  {
+    "derivation_method": "Category column (single tag; model supports many)",
+    "edge_type": "categorized_as",
+    "from_id": "book-0601",
+    "last_verified": "2026-06-14",
+    "source": "AI_Canon_SeedCorpus_v03.xlsx",
+    "to_id": "category:Governance & Policy",
+    "volatile": false
+  },
+  {
+    "derivation_method": "Category column (single tag; model supports many)",
+    "edge_type": "categorized_as",
+    "from_id": "book-0602",
+    "last_verified": "2026-06-14",
+    "source": "AI_Canon_SeedCorpus_v03.xlsx",
+    "to_id": "category:Governance & Policy",
+    "volatile": false
+  },
+  {
+    "derivation_method": "Category column (single tag; model supports many)",
+    "edge_type": "categorized_as",
+    "from_id": "book-0603",
+    "last_verified": "2026-06-14",
+    "source": "AI_Canon_SeedCorpus_v03.xlsx",
+    "to_id": "category:Governance & Policy",
+    "volatile": false
+  },
+  {
+    "derivation_method": "Category column (single tag; model supports many)",
+    "edge_type": "categorized_as",
+    "from_id": "book-0604",
+    "last_verified": "2026-06-14",
+    "source": "AI_Canon_SeedCorpus_v03.xlsx",
+    "to_id": "category:Governance & Policy",
+    "volatile": false
+  },
+  {
+    "derivation_method": "Category column (single tag; model supports many)",
+    "edge_type": "categorized_as",
+    "from_id": "book-0605",
+    "last_verified": "2026-06-14",
+    "source": "AI_Canon_SeedCorpus_v03.xlsx",
+    "to_id": "category:Governance & Policy",
+    "volatile": false
+  },
+  {
+    "derivation_method": "Category column (single tag; model supports many)",
+    "edge_type": "categorized_as",
+    "from_id": "book-0606",
+    "last_verified": "2026-06-14",
+    "source": "AI_Canon_SeedCorpus_v03.xlsx",
+    "to_id": "category:Society & Ethics",
+    "volatile": false
+  },
+  {
+    "derivation_method": "Category column (single tag; model supports many)",
+    "edge_type": "categorized_as",
+    "from_id": "book-0607",
+    "last_verified": "2026-06-14",
+    "source": "AI_Canon_SeedCorpus_v03.xlsx",
+    "to_id": "category:Society & Ethics",
+    "volatile": false
+  },
+  {
+    "derivation_method": "Category column (single tag; model supports many)",
+    "edge_type": "categorized_as",
+    "from_id": "book-0608",
+    "last_verified": "2026-06-14",
+    "source": "AI_Canon_SeedCorpus_v03.xlsx",
+    "to_id": "category:Society & Ethics",
+    "volatile": false
   }
 ]

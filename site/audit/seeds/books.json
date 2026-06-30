@@ -10312,5 +10312,635 @@
     "original_title": null,
     "work_type": "book",
     "year": 2023
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Rengong Zhineng ji qi Yingyong (人工智能及其应用, Artificial Intelligence and Its Applications)",
+    "conflict_flag": false,
+    "editorial": {
+      "author": "蔡自兴、徐光祐",
+      "category": "Textbook AI",
+      "desc_confidence": "medium",
+      "description": "A long-running Chinese university textbook (this is the 4th edition) covering knowledge representation, search and reasoning, expert systems, machine learning, and natural language understanding.",
+      "source": "https://book.douban.com/subject/4852200/"
+    },
+    "id": "book-0574",
+    "language": "ZH",
+    "level": null,
+    "original_title": null,
+    "work_type": "book",
+    "year": 2010
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Rengong Zhineng Daolun (人工智能导论（第5版）, Introduction to Artificial Intelligence, 5th ed.)",
+    "conflict_flag": false,
+    "editorial": {
+      "author": "王万良",
+      "category": "Textbook AI",
+      "desc_confidence": "medium",
+      "description": "An introductory AI textbook in eleven chapters covering knowledge representation and knowledge graphs, deterministic and uncertain reasoning, search strategies, intelligent computation, expert systems and machine learning, neural networks, and agents.",
+      "source": "https://book.douban.com/subject/35243753/"
+    },
+    "id": "book-0575",
+    "language": "ZH",
+    "level": null,
+    "original_title": null,
+    "work_type": "book",
+    "year": 2020
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Zuiyouhua Lilun yu Fangfa (最优化理论与方法, Optimization Theory and Methods)",
+    "conflict_flag": false,
+    "editorial": {
+      "author": "袁亚湘、孙文瑜",
+      "category": "Math & Stats",
+      "desc_confidence": "medium",
+      "description": "A graduate-level monograph systematically presenting unconstrained, constrained, and nonsmooth optimization theory and computational methods, with emphasis on the mathematical analysis of algorithms.",
+      "source": "https://book.douban.com/subject/1230338/"
+    },
+    "id": "book-0576",
+    "language": "ZH",
+    "level": null,
+    "original_title": null,
+    "work_type": "book",
+    "year": 1997
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Shenjing Wangluo Xitong Lilun (神经网络系统理论, Neural Network System Theory)",
+    "conflict_flag": false,
+    "editorial": {
+      "author": "焦李成",
+      "category": "Classics",
+      "desc_confidence": "medium",
+      "description": "An early Chinese monograph on neural networks covering the MP neuron model and Hebbian learning, stability of dynamical systems, and feedforward, feedback, self-organizing, and stochastic network paradigms.",
+      "source": "https://book.douban.com/subject/1231181/"
+    },
+    "id": "book-0577",
+    "language": "ZH",
+    "level": null,
+    "original_title": null,
+    "work_type": "book",
+    "year": 1990
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Gailülun yu Shuli Tongji (概率论与数理统计, Probability Theory and Mathematical Statistics)",
+    "conflict_flag": false,
+    "editorial": {
+      "author": "陈希孺",
+      "category": "Math & Stats",
+      "desc_confidence": "medium",
+      "description": "A probability and statistics text by a CAS academician covering elementary probability, random variables and distributions, limit theorems, point and interval estimation, and hypothesis testing.",
+      "source": "https://book.douban.com/subject/2201479/"
+    },
+    "id": "book-0578",
+    "language": "ZH",
+    "level": null,
+    "original_title": null,
+    "work_type": "book",
+    "year": 2009
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Shuju Kexue (数据科学, Data Science)",
+    "conflict_flag": false,
+    "editorial": {
+      "author": "朝乐门",
+      "category": "Data Mining",
+      "desc_confidence": "medium",
+      "description": "An originally Chinese monograph presenting data science concepts, theory, methods, technologies, and tools, described as one of the first systematic Chinese-authored treatments of the field.",
+      "source": "https://book.douban.com/subject/26852355/"
+    },
+    "id": "book-0579",
+    "language": "ZH",
+    "level": null,
+    "original_title": null,
+    "work_type": "book",
+    "year": 2016
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Shenru Qianchu Tu Shenjing Wangluo: GNN Yuanli Jiexi (深入浅出图神经网络：GNN原理解析, A Concise Introduction to Graph Neural Networks)",
+    "conflict_flag": false,
+    "editorial": {
+      "author": "刘忠雨, 李彦霖, 周洋",
+      "category": "Practitioner",
+      "desc_confidence": "medium",
+      "description": "A practitioner book on graph neural networks covering graph signal processing, graph convolutional networks, GNN variants, graph classification, and graph representation learning.",
+      "source": "https://book.douban.com/subject/34927262/"
+    },
+    "id": "book-0580",
+    "language": "ZH",
+    "level": null,
+    "original_title": null,
+    "work_type": "book",
+    "year": 2019
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Zhishi Tupu: Gainian yu Jishu (知识图谱：概念与技术, Knowledge Graphs: Concepts and Technology)",
+    "conflict_flag": false,
+    "editorial": {
+      "author": "肖仰华 等",
+      "category": "Practitioner",
+      "desc_confidence": "medium",
+      "description": "A reference text on knowledge graphs organized into basics, construction, management, application, and practice sections covering automated construction, storage, querying, search and question answering.",
+      "source": "https://book.douban.com/subject/34930415/"
+    },
+    "id": "book-0581",
+    "language": "ZH",
+    "level": null,
+    "original_title": null,
+    "work_type": "book",
+    "year": 2020
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Tuijian Xitong yu Shendu Xuexi (推荐系统与深度学习, Recommender Systems and Deep Learning)",
+    "conflict_flag": false,
+    "editorial": {
+      "author": "黄昕, 赵伟, 王本友, 吕慧伟, 杨敏",
+      "category": "Practitioner",
+      "desc_confidence": "medium",
+      "description": "A recommender systems book moving from traditional algorithms to deep learning methods, with code for techniques such as Word2Vec, Wide & Deep, DeepFM, and GAN.",
+      "source": "https://book.douban.com/subject/30419577/"
+    },
+    "id": "book-0582",
+    "language": "ZH",
+    "level": null,
+    "original_title": null,
+    "work_type": "book",
+    "year": 2019
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Shenru Qianchu Qianghua Xuexi: Yuanli Rumen (深入浅出强化学习：原理入门, A Concise Introduction to Reinforcement Learning)",
+    "conflict_flag": false,
+    "editorial": {
+      "author": "郭宪, 方勇纯",
+      "category": "RL",
+      "desc_confidence": "medium",
+      "description": "An introductory reinforcement learning book covering Markov decision processes, dynamic programming, value-function methods, policy-search methods, inverse reinforcement learning, and deep reinforcement learning.",
+      "source": "https://book.douban.com/subject/27624485/"
+    },
+    "id": "book-0583",
+    "language": "ZH",
+    "level": null,
+    "original_title": null,
+    "work_type": "book",
+    "year": 2018
+  },
+  {
+    "canonical": true,
+    "canonical_title": "MLOps Gongcheng Shijian (MLOps工程实践：工具、技术与企业级应用, MLOps Engineering Practice)",
+    "conflict_flag": false,
+    "editorial": {
+      "author": "陈雨强 等",
+      "category": "ML Engineering",
+      "desc_confidence": "medium",
+      "description": "An MLOps book by authors from the AI company Fourth Paradigm covering data processing, pipeline tools such as Airflow and MLflow, feature platforms, and maturity assessment.",
+      "source": "https://book.douban.com/subject/36538396/"
+    },
+    "id": "book-0584",
+    "language": "ZH",
+    "level": null,
+    "original_title": null,
+    "work_type": "book",
+    "year": 2023
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Da Yuyan Moxing (大语言模型, Large Language Models)",
+    "conflict_flag": false,
+    "editorial": {
+      "author": "赵鑫, 李军毅, 周昆, 唐天一, 文继荣",
+      "category": "LLM Engineering",
+      "desc_confidence": "medium",
+      "description": "A 13-chapter reference on large language models by a Renmin University team covering background, resources, pre-training, fine-tuning and alignment, model usage, and evaluation, with code examples.",
+      "source": "https://book.douban.com/subject/37178518/"
+    },
+    "id": "book-0585",
+    "language": "ZH",
+    "level": null,
+    "original_title": null,
+    "work_type": "book",
+    "year": 2024
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Shendu Qianghua Xuexi: Xueshu Qianyan yu Shizhan Yingyong (深度强化学习：学术前沿与实战应用, Deep Reinforcement Learning: Frontiers and Applications)",
+    "conflict_flag": false,
+    "editorial": {
+      "author": "刘驰, 王占健, 戴子彭 等",
+      "category": "RL",
+      "desc_confidence": "medium",
+      "description": "A deep reinforcement learning book organized into single-agent, multi-agent, multi-task, and applied sections with core code analysis.",
+      "source": "https://book.douban.com/subject/35012134/"
+    },
+    "id": "book-0586",
+    "language": "ZH",
+    "level": null,
+    "original_title": null,
+    "work_type": "book",
+    "year": 2020
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Shuzi Tuxiang Chuli (数字图像处理, Digital Image Processing)",
+    "conflict_flag": false,
+    "editorial": {
+      "author": "姚敏",
+      "category": "Computer Vision",
+      "desc_confidence": "medium",
+      "description": "Chinese university textbook covering digital image processing fundamentals including image acquisition, transforms, enhancement, restoration, color image processing, and coding across 13 chapters.",
+      "source": "https://book.douban.com/subject/10617545/"
+    },
+    "id": "book-0587",
+    "language": "ZH",
+    "level": null,
+    "original_title": null,
+    "work_type": "book",
+    "year": 2012
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Tuxiang Gongcheng Shangce (图像工程（上册）, Image Engineering Volume 1)",
+    "conflict_flag": false,
+    "editorial": {
+      "author": "章毓晋",
+      "category": "Computer Vision",
+      "desc_confidence": "medium",
+      "description": "Tsinghua University textbook presenting the first level of image engineering, covering basic concepts, principles, typical methods, and practical techniques of image processing.",
+      "source": "https://book.douban.com/subject/1737364/"
+    },
+    "id": "book-0588",
+    "language": "ZH",
+    "level": null,
+    "original_title": null,
+    "work_type": "book",
+    "year": 2006
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Jisuanji Shijue Jiaocheng (计算机视觉教程, Computer Vision Tutorial)",
+    "conflict_flag": false,
+    "editorial": {
+      "author": "章毓晋",
+      "category": "Computer Vision",
+      "desc_confidence": "medium",
+      "description": "Textbook covering computer vision principles and methods including image acquisition, preprocessing, primitive detection, segmentation, stereo vision, three-dimensional scene recovery, motion analysis, and scene interpretation.",
+      "source": "https://book.douban.com/subject/6011434/"
+    },
+    "id": "book-0589",
+    "language": "ZH",
+    "level": null,
+    "original_title": null,
+    "work_type": "book",
+    "year": 2011
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Moshi Shibie (模式识别, Pattern Recognition)",
+    "conflict_flag": false,
+    "editorial": {
+      "author": "边肇祺、张学工",
+      "category": "Textbook ML",
+      "desc_confidence": "medium",
+      "description": "Tsinghua University pattern recognition textbook covering Bayesian decision theory, probability density estimation, linear and nonlinear discriminant functions, nearest-neighbor methods, and feature selection and extraction.",
+      "source": "https://book.douban.com/subject/1119445/"
+    },
+    "id": "book-0590",
+    "language": "ZH",
+    "level": null,
+    "original_title": null,
+    "work_type": "book",
+    "year": 2000
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Jiqiren Xue (机器人学, Robotics)",
+    "conflict_flag": false,
+    "editorial": {
+      "author": "蔡自兴",
+      "category": "Robotics",
+      "desc_confidence": "medium",
+      "description": "Robotics textbook across 12 chapters covering mathematical foundations, kinematics, dynamics, position and force control, advanced control, sensors, high-level planning, trajectory planning, and programming.",
+      "source": "https://book.douban.com/subject/4058612/"
+    },
+    "id": "book-0591",
+    "language": "ZH",
+    "level": null,
+    "original_title": null,
+    "work_type": "book",
+    "year": 2009
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Yuyin Xinhao Chuli (语音信号处理, Speech Signal Processing)",
+    "conflict_flag": false,
+    "editorial": {
+      "author": "韩纪庆、张磊、郑铁然",
+      "category": "NLP",
+      "desc_confidence": "medium",
+      "description": "Textbook on speech signal processing covering speech production and perception, signal analysis, coding, synthesis, and speech recognition methods.",
+      "source": "https://book.douban.com/subject/22793127/"
+    },
+    "id": "book-0592",
+    "language": "ZH",
+    "level": null,
+    "original_title": null,
+    "work_type": "book",
+    "year": 2013
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Zhe Jiushi Sousuo Yinqing (这就是搜索引擎：核心技术详解, This Is Search Engine: Core Technologies Explained)",
+    "conflict_flag": false,
+    "editorial": {
+      "author": "张俊林",
+      "category": "NLP",
+      "desc_confidence": "medium",
+      "description": "Book on search engine and information retrieval technologies covering web crawlers, indexing systems, ranking systems, link analysis, user analysis, anti-spam, caching, and deduplication.",
+      "source": "https://book.douban.com/subject/7006719/"
+    },
+    "id": "book-0593",
+    "language": "ZH",
+    "level": null,
+    "original_title": null,
+    "work_type": "book",
+    "year": 2012
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Rengong Zhineng de Shenhua huo Beige (人工智能的神话或悲歌, The Myth or Elegy of Artificial Intelligence)",
+    "conflict_flag": false,
+    "editorial": {
+      "author": "赵汀阳",
+      "category": "Philosophy of Mind",
+      "desc_confidence": "medium",
+      "description": "A collection of philosophy-of-technology essays by a Chinese Academy of Social Sciences philosopher examining the ontological and ethical questions raised by AI and gene editing.",
+      "source": "https://book.douban.com/subject/36075893/"
+    },
+    "id": "book-0594",
+    "language": "ZH",
+    "level": null,
+    "original_title": null,
+    "work_type": "book",
+    "year": 2022
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Renlei Hai You Weilai Ma (人类还有未来吗, Does Humanity Still Have a Future?)",
+    "conflict_flag": false,
+    "editorial": {
+      "author": "何怀宏",
+      "category": "Society & Ethics",
+      "desc_confidence": "medium",
+      "description": "An ethics study by a Peking University philosophy professor on the challenges posed by artificial intelligence and genetic technology, drawing on Eastern and Western traditions.",
+      "source": "https://book.douban.com/subject/35197706/"
+    },
+    "id": "book-0595",
+    "language": "ZH",
+    "level": null,
+    "original_title": null,
+    "work_type": "book",
+    "year": 2020
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Rengong Zhineng: Xunfu Saiweitan (人工智能：驯服赛维坦, Artificial Intelligence: Taming Leviathan)",
+    "conflict_flag": false,
+    "editorial": {
+      "author": "高奇琦",
+      "category": "Society & Ethics",
+      "desc_confidence": "medium",
+      "description": "A political-science work analyzing AI's impact on social justice, governance and ethics through concepts such as algorithmic autocracy and the data life form.",
+      "source": "https://book.douban.com/subject/30176654/"
+    },
+    "id": "book-0596",
+    "language": "ZH",
+    "level": null,
+    "original_title": null,
+    "work_type": "book",
+    "year": 2018
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Xinxi Shidai de Shijie Gongchang (信息时代的世界工厂：新工人阶级的网络社会, The World's Factory in the Information Age)",
+    "conflict_flag": false,
+    "editorial": {
+      "author": "邱林川",
+      "category": "Economics & Labour",
+      "desc_confidence": "medium",
+      "description": "A communication-studies study of how networked information technology shapes the working class and labour conditions in contemporary China.",
+      "source": "https://book.douban.com/subject/25723889/"
+    },
+    "id": "book-0597",
+    "language": "ZH",
+    "level": null,
+    "original_title": null,
+    "work_type": "book",
+    "year": 2013
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Zhineng yu Zhihui (智能与智慧：人工智能遇见中国哲学家, Intelligence and Wisdom: AI Meets Chinese Philosophers)",
+    "conflict_flag": false,
+    "editorial": {
+      "author": "宋冰 编",
+      "category": "Philosophy of Mind",
+      "desc_confidence": "medium",
+      "description": "An edited volume from Berggruen Institute China Center workshops collecting Chinese and international thinkers on AI and philosophy of mind and ethics.",
+      "source": "https://book.douban.com/subject/34972233/"
+    },
+    "id": "book-0598",
+    "language": "ZH",
+    "level": null,
+    "original_title": null,
+    "work_type": "book",
+    "year": 2020
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Rengong Zhineng (人工智能（国家人工智能战略行动抓手）, Artificial Intelligence)",
+    "conflict_flag": false,
+    "editorial": {
+      "author": "腾讯研究院 等",
+      "category": "Society & Ethics",
+      "desc_confidence": "medium",
+      "description": "A research-institute volume covering AI technology, industry, international competition, law, ethics and governance in the context of China's national AI strategy.",
+      "source": "https://book.douban.com/subject/27179562/"
+    },
+    "id": "book-0599",
+    "language": "ZH",
+    "level": null,
+    "original_title": null,
+    "work_type": "book",
+    "year": 2017
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Quanqiu Keji Tongshi (全球科技通史, A Global History of Science and Technology)",
+    "conflict_flag": false,
+    "editorial": {
+      "author": "吴军",
+      "category": "History",
+      "desc_confidence": "medium",
+      "description": "A general history of technology by a Chinese computer scientist and author, tracing human civilization through the twin threads of energy and information.",
+      "source": "https://book.douban.com/subject/33385217/"
+    },
+    "id": "book-0600",
+    "language": "ZH",
+    "level": null,
+    "original_title": null,
+    "work_type": "book",
+    "year": 2019
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Rengong Zhineng yu Zhili (人工智能与治理, AI and Governance)",
+    "conflict_flag": false,
+    "editorial": {
+      "author": "清华大学战略与安全研究中心",
+      "category": "Governance & Policy",
+      "desc_confidence": "medium",
+      "description": "An edited collection of research papers from Tsinghua University's Center for Strategy and Security on the international governance of AI, covering national security, technology and governance, facial recognition, and AI ethics.",
+      "source": "https://book.douban.com/subject/36234578/"
+    },
+    "id": "book-0601",
+    "language": "ZH",
+    "level": null,
+    "original_title": null,
+    "work_type": "book",
+    "year": 2022
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Quanli zhi Zhi (权力之治：人工智能时代的算法规制, The Governance of Power: Algorithm Regulation in the Age of AI)",
+    "conflict_flag": false,
+    "editorial": {
+      "author": "张凌寒",
+      "category": "Governance & Policy",
+      "desc_confidence": "medium",
+      "description": "A legal monograph by scholar Zhang Linghan analyzing algorithm regulation, power dynamics, and accountability frameworks for automated decision-making in the AI era.",
+      "source": "https://book.douban.com/subject/35476571/"
+    },
+    "id": "book-0602",
+    "language": "ZH",
+    "level": null,
+    "original_title": null,
+    "work_type": "book",
+    "year": 2021
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Rengong Zhineng Zhili Kuangjia yu Shishi Lujing (人工智能治理框架与实施路径, AI Governance Framework and Implementation Pathways)",
+    "conflict_flag": false,
+    "editorial": {
+      "author": "薛澜、梁正、张辉、曾雄 等",
+      "category": "Governance & Policy",
+      "desc_confidence": "medium",
+      "description": "An edited volume in the Frontiers in Technology Development and Governance series reviewing AI governance theory and proposing governance frameworks adapted to China's developmental context.",
+      "source": "https://book.douban.com/subject/36706155/"
+    },
+    "id": "book-0603",
+    "language": "ZH",
+    "level": null,
+    "original_title": null,
+    "work_type": "book",
+    "year": 2023
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Rengong Zhineng yu Falu (人工智能与法律, Artificial Intelligence and Law)",
+    "conflict_flag": false,
+    "editorial": {
+      "author": "冯子轩 等",
+      "category": "Governance & Policy",
+      "desc_confidence": "medium",
+      "description": "A teaching text combining AI and law that covers legal reasoning, ethical standards, knowledge graphs, and the impact of AI across constitutional, administrative, civil, economic, and criminal law.",
+      "source": "https://book.douban.com/subject/35294631/"
+    },
+    "id": "book-0604",
+    "language": "ZH",
+    "level": null,
+    "original_title": null,
+    "work_type": "book",
+    "year": 2020
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Rang Falu Ren Dudong Rengong Zhineng (让法律人读懂人工智能, Making AI Comprehensible to Legal Professionals)",
+    "conflict_flag": false,
+    "editorial": {
+      "author": "华宇元典法律人工智能研究院",
+      "category": "Governance & Policy",
+      "desc_confidence": "medium",
+      "description": "A collection of essays and interviews compiled by a legal-AI research institute, an early Chinese work presenting multi-expert discussions on legal artificial intelligence.",
+      "source": "https://book.douban.com/subject/30403830/"
+    },
+    "id": "book-0605",
+    "language": "ZH",
+    "level": null,
+    "original_title": null,
+    "work_type": "book",
+    "year": 2019
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Rengong Zhineng Lunli Daolun (人工智能伦理导论, Introduction to AI Ethics)",
+    "conflict_flag": false,
+    "editorial": {
+      "author": "莫宏伟",
+      "category": "Society & Ethics",
+      "desc_confidence": "medium",
+      "description": "An original Chinese textbook introducing the ethical issues of artificial intelligence for university students from an engineering and technology perspective.",
+      "source": "https://book.douban.com/subject/35837721/"
+    },
+    "id": "book-0606",
+    "language": "ZH",
+    "level": null,
+    "original_title": null,
+    "work_type": "book",
+    "year": 2022
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Rengong Zhineng Lunli (人工智能伦理, AI Ethics)",
+    "conflict_flag": false,
+    "editorial": {
+      "author": "于江生",
+      "category": "Society & Ethics",
+      "desc_confidence": "medium",
+      "description": "A 491-page original work by Yu Jiangsheng examining AI ethics from a Chinese perspective, integrating technical, mathematical, and philosophical analysis of the field.",
+      "source": "https://book.douban.com/subject/35799754/"
+    },
+    "id": "book-0607",
+    "language": "ZH",
+    "level": null,
+    "original_title": null,
+    "work_type": "book",
+    "year": 2022
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Rengong Zhineng Lunli Yinlun (人工智能伦理引论, An Introduction to AI Ethics)",
+    "conflict_flag": false,
+    "editorial": {
+      "author": "杜严勇",
+      "category": "Society & Ethics",
+      "desc_confidence": "medium",
+      "description": "A monograph by philosopher Du Yanyong addressing AI ethics topics including robot rights, military robots, companion robots, and human-machine coexistence.",
+      "source": "https://read.douban.com/ebook/159326691/"
+    },
+    "id": "book-0608",
+    "language": "ZH",
+    "level": null,
+    "original_title": null,
+    "work_type": "book",
+    "year": 2020
   }
 ]

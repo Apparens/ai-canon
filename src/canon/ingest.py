@@ -38,7 +38,7 @@ CONTEXT_XLSX = SOURCE_DIR / "AI_Canon_Voices_Orgs_Platforms.xlsx"
 SEED_DATE = date(2026, 6, 14)  # seed v0.3 (changelog)
 APPARENS_CONFLICT_TITLE = "the ai accountability trap"  # rule 12
 
-EXPECTED = {"books": 573, "papers": 214, "persons": 184, "orgs": 133, "platforms": 90}
+EXPECTED = {"books": 608, "papers": 214, "persons": 184, "orgs": 133, "platforms": 90}
 AUTHORED_BY_BAND = (151, 185)  # ~168 +/-10%
 
 
@@ -246,8 +246,8 @@ def run() -> dict:
             raise AssertionError(f"{key}: expected {expected}, got {counts[key]}")
 
     described = sum(1 for b in books if b["editorial"]["description"])
-    if described != 573:
-        raise AssertionError(f"expected 573 book descriptions, got {described}")
+    if described != 608:
+        raise AssertionError(f"expected 608 book descriptions, got {described}")
 
     authored = derive_authored_by(
         books, persons, lambda w: w["editorial"]["author"]
