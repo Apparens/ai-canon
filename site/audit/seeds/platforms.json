@@ -5,6 +5,7 @@
     "id": "platform-0001",
     "last_verified": "2026-06-14",
     "name": "AI Snake Oil (Narayanan & Kapoor)",
+    "source_url": "https://www.normaltech.ai/about",
     "status": "Active",
     "what_it_is": "Evaluation-skeptic analysis with academic grounding"
   },
@@ -14,6 +15,7 @@
     "id": "platform-0002",
     "last_verified": "2026-06-14",
     "name": "ChinAI (Jeff Ding)",
+    "source_url": "https://chinai.substack.com/about",
     "status": "Active",
     "what_it_is": "Translations of Chinese AI discourse"
   },
@@ -23,6 +25,7 @@
     "id": "platform-0003",
     "last_verified": "2026-06-14",
     "name": "Don't Worry About the Vase (Zvi)",
+    "source_url": "https://thezvi.substack.com/about",
     "status": "Active",
     "what_it_is": "Exhaustive weekly synthesis of AI developments"
   },
@@ -32,6 +35,7 @@
     "id": "platform-0004",
     "last_verified": "2026-06-14",
     "name": "Dwarkesh Podcast",
+    "source_url": "https://www.dwarkesh.com/about",
     "status": "Active",
     "what_it_is": "Long-form primary interviews with frontier figures"
   },
@@ -41,6 +45,7 @@
     "id": "platform-0005",
     "last_verified": "2026-06-14",
     "name": "Import AI (Jack Clark)",
+    "source_url": "https://jack-clark.net/about/",
     "status": "Active",
     "what_it_is": "The longest-running serious AI policy/technical newsletter"
   },
@@ -50,6 +55,7 @@
     "id": "platform-0006",
     "last_verified": "2026-06-14",
     "name": "Interconnects (Nathan Lambert)",
+    "source_url": "https://www.interconnects.ai/about",
     "status": "Active",
     "what_it_is": "Open-model and post-training analysis"
   },
@@ -59,6 +65,7 @@
     "id": "platform-0007",
     "last_verified": "2026-06-14",
     "name": "International AI Safety Report",
+    "source_url": "https://internationalaisafetyreport.org/about",
     "status": "Active; periodic",
     "what_it_is": "Bengio-chaired intergovernmental scientific assessment"
   },
@@ -68,6 +75,7 @@
     "id": "platform-0008",
     "last_verified": "2026-06-14",
     "name": "Jiqizhixin (机器之心)",
+    "source_url": "https://www.jiqizhixin.com/",
     "status": "Active",
     "what_it_is": "China's leading AI media outlet"
   },
@@ -77,6 +85,7 @@
     "id": "platform-0009",
     "last_verified": "2026-06-14",
     "name": "Latent Space",
+    "source_url": "https://www.latent.space/about",
     "status": "Active",
     "what_it_is": "AI engineering podcast/newsletter; defined the AI-engineer role"
   },
@@ -86,6 +95,7 @@
     "id": "platform-0010",
     "last_verified": "2026-06-14",
     "name": "MIT Technology Review (AI desk)",
+    "source_url": "https://www.technologyreview.com/about/",
     "status": "Active",
     "what_it_is": "The legacy outlet with the strongest AI bench"
   },
@@ -95,6 +105,7 @@
     "id": "platform-0011",
     "last_verified": "2026-06-14",
     "name": "Machine Learning Street Talk",
+    "source_url": "https://www.mlst.ai/about",
     "status": "Active",
     "what_it_is": "Technical long-form research interviews"
   },
@@ -104,6 +115,7 @@
     "id": "platform-0012",
     "last_verified": "2026-06-14",
     "name": "QbitAI (量子位)",
+    "source_url": "https://www.qbitai.com/关于我们",
     "status": "Active",
     "what_it_is": "CN AI industry news"
   },
@@ -113,6 +125,7 @@
     "id": "platform-0013",
     "last_verified": "2026-06-14",
     "name": "SemiAnalysis",
+    "source_url": "https://semianalysis.com/about/",
     "status": "Active",
     "what_it_is": "Compute supply-chain and datacenter analysis"
   },
@@ -122,6 +135,7 @@
     "id": "platform-0014",
     "last_verified": "2026-06-14",
     "name": "Stanford AI Index",
+    "source_url": "https://hai.stanford.edu/ai-index",
     "status": "Active; annual",
     "what_it_is": "The reference annual dataset on AI progress and policy"
   },
@@ -131,6 +145,7 @@
     "id": "platform-0015",
     "last_verified": "2026-06-14",
     "name": "State of AI Report",
+    "source_url": "https://www.stateof.ai/",
     "status": "Active; annual",
     "what_it_is": "Annual field synthesis (Benaich)"
   },
@@ -140,6 +155,7 @@
     "id": "platform-0016",
     "last_verified": "2026-06-14",
     "name": "The Batch",
+    "source_url": "https://www.deeplearning.ai/the-batch/",
     "status": "Active",
     "what_it_is": "Accessible weekly AI news (DeepLearning.AI)"
   },
@@ -149,6 +165,7 @@
     "id": "platform-0017",
     "last_verified": "2026-06-14",
     "name": "Transformer (Shakeel Hashim)",
+    "source_url": "https://www.transformernews.ai/about",
     "status": "Active",
     "what_it_is": "AI policy journalism"
   },
@@ -158,6 +175,7 @@
     "id": "platform-0018",
     "last_verified": "2026-06-14",
     "name": "Alignment Forum",
+    "source_url": "https://www.alignmentforum.org/about",
     "status": "Active",
     "what_it_is": "Technical alignment research discussion"
   },
@@ -167,6 +185,7 @@
     "id": "platform-0019",
     "last_verified": "2026-06-14",
     "name": "EleutherAI Discord",
+    "source_url": "https://www.eleuther.ai/about",
     "status": "Active",
     "what_it_is": "Open-source research collective's home"
   },
@@ -176,6 +195,7 @@
     "id": "platform-0020",
     "last_verified": "2026-06-14",
     "name": "LessWrong",
+    "source_url": "https://www.lesswrong.com/about",
     "status": "Active",
     "what_it_is": "Rationalist forum where alignment discourse developed"
   },
@@ -185,6 +205,7 @@
     "id": "platform-0021",
     "last_verified": "2026-06-14",
     "name": "r/MachineLearning + r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/MachineLearning/",
     "status": "Active",
     "what_it_is": "Research and local-model practitioner communities"
   },
@@ -194,6 +215,7 @@
     "id": "platform-0022",
     "last_verified": "2026-06-14",
     "name": "Character.AI",
+    "source_url": "https://character.ai/about",
     "status": "Active",
     "what_it_is": "Companion-AI at scale; the test case for AI-relationship governance"
   },
@@ -203,6 +225,7 @@
     "id": "platform-0023",
     "last_verified": "2026-06-14",
     "name": "ChatGPT",
+    "source_url": "https://openai.com/chatgpt/overview/",
     "status": "Active",
     "what_it_is": "The product that made LLMs a mass medium"
   },
@@ -212,6 +235,7 @@
     "id": "platform-0024",
     "last_verified": "2026-06-14",
     "name": "Claude (claude.ai / Claude Code)",
+    "source_url": "https://claude.com/product/overview",
     "status": "Active",
     "what_it_is": "Anthropic's assistant; Claude Code defined agentic coding"
   },
@@ -221,6 +245,7 @@
     "id": "platform-0025",
     "last_verified": "2026-06-14",
     "name": "Doubao",
+    "source_url": "https://www.doubao.com/",
     "status": "Active",
     "what_it_is": "ByteDance's assistant; China's largest by users"
   },
@@ -230,6 +255,7 @@
     "id": "platform-0026",
     "last_verified": "2026-06-14",
     "name": "Gemini (app)",
+    "source_url": "https://gemini.google/about/",
     "status": "Active",
     "what_it_is": "Google's assistant across Android/Workspace"
   },
@@ -239,6 +265,7 @@
     "id": "platform-0027",
     "last_verified": "2026-06-14",
     "name": "Kimi",
+    "source_url": "https://www.moonshot.ai/",
     "status": "Active",
     "what_it_is": "Moonshot's consumer assistant (CN)"
   },
@@ -248,6 +275,7 @@
     "id": "platform-0028",
     "last_verified": "2026-06-14",
     "name": "Microsoft Copilot",
+    "source_url": "https://www.microsoft.com/en-us/microsoft-copilot/copilot-101/what-is-copilot",
     "status": "Active",
     "what_it_is": "AI layer across Windows/Office/GitHub"
   },
@@ -257,6 +285,7 @@
     "id": "platform-0029",
     "last_verified": "2026-06-14",
     "name": "NotebookLM",
+    "source_url": "https://notebooklm.google/",
     "status": "Active",
     "what_it_is": "Source-grounded research assistant; audio overviews"
   },
@@ -266,6 +295,7 @@
     "id": "platform-0030",
     "last_verified": "2026-06-14",
     "name": "Perplexity",
+    "source_url": "https://www.perplexity.ai/about",
     "status": "Active",
     "what_it_is": "Answer-engine challenger to search"
   },
@@ -275,6 +305,7 @@
     "id": "platform-0031",
     "last_verified": "2026-06-14",
     "name": "3Blue1Brown",
+    "source_url": "https://www.3blue1brown.com/about",
     "status": "Active",
     "what_it_is": "The visual neural-network explainers"
   },
@@ -284,6 +315,7 @@
     "id": "platform-0032",
     "last_verified": "2026-06-14",
     "name": "Coursera",
+    "source_url": "https://www.coursera.org/about",
     "status": "Active",
     "what_it_is": "Distribution layer of ML MOOCs since the original Ng course"
   },
@@ -293,6 +325,7 @@
     "id": "platform-0033",
     "last_verified": "2026-06-14",
     "name": "DeepLearning.AI",
+    "source_url": "https://www.deeplearning.ai/about/",
     "status": "Active",
     "what_it_is": "Ng's course ecosystem; The Batch newsletter"
   },
@@ -302,6 +335,7 @@
     "id": "platform-0034",
     "last_verified": "2026-06-14",
     "name": "Hugging Face Learn",
+    "source_url": "https://huggingface.co/learn",
     "status": "Active",
     "what_it_is": "Free courses on transformers, RL, agents"
   },
@@ -311,6 +345,7 @@
     "id": "platform-0035",
     "last_verified": "2026-06-14",
     "name": "Khan Academy (Khanmigo)",
+    "source_url": "https://www.khanmigo.ai/",
     "status": "Active",
     "what_it_is": "AI tutoring at school scale"
   },
@@ -320,6 +355,7 @@
     "id": "platform-0036",
     "last_verified": "2026-06-14",
     "name": "MIT OpenCourseWare",
+    "source_url": "https://ocw.mit.edu/about/",
     "status": "Active",
     "what_it_is": "Open university AI/ML courses"
   },
@@ -329,6 +365,7 @@
     "id": "platform-0037",
     "last_verified": "2026-06-14",
     "name": "Stanford CS231n / CS224n materials",
+    "source_url": "https://cs231n.stanford.edu/",
     "status": "Active",
     "what_it_is": "The canonical open vision and NLP course materials"
   },
@@ -338,6 +375,7 @@
     "id": "platform-0038",
     "last_verified": "2026-06-14",
     "name": "XuetangX / icourse163",
+    "source_url": "https://www.xuetangx.com/about",
     "status": "Active",
     "what_it_is": "China's MOOC platforms; required-readings signal for CN canon"
   },
@@ -347,6 +385,7 @@
     "id": "platform-0039",
     "last_verified": "2026-06-14",
     "name": "d2l.ai",
+    "source_url": "https://d2l.ai/",
     "status": "Active",
     "what_it_is": "Dive into Deep Learning interactive book; bilingual EN/CN"
   },
@@ -356,6 +395,7 @@
     "id": "platform-0040",
     "last_verified": "2026-06-14",
     "name": "fast.ai",
+    "source_url": "https://www.fast.ai/about.html",
     "status": "Active",
     "what_it_is": "Top-down practical deep learning curriculum"
   },
@@ -365,6 +405,7 @@
     "id": "platform-0041",
     "last_verified": "2026-06-14",
     "name": "AI Safety/capability evals (Inspect, UK AISI)",
+    "source_url": "https://www.aisi.gov.uk/about",
     "status": "Active",
     "what_it_is": "Open-source evaluation framework from a state body"
   },
@@ -374,6 +415,7 @@
     "id": "platform-0042",
     "last_verified": "2026-06-14",
     "name": "ARC Prize",
+    "source_url": "https://arcprize.org/about",
     "status": "Active",
     "what_it_is": "Chollet's abstraction-and-reasoning challenge"
   },
@@ -383,6 +425,7 @@
     "id": "platform-0043",
     "last_verified": "2026-06-14",
     "name": "Artificial Analysis",
+    "source_url": "https://artificialanalysis.ai/",
     "status": "Active",
     "what_it_is": "Independent price/performance/latency benchmarking of model APIs"
   },
@@ -392,6 +435,7 @@
     "id": "platform-0044",
     "last_verified": "2026-06-14",
     "name": "Epoch AI (data hub)",
+    "source_url": "https://epoch.ai/about",
     "status": "Active",
     "what_it_is": "Compute, training-run, and benchmark databases"
   },
@@ -401,6 +445,7 @@
     "id": "platform-0045",
     "last_verified": "2026-06-14",
     "name": "HELM (Stanford CRFM)",
+    "source_url": "https://crfm.stanford.edu/helm/",
     "status": "Active",
     "what_it_is": "Holistic, transparent LM evaluation suite"
   },
@@ -410,6 +455,7 @@
     "id": "platform-0046",
     "last_verified": "2026-06-14",
     "name": "LMArena (Chatbot Arena)",
+    "source_url": "https://lmarena.ai/about",
     "status": "Active",
     "what_it_is": "Human-preference ELO for chat models; the de facto public scoreboard"
   },
@@ -419,6 +465,7 @@
     "id": "platform-0047",
     "last_verified": "2026-06-14",
     "name": "LiveBench",
+    "source_url": "https://livebench.ai/",
     "status": "Active",
     "what_it_is": "Contamination-resistant rolling benchmark"
   },
@@ -428,6 +475,7 @@
     "id": "platform-0048",
     "last_verified": "2026-06-14",
     "name": "MLPerf (MLCommons)",
+    "source_url": "https://mlcommons.org/about-us/",
     "status": "Active",
     "what_it_is": "Industry-standard hardware/training benchmarks"
   },
@@ -437,6 +485,7 @@
     "id": "platform-0049",
     "last_verified": "2026-06-14",
     "name": "SWE-bench",
+    "source_url": "https://www.swebench.com/",
     "status": "Active",
     "what_it_is": "Real-repository software-engineering benchmark"
   },
@@ -446,6 +495,7 @@
     "id": "platform-0050",
     "last_verified": "2026-06-14",
     "name": "CUDA",
+    "source_url": "https://developer.nvidia.com/cuda-zone",
     "status": "Active",
     "what_it_is": "The moat under NVIDIA; the GPU programming layer"
   },
@@ -455,6 +505,7 @@
     "id": "platform-0051",
     "last_verified": "2026-06-14",
     "name": "Google Colab",
+    "source_url": "https://colab.research.google.com/",
     "status": "Active",
     "what_it_is": "Free GPU notebooks; the global on-ramp"
   },
@@ -464,6 +515,7 @@
     "id": "platform-0052",
     "last_verified": "2026-06-14",
     "name": "JAX",
+    "source_url": "https://docs.jax.dev/en/latest/",
     "status": "Active",
     "what_it_is": "Composable accelerator-native ML (Google)"
   },
@@ -473,6 +525,7 @@
     "id": "platform-0053",
     "last_verified": "2026-06-14",
     "name": "Jupyter",
+    "source_url": "https://jupyter.org/about",
     "status": "Active",
     "what_it_is": "The notebook substrate of applied ML"
   },
@@ -482,6 +535,7 @@
     "id": "platform-0054",
     "last_verified": "2026-06-14",
     "name": "LangChain / LangGraph",
+    "source_url": "https://www.langchain.com/about",
     "status": "Active",
     "what_it_is": "Agent orchestration ecosystem"
   },
@@ -491,6 +545,7 @@
     "id": "platform-0055",
     "last_verified": "2026-06-14",
     "name": "MLflow",
+    "source_url": "https://mlflow.org/",
     "status": "Active",
     "what_it_is": "Experiment tracking and model registry (Databricks)"
   },
@@ -500,6 +555,7 @@
     "id": "platform-0056",
     "last_verified": "2026-06-14",
     "name": "Model Context Protocol (MCP)",
+    "source_url": "https://modelcontextprotocol.io/",
     "status": "Active; industry-adopted",
     "what_it_is": "Anthropic-originated open standard for tool/context connectivity"
   },
@@ -509,6 +565,7 @@
     "id": "platform-0057",
     "last_verified": "2026-06-14",
     "name": "PyTorch",
+    "source_url": "https://pytorch.org/foundation",
     "status": "Active",
     "what_it_is": "The research-default deep learning framework (Linux Foundation)"
   },
@@ -518,6 +575,7 @@
     "id": "platform-0058",
     "last_verified": "2026-06-14",
     "name": "TensorFlow / Keras",
+    "source_url": "https://www.tensorflow.org/about",
     "status": "Active; declining research share",
     "what_it_is": "The first mass DL framework; Keras 3 multi-backend"
   },
@@ -527,6 +585,7 @@
     "id": "platform-0059",
     "last_verified": "2026-06-14",
     "name": "llama.cpp",
+    "source_url": "https://github.com/ggml-org/llama.cpp",
     "status": "Active",
     "what_it_is": "Local inference engine behind the consumer open-model wave"
   },
@@ -536,6 +595,7 @@
     "id": "platform-0060",
     "last_verified": "2026-06-14",
     "name": "scikit-learn",
+    "source_url": "https://scikit-learn.org/stable/about.html",
     "status": "Active",
     "what_it_is": "Classical ML standard library"
   },
@@ -545,6 +605,7 @@
     "id": "platform-0061",
     "last_verified": "2026-06-14",
     "name": "vLLM",
+    "source_url": "https://docs.vllm.ai/en/latest/",
     "status": "Active",
     "what_it_is": "The open inference-serving standard"
   },
@@ -554,6 +615,7 @@
     "id": "platform-0062",
     "last_verified": "2026-06-14",
     "name": "Civitai",
+    "source_url": "https://civitai.com/content/guides/what-is-civitai",
     "status": "Active",
     "what_it_is": "Community hub for image-generation models"
   },
@@ -563,6 +625,7 @@
     "id": "platform-0063",
     "last_verified": "2026-06-14",
     "name": "Common Crawl",
+    "source_url": "https://commoncrawl.org/about",
     "status": "Active",
     "what_it_is": "The web corpus under most LLM pretraining"
   },
@@ -572,6 +635,7 @@
     "id": "platform-0064",
     "last_verified": "2026-06-14",
     "name": "GitHub",
+    "source_url": "https://github.com/about",
     "status": "Active",
     "what_it_is": "Where the AI tooling ecosystem lives; Copilot origin"
   },
@@ -581,6 +645,7 @@
     "id": "platform-0065",
     "last_verified": "2026-06-14",
     "name": "Hugging Face Hub",
+    "source_url": "https://huggingface.co/huggingface",
     "status": "Active",
     "what_it_is": "The registry of open models, datasets, and spaces"
   },
@@ -590,6 +655,7 @@
     "id": "platform-0066",
     "last_verified": "2026-06-14",
     "name": "Kaggle",
+    "source_url": "https://www.kaggle.com/about/team",
     "status": "Active",
     "what_it_is": "Competitions, datasets, notebooks; ML on-ramp"
   },
@@ -599,6 +665,7 @@
     "id": "platform-0067",
     "last_verified": "2026-06-14",
     "name": "LAION",
+    "source_url": "https://laion.ai/about/",
     "status": "Active",
     "what_it_is": "Open image-text datasets behind the diffusion era"
   },
@@ -608,6 +675,7 @@
     "id": "platform-0068",
     "last_verified": "2026-06-14",
     "name": "ModelScope",
+    "source_url": "https://www.modelscope.cn/docs/community/about-us",
     "status": "Active",
     "what_it_is": "Alibaba's open-model hub; the CN mirror of HF"
   },
@@ -617,6 +685,7 @@
     "id": "platform-0069",
     "last_verified": "2026-06-14",
     "name": "Ollama",
+    "source_url": "https://ollama.com/",
     "status": "Active",
     "what_it_is": "Local LLM running standard"
   },
@@ -626,6 +695,7 @@
     "id": "platform-0070",
     "last_verified": "2026-06-14",
     "name": "OpenML",
+    "source_url": "https://www.openml.org/about",
     "status": "Active",
     "what_it_is": "Open platform for sharing datasets and ML experiments"
   },
@@ -635,6 +705,7 @@
     "id": "platform-0071",
     "last_verified": "2026-06-14",
     "name": "Replicate",
+    "source_url": "https://replicate.com/about",
     "status": "Active",
     "what_it_is": "Run open models via API"
   },
@@ -644,6 +715,7 @@
     "id": "platform-0072",
     "last_verified": "2026-06-14",
     "name": "UCI ML Repository",
+    "source_url": "https://archive.ics.uci.edu/about",
     "status": "Active",
     "what_it_is": "The classical benchmark dataset archive"
   },
@@ -653,6 +725,7 @@
     "id": "platform-0073",
     "last_verified": "2026-06-14",
     "name": "AI Incident Database",
+    "source_url": "https://incidentdatabase.ai/about/",
     "status": "Active",
     "what_it_is": "Structured registry of AI harms"
   },
@@ -662,6 +735,7 @@
     "id": "platform-0074",
     "last_verified": "2026-06-14",
     "name": "AI Standards Hub (UK)",
+    "source_url": "https://aistandardshub.org/the-ai-standards-hub/",
     "status": "Active",
     "what_it_is": "Tracker of AI standards landscape (Turing Institute)"
   },
@@ -671,6 +745,7 @@
     "id": "platform-0075",
     "last_verified": "2026-06-14",
     "name": "AIAAIC Repository",
+    "source_url": "https://www.aiaaic.org/about-aiaaic",
     "status": "Active",
     "what_it_is": "Independent log of AI incidents and controversies"
   },
@@ -680,6 +755,7 @@
     "id": "platform-0076",
     "last_verified": "2026-06-14",
     "name": "EU AI Act Explorer (artificialintelligenceact.eu)",
+    "source_url": "https://artificialintelligenceact.eu/about/",
     "status": "Active",
     "what_it_is": "The reference navigation layer for the Act (FLI)"
   },
@@ -689,6 +765,7 @@
     "id": "platform-0077",
     "last_verified": "2026-06-14",
     "name": "Foundation Model Transparency Index",
+    "source_url": "https://crfm.stanford.edu/fmti/",
     "status": "Active; periodic",
     "what_it_is": "Stanford's periodic transparency scoring of major developers"
   },
@@ -698,6 +775,7 @@
     "id": "platform-0078",
     "last_verified": "2026-06-14",
     "name": "IAPP AI Governance Center",
+    "source_url": "https://iapp.org/about/ai-governance-center/",
     "status": "Active",
     "what_it_is": "Profession-building for AI governance roles (AIGP)"
   },
@@ -707,6 +785,7 @@
     "id": "platform-0079",
     "last_verified": "2026-06-14",
     "name": "NIST AIRC",
+    "source_url": "https://airc.nist.gov/about",
     "status": "Active",
     "what_it_is": "Resource center around the AI RMF"
   },
@@ -716,6 +795,7 @@
     "id": "platform-0080",
     "last_verified": "2026-06-14",
     "name": "OECD.AI Policy Observatory",
+    "source_url": "https://oecd.ai/en/about/about-oecd-ai",
     "status": "Active",
     "what_it_is": "Global database of national AI policies"
   },
@@ -725,6 +805,7 @@
     "id": "platform-0081",
     "last_verified": "2026-06-14",
     "name": "CNKI",
+    "source_url": "https://oversea.cnki.net/index/",
     "status": "Active; access-restricted",
     "what_it_is": "China's dominant academic database; licensed access only"
   },
@@ -734,6 +815,7 @@
     "id": "platform-0082",
     "last_verified": "2026-06-14",
     "name": "Connected Papers",
+    "source_url": "https://www.connectedpapers.com/about",
     "status": "Active",
     "what_it_is": "Visual citation-graph exploration"
   },
@@ -743,6 +825,7 @@
     "id": "platform-0083",
     "last_verified": "2026-06-14",
     "name": "Google Scholar",
+    "source_url": "https://scholar.google.com/intl/en/scholar/about.html",
     "status": "Active",
     "what_it_is": "Default citation lookup, including CN-language coverage"
   },
@@ -752,6 +835,7 @@
     "id": "platform-0084",
     "last_verified": "2026-06-14",
     "name": "OpenAlex",
+    "source_url": "https://help.openalex.org/hc/en-us/articles/24396686889751-About-us",
     "status": "Active",
     "what_it_is": "Open bibliographic database and API; the citation substrate"
   },
@@ -761,6 +845,7 @@
     "id": "platform-0085",
     "last_verified": "2026-06-14",
     "name": "OpenReview",
+    "source_url": "https://openreview.net/about",
     "status": "Active",
     "what_it_is": "Open peer review for ICLR/NeurIPS and others"
   },
@@ -770,6 +855,7 @@
     "id": "platform-0086",
     "last_verified": "2026-06-14",
     "name": "Papers with Code",
+    "source_url": null,
     "status": "Sunset by Meta mid-2025; archives partly absorbed by Hugging Face — verify current state",
     "what_it_is": "Linked papers, code, and SOTA tables"
   },
@@ -779,6 +865,7 @@
     "id": "platform-0087",
     "last_verified": "2026-06-14",
     "name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/about",
     "status": "Active",
     "what_it_is": "AI-powered literature search and citation graph (Ai2)"
   },
@@ -788,6 +875,7 @@
     "id": "platform-0088",
     "last_verified": "2026-06-14",
     "name": "Zenodo",
+    "source_url": "https://about.zenodo.org/",
     "status": "Active",
     "what_it_is": "DOI-issuing open repository (used for MCS line)"
   },
@@ -797,6 +885,7 @@
     "id": "platform-0089",
     "last_verified": "2026-06-14",
     "name": "alphaXiv",
+    "source_url": "https://www.alphaxiv.org/about",
     "status": "Active",
     "what_it_is": "Discussion and AI-assisted reading layer over arXiv"
   },
@@ -806,6 +895,7 @@
     "id": "platform-0090",
     "last_verified": "2026-06-14",
     "name": "arXiv",
+    "source_url": "https://info.arxiv.org/about/index.html",
     "status": "Active",
     "what_it_is": "Preprint server where the field actually publishes"
   }

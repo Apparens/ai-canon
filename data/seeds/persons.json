@@ -1,7 +1,7 @@
 [
   {
     "anchor_affiliation": "Scripps Research",
-    "bio": null,
+    "bio": "Eric Topol is a physician and researcher at Scripps Research, where he serves as executive vice president and founder of the Scripps Research Translational Institute. He is known for his work on clinical applications of artificial intelligence, including the book Deep Medicine, and for advocating evidence standards for medical AI.",
     "canonical": false,
     "category": "AI for Science",
     "id": "person-0001",
@@ -13,7 +13,7 @@
   },
   {
     "anchor_affiliation": "Joining Anthropic (2026); ex-Google DeepMind (AlphaFold)",
-    "bio": null,
+    "bio": "John Jumper is a researcher known for leading the development of AlphaFold, the protein structure prediction system, for which he received the 2024 Nobel Prize in Chemistry. He previously worked at Google DeepMind on AlphaFold and is joining Anthropic in 2026.",
     "canonical": false,
     "category": "AI for Science",
     "id": "person-0002",
@@ -25,7 +25,7 @@
   },
   {
     "anchor_affiliation": "Google DeepMind science VP",
-    "bio": null,
+    "bio": "Pushmeet Kohli is a vice president at Google DeepMind, where he leads the AI for Science unit. He is known for his work on the AlphaFold and AlphaTensor science portfolio. He was previously a director of research at Microsoft Research.",
     "canonical": false,
     "category": "AI for Science",
     "id": "person-0003",
@@ -37,7 +37,7 @@
   },
   {
     "anchor_affiliation": "MIT Jameel Clinic",
-    "bio": null,
+    "bio": "Regina Barzilay is a professor at MIT and AI faculty lead at the MIT Jameel Clinic. She is known for applying machine learning to drug discovery and oncology, including diagnostic models such as Mirai and Sybil. She is a member of MIT's Computer Science and Artificial Intelligence Laboratory.",
     "canonical": false,
     "category": "AI for Science",
     "id": "person-0004",
@@ -49,7 +49,7 @@
   },
   {
     "anchor_affiliation": "CMU; Cartesia",
-    "bio": null,
+    "bio": "Albert Gu is an assistant professor in the Machine Learning Department at Carnegie Mellon University and a co-founder of Cartesia. He is known for his work on state-space models, including co-authoring the Mamba architecture.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0005",
@@ -61,7 +61,7 @@
   },
   {
     "anchor_affiliation": "Thinking Machines Lab adviser; ex-OpenAI",
-    "bio": null,
+    "bio": "Alec Radford is a machine learning researcher known as first author on the GPT-1, GPT-2, GPT-3, and CLIP papers. He previously worked at OpenAI and serves as an adviser to Thinking Machines Lab.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0006",
@@ -73,7 +73,7 @@
   },
   {
     "anchor_affiliation": "Anthropic (pretraining); Eureka Labs founder; ex-OpenAI, ex-Tesla",
-    "bio": null,
+    "bio": "Andrej Karpathy is an AI researcher and educator known for his work spanning computer vision and large language models and for explaining how neural networks work. He previously worked at OpenAI and was director of AI at Tesla. He founded Eureka Labs and works at Anthropic on pretraining.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0007",
@@ -85,7 +85,7 @@
   },
   {
     "anchor_affiliation": "DeepLearning.AI, AI Fund; Stanford",
-    "bio": null,
+    "bio": "Andrew Ng is a computer scientist who co-founded the Google Brain team and has a large footprint in AI education. He founded DeepLearning.AI and AI Fund and is an adjunct professor at Stanford University. He also co-founded Coursera and previously served as chief scientist at Baidu.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0008",
@@ -97,7 +97,7 @@
   },
   {
     "anchor_affiliation": "Oxford VGG",
-    "bio": null,
+    "bio": "Andrew Zisserman is a professor of computer vision engineering at the University of Oxford, where he leads the Visual Geometry Group (VGG). He is known for his work on visual geometry and recognition and co-authored the textbook Multiple View Geometry in Computer Vision.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0009",
@@ -109,7 +109,7 @@
   },
   {
     "anchor_affiliation": "Essential AI co-founder",
-    "bio": null,
+    "bio": "Ashish Vaswani is a machine learning researcher known as the lead author of the 2017 paper Attention Is All You Need, which introduced the Transformer architecture. He is a co-founder of Essential AI.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0010",
@@ -121,7 +121,7 @@
   },
   {
     "anchor_affiliation": "Stanford; Physical Intelligence co-founder",
-    "bio": null,
+    "bio": "Chelsea Finn is an assistant professor of computer science and electrical engineering at Stanford University, where she leads the IRIS lab. She is known for her work on meta-learning, including the MAML algorithm, and on robot learning. She co-founded Physical Intelligence.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0011",
@@ -133,7 +133,7 @@
   },
   {
     "anchor_affiliation": "Author; ex-Stanford instructor",
-    "bio": null,
+    "bio": "Chip Huyen is an author known for her writing on machine learning systems and AI engineering, including the books Designing Machine Learning Systems and AI Engineering. She has worked as a core developer of NeMo at NVIDIA and previously taught a machine learning systems course at Stanford.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0012",
@@ -145,7 +145,7 @@
   },
   {
     "anchor_affiliation": "U. Toronto; Vector",
-    "bio": null,
+    "bio": "Colin Raffel is an associate professor of computer science at the University of Toronto and an associate research director at the Vector Institute. He is known for his work on the T5 model and on training science for open models. He holds a Canada CIFAR AI Chair.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0013",
@@ -157,7 +157,7 @@
   },
   {
     "anchor_affiliation": "INRIA; Google",
-    "bio": null,
+    "bio": "Cordelia Schmid is a research director at INRIA, where she heads the THOTH project-team, and also works at Google. She is known for her work on visual recognition and video understanding. She is an IEEE Fellow and a recipient of an ERC Advanced Grant.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0014",
@@ -169,7 +169,7 @@
   },
   {
     "anchor_affiliation": "Ineffable Intelligence founder; UCL; ex-Google DeepMind",
-    "bio": null,
+    "bio": "David Silver is a researcher known for leading the development of AlphaGo and AlphaZero and for work on reinforcement learning at scale. He previously led the reinforcement learning team at Google DeepMind, is a professor at University College London, and founded Ineffable Intelligence.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0015",
@@ -181,7 +181,7 @@
   },
   {
     "anchor_affiliation": "Anthropic; ex-Google Brain",
-    "bio": null,
+    "bio": "Diederik Kingma is a machine learning researcher known for co-developing the Variational Autoencoder and co-authoring the Adam optimizer. He was part of the founding team at OpenAI and later worked at Google Brain and DeepMind. He is currently a research scientist at Anthropic working on large-scale machine learning.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0016",
@@ -193,7 +193,7 @@
   },
   {
     "anchor_affiliation": "Ndea co-founder; ARC Prize",
-    "bio": null,
+    "bio": "Francois Chollet is a software engineer and AI researcher known as the creator of the Keras deep learning library, the book Deep Learning with Python, and the ARC benchmark and his essay On the Measure of Intelligence. He is a co-founder of Ndea and the ARC Prize.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0017",
@@ -205,7 +205,7 @@
   },
   {
     "anchor_affiliation": "3Blue1Brown",
-    "bio": null,
+    "bio": "Grant Sanderson is the creator of 3Blue1Brown, a YouTube channel that explains mathematics through visual animation, including series on neural networks. He developed Manim, an open-source Python animation library used to produce the videos. He continues to run 3Blue1Brown as its primary creator.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0018",
@@ -217,7 +217,7 @@
   },
   {
     "anchor_affiliation": "Stealth AI startup co-founder; ex-Google DeepMind, ex-Apple",
-    "bio": null,
+    "bio": "Ian Goodfellow is a machine learning researcher known for introducing generative adversarial networks, work on adversarial examples, and co-authoring the Deep Learning textbook. He has previously worked at Google DeepMind and Apple. He is reported to be a co-founder of a stealth AI startup.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0019",
@@ -229,7 +229,7 @@
   },
   {
     "anchor_affiliation": "Meta Superintelligence Labs; ex-OpenAI/Google",
-    "bio": null,
+    "bio": "Jason Wei is an AI researcher known for work on chain-of-thought prompting and emergent abilities of large language models. He has previously worked at Google and OpenAI on reasoning and language models. He is currently a researcher at Meta Superintelligence Labs.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0020",
@@ -241,7 +241,7 @@
   },
   {
     "anchor_affiliation": "Cohere; author",
-    "bio": null,
+    "bio": "Jay Alammar is known for visual explanations of machine learning, including The Illustrated Transformer, and for co-authoring the book Hands-On Large Language Models. He created Ecco, an open-source tool for interpreting transformer models. He works at Cohere on large language models and their applications.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0021",
@@ -253,7 +253,7 @@
   },
   {
     "anchor_affiliation": "fast.ai co-founder; answer.ai",
-    "bio": null,
+    "bio": "Jeremy Howard is a founding researcher at fast.ai, known for making deep learning more accessible through its courses and the fastai software library. He co-founded Answer.ai, an AI research and development lab, and previously founded Kaggle. He also holds an honorary professorship at the University of Queensland.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0022",
@@ -265,7 +265,7 @@
   },
   {
     "anchor_affiliation": "UC Berkeley; Amazon FAR (robotics); ex-Meta FAIR",
-    "bio": null,
+    "bio": "Jitendra Malik is a computer vision researcher known for foundational work on image segmentation, object recognition, and related areas. He is a professor of Electrical Engineering and Computer Sciences at UC Berkeley. He has also worked in industry research, including roles at Meta FAIR and Amazon.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0023",
@@ -277,7 +277,7 @@
   },
   {
     "anchor_affiliation": "Cohere Chief AI Officer; McGill/Mila; ex-Meta FAIR",
-    "bio": null,
+    "bio": "Joelle Pineau is a machine learning researcher known for work on planning and learning in partially observable domains and for advocating reproducibility in research. She is an associate professor at McGill University and a core member of Mila. She has led Meta's Fundamental AI Research team and serves as Chief AI Officer at Cohere.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0024",
@@ -289,7 +289,7 @@
   },
   {
     "anchor_affiliation": "MIT; ex-Meta FAIR",
-    "bio": null,
+    "bio": "Kaiming He is a researcher known for developing deep residual networks, known as ResNets, and contributions to representation learning and object detection. He previously worked at Meta FAIR. He is an associate professor at MIT and also holds a position at Google DeepMind.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0025",
@@ -301,7 +301,7 @@
   },
   {
     "anchor_affiliation": "ByteDance Research; ex-Huawei Noah's Ark",
-    "bio": null,
+    "bio": "Hang Li is a researcher in natural language processing, information retrieval, and machine learning, and the author of statistical learning textbooks published in Chinese. He previously led Huawei's Noah's Ark Lab. He currently leads research teams at ByteDance, working on areas including robotics, AI for science, and responsible AI.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0026",
@@ -313,7 +313,7 @@
   },
   {
     "anchor_affiliation": "Thinking Machines; ex-OpenAI",
-    "bio": null,
+    "bio": "Lilian Weng is an AI researcher known for work on safety systems and for Lil'Log, a technical blog covering deep learning topics such as alignment, reasoning, and agents. She previously worked at OpenAI, where she led safety-related research. She is now affiliated with Thinking Machines.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0027",
@@ -325,7 +325,7 @@
   },
   {
     "anchor_affiliation": "University of Amsterdam; CuspAI",
-    "bio": null,
+    "bio": "Max Welling is a machine learning researcher known for co-authoring the variational autoencoder, work on graph neural networks, and equivariant networks applied to the physical sciences. He is a professor at the University of Amsterdam. He is also affiliated with CuspAI.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0028",
@@ -337,7 +337,7 @@
   },
   {
     "anchor_affiliation": "Amazon alum; Boson AI",
-    "bio": null,
+    "bio": "Mu Li is one of the primary authors of Dive into Deep Learning, an interactive textbook with executable code adopted at universities across many countries. He is known for work on machine learning systems, including the parameter server. He is an Amazon alum and is affiliated with Boson AI.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0029",
@@ -349,7 +349,7 @@
   },
   {
     "anchor_affiliation": "Stanford CRFM director",
-    "bio": null,
+    "bio": "Percy Liang is a computer science professor at Stanford University known for the HELM evaluation framework and for shaping the framing of foundation models. He directs the Center for Research on Foundation Models. His research focuses on making language models more accessible and rigorously benchmarked.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0030",
@@ -361,7 +361,7 @@
   },
   {
     "anchor_affiliation": "UC Berkeley; Amazon (Frontier AI & Robotics); ex-Covariant co-founder",
-    "bio": null,
+    "bio": "Pieter Abbeel is a researcher in robot learning known for his work on apprenticeship learning and reinforcement learning for robotics. He is a professor at UC Berkeley and works at Amazon on Frontier AI and Robotics. He previously co-founded the robotics company Covariant.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0031",
@@ -373,7 +373,7 @@
   },
   {
     "anchor_affiliation": "Fudan University",
-    "bio": null,
+    "bio": "Xipeng Qiu is a researcher in natural language processing and large language models. He is a professor at the School of Computer Science at Fudan University, where he leads the OpenMOSS team and developed the MOSS conversational large language model series and the FastNLP toolkit.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0032",
@@ -385,7 +385,7 @@
   },
   {
     "anchor_affiliation": "Google DeepMind",
-    "bio": null,
+    "bio": "Quoc Le is a machine learning researcher known for contributions to sequence-to-sequence learning, AutoML, and the LaMDA line of language models. He is a researcher at Google, where his work spans neural architecture search, instruction tuning, and large language models.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0033",
@@ -397,7 +397,7 @@
   },
   {
     "anchor_affiliation": "Adaption Labs founder; ex-Cohere Labs",
-    "bio": null,
+    "bio": "Sara Hooker is an AI researcher known for The Hardware Lottery and for work on multilingual frontier research. She is the founder of Adaption Labs and previously led Cohere Labs as a vice president of research at Cohere. She earlier worked as a research scientist at Google DeepMind.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0034",
@@ -409,7 +409,7 @@
   },
   {
     "anchor_affiliation": "Lightning AI staff research engineer; author; ex-UW-Madison",
-    "bio": null,
+    "bio": "Sebastian Raschka is known for his pedagogy on building large language models from scratch and for open technical writing on machine learning. He is a staff research engineer at Lightning AI and an author, having written Build a Large Language Model (From Scratch). He previously worked at the University of Wisconsin-Madison.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0035",
@@ -421,7 +421,7 @@
   },
   {
     "anchor_affiliation": "UC Berkeley; Physical Intelligence",
-    "bio": null,
+    "bio": "Sergey Levine is a researcher in deep robotic learning and offline reinforcement learning. He is a faculty member in computer science at UC Berkeley, which he joined in 2016, and is affiliated with the robotics company Physical Intelligence. His work focuses on machine learning for decision-making and control.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0036",
@@ -433,7 +433,7 @@
   },
   {
     "anchor_affiliation": "Datasette; independent",
-    "bio": null,
+    "bio": "Simon Willison is an independent technology writer and developer known for primary technical analysis of LLM tooling and for naming and documenting the prompt injection class of vulnerabilities. He created the open-source Datasette project and publishes extensive writing on LLM security and tooling.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0037",
@@ -445,7 +445,7 @@
   },
   {
     "anchor_affiliation": "BIGAI (Beijing); Peking U; ex-UCLA",
-    "bio": null,
+    "bio": "Song-Chun Zhu is a researcher in computer vision and cognitive architectures. He directs the Beijing Institute for General Artificial Intelligence (BIGAI) and is a chair professor at Peking University, where he leads its Institute for Artificial Intelligence. He previously held a professorship at UCLA.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0038",
@@ -457,7 +457,7 @@
   },
   {
     "anchor_affiliation": "BottleCap AI co-founder/CSO; ex-CIIRC, ex-Google, ex-Meta",
-    "bio": null,
+    "bio": "Tomas Mikolov is known for creating word2vec, an algorithm for learning word representations, and for early work applying recurrent neural networks to language modeling. He is co-founder and chief scientist of BottleCap AI and previously worked at CIIRC in Prague, Google, and Meta (Facebook AI).",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0039",
@@ -469,7 +469,7 @@
   },
   {
     "anchor_affiliation": "Princeton; Together AI",
-    "bio": null,
+    "bio": "Tri Dao is a researcher in machine learning and systems known for FlashAttention and as a co-author of the Mamba architecture. He is an assistant professor at Princeton University and chief scientist of Together AI. His work focuses on sequence models and efficient deep learning.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0040",
@@ -481,7 +481,7 @@
   },
   {
     "anchor_affiliation": "HKUST; WeBank",
-    "bio": null,
+    "bio": "Qiang Yang is a researcher known for transfer learning and federated learning. He is a professor (emeritus) in computer science and engineering at HKUST and has been affiliated with WeBank. He has served as president of IJCAI and is a fellow of several professional societies.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0041",
@@ -493,7 +493,7 @@
   },
   {
     "anchor_affiliation": "Stanford; ex-UW/AI2; MacArthur Fellow",
-    "bio": null,
+    "bio": "Yejin Choi is an AI researcher known for work on commonsense reasoning and value learning, including the Delphi system. She is a professor at Stanford University, having previously been affiliated with the University of Washington and the Allen Institute for AI (AI2). She is a MacArthur Fellow.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0042",
@@ -505,7 +505,7 @@
   },
   {
     "anchor_affiliation": "Nanjing University professor and vice president",
-    "bio": null,
+    "bio": "Zhi-Hua Zhou is a researcher in machine learning known for ensemble learning and for authoring a widely used Chinese machine learning textbook known as the Watermelon Book. He is a professor of computer science and a vice president at Nanjing University, and a member of the Chinese Academy of Sciences.",
     "canonical": false,
     "category": "DL & LLM Research",
     "id": "person-0043",
@@ -517,7 +517,7 @@
   },
   {
     "anchor_affiliation": "University of Virginia; NBER",
-    "bio": null,
+    "bio": "Anton Korinek is an economist known for his work on the economics of transformative AI and AGI preparedness. He is a professor of economics at the University of Virginia and a research associate affiliated with the National Bureau of Economic Research (NBER).",
     "canonical": false,
     "category": "Economics & Labour",
     "id": "person-0044",
@@ -529,7 +529,7 @@
   },
   {
     "anchor_affiliation": "Toronto Rotman",
-    "bio": null,
+    "bio": "Avi Goldfarb is an economist known for the prediction machines framing of the economics of artificial intelligence. He is a professor at the University of Toronto's Rotman School of Management, where he researches how AI affects business and markets.",
     "canonical": false,
     "category": "Economics & Labour",
     "id": "person-0045",
@@ -541,7 +541,7 @@
   },
   {
     "anchor_affiliation": "Oxford Martin School",
-    "bio": null,
+    "bio": "Carl Benedikt Frey is an economist at the Oxford Martin School, where he holds the Dieter Schwarz Associate Professorship of AI and Work and directs the Future of Work Programme. He is known for the 2013 Frey-Osborne study estimating the susceptibility of jobs to automation and for his book The Technology Trap.",
     "canonical": false,
     "category": "Economics & Labour",
     "id": "person-0046",
@@ -553,7 +553,7 @@
   },
   {
     "anchor_affiliation": "MIT; Nobel Economics 2024",
-    "bio": null,
+    "bio": "Daron Acemoglu is an Institute Professor of Economics at MIT and a recipient of the 2024 Nobel Memorial Prize in Economic Sciences. He is known for work on task-displacement economics and skepticism about AI-driven growth, including the book Power and Progress, co-authored with Simon Johnson.",
     "canonical": false,
     "category": "Economics & Labour",
     "id": "person-0047",
@@ -565,7 +565,7 @@
   },
   {
     "anchor_affiliation": "MIT",
-    "bio": null,
+    "bio": "David Autor is the Daniel and Gail Rubinfeld Professor of Economics at MIT and co-directs the NBER Labor Studies Program. He is known for the task framework of labour and automation, analyzing how technological change affects job polarization, skill demand, and wage inequality.",
     "canonical": false,
     "category": "Economics & Labour",
     "id": "person-0048",
@@ -577,7 +577,7 @@
   },
   {
     "anchor_affiliation": "Stanford Digital Economy Lab",
-    "bio": null,
+    "bio": "Erik Brynjolfsson is a professor at Stanford and director of the Stanford Digital Economy Lab. He is known for studying the economic effects of digital technologies and AI, including the book The Second Machine Age and concepts such as the productivity J-curve and the Turing trap.",
     "canonical": false,
     "category": "Economics & Labour",
     "id": "person-0049",
@@ -589,7 +589,7 @@
   },
   {
     "anchor_affiliation": "OpenAI",
-    "bio": null,
+    "bio": "Tyna Eloundou is a researcher at OpenAI. She is known for the study GPTs are GPTs, which examined the potential exposure of the labour market and occupational tasks to large language models. Her work focuses on the economic and labour implications of generative AI systems.",
     "canonical": false,
     "category": "Economics & Labour",
     "id": "person-0050",
@@ -601,7 +601,7 @@
   },
   {
     "anchor_affiliation": "Trinity College Dublin; AI Accountability Lab",
-    "bio": null,
+    "bio": "Abeba Birhane is a cognitive scientist and founder of the AI Accountability Lab at Trinity College Dublin. She is known for dataset audits and for work on the relational ethics of AI, examining algorithmic bias, data practices, and power asymmetries in machine learning systems.",
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0051",
@@ -613,7 +613,7 @@
   },
   {
     "anchor_affiliation": "DAIR research director",
-    "bio": null,
+    "bio": "Alex Hanna is Director of Research at the Distributed AI Research Institute (DAIR). She is known for critiques of data practices in AI and for co-authoring the book The AI Con. Her research examines how data can reinforce racial, gender, and class inequality.",
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0052",
@@ -625,7 +625,7 @@
   },
   {
     "anchor_affiliation": "Princeton CITP director",
-    "bio": null,
+    "bio": "Arvind Narayanan is a computer scientist at Princeton and director of its Center for Information Technology Policy. He is known for co-authoring AI Snake Oil and for technically grounded skepticism about AI evaluation claims, examining limits in how AI systems are measured and marketed.",
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0053",
@@ -637,7 +637,7 @@
   },
   {
     "anchor_affiliation": "Oxford",
-    "bio": null,
+    "bio": "Carissa Veliz is a philosopher at the University of Oxford, where she works at the Institute for Ethics in AI. She is known for the book Privacy Is Power and for research on privacy, the ethics of AI, and moral and political philosophy.",
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0054",
@@ -649,7 +649,7 @@
   },
   {
     "anchor_affiliation": "ORCAA founder",
-    "bio": null,
+    "bio": "Cathy O'Neil is a mathematician and founder of the algorithmic auditing firm ORCAA. She is known for the book Weapons of Math Destruction, which examines how data-driven systems can increase inequality, and for her practice in algorithmic auditing.",
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0055",
@@ -661,7 +661,7 @@
   },
   {
     "anchor_affiliation": "Harvard; Turing-adjacent (Goedel Prize)",
-    "bio": null,
+    "bio": "Cynthia Dwork is a computer scientist at Harvard University. She is known for foundational work on differential privacy and on formal definitions of fairness in algorithms. Her contributions to data privacy and theoretical computer science have been recognized with the Goedel Prize.",
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0056",
@@ -673,7 +673,7 @@
   },
   {
     "anchor_affiliation": "Duke; Squirrel AI Award",
-    "bio": null,
+    "bio": "Cynthia Rudin is a computer scientist at Duke University and a recipient of the Squirrel AI Award. She is known for advocating an interpretable-models-first approach to machine learning, arguing for inherently transparent models rather than post hoc explanations of opaque ones.",
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0057",
@@ -685,7 +685,7 @@
   },
   {
     "anchor_affiliation": "University of Washington; The AI Con co-author",
-    "bio": null,
+    "bio": "Emily M. Bender is a linguist at the University of Washington. She is known for co-authoring the Stochastic Parrots paper and for linguistic critiques of claims made about large language models. She also co-authored the book The AI Con.",
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0058",
@@ -697,7 +697,7 @@
   },
   {
     "anchor_affiliation": "Cornell Law",
-    "bio": null,
+    "bio": "Frank Pasquale is a professor of law at Cornell Tech and Cornell Law School, focusing on the law of AI, algorithms, and machine learning. He is known for the books The Black Box Society and New Laws of Robotics.",
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0059",
@@ -709,7 +709,7 @@
   },
   {
     "anchor_affiliation": "NYU emeritus; author",
-    "bio": null,
+    "bio": "Gary Marcus is an emeritus professor at New York University and an author. He is known for arguing that deep learning has fundamental limits, for advocating hybrid AI approaches, and for providing testimony and commentary on AI policy.",
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0060",
@@ -721,7 +721,7 @@
   },
   {
     "anchor_affiliation": "UC Berkeley; Academic Fellow, Leadership Conference on Civil & Human Rights; ex-Mozilla",
-    "bio": null,
+    "bio": "Inioluwa Deborah Raji is a computer science researcher whose work focuses on algorithmic auditing and accountability in deployed machine learning systems. She is based at UC Berkeley and serves as an Academic Fellow at the Leadership Conference on Civil and Human Rights, and she previously worked at Mozilla.",
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0061",
@@ -733,7 +733,7 @@
   },
   {
     "anchor_affiliation": "AJL founder; Unmasking AI author",
-    "bio": null,
+    "bio": "Joy Buolamwini is the founder of the Algorithmic Justice League, an organization focused on bias and harm in artificial intelligence. She is known for face-recognition audits, including the Gender Shades project documenting demographic disparities in commercial systems, and she authored the book Unmasking AI.",
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0062",
@@ -745,7 +745,7 @@
   },
   {
     "anchor_affiliation": "USC Annenberg; Microsoft Research",
-    "bio": null,
+    "bio": "Kate Crawford is a researcher studying the social, material, and political dimensions of artificial intelligence. She is a Research Professor at USC Annenberg and a senior principal researcher at Microsoft Research, and she is known for her book Atlas of AI and projects examining the costs of AI systems.",
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0063",
@@ -757,7 +757,7 @@
   },
   {
     "anchor_affiliation": "Yale Digital Ethics Center; ex-Oxford",
-    "bio": null,
+    "bio": "Luciano Floridi is a philosopher known for his work on the philosophy of information and digital ethics, including contributions to European technology policy. He is the founding director of the Digital Ethics Center at Yale University and previously held a position at the University of Oxford.",
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0064",
@@ -769,7 +769,7 @@
   },
   {
     "anchor_affiliation": "Hugging Face chief ethics scientist",
-    "bio": null,
+    "bio": "Margaret Mitchell is a researcher in machine learning, natural language processing, and ethical artificial intelligence. She is known for co-developing Model Cards and broader machine learning documentation practices, and she serves as chief ethics scientist at Hugging Face.",
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0065",
@@ -781,7 +781,7 @@
   },
   {
     "anchor_affiliation": "University of Vienna",
-    "bio": null,
+    "bio": "Mark Coeckelbergh is a philosopher who works on the ethics of artificial intelligence and the political philosophy of AI. He is based at the University of Vienna, where his research addresses the social and ethical implications of emerging technologies.",
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0066",
@@ -793,7 +793,7 @@
   },
   {
     "anchor_affiliation": "NYU",
-    "bio": null,
+    "bio": "Meredith Broussard is a data journalist and researcher known for her work on the limits of technology, including the book Artificial Unintelligence and the concept of technochauvinism. She is based at New York University, where she works on data journalism and artificial intelligence.",
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0067",
@@ -805,7 +805,7 @@
   },
   {
     "anchor_affiliation": "Signal president",
-    "bio": null,
+    "bio": "Meredith Whittaker is a co-founder of the AI Now Institute and is known for her critique of the surveillance business model, informed by her earlier work inside the technology industry. She currently serves as president of the Signal Foundation.",
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0068",
@@ -817,7 +817,7 @@
   },
   {
     "anchor_affiliation": "Max Planck Institute for Intelligent Systems",
-    "bio": null,
+    "bio": "Moritz Hardt is a machine learning researcher known for work on fairness in machine learning, including the equalized odds criterion, and for co-authoring a textbook on fairness and machine learning. He is affiliated with the Max Planck Institute for Intelligent Systems.",
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0069",
@@ -829,7 +829,7 @@
   },
   {
     "anchor_affiliation": "Princeton",
-    "bio": null,
+    "bio": "Ruha Benjamin is a scholar of the social dimensions of science and technology, known for the book Race After Technology and the concept of the New Jim Code. She is a professor at Princeton University, where her work examines technology, race, and justice.",
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0070",
@@ -841,7 +841,7 @@
   },
   {
     "anchor_affiliation": "UCLA; MacArthur Fellow",
-    "bio": null,
+    "bio": "Safiya Umoja Noble is a researcher known for her book Algorithms of Oppression, which examines bias in search and information systems. She is based at UCLA and is a MacArthur Fellow, working on the societal effects of digital technologies.",
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0071",
@@ -853,7 +853,7 @@
   },
   {
     "anchor_affiliation": "Oxford Internet Institute",
-    "bio": null,
+    "bio": "Sandra Wachter is a researcher on technology and regulation known for her work on counterfactual explanations and the relationship between GDPR and artificial intelligence. She is Professor of Technology and Regulation at the Oxford Internet Institute, where she leads research on the governance of emerging technologies.",
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0072",
@@ -865,7 +865,7 @@
   },
   {
     "anchor_affiliation": "Princeton",
-    "bio": null,
+    "bio": "Sayash Kapoor is a computer science PhD candidate at Princeton University's Center for Information Technology Policy. He is known for co-authoring the book AI Snake Oil with Arvind Narayanan and for research on reproducibility in machine-learning-based science.",
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0073",
@@ -877,7 +877,7 @@
   },
   {
     "anchor_affiliation": "University of Edinburgh",
-    "bio": null,
+    "bio": "Shannon Vallor is a philosopher of technology known for her work on technology and the virtues and her book The AI Mirror. She is based at the University of Edinburgh, where her research addresses the ethics of artificial intelligence and emerging technologies.",
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0074",
@@ -889,7 +889,7 @@
   },
   {
     "anchor_affiliation": "DAIR founder; ex-Google Ethical AI",
-    "bio": null,
+    "bio": "Timnit Gebru is a computer scientist known for research including Gender Shades, Datasheets for Datasets, and the Stochastic Parrots paper. She is the founder of the Distributed AI Research Institute (DAIR) and previously co-led the Ethical AI team at Google.",
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0075",
@@ -901,7 +901,7 @@
   },
   {
     "anchor_affiliation": "Umea University; UN AI Advisory Body",
-    "bio": null,
+    "bio": "Virginia Dignum is a computer scientist known for framing responsible artificial intelligence as an engineering discipline. She is Professor in Responsible AI and Director of the AI Policy Lab at Umea University, and she serves on the United Nations High Level Advisory Body on Artificial Intelligence.",
     "canonical": false,
     "category": "Ethics & Critique",
     "id": "person-0076",
@@ -913,7 +913,7 @@
   },
   {
     "anchor_affiliation": "Turing Award 2024; UMass Amherst emeritus",
-    "bio": null,
+    "bio": "Andrew Barto is a computer scientist recognized as a co-founder of the modern field of reinforcement learning. He received the ACM A.M. Turing Award in 2024 and is an emeritus professor at the University of Massachusetts Amherst.",
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0077",
@@ -925,7 +925,7 @@
   },
   {
     "anchor_affiliation": "Turing Award 2000; Tsinghua IIIS",
-    "bio": null,
+    "bio": "Andrew Yao, also known as Yao Qizhi, is a computer scientist known for work in computational complexity theory and for building China's elite AI training track known as the Yao Class. He received the ACM A.M. Turing Award in 2000 and works at the Institute for Interdisciplinary Information Sciences at Tsinghua University.",
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0078",
@@ -937,7 +937,7 @@
   },
   {
     "anchor_affiliation": "Max Planck Institute for Intelligent Systems",
-    "bio": null,
+    "bio": "Bernhard Schoelkopf is a researcher known for contributions to kernel methods in machine learning and to causal machine learning. He is a director at the Max Planck Institute for Intelligent Systems.",
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0079",
@@ -949,7 +949,7 @@
   },
   {
     "anchor_affiliation": "Stanford NLP Group",
-    "bio": null,
+    "bio": "Christopher Manning is a computer scientist known for work in statistical and neural natural language processing. He leads the Stanford NLP Group at Stanford University.",
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0080",
@@ -961,7 +961,7 @@
   },
   {
     "anchor_affiliation": "Insitro founder; Coursera co-founder; ex-Stanford",
-    "bio": null,
+    "bio": "Daphne Koller is a computer scientist known for work on probabilistic graphical models and machine learning applied to biomedicine. She is the founder and chief executive of insitro and co-founded Coursera, and she was previously a professor at Stanford University.",
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0081",
@@ -973,7 +973,7 @@
   },
   {
     "anchor_affiliation": "Stanford HAI co-founder; World Labs",
-    "bio": null,
+    "bio": "Fei-Fei Li is a computer scientist known for creating the ImageNet dataset and for advancing human-centered and spatial AI. She is a co-founder of the Stanford Institute for Human-Centered Artificial Intelligence and co-founded the company World Labs.",
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0082",
@@ -985,7 +985,7 @@
   },
   {
     "anchor_affiliation": "Turing Award 2018; Nobel Physics 2024; U. Toronto",
-    "bio": null,
+    "bio": "Geoffrey Hinton is a computer scientist known for work on backpropagation and the revival of deep learning, and he later left Google to speak about AI risk. He received the ACM A.M. Turing Award in 2018 and the Nobel Prize in Physics in 2024, and he is affiliated with the University of Toronto.",
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0083",
@@ -997,7 +997,7 @@
   },
   {
     "anchor_affiliation": "Nobel Physics 2024; Princeton",
-    "bio": null,
+    "bio": "John Hopfield is a scientist known for the Hopfield network model of associative memory and for applying physics to neural computation. He received the Nobel Prize in Physics in 2024 and is affiliated with Princeton University.",
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0084",
@@ -1009,7 +1009,7 @@
   },
   {
     "anchor_affiliation": "Turing Award 2011; UCLA",
-    "bio": null,
+    "bio": "Judea Pearl is a computer scientist known for developing Bayesian networks and a formal framework for causality. He received the ACM A.M. Turing Award in 2011 and is a professor at the University of California, Los Angeles.",
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0085",
@@ -1021,7 +1021,7 @@
   },
   {
     "anchor_affiliation": "IDSIA; KAUST AI Initiative",
-    "bio": null,
+    "bio": "Juergen Schmidhuber is a computer scientist known for work in the lineage of long short-term memory networks and meta-learning, as well as for debates over research priority. He is affiliated with IDSIA and leads the AI Initiative at KAUST.",
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0086",
@@ -1033,7 +1033,7 @@
   },
   {
     "anchor_affiliation": "Fuzzy Logic Systems Institute (part-time senior researcher); ex-NHK STRL",
-    "bio": null,
+    "bio": "Kunihiko Fukushima is a researcher known for the Neocognitron, an early model regarded as an ancestor of convolutional neural networks. He is a part-time senior researcher at the Fuzzy Logic Systems Institute and previously worked at the NHK Science and Technology Research Laboratories.",
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0087",
@@ -1045,7 +1045,7 @@
   },
   {
     "anchor_affiliation": "Turing Award 2010; Harvard",
-    "bio": null,
+    "bio": "Leslie Valiant is a computer scientist known for introducing the Probably Approximately Correct learning model and for foundational work in computational learning theory. He received the ACM A.M. Turing Award in 2010 and is a professor at Harvard University.",
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0088",
@@ -1057,7 +1057,7 @@
   },
   {
     "anchor_affiliation": "Santa Fe Institute",
-    "bio": null,
+    "bio": "Melanie Mitchell is a researcher known for work on complexity, analogy, and assessments of the limits of current AI. She is a professor at the Santa Fe Institute.",
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0089",
@@ -1069,7 +1069,7 @@
   },
   {
     "anchor_affiliation": "UC Berkeley (emeritus); Inria Paris",
-    "bio": null,
+    "bio": "Michael I. Jordan is a computer scientist known for foundational work in probabilistic machine learning and for critiquing common framings of artificial intelligence. He is an emeritus professor at the University of California, Berkeley, and is also affiliated with Inria in Paris.",
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0090",
@@ -1081,7 +1081,7 @@
   },
   {
     "anchor_affiliation": "Oxford",
-    "bio": null,
+    "bio": "Michael Wooldridge is an artificial intelligence researcher and the Ashall Professor of Foundations of AI at the University of Oxford. He is known for his work on multi-agent systems and for writing popular books on the history of AI, including A Brief History of AI. He previously headed Oxford's Department of Computer Science.",
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0091",
@@ -1093,7 +1093,7 @@
   },
   {
     "anchor_affiliation": "Stanford HAI; ex-Google research director",
-    "bio": null,
+    "bio": "Peter Norvig is a computer scientist known as co-author of the textbook Artificial Intelligence: A Modern Approach and for an empirical, data-driven approach to AI. He is a Distinguished Education Fellow at the Stanford Institute for Human-Centered AI and previously served as a research director at Google.",
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0092",
@@ -1105,7 +1105,7 @@
   },
   {
     "anchor_affiliation": "Turing Award 2024; U. Alberta; Keen/Amii",
-    "bio": null,
+    "bio": "Richard Sutton is a computer scientist known for his foundational work in reinforcement learning and for his essay The Bitter Lesson. He received the 2024 ACM Turing Award. He is a professor at the University of Alberta and is affiliated with Keen Technologies and the Alberta Machine Intelligence Institute.",
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0093",
@@ -1117,7 +1117,7 @@
   },
   {
     "anchor_affiliation": "JKU Linz; NXAI",
-    "bio": null,
+    "bio": "Sepp Hochreiter is a machine learning researcher known for co-developing Long Short-Term Memory networks and for later work on the xLSTM architecture. He directs the LIT AI Lab and heads the machine learning institute at Johannes Kepler University Linz, and is associated with NXAI.",
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0094",
@@ -1129,7 +1129,7 @@
   },
   {
     "anchor_affiliation": "UC Berkeley; CHAI founder",
-    "bio": null,
+    "bio": "Stuart Russell is a computer scientist and Distinguished Professor at the University of California, Berkeley. He is known as co-author of the textbook Artificial Intelligence: A Modern Approach and for his agenda on provably beneficial AI. He founded the Center for Human-Compatible AI.",
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0095",
@@ -1141,7 +1141,7 @@
   },
   {
     "anchor_affiliation": "Salk Institute; NeurIPS co-founder",
-    "bio": null,
+    "bio": "Terrence Sejnowski is a computational neuroscientist known for work on Boltzmann machines and for co-founding the NeurIPS conference. He is a professor and laboratory head at the Salk Institute, where he holds the Francis Crick Chair and studies how the brain processes and stores information.",
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0096",
@@ -1153,7 +1153,7 @@
   },
   {
     "anchor_affiliation": "Columbia; VC theory",
-    "bio": null,
+    "bio": "Vladimir Vapnik is a researcher in statistical learning theory known for co-developing support vector machines and the VC theory of generalization. He is a professor of computer science at Columbia University and previously worked at the Institute of Control Sciences in Moscow and at AT&T Bell Laboratories.",
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0097",
@@ -1165,7 +1165,7 @@
   },
   {
     "anchor_affiliation": "AMI Labs (Advanced Machine Intelligence) chair; NYU professor; ex-Meta",
-    "bio": null,
+    "bio": "Yann LeCun is a computer scientist known for his work on convolutional neural networks and as an advocate of open research who is skeptical of AGI-risk claims. He is Silver Professor of Computer Science at New York University and chairs AMI Labs. He previously worked at Meta.",
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0098",
@@ -1177,7 +1177,7 @@
   },
   {
     "anchor_affiliation": "Mila founder; LawZero co-president (2025); Intl AI Safety Report chair",
-    "bio": null,
+    "bio": "Yoshua Bengio is a computer scientist known for foundational contributions to deep learning, for which he shared the 2018 ACM Turing Award. He is a professor at the Universite de Montreal and founder of Mila. He co-presides over LawZero and chairs the International AI Safety Report.",
     "canonical": false,
     "category": "Foundational Research",
     "id": "person-0099",
@@ -1189,7 +1189,7 @@
   },
   {
     "anchor_affiliation": "Cohere co-founder/CEO",
-    "bio": null,
+    "bio": "Aidan Gomez is a machine learning researcher and entrepreneur, a co-author of the original transformer research, known for building enterprise large language models. He is co-founder and chief executive of Cohere, an enterprise AI company that develops foundation models and related products.",
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0100",
@@ -1201,7 +1201,7 @@
   },
   {
     "anchor_affiliation": "Meta; Scale AI founder",
-    "bio": null,
+    "bio": "Alexandr Wang is a technology entrepreneur known for building a data-labeling and data-engine business used in training AI models. He founded Scale AI. He is also associated with Meta's effort to develop more advanced AI systems.",
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0101",
@@ -1213,7 +1213,7 @@
   },
   {
     "anchor_affiliation": "Mistral AI co-founder/CEO",
-    "bio": null,
+    "bio": "Arthur Mensch is an AI researcher and entrepreneur known for co-founding a European frontier AI lab. He is co-founder and chief executive of Mistral AI, a company that builds frontier AI models and tools for organizations to develop their own AI systems.",
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0102",
@@ -1225,7 +1225,7 @@
   },
   {
     "anchor_affiliation": "Hugging Face co-founder/CEO",
-    "bio": null,
+    "bio": "Clement Delangue is a technology entrepreneur known for building a central platform for the open-model AI ecosystem. He is co-founder and chief executive of Hugging Face, a company that hosts and distributes machine learning models, datasets, and related tools.",
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0103",
@@ -1237,7 +1237,7 @@
   },
   {
     "anchor_affiliation": "Anthropic President",
-    "bio": null,
+    "bio": "Daniela Amodei is a co-founder of the AI company Anthropic, where she focuses on operations and policy. She serves as President of Anthropic and is a member of its board of directors. The company develops AI models and conducts AI safety research.",
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0104",
@@ -1249,7 +1249,7 @@
   },
   {
     "anchor_affiliation": "MIT CSAIL director; Liquid AI co-founder",
-    "bio": null,
+    "bio": "Daniela Rus is a roboticist known for her leadership in robotics research and for work on liquid neural networks. She is the director of the MIT Computer Science and Artificial Intelligence Laboratory and a co-founder of Liquid AI.",
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0105",
@@ -1261,7 +1261,7 @@
   },
   {
     "anchor_affiliation": "Anthropic CEO",
-    "bio": null,
+    "bio": "Dario Amodei is the co-founder and CEO of Anthropic, an AI company focused on safe and interpretable systems. He previously led large language model development as VP of Research at OpenAI and co-invented reinforcement learning from human feedback. He writes on AI safety and policy, including the essay Machines of Loving Grace.",
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0106",
@@ -1273,7 +1273,7 @@
   },
   {
     "anchor_affiliation": "Nobel Chemistry 2024; Google DeepMind CEO",
-    "bio": null,
+    "bio": "Demis Hassabis is the co-founder and CEO of Google DeepMind. He is known for AI systems ranging from AlphaGo to AlphaFold, the protein-structure prediction system. He was co-awarded the 2024 Nobel Prize in Chemistry with John Jumper for AlphaFold.",
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0107",
@@ -1285,7 +1285,7 @@
   },
   {
     "anchor_affiliation": "xAI, Tesla",
-    "bio": null,
+    "bio": "Elon Musk is the founder of xAI, which he established in 2023 and which develops the Grok chatbot integrated with the X platform. An early co-founder of OpenAI, he later became a competitor and a prominent voice in AI policy debates. He also leads Tesla and SpaceX.",
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0108",
@@ -1297,7 +1297,7 @@
   },
   {
     "anchor_affiliation": "OpenAI co-founder",
-    "bio": null,
+    "bio": "Greg Brockman is a co-founder and president of OpenAI, which he helped start in 2015 after serving as chief technology officer at Stripe. He led recruitment of the founding team and worked on the engineering of frontier model training, including projects such as OpenAI Gym and OpenAI Five.",
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0109",
@@ -1309,7 +1309,7 @@
   },
   {
     "anchor_affiliation": "Mistral AI co-founder, chief scientist",
-    "bio": null,
+    "bio": "Guillaume Lample is a co-founder and chief science officer of Mistral AI, a European AI company founded in 2023 that develops frontier language models. He is associated with the LLaMA model lineage and leads research at Mistral.",
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0110",
@@ -1321,7 +1321,7 @@
   },
   {
     "anchor_affiliation": "SSI co-founder; ex-OpenAI chief scientist",
-    "bio": null,
+    "bio": "Ilya Sutskever is a co-founder of Safe Superintelligence Inc. (SSI), a lab focused on building safe superintelligence. He was previously chief scientist at OpenAI and is known for contributions to AlexNet, sequence-to-sequence learning, and the GPT model lineage.",
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0111",
@@ -1333,7 +1333,7 @@
   },
   {
     "anchor_affiliation": "OpenAI chief scientist",
-    "bio": null,
+    "bio": "Jakub Pachocki is the chief scientist of OpenAI, a role he assumed in 2024 after serving as research director. He is known for leading frontier model training, including the development of GPT-4 and the OpenAI Five project. He holds a PhD from Carnegie Mellon University.",
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0112",
@@ -1345,7 +1345,7 @@
   },
   {
     "anchor_affiliation": "Anthropic co-founder, chief science officer",
-    "bio": null,
+    "bio": "Jared Kaplan is a co-founder and chief science officer of Anthropic and an associate professor at Johns Hopkins University. A theoretical physicist by training, he is known for co-authoring work on neural language-model scaling laws and contributing to GPT-3 while at OpenAI.",
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0113",
@@ -1357,7 +1357,7 @@
   },
   {
     "anchor_affiliation": "Google chief scientist",
-    "bio": null,
+    "bio": "Jeff Dean is the chief scientist at Google, working on AI for Google DeepMind and Google Research. He joined Google in 1999 and co-founded the Google Brain project. He is known for building Google's machine learning infrastructure, including the TensorFlow framework and contributions to the TPU program.",
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0114",
@@ -1369,7 +1369,7 @@
   },
   {
     "anchor_affiliation": "NVIDIA founder/CEO",
-    "bio": null,
+    "bio": "Jensen Huang is the founder and CEO of NVIDIA, which he established in 1993. He led NVIDIA's invention of the GPU in 1999, technology that underpins much of the compute used in modern AI. He previously worked at LSI Logic and Advanced Micro Devices.",
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0115",
@@ -1381,7 +1381,7 @@
   },
   {
     "anchor_affiliation": "Thinking Machines; ex-OpenAI co-founder",
-    "bio": null,
+    "bio": "John Schulman is a co-founder of OpenAI known for his work on reinforcement learning, including Proximal Policy Optimization (PPO) and applying RLHF in practice. He led the team behind ChatGPT. He currently serves as chief scientist at Thinking Machines Lab.",
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0116",
@@ -1393,7 +1393,7 @@
   },
   {
     "anchor_affiliation": "Sinovation Ventures; 01.AI founder",
-    "bio": null,
+    "bio": "Kai-Fu Lee is the founder of 01.AI, a company developing open-source large language models such as the Yi series, and is chairman of Sinovation Ventures. He is the author of AI Superpowers and is known as a bridge between the China and US AI ecosystems, having previously worked at Microsoft and Google.",
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0117",
@@ -1405,7 +1405,7 @@
   },
   {
     "anchor_affiliation": "Google DeepMind CTO",
-    "bio": null,
+    "bio": "Koray Kavukcuoglu is the chief technology officer of Google DeepMind and chief AI architect at Google. He previously served as VP of Research at DeepMind, where he established the deep learning research team and contributed to work including DQN and WaveNet. He oversees the research-to-product direction of DeepMind's AI efforts.",
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0118",
@@ -1417,7 +1417,7 @@
   },
   {
     "anchor_affiliation": "DeepSeek founder; High-Flyer",
-    "bio": null,
+    "bio": "Liang Wenfeng is the founder of DeepSeek, a Chinese AI research company based in Hangzhou that develops large language models and releases open models. The company is associated with the quantitative firm High-Flyer and is known for producing frontier-level models at disruptive cost.",
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0119",
@@ -1429,7 +1429,7 @@
   },
   {
     "anchor_affiliation": "AMD CEO",
-    "bio": null,
+    "bio": "Lisa Su is the chair, president, and CEO of AMD, having become CEO in 2014. A semiconductor engineer by background, she contributed to copper interconnect technology earlier at IBM. Under her leadership AMD expanded into data center and gaming markets, positioning the company as a second source for AI compute.",
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0120",
@@ -1441,7 +1441,7 @@
   },
   {
     "anchor_affiliation": "Boston Dynamics founder; AI Institute",
-    "bio": null,
+    "bio": "Marc Raibert is a roboticist who founded Boston Dynamics and previously established legged-robotics research labs at MIT and Carnegie Mellon. He is known for moving dynamic legged robotics from academic research into industry. He currently serves as founder and executive director of the Robotics and AI Institute.",
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0121",
@@ -1453,7 +1453,7 @@
   },
   {
     "anchor_affiliation": "Thinking Machines Lab founder; ex-OpenAI CTO",
-    "bio": null,
+    "bio": "Mira Murati is an AI executive who previously served as chief technology officer at OpenAI, where she helped lead the ChatGPT and GPT-4 product era. She is the founder of Thinking Machines Lab, an AI research and product company whose stated focus is making AI systems more widely understood, customizable, and capable.",
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0122",
@@ -1465,7 +1465,7 @@
   },
   {
     "anchor_affiliation": "Microsoft AI CEO",
-    "bio": null,
+    "bio": "Mustafa Suleyman is a co-founder of DeepMind and Inflection AI and the author of the book The Coming Wave. He is known for his work in AI research and consumer products. He serves as executive vice president and chief executive of Microsoft AI, the organization leading Copilot and related consumer AI efforts.",
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0123",
@@ -1477,7 +1477,7 @@
   },
   {
     "anchor_affiliation": "OpenAI (2026); ex-Google Gemini; ex-Character.AI",
-    "bio": null,
+    "bio": "Noam Shazeer is a computer scientist known as a co-author of the Transformer architecture and for work on sparsely gated mixture-of-experts models. He co-founded Character.AI and previously co-led Google's Gemini as a vice president of engineering. He currently works at OpenAI.",
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0124",
@@ -1489,7 +1489,7 @@
   },
   {
     "anchor_affiliation": "Google DeepMind",
-    "bio": null,
+    "bio": "Oriol Vinyals is a researcher known for the seq2seq sequence-learning approach, leading the AlphaStar StarCraft project, and technical leadership on Gemini. He works at Google DeepMind, where he is a principal scientist and a team lead in the deep learning group.",
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0125",
@@ -1501,7 +1501,7 @@
   },
   {
     "anchor_affiliation": "OpenAI CEO",
-    "bio": null,
+    "bio": "Sam Altman is a technology executive known for scaling OpenAI from a research lab into a consumer AI platform. He is co-founder and chief executive of OpenAI, the company behind ChatGPT.",
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0126",
@@ -1513,7 +1513,7 @@
   },
   {
     "anchor_affiliation": "DeepMind co-founder, chief AGI scientist",
-    "bio": null,
+    "bio": "Shane Legg is an AI researcher and a co-founder of DeepMind, where he serves as chief AGI scientist. He is known for popularizing use of the term AGI and for work on long-horizon safety. He is a co-author of the paper Levels of AGI for Operationalizing Progress on the Path to AGI.",
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0127",
@@ -1525,7 +1525,7 @@
   },
   {
     "anchor_affiliation": "Zhipu AI; Tsinghua",
-    "bio": null,
+    "bio": "Tang Jie is a computer scientist at Tsinghua University known for work on the GLM family of large language models and for moving research from Tsinghua into industry. He is affiliated with the AI company Zhipu AI.",
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0128",
@@ -1537,7 +1537,7 @@
   },
   {
     "anchor_affiliation": "Baidu CTO",
-    "bio": null,
+    "bio": "Wang Haifeng is an AI researcher and engineer known for leading work on the ERNIE model family and on early large-scale large language model deployments in China. He serves as chief technology officer of Baidu.",
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0129",
@@ -1549,7 +1549,7 @@
   },
   {
     "anchor_affiliation": "OpenAI co-founder",
-    "bio": null,
+    "bio": "Wojciech Zaremba is a co-founder of OpenAI whose research arc spans robotics and large language models. He is listed as an author on OpenAI research and continues to work at the company he co-founded.",
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0130",
@@ -1561,7 +1561,7 @@
   },
   {
     "anchor_affiliation": "Moonshot AI co-founder",
-    "bio": null,
+    "bio": "Yang Zhilin is an AI researcher known for work on long-context large language models and the Kimi assistant. He is a co-founder of the Chinese AI company Moonshot AI.",
     "canonical": false,
     "category": "Frontier Builders",
     "id": "person-0131",
@@ -1573,7 +1573,7 @@
   },
   {
     "anchor_affiliation": "Google DeepMind; GovAI founder",
-    "bio": null,
+    "bio": "Allan Dafoe is a researcher known for helping establish AI governance as a research field and for founding the Centre for the Governance of AI (GovAI). He works at Google DeepMind.",
     "canonical": false,
     "category": "Governance & Policy",
     "id": "person-0132",
@@ -1585,7 +1585,7 @@
   },
   {
     "anchor_affiliation": "IAS; ex-OSTP deputy director",
-    "bio": null,
+    "bio": "Alondra Nelson is a scholar known for leading work on the Blueprint for an AI Bill of Rights during her time as deputy director of the White House Office of Science and Technology Policy. She holds a faculty position at the Institute for Advanced Study.",
     "canonical": false,
     "category": "Governance & Policy",
     "id": "person-0133",
@@ -1597,7 +1597,7 @@
   },
   {
     "anchor_affiliation": "Columbia Law",
-    "bio": null,
+    "bio": "Anu Bradford is a legal scholar known for the concept of the Brussels Effect and for framing global competition among digital empires. She is a professor at Columbia Law School.",
     "canonical": false,
     "category": "Governance & Policy",
     "id": "person-0134",
@@ -1609,7 +1609,7 @@
   },
   {
     "anchor_affiliation": "ALLAI co-founder",
-    "bio": null,
+    "bio": "Catelijne Muller is a specialist in AI policy and law who served as a member of the EU High Level Expert Group on Artificial Intelligence. She is co-founder and president of ALLAI, an independent initiative focused on responsible AI.",
     "canonical": false,
     "category": "Governance & Policy",
     "id": "person-0135",
@@ -1621,7 +1621,7 @@
   },
   {
     "anchor_affiliation": "Brookings AI & Emerging Tech director; ex-NIST/US AI Safety Institute",
-    "bio": null,
+    "bio": "Elham Tabassi is an AI policy and standards specialist known for leading the development of the NIST AI Risk Management Framework. She is Director of the Artificial Intelligence and Emerging Technology Initiative at the Brookings Institution and previously held senior AI roles at NIST and the US AI Safety Institute.",
     "canonical": false,
     "category": "Governance & Policy",
     "id": "person-0136",
@@ -1633,7 +1633,7 @@
   },
   {
     "anchor_affiliation": "MIT; ex-European Commission",
-    "bio": null,
+    "bio": "Gabriele Mazzini is a legal and policy expert known as a principal architect of the text of the EU AI Act. He previously worked at the European Commission, where he contributed to that regulation, and is currently affiliated with MIT.",
     "canonical": false,
     "category": "Governance & Policy",
     "id": "person-0137",
@@ -1645,7 +1645,7 @@
   },
   {
     "anchor_affiliation": "Johns Hopkins; ex-Schwartz Reisman director",
-    "bio": null,
+    "bio": "Gillian Hadfield is a scholar known for her work on normative infrastructure for AI and on regulatory markets as a governance approach. She is a faculty member at Johns Hopkins University and previously served as director of the Schwartz Reisman Institute.",
     "canonical": false,
     "category": "Governance & Policy",
     "id": "person-0138",
@@ -1657,7 +1657,7 @@
   },
   {
     "anchor_affiliation": "CSET Georgetown",
-    "bio": null,
+    "bio": "Helen Toner is an AI policy analyst known for her work on frontier-lab governance, her analysis at CSET, and her role during the OpenAI board episode. She is Executive Director of the Center for Security and Emerging Technology at Georgetown University.",
     "canonical": false,
     "category": "Governance & Policy",
     "id": "person-0139",
@@ -1669,7 +1669,7 @@
   },
   {
     "anchor_affiliation": "Chair, UK AI Security Institute (renamed from AI Safety Institute)",
-    "bio": null,
+    "bio": "Ian Hogarth is a technology investor and entrepreneur known for co-authoring the annual State of AI report and for leading the UK frontier AI taskforce. He serves as Chair of the UK AI Security Institute, a research organisation within the UK government that was renamed from the AI Safety Institute.",
     "canonical": false,
     "category": "Governance & Policy",
     "id": "person-0140",
@@ -1681,7 +1681,7 @@
   },
   {
     "anchor_affiliation": "Anthropic co-founder; Head of Public Benefit (Anthropic Institute)",
-    "bio": null,
+    "bio": "Jack Clark is a co-founder of Anthropic known for writing the Import AI newsletter and for AI policy work from inside a frontier lab. He holds the role of Head of Public Benefit at Anthropic and leads the Anthropic Institute.",
     "canonical": false,
     "category": "Governance & Policy",
     "id": "person-0141",
@@ -1693,7 +1693,7 @@
   },
   {
     "anchor_affiliation": "George Washington University",
-    "bio": null,
+    "bio": "Jeff Ding is a researcher known for his ChinAI newsletter and for a diffusion-centric view of how AI shapes national power. He is a faculty member in political science at George Washington University.",
     "canonical": false,
     "category": "Governance & Policy",
     "id": "person-0142",
@@ -1705,7 +1705,7 @@
   },
   {
     "anchor_affiliation": "Stanford HAI/CPC; ex-MEP",
-    "bio": null,
+    "bio": "Marietje Schaake is a former Member of the European Parliament known for her work on EU digital policy and as the author of The Tech Coup. She is affiliated with Stanford University's Institute for Human-Centered AI and its Cyber Policy Center.",
     "canonical": false,
     "category": "Governance & Policy",
     "id": "person-0143",
@@ -1717,7 +1717,7 @@
   },
   {
     "anchor_affiliation": "GovAI; IAPS",
-    "bio": null,
+    "bio": "Markus Anderljung is an AI governance researcher known for his work on frontier-regulation architecture. He is Director of Policy and Research at GovAI and is also affiliated with the Institute for AI Policy and Strategy.",
     "canonical": false,
     "category": "Governance & Policy",
     "id": "person-0144",
@@ -1729,7 +1729,7 @@
   },
   {
     "anchor_affiliation": "Carnegie Endowment",
-    "bio": null,
+    "bio": "Matt Sheehan is a researcher known for his analysis of China's AI regulatory system, including how its rules are made. He is affiliated with the Carnegie Endowment for International Peace.",
     "canonical": false,
     "category": "Governance & Policy",
     "id": "person-0145",
@@ -1741,7 +1741,7 @@
   },
   {
     "anchor_affiliation": "AVERI founder; ex-OpenAI policy",
-    "bio": null,
+    "bio": "Miles Brundage is an AI policy researcher known for co-authoring a report on the malicious use of AI and for his critique of AGI readiness after leaving OpenAI. He is the founder of AVERI and previously worked in policy at OpenAI.",
     "canonical": false,
     "category": "Governance & Policy",
     "id": "person-0146",
@@ -1753,7 +1753,7 @@
   },
   {
     "anchor_affiliation": "Head of Enterprise AI Governance, AstraZeneca; AI governance writer",
-    "bio": null,
+    "bio": "Oliver Patel is an AI governance practitioner known for curating enterprise AI governance frameworks and writing on the topic. He serves as Head of Enterprise AI Governance at AstraZeneca.",
     "canonical": false,
     "category": "Governance & Policy",
     "id": "person-0147",
@@ -1765,7 +1765,7 @@
   },
   {
     "anchor_affiliation": "CNAS executive VP",
-    "bio": null,
+    "bio": "Paul Scharre is a defense analyst known for his work on autonomous weapons and military AI doctrine. He is Executive Vice President at the Center for a New American Security.",
     "canonical": false,
     "category": "Governance & Policy",
     "id": "person-0148",
@@ -1777,7 +1777,7 @@
   },
   {
     "anchor_affiliation": "Humane Intelligence CEO; U.S. Science Envoy for AI; ex-Twitter META",
-    "bio": null,
+    "bio": "Rumman Chowdhury is a data scientist known for her work on algorithmic audit practice and large-scale red-teaming. She is CEO of Humane Intelligence, served as a US Science Envoy for AI, and previously led the META team at Twitter.",
     "canonical": false,
     "category": "Governance & Policy",
     "id": "person-0149",
@@ -1789,7 +1789,7 @@
   },
   {
     "anchor_affiliation": "New York Times",
-    "bio": null,
+    "bio": "Cade Metz is a technology journalist known for his book Genius Makers, which chronicles the deep-learning era. He is a reporter for The New York Times.",
     "canonical": false,
     "category": "Journalism & Analysis",
     "id": "person-0150",
@@ -1801,7 +1801,7 @@
   },
   {
     "anchor_affiliation": "Dwarkesh Podcast",
-    "bio": null,
+    "bio": "Dwarkesh Patel is the creator and host of the Dwarkesh Podcast, which publishes long, researched interviews with figures working at the frontier of artificial intelligence, technology, science, and history. He is also the author of the book The Scaling Era. He works as an independent podcaster and writer.",
     "canonical": false,
     "category": "Journalism & Analysis",
     "id": "person-0151",
@@ -1813,7 +1813,7 @@
   },
   {
     "anchor_affiliation": "SemiAnalysis founder",
-    "bio": null,
+    "bio": "Dylan Patel is the founder of SemiAnalysis, a research firm focused on the semiconductor and computing industry. He is known for analysis of the compute supply chain, covering chips, data centers, and AI hardware. He leads SemiAnalysis as its founder.",
     "canonical": false,
     "category": "Journalism & Analysis",
     "id": "person-0152",
@@ -1825,7 +1825,7 @@
   },
   {
     "anchor_affiliation": "Wharton",
-    "bio": null,
+    "bio": "Ethan Mollick is a professor at the Wharton School of the University of Pennsylvania. He is known for the book Co-Intelligence and for empirical experiments studying how AI tools affect work and productivity. His current role is as a faculty member at Wharton.",
     "canonical": false,
     "category": "Journalism & Analysis",
     "id": "person-0153",
@@ -1837,7 +1837,7 @@
   },
   {
     "anchor_affiliation": "Independent; ex-MIT Tech Review/WSJ",
-    "bio": null,
+    "bio": "Karen Hao is a journalist who writes about artificial intelligence and the technology industry. She is the author of Empire of AI, a book documenting the rise of OpenAI, and has previously reported for MIT Technology Review and The Wall Street Journal. She currently works as an independent journalist.",
     "canonical": false,
     "category": "Journalism & Analysis",
     "id": "person-0154",
@@ -1849,7 +1849,7 @@
   },
   {
     "anchor_affiliation": "New York Times",
-    "bio": null,
+    "bio": "Kashmir Hill is a reporter at The New York Times who covers privacy and technology. She is known for her investigation of the facial recognition company Clearview AI. Her work focuses on how technology affects personal privacy.",
     "canonical": false,
     "category": "Journalism & Analysis",
     "id": "person-0155",
@@ -1861,7 +1861,7 @@
   },
   {
     "anchor_affiliation": "Financial Times AI editor",
-    "bio": null,
+    "bio": "Madhumita Murgia is the artificial intelligence editor at the Financial Times. She is the author of Code Dependent, a book about the human effects of AI systems. Her current role centers on reporting and editing the Financial Times coverage of AI.",
     "canonical": false,
     "category": "Journalism & Analysis",
     "id": "person-0156",
@@ -1873,7 +1873,7 @@
   },
   {
     "anchor_affiliation": "Air Street Capital",
-    "bio": null,
+    "bio": "Nathan Benaich is the founder of Air Street Capital, an investment firm focused on artificial intelligence companies. He is known for producing the annual State of AI Report, a review of developments in the field. He currently leads Air Street Capital.",
     "canonical": false,
     "category": "Journalism & Analysis",
     "id": "person-0157",
@@ -1885,7 +1885,7 @@
   },
   {
     "anchor_affiliation": "Founder, stealth AI lab; writes Interconnects; ex-Ai2 (Olmo)",
-    "bio": null,
+    "bio": "Nathan Lambert writes Interconnects, a publication analyzing open models and post-training methods. He previously worked at the Allen Institute for AI on the Olmo project and now works at an AI lab. His writing focuses on machine learning research and the open model ecosystem.",
     "canonical": false,
     "category": "Journalism & Analysis",
     "id": "person-0158",
@@ -1897,7 +1897,7 @@
   },
   {
     "anchor_affiliation": "Bloomberg Opinion",
-    "bio": null,
+    "bio": "Parmy Olson is a columnist at Bloomberg Opinion who covers technology. She is the author of Supremacy, which received the Financial Times Business Book of the Year award in 2024. Her current role involves writing opinion columns on the technology industry.",
     "canonical": false,
     "category": "Journalism & Analysis",
     "id": "person-0159",
@@ -1909,7 +1909,7 @@
   },
   {
     "anchor_affiliation": "Transformer; ex-Tortoise",
-    "bio": null,
+    "bio": "Shakeel Hashim is the editor of Transformer, a publication covering the power and politics of transformative AI, and is part of the leadership of its parent, the Tarbell Center for AI Journalism. He previously worked at outlets including The Economist and Protocol. He is based in London.",
     "canonical": false,
     "category": "Journalism & Analysis",
     "id": "person-0160",
@@ -1921,7 +1921,7 @@
   },
   {
     "anchor_affiliation": "Don't Worry About the Vase",
-    "bio": null,
+    "bio": "Zvi Mowshowitz writes Don't Worry About the Vase, a publication known for detailed weekly synthesis of artificial intelligence developments alongside policy and rationality commentary. He combines rapid updates on current events with longer analytical pieces. He works as an independent writer and analyst.",
     "canonical": false,
     "category": "Journalism & Analysis",
     "id": "person-0161",
@@ -1933,7 +1933,7 @@
   },
   {
     "anchor_affiliation": "Open Philanthropy",
-    "bio": null,
+    "bio": "Ajeya Cotra is a researcher at Open Philanthropy who works on forecasting artificial intelligence progress. She is known for the biological anchors approach to estimating AI timelines and for analysis of potential AI takeover risks. Her current role is as a grantmaker and researcher at the organization.",
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0162",
@@ -1945,7 +1945,7 @@
   },
   {
     "anchor_affiliation": "Google DeepMind AI safety head; UC Berkeley",
-    "bio": null,
+    "bio": "Anca Dragan is an associate professor in the EECS department at UC Berkeley, currently on leave to lead AI safety and alignment at Google DeepMind. She is known for research on human-robot interaction and value alignment, and she co-founded the Berkeley AI Research Lab. At DeepMind she oversees teams working on model safety.",
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0163",
@@ -1957,7 +1957,7 @@
   },
   {
     "anchor_affiliation": "METR founder",
-    "bio": null,
+    "bio": "Beth Barnes is the founder of METR, an organization that evaluates the dangerous capabilities of AI models. She is known for developing capability evaluations intended to inform policy decisions. Her current role is leading METR.",
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0164",
@@ -1969,7 +1969,7 @@
   },
   {
     "anchor_affiliation": "Anthropic co-founder",
-    "bio": null,
+    "bio": "Chris Olah is a co-founder of Anthropic, an AI company. He is known for helping establish the field of mechanistic interpretability, which studies the internal workings of neural networks. He currently works on interpretability research at Anthropic.",
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0165",
@@ -1981,7 +1981,7 @@
   },
   {
     "anchor_affiliation": "ControlAI US Director; ex-Conjecture CEO; EleutherAI co-founder",
-    "bio": null,
+    "bio": "Connor Leahy is an AI researcher and entrepreneur known for early open-source replication of GPT-style language models and later for advocacy on catastrophic AI risk. He co-founded EleutherAI and served as CEO of Conjecture. He is US Director at ControlAI.",
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0166",
@@ -1993,7 +1993,7 @@
   },
   {
     "anchor_affiliation": "Center for AI Safety director; xAI/Scale advisor",
-    "bio": null,
+    "bio": "Dan Hendrycks is a machine learning researcher known for developing ML safety benchmarks and for the Center for AI Safety statement on extinction risk from AI. He directs the Center for AI Safety. He has also advised xAI and Scale AI.",
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0167",
@@ -2005,7 +2005,7 @@
   },
   {
     "anchor_affiliation": "MIRI co-founder; If Anyone Builds It co-author",
-    "bio": null,
+    "bio": "Eliezer Yudkowsky is a writer and researcher known for shaping early discourse on the AI alignment problem and for arguments about catastrophic risk from advanced AI. He co-founded the Machine Intelligence Research Institute and co-authored the book If Anyone Builds It, Everyone Dies.",
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0168",
@@ -2017,7 +2017,7 @@
   },
   {
     "anchor_affiliation": "Anthropic alignment stress-testing",
-    "bio": null,
+    "bio": "Evan Hubinger is an AI safety researcher known for work on mesa-optimization and for the Sleeper Agents research on deceptive model behavior. He works on alignment stress-testing at Anthropic.",
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0169",
@@ -2029,7 +2029,7 @@
   },
   {
     "anchor_affiliation": "Anthropic; Open Philanthropy co-founder",
-    "bio": null,
+    "bio": "Holden Karnofsky is known for the most-important-century framing of transformative AI and for shaping AI safety funding. He co-founded Open Philanthropy. He works at Anthropic.",
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0170",
@@ -2041,7 +2041,7 @@
   },
   {
     "anchor_affiliation": "UC Berkeley; Transluce founder and CEO",
-    "bio": null,
+    "bio": "Jacob Steinhardt is a researcher known for work on machine learning robustness, forecasting, and measurement-driven safety, including the MMLU benchmark. He is an assistant professor at UC Berkeley. He co-founded and serves as CEO of Transluce, a nonprofit AI research lab.",
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0171",
@@ -2053,7 +2053,7 @@
   },
   {
     "anchor_affiliation": "Anthropic; ex-OpenAI/DeepMind",
-    "bio": null,
+    "bio": "Jan Leike is an AI safety researcher known for leading superalignment work and for publicly resigning over the prioritization of safety. He works at Anthropic and previously worked at OpenAI and DeepMind.",
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0172",
@@ -2065,7 +2065,7 @@
   },
   {
     "anchor_affiliation": "MIT; Future of Life Institute president",
-    "bio": null,
+    "bio": "Max Tegmark is a physicist known for the book Life 3.0 and for organizing the Future of Life Institute pause letter and policy campaigns. He is a professor of physics at MIT, where his work links physics and machine learning. He serves as president of the Future of Life Institute.",
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0173",
@@ -2077,7 +2077,7 @@
   },
   {
     "anchor_affiliation": "MIRI president",
-    "bio": null,
+    "bio": "Nate Soares is an AI alignment researcher known for research leadership at the Machine Intelligence Research Institute and for co-authoring a 2025 book on AI risk. He is president of MIRI, where he helps set the organization's vision and strategy. His prior work spans value learning and decision theory.",
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0174",
@@ -2089,7 +2089,7 @@
   },
   {
     "anchor_affiliation": "Google DeepMind",
-    "bio": null,
+    "bio": "Neel Nanda is a researcher known for field-building and training pipelines in mechanistic interpretability. He leads the mechanistic interpretability team at Google DeepMind. He created the TransformerLens library and mentors researchers through a MATS stream.",
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0175",
@@ -2101,7 +2101,7 @@
   },
   {
     "anchor_affiliation": "Macrostrategy Research Initiative; ex-FHI",
-    "bio": null,
+    "bio": "Nick Bostrom is a philosopher known for the book Superintelligence and for framing existential risk and the simulation argument. He founded and was director of the Future of Humanity Institute at Oxford until its closure in 2024. He is founder and principal researcher of the Macrostrategy Research Initiative.",
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0176",
@@ -2113,7 +2113,7 @@
   },
   {
     "anchor_affiliation": "US CAISI head of safety; ARC founder",
-    "bio": null,
+    "bio": "Paul Christiano is an AI safety researcher known for originating reinforcement learning from human feedback and for an influential alignment research agenda. He founded the Alignment Research Center. He serves as Head of AI Safety at the US AI Safety Institute, working on frontier model evaluations.",
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0177",
@@ -2125,7 +2125,7 @@
   },
   {
     "anchor_affiliation": "Google DeepMind",
-    "bio": null,
+    "bio": "Rohin Shah is an AI safety researcher known for writing the Alignment Newsletter and for AGI safety work at DeepMind. He leads the AGI Safety and Alignment team at Google DeepMind, covering amplified oversight, interpretability, and dangerous capability evaluations.",
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0178",
@@ -2137,7 +2137,7 @@
   },
   {
     "anchor_affiliation": "University of Louisville",
-    "bio": null,
+    "bio": "Roman Yampolskiy is a computer scientist known for his thesis on the uncontrollability of advanced artificial intelligence. He is a faculty member at the University of Louisville, where his work addresses AI safety and security.",
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0179",
@@ -2149,7 +2149,7 @@
   },
   {
     "anchor_affiliation": "Anthropic; NYU",
-    "bio": null,
+    "bio": "Sam Bowman is a researcher known for work on language model evaluation and on safety cases at frontier scale. He works on technical AI safety at Anthropic. He is an associate professor at New York University in data science and computer science, currently on leave.",
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0180",
@@ -2161,7 +2161,7 @@
   },
   {
     "anchor_affiliation": "Aligned AI co-founder; ex-FHI",
-    "bio": null,
+    "bio": "Stuart Armstrong is an artificial intelligence safety researcher known for his work on value extrapolation and methods for keeping AI systems under human control. He previously worked at Oxford's Future of Humanity Institute and in 2022 co-founded Aligned AI, where he conducts research aimed at ensuring AI systems remain safe and aligned.",
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0181",
@@ -2173,7 +2173,7 @@
   },
   {
     "anchor_affiliation": "Oxford",
-    "bio": null,
+    "bio": "Toby Ord is a philosopher known for his book The Precipice, which examines and quantifies existential risk to humanity. He is a Senior Researcher at the Oxford Martin AI Governance Initiative at the University of Oxford and serves on the board of the Centre for the Governance of AI, focusing on long-term risks including those from artificial intelligence.",
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0182",
@@ -2185,7 +2185,7 @@
   },
   {
     "anchor_affiliation": "Google DeepMind; FLI",
-    "bio": null,
+    "bio": "Victoria Krakovna is an AI safety researcher known for her work on specification gaming and for co-founding the Future of Life Institute. She is a research scientist at Google DeepMind, where she focuses on AI alignment, including topics such as deceptive alignment, dangerous capability evaluations, goal misgeneralization, and avoiding side effects.",
     "canonical": false,
     "category": "Safety & Alignment",
     "id": "person-0183",

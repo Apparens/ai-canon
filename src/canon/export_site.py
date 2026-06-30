@@ -251,7 +251,7 @@ def shell(active: str, kicker: str, title: str, body: str, *, depth: int = 0) ->
 <p>The AI Canon, a public research initiative by <a href="https://apparens.nl">Apparens</a>, creator of the <a href="https://apparens.nl/app/ai-control-index">AI Control Index</a> app. Release <b style="color:#fff;font-weight:600">{esc(VERSION)}</b>. Challenge anything: <a href="mailto:office@apparens.nl">office@apparens.nl</a></p>
 <p style="margin-top:6px">Nothing is for sale. Nothing is hidden. Nothing is final.</p>
 <p class="fine">No cookies. No third-party tracking. No ads, affiliates, or sponsored placement, ever. The site is generated statically from the canonical JSON; the only inbound data path is the challenge mailbox.</p>
-<p class="fine">AI use: ranks are computed, not generated. Some entry descriptions are AI-drafted and human-reviewed, and the cover image is AI-generated. <a href="{prefix}method.html#how-made">How this was made</a>.</p>
+<p class="fine">AI use: ranks are computed, not generated. Voice biographies are AI-drafted from each voice's cited source; some entry descriptions are AI-drafted and human-reviewed; the cover image is AI-generated. <a href="{prefix}method.html#how-made">How this was made</a>.</p>
 </div></footer>
 </body></html>
 """
@@ -514,6 +514,9 @@ def page_method() -> str:
                 "<li><b>Entry descriptions</b>: some were AI-drafted and then human-reviewed before "
                 "publication; each carries a confidence flag in the data, and gaps are left blank, not "
                 "invented.</li>"
+                "<li><b>Voice biographies</b>: AI-drafted from each voice's own cited source and the "
+                "verified affiliation, written to be neutral and factual with no claims beyond the "
+                "sources. If one is wrong, challenge it and we will correct it.</li>"
                 "<li><b>The cover image</b> (the person holding a phone) is AI-generated and labelled as "
                 "such on the social card.</li></ul>"
                 "<p>Where AI helped draft text, a human checked it against the evidence. Where evidence "
@@ -716,7 +719,9 @@ def page_platforms(platforms: list[dict]) -> str:
         meta = " &middot; ".join(x for x in [esc(p.get("status", "")),
                                              (f'verified {esc(p["last_verified"])}' if p.get("last_verified") else "")] if x)
         wi = f'<p class="desc">{esc(p["what_it_is"])}</p>' if p.get("what_it_is") else ""
-        return f'<div class="t">{esc(p["name"])}</div><div class="meta">{meta}</div>{wi}'
+        src = (f'<p class="src"><a href="{safe_url(p["source_url"])}" target="_blank" '
+               f'rel="noopener noreferrer nofollow">about &#8599;</a></p>') if p.get("source_url") else ""
+        return f'<div class="t">{esc(p["name"])}</div><div class="meta">{meta}</div>{wi}{src}'
     return _context_shelf("platforms.html", "Context shelf, 90 platforms, described never ranked", "Platforms", platforms, render)
 
 
