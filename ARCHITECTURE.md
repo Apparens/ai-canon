@@ -109,6 +109,10 @@ is enforced by `scripts/static-gate.sh`.
   declares a language, has exactly one h1, gives every image alt text, and never skips a
   heading level. Body links are underlined (distinguishable without color) and footer text
   meets the contrast threshold.
+- **[S14] No committed secrets.** The repo is public and archived permanently on Zenodo, so a
+  leaked key would be undeletable. `guard_no_secrets.sh` scans every tracked file for real
+  credential signatures (provider key prefixes with length anchors, private-key blocks); the gate
+  fails on a hit. Placeholders and example values do not trip it.
 
 ## Non-functional requirements
 
