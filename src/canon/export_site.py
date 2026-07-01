@@ -309,6 +309,13 @@ ul.fq .src{display:block;font-size:.78rem;color:var(--orange);margin-top:3px}
 .dhead .dt{font-size:.68rem;padding:2px 9px;border:1px solid var(--g300);border-radius:20px;color:var(--g500);white-space:nowrap}
 .dcard p{margin:6px 0 0;font-size:.92rem;color:var(--g700)}
 .dcard .dfrom{font-size:.82rem;color:var(--g500);margin-top:6px}
+details.abs{margin-top:6px}
+details.abs>summary{cursor:pointer;font-size:.72rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--orange);list-style:none;display:inline-block}
+details.abs>summary::-webkit-details-marker{display:none}
+details.abs>summary::before{content:"+ "}
+details.abs[open]>summary::before{content:"\2013 "}
+details.abs p{font-size:.86rem;color:var(--g500);margin:6px 0 2px;line-height:1.55;max-width:72ch}
+details.abs .asrc{color:var(--g300);font-size:.72rem}
 """
 
 
@@ -531,6 +538,18 @@ def page_canon50(release: dict, rankings: dict, papers: dict) -> str:
     return shell("canon-50.html", "Canon 50, pilot", "The Canon 50", "".join(parts))
 
 
+_ABSTRACTS_CACHE = None
+
+
+def _abstracts() -> dict:
+    """paper_id -> {text, source}. Loaded once; the file is optional (missing -> no abstracts)."""
+    global _ABSTRACTS_CACHE
+    if _ABSTRACTS_CACHE is None:
+        path = SEEDS.parent / "abstracts.json"
+        _ABSTRACTS_CACHE = _load(path) if path.exists() else {}
+    return _ABSTRACTS_CACHE
+
+
 def page_work(work_id: str, per_scenario: dict, papers: dict) -> str:
     p = papers.get(work_id, {})
     ed = p.get("editorial", {})
@@ -540,6 +559,10 @@ def page_work(work_id: str, per_scenario: dict, papers: dict) -> str:
     ]
     if ed.get("significance"):
         head.append(f'<p>{esc(ed["significance"])}</p>')
+    _ab = _abstracts().get(work_id)
+    if _ab:
+        head.append(f'<details class="abs" open><summary>Abstract</summary>'
+                    f'<p>{esc(_ab["text"])}<span class="asrc"> [{esc(_ab.get("source",""))}]</span></p></details>')
     if p.get("conflict_flag"):
         head.append('<p class="note flag">Conflict of interest declared for this work.</p>')
     blocks = ["".join(head)]
@@ -582,9 +605,13 @@ def page_work(work_id: str, per_scenario: dict, papers: dict) -> str:
 
 
 def page_papers(papers: dict, scored: set) -> str:
-    rows = [f'<p class="note">All {len(papers)} seed papers. <b>Seed status means candidacy, not canonical '
-            "status.</b> Papers with harvested evidence link to their breakdown; the rest are an "
-            "honestly-declared coverage gap, not a zero.</p>",
+    abstracts = _load(SEEDS.parent / "abstracts.json")
+    n_abs = sum(1 for pid in papers if pid in abstracts)
+    rows = [f'<p class="note">All {len(papers)} papers: the seed corpus plus recent work surfaced by the '
+            "frontier review. <b>Listing means candidacy, not canonical status.</b> Papers with harvested "
+            "evidence link to their breakdown; the rest are an honestly-declared coverage gap, not a zero. "
+            f'Expand "Abstract" to read the paper in its own words ({n_abs} of {len(papers)} available; the '
+            "remainder are pre-digital or closed-access, where no open abstract exists).</p>",
             "<table><thead><tr><th>#</th><th>Paper</th><th>Year</th><th>Venue</th><th>Evidence</th></tr></thead><tbody>"]
     for pid in sorted(papers):
         p = papers[pid]
@@ -593,9 +620,13 @@ def page_papers(papers: dict, scored: set) -> str:
         title = (f'<a href="work/{esc(pid)}.html">{esc(p["canonical_title"])}</a>'
                  if is_scored else esc(p["canonical_title"]))
         sig = f'<div class="meta">{esc(ed["significance"])}</div>' if ed.get("significance") else ""
+        ab = abstracts.get(pid)
+        absd = (f'<details class="abs"><summary>Abstract</summary>'
+                f'<p>{esc(ab["text"])}<span class="asrc"> [{esc(ab.get("source",""))}]</span></p></details>'
+                if ab else "")
         ev = '<span class="tag">scored</span>' if is_scored else '<span class="tag miss">no evidence yet</span>'
         rows.append(
-            f'<tr id="{esc(pid)}"><td class="num">{esc(pid.split("-")[-1])}</td><td>{title}{sig}</td>'
+            f'<tr id="{esc(pid)}"><td class="num">{esc(pid.split("-")[-1])}</td><td>{title}{sig}{absd}</td>'
             f'<td class="num">{esc(p.get("year",""))}</td><td>{esc(ed.get("venue",""))}</td><td>{ev}</td></tr>'
         )
     rows.append("</tbody></table>")

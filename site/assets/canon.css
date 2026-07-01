@@ -137,3 +137,10 @@ ul.fq .src{display:block;font-size:.78rem;color:var(--orange);margin-top:3px}
 .dhead .dt{font-size:.68rem;padding:2px 9px;border:1px solid var(--g300);border-radius:20px;color:var(--g500);white-space:nowrap}
 .dcard p{margin:6px 0 0;font-size:.92rem;color:var(--g700)}
 .dcard .dfrom{font-size:.82rem;color:var(--g500);margin-top:6px}
+details.abs{margin-top:6px}
+details.abs>summary{cursor:pointer;font-size:.72rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--orange);list-style:none;display:inline-block}
+details.abs>summary::-webkit-details-marker{display:none}
+details.abs>summary::before{content:"+ "}
+details.abs[open]>summary::before{content:"3 "}
+details.abs p{font-size:.86rem;color:var(--g500);margin:6px 0 2px;line-height:1.55;max-width:72ch}
+details.abs .asrc{color:var(--g300);font-size:.72rem}
