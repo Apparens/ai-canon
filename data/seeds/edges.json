@@ -1557,6 +1557,15 @@
     "volatile": false
   },
   {
+    "derivation_method": "full-name containment (NFC+casefold) vs Voices seed",
+    "edge_type": "authored_by",
+    "from_id": "paper-0268",
+    "last_verified": "2026-06-14",
+    "source": "derived",
+    "to_id": "person-0184",
+    "volatile": false
+  },
+  {
     "derivation_method": "Category column (single tag; model supports many)",
     "edge_type": "categorized_as",
     "from_id": "book-0001",

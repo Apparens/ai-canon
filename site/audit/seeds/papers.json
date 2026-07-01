@@ -4292,5 +4292,822 @@
     "original_title": null,
     "work_type": "paper",
     "year": 2015
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Predictability and Surprise in Large Generative Models",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Deep Ganguli et al.",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Recent work on capability scaling and forecasting, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2202.07785"
+    },
+    "id": "paper-0227",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2022
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Transformers learn in-context by gradient descent",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Johannes von Oswald et al.",
+      "category": "Interpretability",
+      "confidence": "Medium",
+      "significance": "Recent work on mechanistic understanding of models, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2212.07677"
+    },
+    "id": "paper-0228",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2023
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Causal Abstraction: A Theoretical Foundation for Mechanistic Interpretability",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Atticus Geiger et al.",
+      "category": "Interpretability",
+      "confidence": "Medium",
+      "significance": "Recent work on mechanistic understanding of models, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2301.04709"
+    },
+    "id": "paper-0229",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "A Framework for Assurance Audits of Algorithmic Systems",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Khoa Lam et al.",
+      "category": "Governance & Policy",
+      "confidence": "Medium",
+      "significance": "Recent work on AI governance and accountability, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2401.14908"
+    },
+    "id": "paper-0230",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2024
+  },
+  {
+    "canonical": true,
+    "canonical_title": "On Mesa-Optimization in Autoregressively Trained Transformers: Emergence and Capability",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Chenyu Zheng et al.",
+      "category": "Interpretability",
+      "confidence": "Medium",
+      "significance": "Recent work on mechanistic understanding of models, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2405.16845"
+    },
+    "id": "paper-0231",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2024
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Evolving Subnetwork Training for Large Language Models",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Hanqi Li et al.",
+      "category": "Meta & Field Essays",
+      "confidence": "Medium",
+      "significance": "Recent work on AI research methodology, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2406.06962"
+    },
+    "id": "paper-0232",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2024
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Collective Constitutional AI: Aligning a Language Model with Public Input",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Saffron Huang et al.",
+      "category": "Safety & Alignment",
+      "confidence": "Medium",
+      "significance": "Recent work on AI safety and alignment, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2406.07814"
+    },
+    "id": "paper-0233",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2024
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Latent Adversarial Training Improves Robustness to Persistent Harmful Behaviors in LLMs",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Abhay Sheshadri et al.",
+      "category": "Safety & Alignment",
+      "confidence": "Medium",
+      "significance": "Recent work on AI safety and alignment, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2407.15549"
+    },
+    "id": "paper-0234",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2024
+  },
+  {
+    "canonical": true,
+    "canonical_title": "U-shaped and Inverted-U Scaling behind Emergent Abilities of Large Language Models",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Tung-Yu Wu, Pei-Yu Lo",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Recent work on capability scaling and forecasting, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2410.01692"
+    },
+    "id": "paper-0235",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2024
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Leaving the barn door open for Clever Hans: Simple features predict LLM benchmark answers",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Lorenzo Pacchiardi et al.",
+      "category": "Evaluation",
+      "confidence": "Medium",
+      "significance": "Recent work on evaluation and measurement, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2410.11672"
+    },
+    "id": "paper-0236",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2024
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Chain of Alignment: Integrating Public Will with Expert Intelligence for Language Model Alignment",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Andrew Konya et al.",
+      "category": "Safety & Alignment",
+      "confidence": "Medium",
+      "significance": "Recent work on AI safety and alignment, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2411.10534"
+    },
+    "id": "paper-0237",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2024
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Predicting Emergent Capabilities by Finetuning",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Charlie Snell et al.",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Recent work on capability scaling and forecasting, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2411.16035"
+    },
+    "id": "paper-0238",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2024
+  },
+  {
+    "canonical": true,
+    "canonical_title": "What AI evaluations for preventing catastrophic risks can and cannot do",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Peter Barnett, Lisa Thiergart",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Recent work on capability scaling and forecasting, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2412.08653"
+    },
+    "id": "paper-0239",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2024
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Alignment faking in large language models",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Ryan Greenblatt et al.",
+      "category": "Safety & Alignment",
+      "confidence": "Medium",
+      "significance": "Recent work on AI safety and alignment, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2412.14093"
+    },
+    "id": "paper-0240",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2024
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Dynamic safety cases for frontier AI",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Carmen Cârlan et al.",
+      "category": "Safety & Alignment",
+      "confidence": "Medium",
+      "significance": "Recent work on AI safety and alignment, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2412.17618"
+    },
+    "id": "paper-0241",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2024
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Debate Helps Weak-to-Strong Generalization",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Hao Lang, Fei Huang, Yongbin Li",
+      "category": "Safety & Alignment",
+      "confidence": "Medium",
+      "significance": "Recent work on AI safety and alignment, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2501.13124"
+    },
+    "id": "paper-0242",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Towards the Worst-case Robustness of Large Language Models",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Huanran Chen et al.",
+      "category": "Safety & Alignment",
+      "confidence": "Medium",
+      "significance": "Recent work on AI safety and alignment, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2501.19040"
+    },
+    "id": "paper-0243",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Unveiling Downstream Performance Scaling of LLMs: A Clustering-Based Perspective",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Chengyin Xu et al.",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Recent work on capability scaling and forecasting, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2502.17262"
+    },
+    "id": "paper-0244",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Findings of the BabyLM Challenge: Sample-Efficient Pretraining on Developmentally Plausible Corpora",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Alex Warstadt et al.",
+      "category": "Meta & Field Essays",
+      "confidence": "Medium",
+      "significance": "Recent work on AI research methodology, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2504.08165"
+    },
+    "id": "paper-0245",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2023
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Learning a Pessimistic Reward Model in RLHF",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Yinglun Xu et al.",
+      "category": "Safety & Alignment",
+      "confidence": "Medium",
+      "significance": "Recent work on AI safety and alignment, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2505.20556"
+    },
+    "id": "paper-0246",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "DyePack: Provably Flagging Test Set Contamination in LLMs Using Backdoors",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Yize Cheng et al.",
+      "category": "Evaluation",
+      "confidence": "Medium",
+      "significance": "Recent work on evaluation and measurement, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2505.23001"
+    },
+    "id": "paper-0247",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Writing-Zero: Bridge the Gap Between Non-verifiable Tasks and Verifiable Rewards",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Ruipeng Jia et al.",
+      "category": "Safety & Alignment",
+      "confidence": "Medium",
+      "significance": "Recent work on AI safety and alignment, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2506.00103"
+    },
+    "id": "paper-0248",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "AdversariaL attacK sAfety aLIgnment(ALKALI): Safeguarding LLMs through GRACE: Geometric Representation-Aware Contrastive Enhancement- Introducing Adversarial Vulnerability Quality Index (AVQI)",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Danush Khanna et al.",
+      "category": "Safety & Alignment",
+      "confidence": "Medium",
+      "significance": "Recent work on AI safety and alignment, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2506.08885"
+    },
+    "id": "paper-0249",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Leaner Training, Lower Leakage: Revisiting Memorization in LLM Fine-Tuning with LoRA",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Fei Wang, Baochun Li",
+      "category": "Security & Privacy",
+      "confidence": "Medium",
+      "significance": "Recent work on memorization, privacy and efficiency, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2506.20856"
+    },
+    "id": "paper-0250",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "MI9: An Integrated Runtime Governance Framework for Agentic AI",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Charles L. Wang et al.",
+      "category": "Governance & Policy",
+      "confidence": "Medium",
+      "significance": "Recent work on AI governance and accountability, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2508.03858"
+    },
+    "id": "paper-0251",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Adversarial Examples Are Not Bugs, They Are Superposition",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Liv Gorton, Owen Lewis",
+      "category": "Interpretability",
+      "confidence": "Medium",
+      "significance": "Recent work on mechanistic understanding of models, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2508.17456"
+    },
+    "id": "paper-0252",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Neither Valid nor Reliable? Investigating the Use of LLMs as Judges",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Khaoula Chehbouni et al.",
+      "category": "Evaluation",
+      "confidence": "Medium",
+      "significance": "Recent work on evaluation and measurement, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2508.18076"
+    },
+    "id": "paper-0253",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Governance-as-a-Service: A Multi-Agent Framework for AI System Compliance and Policy Enforcement",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Suyash Gaurav, Jukka Heikkonen, Jatin Chaudhary",
+      "category": "Governance & Policy",
+      "confidence": "Medium",
+      "significance": "Recent work on AI governance and accountability, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2508.18765"
+    },
+    "id": "paper-0254",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Adversarial Attacks Leverage Interference Between Features in Superposition",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Edward Stevinson et al.",
+      "category": "Interpretability",
+      "confidence": "Medium",
+      "significance": "Recent work on mechanistic understanding of models, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2510.11709"
+    },
+    "id": "paper-0255",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Check Yourself Before You Wreck Yourself: Selectively Quitting Improves LLM Agent Safety",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Vamshi Krishna Bonagiri et al.",
+      "category": "Safety & Alignment",
+      "confidence": "Medium",
+      "significance": "Recent work on AI safety and alignment, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2510.16492"
+    },
+    "id": "paper-0256",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Can Reasoning Models Obfuscate Reasoning? Stress-Testing Chain-of-Thought Monitorability",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Artur Zolkowski et al.",
+      "category": "Safety & Alignment",
+      "confidence": "Medium",
+      "significance": "Recent work on AI safety and alignment, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2510.19851"
+    },
+    "id": "paper-0257",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Risk Management for Mitigating Benchmark Failure Modes: BenchRisk",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Sean McGregor et al.",
+      "category": "Evaluation",
+      "confidence": "Medium",
+      "significance": "Recent work on evaluation and measurement, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2510.21460"
+    },
+    "id": "paper-0258",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Towards Scalable Oversight via Partitioned Human Supervision",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Ren Yin, Takashi Ishida, Masashi Sugiyama",
+      "category": "Safety & Alignment",
+      "confidence": "Medium",
+      "significance": "Recent work on AI safety and alignment, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2510.22500"
+    },
+    "id": "paper-0259",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Measuring what Matters: Construct Validity in Large Language Model Benchmarks",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Andrew M. Bean et al.",
+      "category": "Evaluation",
+      "confidence": "Medium",
+      "significance": "Recent work on evaluation and measurement, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2511.04703"
+    },
+    "id": "paper-0260",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Effectiveness of Chain-of-Thought in Distilling Reasoning Capability from Large Language Models",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Cong-Thanh Do, Rama Doddipatla, Kate Knill",
+      "category": "Meta & Field Essays",
+      "confidence": "Medium",
+      "significance": "Recent work on AI research methodology, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2511.05184"
+    },
+    "id": "paper-0261",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Natural Emergent Misalignment from Reward Hacking in Production RL",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Monte MacDiarmid et al.",
+      "category": "Safety & Alignment",
+      "confidence": "Medium",
+      "significance": "Recent work on AI safety and alignment, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2511.18397"
+    },
+    "id": "paper-0262",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Superposition as Lossy Compression: Measure with Sparse Autoencoders and Connect to Adversarial Vulnerability",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Leonard Bereska et al.",
+      "category": "Interpretability",
+      "confidence": "Medium",
+      "significance": "Recent work on mechanistic understanding of models, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2512.13568"
+    },
+    "id": "paper-0263",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Quantifying the Effect of Test Set Contamination on Generative Evaluations",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Rylan Schaeffer et al.",
+      "category": "Evaluation",
+      "confidence": "Medium",
+      "significance": "Recent work on evaluation and measurement, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2601.04301"
+    },
+    "id": "paper-0264",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2026
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Audit Trails for Accountability in Large Language Models",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Victor Ojewale, Harini Suresh, Suresh Venkatasubramanian",
+      "category": "Governance & Policy",
+      "confidence": "Medium",
+      "significance": "Recent work on AI governance and accountability, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2601.20727"
+    },
+    "id": "paper-0265",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2026
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Quantifying construct validity in large language model evaluations",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Ryan Othniel Kearns",
+      "category": "Evaluation",
+      "confidence": "Medium",
+      "significance": "Recent work on evaluation and measurement, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2602.15532"
+    },
+    "id": "paper-0266",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2026
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Clear, Compelling Arguments: Rethinking the Foundations of Frontier AI Safety Cases",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Shaun Feakins, Ibrahim Habli, Phillip Morgan",
+      "category": "Safety & Alignment",
+      "confidence": "Medium",
+      "significance": "Recent work on AI safety and alignment, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2603.08760"
+    },
+    "id": "paper-0267",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2026
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Runtime Governance for AI Agents: Policies on Paths",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Maurits Kaptein, Vassilis-Javed Khan, Andriy Podstavnychy",
+      "category": "Governance & Policy",
+      "confidence": "Medium",
+      "significance": "Recent work on AI governance and accountability, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2603.16586"
+    },
+    "id": "paper-0268",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2026
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Who judges the judges? Governance from metrics: a runtime framework for continuous LLM compliance monitoring",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Jehanne Dussert",
+      "category": "Governance & Policy",
+      "confidence": "Medium",
+      "significance": "Recent work on AI governance and accountability, surfaced and relevance-audited by the AI Canon frontier review.",
+      "source": "Frontier review 2026 (arXiv-verified, relevance-audited); candidate, unscored",
+      "venue": "arXiv:2605.24737"
+    },
+    "id": "paper-0269",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2026
   }
 ]

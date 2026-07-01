@@ -225,3 +225,46 @@ paper-0223,"Zhongwen Fenci Shi Nian Huigu (中文分词十年回顾, A Decade Re
 paper-0224,"Jiyu N-Zuiduan Lujing Fangfa de Zhongwen Ciyu Cufen Moxing (基于N-最短路径方法的中文词语粗分模型, A Rough Chinese Word Segmentation Model Based on the N-Shortest-Path Method)",张华平、刘群,2002,中文信息学报 16(5) (Journal of Chinese Information Processing),NLP
 paper-0225,"Jiyu Shengchengshi Duikang Wangluo de Lubang Renlian Biaoqing Shibie (基于生成式对抗网络的鲁棒人脸表情识别, Robust Facial Expression Recognition With Generative Adversarial Networks)",姚乃明、郭清沛、乔逢春、陈辉、王宏安,2018,自动化学报 44(5):865-877 (Acta Automatica Sinica),Computer Vision
 paper-0226,"Jiyu Shengxue Tezheng Kongjian Feixianxing Liuxing Jiegou de Yuyin Shibie Shengxue Moxing (基于声学特征空间非线性流形结构的语音识别声学模型, Feature-Space Nonlinear-Manifold Acoustic Model for Speech Recognition)",张文林、牛铜、屈丹、李弼程、裴喜龙,2015,自动化学报 41(5):1024-1033 (Acta Automatica Sinica),Machine Learning
+paper-0227,Predictability and Surprise in Large Generative Models,Deep Ganguli et al.,2022,arXiv:2202.07785,Scaling & Frontier
+paper-0228,Transformers learn in-context by gradient descent,Johannes von Oswald et al.,2023,arXiv:2212.07677,Interpretability
+paper-0229,Causal Abstraction: A Theoretical Foundation for Mechanistic Interpretability,Atticus Geiger et al.,2025,arXiv:2301.04709,Interpretability
+paper-0230,A Framework for Assurance Audits of Algorithmic Systems,Khoa Lam et al.,2024,arXiv:2401.14908,Governance & Policy
+paper-0231,On Mesa-Optimization in Autoregressively Trained Transformers: Emergence and Capability,Chenyu Zheng et al.,2024,arXiv:2405.16845,Interpretability
+paper-0232,Evolving Subnetwork Training for Large Language Models,Hanqi Li et al.,2024,arXiv:2406.06962,Meta & Field Essays
+paper-0233,Collective Constitutional AI: Aligning a Language Model with Public Input,Saffron Huang et al.,2024,arXiv:2406.07814,Safety & Alignment
+paper-0234,Latent Adversarial Training Improves Robustness to Persistent Harmful Behaviors in LLMs,Abhay Sheshadri et al.,2024,arXiv:2407.15549,Safety & Alignment
+paper-0235,U-shaped and Inverted-U Scaling behind Emergent Abilities of Large Language Models,"Tung-Yu Wu, Pei-Yu Lo",2024,arXiv:2410.01692,Scaling & Frontier
+paper-0236,Leaving the barn door open for Clever Hans: Simple features predict LLM benchmark answers,Lorenzo Pacchiardi et al.,2024,arXiv:2410.11672,Evaluation
+paper-0237,Chain of Alignment: Integrating Public Will with Expert Intelligence for Language Model Alignment,Andrew Konya et al.,2024,arXiv:2411.10534,Safety & Alignment
+paper-0238,Predicting Emergent Capabilities by Finetuning,Charlie Snell et al.,2024,arXiv:2411.16035,Scaling & Frontier
+paper-0239,What AI evaluations for preventing catastrophic risks can and cannot do,"Peter Barnett, Lisa Thiergart",2024,arXiv:2412.08653,Scaling & Frontier
+paper-0240,Alignment faking in large language models,Ryan Greenblatt et al.,2024,arXiv:2412.14093,Safety & Alignment
+paper-0241,Dynamic safety cases for frontier AI,Carmen Cârlan et al.,2024,arXiv:2412.17618,Safety & Alignment
+paper-0242,Debate Helps Weak-to-Strong Generalization,"Hao Lang, Fei Huang, Yongbin Li",2025,arXiv:2501.13124,Safety & Alignment
+paper-0243,Towards the Worst-case Robustness of Large Language Models,Huanran Chen et al.,2025,arXiv:2501.19040,Safety & Alignment
+paper-0244,Unveiling Downstream Performance Scaling of LLMs: A Clustering-Based Perspective,Chengyin Xu et al.,2025,arXiv:2502.17262,Scaling & Frontier
+paper-0245,Findings of the BabyLM Challenge: Sample-Efficient Pretraining on Developmentally Plausible Corpora,Alex Warstadt et al.,2023,arXiv:2504.08165,Meta & Field Essays
+paper-0246,Learning a Pessimistic Reward Model in RLHF,Yinglun Xu et al.,2025,arXiv:2505.20556,Safety & Alignment
+paper-0247,DyePack: Provably Flagging Test Set Contamination in LLMs Using Backdoors,Yize Cheng et al.,2025,arXiv:2505.23001,Evaluation
+paper-0248,Writing-Zero: Bridge the Gap Between Non-verifiable Tasks and Verifiable Rewards,Ruipeng Jia et al.,2025,arXiv:2506.00103,Safety & Alignment
+paper-0249,AdversariaL attacK sAfety aLIgnment(ALKALI): Safeguarding LLMs through GRACE: Geometric Representation-Aware Contrastive Enhancement- Introducing Adversarial Vulnerability Quality Index (AVQI),Danush Khanna et al.,2025,arXiv:2506.08885,Safety & Alignment
+paper-0250,"Leaner Training, Lower Leakage: Revisiting Memorization in LLM Fine-Tuning with LoRA","Fei Wang, Baochun Li",2025,arXiv:2506.20856,Security & Privacy
+paper-0251,MI9: An Integrated Runtime Governance Framework for Agentic AI,Charles L. Wang et al.,2025,arXiv:2508.03858,Governance & Policy
+paper-0252,"Adversarial Examples Are Not Bugs, They Are Superposition","Liv Gorton, Owen Lewis",2025,arXiv:2508.17456,Interpretability
+paper-0253,Neither Valid nor Reliable? Investigating the Use of LLMs as Judges,Khaoula Chehbouni et al.,2025,arXiv:2508.18076,Evaluation
+paper-0254,Governance-as-a-Service: A Multi-Agent Framework for AI System Compliance and Policy Enforcement,"Suyash Gaurav, Jukka Heikkonen, Jatin Chaudhary",2025,arXiv:2508.18765,Governance & Policy
+paper-0255,Adversarial Attacks Leverage Interference Between Features in Superposition,Edward Stevinson et al.,2025,arXiv:2510.11709,Interpretability
+paper-0256,Check Yourself Before You Wreck Yourself: Selectively Quitting Improves LLM Agent Safety,Vamshi Krishna Bonagiri et al.,2025,arXiv:2510.16492,Safety & Alignment
+paper-0257,Can Reasoning Models Obfuscate Reasoning? Stress-Testing Chain-of-Thought Monitorability,Artur Zolkowski et al.,2025,arXiv:2510.19851,Safety & Alignment
+paper-0258,Risk Management for Mitigating Benchmark Failure Modes: BenchRisk,Sean McGregor et al.,2025,arXiv:2510.21460,Evaluation
+paper-0259,Towards Scalable Oversight via Partitioned Human Supervision,"Ren Yin, Takashi Ishida, Masashi Sugiyama",2025,arXiv:2510.22500,Safety & Alignment
+paper-0260,Measuring what Matters: Construct Validity in Large Language Model Benchmarks,Andrew M. Bean et al.,2025,arXiv:2511.04703,Evaluation
+paper-0261,Effectiveness of Chain-of-Thought in Distilling Reasoning Capability from Large Language Models,"Cong-Thanh Do, Rama Doddipatla, Kate Knill",2025,arXiv:2511.05184,Meta & Field Essays
+paper-0262,Natural Emergent Misalignment from Reward Hacking in Production RL,Monte MacDiarmid et al.,2025,arXiv:2511.18397,Safety & Alignment
+paper-0263,Superposition as Lossy Compression: Measure with Sparse Autoencoders and Connect to Adversarial Vulnerability,Leonard Bereska et al.,2025,arXiv:2512.13568,Interpretability
+paper-0264,Quantifying the Effect of Test Set Contamination on Generative Evaluations,Rylan Schaeffer et al.,2026,arXiv:2601.04301,Evaluation
+paper-0265,Audit Trails for Accountability in Large Language Models,"Victor Ojewale, Harini Suresh, Suresh Venkatasubramanian",2026,arXiv:2601.20727,Governance & Policy
+paper-0266,Quantifying construct validity in large language model evaluations,Ryan Othniel Kearns,2026,arXiv:2602.15532,Evaluation
+paper-0267,"Clear, Compelling Arguments: Rethinking the Foundations of Frontier AI Safety Cases","Shaun Feakins, Ibrahim Habli, Phillip Morgan",2026,arXiv:2603.08760,Safety & Alignment
+paper-0268,Runtime Governance for AI Agents: Policies on Paths,"Maurits Kaptein, Vassilis-Javed Khan, Andriy Podstavnychy",2026,arXiv:2603.16586,Governance & Policy
+paper-0269,Who judges the judges? Governance from metrics: a runtime framework for continuous LLM compliance monitoring,Jehanne Dussert,2026,arXiv:2605.24737,Governance & Policy
