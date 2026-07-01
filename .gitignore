@@ -6,3 +6,9 @@ __pycache__/
 .DS_Store
 /build/
 /dist/
+
+# macOS / iCloud duplicate copies ("file 2.json", "file 3.zip", ...)
+* [0-9].json
+* [0-9].zip
+* [0-9].md
+* [0-9].csv
