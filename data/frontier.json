@@ -1,0 +1,625 @@
+{
+ "as_of": "2026-07-01",
+ "coverage": {
+  "papers_reviewed": 96,
+  "of_total": 226,
+  "passages": 489,
+  "ritual_pct": 30,
+  "high_substance": 78,
+  "papers_with_frontier": 41
+ },
+ "reliability": {
+  "subtheme": 0.774,
+  "substance": 0.66,
+  "is_ritual": 0.725,
+  "boilerplate": 0.754,
+  "family": 0.785
+ },
+ "families": [
+  {
+   "name": "Understanding",
+   "papers": 9,
+   "subs": [
+    {
+     "key": "mechanism",
+     "name": "The training-to-capability mechanism",
+     "blurb": "Why capabilities emerge from or transfer through training. We deploy methods whose mechanism we cannot explain.",
+     "papers": 7,
+     "quotes": [
+      {
+       "title": "Risks from Learned Optimization in Advanced Machine Learning Systems",
+       "year": 2019,
+       "text": "The conditions that lead a learning algorithm to find mesa-optimizers, however, are very poorly understood."
+      },
+      {
+       "title": "Language Models are Few-Shot Learners",
+       "year": 2020,
+       "text": "Even organizing diverse demonstrations during pre-training and identifying them at test time would be an advance for language models, but nevertheless understanding precisely how few-shot learning works is an important unexplored direction for future research."
+      },
+      {
+       "title": "Emergent Abilities of Large Language Models",
+       "year": 2022,
+       "text": "Emergence motivates future research on why such abilities are acquired and whether more scaling will lead to further emergent abilities, which we highlight as important questions for the field ( § 5 ). 2 Emergent Abilities Definition As a broad concept, emergence is often used informally and can be reasonably interpreted in many different ways."
+      },
+      {
+       "title": "Emergent Abilities of Large Language Models",
+       "year": 2022,
+       "text": "Future research could potentially analyze emergence in new ways (e.g., analyze the relationship between emergent tasks and similar data in training; create a synthetic task that requires multiple compositional sub-tasks and evaluate how each of those sub-tasks improve with scale and unlock emergence when combined)."
+      },
+      {
+       "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+       "year": 2022,
+       "text": "There are many directions for future works. 1) LoRA can be combined with other efficient adaptation methods, potentially providing orthogonal improvement. 2) The mechanism behind fine-tuning or LoRA is far from clear – how are features learned during pre-training transformed to do well on downstream tasks?"
+      },
+      {
+       "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+       "year": 2022,
+       "text": "Future work could more thoroughly investigate what properties of pretraining data, model architecture, and optimization objective causally enable such reasoning capabilities. 16 Tracy used a piece of wire 4 feet long to support tomato plants in the garden."
+      },
+      {
+       "title": "Gemini: A Family of Highly Capable Multimodal Models",
+       "year": 2023,
+       "text": "One open question is whether this joint training can result in a model which has strong capabilities in each domain – even when compared to models and approaches that are narrowly tailored to single domains."
+      },
+      {
+       "title": "OLMo: Accelerating the Science of Language Models",
+       "year": 2024,
+       "text": "Finally, all code and weights are released under the Apache 2.0 License.1 With this release, we hope to catalyze research into as-yet poorly understood aspects of these models, for example, the relationship between pretraining data and model capabilities, the impact of design and hyperparameter choices, and various optimization methods and their impact on model training."
+      }
+     ]
+    },
+    {
+     "key": "interpretability",
+     "name": "Interpretability of decisions",
+     "blurb": "Explaining a trained model's decisions or internal representations.",
+     "papers": 2,
+     "quotes": [
+      {
+       "title": "Why Should I Trust You? Explaining the Predictions of Any Classifier",
+       "year": 2016,
+       "text": "While global fidelity would imply local fidelity, identifying globally faithful explanations that are interpretable remains a challenge for complex models."
+      },
+      {
+       "title": "Why Should I Trust You? Explaining the Predictions of Any Classifier",
+       "year": 2016,
+       "text": "For images, must measure something that is comparable across the super-pixels in different images, such as color histograms or other features of super-pixels; we leave further exploration of these ideas for future work."
+      },
+      {
+       "title": "The Mythos of Model Interpretability",
+       "year": 2018,
+       "text": "Precisely what form such an explanation might take or how such an explanation could be proven correct and not merely appeasing remain open questions."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Evaluation",
+   "papers": 9,
+   "subs": [
+    {
+     "key": "eval-emergent",
+     "name": "Evaluating emergent capabilities",
+     "blurb": "Scoring new abilities the old harness cannot: long reasoning, long context, self-verification, calibration.",
+     "papers": 5,
+     "quotes": [
+      {
+       "title": "Concrete Problems in AI Safety",
+       "year": 2016,
+       "text": "For the former challenge, there has been some recent promising work on pinpointing aspects of a structure that a model is uncertain about [ 162 , 81 ] , as well as obtaining calibration in structured output settings [ 83 ] , but we believe there is much work yet to be done."
+      },
+      {
+       "title": "Emergent Abilities of Large Language Models",
+       "year": 2022,
+       "text": "Finally, an important direction for deployment of language models studies is calibration , which measures whether models can predict which questions they will be able to answer correctly."
+      },
+      {
+       "title": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context",
+       "year": 2024,
+       "text": "Among these, we highlight the quantitative assessment of reasoning capabilities across long mixed-modality sequences as a key challenge."
+      },
+      {
+       "title": "Phi-4-reasoning Technical Report",
+       "year": 2025,
+       "text": "Despite the above measurements, appropriate evaluation of output generated by reasoning models remains a challenge mainly due to the fact that current LLM judges and tools have not yet been optimized for long, stepby-step traces and may struggle with the extended length and the non-linear generations."
+      },
+      {
+       "title": "DeepSeekMath-V2: Towards Self-Verifiable Mathematical Reasoning",
+       "year": 2025,
+       "text": "Self-verification is particularly important for scaling testtime compute, especially for open problems without known solutions."
+      },
+      {
+       "title": "DeepSeekMath-V2: Towards Self-Verifiable Mathematical Reasoning",
+       "year": 2025,
+       "text": "Our approach is motivated by several key observations: • Humans can identify issues in proofs even without reference solutions – a crucial ability when tackling open problems. • A proof is more likely to be valid when no issues can be identified despite scaled verification efforts. • The efforts required to identify valid issues can serve as a proxy for proof quality, which can be exploited to opt"
+      }
+     ]
+    },
+    {
+     "key": "eval-validity",
+     "name": "Evaluation validity",
+     "blurb": "Does the metric measure the construct it claims to?",
+     "papers": 2,
+     "quotes": [
+      {
+       "title": "Model Cards for Model Reporting",
+       "year": 2019,
+       "text": "Further research is necessary to expand how groups may be defined, for example, by automatically discovering groups with similarities in the evaluation datasets. 3."
+      },
+      {
+       "title": "Model Cards for Model Reporting",
+       "year": 2019,
+       "text": "Future research could include creating robust evaluation datasets and protocols for the types of disaggregated evaluation we advocate for in this work, for example, by including differential privacy mechanisms (Dwork, 2008 ) so that individuals in the testing set cannot be uniquely identified by their characteristics. 4."
+      },
+      {
+       "title": "On the Measure of Intelligence",
+       "year": 2019,
+       "text": "We plan on conducting future work to empirically address this issue by using human performance on a task (considered over many human subjects) to estimate the generalization difficulty it represents."
+      },
+      {
+       "title": "On the Measure of Intelligence",
+       "year": 2019,
+       "text": "However, the exact nature of innate human prior knowledge is still an open problem, and whether these priors are correctly captured in ARC is unclear."
+      }
+     ]
+    },
+    {
+     "key": "eval-contamination",
+     "name": "Benchmark contamination",
+     "blurb": "Train-test leakage that silently corrupts every reported number.",
+     "papers": 2,
+     "quotes": [
+      {
+       "title": "Skywork: A More Open Bilingual Foundation Model",
+       "year": 2023,
+       "text": "Furthermore, we propose a novel leakage detection method, demonstrating that data contamination is a pressing issue warranting further investigation by the LLM community."
+      },
+      {
+       "title": "The Llama 3 Herd of Models",
+       "year": 2024,
+       "text": "Any of these methods can suffer from false positives and negatives, and how to best run contamination analyses is currently still an open field of research."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Alignment & control",
+   "papers": 9,
+   "subs": [
+    {
+     "key": "align-values",
+     "name": "What alignment is / whose values",
+     "blurb": "No satisfactory formalization; whose values, with what legitimacy.",
+     "papers": 5,
+     "quotes": [
+      {
+       "title": "Concrete Problems in AI Safety",
+       "year": 2016,
+       "text": "Exploring variants of empowerment penalization that more precisely capture the notion of avoiding influence is a potential challenge for future research. • Multi-Agent Approaches: Avoiding side effects can be seen as a proxy for the thing we really care about: avoiding negative externalities."
+      },
+      {
+       "title": "Closing the AI Accountability Gap: Defining an End-to-End Framework for Internal Algorithmic Auditing",
+       "year": 2020,
+       "text": "A key challenge is to assess how the numerical metrics specified in the design of an artificial intelligence system reflect or conform with these values."
+      },
+      {
+       "title": "Evaluating Large Language Models Trained on Code",
+       "year": 2021,
+       "text": "Defining alignment is complex, and there is not yet a satisfactory formalization."
+      },
+      {
+       "title": "Unsolved Problems in ML Safety",
+       "year": 2021,
+       "text": "Future research could focus on designing minimally invasive agents that prefer easily reversible to irreversible actions [ 66 ] , as irreversibility reduces humans’ optionality and often unintentionally destroys potential future value."
+      },
+      {
+       "title": "Training Language Models to Follow Instructions with Human Feedback",
+       "year": 2022,
+       "text": "Indeed, one of the biggest open questions is how to design an alignment process that is transparent, that meaningfully represents the people impacted by the technology, and that synthesizes peoples’ values in a way that achieves broad consensus amongst many groups."
+      }
+     ]
+    },
+    {
+     "key": "align-rlhf",
+     "name": "Preference learning / RLHF mechanics",
+     "blurb": "How to actually train alignment: reward models, preference data, without losing capability.",
+     "papers": 3,
+     "quotes": [
+      {
+       "title": "Language Models are Few-Shot Learners",
+       "year": 2020,
+       "text": "Promising future directions in this vein might include learning the objective function from humans [ 143 ] , fine-tuning with reinforcement learning, or adding additional modalities such as images to provide grounding and a better model of the world [ 18 ] ."
+      },
+      {
+       "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+       "year": 2023,
+       "text": "For example, RLHF V3 struggled more than previous versions to compose rhyming lines in poems, as discerned through qualitative analysis, suggesting that further investigation into the causes of and mitigations for forgetting (Kirkpatrick et al., 2017 ; Nguyen et al., 2019 ; Ramasesh et al., 2021 ) could be a fruitful area for additional future research."
+      },
+      {
+       "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+       "year": 2023,
+       "text": "The above observation suggests investment in reward calibration for future work as reinforcement learning algorithms, such as PPO, can be sensitive to reward distribution change."
+      },
+      {
+       "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+       "year": 2025,
+       "text": "Consequently, for complex tasks that cannot be effectively evaluated by a reliable reward model, scaling up pure RL methods remains an open challenge."
+      },
+      {
+       "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+       "year": 2025,
+       "text": "In such cases, the lack of a robust feedback mechanism may hinder progress, suggesting that future research should focus on developing innovative approaches to define and refine reward structures for these complex, less verifiable problems."
+      }
+     ]
+    },
+    {
+     "key": "align-oversight",
+     "name": "Scalable oversight and assurance",
+     "blurb": "Supervising and assuring a system you cannot fully evaluate.",
+     "papers": 2,
+     "quotes": [
+      {
+       "title": "Concrete Problems in AI Safety",
+       "year": 2016,
+       "text": "A key challenge to making this work is having the agent be a good judge of which exploratory actions are genuinely risky, versus which are safe actions it can unilaterally take; another challenge is finding appropriately safe actions to take while waiting for the oversight."
+      },
+      {
+       "title": "Constitutional AI: Harmlessness from AI Feedback",
+       "year": 2022,
+       "text": "Although here we largely eliminate direct human supervision for harmlessness, rather than removing human supervision, in the longer term our goal is to make human supervision 3 3 3 With our present methods, this should possible by training AI systems to imitate the natural language explanations humans give when evaluating AI behavior, as has been discussed in other contexts [ Scheurer et al., , Sa"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Safety",
+   "papers": 6,
+   "subs": [
+    {
+     "key": "robustness-adversarial",
+     "name": "Adversarial robustness",
+     "blurb": "Reliable attacks on aligned models; the post-hoc-repair arms race; formal verification.",
+     "papers": 5,
+     "quotes": [
+      {
+       "title": "Concrete Problems in AI Safety",
+       "year": 2016,
+       "text": "For the latter challenge, there is also relevant work based on reachability analysis [ 93 , 100 ] and robust policy improvement [ 164 ] , which provide potential methods for deploying conservative policies in situations of uncertainty; to our knowledge, this work has not yet been combined with methods for detecting out-of-distribution failures of a model."
+      },
+      {
+       "title": "The Malicious Use of Artificial Intelligence: Forecasting, Prevention, and Mitigation",
+       "year": 2018,
+       "text": "An open question is whether AI systems, or elements thereof, are amenable to formal verification."
+      },
+      {
+       "title": "Unsolved Problems in ML Safety",
+       "year": 2021,
+       "text": "Future research could do more work toward creating models with adversarially robust representations [ 41 ] ."
+      },
+      {
+       "title": "Toy Models of Superposition",
+       "year": 2022,
+       "text": "It might be interesting for future work to see how far the hypothesis that superposition is a significant contributor to adversarial examples can be driven."
+      },
+      {
+       "title": "PaLM 2 Technical Report",
+       "year": 2023,
+       "text": "A promising area for future work is to investigate pre-training interventions that can amplify steerability capabilities in general-purpose downstream adaptation phases (e.g., instruction fine-tuning), or targeting potential harms that are challenging to mitigate downstream (e.g., revealing personally identifiable information, and robustness against adversarial queries that ”jailbreak” prompting m"
+      }
+     ]
+    },
+    {
+     "key": "deception-inner",
+     "name": "Deceptive / inner alignment",
+     "blurb": "Training may select a schemer; deception can persist through safety training.",
+     "papers": 1,
+     "quotes": [
+      {
+       "title": "Sleeper Agents: Training Deceptive LLMs That Persist Through Safety Training",
+       "year": 2024,
+       "text": "This would potentially call into question any approach that relies on eliciting and then disincentivizing deceptive behavior, since it would suggest doing so will be more likely to make a model better at hiding its deception during training rather than removing the deception altogether 27 27 27 Because the backdoor triggers tested here are very simple, we aren’t confident in whether this pattern g"
+      },
+      {
+       "title": "Sleeper Agents: Training Deceptive LLMs That Persist Through Safety Training",
+       "year": 2024,
+       "text": "Furthermore, its robustness increases with model scale and with the use of chain of thought (specifically, reasoning about the backdoor condition), which suggests there is a challenging open problem."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Scaling & efficiency",
+   "papers": 16,
+   "subs": [
+    {
+     "key": "efficiency-inference",
+     "name": "Inference / parameter efficiency",
+     "blurb": "Smaller, faster, cheaper to run: distillation, quantization, pruning.",
+     "papers": 7,
+     "quotes": [
+      {
+       "title": "Language Models are Few-Shot Learners",
+       "year": 2020,
+       "text": "One possible future direction to address this is distillation [ 44 ] of large models down to a manageable size for specific tasks."
+      },
+      {
+       "title": "Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
+       "year": 2022,
+       "text": "Future work could additionally study distilling large models into smaller sparse models."
+      },
+      {
+       "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+       "year": 2022,
+       "text": "Note that the relationship between model size and the optimal rank for adaptation is still an open question."
+      },
+      {
+       "title": "DeepSeek-V3 Technical Report",
+       "year": 2024,
+       "text": "Our research suggests that knowledge distillation from reasoning models presents a promising direction for post-training optimization."
+      },
+      {
+       "title": "Aya Model: An Instruction Finetuned Open-Access Multilingual Language Model",
+       "year": 2024,
+       "text": "We recommend future work explores compression techniques (Treviso et al., 2023) such as quantization (Dettmers et al., 2022; Frantar et al., 2022; Ahmadian et al., 2023) and pruning (Frantar and Alistarh, 2023; Ogueji et al., 2022; Gale et al., 2019; Ahia et al., 2021) for multilingual instructiontuned models."
+      },
+      {
+       "title": "Phi-4-reasoning Technical Report",
+       "year": 2025,
+       "text": "While these insights are encouraging, extracting such capabilities without spending N-times more inference compute on models that are already expensive at inference time, remains an open question for future work."
+      },
+      {
+       "title": "LongCat-Flash Technical Report",
+       "year": 2025,
+       "text": "Finally, we present our deployment strategy and performance results. 6.1 Model-Specific Inference Optimization To achieve an efficient inference system, two key challenges must be addressed: (1) Computation and communication orchestration, and (2) KV cache I/O and storage."
+      },
+      {
+       "title": "LongCat-Flash Technical Report",
+       "year": 2025,
+       "text": "A key challenge in this design is the overhead of transmitting KV caches from prefilling to decoding nodes."
+      }
+     ]
+    },
+    {
+     "key": "scaling-predictability",
+     "name": "Scaling-law predictability",
+     "blurb": "Predicting loss from scale is not the same as predicting capability.",
+     "papers": 4,
+     "quotes": [
+      {
+       "title": "Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
+       "year": 2022,
+       "text": "This suggests a poorly understood dependence between fine-tuning quality, FLOPS per token and number of parameters . 3."
+      },
+      {
+       "title": "Training Compute-Optimal Large Language Models",
+       "year": 2022,
+       "text": "( 2020 ) , though future work may want to include potential curvature in this relationship for large model sizes."
+      },
+      {
+       "title": "GPT-4 Technical Report",
+       "year": 2023,
+       "text": "This report also discusses a key challenge of the project, developing deep learning infrastructure and optimization methods that behave predictably across a wide range of scales."
+      },
+      {
+       "title": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+       "year": 2024,
+       "text": "The exploration of scaling laws for LVLMs—how increases in model and data size affect performance—remains an open and promising area of research."
+      }
+     ]
+    },
+    {
+     "key": "efficiency-sample",
+     "name": "Sample / data efficiency",
+     "blurb": "Learning from less data, human-like.",
+     "papers": 3,
+     "quotes": [
+      {
+       "title": "End-to-End Training of Deep Visuomotor Policies",
+       "year": 2016,
+       "text": "More practical alternatives that could be explored in future work include simultaneously training the policy on multiple robots, each of which is located in a diﬀerent environment, developing more sophisticated regularization and pretraining techniques to avoid overﬁtting, and introducing artiﬁcial data augmentation to encourage the policy to be invariant to irrelevant clutter."
+      },
+      {
+       "title": "End-to-End Training of Deep Visuomotor Policies",
+       "year": 2016,
+       "text": "A promising direction for addressing this limitation is to combine our method with unsupervised state-space learning, as proposed in several recent works, including our own (Lange et al., 2012; Watter et al., 2015; Finn et al., 2015)."
+      },
+      {
+       "title": "Language Models are Few-Shot Learners",
+       "year": 2020,
+       "text": "Improving pre-training sample efficiency is an important direction for future work, and might come from grounding in the physical world to provide additional information, or from algorithmic improvements."
+      },
+      {
+       "title": "Learning Transferable Visual Models From Natural Language Supervision",
+       "year": 2021,
+       "text": "Combining CLIP with self-supervision (Henaff, 2020 ; Chen et al., 2020c ) and self-training ( Lee, ; Xie et al., 2020 ) methods is a promising direction given their demonstrated ability to improve data efficiency over standard supervised learning."
+      }
+     ]
+    },
+    {
+     "key": "efficiency-compute",
+     "name": "Training-compute efficiency",
+     "blurb": "Cheaper training: fewer FLOPs, memory, hardware-aware tuning.",
+     "papers": 3,
+     "quotes": [
+      {
+       "title": "The Hardware Lottery",
+       "year": 2021,
+       "text": "Another promising direction is automatically auto-tuning the algorithmic parameters of a program based upon the downstream choice of hardware."
+      },
+      {
+       "title": "Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
+       "year": 2022,
+       "text": "This version of the Switch Transformer does not employ attention sparsity, but these techniques are complimentary, and, as future work, these could be combined to potentially improve learning on tasks requiring long contexts. 7 Discussion We pose and discuss questions about the Switch Transformer, and sparse expert models generally, where sparsity refers to weights, not on attention patterns."
+      },
+      {
+       "title": "LongCat-Flash Technical Report",
+       "year": 2025,
+       "text": "Cost-effectively evaluating the impact of operator precision errors on model performance remains an open challenge. 5.2 Kernel Optimization for Determinism and Performance Determinism serves as the gold standard for computational correctness, eliminating floating-point errors as experimental variables."
+      }
+     ]
+    },
+    {
+     "key": "capability-forecast",
+     "name": "Ex-ante capability forecasting",
+     "blurb": "Can we predict a model's abilities before running it at scale?",
+     "papers": 3,
+     "quotes": [
+      {
+       "title": "Emergent Abilities of Large Language Models",
+       "year": 2022,
+       "text": "Overall, understanding emergence is an important direction because it could potentially allow us predict what abilities future models may have, as well as provide new insights into how to train more-capable language models. 6 Conclusions We have discussed emergent abilities of language models, for which meaningful performance has only been thus far observed at a certain computational scale."
+      },
+      {
+       "title": "Frontier AI Regulation: Managing Emerging Risks to Public Safety",
+       "year": 2023,
+       "text": "Nevertheless, investing in further research to more accurately predict capabilities of AI models ex ante is a crucial enabler for effectively targeting policy interventions, using scaling laws or otherwise."
+      },
+      {
+       "title": "The Llama 3 Herd of Models",
+       "year": 2024,
+       "text": "In addition to determining the optimal model size, a major challenge is to forecast the flagship model’s performance on downstream benchmark tasks, due to a couple of issues: (1) Existing scaling laws typically predict only next-token prediction loss rather than specific benchmark performance."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Data, fairness & governance",
+   "papers": 3,
+   "subs": [
+    {
+     "key": "memorization-privacy",
+     "name": "Memorization and privacy",
+     "blurb": "Why models memorize, and how to prevent extraction.",
+     "papers": 2,
+     "quotes": [
+      {
+       "title": "Extracting Training Data from Large Language Models",
+       "year": 2021,
+       "text": "An interesting direction for future work is to explore how memorization is inherited by fine-tuned models."
+      },
+      {
+       "title": "Extracting Training Data from Large Language Models",
+       "year": 2021,
+       "text": "Developing improved techniques for extracting memorized data, including attacks that are targeted towards specific content, is an interesting area for future work."
+      },
+      {
+       "title": "PaLM 2 Technical Report",
+       "year": 2023,
+       "text": "Future work could extend memorization evaluations to measure potential privacy harms and attacks within uses like dialog or summarization. 5 Responsible usage Evaluating risks in a language model is challenging because of their general-purpose capabilities and the many potential downstream uses (Jacobs & Wallach, 2021 ; Weidinger et al., 2021 ) ."
+      }
+     ]
+    },
+    {
+     "key": "fairness-limits",
+     "name": "Fairness trade-offs and limits",
+     "blurb": "Provable trade-offs between fairness criteria.",
+     "papers": 1,
+     "quotes": [
+      {
+       "title": "Inherent Trade-Offs in the Fair Determination of Risk Scores",
+       "year": 2017,
+       "text": "It is an open question whether there is a polynomial-time algorithm to find a fair assignment of minimum loss, or even to determine whether a non-trivial fair solution exists. 4.2 NP-Completeness of Non-Trivial Integral Fair Risk Assignments As discussed in the introduction, risk assignments in our model are allowed to split people with a given feature vector over several bins; however, it is also"
+      },
+      {
+       "title": "Inherent Trade-Offs in the Fair Determination of Risk Scores",
+       "year": 2017,
+       "text": "Determining when two of our three conditions can be simultaneously satisfied in this way is an interesting open question."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "derived_research": [
+  {
+   "name": "The unverifiable-reward wall",
+   "definition": "On the hardest, highest-value tasks there is no reliable reward, reference, or oracle, so training signal, evaluation signal, and oversight fail together for one shared reason.",
+   "convergence": "4/4",
+   "latency": "full",
+   "families": [
+    "Alignment & control",
+    "Evaluation",
+    "Safety"
+   ]
+  },
+  {
+   "name": "Predict-before-you-build (the pre-deployment forecasting gap)",
+   "definition": "Governance, safety, and evaluation all require ex-ante forecasts of a model's capabilities AND failure modes before it is built or fielded, yet the corpus can predict loss, not behaviour.",
+   "convergence": "4/4",
+   "latency": "full",
+   "families": [
+    "Scaling & efficiency",
+    "Understanding",
+    "Evaluation",
+    "Data/fairness/governance",
+    "Safety"
+   ]
+  },
+  {
+   "name": "Mechanistic opacity as the upstream assurance gate",
+   "definition": "Every downstream guarantee (valid evaluation, alignment assurance, deception-detection, a correct explanation) is gated on reading the mechanism that produced a capability, which the corpus repeatedly calls unsolved.",
+   "convergence": "4/4",
+   "latency": "partial (corpus half-names the mesa-optimizer + Sleeper Agents pair)",
+   "families": [
+    "Understanding",
+    "Alignment & control",
+    "Safety"
+   ]
+  },
+  {
+   "name": "The construct-validity crisis",
+   "definition": "As outputs become open-ended and models generalize, we can no longer guarantee a benchmark measures the intended construct rather than contamination, judge-model limits, or a metric artifact, undermining progress claims and the emergence signal used to forecast.",
+   "convergence": "3-4/4",
+   "latency": "full",
+   "families": [
+    "Evaluation",
+    "Understanding",
+    "Scaling & efficiency"
+   ]
+  },
+  {
+   "name": "Inheritance across the fine-tuning boundary",
+   "definition": "Fine-tuning, distillation, and adaptation are treated as capability transfer, but the corpus separately shows they inherit or reshape unwanted properties (memorized data, deception, value drift, forgetting) with no theory of what survives derivation.",
+   "convergence": "3/4",
+   "latency": "full (most clearly un-named)",
+   "families": [
+    "Data/fairness/governance",
+    "Safety",
+    "Understanding",
+    "Alignment & control"
+   ]
+  },
+  {
+   "name": "Superposition as a shared root of opacity and brittleness",
+   "definition": "Many features packed into fewer dimensions may be a common mechanistic cause of both uninterpretable internals and adversarial fragility (and the efficiency ceilings that motivate compression).",
+   "convergence": "2/4",
+   "latency": "full but narrow (2 families at high substance)",
+   "families": [
+    "Understanding",
+    "Safety",
+    "Scaling & efficiency"
+   ]
+  }
+ ],
+ "derived_applied": [
+  {
+   "name": "Runtime governance",
+   "definition": "Supervising, constraining, and assuring an AI system while it operates (at decision time), because it cannot be certified before deployment.",
+   "derived_from": [
+    "pre-deployment-forecasting-gap",
+    "opacity-assurance-gate"
+   ],
+   "provenance": "Meets all five derived-frontier criteria, and is the MOST strongly latent (the corpus never names it at all). Analyst-nominated (owner's runtime-governance ontology; Maurits Kaptein / kyvvu); not eligible for the blind pass because it was the seed. Classified applied, not research: an operational response to research frontiers, not an open research question. Shown in full as an equal member, tagged by type, not ranked as if it failed a test."
+  }
+ ],
+ "discovery": {
+  "off_canon": 93,
+  "candidates": 43,
+  "units": 32,
+  "active": 31
+ }
+}

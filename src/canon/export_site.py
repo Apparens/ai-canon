@@ -45,6 +45,7 @@ NAV = [
     ("library.html", "Library"),
     ("canon-50.html", "Canon 50"),
     ("papers.html", "Papers"),
+    ("frontier.html", "Frontier"),
     ("models.html", "Models"),
     ("voices.html", "Voices"),
     ("organizations.html", "Organizations"),
@@ -77,6 +78,7 @@ PAGE_DESC = {
     "canon-50.html": "The Canon 50: AI papers ranked under three published weighting scenarios, each rank linking to its full evidence. A pilot release, honest about its scope.",
     "library.html": "Browse 610 candidate AI books across every theme, filterable by category, language, and provenance. Curated and described, labelled candidacy, not canon.",
     "papers.html": "All 226 seed AI papers from 1943 to 2025, including the Chinese-language research spine. Each scored paper links to its harvested evidence.",
+    "frontier.html": "What the canon's papers say they have not solved: their stated open problems pooled, coded, and adversarially audited into a map of research frontiers, traceable to the papers' own words.",
     "models.html": "An index of 68 notable AI models, each linked to its paper in the Canon and to its own model page. A way into the literature, never a leaderboard.",
     "voices.html": "184 voices in artificial intelligence, described and never ranked, each with a checkable source. The Canon ranks texts, not people.",
     "organizations.html": "The organizations shaping artificial intelligence, each described with a link to learn more. Context for the Canon, never ranked.",
@@ -284,6 +286,29 @@ footer .measure{max-width:1080px}
 footer a{color:#fff}footer a:hover{color:#fff}
 footer .fine{font-size:.62rem;color:rgba(255,255,255,.62);line-height:1.7;margin-top:16px;
 padding-top:14px;border-top:1px solid rgba(255,255,255,.12);max-width:820px}
+/* frontier */
+.ffam{margin:30px 0 8px;border-top:2px solid var(--deep);padding-top:8px;display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.ffam h2{margin:0}
+.ffam .fc{font-size:.8rem;font-weight:600;color:var(--orange);white-space:nowrap}
+details.fd{border:1px solid var(--g200);border-radius:6px;margin:8px 0;background:#fff}
+details.fd>summary{cursor:pointer;padding:12px 16px;display:flex;justify-content:space-between;align-items:center;gap:12px;list-style:none;font-weight:500;color:var(--deep)}
+details.fd>summary::-webkit-details-marker{display:none}
+details.fd>summary::before{content:"+";color:var(--orange);font-weight:700;margin-right:10px}
+details.fd[open]>summary::before{content:"\2013"}
+details.fd>summary .sn{flex:1}
+details.fd>summary .sc{font-size:.72rem;color:var(--g500);white-space:nowrap}
+.fblurb{margin:0 16px 6px 42px;color:var(--g500);font-size:.9rem}
+ul.fq{margin:0 16px 14px 42px;padding:0;list-style:none}
+ul.fq li{padding:9px 0;border-top:1px dashed var(--g200)}
+ul.fq .q{display:block;font-size:.92rem;color:var(--g700)}
+ul.fq .src{display:block;font-size:.78rem;color:var(--orange);margin-top:3px}
+.dcard{border:1px solid var(--g200);border-radius:6px;padding:14px 16px;margin:8px 0;background:#fff}
+.dcard.app{border:2px solid var(--orange);background:#FCF4EF}
+.dhead{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.dhead b{color:var(--deep);font-size:1rem;font-weight:600}
+.dhead .dt{font-size:.68rem;padding:2px 9px;border:1px solid var(--g300);border-radius:20px;color:var(--g500);white-space:nowrap}
+.dcard p{margin:6px 0 0;font-size:.92rem;color:var(--g700)}
+.dcard .dfrom{font-size:.82rem;color:var(--g500);margin-top:6px}
 """
 
 
@@ -1201,6 +1226,80 @@ _HEADERS = f"""/*
 """
 
 
+def page_frontier() -> str:
+    d = _load(SEEDS.parent / "frontier.json")
+    cov, rel, disc = d["coverage"], d["reliability"], d["discovery"]
+    n_sub = sum(len(f["subs"]) for f in d["families"])
+    b = []
+    b.append('<p class="lead">Every paper ends by naming what it could not do. We pooled the stated '
+             "limitations and future-work of the canon's papers, coded each statement, and let the pattern "
+             "show where the open frontiers lie. <b>This is an AI-synthesized reading, traceable to the "
+             "authors' own words.</b></p>")
+    b.append(f'<div class="statgrid">'
+             f'<div class="stat"><b>{cov["papers_with_frontier"]}</b><span>papers with a specific open problem</span></div>'
+             f'<div class="stat"><b>{cov["high_substance"]}</b><span>high-substance frontier statements</span></div>'
+             f'<div class="stat"><b>{cov["ritual_pct"]}%</b><span>ritual boilerplate, filtered out</span></div>'
+             f'<div class="stat"><b>{n_sub}</b><span>sub-frontiers, in {len(d["families"])} families</span></div></div>')
+    b.append("<h2>How this was kept honest</h2>")
+    b.append("<p>AI is good at finding patterns. It is also good at over-claiming them. So every layer was "
+             "adversarially checked before it was allowed to count: quotes verified verbatim, coding "
+             "reproduced by an independent blind coder, every theme attacked by a skeptic, and ritual "
+             '"further research is needed" boilerplate removed as rhetoric, never counted as evidence.</p>')
+    b.append(f'<div class="statgrid">'
+             f'<div class="stat"><b>0</b><span>fabricated quotes across four audits</span></div>'
+             f'<div class="stat"><b>{rel["family"]:.2f}</b><span>inter-coder agreement, family level (Cohen kappa)</span></div>'
+             f'<div class="stat"><b>{rel["subtheme"]:.2f}</b><span>agreement on the fine sub-frontier label</span></div>'
+             f'<div class="stat"><b>2-3x</b><span>over-claim caught in un-audited aggregation</span></div></div>')
+    b.append("<h2>The frontier landscape</h2>")
+    b.append('<p class="note">There is no single dominant frontier. Open any sub-frontier to read the '
+             "papers' own words. Counts are distinct papers, at the high-substance threshold.</p>")
+    for fam in d["families"]:
+        b.append(f'<div class="ffam"><h2>{esc(fam["name"])}</h2>'
+                 f'<span class="fc">{fam["papers"]} papers</span></div>')
+        for s in fam["subs"]:
+            quotes = "".join(
+                f'<li><span class="q">&ldquo;{esc(q["text"])}&rdquo;</span>'
+                f'<span class="src">{esc(q["title"])} ({esc(q["year"])})</span></li>' for q in s["quotes"])
+            b.append(f'<details class="fd"><summary><span class="sn">{esc(s["name"])}</span>'
+                     f'<span class="sc">{s["papers"]} papers</span></summary>'
+                     f'<p class="fblurb">{esc(s["blurb"])}</p><ul class="fq">{quotes}</ul></details>')
+    b.append("<h2>Derived frontiers</h2>")
+    b.append("<p>Above the sub-frontiers sit coherent problems the corpus poses in pieces across families "
+             "but names nowhere. These were discovered <b>blind</b> by four independent analysts against "
+             "fixed criteria, then ranked by how many independently found each.</p>")
+    for f in d["derived_research"]:
+        b.append(f'<div class="dcard"><div class="dhead"><b>{esc(f["name"])}</b>'
+                 f'<span class="dt">{esc(f["convergence"])} analysts</span></div>'
+                 f'<p>{esc(f["definition"])}</p></div>')
+    for f in d["derived_applied"]:
+        parents = ", ".join(esc(p.replace("-", " ")) for p in f.get("derived_from", []))
+        b.append(f'<div class="dcard app"><div class="dhead"><b>{esc(f["name"])}</b>'
+                 f'<span class="dt">applied, analyst-nominated</span></div>'
+                 f'<p>{esc(f["definition"])}</p>'
+                 f'<p class="dfrom">Shown as an applied response to the research frontiers it depends on '
+                 f'({parents}), never asserted as their peer.</p></div>')
+    b.append("<h2>The one cross-paper result that held under attack</h2>")
+    b.append("<p><b>You cannot assure the alignment of a mechanism you cannot read.</b> Mesa-optimizers "
+             "(2019) states that internals-based verification is out of reach given the limits of current "
+             "transparency methods. Sleeper Agents (2024) shows that behavioural safety training cannot "
+             "observe why a model behaves as it does. Interpretability is the gate between understanding a "
+             "model and assuring it. Every other cross-paper bridge we tried was weakened or refuted; this "
+             "one got stronger.</p>")
+    b.append("<h2>What the frontier is already attracting</h2>")
+    b.append(f"<p>Each frontier's open question becomes a search for the recent work the canon does not yet "
+             f"contain. That search returned <b>{disc['off_canon']} verified off-canon papers</b>, and "
+             f"<b>{disc['active']} of {disc['units']}</b> frontiers are judged active. The canon is "
+             f"extended with what its own open questions surface.</p>")
+    b.append('<div class="note flag"><b>How to read this.</b> The families, sub-frontiers, and derived '
+             "frontiers are an AI-synthesized reading of the papers' own limitation and future-work "
+             "sentences, adversarially audited and human-reviewed. Every count links to verbatim source "
+             "statements. This is an interpretive synthesis, not a ranking, and not a claim about which "
+             "research is most important. It reads the open-access, machine-readable core of the corpus "
+             f"({cov['papers_reviewed']} of {cov['of_total']} papers), not all of AI. Method and full "
+             'artefact package: <a href="https://doi.org/10.5281/zenodo.21112889">Zenodo</a>.</div>')
+    return shell("frontier.html", "Research frontier", "What the canon has not solved", "\n".join(b))
+
+
 def build() -> dict:
     # Externalized assets so the CSP can forbid inline script and style entirely.
     _write("assets/canon.css", _STYLE.strip() + "\n")
@@ -1236,6 +1335,7 @@ def build() -> dict:
     for wid, per_scenario in breakdowns.items():
         _write(f"work/{wid}.html", page_work(wid, per_scenario, papers))
     _write("papers.html", page_papers(papers, scored))
+    _write("frontier.html", page_frontier())
     models_index = _load(SEEDS.parent / "models_index.json")
     _write("models.html", page_models(models_index, papers, scored))
     _write("voices.html", page_voices(persons))
