@@ -10942,5 +10942,41 @@
     "original_title": null,
     "work_type": "book",
     "year": 2020
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Waiting for Robots: The Hired Hands of Automation",
+    "conflict_flag": false,
+    "editorial": {
+      "author": "Antonio A. Casilli",
+      "category": "Economics & Labour",
+      "desc_confidence": "medium",
+      "description": "Casilli argues that automation depends on hidden human labor rather than replacing it. Drawing on international fieldwork, the book documents the global click workers who annotate data, moderate content, and train and verify AI systems, and frames their often precarious and invisible work as a new form of digital labor. It links platform work to longer histories of outsourcing and extraction. The English edition translates the author's earlier French study for a wider audience. For governance readers it is a leading account of the labor that sustains AI.",
+      "source": "AI-drafted (neutral summary, public sources)"
+    },
+    "id": "book-0609",
+    "language": "EN",
+    "level": null,
+    "original_title": null,
+    "work_type": "book",
+    "year": 2025
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Responsible Artificial Intelligence: How to Develop and Use AI in a Responsible Way",
+    "conflict_flag": false,
+    "editorial": {
+      "author": "Virginia Dignum",
+      "category": "Governance & Policy",
+      "desc_confidence": "medium",
+      "description": "Dignum sets out how to design, develop, and deploy AI systems responsibly, connecting ethical principles to concrete engineering and governance practice. The book covers accountability, transparency, and the embedding of human values and social norms into autonomous systems. It is written from a governance-native rather than a critical stance, treating responsibility as a design requirement rather than an afterthought. For governance readers it is a foundational reference on operationalizing responsible AI.",
+      "source": "AI-drafted (neutral summary, public sources)"
+    },
+    "id": "book-0610",
+    "language": "EN",
+    "level": null,
+    "original_title": null,
+    "work_type": "book",
+    "year": 2019
   }
 ]

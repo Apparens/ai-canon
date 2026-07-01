@@ -839,6 +839,15 @@
   {
     "derivation_method": "full-name containment (NFC+casefold) vs Voices seed",
     "edge_type": "authored_by",
+    "from_id": "book-0610",
+    "last_verified": "2026-06-14",
+    "source": "derived",
+    "to_id": "person-0076",
+    "volatile": false
+  },
+  {
+    "derivation_method": "full-name containment (NFC+casefold) vs Voices seed",
+    "edge_type": "authored_by",
     "from_id": "paper-0019",
     "last_verified": "2026-06-14",
     "source": "derived",
@@ -7017,6 +7026,24 @@
     "last_verified": "2026-06-14",
     "source": "AI_Canon_SeedCorpus_v03.xlsx",
     "to_id": "category:Society & Ethics",
+    "volatile": false
+  },
+  {
+    "derivation_method": "Category column (single tag; model supports many)",
+    "edge_type": "categorized_as",
+    "from_id": "book-0609",
+    "last_verified": "2026-06-14",
+    "source": "AI_Canon_SeedCorpus_v03.xlsx",
+    "to_id": "category:Economics & Labour",
+    "volatile": false
+  },
+  {
+    "derivation_method": "Category column (single tag; model supports many)",
+    "edge_type": "categorized_as",
+    "from_id": "book-0610",
+    "last_verified": "2026-06-14",
+    "source": "AI_Canon_SeedCorpus_v03.xlsx",
+    "to_id": "category:Governance & Policy",
     "volatile": false
   }
 ]

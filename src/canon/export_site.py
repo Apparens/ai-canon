@@ -75,7 +75,7 @@ DEFAULT_DESC = ("The AI Canon is a free, method-backed, reproducible reference l
 PAGE_DESC = {
     "index.html": DEFAULT_DESC,
     "canon-50.html": "The Canon 50: AI papers ranked under three published weighting scenarios, each rank linking to its full evidence. A pilot release, honest about its scope.",
-    "library.html": "Browse 608 candidate AI books across every theme, filterable by category, language, and provenance. Curated and described, labelled candidacy, not canon.",
+    "library.html": "Browse 610 candidate AI books across every theme, filterable by category, language, and provenance. Curated and described, labelled candidacy, not canon.",
     "papers.html": "All 226 seed AI papers from 1943 to 2025, including the Chinese-language research spine. Each scored paper links to its harvested evidence.",
     "models.html": "An index of 68 notable AI models, each linked to its paper in the Canon and to its own model page. A way into the literature, never a leaderboard.",
     "voices.html": "184 voices in artificial intelligence, described and never ranked, each with a checkable source. The Canon ranks texts, not people.",
@@ -445,7 +445,7 @@ def page_home(release: dict, rankings: dict, papers: dict, coverage: dict) -> st
 <p><a class="pill" href="canon-50.html">See the full Canon 50 &#8594;</a></p>
 
 <div class="statgrid">
-  <div class="stat"><b>608</b><span>candidate books, all described</span></div>
+  <div class="stat"><b>610</b><span>candidate books, all described</span></div>
   <div class="stat"><b>226</b><span>seed papers, 1943-2025</span></div>
   <div class="stat"><b>184</b><span>voices, described, never ranked</span></div>
   <div class="stat"><b>133</b><span>organizations</span></div>
@@ -813,7 +813,7 @@ def page_data(release: dict, coverage: dict) -> str:
         f'<li><a href="audit/{esc(VERSION)}/rankings/paper__governance_practitioner.json">paper__governance_practitioner.json</a></li>'
         "</ul>"
         "<h3>The corpus, as open data</h3><ul>"
-        '<li><a href="audit/seeds/books.json">books.json</a> &middot; <a href="audit/seeds/books.csv">books.csv</a>, 608 books</li>'
+        '<li><a href="audit/seeds/books.json">books.json</a> &middot; <a href="audit/seeds/books.csv">books.csv</a>, 610 books</li>'
         '<li><a href="audit/seeds/papers.json">papers.json</a> &middot; <a href="audit/seeds/papers.csv">papers.csv</a>, 226 papers</li>'
         '<li><a href="audit/seeds/persons.json">persons.json</a>, 184 voices</li>'
         '<li><a href="audit/seeds/orgs.json">orgs.json</a>, 133 organizations</li>'
@@ -1160,7 +1160,7 @@ def page_about() -> str:
 
 def page_search() -> str:
     body = (
-        '<p class="note">Search the whole corpus: 608 books, 226 papers, the models index, and the voices, '
+        '<p class="note">Search the whole corpus: 610 books, 226 papers, the models index, and the voices, '
         "organizations, and platforms. Every result links to its entry. The search runs entirely "
         "in your browser; nothing typed here is sent anywhere.</p>"
         '<div class="search-wrap"><input id="sq" type="search" autocomplete="off" '

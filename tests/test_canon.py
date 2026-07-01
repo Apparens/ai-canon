@@ -113,7 +113,7 @@ def test_identical_work_auto_merges_above_floor():
 # --- CAN-07: committed seeds are schema-valid and have the right counts ------
 
 EXPECTED_FILES = {
-    "books.json": 608,
+    "books.json": 610,
     "papers.json": 226,
     "persons.json": 184,
     "orgs.json": 133,
@@ -141,4 +141,4 @@ def test_ingest_is_deterministic():
     ingest.run()
     books_b = (SEEDS / "books.json").read_bytes()
     assert books_a == books_b
-    assert first["books"] == 608 and first["descriptions"] == 608
+    assert first["books"] == 610 and first["descriptions"] == 610
