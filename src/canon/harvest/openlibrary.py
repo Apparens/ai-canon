@@ -30,6 +30,8 @@ from pathlib import Path
 
 from .. import raw
 
+_MAX_RESPONSE_BYTES = 20_000_000  # refuse a ballooned API response
+
 SOURCE = "openlibrary"
 API = "https://openlibrary.org/search.json"
 USER_AGENT = "AI-Canon/0.3 (https://apparens.nl/ai-canon; mailto:office@apparens.nl)"
@@ -122,7 +124,9 @@ def fetch(book: dict, *, allow_network: bool = True) -> dict | None:
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     try:
         with urllib.request.urlopen(req, timeout=25) as resp:
-            body = resp.read().decode("utf-8")
+            body = resp.read(_MAX_RESPONSE_BYTES + 1).decode("utf-8")
+            if len(body.encode("utf-8")) > _MAX_RESPONSE_BYTES:
+                raise ValueError(f"response exceeds {_MAX_RESPONSE_BYTES} bytes; refusing to cache")
     except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, ValueError):
         return None
     finally:

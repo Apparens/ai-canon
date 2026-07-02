@@ -1,0 +1,155 @@
+{
+  "academic": {
+    "canonical_title": "Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model",
+    "components": [
+      {
+        "confidence": "medium",
+        "contribution": 0.003097,
+        "license_note": "OpenAlex, CC0 metadata",
+        "metric": "citation_count",
+        "normalized": 0.006194,
+        "provenance_url": "https://openalex.org/W3118210634",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 1377.0,
+        "weight": 0.5
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.1,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.2
+      },
+      {
+        "confidence": "low",
+        "contribution": 0.021429,
+        "license_note": "OpenAlex, CC0 metadata",
+        "metric": "readership_persistence",
+        "normalized": 0.428571,
+        "provenance_url": "https://openalex.org/W3118210634",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 7.0,
+        "weight": 0.05
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 115,
+    "scenario": "academic",
+    "score": -0.200474,
+    "work_id": "paper-0126",
+    "work_type": "paper"
+  },
+  "broad_influence": {
+    "canonical_title": "Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model",
+    "components": [
+      {
+        "confidence": "medium",
+        "contribution": 0.001239,
+        "license_note": "OpenAlex, CC0 metadata",
+        "metric": "citation_count",
+        "normalized": 0.006194,
+        "provenance_url": "https://openalex.org/W3118210634",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 1377.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "confidence": "low",
+        "contribution": 0.171429,
+        "license_note": "OpenAlex, CC0 metadata",
+        "metric": "readership_persistence",
+        "normalized": 0.428571,
+        "provenance_url": "https://openalex.org/W3118210634",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 7.0,
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 112,
+    "scenario": "broad_influence",
+    "score": -0.027332,
+    "work_id": "paper-0126",
+    "work_type": "paper"
+  },
+  "governance_practitioner": {
+    "canonical_title": "Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model",
+    "components": [
+      {
+        "confidence": "medium",
+        "contribution": 0.001548,
+        "license_note": "OpenAlex, CC0 metadata",
+        "metric": "citation_count",
+        "normalized": 0.006194,
+        "provenance_url": "https://openalex.org/W3118210634",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 1377.0,
+        "weight": 0.25
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.15,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.3
+      },
+      {
+        "confidence": "low",
+        "contribution": 0.042857,
+        "license_note": "OpenAlex, CC0 metadata",
+        "metric": "readership_persistence",
+        "normalized": 0.428571,
+        "provenance_url": "https://openalex.org/W3118210634",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 7.0,
+        "weight": 0.1
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.175,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.35
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 113,
+    "scenario": "governance_practitioner",
+    "score": -0.280595,
+    "work_id": "paper-0126",
+    "work_type": "paper"
+  }
+}

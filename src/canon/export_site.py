@@ -9,1224 +9,52 @@ The visual language mirrors apparens.nl (apparens-design-system.css): deep-blue
 fixed nav with the white wordmark, white body, orange #B8430A accents, DM Serif
 Display headings, DM Sans body. House style: no em-dashes in copy.
 
-Pages generated (the homepage is generated too, in the same design):
+This module is the orchestrator and the public import surface; the renderers
+live in canon.sitegen. Pages generated (17 top-level, all in the same design):
   index.html             the manifesto + the live Canon-50 teaser
+  search.html            in-browser search over the whole corpus
+  library.html           the candidate books, filterable, described
   canon-50.html          three scenario views; each rank links to its breakdown
-  work/<id>.html         the per-work trust surface (every metric + provenance)
-  papers.html            all 269 papers, honest about scored-vs-seed status
+  papers.html            all papers, honest about scored-vs-seed status
+  frontier.html          the research frontier map, from the papers' own words
+  models.html            models indexed to their paper; never a leaderboard
+  voices.html            people in AI, described and never ranked
+  organizations.html     organizations, described and never ranked
+  platforms.html         platforms and tools, described and never ranked
   method.html            the 8 rules, ontology, weighting scenarios, missing-data rule
   challenges.html        the challenge protocol + log (the differentiator; empty for now)
   changelog.html         rendered from CHANGELOG.md
   data.html              the downloadable audit package + one-command reproduce
+  about.html             the statement: why, what, how to read it
+  press.html             the press and writers' guide
+  share.html             ready-to-adapt sharing copy
+  work/<id>.html         the per-work trust surface (every metric + provenance)
   audit/                 copied release + seed JSON (openly downloadable)
 """
 
 from __future__ import annotations
 
-import html
 import json
 import shutil
 from pathlib import Path
-from urllib.parse import quote
 
-import yaml
-
-from . import METHOD_VERSION, ONTOLOGY_VERSION
-
-_ROOT = Path(__file__).resolve().parents[2]
-SITE = _ROOT / "site"
-SEEDS = _ROOT / "data" / "seeds"
-RELEASES = _ROOT / "data" / "releases"
-VERSION = "pilot-v0.2"
-
-NAV = [
-    ("index.html", "Home"),
-    ("search.html", "Search"),
-    ("library.html", "Library"),
-    ("canon-50.html", "Canon 50"),
-    ("papers.html", "Papers"),
-    ("frontier.html", "Frontier"),
-    ("models.html", "Models"),
-    ("voices.html", "Voices"),
-    ("organizations.html", "Organizations"),
-    ("platforms.html", "Platforms"),
-    ("method.html", "Method"),
-    ("challenges.html", "Challenges"),
-    ("changelog.html", "Changelog"),
-    ("data.html", "Data & audit"),
-    ("about.html", "About"),
-    ("press.html", "Press"),
-]
-
-# The verbatim positioning line (A2) and humility clause (E5), used as-is.
-CONCEPT_DOI = "10.5281/zenodo.21042034"  # always resolves to the latest method version
-POSITIONING = ("The AI Canon is a free, method-backed reference library for AI "
-               "knowledge. It ranks texts, not people. It invites correction. It sells nothing.")
-HUMILITY = ("A rank is not a verdict on intrinsic worth. It is a transparent output of "
-            "declared evidence, weights, and missing-data rules at a specific release date.")
-
-# --- SEO: canonical site URL, per-page descriptions, and structured data ---
-SITE_URL = "https://ai-canon.apparens.nl/"
-DEFAULT_DESC = ("The AI Canon is a free, method-backed, reproducible reference library for "
-                "artificial intelligence. It ranks texts, not people, and shows the evidence behind every rank.")
-
-# Per-page meta descriptions, keyed by the page's own path. Pages not listed fall
-# back to DEFAULT_DESC; work pages pass their own description. Each is a distinct,
-# honest summary (no two pages share a description, which search engines reward).
-PAGE_DESC = {
-    "index.html": DEFAULT_DESC,
-    "canon-50.html": "The Canon 50: AI papers ranked under three published weighting scenarios, each rank linking to its full evidence. A pilot release, honest about its scope.",
-    "library.html": "Browse 610 candidate AI books across every theme, filterable by category, language, and provenance. Curated and described, labelled candidacy, not canon.",
-    "papers.html": "All 269 AI papers from 1943 to 2026: the seed corpus plus recent work surfaced by the frontier review, including the Chinese-language research spine. Each scored paper links to its harvested evidence.",
-    "frontier.html": "What the canon's papers say they have not solved: their stated open problems pooled, coded, and adversarially audited into a map of research frontiers, traceable to the papers' own words.",
-    "models.html": "An index of 68 notable AI models, each linked to its paper in the Canon and to its own model page. A way into the literature, never a leaderboard.",
-    "voices.html": "184 voices in artificial intelligence, described and never ranked, each with a checkable source. The Canon ranks texts, not people.",
-    "organizations.html": "The organizations shaping artificial intelligence, each described with a link to learn more. Context for the Canon, never ranked.",
-    "platforms.html": "The platforms and tools of artificial intelligence, described and linked. Context for the Canon, never ranked.",
-    "method.html": "How the AI Canon is built: a deterministic, reproducible scoring method with published weights, declared evidence, and no imputed numbers.",
-    "challenges.html": "Challenge any ranking or omission in the AI Canon with evidence. Every challenge and its resolution is published in a permanent, public log.",
-    "changelog.html": "The append-only changelog of the AI Canon: every release, every scoring change, and every correction, dated and public.",
-    "data.html": "Download the AI Canon as open data: the full corpus, the weights, every per-work breakdown, and the one command that reproduces the release.",
-    "about.html": "The AI Canon is a public research initiative by Apparens. Free, checkable, and built to include the Chinese-language literature in the core, not as a footnote.",
-    "press.html": "A press and writers' guide to the AI Canon: what it is, what it is not, and how to cite it.",
-    "share.html": "Share the AI Canon, a free reference library for AI knowledge that ranks texts, not people.",
-    "search.html": "Search the whole AI Canon corpus: books, papers, models, voices, organizations, and platforms. The search runs entirely in your browser.",
-}
-
-
-def _build_jsonld() -> str:
-    """One site-wide JSON-LD graph (WebSite + Organization), identical on every
-    page, so a single sha256 added to the CSP keeps script-src strict (no
-    unsafe-inline). Crawlers read it; the byte-exact string is what the CSP hashes."""
-    graph = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "WebSite", "@id": SITE_URL + "#website",
-                "name": "The AI Canon", "url": SITE_URL, "description": DEFAULT_DESC,
-                "inLanguage": "en", "publisher": {"@id": "https://apparens.nl/#org"},
-                "license": "https://creativecommons.org/licenses/by/4.0/",
-                "potentialAction": {
-                    "@type": "SearchAction",
-                    "target": {"@type": "EntryPoint", "urlTemplate": SITE_URL + "search.html?q={search_term_string}"},
-                    "query-input": "required name=search_term_string",
-                },
-            },
-            {
-                "@type": "Organization", "@id": "https://apparens.nl/#org",
-                "name": "Apparens", "url": "https://apparens.nl",
-                "description": "Apparens, creator of the AI Control Index and the public-good AI Canon.",
-            },
-        ],
-    }
-    return json.dumps(graph, ensure_ascii=False, separators=(",", ":"))
-
-
-JSONLD = _build_jsonld()
-
-
-def _csp_hash(text: str) -> str:
-    import base64
-    import hashlib
-    return "sha256-" + base64.b64encode(hashlib.sha256(text.encode("utf-8")).digest()).decode()
-
-
-JSONLD_HASH = _csp_hash(JSONLD)
-
-
-def _canonical_url(path: str) -> str:
-    return SITE_URL + ("" if path == "index.html" else path)
-
-# --- share row (inline SVG, CSP-safe: no external requests, no inline script) ---
-SHARE_URL = "https://ai-canon.apparens.nl/"
-SHARE_TEXT = ("The AI Canon: a free, public reference library for AI knowledge. "
-              "It ranks texts, not people, and you can check every call.")
-GITHUB_REPO = "https://github.com/Apparens/ai-canon"
-# Brand glyphs (simple-icons paths, CC0) sized to a 24x24 viewBox; envelope is generic.
-_ICONS = {
-    "x": "M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.153h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z",
-    "linkedin": "M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z",
-    "github": "M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222 0 1.606-.014 2.898-.014 3.293 0 .322.216.694.825.576C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12",
-    "email": "M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5z",
-}
-
-
-def _icon(name):
-    return (f'<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" '
-            f'focusable="false"><path d="{_ICONS[name]}"/></svg>')
-
-
-def share_row(prefix="", label="Share"):
-    u, t = quote(SHARE_URL, safe=""), quote(SHARE_TEXT, safe="")
-    links = [
-        (f"https://x.com/intent/tweet?text={t}&url={u}", "x", "Share on X"),
-        (f"https://www.linkedin.com/sharing/share-offsite/?url={u}", "linkedin", "Share on LinkedIn"),
-        (f"mailto:?subject={quote('The AI Canon', safe='')}&body={t}%20{u}", "email", "Share by email"),
-        (GITHUB_REPO, "github", "View the source on GitHub"),
-    ]
-    items = "".join(f'<a href="{href}" target="_blank" rel="noopener noreferrer" '
-                    f'aria-label="{esc(lab)}" title="{esc(lab)}">{_icon(ic)}</a>'
-                    for href, ic, lab in links)
-    return f'<p class="share"><span class="share-l">{esc(label)}</span>{items}</p>'
-
-_STYLE = """
-:root{--deep:#051C2C;--navy:#0A2540;--mid:#1A3A5C;--white:#fff;--g100:#F5F5F5;
---g200:#EAEAEA;--g300:#D4D4D4;--g500:#6B6B6B;--g700:#333;--ice:#E8F0FE;--cream:#F5F0E8;
---orange:#B8430A;--orange-hover:#9E3908;--orange-dark:#E65710;--teal:#135975}
-*{margin:0;padding:0;box-sizing:border-box}
-html{font-size:18px;-webkit-font-smoothing:antialiased;scroll-behavior:smooth}
-body{font-family:"DM Sans",-apple-system,BlinkMacSystemFont,sans-serif;color:var(--g700);
-background:var(--white);line-height:1.5;padding-top:86px}
-[id]{scroll-margin-top:96px}
-.measure{max-width:1080px;margin:0 auto;padding:0 32px}
-/* Body links are underlined so they are distinguishable without relying on color
-   (WCAG 1.4.1). Nav, brand, pills, and table-cell links opt out below. */
-a{color:var(--orange);text-decoration:underline}
-a:hover{color:var(--orange-hover)}
-:focus-visible{outline:2px solid var(--orange);outline-offset:2px}
-/* fixed two-tier nav */
-nav.top{position:fixed;top:0;left:0;right:0;z-index:100;background:var(--deep);
-border-bottom:1px solid rgba(255,255,255,.08)}
-nav.top .row1{max-width:1080px;margin:0 auto;padding:0 32px;height:50px;display:flex;
-align-items:center;justify-content:space-between}
-nav.top .brandwrap{display:flex;align-items:center;gap:11px}
-nav.top .brand-logo img{height:26px;width:auto;display:block}
-nav.top .brand-logo,nav.top .brand-name{text-decoration:none}
-nav.top .brand-logo:hover,nav.top .brand-name:hover{text-decoration:none}
-nav.top .brand-name{color:#fff;font-family:"DM Serif Display",serif;font-weight:400;font-size:18px}
-nav.top .row1 .out{color:var(--orange-dark);font-size:.82rem;text-decoration:none;font-weight:600}
-nav.top .row2{max-width:1080px;margin:0 auto;padding:0 32px;height:38px;display:flex;
-flex-wrap:wrap;align-items:center;gap:22px;border-top:1px solid rgba(255,255,255,.06)}
-nav.top .row2 a{font-size:.82rem;color:rgba(255,255,255,.7);text-decoration:none}
-nav.top .row2 a:hover{color:#fff}
-nav.top .row2 a[aria-current=page]{color:#fff;border-bottom:2px solid var(--orange-dark);padding-bottom:2px}
-/* header band */
-header.h{background:var(--white);padding:44px 0 26px;border-bottom:1px solid var(--g200)}
-.overline{font-size:.8rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--orange)}
-h1{font-family:"DM Serif Display",serif;font-weight:400;font-size:clamp(2rem,5vw,3rem);
-line-height:1.1;letter-spacing:-.02em;margin:10px 0;color:var(--deep)}
-h2{font-family:"DM Serif Display",serif;font-weight:400;font-size:1.6rem;line-height:1.25;margin:34px 0 12px;color:var(--deep)}
-h3{font-size:.8rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--orange);margin:24px 0 8px}
-p{margin:10px 0;color:var(--g700)}main{padding:30px 0 70px}
-.lead{font-size:1.18rem;color:var(--g500);line-height:1.6;max-width:46ch}
-.lead b{color:var(--deep);font-weight:500}
-/* callout */
-.note{background:var(--ice);border-left:3px solid var(--orange);padding:14px 20px;margin:20px 0;font-size:.95rem;color:var(--g700)}
-.note.flag{background:#FCEEE6}
-/* tables */
-table{width:100%;border-collapse:collapse;margin:16px 0;font-size:.9rem}
-th{text-align:left;font-size:.7rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;
-color:var(--g500);border-bottom:2px solid var(--navy);padding:9px 10px}
-td{padding:9px 10px;border-bottom:1px solid var(--g200);vertical-align:top;color:var(--g700)}
-tr:hover td{background:var(--g100)}
-td.rank,td.num{font-variant-numeric:tabular-nums;white-space:nowrap;color:var(--g500)}
-td a{color:var(--deep);font-weight:500;text-decoration:none}td a:hover{color:var(--orange)}
-.tag{font-size:.68rem;padding:2px 9px;border:1px solid var(--g300);border-radius:20px;color:var(--g500);white-space:nowrap}
-.flag{color:var(--orange);font-weight:600}
-.scn{margin:26px 0;border:1px solid var(--g200);border-radius:6px;background:var(--white);
-box-shadow:0 1px 3px rgba(0,0,0,.05);padding:6px 22px 18px}
-.scn h2{margin-top:18px}
-.miss{color:var(--g500)}
-.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.82rem;color:var(--g500)}
-ol,ul{margin:10px 0 10px 22px}li{margin:6px 0}
-/* homepage two-column + stats */
-.cols{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--g200);border-radius:6px;overflow:hidden;margin:22px 0}
-.cols>div{padding:22px 24px}
-.cols>div:first-child{border-right:1px solid var(--g200)}
-.cols ul{list-style:none;margin:8px 0 0}
-.cols li{padding:8px 0;border-top:1px solid var(--g200);font-size:.92rem}
-.cols li:first-child{border-top:0}
-.cols .not li{color:var(--g500)}
-@media(max-width:680px){.cols{grid-template-columns:1fr}.cols>div:first-child{border-right:0;border-bottom:1px solid var(--g200)}}
-.statgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:var(--g200);border:1px solid var(--g200);border-radius:6px;overflow:hidden;margin:22px 0}
-.statgrid .stat{background:#fff;padding:18px 16px}
-.statgrid .stat b{display:block;font-family:"DM Serif Display",serif;font-weight:400;font-size:1.8rem;color:var(--deep);line-height:1.05}
-.statgrid .stat span{font-size:.8rem;color:var(--g500)}
-.pill{display:inline-block;background:var(--orange);color:#fff !important;font-size:.85rem;font-weight:600;padding:9px 18px;border-radius:3px;text-decoration:none;margin-top:6px}
-.pill:hover{background:var(--orange-hover);text-decoration:none}
-/* library filter bar + cards */
-.filters{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0;padding:14px 16px;background:var(--g100);border:1px solid var(--g200);border-radius:6px}
-.filters label{font-size:.72rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--g500);display:flex;flex-direction:column;gap:4px}
-.filters select,.filters input{font:inherit;font-size:.85rem;padding:6px 8px;border:1px solid var(--g300);border-radius:4px;background:#fff;color:var(--g700);min-width:150px}
-.count{font-size:.8rem;color:var(--g500);margin:8px 0}
-.entry{border-bottom:1px solid var(--g200);padding:14px 0}
-.entry .t{font-family:"DM Serif Display",serif;font-size:1.1rem;color:var(--deep)}
-.entry .meta{font-size:.8rem;color:var(--g500);margin:3px 0}
-.entry .desc{font-size:.92rem;margin-top:6px}
-.entry .bio{font-size:.9rem;color:var(--g500);margin-top:6px;max-width:72ch;line-height:1.55}
-.entry .src{margin-top:6px;font-size:.8rem}
-.entry .src a{color:var(--accent);text-decoration:none;letter-spacing:.02em}
-.entry .src a:hover{text-decoration:underline}
-.muted{color:var(--g500);font-weight:400;font-size:.82em}
-.gap{color:var(--g500);font-style:italic}
-.entry .pending{font-size:.85rem;color:var(--g500);font-style:italic;margin-top:6px}
-.badge{display:inline-block;font-size:.62rem;letter-spacing:.04em;text-transform:uppercase;padding:2px 8px;border-radius:20px;border:1px solid var(--g300);color:var(--g500);margin-left:6px}
-.shelf-cat{font-family:"DM Serif Display",serif;font-size:1.25rem;color:var(--deep);margin:30px 0 6px;border-bottom:2px solid var(--orange);display:inline-block;padding-bottom:2px}
-/* global search */
-.search-wrap{margin:18px 0}
-#sq{width:100%;font:inherit;font-size:1.25rem;padding:16px 18px;border:1px solid var(--g300);border-radius:8px;background:#fff;color:var(--deep)}
-#sq:focus{outline:2px solid var(--orange);border-color:var(--orange)}
-.sresult{display:block;border-bottom:1px solid var(--g200);padding:13px 2px;text-decoration:none}
-.sresult:hover{text-decoration:none;background:var(--g100)}
-.sresult .st{font-family:"DM Serif Display",serif;font-size:1.1rem;color:var(--deep)}
-.sresult .ss{font-size:.85rem;color:var(--g500);margin-top:2px}
-.schip{display:inline-block;font-size:.62rem;letter-spacing:.04em;text-transform:uppercase;padding:2px 8px;border-radius:20px;border:1px solid var(--g300);color:var(--g500);margin-left:8px;vertical-align:middle}
-.pullquote{font-family:"DM Serif Display",serif;font-size:1.3rem;line-height:1.35;color:var(--deep);border-left:3px solid var(--orange);padding:4px 0 4px 18px;margin:16px 0}
-.share{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:14px 0}
-.share-l{font-size:.85rem;opacity:.8;margin-right:2px}
-.share a{display:inline-flex;width:34px;height:34px;align-items:center;justify-content:center;border-radius:8px;color:inherit;border:1px solid rgba(127,127,127,.35);transition:color .15s ease,border-color .15s ease}
-.share a:hover{color:var(--accent);border-color:var(--accent)}
-.share svg{fill:currentColor;display:block}
-.sharebox{background:var(--g100);border:1px solid var(--g200);border-radius:6px;padding:18px 22px;margin:18px 0}
-.sharebox p{margin:8px 0}.sharebox ul{margin:8px 0 8px 20px}
-/* footer */
-footer{background:var(--deep);color:rgba(255,255,255,.78);padding:40px 0 34px;margin-top:40px;font-size:.85rem}
-footer p{color:rgba(255,255,255,.82)}
-footer .measure{max-width:1080px}
-footer a{color:#fff}footer a:hover{color:#fff}
-footer .fine{font-size:.62rem;color:rgba(255,255,255,.62);line-height:1.7;margin-top:16px;
-padding-top:14px;border-top:1px solid rgba(255,255,255,.12);max-width:820px}
-/* frontier */
-.ffam{margin:30px 0 8px;border-top:2px solid var(--deep);padding-top:8px;display:flex;justify-content:space-between;align-items:baseline;gap:12px}
-.ffam h2{margin:0}
-.ffam .fc{font-size:.8rem;font-weight:600;color:var(--orange);white-space:nowrap}
-details.fd{border:1px solid var(--g200);border-radius:6px;margin:8px 0;background:#fff}
-details.fd>summary{cursor:pointer;padding:12px 16px;display:flex;justify-content:space-between;align-items:center;gap:12px;list-style:none;font-weight:500;color:var(--deep)}
-details.fd>summary::-webkit-details-marker{display:none}
-details.fd>summary::before{content:"+";color:var(--orange);font-weight:700;margin-right:10px}
-details.fd[open]>summary::before{content:"\2013"}
-details.fd>summary .sn{flex:1}
-details.fd>summary .sc{font-size:.72rem;color:var(--g500);white-space:nowrap}
-.fblurb{margin:0 16px 6px 42px;color:var(--g500);font-size:.9rem}
-ul.fq{margin:0 16px 14px 42px;padding:0;list-style:none}
-ul.fq li{padding:9px 0;border-top:1px dashed var(--g200)}
-ul.fq .q{display:block;font-size:.92rem;color:var(--g700)}
-ul.fq .src{display:block;font-size:.78rem;color:var(--orange);margin-top:3px}
-.dcard{border:1px solid var(--g200);border-radius:6px;padding:14px 16px;margin:8px 0;background:#fff}
-.dcard.app{border:2px solid var(--orange);background:#FCF4EF}
-.dhead{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
-.dhead b{color:var(--deep);font-size:1rem;font-weight:600}
-.dhead .dt{font-size:.68rem;padding:2px 9px;border:1px solid var(--g300);border-radius:20px;color:var(--g500);white-space:nowrap}
-.dcard p{margin:6px 0 0;font-size:.92rem;color:var(--g700)}
-.dcard .dfrom{font-size:.82rem;color:var(--g500);margin-top:6px}
-details.abs{margin-top:6px}
-details.abs>summary{cursor:pointer;font-size:.72rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--orange);list-style:none;display:inline-block}
-details.abs>summary::-webkit-details-marker{display:none}
-details.abs>summary::before{content:"+ "}
-details.abs[open]>summary::before{content:"\2013 "}
-details.abs p{font-size:.86rem;color:var(--g500);margin:6px 0 2px;line-height:1.55;max-width:72ch}
-details.abs .asrc{color:var(--g300);font-size:.72rem}
-"""
-
-
-def esc(x) -> str:
-    # House style: no em-dashes in copy. Normalize at the rendering boundary so
-    # even verbatim seed text (descriptions, significance lines) cannot show one.
-    # html.escape(quote=True) neutralizes < > & " ' so no data field can break out
-    # of text or an attribute (XSS defense in depth).
-    text = html.escape(str(x if x is not None else ""), quote=True)
-    return text.replace(" — ", ", ").replace("—", ", ").replace("–", "-")
-
-
-# Only these URL schemes may appear in a generated href/src; anything else
-# (javascript:, data:, vbscript:, file:, ...) collapses to "#". Defense in depth:
-# a data-derived link (e.g. a metric's provenance_url) cannot become script.
-_SAFE_SCHEMES = ("https://", "http://", "mailto:")
-
-
-def safe_url(u) -> str:
-    s = str(u or "").strip()
-    if s.lower().startswith(_SAFE_SCHEMES):
-        return s
-    # Allow purely relative links (no scheme); reject any colon before the first
-    # slash, which signals a scheme that is not on the allow-list.
-    if ":" not in s.split("/", 1)[0]:
-        return s
-    return "#"
-
-
-def _nav(active: str, prefix: str) -> str:
-    links = []
-    for href, label in NAV:
-        if href == "index.html":
-            continue  # Home is the logo/wordmark
-        cur = ' aria-current="page"' if href == active else ""
-        links.append(f'<a href="{prefix}{href}"{cur}>{esc(label)}</a>')
-    return f"""<nav class="top">
-  <div class="row1">
-    <div class="brandwrap">
-      <a class="brand-logo" href="https://apparens.nl" title="Back to Apparens"><img src="{prefix}apparens-logo-white.png" alt="Apparens" width="510" height="118"></a>
-      <a class="brand-name" href="{prefix}index.html">The AI Canon</a>
-    </div>
-    <a class="out" href="https://apparens.nl">Back to Apparens &#8594;</a>
-  </div>
-  <div class="row2">{"".join(links)}</div>
-</nav>"""
-
-
-def shell(active: str, kicker: str, title: str, body: str, *, depth: int = 0,
-          canonical: str | None = None, description: str | None = None,
-          og_type: str = "website") -> str:
-    prefix = "../" * depth
-    head_title = esc(title) if title == "The AI Canon" else esc(title) + " - The AI Canon"
-    path = canonical if canonical is not None else active
-    url = _canonical_url(path)
-    desc = esc(description or PAGE_DESC.get(path, DEFAULT_DESC))
-    return f"""<!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{head_title}</title>
-<meta name="description" content="{desc}">
-<link rel="canonical" href="{url}">
-<meta name="robots" content="index, follow, max-image-preview:large">
-<meta property="og:type" content="{og_type}">
-<meta property="og:site_name" content="The AI Canon">
-<meta property="og:title" content="{head_title}">
-<meta property="og:description" content="{desc}">
-<meta property="og:url" content="{url}">
-<meta property="og:image" content="https://ai-canon.apparens.nl/assets/og.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="The AI Canon. A reference library you can check. It ranks texts, not people.">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{head_title}">
-<meta name="twitter:description" content="{desc}">
-<meta name="twitter:image" content="https://ai-canon.apparens.nl/assets/og.png">
-<link rel="stylesheet" href="{prefix}assets/fonts.css">
-<link rel="stylesheet" href="{prefix}assets/canon.css">
-<script type="application/ld+json">{JSONLD}</script>
-</head><body>
-{_nav(active, prefix)}
-<header class="h"><div class="measure"><span class="overline">{esc(kicker)}</span><h1>{esc(title)}</h1></div></header>
-<main><div class="measure">{body}</div></main>
-<footer><div class="measure">
-<p>The AI Canon, a public research initiative by <a href="https://apparens.nl">Apparens</a>, creator of the <a href="https://apparens.nl/app/ai-control-index">AI Control Index</a> app. Release <b style="color:#fff;font-weight:600">{esc(VERSION)}</b>. Challenge anything: <a href="mailto:office@apparens.nl">office@apparens.nl</a></p>
-<p style="margin-top:6px">Nothing is for sale. Nothing is hidden. Nothing is final.</p>
-{share_row(prefix)}
-<p class="fine">No cookies. No third-party tracking. No ads, affiliates, or sponsored placement, ever. The site is generated statically from the canonical JSON; the only inbound data path is the challenge mailbox.</p>
-<p class="fine">AI use: ranks are computed, not generated. voice biographies and many book descriptions are AI-drafted from public sources, neutral and factual; the cover image is AI-generated. <a href="{prefix}method.html#how-made">How this was made</a>.</p>
-</div></footer>
-</body></html>
-"""
-
-
-def _write(rel_path: str, content: str) -> None:
-    out = SITE / rel_path
-    out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(content, encoding="utf-8")
-
-
-def _load(path: Path):
-    return json.loads(path.read_text("utf-8"))
-
-
-def _papers_index() -> dict:
-    return {p["id"]: p for p in _load(SEEDS / "papers.json")}
-
-
-def _scenarios() -> dict:
-    return yaml.safe_load((_ROOT / "scenarios.yaml").read_text("utf-8"))
-
-
-def _teaser_rows(rankings: dict, papers: dict, n: int = 3) -> str:
-    out = []
-    for r in rankings.get("paper__academic", [])[:n]:
-        title = esc(papers.get(r["work_id"], {}).get("canonical_title", r["work_id"]))
-        out.append(
-            f'<tr><td class="rank">{r["rank"]:03d}</td>'
-            f'<td><a href="work/{esc(r["work_id"])}.html">{title}</a></td>'
-            f'<td class="num">{esc(papers.get(r["work_id"], {}).get("year",""))}</td>'
-            f'<td class="num">{r["score"]:.4f}</td>'
-            f'<td class="mono">citations, recency</td></tr>'
-        )
-    return "".join(out)
-
-
-# --- pages ------------------------------------------------------------------
-
-
-def page_home(release: dict, rankings: dict, papers: dict, coverage: dict) -> str:
-    teaser = _teaser_rows(rankings, papers)
-    body = f"""
-<p class="lead">{esc(POSITIONING)}</p>
-
-<h2>Check the math, not the curator.</h2>
-<p>Curation of AI knowledge has collapsed into affiliate listicles and opinion threads while the field itself compounds. The Canon's claim is narrow and testable: knowledge curation can be made <b>auditable, reproducible, and challengeable</b>. Which works belong to the canon of AI is decided by published method and verifiable evidence (citations, library holdings, syllabus adoption, sustained readership), never by taste alone, and never by anything money can buy.</p>
-<p>The list is not the product. The method is the product. The list is its first proof.</p>
-
-<div class="cols">
-  <div><h3>The Canon is</h3><ul>
-    <li>A curated, multilingual library of the books, papers, reports, and standards that define the AI field</li>
-    <li>Evidence-ranked within each domain, under a published method and weights</li>
-    <li>Versioned: every release tagged, every change logged, every rank movement traceable</li>
-    <li>Open to challenge from anyone, with public resolutions</li>
-    <li>Free, permanently</li>
-  </ul></div>
-  <div class="not"><h3>The Canon is not</h3><ul>
-    <li>A ranking of people or companies. Voices and organizations are described, never scored</li>
-    <li>A recommendation engine, a review site, or a bookstore</li>
-    <li>A leaderboard across domains. A standard is never ranked against a novel</li>
-    <li>Sponsored, affiliated, or advertised. No entry can be bought or featured</li>
-    <li>Finished. It is maintained, corrected, and re-released</li>
-  </ul></div>
-</div>
-
-<h2>The first ranking is live, and you can check the math.</h2>
-<p class="note">Pilot release <b>{esc(VERSION)}</b>. It ranks the <b>papers</b> domain under three published weighting scenarios, and it survived a two-iteration adversarial review (GATE A: pass). It is deliberately narrow and honest about it: books carry no harvested metrics yet, two evidence signals are live, coverage is partial, and every gap is declared rather than zero-filled. A rank is not a verdict on worth. It is a transparent output of declared evidence, weights, and missing-data rules at this release.</p>
-<table><thead><tr><th>Rank</th><th>Paper (academic view)</th><th>Year</th><th>Score</th><th>Evidence</th></tr></thead><tbody>{teaser}</tbody></table>
-<p><a class="pill" href="canon-50.html">See the full Canon 50 &#8594;</a></p>
-
-<div class="statgrid">
-  <div class="stat"><b>610</b><span>candidate books, all described</span></div>
-  <div class="stat"><b>269</b><span>papers, 1943-2026</span></div>
-  <div class="stat"><b>184</b><span>voices, described, never ranked</span></div>
-  <div class="stat"><b>133</b><span>organizations</span></div>
-  <div class="stat"><b>90</b><span>platforms</span></div>
-  <div class="stat"><b>172</b><span>verified authored-by edges</span></div>
-</div>
-<p class="note"><b>Coverage, stated plainly.</b> The corpus is strong in English. The multilingual layer is in development, and the Chinese-language spine is a known gap. We will not describe the Canon as worldwide until that gap is closed. Chinese-literate readers are invited to nominate works and contest rankings through the <a href="challenges.html">challenge protocol</a>, with evidence and with credit.</p>
-
-<h2>Rules the ranking cannot break</h2>
-<p>The full method is published with each release and is itself versioned. In brief: scoring is deterministic, every number carries its provenance, missing evidence is recorded and penalized rather than invented, domains never cross-rank, people are context and never contestants, and a rank is an output of declared evidence and weights, not a verdict on worth. Read the <a href="method.html">full method and weighting scenarios</a>.</p>
-
-<h2>Disagreement is a feature. File it.</h2>
-<p>Anyone may challenge any entry, rank, metric, category, or method rule, including ours. A challenge is contested against the cited evidence, not against opinion. Every challenge gets a public identifier and a published resolution. See the <a href="challenges.html">challenge protocol and log</a>, or download the <a href="data.html">audit package</a> and rebuild the ranking yourself.</p>
-
-<h2>Honest about cadence. Absolute about conduct.</h2>
-<p>Every update is logged. Every correction is traceable. Every ranking can be challenged. The library is maintained as capacity allows, without deadlines we would resent, and without commercial influence of any kind. What is promised without qualification: <b>no advertising, no affiliate links, no sponsored placement, no paid inclusion, ever.</b> Nothing in this library is for sale, which is precisely why it can be trusted.</p>
-"""
-    return shell("index.html", "An Apparens public research initiative", "The AI Canon", body)
-
-
-def page_canon50(release: dict, rankings: dict, papers: dict) -> str:
-    scn_doc = _scenarios()
-    parts = [
-        '<p class="note">Pilot release <b>%s</b>. This ranks the <b>papers</b> domain only. '
-        "Books carry no harvested metrics yet. Two signals are harvested (all-time citations and "
-        "recent-citation momentum); coverage is partial and every gap is declared rather than "
-        "zero-filled. A rank is not a verdict on worth. It is a transparent output of declared "
-        "evidence, weights, and missing-data rules at this release date.</p>" % esc(VERSION),
-        f'<p class="note"><b>{esc(HUMILITY)}</b></p>',
-    ]
-    for scenario in sorted(scn_doc["scenarios"]):
-        rows = rankings.get(f"paper__{scenario}", [])
-        desc = scn_doc["scenarios"][scenario].get("description", "")
-        body = [
-            f'<div class="scn"><h2>{esc(scenario.replace("_", " ").title())}</h2>',
-            f'<p class="mono">{esc(desc)}</p>',
-            "<table><thead><tr><th>Rank</th><th>Paper</th><th>Year</th><th>Score</th><th>Evidence</th></tr></thead><tbody>",
-        ]
-        for r in rows:
-            p = papers.get(r["work_id"], {})
-            present = [c["metric"] for c in r["components"] if c.get("status") == "present"]
-            ev = ", ".join(present) or "none"
-            flag = ' <span class="flag" title="conflict of interest declared">&#9873;</span>' if r.get("conflict_flag") else ""
-            body.append(
-                f'<tr><td class="rank">{r["rank"]:03d}</td>'
-                f'<td><a href="work/{esc(r["work_id"])}.html">{esc(p.get("canonical_title",""))}</a>{flag}</td>'
-                f'<td class="num">{esc(p.get("year",""))}</td>'
-                f'<td class="num">{r["score"]:.4f}</td>'
-                f'<td class="mono">{esc(ev)}</td></tr>'
-            )
-        body.append("</tbody></table></div>")
-        parts.append("".join(body))
-    div = release.get("divergence", {}).get("paper", {})
-    parts.append(
-        f'<p class="note">{esc(div.get("note",""))} '
-        f'Each rank links to its full score breakdown: every metric, its source, retrieval date, and weight.</p>'
-    )
-    return shell("canon-50.html", "Canon 50, pilot", "The Canon 50", "".join(parts))
-
-
-_ABSTRACTS_CACHE = None
-
-
-def _abstracts() -> dict:
-    """paper_id -> {text, source}. Loaded once; the file is optional (missing -> no abstracts)."""
-    global _ABSTRACTS_CACHE
-    if _ABSTRACTS_CACHE is None:
-        path = SEEDS.parent / "abstracts.json"
-        _ABSTRACTS_CACHE = _load(path) if path.exists() else {}
-    return _ABSTRACTS_CACHE
-
-
-def page_work(work_id: str, per_scenario: dict, papers: dict) -> str:
-    p = papers.get(work_id, {})
-    ed = p.get("editorial", {})
-    head = [
-        f'<p class="mono">{esc(work_id)} &middot; paper &middot; {esc(p.get("year",""))}</p>',
-        f'<p>{esc(ed.get("authors",""))}</p>',
-    ]
-    if ed.get("significance"):
-        head.append(f'<p>{esc(ed["significance"])}</p>')
-    _ab = _abstracts().get(work_id)
-    if _ab:
-        head.append(f'<details class="abs" open><summary>Abstract</summary>'
-                    f'<p>{esc(_ab["text"])}<span class="asrc"> [{esc(_ab.get("source",""))}]</span></p></details>')
-    if p.get("conflict_flag"):
-        head.append('<p class="note flag">Conflict of interest declared for this work.</p>')
-    blocks = ["".join(head)]
-    for scenario in sorted(per_scenario):
-        row = per_scenario[scenario]
-        blocks.append(f'<h2>{esc(scenario.replace("_"," ").title())}, score {row["score"]:.4f}</h2>')
-        rows = ["<table><thead><tr><th>Metric</th><th>Status</th><th>Value</th><th>Norm.</th>"
-                "<th>Weight</th><th>Contribution</th><th>Source</th><th>Confidence</th><th>Provenance</th></tr></thead><tbody>"]
-        for c in row["components"]:
-            if c.get("status") == "present":
-                prov = c.get("provenance_url", "")
-                prov_a = f'<a href="{esc(safe_url(prov))}" rel="nofollow noopener">link</a>' if prov else "none"
-                rows.append(
-                    f'<tr><td class="mono">{esc(c["metric"])}</td><td>present</td>'
-                    f'<td class="num">{esc(c.get("value",""))}</td><td class="num">{esc(c.get("normalized",""))}</td>'
-                    f'<td class="num">{esc(c.get("weight",""))}</td><td class="num">{esc(c.get("contribution",""))}</td>'
-                    f'<td>{esc(c.get("source",""))}</td><td>{esc(c.get("confidence",""))}</td><td>{prov_a}</td></tr>'
-                )
-            else:
-                rows.append(
-                    f'<tr class="miss"><td class="mono">{esc(c["metric"])}</td><td>missing</td>'
-                    f'<td colspan="3">recorded as missing, penalized by rule, never imputed</td>'
-                    f'<td class="num">&minus;{esc(c.get("missing_data_penalty",""))}</td><td colspan="3">{esc(c.get("note",""))}</td></tr>'
-                )
-        rows.append("</tbody></table>")
-        blocks.append("".join(rows))
-    subject = f"Challenge rank: {work_id}"
-    body = f"mailto:office@apparens.nl?subject={esc(subject)}"
-    blocks.append(f'<p class="note"><b>{esc(HUMILITY)}</b></p>')
-    blocks.append(
-        f'<p class="note">Disagree with this rank or a number? <a href="{body}">Challenge it</a> '
-        "with your evidence. Every challenge gets a public identifier and a published resolution.</p>"
-    )
-    wt = (p.get("canonical_title") or work_id)
-    work_desc = (f"Evidence and ranking for {wt} in The AI Canon: every harvested metric, its "
-                 "source and provenance, the weights applied, and any missing-data penalty.")
-    return shell("canon-50.html", "Score breakdown", esc(wt),
-                 "".join(blocks), depth=1,
-                 canonical=f"work/{work_id}.html", description=work_desc, og_type="article")
-
-
-def page_papers(papers: dict, scored: set) -> str:
-    abstracts = _load(SEEDS.parent / "abstracts.json")
-    n_abs = sum(1 for pid in papers if pid in abstracts)
-    rows = [f'<p class="note">All {len(papers)} papers: the seed corpus plus recent work surfaced by the '
-            "frontier review. <b>Listing means candidacy, not canonical status.</b> Papers with harvested "
-            "evidence link to their breakdown; the rest are an honestly-declared coverage gap, not a zero. "
-            f'Expand "Abstract" to read the paper in its own words ({n_abs} of {len(papers)} available; the '
-            "remainder are pre-digital or closed-access, where no open abstract exists).</p>",
-            "<table><thead><tr><th>#</th><th>Paper</th><th>Year</th><th>Venue</th><th>Evidence</th></tr></thead><tbody>"]
-    for pid in sorted(papers):
-        p = papers[pid]
-        ed = p.get("editorial", {})
-        is_scored = pid in scored
-        title = (f'<a href="work/{esc(pid)}.html">{esc(p["canonical_title"])}</a>'
-                 if is_scored else esc(p["canonical_title"]))
-        sig = f'<div class="meta">{esc(ed["significance"])}</div>' if ed.get("significance") else ""
-        ab = abstracts.get(pid)
-        absd = (f'<details class="abs"><summary>Abstract</summary>'
-                f'<p>{esc(ab["text"])}<span class="asrc"> [{esc(ab.get("source",""))}]</span></p></details>'
-                if ab else "")
-        ev = '<span class="tag">scored</span>' if is_scored else '<span class="tag miss">no evidence yet</span>'
-        rows.append(
-            f'<tr id="{esc(pid)}"><td class="num">{esc(pid.split("-")[-1])}</td><td>{title}{sig}{absd}</td>'
-            f'<td class="num">{esc(p.get("year",""))}</td><td>{esc(ed.get("venue",""))}</td><td>{ev}</td></tr>'
-        )
-    rows.append("</tbody></table>")
-    return shell("papers.html", "Shelf", "Papers", "".join(rows))
-
-
-def _model_slug(name: str) -> str:
-    """Stable anchor slug for a model, shared by the models page and the search index."""
-    import re as _re
-    import unicodedata as _ud
-    base = _re.sub(r"[^a-z0-9]+", " ",
-                   _ud.normalize("NFKD", name or "").encode("ascii", "ignore").decode().lower()).strip()
-    return "model-" + base.replace(" ", "-")
-
-
-def page_models(midx: dict, papers: dict, scored: set) -> str:
-    """A derived INDEX (not a ranking, not a scored entity): model -> its paper(s)
-    in the canon -> an external link. The card-only frontier is shown as a declared gap."""
-    import re as _re
-    import unicodedata as _ud
-
-    def nrm(s):
-        return _re.sub(r"[^a-z0-9]+", " ",
-                       _ud.normalize("NFKD", s or "").encode("ascii", "ignore").decode().lower()).strip()
-
-    def resolve(sub):
-        q = nrm(sub)
-        for p in papers.values():
-            if q and q in nrm(p["canonical_title"]):
-                return p["id"]
-        return None
-
-    models = midx["models"]
-    order = ["United States", "China", "Europe (France)", "Canada", "UAE"]
-    countries = [c for c in order if any(m["country"] == c for m in models)]
-    for m in models:
-        if m["country"] not in countries:
-            countries.append(m["country"])
-
-    body = [
-        f'<p class="lead">{esc(midx["note"])}</p>',
-        f'<p class="note">Indexed as of {esc(midx["as_of"])}. This is a way in, not a leaderboard; '
-        f'for the live, exhaustive tracker see <a href="{safe_url(midx["epoch_url"])}" target="_blank" '
-        f'rel="noopener noreferrer nofollow">Epoch AI &#8599;</a>.</p>',
-    ]
-    for c in countries:
-        cm = [m for m in models if m["country"] == c]
-        withp = sum(1 for m in cm if m["paper"])
-        body.append(f'<h2>{esc(c)} <span class="muted">({len(cm)} models, {withp} with a paper here)</span></h2>')
-        labs = []
-        for m in cm:
-            if m["lab"] not in labs:
-                labs.append(m["lab"])
-        for lab in labs:
-            body.append(f'<h3>{esc(lab)}</h3>')
-            for m in cm:
-                if m["lab"] != lab:
-                    continue
-                pid = resolve(m["paper"]) if m["paper"] else None
-                if pid:
-                    href = f"work/{pid}.html" if pid in scored else f"papers.html#{pid}"
-                    plink = f'<a href="{href}">paper in the canon</a>'
-                else:
-                    plink = '<span class="gap">no paper, system card only</span>'
-                ext = (f' &middot; <a href="{safe_url(m["ext"])}" target="_blank" '
-                       f'rel="noopener noreferrer nofollow">model &#8599;</a>') if m.get("ext") else ""
-                body.append(f'<div class="entry" id="{_model_slug(m["name"])}"><div class="t">{esc(m["name"])}</div>'
-                            f'<div class="meta">{plink}{ext}</div></div>')
-    return shell("models.html", "Models, indexed by their paper", "Models", "".join(body))
-
-
-def page_method() -> str:
-    rules = [
-        "Deterministic scoring. Identical inputs and weights produce identical ranks; reproducible from the audit package with one command.",
-        "Provenance on every number: source, retrieved_at, confidence, licence note. A number without provenance does not exist.",
-        "No silent imputation. Missing evidence is recorded as missing and penalized by a published rule, never estimated.",
-        "Domains never cross-rank. Books, papers, reports, and standards are scored within their own domain.",
-        "Each language ecosystem scores within itself first. Coverage gaps are declared, not hidden.",
-        "People are context, not contestants. Persons, organizations, and platforms carry no score, ever.",
-        "Manual decisions are records. Every override carries a written rationale and is published; Apparens-authored works are flagged.",
-        "Humility on rank. A rank is a transparent output of declared evidence, weights, and missing-data rules at a release date, not a verdict on intrinsic worth.",
-    ]
-    scn = _scenarios()
-    body = ["<h2>Rules the ranking cannot break</h2><ol>"]
-    body += [f"<li>{esc(r)}</li>" for r in rules]
-    body.append("</ol>")
-    body.append(f'<h2>Ontology v{esc(ONTOLOGY_VERSION)} (frozen)</h2>'
-                '<p>Canonical entities (book, paper, report, standard) are scored within their domain. '
-                'Context entities (person, organization, platform) are described, never ranked: '
-                'structurally, they carry no score field. Governance records (releases, challenges, '
-                'overrides) are append-only.</p>')
-    body.append("<h2>Weighting scenarios</h2>")
-    metric_names = sorted({m for s in scn["scenarios"].values() for m in s["weights"]})
-    head = "".join(f"<th>{esc(m)}</th>" for m in metric_names)
-    body.append(f"<table><thead><tr><th>Scenario</th>{head}</tr></thead><tbody>")
-    for name in sorted(scn["scenarios"]):
-        w = scn["scenarios"][name]["weights"]
-        cells = "".join(f'<td class="num">{esc(w.get(m,"."))}</td>' for m in metric_names)
-        body.append(f'<tr><td class="mono">{esc(name)}</td>{cells}</tr>')
-    body.append("</tbody></table>")
-    body.append(f'<p class="note">Missing-data penalty factor: <b>{esc(scn.get("missing_data_penalty_factor"))}</b>. '
-                f'Normalization: <b>{esc(scn.get("normalization"))}</b>. method_version <b>{esc(METHOD_VERSION)}</b>. '
-                "These are pilot placeholder weights; every change ships with a changelog entry.</p>")
-    body.append("<h2>What each signal means</h2><ul>"
-                "<li><b>citation_count</b>: all-time citations from OpenAlex (CC0). The scale of scholarly impact.</li>"
-                "<li><b>readership_persistence</b>: the number of distinct years a work keeps being cited "
-                "(from OpenAlex counts_by_year). A longevity proxy: a work cited across many years scores "
-                "higher than a one-year spike. It rewards enduring use, not recent volume.</li>"
-                "<li><b>library_holdings</b>, <b>syllabus_adoptions</b>: declared but not yet harvested for "
-                "the pilot (WorldCat / Open Syllabus drops pending). Works are penalized for them by rule, "
-                "never imputed.</li></ul>")
-    body.append("<h2>Declared deferred capabilities</h2>"
-                "<p>The method names these now and does not pretend they are done. Each is deferred openly, "
-                "not silently stubbed:</p><ul>"
-                "<li><b>Per-ecosystem normalization (rule 5)</b>: scoring runs per domain today. Per-language "
-                "normalization activates only once works from more than one ecosystem enter a scored domain. "
-                "Until then the site does not claim worldwide or present-tense multilingual coverage. The "
-                "Chinese-language spine is now a curated 63 books, but it carries no harvested metrics yet "
-                "(the Chinese citation ecosystem is a separate, deferred harvester), so it is browsable, not scored.</li>"
-                "<li><b>A fuller longevity proxy</b>: library holdings over time, edition count, and continued "
-                "availability, to complement readership_persistence.</li>"
-                "<li><b>Book scoring</b>: books are curated and browsable now but not yet scored; the pilot "
-                "ranks papers only.</li></ul>")
-    body.append('<h2 id="not-here">What is not here, and why</h2>'
-                "<p>A reference is defined as much by what it excludes as by what it lists. These gaps "
-                "are deliberate and declared, not oversights.</p><ul>"
-                "<li><b>The closed frontier ships no papers.</b> Many of the most capable 2025 models, "
-                "including the latest GPT, Claude, Gemini, Grok, and Llama releases, are documented only "
-                "by a system card or a blog post, not a paper. A canon of the literature cannot rank "
-                "what was never written down. We note this not as a complaint but as a finding: the "
-                "most-discussed models are increasingly the least-documented, and open-weight and "
-                "Chinese labs now carry most of the published record.</li>"
-                "<li><b>Models are not entities; their papers are.</b> The Canon ranks texts, not "
-                "products. A model enters only through a primary paper or technical report. Where a "
-                "model has none, it is absent by design, however important it is.</li>"
-                "<li><b>Stable sources are preferred.</b> We cite arXiv or a DOI wherever possible, "
-                "because those are permanent and versioned. A few significant reports exist only as a "
-                "PDF on a company's own site, such as Baidu's ERNIE 4.5. We include those sparingly and "
-                "flag them, since vendor links can change or disappear.</li>"
-                "<li><b>New entries are candidates, not verdicts.</b> A freshly added paper is in the "
-                "corpus but not yet scored. Scoring waits on harvested evidence, so a 2025 model report "
-                "sits unranked until that evidence accrues. Candidacy asserts nothing.</li>"
-                "<li><b>The corpus is still partial.</b> Coverage is a pilot. The Chinese-language "
-                "section in particular is openly under construction, and the paper set leans English. "
-                "We would rather say so than pretend completeness.</li></ul>")
-    body.append('<h2 id="how-made">How this was made</h2>'
-                "<p>The Canon is curated and computed, with AI used as a drafting aid, never as the "
-                "authority. To be exact:</p><ul>"
-                "<li><b>Ranks and scores</b> are computed deterministically from declared evidence and "
-                "weights. They are not generated by a language model, and they rebuild bit-identically "
-                "from the audit package.</li>"
-                "<li><b>Sources</b> are real and human-checked. Every voice links to a source you can "
-                "open, and the bibliographic record is reconciled against OpenLibrary and Crossref.</li>"
-                "<li><b>Book and entry descriptions</b>: many are AI-drafted from public sources, "
-                "written to be neutral and factual, with no claims beyond what the work is about; each "
-                "carries a confidence flag in the data. If one is wrong, challenge it and we will fix it.</li>"
-                "<li><b>Voice biographies</b>: AI-drafted from each voice's own cited source and the "
-                "verified affiliation, written to be neutral and factual with no claims beyond the "
-                "sources. If one is wrong, challenge it and we will correct it.</li>"
-                "<li><b>The cover image</b> (the person holding a phone) is AI-generated and labelled as "
-                "such on the social card.</li></ul>"
-                "<p>Where AI helped draft text, a human checked it against the evidence. Where evidence "
-                "is missing, we say so rather than let a model fill the gap.</p>")
-    body.append("<h2>Cite this method</h2>"
-                f'<p>The method is documented in a citable note (<i>Corpus Cognitivum</i>), '
-                f'archived with a DOI: <a href="https://doi.org/{esc(CONCEPT_DOI)}">'
-                f'doi.org/{esc(CONCEPT_DOI)}</a> (concept DOI, always the latest version). '
-                "It is licensed CC BY 4.0.</p>"
-                "<p class=\"mono\">Janssen, J. (2026). The AI Canon: a method for auditable knowledge "
-                f"curation (Corpus Cognitivum). Apparens. https://doi.org/{esc(CONCEPT_DOI)}</p>")
-    return shell("method.html", "Method statement", "Method", "".join(body))
-
-
-def page_challenges() -> str:
-    body = (
-        '<p class="note">Anyone may challenge any entry, rank, metric, category, or method rule, '
-        "including ours. A challenge is contested against the cited evidence, not against opinion.</p>"
-        "<h2>Protocol</h2><ol>"
-        "<li>Send the target, your claim, and your evidence to <a href=\"mailto:office@apparens.nl\">office@apparens.nl</a>.</li>"
-        "<li>Acknowledgement within 7 days; each challenge receives a public identifier.</li>"
-        "<li>Resolution against the data: upheld challenges change the next release; rejected challenges are answered with the evidence.</li>"
-        "<li>All challenges and resolutions remain visible permanently.</li></ol>"
-        "<h2>Challenge log</h2>"
-        '<p class="mono miss">No challenges resolved yet. This log is append-only and will record every one.</p>'
-    )
-    return shell("challenges.html", "Challenge protocol", "Challenges", body)
-
-
-def page_changelog() -> str:
-    md = (_ROOT / "CHANGELOG.md").read_text("utf-8")
-    out, in_list = [], False
-    for line in md.splitlines():
-        if line.startswith("### "):
-            if in_list:
-                out.append("</ul>"); in_list = False
-            out.append(f"<h3>{esc(line[4:])}</h3>")
-        elif line.startswith("## "):
-            if in_list:
-                out.append("</ul>"); in_list = False
-            out.append(f"<h2>{esc(line[3:])}</h2>")
-        elif line.startswith("# "):
-            continue
-        elif line.strip().startswith("- "):
-            if not in_list:
-                out.append("<ul>"); in_list = True
-            out.append(f"<li>{esc(line.strip()[2:])}</li>")
-        elif line.strip():
-            if in_list:
-                out.append("</ul>"); in_list = False
-            out.append(f"<p>{esc(line)}</p>")
-    if in_list:
-        out.append("</ul>")
-    return shell("changelog.html", "Append-only", "Changelog", "".join(out))
-
-
-def page_data(release: dict, coverage: dict) -> str:
-    body = [
-        '<p class="note">The proof ships with the claim. Every release is downloadable as an audit '
-        "package: the corpus snapshot, the weights, the per-work breakdowns, and the one command that "
-        "reproduces the ranking. If you cannot rebuild the rank from the package, the release is defective.</p>",
-        "<h2>This release</h2>",
-        f'<p class="mono">version <b>{esc(release["version"])}</b> &middot; corpus_hash <b>{esc(release["corpus_hash"][:24])}</b> &middot; '
-        f'method_version {esc(release["method_version"])}</p>',
-        f'<p>Metrics: <b>{esc(coverage.get("metrics_total"))}</b> '
-        f'({", ".join(f"{esc(k)}: {esc(v)}" for k,v in coverage.get("by_metric_name",{}).items())}); '
-        f'declared gaps: {esc(coverage.get("openalex_gaps"))}.</p>',
-        "<h2>Downloads</h2>"
-        "<p>The audit bundle below contains everything (code, weights, pinned data, all rankings, and "
-        "every per-work breakdown). The individual files are listed for convenience.</p>"
-        "<h3>Audit package</h3><ul>"
-        f'<li><a href="audit/{esc(VERSION)}/audit-bundle.zip"><b>audit-bundle.zip</b></a>, the self-contained '
-        "offline package: pipeline code, weights, pinned data, release outputs, and a one-command "
-        "reproduce script. Rebuild this release with no repo and no network.</li>"
-        f'<li><a href="audit/{esc(VERSION)}/release.json">release.json</a>, the governance record</li>'
-        f'<li><a href="audit/{esc(VERSION)}/coverage.json">coverage.json</a>, declared gaps</li>'
-        "</ul>"
-        "<h3>Rankings (Top-50 per scenario)</h3><ul>"
-        f'<li><a href="audit/{esc(VERSION)}/rankings/paper__academic.json">paper__academic.json</a></li>'
-        f'<li><a href="audit/{esc(VERSION)}/rankings/paper__broad_influence.json">paper__broad_influence.json</a></li>'
-        f'<li><a href="audit/{esc(VERSION)}/rankings/paper__governance_practitioner.json">paper__governance_practitioner.json</a></li>'
-        "</ul>"
-        "<h3>The corpus, as open data</h3><ul>"
-        '<li><a href="audit/seeds/books.json">books.json</a> &middot; <a href="audit/seeds/books.csv">books.csv</a>, 610 books</li>'
-        '<li><a href="audit/seeds/papers.json">papers.json</a> &middot; <a href="audit/seeds/papers.csv">papers.csv</a>, 269 papers</li>'
-        '<li><a href="audit/seeds/persons.json">persons.json</a>, 184 voices</li>'
-        '<li><a href="audit/seeds/orgs.json">orgs.json</a>, 133 organizations</li>'
-        '<li><a href="audit/seeds/platforms.json">platforms.json</a>, 90 platforms</li>'
-        "</ul>"
-        '<p class="mono">Per-work breakdowns (one file per scored work) are inside the audit bundle.</p>',
-        "<h2>Reproduce</h2>"
-        '<p class="mono">make install &amp;&amp; make assemble &amp;&amp; make release &amp;&amp; make verify-release</p>'
-        "<p>The last command rebuilds this release from the pinned inputs and asserts the corpus_hash "
-        "and rankings are bit-identical. A mismatch means the release is defective, and we want the challenge.</p>",
-    ]
-    return shell("data.html", "Data & audit", "Data & audit", "".join(body))
-
-
-_LIB_FILTER_JS = """
-(function(){
-  var q=document.getElementById('q'),cat=document.getElementById('fcat'),
-      lang=document.getElementById('flang'),
-      cnt=document.getElementById('cnt'),items=[].slice.call(document.querySelectorAll('.entry'));
-  function apply(){
-    var t=(q.value||'').toLowerCase(),c=cat.value,l=lang.value,n=0;
-    items.forEach(function(e){
-      var ok=(!c||e.dataset.cat===c)&&(!l||e.dataset.lang===l)&&(!t||e.dataset.text.indexOf(t)>-1);
-      e.style.display=ok?'':'none'; if(ok)n++;
-    });
-    cnt.textContent=n+' of '+items.length+' works shown';
-  }
-  [q,cat,lang].forEach(function(el){el.addEventListener('input',apply)});
-  apply();
-})();
-"""
-
-
-def page_library(books: list[dict]) -> str:
-    cats = sorted({b["editorial"].get("category", "") for b in books if b["editorial"].get("category")})
-    langs = sorted({b.get("language", "") for b in books if b.get("language")})
-
-    def opts(values):
-        return "".join(f'<option value="{esc(v)}">{esc(v)}</option>' for v in values)
-
-    head = (
-        '<p class="note"><b>Seed status means candidacy, not canonical status.</b> Inclusion in '
-        "the seed corpus asserts nothing; it marks a work as a candidate for scoring. Descriptions "
-        "are shown where written and marked pending otherwise, never invented. Books are not yet "
-        "scored (harvesting deferred), so nothing here is ranked.</p>"
-        '<div class="filters">'
-        '<label>Search<input id="q" type="search" placeholder="title or author"></label>'
-        f'<label>Category<select id="fcat"><option value="">All</option>{opts(cats)}</select></label>'
-        f'<label>Language<select id="flang"><option value="">All</option>{opts(langs)}</select></label>'
-        "</div>"
-        f'<p class="count" id="cnt">{len(books)} works</p>'
-    )
-    entries = []
-    for b in sorted(books, key=lambda x: x["id"]):
-        ed = b["editorial"]
-        text = f'{b["canonical_title"]} {ed.get("author","")}'.lower().replace('"', "")
-        flag = ' <span class="badge flag">conflict of interest declared</span>' if b["conflict_flag"] else ""
-        meta = " &middot; ".join(
-            x for x in [esc(ed.get("author", "")), esc(b.get("year", "")), esc(b.get("language", "")),
-                        esc(ed.get("category", ""))] if x
-        )
-        desc = (f'<p class="desc">{esc(ed["description"])}</p>' if ed.get("description")
-                else '<p class="pending">Description pending.</p>')
-        entries.append(
-            f'<div class="entry" id="{esc(b["id"])}" data-cat="{esc(ed.get("category",""))}" data-lang="{esc(b.get("language",""))}" '
-            f'data-text="{esc(text)}">'
-            f'<div class="t">{esc(b["canonical_title"])}{flag}</div>'
-            f'<div class="meta">{meta}</div>'
-            f'{desc}</div>'
-        )
-    body = head + "".join(entries) + '<script src="assets/canon.js" defer></script>'
-    return shell("library.html", f"The library, {len(books)} candidate works", "Library", body)
-
-
-def _context_shelf(active, kicker, title, rows, render) -> str:
-    """Render a context shelf grouped by category, alphabetical within category,
-    labelled described-never-ranked. rows: list of dicts; render(row) -> inner HTML."""
-    note = ('<p class="note">These are <b>context entities</b>: described, <b>never ranked</b>. '
-            "They carry no score, by construction. Listed alphabetically within each category, "
-            "with a last-verified date where known.</p>")
-    by_cat: dict[str, list] = {}
-    for r in rows:
-        by_cat.setdefault(r.get("category") or "Uncategorized", []).append(r)
-    out = [note]
-    for cat in sorted(by_cat):
-        out.append(f'<div class="shelf-cat">{esc(cat)}</div>')
-        for r in sorted(by_cat[cat], key=lambda x: (x.get("name") or "").lower()):
-            out.append(f'<div class="entry" id="{esc(r.get("id",""))}">{render(r)}</div>')
-    return shell(active, kicker, title, "".join(out))
-
-
-def page_voices(persons: list[dict]) -> str:
-    def render(p):
-        meta = " &middot; ".join(x for x in [esc(p.get("anchor_affiliation", "")), esc(p.get("region", "")),
-                                             (f'verified {esc(p["last_verified"])}' if p.get("last_verified") else "")] if x)
-        kf = f'<p class="desc">{esc(p["known_for"])}</p>' if p.get("known_for") else ""
-        bio = f'<p class="bio">{esc(p["bio"])}</p>' if p.get("bio") else ""
-        src = (f'<p class="src"><a href="{safe_url(p["source_url"])}" target="_blank" '
-               f'rel="noopener noreferrer nofollow">source &#8599;</a></p>') if p.get("source_url") else ""
-        return f'<div class="t">{esc(p["name"])}</div><div class="meta">{meta}</div>{kf}{bio}{src}'
-    return _context_shelf("voices.html", "Context shelf, 184 voices, described never ranked", "Voices", persons, render)
-
-
-def page_orgs(orgs: list[dict]) -> str:
-    def render(o):
-        meta = esc(o.get("region", "")) + (f' &middot; verified {esc(o["last_verified"])}' if o.get("last_verified") else "")
-        wi = f'<p class="desc">{esc(o["what_it_is"])}</p>' if o.get("what_it_is") else ""
-        src = (f'<p class="src"><a href="{safe_url(o["source_url"])}" target="_blank" '
-               f'rel="noopener noreferrer nofollow">about &#8599;</a></p>') if o.get("source_url") else ""
-        return f'<div class="t">{esc(o["name"])}</div><div class="meta">{meta}</div>{wi}{src}'
-    return _context_shelf("organizations.html", "Context shelf, 133 organizations, described never ranked", "Organizations", orgs, render)
-
-
-def page_platforms(platforms: list[dict]) -> str:
-    def render(p):
-        meta = " &middot; ".join(x for x in [esc(p.get("status", "")),
-                                             (f'verified {esc(p["last_verified"])}' if p.get("last_verified") else "")] if x)
-        wi = f'<p class="desc">{esc(p["what_it_is"])}</p>' if p.get("what_it_is") else ""
-        src = (f'<p class="src"><a href="{safe_url(p["source_url"])}" target="_blank" '
-               f'rel="noopener noreferrer nofollow">about &#8599;</a></p>') if p.get("source_url") else ""
-        return f'<div class="t">{esc(p["name"])}</div><div class="meta">{meta}</div>{wi}{src}'
-    return _context_shelf("platforms.html", "Context shelf, 90 platforms, described never ranked", "Platforms", platforms, render)
-
-
-def page_press() -> str:
-    quotes = [
-        "Every AI reading list asks you to trust the curator. This one asks you to check the math.",
-        "I will rank texts. I will not rank human beings, and the system is built so I cannot start.",
-        "A canon you can check is worth more than a canon you must believe.",
-        "You cannot understand AI today by reading only what was written in English. So the Chinese works go in the spine, not the appendix.",
-    ]
-    body = [
-        f'<p class="lead">{esc("The AI Canon is a free, public reference library of the texts that define artificial intelligence, built on an open method that lets anyone check, question, and overturn its judgments. It ranks texts, not people. It sells nothing. It is built by Jeroen Janssen, founder of the Dutch AI governance firm Apparens.")}</p>',
-        "<h2>Why it is worth covering</h2>",
-        f'<p>{esc("The literature of AI has outgrown anyone\'s ability to read it, and the maps that exist are mostly commercial: affiliate reading lists, vendor guides, influencer rankings. They ask the reader to trust the curator. Almost none show their work. The AI Canon is built the opposite way. Every ranking is produced by a published method, every number carries its source and date, and anyone can download the audit file and rebuild the result themselves. The premise is that curation of knowledge can be made auditable, the way an account can be audited, rather than taken on faith.")}</p>',
-        "<h2>What is genuinely new here, and verifiable</h2>",
-        f'<p>{esc("Three things, each checkable rather than asserted. First, it ranks texts and refuses to rank people: the voices and organizations in the field are described, never scored, and the data model has no way to rank a human being. Second, it is checkable end to end: the method, the corpus, the weights, and the audit files are public, and every rank links to the evidence that produced it. Third, it invites correction as a feature, not a complaint box: anyone can formally challenge any ranking or omission with evidence, and every challenge and its resolution is published in a permanent, public log.")}</p>',
-        "<h2>The China and United States angle</h2>",
-        f'<p>{esc("Most maps of AI thought only see half the field. You cannot understand artificial intelligence in 2026 by reading only what was written in English. The AI Canon is built, as a published rule, to score Chinese-language works within their own publishing and citation ecosystem before any cross-language comparison, rather than against English metrics that would erase them. That rule is written into the method; the mechanism that enforces it, and the Chinese corpus it needs, are still being built. Today the scored pilot is English-language papers, and the Chinese section is a curated spine of dozens of works that is openly under construction and not yet scored, with the project actively recruiting Chinese-literate scholars and readers to help build and verify it. The story is not a finished global canon. It is a Western-built reference work that is structurally committed to including China and is openly asking Chinese experts to help, at a moment when most Western and Chinese AI discourse barely acknowledge each other.")}</p>',
-        "<h2>Quotable, attributable to Jeroen Janssen</h2>",
-    ]
-    body += [f'<p class="pullquote">{esc(q)}</p>' for q in quotes]
-    body += [
-        "<h2>What you can verify before you publish</h2>",
-        f'<p>{esc("The method, the ontology, the full corpus, and the audit files are open. The challenge log is public. There is no advertising, no affiliate income, and no paid placement anywhere in the project, by design and by rule. It is a non-commercial public good; there is nothing to buy and no upsell to find.")}</p>',
-        f'<p>{esc("The builder\'s own book, The AI Accountability Trap, is in the corpus and carries a visible conflict flag, scored by the same rules as everything else, with no exemption and no boost.")}</p>',
-        "<h2>Contact</h2>",
-        '<p>Jeroen Janssen, Apparens (Deventer, Netherlands). <a href="mailto:office@apparens.nl">office@apparens.nl</a>.</p>',
-        '<p>If you want to share this rather than write about it, see the <a href="share.html">share page</a>.</p>',
-    ]
-    return shell("press.html", "For press and writers", "Press", "".join(body))
-
-
-def page_share() -> str:
-    body = [
-        share_row("", "Share the Canon"),
-        f'<p class="lead">{esc("Use any of this freely. The only thing asked is that you keep it honest, which is easy here, because the honest version is the interesting one. Do not call it the world\'s first or the definitive anything. It has not earned those words yet, and the fact that it refuses to claim them is part of what makes it worth sharing.")}</p>',
-        "<h2>The problem it speaks to, in one breath</h2>",
-        f'<p>{esc("There is too much to read, you cannot tell who to trust, and almost every reading list you have ever seen was either someone\'s opinion or someone\'s affiliate income. Meanwhile the field itself has split in two, English and Chinese, and most maps only show you one half.")}</p>',
-        "<h2>The turn</h2>",
-        f'<p>{esc("Someone built a reference library for the whole field that you can actually check. It ranks the texts, not the people. Every ranking shows its evidence. You are invited to prove it wrong, in public. It is free, it is built to include both the American and Chinese literature, and it sells you nothing.")}</p>',
-        "<h2>A drop-in post you can adapt</h2>",
-        '<div class="sharebox">'
-        f'<p>{esc("Most “best AI books” lists are either someone\'s opinion or someone\'s affiliate link.")}</p>'
-        f'<p>{esc("I just came across something different: The AI Canon. A free, public reference library of the texts that define AI, built on an open method you can actually inspect.")}</p>'
-        f'<p>{esc("What makes it stand out to me:")}</p><ul>'
-        f'<li>{esc("It ranks texts, not people. The thinkers and labs are described, never ranked against each other.")}</li>'
-        f'<li>{esc("You can check every judgment. The method, the data, and the audit files are public, and each ranking links to the evidence behind it.")}</li>'
-        f'<li>{esc("It invites you to prove it wrong. Disagree with a ranking? File a challenge with evidence. Every challenge and its resolution is published.")}</li>'
-        f'<li>{esc("It takes China seriously. It is built to include the Chinese-language literature in the core, not as a footnote, and it is openly recruiting Chinese-reading contributors to help finish that work.")}</li>'
-        f'<li>{esc("It sells nothing. No ads, no affiliate links, no paywall.")}</li></ul>'
-        f'<p>{esc("In a field where everyone is selling certainty, a reference you are allowed to argue with feels genuinely new.")}</p>'
-        f'<p>{esc("[link] Worth a look if you are trying to figure out what to read and who to trust in AI.")}</p>'
-        "</div>",
-        "<h2>If you want a sharper, shorter version</h2>",
-        '<div class="sharebox">'
-        f'<p>{esc("Someone built an AI reading canon you are actually allowed to argue with.")}</p>'
-        f'<p>{esc("It ranks texts, not people. It shows its evidence for every call. It is built to include the American and Chinese literature, with the Chinese section still under construction. It invites public challenges and publishes every resolution. And it sells nothing, no ads, no affiliate links.")}</p>'
-        f'<p>{esc("“A canon you can check is worth more than a canon you must believe.”")}</p>'
-        f'<p>{esc("[link]")}</p>'
-        "</div>",
-        "<h2>One honest note for whoever shares it</h2>",
-        f'<p>{esc("The rankings are still in pilot and the Chinese section is still being built. If you want to help with the second part and you read Chinese, that is an open invitation, not a disclaimer. Saying so out loud tends to make the post better, not worse.")}</p>',
-    ]
-    return shell("share.html", "If you want to share this", "Share", "".join(body))
-
-
-_SEARCH_JS = """
-(function(){
-  var idx=window.CANON_INDEX||[];
-  var q=document.getElementById('sq'),out=document.getElementById('sresults'),cnt=document.getElementById('scount');
-  var TYPE={book:'Book',paper:'Paper',voice:'Voice',organization:'Organization',platform:'Platform'};
-  var CAP=80;
-  function render(term){
-    term=(term||'').trim().toLowerCase();out.textContent='';
-    if(!term){cnt.textContent=idx.length+' entries in the corpus. Start typing to search.';return;}
-    var hits=[];
-    for(var i=0;i<idx.length&&hits.length<CAP;i++){var e=idx[i];if((e.l+' '+(e.s||'')).toLowerCase().indexOf(term)>-1)hits.push(e);}
-    cnt.textContent=hits.length+(hits.length>=CAP?'+':'')+' result'+(hits.length===1?'':'s');
-    hits.forEach(function(e){
-      var a=document.createElement('a');a.className='sresult';a.href=e.u;
-      var t=document.createElement('div');t.className='st';t.textContent=e.l;
-      var chip=document.createElement('span');chip.className='schip';chip.textContent=TYPE[e.t]||e.t;t.appendChild(chip);
-      a.appendChild(t);
-      if(e.s){var s=document.createElement('div');s.className='ss';s.textContent=e.s;a.appendChild(s);}
-      out.appendChild(a);
-    });
-  }
-  q.addEventListener('input',function(){render(q.value);});
-  var pre=new URLSearchParams(location.search).get('q');if(pre)q.value=pre;
-  render(q.value);q.focus();
-})();
-"""
-
-
-def page_about() -> str:
-    def p(text):
-        return "<p>" + esc(text) + "</p>"
-    body = [
-        '<p class="lead">Why this exists, what it is, and how to read it.</p>',
-
-        "<h2>Why I built it</h2>",
-        p("The literature of artificial intelligence is now larger than any one person can hold, "
-          "and the maps we have are mostly selling something. Affiliate lists, vendor reading "
-          "guides, threads ranked by who shouted loudest. Each asks you to trust the curator. "
-          "Almost none let you check the curator's work."),
-        p("I build governance for a living. My one rule is that governance is not what you claim, "
-          "it is what you can prove. A field this consequential deserves a reference work held to "
-          "the same standard: a library whose every judgment can be inspected, questioned, and "
-          "overturned with evidence. So I built the thing I wanted to exist and could not find. "
-          "Not to own it. To give it."),
-        p("This is a public good. It is free, it always will be, and nothing in it is for sale."),
-
-        "<h2>What I built</h2>",
-        p("A reference library of the texts that define artificial intelligence: the books, the "
-          "papers, and the standards that shaped how we think, build, and govern it. Alongside the "
-          "texts, a curated record of the people, organizations, and platforms that form the "
-          "field's context."),
-        p("The rankings get the attention, but they are not the product. The library is the "
-          "product. A ranking is one view of it, produced by a published method at a fixed date. "
-          "The method is the part that matters. Anyone can assert that a book is important. The "
-          "Canon shows its reasoning, names its sources, and invites you to prove it wrong."),
-        p("So the Canon is a reference work first and a ranking second. It answers why a text "
-          "matters, what underpins it, and how it relates to the rest, before it answers which one "
-          "is first."),
-
-        "<h2>How it is constructed</h2>",
-        p("Two kinds of thing live here, and they are treated differently on purpose."),
-        "<p><b>Texts are scored.</b> " + esc(
-            "Books, papers, reports, and standards are ranked by evidence: citations, library "
-            "holdings, syllabus adoption, sustained readership over time. The scoring is "
-            "deterministic, which means the same inputs always produce the same result, and anyone "
-            "holding the audit file can rebuild a ranking exactly. Every number carries its source, "
-            "its date, and its confidence. Where evidence is missing, that absence is recorded and "
-            "counted, never guessed. A standard is never ranked against a novel; each kind of text "
-            "is judged within its own domain, because comparing them would be meaningless.") + "</p>",
-        "<p><b>People are not scored.</b> " + esc(
-            "The voices, organizations, and platforms are described and categorized, never ranked. "
-            "There is no score field for a person anywhere in the system. This is built into the "
-            "foundation, not added as a courtesy. I will rank texts. I will not rank human beings, "
-            "and the structure makes it impossible to start.") + "</p>",
-        "<p><b>The method is open.</b> " + esc(
-            "The corpus, the ontology, the weights, and the audit files are all public. The strength "
-            "of this project is not a secret formula. It is the labour of careful curation, the "
-            "discipline of showing the work, and the growing record of challenges met in the open. "
-            "Those cannot be copied by reading the method. They can only be earned by doing the "
-            "work.") + "</p>",
-        "<p><b>A word on honesty about coverage.</b> " + esc(
-            "The Canon is strong in English. Its multilingual layer is still in development, and its "
-            "Chinese-language spine is a known gap. Until that gap is closed, this is not a "
-            "worldwide canon, and it will not call itself one. I would rather state the limit "
-            "plainly than claim a completeness I have not earned.") + "</p>",
-
-        "<h2>How it is maintained</h2>",
-        p("By a person, with help from machines that are not allowed to decide anything."),
-        p("I adjudicate every challenge myself, against the evidence, and publish the resolution. "
-          "I write the descriptions. Automated tools harvest the data, watch for changes, and "
-          "propose updates, but no ranking ever moves without a human reviewing and approving it. "
-          "The tools observe, assess, and escalate. They do not act. That distinction is the whole "
-          "point of a canon you can trust rather than an algorithm you must accept."),
-        p("Every change is logged and nothing is ever quietly altered. Corrections become new "
-          "versions; the old ones remain visible. I do not promise a schedule, because a schedule I "
-          "would resent is a promise I would break. I promise the discipline instead: every update "
-          "logged, every correction traceable, every ranking open to challenge, and no commercial "
-          "influence of any kind, ever. The changelog is the proof. It cannot lie about whether the "
-          "work is being done."),
-
-        "<h2>Sources and acknowledgments</h2>",
-        p("The candidate corpus was seeded, with gratitude, from curated reading lists: Jurgen "
-          "Appelo's AI reading list, the Monett Critical-AI reading list (14th edition), and the "
-          "project's own candidate hunt. Seeding from a list is candidacy for scoring, not an "
-          "endorsement by those curators, and it carries no weight in any ranking. The full "
-          "per-work source is kept in the downloadable corpus data for transparency."),
-
-        "<h2>Who it is for</h2>",
-        p("One library, many doors. A student opens it to find what to learn and in what order. A "
-          "professor opens it to find what to teach. A journalist opens it to find who and what to "
-          "research, and the record of who got things wrong. An investor opens it to read the "
-          "landscape. An author or editor opens it to find the works that endure. A practitioner "
-          "opens it to find the standards that govern their work."),
-        p("It is not built to flatter any of them, and not built to convert anyone into a customer, "
-          "because there is nothing to buy. It is built to be useful and honest to all of them at "
-          "once, the way a good library is."),
-
-        "<h2>How it should be interpreted</h2>",
-        p("A rank is not a verdict on intrinsic worth. It is a transparent output of declared "
-          "evidence, weights, and missing-data rules, at a specific release date. Read it as "
-          "exactly that, and no more."),
-        p("A high rank means a text scored well on the evidence the method measured, under one set "
-          "of weights, on one day. Change the weights and the order changes, which is why three "
-          "different weightings are published rather than one. A low rank, or an absence, is not a "
-          "judgment that a work is bad. It may mean the evidence is thin, the work is recent, or "
-          "the method does not yet see it well. Inclusion in the seed corpus means a work is a "
-          "candidate, not that it is canonical."),
-        p("If you disagree, you are not a nuisance. You are the mechanism. The Canon improves by "
-          "being contested, and a challenge you can file is worth more than a ranking you are asked "
-          "to believe."),
-
-        "<h2>What you can do with it</h2>",
-        p("If you are here to learn AI, start with the library, not the ranking. Pick the domain "
-          "you care about, governance or deep learning or the economics of automation, and read "
-          "the texts that have endured there, in the order their descriptions suggest. Use the "
-          "rankings as a second opinion, not a syllabus. Follow the connections: a book leads to "
-          "the papers under it, the papers to the people who wrote them, the people to the "
-          "institutions they work in. The structure is a map of how the field thinks, and you can "
-          "walk it. Download the whole corpus as open data and keep it. It is yours."),
-        p("If you find yourself here as a subject, an author whose book is listed or a voice in the "
-          "field, two things are true. You are not being ranked against your peers. The people on "
-          "this list are described, never scored, and never placed above or below one another. And "
-          "your entry is built from public, professional, bibliographic facts, held to the same "
-          "standard as everything else. If something about your entry is wrong, a misattributed "
-          "work, an outdated affiliation, a description that misses the mark, tell me, and it will "
-          "be corrected in the open through the same challenge process as any other claim. If you "
-          "believe a text's rank or its absence is unjust, contest it with evidence, and the "
-          "resolution will be published whether it goes your way or not. What you cannot do is buy "
-          "your way up, or have a rival quietly removed, because no one can, and that is precisely "
-          "what makes your presence here mean something."),
-
-        '<p class="note">Nothing is for sale. Nothing is hidden. Nothing is final. '
-        'Challenge anything: <a href="mailto:office@apparens.nl">office@apparens.nl</a></p>',
-    ]
-    return shell("about.html", "The AI Canon", "Statement", "".join(body))
-
-
-def page_search() -> str:
-    body = (
-        '<p class="note">Search the whole corpus: 610 books, 269 papers, the models index, and the voices, '
-        "organizations, and platforms. Every result links to its entry. The search runs entirely "
-        "in your browser; nothing typed here is sent anywhere.</p>"
-        '<div class="search-wrap"><input id="sq" type="search" autocomplete="off" '
-        'placeholder="Search titles, authors, names..." aria-label="Search the corpus"></div>'
-        '<p class="count" id="scount"></p>'
-        '<div id="sresults"></div>'
-        '<script src="assets/search-index.js" defer></script>'
-        '<script src="assets/search.js" defer></script>'
-    )
-    return shell("search.html", "Search the corpus", "Search", body)
+# Re-exported so `from canon import export_site as site` keeps its whole surface
+# (tests and tools import every one of these through this module).
+from .sitegen.assets_js import _LIB_FILTER_JS, _SEARCH_JS, _search_index_js  # noqa: F401
+from .sitegen.common import (CONCEPT_DOI, DEFAULT_DESC, HUMILITY, PAGE_DESC,  # noqa: F401
+                             POSITIONING, RELEASES, SEEDS, SITE, SITE_URL, VERSION,
+                             _abs_source, _abstracts, _canonical_url, _load,
+                             _papers_index, _ROOT, _scenarios, _write, _WRITTEN,
+                             esc, esc_verbatim, safe_url)
+from .sitegen.pages_context import page_frontier, page_orgs, page_platforms, page_voices  # noqa: F401
+from .sitegen.pages_corpus import (_model_slug, _teaser_rows, page_canon50,  # noqa: F401
+                                   page_home, page_library, page_models,
+                                   page_papers, page_work)
+from .sitegen.pages_meta import (_md_to_html, page_about, page_challenges,  # noqa: F401
+                                 page_changelog, page_data, page_method,
+                                 page_press, page_search, page_share)
+from .sitegen.shell import GITHUB_REPO, NAV, SHARE_TEXT, SHARE_URL, _nav, share_row, shell  # noqa: F401
+from .sitegen.theme import _HEADERS, _STYLE, JSONLD, JSONLD_HASH, _build_jsonld, _csp_hash  # noqa: F401
 
 
 def _write_csv(path: Path, header: list[str], rows: list[list]) -> None:
@@ -1241,120 +69,14 @@ def _write_csv(path: Path, header: list[str], rows: list[list]) -> None:
     path.write_text(buf.getvalue(), encoding="utf-8")
 
 
-# Cloudflare Pages _headers. Strict CSP with NO unsafe-inline anywhere: all CSS
-# and JS are external 'self' files, fonts are self-hosted, the only image is the
-# self logo. default-src 'none' denies everything not explicitly allowed. There is
-# no backend, no form, no third-party request, so connect/form/frame all close.
-_HEADERS = f"""/*
-  Content-Security-Policy: default-src 'none'; script-src 'self' '{JSONLD_HASH}'; style-src 'self'; img-src 'self'; font-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; object-src 'none'; upgrade-insecure-requests
-  X-Content-Type-Options: nosniff
-  Referrer-Policy: no-referrer
-  X-Frame-Options: DENY
-  Cross-Origin-Opener-Policy: same-origin
-  Cross-Origin-Resource-Policy: same-origin
-  Permissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=(), interest-cohort=()
-  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
-"""
-
-
-def page_frontier() -> str:
-    d = _load(SEEDS.parent / "frontier.json")
-    cov, rel, disc = d["coverage"], d["reliability"], d["discovery"]
-    n_sub = sum(len(f["subs"]) for f in d["families"])
-    b = []
-    b.append('<p class="lead">Every paper ends by naming what it could not do. We pooled the stated '
-             "limitations and future-work of the canon's papers, coded each statement, and let the pattern "
-             "show where the open frontiers lie. <b>This is an AI-synthesized reading, traceable to the "
-             "authors' own words.</b></p>")
-    b.append(f'<div class="statgrid">'
-             f'<div class="stat"><b>{cov["papers_with_frontier"]}</b><span>papers with a specific open problem</span></div>'
-             f'<div class="stat"><b>{cov["high_substance"]}</b><span>high-substance frontier statements</span></div>'
-             f'<div class="stat"><b>{cov["ritual_pct"]}%</b><span>ritual boilerplate, filtered out</span></div>'
-             f'<div class="stat"><b>{n_sub}</b><span>sub-frontiers, in {len(d["families"])} families</span></div></div>')
-    b.append("<h2>How this was kept honest</h2>")
-    b.append("<p>AI is good at finding patterns. It is also good at over-claiming them. So every layer was "
-             "adversarially checked before it was allowed to count: quotes verified verbatim, coding "
-             "reproduced by an independent blind coder, every theme attacked by a skeptic, and ritual "
-             '"further research is needed" boilerplate removed as rhetoric, never counted as evidence.</p>')
-    b.append(f'<div class="statgrid">'
-             f'<div class="stat"><b>0</b><span>fabricated quotes across four audits</span></div>'
-             f'<div class="stat"><b>{rel["family"]:.2f}</b><span>inter-coder agreement, family level (Cohen kappa)</span></div>'
-             f'<div class="stat"><b>{rel["subtheme"]:.2f}</b><span>agreement on the fine sub-frontier label</span></div>'
-             f'<div class="stat"><b>2-3x</b><span>over-claim caught in un-audited aggregation</span></div></div>')
-    b.append("<h2>The frontier landscape</h2>")
-    b.append('<p class="note">There is no single dominant frontier. Open any sub-frontier to read the '
-             "papers' own words. Counts are distinct papers, at the high-substance threshold.</p>")
-    for fam in d["families"]:
-        b.append(f'<div class="ffam"><h2>{esc(fam["name"])}</h2>'
-                 f'<span class="fc">{fam["papers"]} papers</span></div>')
-        for s in fam["subs"]:
-            quotes = "".join(
-                f'<li><span class="q">&ldquo;{esc(q["text"])}&rdquo;</span>'
-                f'<span class="src">{esc(q["title"])} ({esc(q["year"])})</span></li>' for q in s["quotes"])
-            b.append(f'<details class="fd"><summary><span class="sn">{esc(s["name"])}</span>'
-                     f'<span class="sc">{s["papers"]} papers</span></summary>'
-                     f'<p class="fblurb">{esc(s["blurb"])}</p><ul class="fq">{quotes}</ul></details>')
-    b.append("<h2>Derived frontiers</h2>")
-    b.append("<p>Above the sub-frontiers sit coherent problems the corpus poses in pieces across families "
-             "but names nowhere. These were discovered <b>blind</b> by four independent analysts against "
-             "fixed criteria, then ranked by how many independently found each.</p>")
-    for f in d["derived_research"]:
-        b.append(f'<div class="dcard"><div class="dhead"><b>{esc(f["name"])}</b>'
-                 f'<span class="dt">{esc(f["convergence"])} analysts</span></div>'
-                 f'<p>{esc(f["definition"])}</p></div>')
-    for f in d["derived_applied"]:
-        parents = ", ".join(esc(p.replace("-", " ")) for p in f.get("derived_from", []))
-        b.append(f'<div class="dcard app"><div class="dhead"><b>{esc(f["name"])}</b>'
-                 f'<span class="dt">applied, analyst-nominated</span></div>'
-                 f'<p>{esc(f["definition"])}</p>'
-                 f'<p class="dfrom">Shown as an applied response to the research frontiers it depends on '
-                 f'({parents}), never asserted as their peer.</p></div>')
-    b.append("<h2>The one cross-paper result that held under attack</h2>")
-    b.append("<p><b>You cannot assure the alignment of a mechanism you cannot read.</b> Mesa-optimizers "
-             "(2019) states that internals-based verification is out of reach given the limits of current "
-             "transparency methods. Sleeper Agents (2024) shows that behavioural safety training cannot "
-             "observe why a model behaves as it does. Interpretability is the gate between understanding a "
-             "model and assuring it. Every other cross-paper bridge we tried was weakened or refuted; this "
-             "one got stronger.</p>")
-    b.append("<h2>What the frontier is already attracting</h2>")
-    b.append(f"<p>Each frontier's open question becomes a search for the recent work the canon does not yet "
-             f"contain. That search returned <b>{disc['off_canon']} verified off-canon papers</b>, and "
-             f"<b>{disc['active']} of {disc['units']}</b> frontiers are judged active. The canon is "
-             f"extended with what its own open questions surface.</p>")
-    b.append('<div class="note flag"><b>How to read this.</b> The families, sub-frontiers, and derived '
-             "frontiers are an AI-synthesized reading of the papers' own limitation and future-work "
-             "sentences, adversarially audited and human-reviewed. Every count links to verbatim source "
-             "statements. This is an interpretive synthesis, not a ranking, and not a claim about which "
-             "research is most important. It reads the open-access, machine-readable core of the corpus "
-             f"({cov['papers_reviewed']} of {cov['of_total']} papers), not all of AI. Method and full "
-             'artefact package: <a href="https://doi.org/10.5281/zenodo.21112889">Zenodo</a>.</div>')
-    return shell("frontier.html", "Research frontier", "What the canon has not solved", "\n".join(b))
-
-
-def build() -> dict:
+def _write_assets() -> None:
     # Externalized assets so the CSP can forbid inline script and style entirely.
     _write("assets/canon.css", _STYLE.strip() + "\n")
     _write("assets/canon.js", _LIB_FILTER_JS.strip() + "\n")
     _write("_headers", _HEADERS)
 
-    release = _load(RELEASES / VERSION / "release.json")
-    rankings = {
-        p.stem: _load(p) for p in sorted((RELEASES / VERSION / "rankings").glob("*.json"))
-    }
-    breakdowns = {
-        p.stem: _load(p) for p in sorted((RELEASES / VERSION / "breakdowns").glob("*.json"))
-    }
-    papers = _papers_index()
-    scored = set(breakdowns)
-    coverage = _load(RELEASES / VERSION / "coverage.json")
-    books = _load(SEEDS / "books.json")
-    persons = _load(SEEDS / "persons.json")
-    orgs = _load(SEEDS / "orgs.json")
-    platforms = _load(SEEDS / "platforms.json")
 
-    _write("index.html", page_home(release, rankings, papers, coverage))
-    _write("library.html", page_library(books))
-    _write("canon-50.html", page_canon50(release, rankings, papers))
+def _gc_stale_work_pages(breakdowns: dict) -> None:
     # Clear stale work pages so a rebuild on changed evidence cannot leave an
     # orphaned "scored" page for a work that is now a declared gap.
     work_dir = SITE / "work"
@@ -1363,6 +85,16 @@ def build() -> dict:
         for stale in work_dir.glob("*.html"):
             if stale.name not in keep:
                 stale.unlink()
+
+
+def _write_pages(release, rankings, breakdowns, papers, scored, coverage,
+                 books, persons, orgs, platforms) -> dict:
+    """Write the 17 top-level pages and every work page. Returns the models
+    index, which is read mid-sequence (kept exactly where it always was)."""
+    _write("index.html", page_home(release, rankings, papers, coverage))
+    _write("library.html", page_library(books))
+    _write("canon-50.html", page_canon50(release, rankings, papers))
+    _gc_stale_work_pages(breakdowns)
     for wid, per_scenario in breakdowns.items():
         _write(f"work/{wid}.html", page_work(wid, per_scenario, papers))
     _write("papers.html", page_papers(papers, scored))
@@ -1379,34 +111,18 @@ def build() -> dict:
     _write("about.html", page_about())
     _write("press.html", page_press())
     _write("share.html", page_share())
+    return models_index
 
+
+def _write_search_index(books, papers, scored, persons, orgs, platforms, models_index) -> None:
     # Global search: an embedded index (so the strict CSP needs no connect-src) + a self script.
-    si = []
-    for b in books:
-        ed = b["editorial"]
-        meta = " · ".join(x for x in [ed.get("author", ""), str(b.get("year") or ""), ed.get("category", "")] if x)
-        si.append({"t": "book", "l": b["canonical_title"], "s": meta, "u": "library.html#" + b["id"]})
-    for pid in sorted(papers):
-        p = papers[pid]
-        ed = p.get("editorial", {})
-        u = f"work/{pid}.html" if pid in scored else "papers.html#" + pid
-        meta = " · ".join(x for x in [str(p.get("year") or ""), ed.get("venue", "")] if x)
-        si.append({"t": "paper", "l": p["canonical_title"], "s": meta, "u": u})
-    for o in persons:
-        si.append({"t": "voice", "l": o["name"], "s": o.get("known_for") or o.get("anchor_affiliation") or "", "u": "voices.html#" + o["id"]})
-    for o in orgs:
-        si.append({"t": "organization", "l": o["name"], "s": o.get("what_it_is") or "", "u": "organizations.html#" + o["id"]})
-    for o in platforms:
-        si.append({"t": "platform", "l": o["name"], "s": o.get("what_it_is") or "", "u": "platforms.html#" + o["id"]})
-    for m in models_index["models"]:
-        meta = " · ".join(x for x in [m.get("lab", ""), m.get("country", "")] if x)
-        si.append({"t": "model", "l": m["name"], "s": meta, "u": "models.html#" + _model_slug(m["name"])})
-    idx_js = ("window.CANON_INDEX=" + json.dumps(si, ensure_ascii=False, separators=(",", ":"))
-              .replace("</", "<\\/") + ";\n")
-    _write("assets/search-index.js", idx_js)
+    _write("assets/search-index.js",
+           _search_index_js(books, papers, scored, persons, orgs, platforms, models_index))
     _write("assets/search.js", _SEARCH_JS.strip() + "\n")
     _write("search.html", page_search())
 
+
+def _copy_audit(books, papers) -> None:
     # Copy the audit package + open corpus so they are publicly downloadable.
     audit_rel = SITE / "audit" / VERSION
     if audit_rel.exists():
@@ -1427,9 +143,11 @@ def build() -> dict:
                [[p["id"], p["canonical_title"], p["editorial"].get("authors", ""), p.get("year", ""),
                  p["editorial"].get("venue", ""), p["editorial"].get("category", "")] for p in papers.values()])
 
+
+def _write_seo(release: dict) -> None:
     # --- SEO: sitemap.xml, robots.txt, llms.txt ---
     lastmod = release.get("date", "")
-    html_files = sorted(p.relative_to(SITE).as_posix() for p in SITE.glob("**/*.html"))
+    html_files = sorted(p for p in _WRITTEN if p.endswith(".html"))
     sm = ['<?xml version="1.0" encoding="UTF-8"?>',
           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for rel in html_files:
@@ -1469,6 +187,38 @@ def build() -> dict:
         "A rank is an output of declared evidence and weights at a release date, not a verdict on worth.\n"
     )
     _write("llms.txt", llms)
+
+
+def build() -> dict:
+    _WRITTEN.clear()  # idempotent across in-process rebuilds (tests)
+    _write_assets()
+
+    release = _load(RELEASES / VERSION / "release.json")
+    # A release artifact never carries a space in its filename; skipping them
+    # keeps cloud-sync duplicate copies ("paper-0001 2.json") from becoming pages.
+    rankings = {
+        p.stem: _load(p)
+        for p in sorted((RELEASES / VERSION / "rankings").glob("*.json"))
+        if " " not in p.name
+    }
+    breakdowns = {
+        p.stem: _load(p)
+        for p in sorted((RELEASES / VERSION / "breakdowns").glob("*.json"))
+        if " " not in p.name
+    }
+    papers = _papers_index()
+    scored = set(breakdowns)
+    coverage = _load(RELEASES / VERSION / "coverage.json")
+    books = _load(SEEDS / "books.json")
+    persons = _load(SEEDS / "persons.json")
+    orgs = _load(SEEDS / "orgs.json")
+    platforms = _load(SEEDS / "platforms.json")
+
+    models_index = _write_pages(release, rankings, breakdowns, papers, scored,
+                                coverage, books, persons, orgs, platforms)
+    _write_search_index(books, papers, scored, persons, orgs, platforms, models_index)
+    _copy_audit(books, papers)
+    _write_seo(release)
 
     summary = {"pages": 13 + len(breakdowns), "work_pages": len(breakdowns), "version": VERSION}
     print(json.dumps(summary, indent=2))

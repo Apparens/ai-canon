@@ -85,7 +85,7 @@ d.rectangle([LEFT, 542, LEFT + 54, 546], fill=ORANGE2)
 d.text((LEFT + 72, 528), "ai-canon.apparens.nl", font=sans(26, 600), fill=ORANGE)
 # bottom-right tag
 tg = mono(16)
-for i, line in enumerate(["PILOT v0.1", "Nothing is for sale."]):
+for i, line in enumerate(["PILOT v0.3", "Nothing is for sale."]):
     w = d.textlength(line, font=tg)
     d.text((W - 64 - w, 540 + i * 22), line, font=tg, fill=TAG)
 

@@ -1,0 +1,219 @@
+"""The visual theme and security surface: stylesheet, JSON-LD, CSP hash, _headers.
+
+The visual language mirrors apparens.nl (apparens-design-system.css): deep-blue
+fixed nav with the white wordmark, white body, orange #B8430A accents, DM Serif
+Display headings, DM Sans body. House style: no em-dashes in copy.
+"""
+
+from __future__ import annotations
+
+import json
+
+from .common import DEFAULT_DESC, SITE_URL
+
+
+def _build_jsonld() -> str:
+    """One site-wide JSON-LD graph (WebSite + Organization), identical on every
+    page, so a single sha256 added to the CSP keeps script-src strict (no
+    unsafe-inline). Crawlers read it; the byte-exact string is what the CSP hashes."""
+    graph = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "WebSite", "@id": SITE_URL + "#website",
+                "name": "The AI Canon", "url": SITE_URL, "description": DEFAULT_DESC,
+                "inLanguage": "en", "publisher": {"@id": "https://apparens.nl/#org"},
+                "license": "https://creativecommons.org/licenses/by/4.0/",
+                "potentialAction": {
+                    "@type": "SearchAction",
+                    "target": {"@type": "EntryPoint", "urlTemplate": SITE_URL + "search.html?q={search_term_string}"},
+                    "query-input": "required name=search_term_string",
+                },
+            },
+            {
+                "@type": "Organization", "@id": "https://apparens.nl/#org",
+                "name": "Apparens", "url": "https://apparens.nl",
+                "description": "Apparens, creator of the AI Control Index and the public-good AI Canon.",
+            },
+        ],
+    }
+    return json.dumps(graph, ensure_ascii=False, separators=(",", ":"))
+
+
+JSONLD = _build_jsonld()
+
+
+def _csp_hash(text: str) -> str:
+    import base64
+    import hashlib
+    return "sha256-" + base64.b64encode(hashlib.sha256(text.encode("utf-8")).digest()).decode()
+
+
+JSONLD_HASH = _csp_hash(JSONLD)
+
+_STYLE = """
+:root{--deep:#051C2C;--navy:#0A2540;--mid:#1A3A5C;--white:#fff;--g100:#F5F5F5;
+--g200:#EAEAEA;--g300:#D4D4D4;--g500:#6B6B6B;--g700:#333;--ice:#E8F0FE;--cream:#F5F0E8;
+--orange:#B8430A;--orange-hover:#9E3908;--orange-dark:#E65710;--teal:#135975}
+*{margin:0;padding:0;box-sizing:border-box}
+html{font-size:18px;-webkit-font-smoothing:antialiased;scroll-behavior:smooth}
+body{font-family:"DM Sans",-apple-system,BlinkMacSystemFont,sans-serif;color:var(--g700);
+background:var(--white);line-height:1.5;padding-top:86px}
+[id]{scroll-margin-top:96px}
+.measure{max-width:1080px;margin:0 auto;padding:0 32px}
+/* Body links are underlined so they are distinguishable without relying on color
+   (WCAG 1.4.1). Nav, brand, pills, and table-cell links opt out below. */
+a{color:var(--orange);text-decoration:underline}
+a:hover{color:var(--orange-hover)}
+:focus-visible{outline:2px solid var(--orange);outline-offset:2px}
+/* fixed two-tier nav */
+nav.top{position:fixed;top:0;left:0;right:0;z-index:100;background:var(--deep);
+border-bottom:1px solid rgba(255,255,255,.08)}
+nav.top .row1{max-width:1080px;margin:0 auto;padding:0 32px;height:50px;display:flex;
+align-items:center;justify-content:space-between}
+nav.top .brandwrap{display:flex;align-items:center;gap:11px}
+nav.top .brand-logo img{height:26px;width:auto;display:block}
+nav.top .brand-logo,nav.top .brand-name{text-decoration:none}
+nav.top .brand-logo:hover,nav.top .brand-name:hover{text-decoration:none}
+nav.top .brand-name{color:#fff;font-family:"DM Serif Display",serif;font-weight:400;font-size:18px}
+nav.top .row1 .out{color:var(--orange-dark);font-size:.82rem;text-decoration:none;font-weight:600}
+nav.top .row2{max-width:1080px;margin:0 auto;padding:0 32px;height:38px;display:flex;
+flex-wrap:wrap;align-items:center;gap:22px;border-top:1px solid rgba(255,255,255,.06)}
+nav.top .row2 a{font-size:.82rem;color:rgba(255,255,255,.7);text-decoration:none}
+nav.top .row2 a:hover{color:#fff}
+nav.top .row2 a[aria-current=page]{color:#fff;border-bottom:2px solid var(--orange-dark);padding-bottom:2px}
+/* header band */
+header.h{background:var(--white);padding:44px 0 26px;border-bottom:1px solid var(--g200)}
+.overline{font-size:.8rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--orange)}
+h1{font-family:"DM Serif Display",serif;font-weight:400;font-size:clamp(2rem,5vw,3rem);
+line-height:1.1;letter-spacing:-.02em;margin:10px 0;color:var(--deep)}
+h2{font-family:"DM Serif Display",serif;font-weight:400;font-size:1.6rem;line-height:1.25;margin:34px 0 12px;color:var(--deep)}
+h3{font-size:.8rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--orange);margin:24px 0 8px}
+p{margin:10px 0;color:var(--g700)}main{padding:30px 0 70px}
+.lead{font-size:1.18rem;color:var(--g500);line-height:1.6;max-width:46ch}
+.lead b{color:var(--deep);font-weight:500}
+/* callout */
+.note{background:var(--ice);border-left:3px solid var(--orange);padding:14px 20px;margin:20px 0;font-size:.95rem;color:var(--g700)}
+.note.flag{background:#FCEEE6}
+/* tables */
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:.9rem}
+th{text-align:left;font-size:.7rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;
+color:var(--g500);border-bottom:2px solid var(--navy);padding:9px 10px}
+td{padding:9px 10px;border-bottom:1px solid var(--g200);vertical-align:top;color:var(--g700)}
+tr:hover td{background:var(--g100)}
+td.rank,td.num{font-variant-numeric:tabular-nums;white-space:nowrap;color:var(--g500)}
+td a{color:var(--deep);font-weight:500;text-decoration:none}td a:hover{color:var(--orange)}
+.tag{font-size:.68rem;padding:2px 9px;border:1px solid var(--g300);border-radius:20px;color:var(--g500);white-space:nowrap}
+.flag{color:var(--orange);font-weight:600}
+.scn{margin:26px 0;border:1px solid var(--g200);border-radius:6px;background:var(--white);
+box-shadow:0 1px 3px rgba(0,0,0,.05);padding:6px 22px 18px}
+.scn h2{margin-top:18px}
+.miss{color:var(--g500)}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.82rem;color:var(--g500)}
+ol,ul{margin:10px 0 10px 22px}li{margin:6px 0}
+/* homepage two-column + stats */
+.cols{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--g200);border-radius:6px;overflow:hidden;margin:22px 0}
+.cols>div{padding:22px 24px}
+.cols>div:first-child{border-right:1px solid var(--g200)}
+.cols ul{list-style:none;margin:8px 0 0}
+.cols li{padding:8px 0;border-top:1px solid var(--g200);font-size:.92rem}
+.cols li:first-child{border-top:0}
+.cols .not li{color:var(--g500)}
+@media(max-width:680px){.cols{grid-template-columns:1fr}.cols>div:first-child{border-right:0;border-bottom:1px solid var(--g200)}}
+.statgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:var(--g200);border:1px solid var(--g200);border-radius:6px;overflow:hidden;margin:22px 0}
+.statgrid .stat{background:#fff;padding:18px 16px}
+.statgrid .stat b{display:block;font-family:"DM Serif Display",serif;font-weight:400;font-size:1.8rem;color:var(--deep);line-height:1.05}
+.statgrid .stat span{font-size:.8rem;color:var(--g500)}
+.pill{display:inline-block;background:var(--orange);color:#fff !important;font-size:.85rem;font-weight:600;padding:9px 18px;border-radius:3px;text-decoration:none;margin-top:6px}
+.pill:hover{background:var(--orange-hover);text-decoration:none}
+/* library filter bar + cards */
+.filters{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0;padding:14px 16px;background:var(--g100);border:1px solid var(--g200);border-radius:6px}
+.filters label{font-size:.72rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--g500);display:flex;flex-direction:column;gap:4px}
+.filters select,.filters input{font:inherit;font-size:.85rem;padding:6px 8px;border:1px solid var(--g300);border-radius:4px;background:#fff;color:var(--g700);min-width:150px}
+.count{font-size:.8rem;color:var(--g500);margin:8px 0}
+.entry{border-bottom:1px solid var(--g200);padding:14px 0}
+.entry .t{font-family:"DM Serif Display",serif;font-size:1.1rem;color:var(--deep)}
+.entry .meta{font-size:.8rem;color:var(--g500);margin:3px 0}
+.entry .desc{font-size:.92rem;margin-top:6px}
+.entry .bio{font-size:.9rem;color:var(--g500);margin-top:6px;max-width:72ch;line-height:1.55}
+.entry .src{margin-top:6px;font-size:.8rem}
+.entry .src a{color:var(--accent);text-decoration:none;letter-spacing:.02em}
+.entry .src a:hover{text-decoration:underline}
+.muted{color:var(--g500);font-weight:400;font-size:.82em}
+.gap{color:var(--g500);font-style:italic}
+.entry .pending{font-size:.85rem;color:var(--g500);font-style:italic;margin-top:6px}
+.badge{display:inline-block;font-size:.62rem;letter-spacing:.04em;text-transform:uppercase;padding:2px 8px;border-radius:20px;border:1px solid var(--g300);color:var(--g500);margin-left:6px}
+.shelf-cat{font-family:"DM Serif Display",serif;font-size:1.25rem;color:var(--deep);margin:30px 0 6px;border-bottom:2px solid var(--orange);display:inline-block;padding-bottom:2px}
+/* global search */
+.search-wrap{margin:18px 0}
+#sq{width:100%;font:inherit;font-size:1.25rem;padding:16px 18px;border:1px solid var(--g300);border-radius:8px;background:#fff;color:var(--deep)}
+#sq:focus{outline:2px solid var(--orange);border-color:var(--orange)}
+.sresult{display:block;border-bottom:1px solid var(--g200);padding:13px 2px;text-decoration:none}
+.sresult:hover{text-decoration:none;background:var(--g100)}
+.sresult .st{font-family:"DM Serif Display",serif;font-size:1.1rem;color:var(--deep)}
+.sresult .ss{font-size:.85rem;color:var(--g500);margin-top:2px}
+.schip{display:inline-block;font-size:.62rem;letter-spacing:.04em;text-transform:uppercase;padding:2px 8px;border-radius:20px;border:1px solid var(--g300);color:var(--g500);margin-left:8px;vertical-align:middle}
+.pullquote{font-family:"DM Serif Display",serif;font-size:1.3rem;line-height:1.35;color:var(--deep);border-left:3px solid var(--orange);padding:4px 0 4px 18px;margin:16px 0}
+.share{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:14px 0}
+.share-l{font-size:.85rem;opacity:.8;margin-right:2px}
+.share a{display:inline-flex;width:34px;height:34px;align-items:center;justify-content:center;border-radius:8px;color:inherit;border:1px solid rgba(127,127,127,.35);transition:color .15s ease,border-color .15s ease}
+.share a:hover{color:var(--accent);border-color:var(--accent)}
+.share svg{fill:currentColor;display:block}
+.sharebox{background:var(--g100);border:1px solid var(--g200);border-radius:6px;padding:18px 22px;margin:18px 0}
+.sharebox p{margin:8px 0}.sharebox ul{margin:8px 0 8px 20px}
+/* footer */
+footer{background:var(--deep);color:rgba(255,255,255,.78);padding:40px 0 34px;margin-top:40px;font-size:.85rem}
+footer p{color:rgba(255,255,255,.82)}
+footer .measure{max-width:1080px}
+footer a{color:#fff}footer a:hover{color:#fff}
+footer .fine{font-size:.62rem;color:rgba(255,255,255,.62);line-height:1.7;margin-top:16px;
+padding-top:14px;border-top:1px solid rgba(255,255,255,.12);max-width:820px}
+/* CSP style-src 'self' forbids style attributes, so footer accents are classes */
+footer .rel{color:#fff;font-weight:600}
+footer .motto{margin-top:6px}
+/* frontier */
+.ffam{margin:30px 0 8px;border-top:2px solid var(--deep);padding-top:8px;display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.ffam h2{margin:0}
+.ffam .fc{font-size:.8rem;font-weight:600;color:var(--orange);white-space:nowrap}
+details.fd{border:1px solid var(--g200);border-radius:6px;margin:8px 0;background:#fff}
+details.fd>summary{cursor:pointer;padding:12px 16px;display:flex;justify-content:space-between;align-items:center;gap:12px;list-style:none;font-weight:500;color:var(--deep)}
+details.fd>summary::-webkit-details-marker{display:none}
+details.fd>summary::before{content:"+";color:var(--orange);font-weight:700;margin-right:10px}
+details.fd[open]>summary::before{content:"–"}
+details.fd>summary .sn{flex:1}
+details.fd>summary .sc{font-size:.72rem;color:var(--g500);white-space:nowrap}
+.fblurb{margin:0 16px 6px 42px;color:var(--g500);font-size:.9rem}
+ul.fq{margin:0 16px 14px 42px;padding:0;list-style:none}
+ul.fq li{padding:9px 0;border-top:1px dashed var(--g200)}
+ul.fq .q{display:block;font-size:.92rem;color:var(--g700)}
+ul.fq .src{display:block;font-size:.78rem;color:var(--orange);margin-top:3px}
+.dcard{border:1px solid var(--g200);border-radius:6px;padding:14px 16px;margin:8px 0;background:#fff}
+.dcard.app{border:2px solid var(--orange);background:#FCF4EF}
+.dhead{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.dhead b{color:var(--deep);font-size:1rem;font-weight:600}
+.dhead .dt{font-size:.68rem;padding:2px 9px;border:1px solid var(--g300);border-radius:20px;color:var(--g500);white-space:nowrap}
+.dcard p{margin:6px 0 0;font-size:.92rem;color:var(--g700)}
+.dcard .dfrom{font-size:.82rem;color:var(--g500);margin-top:6px}
+details.abs{margin-top:6px}
+details.abs>summary{cursor:pointer;font-size:.72rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--orange);list-style:none;display:inline-block}
+details.abs>summary::-webkit-details-marker{display:none}
+details.abs>summary::before{content:"+ "}
+details.abs[open]>summary::before{content:"– "}
+details.abs p{font-size:.86rem;color:var(--g500);margin:6px 0 2px;line-height:1.55;max-width:72ch}
+details.abs .asrc{color:var(--g300);font-size:.72rem}
+"""
+
+# Cloudflare Pages _headers. Strict CSP with NO unsafe-inline anywhere: all CSS
+# and JS are external 'self' files, fonts are self-hosted, the only image is the
+# self logo. default-src 'none' denies everything not explicitly allowed. There is
+# no backend, no form, no third-party request, so connect/form/frame all close.
+_HEADERS = f"""/*
+  Content-Security-Policy: default-src 'none'; script-src 'self' '{JSONLD_HASH}'; style-src 'self'; img-src 'self'; font-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; object-src 'none'; upgrade-insecure-requests
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  X-Frame-Options: DENY
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Resource-Policy: same-origin
+  Permissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=(), interest-cohort=()
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+"""

@@ -7,6 +7,9 @@ cannot yet diverge) is reported honestly as INFO and does NOT fake a pass.
 
 GATE A (master doc): the pilot survives adversarial review within two iterations.
 This harness is the automated first pass; a human reviewer reads the report next.
+
+One function per check, each returning a single finding dict; review() composes
+them so a reader can audit any check in isolation.
 """
 
 from __future__ import annotations
@@ -26,138 +29,149 @@ def _finding(check, severity, status, detail):
     return {"check": check, "severity": severity, "status": status, "detail": detail}
 
 
-def review(version: str = rel.DEFAULT_VERSION) -> dict:
-    out_dir = rel.RELEASES / version
-    findings: list[dict] = []
-
-    # 1. Reproducibility (rule 3).
+def _check_reproducibility(version: str) -> dict:
+    """Rule 3: the release rebuilds bit-identically from its inputs."""
     reproduced = rel.verify(version)
-    findings.append(
-        _finding(
-            "reproducibility",
-            CRITICAL,
-            "pass" if reproduced else "fail",
-            "rebuilt corpus_hash + rankings match the committed release"
-            if reproduced
-            else "rebuild does NOT match: release is defective",
-        )
+    return _finding(
+        "reproducibility",
+        CRITICAL,
+        "pass" if reproduced else "fail",
+        "rebuilt corpus_hash + rankings match the committed release"
+        if reproduced
+        else "rebuild does NOT match: release is defective",
     )
 
-    rankings = {p.stem: json.loads(p.read_text("utf-8")) for p in sorted((out_dir / "rankings").glob("*.json"))}
-    breakdowns = {p.stem: json.loads(p.read_text("utf-8")) for p in sorted((out_dir / "breakdowns").glob("*.json"))}
 
-    # 2. Provenance on every present metric (rule 2).
+def _check_provenance(breakdowns: dict) -> dict:
+    """Rule 2: every present metric carries its provenance."""
     missing_prov = []
     for wid, per_scenario in breakdowns.items():
         for scenario, row in per_scenario.items():
             for c in row.get("components", []):
                 if c.get("status") == "present":
-                    if not (c.get("source") and c.get("provenance_url") and c.get("retrieved_at")):
+                    if not (c.get("source") and c.get("provenance_url") and c.get("retrieved_at")
+                            and c.get("confidence") and c.get("license_note")):
                         missing_prov.append(f"{wid}/{scenario}/{c.get('metric')}")
-    findings.append(
-        _finding(
-            "provenance_complete",
-            CRITICAL,
-            "pass" if not missing_prov else "fail",
-            "every present metric carries source+provenance_url+retrieved_at"
-            if not missing_prov
-            else f"{len(missing_prov)} present metrics lack provenance: {missing_prov[:5]}",
-        )
+    return _finding(
+        "provenance_complete",
+        CRITICAL,
+        "pass" if not missing_prov else "fail",
+        "every present metric carries source+provenance_url+retrieved_at+confidence+license_note"
+        if not missing_prov
+        else f"{len(missing_prov)} present metrics lack provenance: {missing_prov[:5]}",
     )
 
-    # 3. No cross-domain ranking (rule 4): each ranking file is single work_type.
+
+def _check_no_cross_domain(rankings: dict) -> dict:
+    """Rule 4: each ranking file is a single work_type."""
     cross = []
     for key, rows in rankings.items():
         types = {r["work_type"] for r in rows}
         if len(types) > 1:
             cross.append((key, sorted(types)))
-    findings.append(
-        _finding(
-            "no_cross_domain",
-            CRITICAL,
-            "pass" if not cross else "fail",
-            "each ranking is a single domain" if not cross else f"cross-domain rankings: {cross}",
-        )
+    return _finding(
+        "no_cross_domain",
+        CRITICAL,
+        "pass" if not cross else "fail",
+        "each ranking is a single domain" if not cross else f"cross-domain rankings: {cross}",
     )
 
-    # 4. Missing data is recorded + penalized, never imputed (rule 8).
+
+def _check_no_silent_imputation(breakdowns: dict) -> dict:
+    """Rule 8: missing data is recorded + penalized, never imputed."""
     imputed = []
     for wid, per_scenario in breakdowns.items():
         for scenario, row in per_scenario.items():
             for c in row.get("components", []):
                 if c.get("status") == "missing" and "missing_data_penalty" not in c:
                     imputed.append(f"{wid}/{scenario}/{c.get('metric')}")
-    findings.append(
-        _finding(
-            "no_silent_imputation",
-            CRITICAL,
-            "pass" if not imputed else "fail",
-            "missing metrics carry an explicit penalty" if not imputed else f"unpenalized missing: {imputed[:5]}",
-        )
+    return _finding(
+        "no_silent_imputation",
+        CRITICAL,
+        "pass" if not imputed else "fail",
+        "missing metrics carry an explicit penalty" if not imputed else f"unpenalized missing: {imputed[:5]}",
     )
 
-    # 5. Conflict-of-interest works are flagged in the output (rule 7/12).
+
+def _check_conflict_flags(rankings: dict) -> dict:
+    """Rules 7/12: conflict-of-interest works are flagged in the output."""
     unflagged = [
         wid
         for key, rows in rankings.items()
         for r in rows
-        if r.get("conflict_flag") is None
+        if (wid := r.get("work_id")) and r.get("conflict_flag") is None
     ]
-    findings.append(
-        _finding(
-            "conflict_flag_surfaced",
-            HIGH,
-            "pass" if not unflagged else "fail",
-            "every ranked row exposes conflict_flag" if not unflagged else f"{len(unflagged)} rows missing conflict_flag",
-        )
+    return _finding(
+        "conflict_flag_surfaced",
+        HIGH,
+        "pass" if not unflagged else "fail",
+        "every ranked row exposes conflict_flag" if not unflagged else f"{len(unflagged)} rows missing conflict_flag",
     )
 
-    # 6. Coverage honestly declared.
+
+def _check_coverage_declared(out_dir: Path) -> dict:
     coverage_path = out_dir / "coverage.json"
     declared = coverage_path.exists()
-    findings.append(
-        _finding(
-            "coverage_declared",
-            HIGH,
-            "pass" if declared else "fail",
-            f"coverage.json present ({json.loads(coverage_path.read_text())['metrics_total'] if declared else 0} metrics; gaps declared)"
-            if declared
-            else "no coverage.json: gaps not declared",
-        )
+    return _finding(
+        "coverage_declared",
+        HIGH,
+        "pass" if declared else "fail",
+        f"coverage.json present ({json.loads(coverage_path.read_text())['metrics_total'] if declared else 0} metrics; gaps declared)"
+        if declared
+        else "no coverage.json: gaps not declared",
     )
 
-    # 7. Sanity: rows must be ordered by composite score desc with sequential
-    #    ranks. (The order tracks the SCENARIO score, not any single metric —
-    #    asserting single-metric order would be wrong once >1 metric is present.)
-    record = json.loads((out_dir / "release.json").read_text("utf-8"))
+
+def _check_ranking_sanity(rankings: dict) -> dict:
+    """Rows must be ordered by composite score desc with sequential ranks. (The
+    order tracks the SCENARIO score, not any single metric — asserting
+    single-metric order would be wrong once >1 metric is present.)"""
     sane = True
-    detail7 = "rows ordered by score desc with sequential ranks"
+    detail = "rows ordered by score desc with sequential ranks"
     for key, rows in rankings.items():
         scores = [r["score"] for r in rows]
         if scores != sorted(scores, reverse=True):
             sane = False
-            detail7 = f"{key}: scores not monotonically non-increasing, investigate"
+            detail = f"{key}: scores not monotonically non-increasing, investigate"
             break
         if [r["rank"] for r in rows] != list(range(1, len(rows) + 1)):
             sane = False
-            detail7 = f"{key}: ranks not sequential 1..N"
+            detail = f"{key}: ranks not sequential 1..N"
             break
-    findings.append(_finding("ranking_sanity", HIGH, "pass" if sane else "fail", detail7))
+    return _finding("ranking_sanity", HIGH, "pass" if sane else "fail", detail)
 
-    # 8. Divergence honesty (INFO): if scenarios can't diverge yet, it must be declared.
+
+def _check_divergence(record: dict) -> dict:
+    """Divergence honesty (INFO): if scenarios can't diverge yet, declare it."""
     div = record.get("divergence", {})
     identical = any(d.get("identical_ordering_across_scenarios") for d in div.values())
-    findings.append(
-        _finding(
-            "scenario_divergence",
-            INFO if identical else INFO,
-            "declared-limitation" if identical else "observed",
-            "scenarios share an ordering (only citation_count harvested), declared in release.json; "
-            "the method's divergence claim is NOT yet demonstrated and needs more metrics"
-            if identical
-            else "scenario orderings differ: divergence demonstrated",
-        )
+    return _finding(
+        "scenario_divergence",
+        INFO,
+        "declared-limitation" if identical else "observed",
+        "scenarios share an ordering (only citation_count harvested), declared in release.json; "
+        "the method's divergence claim is NOT yet demonstrated and needs more metrics"
+        if identical
+        else "scenario orderings differ: divergence demonstrated",
     )
+
+
+def review(version: str = rel.DEFAULT_VERSION) -> dict:
+    out_dir = rel.RELEASES / version
+    rankings = {p.stem: json.loads(p.read_text("utf-8")) for p in sorted((out_dir / "rankings").glob("*.json"))}
+    breakdowns = {p.stem: json.loads(p.read_text("utf-8")) for p in sorted((out_dir / "breakdowns").glob("*.json"))}
+    record = json.loads((out_dir / "release.json").read_text("utf-8"))
+
+    findings = [
+        _check_reproducibility(version),
+        _check_provenance(breakdowns),
+        _check_no_cross_domain(rankings),
+        _check_no_silent_imputation(breakdowns),
+        _check_conflict_flags(rankings),
+        _check_coverage_declared(out_dir),
+        _check_ranking_sanity(rankings),
+        _check_divergence(record),
+    ]
 
     blocking = [f for f in findings if f["severity"] in (CRITICAL, HIGH) and f["status"] == "fail"]
     gate_a = not blocking
@@ -200,9 +214,10 @@ def _write_report(summary: dict) -> None:
     ]
     if diverged:
         lines += [
-            "Two independent signals are now harvested: all-time `citation_count` and recent",
-            "momentum `sustained_readership`, and the three weighting scenarios produce **different**",
-            "orderings, so the method's central claim is demonstrated rather than asserted. Coverage is",
+            "Two independent signals are now harvested: all-time `citation_count` and",
+            "`readership_persistence` (distinct cited years, a longevity proxy), and the three",
+            "weighting scenarios produce **different** orderings, so the method's central claim",
+            "is demonstrated rather than asserted. Coverage is",
             "still partial (a second pass over OpenAlex's daily budget will fill the remaining papers),",
             "and `library_holdings` / `syllabus_adoptions` await WorldCat / Open Syllabus CSV drops;",
             "those are declared gaps, not silent zeros.",

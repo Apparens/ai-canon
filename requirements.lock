@@ -1,0 +1,19 @@
+# The AI Canon pinned toolchain (rule 3: reproducibility covers the tools too).
+# THE single dependency source: `make install`, CI, and the audit bundle's
+# reproduce harness all install from this file. Regenerate deliberately with
+# `.venv/bin/python -m pip freeze > requirements.lock` and re-add this header;
+# a bump is a reviewed change, not a side effect of whatever PyPI serves today.
+annotated-types==0.7.0
+et_xmlfile==2.0.0
+iniconfig==2.3.0
+openpyxl==3.1.5
+packaging==26.2
+pillow==12.2.0
+pluggy==1.6.0
+pydantic==2.13.4
+pydantic_core==2.46.4
+Pygments==2.20.0
+pytest==9.1.1
+PyYAML==6.0.3
+typing-inspection==0.4.2
+typing_extensions==4.15.0

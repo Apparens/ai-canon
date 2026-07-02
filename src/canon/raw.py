@@ -16,13 +16,22 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 from pathlib import Path
 
 RAW_DIR = Path(__file__).resolve().parents[2] / "data" / "raw"
 
+# Record names come from seed ids and must stay inside the source dir: plain
+# filenames only, no separators (a hostile seed id like "../x" must not escape).
+_NAME_RE = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._-]*$")
+
 
 class RawImmutableError(RuntimeError):
     """Raised on an attempt to overwrite a raw record with different bytes."""
+
+
+class RawIntegrityError(RuntimeError):
+    """Raised when a raw record's bytes no longer match the recorded sha256."""
 
 
 def _as_bytes(content: str | bytes) -> bytes:
@@ -51,6 +60,8 @@ def _save_manifest(source: str, manifest: dict) -> None:
 
 
 def raw_path(source: str, name: str) -> Path:
+    if not _NAME_RE.match(name) or not _NAME_RE.match(source):
+        raise ValueError(f"invalid raw record name: {source!r}/{name!r}")
     return RAW_DIR / source / name
 
 
@@ -59,8 +70,46 @@ def exists(source: str, name: str) -> bool:
 
 
 def read(source: str, name: str) -> bytes | None:
+    """Read a raw record, verifying its bytes against the manifest sha256.
+
+    The manifest is not write-only bookkeeping: a record that no longer hashes
+    to what was recorded at harvest time is tampered or corrupted evidence, and
+    reading it would silently poison everything derived from it."""
     path = raw_path(source, name)
-    return path.read_bytes() if path.exists() else None
+    if not path.exists():
+        return None
+    data = path.read_bytes()
+    recorded = _load_manifest(source).get(name)
+    if recorded and hashlib.sha256(data).hexdigest() != recorded["sha256"]:
+        raise RawIntegrityError(
+            f"raw/{source}/{name} does not match its manifest sha256; "
+            "the write-once evidence has been altered"
+        )
+    return data
+
+
+def verify_manifest(source: str | None = None) -> list[str]:
+    """Check every manifest entry against the bytes on disk.
+
+    Returns the list of bad records ("source/name: reason"); empty means clean.
+    Files present without a manifest entry are reported too (unrecorded writes)."""
+    problems: list[str] = []
+    sources = [source] if source else sorted(
+        p.name for p in RAW_DIR.iterdir() if p.is_dir()) if RAW_DIR.exists() else []
+    for src in sources:
+        manifest = _load_manifest(src)
+        for name, entry in sorted(manifest.items()):
+            path = RAW_DIR / src / name
+            if not path.exists():
+                problems.append(f"{src}/{name}: recorded but missing on disk")
+            elif hashlib.sha256(path.read_bytes()).hexdigest() != entry["sha256"]:
+                problems.append(f"{src}/{name}: sha256 mismatch")
+        for path in sorted((RAW_DIR / src).glob("*")):
+            if path.name in ("manifest.json", "README.md") or " " in path.name:
+                continue  # sync-junk names are ignored, never trusted
+            if path.is_file() and path.name not in manifest:
+                problems.append(f"{src}/{path.name}: on disk but not in manifest")
+    return problems
 
 
 def write_once(source: str, name: str, content: str | bytes) -> Path:

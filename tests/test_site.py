@@ -78,10 +78,31 @@ def test_no_self_referential_voice_sources():
     assert offenders == [], offenders
 
 
-def test_no_em_dashes_anywhere_in_site():
+_VERBATIM_BLOCKS = re.compile(
+    r'<details class="abs"[^>]*>.*?</details>|<ul class="fq">.*?</ul>', re.S)
+
+
+def test_no_em_dashes_in_generated_copy():
+    """[S3] House style bans em-dashes in GENERATED copy. Verbatim quotations
+    (abstracts, the frontier's verbatim quotes) are the authors' own words and
+    are exempt: mutating a quote would break the site's verbatim promise."""
     site.build()
-    offenders = [h.name for h in site.SITE.rglob("*.html") if "—" in h.read_text("utf-8")]
+    offenders = [h.name for h in site.SITE.rglob("*.html")
+                 if "—" in _VERBATIM_BLOCKS.sub("", h.read_text("utf-8"))]
     assert offenders == [], offenders
+
+
+def test_verbatim_quotes_keep_their_em_dashes():
+    """The inverse guarantee: a verbatim abstract that contains an em-dash must
+    reach the page intact (ELIZA's abstract famously opens with one)."""
+    import json
+    ab = json.loads((site.SEEDS.parent / "abstracts.json").read_text("utf-8"))
+    dash_papers = [pid for pid, e in ab.items() if "—" in e["text"]]
+    if not dash_papers:
+        pytest.skip("no stored abstract currently contains an em-dash")
+    site.build()
+    papers_html = (site.SITE / "papers.html").read_text("utf-8")
+    assert "—" in papers_html, "em-dash in a verbatim abstract was mangled at render"
 
 
 def test_accessibility_invariants():

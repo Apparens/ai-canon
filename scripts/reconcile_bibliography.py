@@ -18,6 +18,7 @@ import csv
 import json
 import re
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
@@ -52,7 +53,9 @@ def get_json(url: str, timeout: int = 25):
         try:
             with urllib.request.urlopen(req, timeout=timeout) as r:
                 return json.load(r)
-        except Exception:
+        except (urllib.error.URLError, OSError, ValueError):
+            # network/HTTP/timeout or malformed JSON: retry politely, then give
+            # up as "no data". Anything else (a bug) must surface, not be eaten.
             time.sleep(1.5 * (attempt + 1))
     return None
 
@@ -61,14 +64,14 @@ def arxiv_lookup(title: str, year):
     """Resolve a paper to an arXiv id by title (for modern ML papers absent from Crossref)."""
     import xml.etree.ElementTree as ET
     q = urllib.parse.urlencode({"search_query": f'ti:"{main_title(title)}"', "max_results": 5})
-    req = urllib.request.Request(f"http://export.arxiv.org/api/query?{q}", headers={"User-Agent": UA})
+    req = urllib.request.Request(f"https://export.arxiv.org/api/query?{q}", headers={"User-Agent": UA})
     root = None
     for attempt in range(4):
         try:
             with urllib.request.urlopen(req, timeout=30) as r:
                 root = ET.fromstring(r.read())
             break
-        except Exception:
+        except (urllib.error.URLError, OSError, ET.ParseError):
             time.sleep(3 * (attempt + 1))  # arXiv asks for slow, polite access
     if root is None:
         return None
@@ -164,7 +167,7 @@ def reconcile_paper(p: dict) -> dict:
     def cyear(it):
         try:
             return it["issued"]["date-parts"][0][0]
-        except Exception:
+        except (KeyError, IndexError, TypeError):
             return None
 
     # Title-matching candidates, then pick the one whose year is CLOSEST to ours
@@ -223,7 +226,7 @@ if __name__ == "__main__":
                  ["id", "title", "author", "year", "ol_title", "ol_author", "ol_year", "verdict", "note"],
                  OUT / "books_reconciliation.csv", "books")
     pr, pt = run(papers, reconcile_paper,
-                 ["id", "title", "year", "doi", "cr_title", "cr_year", "verdict", "note"],
+                 ["id", "title", "year", "doi", "arxiv", "cr_title", "cr_year", "verdict", "note"],
                  OUT / "papers_reconciliation.csv", "papers")
     print("\n=== GENUINE CONFLICTS (year) to adjudicate ===")
     for r in br:

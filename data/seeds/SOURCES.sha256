@@ -1,0 +1,6 @@
+# sha256 of the source workbooks behind data/seeds/ (seed v0.3, imported 2026-06-29).
+# The workbooks themselves are not in the repo; these pins let anyone with a copy
+# verify it is the exact input the committed seeds were derived from.
+f4e4d205d0d1a5aa7dfb92949011211d895b7dc10111456d23dce1e1e8003c63  AI_Canon_SeedCorpus_v03.xlsx
+b7f2267d942af11be6599105c8c2c6b104a290085abf4e5067415415a9963f2a  AI_Canon_Papers_Seed.xlsx
+88cf0ea7e791f0b31395a81bb880b2cd8e7a7db76bcdcc9d4429b68ed1a8046d  AI_Canon_Voices_Orgs_Platforms.xlsx

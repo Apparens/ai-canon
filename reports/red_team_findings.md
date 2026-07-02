@@ -1,11 +1,11 @@
-# Adversarial review: pilot-v0.2
+# Adversarial review: pilot-v0.3
 
 **GATE A (machinery): PASS** (0 blocking findings)
 
 | check | severity | status | detail |
 |---|---|---|---|
 | reproducibility | CRITICAL | pass | rebuilt corpus_hash + rankings match the committed release |
-| provenance_complete | CRITICAL | pass | every present metric carries source+provenance_url+retrieved_at |
+| provenance_complete | CRITICAL | pass | every present metric carries source+provenance_url+retrieved_at+confidence+license_note |
 | no_cross_domain | CRITICAL | pass | each ranking is a single domain |
 | no_silent_imputation | CRITICAL | pass | missing metrics carry an explicit penalty |
 | conflict_flag_surfaced | HIGH | pass | every ranked row exposes conflict_flag |
@@ -19,9 +19,10 @@ This automated pass verifies the *machinery* (reproducibility, provenance, domai
 isolation, no-imputation, conflict flags, declared coverage) and the substantive
 divergence claim.
 
-Two independent signals are now harvested: all-time `citation_count` and recent
-momentum `sustained_readership`, and the three weighting scenarios produce **different**
-orderings, so the method's central claim is demonstrated rather than asserted. Coverage is
+Two independent signals are now harvested: all-time `citation_count` and
+`readership_persistence` (distinct cited years, a longevity proxy), and the three
+weighting scenarios produce **different** orderings, so the method's central claim
+is demonstrated rather than asserted. Coverage is
 still partial (a second pass over OpenAlex's daily budget will fill the remaining papers),
 and `library_holdings` / `syllabus_adoptions` await WorldCat / Open Syllabus CSV drops;
 those are declared gaps, not silent zeros.

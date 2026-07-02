@@ -181,6 +181,11 @@ class Release(_Frozenish):
     corpus_hash: str
     method_version: str
     changelog_ref: str
+    # The published record also carries its scope and per-domain divergence
+    # summary (release.json); typed loosely here, their exact content is pinned
+    # by the frozen-release tree hashes ([S15]) rather than by the schema.
+    scope: dict = Field(default_factory=dict)
+    divergence: dict = Field(default_factory=dict)
 
 
 class Challenge(_Frozenish):

@@ -8,10 +8,10 @@
 PY ?= .venv/bin/python
 export PYTHONPATH := src
 
-.PHONY: install ingest harvest assemble score score-papers release verify-release redteam site test guard all
+.PHONY: install ingest harvest assemble score score-papers release verify-release redteam site test guard gate all
 
 install:
-	$(PY) -m pip install -q pydantic openpyxl pyyaml pytest
+	$(PY) -m pip install -q -r requirements.lock
 
 ingest:
 	$(PY) -m canon.ingest

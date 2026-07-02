@@ -6,7 +6,7 @@ book-0004,"Genesis: Artificial Intelligence, Hope, and the Human Spirit","Henry 
 book-0005,ChatGPT and the Future of AI: The Deep Language Revolution,Terrence J. Sejnowski,2024,"ChatGPT, AI, and the Future of Writing",Avery Elizabeth Hurt,2024,REVIEW_MATCH,title_sim=0.84 author_ok=False (may be DB gap)
 book-0006,"Tech Agnostic: How Technology Became the World's Most Powerful Religion, and Why It Desperately Needs a Reformation",Greg Epstein,2024,Tech Agnostic,Greg M. Epstein,2024,OK,
 book-0007,The Line: AI and the Future of Personhood,James Boyle,2024,Cross the line,James Patterson,2016,REVIEW_MATCH,title_sim=0.73 author_ok=False (may be DB gap)
-book-0008,Personalized: Customer Strategy in the Age of AI,"Mark Abraham, David C. Edelman",2024,Personality,Lawrence A. Pervin; Daniel Cervone; Oliver P. John,1975,REVIEW_MATCH,title_sim=0.78 author_ok=False (may be DB gap)
+book-0008,Personalized: Customer Strategy in the Age of AI,"Mark Abraham, David C. Edelman",2024,Personal,Lee Child,2014,REVIEW_MATCH,title_sim=0.80 author_ok=False (may be DB gap)
 book-0009,Robot-Proof (Revised and Updated Edition): Higher Education in the Age of Artificial Intelligence,Joseph E. Aoun,2024,"I, Robot",Isaac Asimov,1950,REVIEW_MATCH,title_sim=0.83 author_ok=False (may be DB gap)
 book-0010,Hands-On Large Language Models: Language Understanding and Generation,"Jay Alammar, Maarten Grootendorst",2024,Gifted hands,Ben Carson; Cecil Murphey; Benjamin S. Carson Sr.,1990,REVIEW_MATCH,title_sim=0.59 author_ok=False (may be DB gap)
 book-0011,"AI Snake Oil: What Artificial Intelligence Can Do, What It Can't, and How to Tell the Difference","Arvind Narayanan, Sayash Kapoor",2024,AI Snake Oil,Arvind Narayanan; Sayash Kapoor,2024,OK,
@@ -112,7 +112,7 @@ book-0110,Scary Smart: The Future of Artificial Intelligence and How You Can Sav
 book-0111,AI 2041: Ten Visions for Our Future,"Kai-Fu Lee, Chen Qiufan",2021,AI 2041,Kai-Fu Lee; 陈楸帆,2021,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
 book-0112,"God, Human, Animal, Machine: Technology, Metaphor, and the Search for Meaning",Meghan O'Gieblyn,2021,"God, Human, Animal, Machine",Meghan O'Gieblyn,2021,OK,
 book-0113,Machine Learning: revised and updated edition,Ethem Alpaydin,2021,Machine learning,Kevin P. Murphy; Kevin P. Murphy,2012,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
-book-0114,The AI Marketing Canvas: A Five-Stage Road Map to Implementing Artificial Intelligence in Marketing,"Raj Venkatesan, Jim Lecinski",2021,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0114,The AI Marketing Canvas: A Five-Stage Road Map to Implementing Artificial Intelligence in Marketing,"Raj Venkatesan, Jim Lecinski",2021,"The AI Marketing Canvas, Second Edition","Rajkumar Venkatesan,Jim Lecinski",2026,REVIEW_MATCH,title_sim=0.75 author_ok=True (may be DB gap)
 book-0115,Artificial Intelligence: A Modern Approach (Fourth Edition),"Stuart Russell, Peter Norvig",2021,Artificial Intelligence,Stuart J. Russell; Peter Norvig,1994,REVIEW_YEAR,year gap 2021 vs OL 1994 (OL=earliest edition)
 book-0116,The AI-First Company: How to Compete and Win with Artificial Intelligence,Ash Fontana,2021,The AI Con,Emily M. Bender; Alex Hanna,2025,REVIEW_MATCH,title_sim=0.75 author_ok=False (may be DB gap)
 book-0117,The Myth of Artificial Intelligence: Why Computers Can't Think the Way We Do,Erik J. Larson,2021,The Myth of Artificial Intelligence,Erik J Larson,2022,OK,
@@ -232,7 +232,7 @@ book-0230,Interpretable Machine Learning: A Guide for Making Black Box Models Ex
 book-0231,Prompt Engineering for LLMs,"John Berryman, Albert Ziegler",2024,Prompt Engineering for LLMs,John Berryman; Albert Ziegler,2024,OK,
 book-0232,"Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow (3rd ed.)",Aurelien Geron,2022,Gifted hands,Ben Carson; Cecil Murphey; Benjamin S. Carson Sr.,1990,REVIEW_MATCH,title_sim=0.59 author_ok=False (may be DB gap)
 book-0233,Deep Learning with Python (2nd ed.),Francois Chollet,2021,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
-book-0234,Deep Learning for Coders with fastai and PyTorch,"Jeremy Howard, Sylvain Gugger",2020,Deep Learning for Coders with Fastai and Pytorch,Jeremy Howard; Sylvain Gugger,2020,OK,
+book-0234,Deep Learning for Coders with fastai and PyTorch,"Jeremy Howard, Sylvain Gugger",2020,Deep Learning for Coders with fastai and Pytorch,Jeremy Howard; Sylvain Gugger,2020,OK,
 book-0235,Deep Learning with PyTorch,"Eli Stevens, Luca Antiga, Thomas Viehmann",2020,Deep Learning with Pytorch,Eli Eli Stevens; Luca Luca Antiga; Thomas Thomas Viehmann,2020,OK,
 book-0236,Grokking Deep Learning,Andrew W. Trask,2019,Grokking Deep Learning,Andrew Trask,2019,OK,
 book-0237,Neural Networks and Deep Learning,Michael Nielsen,2015,Neural Networks and Deep Learning,Charu C. Aggarwal,2018,REVIEW_MATCH,title_sim=1.00 author_ok=False (may be DB gap)
@@ -572,3 +572,40 @@ book-0570,Cyberselfish: A Critical Romp Through The Terribly Libertarian Culture
 book-0571,Studying Those Who Study Us: An Anthropologist in the World of Artificial Intelligence,Diana E. Forsythe,2002,Studying Those Who Study Us,Diana E. Forsythe,2001,OK,
 book-0572,Algorithmic Capital: Resistance in the Age of Artificial Intelligence,Jonathan Durand Folco and Jonathan Martineau,2026,Global Algorithmic Capital Markets,Walter Mattli,2019,REVIEW_MATCH,title_sim=0.72 author_ok=False (may be DB gap)
 book-0573,Who Wrote This? How AI and the Lure of Efficiency Threaten Human Writing,Naomi S. Baron,2023,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0574,"Rengong Zhineng ji qi Yingyong (人工智能及其应用, Artificial Intelligence and Its Applications)",蔡自兴、徐光祐,2010,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0575,"Rengong Zhineng Daolun (人工智能导论（第5版）, Introduction to Artificial Intelligence, 5th ed.)",王万良,2020,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0576,"Zuiyouhua Lilun yu Fangfa (最优化理论与方法, Optimization Theory and Methods)",袁亚湘、孙文瑜,1997,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0577,"Shenjing Wangluo Xitong Lilun (神经网络系统理论, Neural Network System Theory)",焦李成,1990,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0578,"Gailülun yu Shuli Tongji (概率论与数理统计, Probability Theory and Mathematical Statistics)",陈希孺,2009,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0579,"Shuju Kexue (数据科学, Data Science)",朝乐门,2016,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0580,"Shenru Qianchu Tu Shenjing Wangluo: GNN Yuanli Jiexi (深入浅出图神经网络：GNN原理解析, A Concise Introduction to Graph Neural Networks)","刘忠雨, 李彦霖, 周洋",2019,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0581,"Zhishi Tupu: Gainian yu Jishu (知识图谱：概念与技术, Knowledge Graphs: Concepts and Technology)",肖仰华 等,2020,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0582,"Tuijian Xitong yu Shendu Xuexi (推荐系统与深度学习, Recommender Systems and Deep Learning)","黄昕, 赵伟, 王本友, 吕慧伟, 杨敏",2019,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0583,"Shenru Qianchu Qianghua Xuexi: Yuanli Rumen (深入浅出强化学习：原理入门, A Concise Introduction to Reinforcement Learning)","郭宪, 方勇纯",2018,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0584,"MLOps Gongcheng Shijian (MLOps工程实践：工具、技术与企业级应用, MLOps Engineering Practice)",陈雨强 等,2023,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0585,"Da Yuyan Moxing (大语言模型, Large Language Models)","赵鑫, 李军毅, 周昆, 唐天一, 文继荣",2024,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0586,"Shendu Qianghua Xuexi: Xueshu Qianyan yu Shizhan Yingyong (深度强化学习：学术前沿与实战应用, Deep Reinforcement Learning: Frontiers and Applications)","刘驰, 王占健, 戴子彭 等",2020,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0587,"Shuzi Tuxiang Chuli (数字图像处理, Digital Image Processing)",姚敏,2012,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0588,"Tuxiang Gongcheng Shangce (图像工程（上册）, Image Engineering Volume 1)",章毓晋,2006,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0589,"Jisuanji Shijue Jiaocheng (计算机视觉教程, Computer Vision Tutorial)",章毓晋,2011,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0590,"Moshi Shibie (模式识别, Pattern Recognition)",边肇祺、张学工,2000,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0591,"Jiqiren Xue (机器人学, Robotics)",蔡自兴,2009,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0592,"Yuyin Xinhao Chuli (语音信号处理, Speech Signal Processing)",韩纪庆、张磊、郑铁然,2013,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0593,"Zhe Jiushi Sousuo Yinqing (这就是搜索引擎：核心技术详解, This Is Search Engine: Core Technologies Explained)",张俊林,2012,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0594,"Rengong Zhineng de Shenhua huo Beige (人工智能的神话或悲歌, The Myth or Elegy of Artificial Intelligence)",赵汀阳,2022,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0595,"Renlei Hai You Weilai Ma (人类还有未来吗, Does Humanity Still Have a Future?)",何怀宏,2020,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0596,"Rengong Zhineng: Xunfu Saiweitan (人工智能：驯服赛维坦, Artificial Intelligence: Taming Leviathan)",高奇琦,2018,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0597,"Xinxi Shidai de Shijie Gongchang (信息时代的世界工厂：新工人阶级的网络社会, The World's Factory in the Information Age)",邱林川,2013,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0598,"Zhineng yu Zhihui (智能与智慧：人工智能遇见中国哲学家, Intelligence and Wisdom: AI Meets Chinese Philosophers)",宋冰 编,2020,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0599,"Rengong Zhineng (人工智能（国家人工智能战略行动抓手）, Artificial Intelligence)",腾讯研究院 等,2017,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0600,"Quanqiu Keji Tongshi (全球科技通史, A Global History of Science and Technology)",吴军,2019,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0601,"Rengong Zhineng yu Zhili (人工智能与治理, AI and Governance)",清华大学战略与安全研究中心,2022,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0602,"Quanli zhi Zhi (权力之治：人工智能时代的算法规制, The Governance of Power: Algorithm Regulation in the Age of AI)",张凌寒,2021,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0603,"Rengong Zhineng Zhili Kuangjia yu Shishi Lujing (人工智能治理框架与实施路径, AI Governance Framework and Implementation Pathways)",薛澜、梁正、张辉、曾雄 等,2023,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0604,"Rengong Zhineng yu Falu (人工智能与法律, Artificial Intelligence and Law)",冯子轩 等,2020,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0605,"Rang Falu Ren Dudong Rengong Zhineng (让法律人读懂人工智能, Making AI Comprehensible to Legal Professionals)",华宇元典法律人工智能研究院,2019,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0606,"Rengong Zhineng Lunli Daolun (人工智能伦理导论, Introduction to AI Ethics)",莫宏伟,2022,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0607,"Rengong Zhineng Lunli (人工智能伦理, AI Ethics)",于江生,2022,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0608,"Rengong Zhineng Lunli Yinlun (人工智能伦理引论, An Introduction to AI Ethics)",杜严勇,2020,,,,NOT_FOUND,no OpenLibrary hit (likely DB gap)
+book-0609,Waiting for Robots: The Hired Hands of Automation,Antonio A. Casilli,2025,Waiting for Robots,Antonio A. Casilli; Sarah T. Roberts; Saskia Brown,2025,OK,
+book-0610,Responsible Artificial Intelligence: How to Develop and Use AI in a Responsible Way,Virginia Dignum,2019,Responsible Artificial Intelligence,Virginia Dignum,2019,OK,

@@ -20,6 +20,7 @@ from __future__ import annotations
 import json
 import unicodedata
 from datetime import date
+import os
 from pathlib import Path
 
 import openpyxl
@@ -29,8 +30,10 @@ from .schema import Edge, Organization, Person, Platform, Work
 _REPO_ROOT = Path(__file__).resolve().parents[2]
 SEEDS_DIR = _REPO_ROOT / "data" / "seeds"
 
-# Source workbooks live alongside the repo for the pilot import.
-SOURCE_DIR = Path.home() / "Desktop" / "files"
+# Source workbooks live alongside the repo for the pilot import. Overridable so
+# ingest is runnable off the author's machine (CANON_SOURCE_DIR=/path make ingest);
+# the committed seeds are the canonical output either way.
+SOURCE_DIR = Path(os.environ.get("CANON_SOURCE_DIR", str(Path.home() / "Desktop" / "files")))
 BOOKS_XLSX = SOURCE_DIR / "AI_Canon_SeedCorpus_v03.xlsx"
 PAPERS_XLSX = SOURCE_DIR / "AI_Canon_Papers_Seed.xlsx"
 CONTEXT_XLSX = SOURCE_DIR / "AI_Canon_Voices_Orgs_Platforms.xlsx"

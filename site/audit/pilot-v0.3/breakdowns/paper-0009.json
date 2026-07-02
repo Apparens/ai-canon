@@ -1,0 +1,155 @@
+{
+  "academic": {
+    "canonical_title": "Man-Computer Symbiosis",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.004038,
+        "license_note": "OpenAlex, CC0 metadata",
+        "metric": "citation_count",
+        "normalized": 0.008076,
+        "provenance_url": "https://openalex.org/W2141373701",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 1795.0,
+        "weight": 0.5
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.1,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.2
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.05,
+        "license_note": "OpenAlex, CC0 metadata",
+        "metric": "readership_persistence",
+        "normalized": 1.0,
+        "provenance_url": "https://openalex.org/W2141373701",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 15.0,
+        "weight": 0.05
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 65,
+    "scenario": "academic",
+    "score": -0.170962,
+    "work_id": "paper-0009",
+    "work_type": "paper"
+  },
+  "broad_influence": {
+    "canonical_title": "Man-Computer Symbiosis",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.001615,
+        "license_note": "OpenAlex, CC0 metadata",
+        "metric": "citation_count",
+        "normalized": 0.008076,
+        "provenance_url": "https://openalex.org/W2141373701",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 1795.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.4,
+        "license_note": "OpenAlex, CC0 metadata",
+        "metric": "readership_persistence",
+        "normalized": 1.0,
+        "provenance_url": "https://openalex.org/W2141373701",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 15.0,
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 52,
+    "scenario": "broad_influence",
+    "score": 0.201615,
+    "work_id": "paper-0009",
+    "work_type": "paper"
+  },
+  "governance_practitioner": {
+    "canonical_title": "Man-Computer Symbiosis",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.002019,
+        "license_note": "OpenAlex, CC0 metadata",
+        "metric": "citation_count",
+        "normalized": 0.008076,
+        "provenance_url": "https://openalex.org/W2141373701",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 1795.0,
+        "weight": 0.25
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.15,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.3
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.1,
+        "license_note": "OpenAlex, CC0 metadata",
+        "metric": "readership_persistence",
+        "normalized": 1.0,
+        "provenance_url": "https://openalex.org/W2141373701",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 15.0,
+        "weight": 0.1
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.175,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.35
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 57,
+    "scenario": "governance_practitioner",
+    "score": -0.222981,
+    "work_id": "paper-0009",
+    "work_type": "paper"
+  }
+}

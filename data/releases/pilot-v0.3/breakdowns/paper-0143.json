@@ -1,0 +1,155 @@
+{
+  "academic": {
+    "canonical_title": "Emergent Abilities of Large Language Models",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.002327,
+        "license_note": "OpenAlex, CC0 metadata",
+        "metric": "citation_count",
+        "normalized": 0.004654,
+        "provenance_url": "https://openalex.org/W4283026156",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 1035.0,
+        "weight": 0.5
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.1,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.2
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.017857,
+        "license_note": "OpenAlex, CC0 metadata",
+        "metric": "readership_persistence",
+        "normalized": 0.357143,
+        "provenance_url": "https://openalex.org/W4283026156",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 6.0,
+        "weight": 0.05
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 123,
+    "scenario": "academic",
+    "score": -0.204816,
+    "work_id": "paper-0143",
+    "work_type": "paper"
+  },
+  "broad_influence": {
+    "canonical_title": "Emergent Abilities of Large Language Models",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.000931,
+        "license_note": "OpenAlex, CC0 metadata",
+        "metric": "citation_count",
+        "normalized": 0.004654,
+        "provenance_url": "https://openalex.org/W4283026156",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 1035.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.142857,
+        "license_note": "OpenAlex, CC0 metadata",
+        "metric": "readership_persistence",
+        "normalized": 0.357143,
+        "provenance_url": "https://openalex.org/W4283026156",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 6.0,
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 123,
+    "scenario": "broad_influence",
+    "score": -0.056212,
+    "work_id": "paper-0143",
+    "work_type": "paper"
+  },
+  "governance_practitioner": {
+    "canonical_title": "Emergent Abilities of Large Language Models",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.001164,
+        "license_note": "OpenAlex, CC0 metadata",
+        "metric": "citation_count",
+        "normalized": 0.004654,
+        "provenance_url": "https://openalex.org/W4283026156",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 1035.0,
+        "weight": 0.25
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.15,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.3
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.035714,
+        "license_note": "OpenAlex, CC0 metadata",
+        "metric": "readership_persistence",
+        "normalized": 0.357143,
+        "provenance_url": "https://openalex.org/W4283026156",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 6.0,
+        "weight": 0.1
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.175,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.35
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 123,
+    "scenario": "governance_practitioner",
+    "score": -0.288122,
+    "work_id": "paper-0143",
+    "work_type": "paper"
+  }
+}

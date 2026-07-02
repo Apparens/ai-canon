@@ -10,7 +10,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-dev = ["pytest"]
+dev = ["pytest", "Pillow"]  # Pillow renders og-image/render_og.py
 
 [build-system]
 requires = ["setuptools>=68"]

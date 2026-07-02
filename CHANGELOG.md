@@ -2,7 +2,134 @@
 
 Append-only. Scoring-logic or weight changes must land with an entry here (rule 10).
 
-## Chinese-language papers, and an importer that admits them (2026-06-30)
+## pilot-v0.3: full-provenance hash, the override channel, fail-loud penalty (2026-07-02) <a id="pilot-v03"></a>
+
+A new frozen release. Weights and both signals are UNCHANGED; ranks are identical to
+pilot-v0.2. What changes is what the hash protects and what the machinery enforces:
+
+- corpus_hash now covers the FULL provenance of every metric row (value, source,
+  provenance_url, retrieved_at, confidence, license_note), so tampering any provenance field
+  fails verification exactly like tampering the value would. New corpus_hash cd8459a7…,
+  verified bit-identical on rebuild. `release --verify` additionally re-compares every
+  per-work breakdown and coverage.json, and checks the raw evidence cache against its
+  harvest-time manifest first.
+- Breakdown components now carry license_note (every number on a work page shows the license
+  basis of its source, e.g. "OpenAlex, CC0 metadata"), and the adversarial review's
+  provenance check requires confidence and license_note downstream, not just at ingestion.
+- Rule 5's override channel is now code, not prose: an ambiguous entity-resolution pair
+  (similarity 0.85 to 0.95) is BLOCKED until a human decision exists in data/overrides/,
+  written through the ontology's Override model, whose mandatory-rationale validator now
+  actually runs; records are append-only. Tested end to end.
+- Rule 8 fail-loud: a scenarios.yaml missing its missing_data_penalty_factor now raises
+  instead of silently disabling the penalty with a 0.0 default.
+- Housekeeping inside the scoring core: breakdown() split under the [S19] size limit (new
+  gate check: no function over 60 lines, no module over 600 in src/canon), the corpus loaders
+  are public API instead of underscore-imports, and the domain min-max no longer rebuilds
+  per-work dicts quadratically. None of this changes any score.
+
+## Hardening and decomposition: render boundary, toolchain, god-module split (2026-07-02)
+
+No scoring change; ranks, weights, and both released corpus_hash values are unchanged, and
+the generated site was verified byte-identical across the refactor (A/B tree hash).
+
+- Render-boundary hardening ([S18], new gate): every `safe_url()` result in an href is now
+  also HTML-escaped (safe_url passes quotes through by design; seven sites fixed); model page
+  ids, frontier statistics, canonical/og:url, and the mailto challenge link (now URL-encoded)
+  are escaped; work-page titles no longer double-escape; the footer's inline style attributes,
+  which the site's own CSP silently blocked, became classes. Hostile-fixture tests inject
+  attack strings through every renderer and assert no breakout.
+- Verbatim means verbatim: quoted abstracts and frontier quotes are HTML-escaped but no longer
+  dash-rewritten, so an author's em-dash survives to the page; the no-em-dash rule [S3] is
+  scoped to generated copy and both directions are tested (no em-dash in copy, em-dash kept
+  in quotes). The cover image is now consistently described as AI-modified, matching the
+  card's own label; the social card was re-rendered at pilot-v0.2.
+- Evidence integrity: `raw.read()` now verifies every record against its harvest-time
+  manifest sha256 and refuses altered bytes; `release --verify` checks the whole raw cache
+  first; raw record names reject path separators; harvester responses are size-capped.
+- Toolchain pinned ([S20], new gate): requirements.lock is the single dependency source for
+  `make install`, CI, and the audit bundle's reproduce harness; the gate fails on venv drift.
+  A one-off scan of the full git history found no secret signatures; the secrets guard now
+  also knows modern key shapes and scans the local pilot-frontier workspace when present.
+- The site generator god-module (1,532 lines) is now an orchestrator plus a `canon.sitegen`
+  package (theme, shell, page renderers, JS assets), verified byte-identical A/B; the
+  adversarial-review harness is one function per check; corpus counts in page copy are
+  computed from the seed data instead of hand-typed (they used to require a manual sweep on
+  every corpus change); the release version is bumped in one place; the governance record now
+  validates through the frozen ontology's Release model before it is written.
+- Gate honesty: [S12] architecture drift is now two-directional (a documented guardrail with
+  no check fails, and so does an undocumented check); the pytest bucket is labelled with what
+  it actually asserts; [S11] also rejects cloud-sync duplicate files in the deployable.
+
+## Evidence currency: registers, abstract provenance, disclosure completeness (2026-07-02)
+
+No scoring change. This pass makes the trust surface current and every quoted abstract
+checkable, and adds gate [S17] so it stays that way.
+
+- Validation registers refreshed over the FULL corpus: 610/610 books against OpenLibrary
+  (327 OK; 12 year flags, all edition-vs-first-publication artifacts plus two bad OpenLibrary
+  records, kept for adjudication) and 269/269 papers against Crossref and arXiv (173 OK,
+  21 OK-without-DOI; 67 DOIs and 106 arXiv ids attached). The parallel run degraded under API
+  throttling, so verified rows from the prior run were kept (a verified hit does not rot) and
+  a sequential, polite arXiv pass resolved 72 more. The remaining REVIEW rows are database
+  coverage gaps (mostly the Chinese spine and pre-digital classics), recorded, not hidden.
+- Every one of the 216 verbatim abstracts now carries source, source URL, retrieved date, and
+  a license note. 145 OpenAlex texts were matched exactly against the write-once raw cache
+  (the abstract must reconstruct from the cached record, or no URL is recorded); all 64 arXiv
+  texts were verified against the live arXiv abstract (similarity 0.93 or better, most exact);
+  the 7 Chinese journal abstracts already carried their URLs. Zero unverified URLs, zero gaps.
+- License honesty: LICENSE-DATA claimed the corpus republishes no copyrighted text, which the
+  verbatim abstracts contradicted. The abstracts are now explicitly carved OUT of the CC BY
+  grant (they remain the authors'/publishers', quoted for identification and scholarship, with
+  a rights-holder removal route), and the exception is stated on the data page, the papers
+  page, and the footer.
+- AI-use disclosure completed: the footer and method page now also name the AI-drafted paper
+  significance notes and the AI-run, human-checked frontier review (the papers page says so at
+  point of display); abstracts are explicitly labelled as the authors' words, not AI text, and
+  now link to their source. The social card is re-rendered at PILOT v0.2 and the og:image alt
+  text notes the AI-use label.
+- Voices register: the last 5 QUEUED rows content-verified (Chollet, Schmidhuber, Delangue
+  against their live sources; Qiang Yang's source upgraded to his personal HKUST page, which
+  also covers federated learning and the WeBank role; Andrew Yao's bot-gated ACM source
+  replaced with the live Tsinghua IIIS page). Zero QUEUED remain.
+- Display bugs fixed: two CSS content escapes ("\2013") were octal-mangled by Python into a
+  control character plus "3", breaking the expand markers on abstracts and library
+  descriptions; and 3 abstracts carried OpenAlex indexing artifacts (JATS sup tags on Shannon,
+  an IEEE end-of-text marker on Rabiner, an HTML entity in Toolformer), now stripped
+  surgically while leaving author-written angle-bracket text intact.
+- New gate [S17] evidence currency: registers must cover the corpus exactly, no bio publishes
+  from an unchecked source, every abstract carries provenance or a declared gap, and the
+  license carve-out cannot silently disappear.
+
+## Governance correction: the change process now enforces itself (2026-07-02)
+
+Scoring-logic change recorded retroactively (rule 10). On 2026-06-29 (commit 8845a59) the
+second signal was redefined: `sustained_readership` (citations in 2023-2025, a recency proxy
+wearing a longevity name) became `readership_persistence` (the number of distinct years a work
+keeps being cited, a genuine longevity proxy). That commit renamed the metric in scenarios.yaml,
+the fixtures, and the harvester, and should have landed with an entry here. It did not. This
+entry is the retroactive record; the definition itself does not change today.
+
+- pilot-v0.1 was modified after its creation (breakdowns and REPRODUCE.md on 2026-06-29, its
+  audit bundle on 2026-06-30), violating the append-only promise (rule 11). The files are kept
+  exactly as they stand: `data/releases/pilot-v0.1/ADDENDUM.md` records the incident, the
+  original bytes remain in git history, and the bundle still self-verifies offline
+  (corpus_hash MATCH, re-checked 2026-07-02).
+- Releases are now frozen mechanically. `data/releases/FROZEN.json` pins pilot-v0.1 and
+  pilot-v0.2 to tree hashes; `release --check-frozen` verifies every pin, `release.build()` and
+  `bundle()` refuse a frozen version, and the registry itself is append-only (no re-freeze).
+- Two new gate checks: [S15] frozen releases are byte-immutable; [S16] a commit touching
+  scenarios.yaml or src/canon/score.py must carry a CHANGELOG.md entry in the same commit.
+- Root cause closed: the test suite used to rebuild the published release in place on every
+  run, which is how v0.1 was silently rewritten. Release tests now build a scratch version;
+  the red-team test reviews the committed release as an outside reader would.
+- Corrected two stale strings that still described the old metric (the divergence note in
+  release.py and the reviewer note in redteam.py) and regenerated reports/red_team_findings.md.
+  Corrected an overclaim on the press page and in ARCHITECTURE.md: the conflict-flagged book is
+  subject to the same rules as everything else, but books carry no metrics yet, so it is not
+  "scored" and the copy no longer says it is.
+
+No scoring change today: weights, method_version, and both released corpus_hash values are
+unchanged.
 
 No scoring change: the new papers are candidates in the Chinese citation ecosystem, which
 has no harvester yet, so they are browsable, not scored.

@@ -15,7 +15,7 @@
 14,Cordelia Schmid,https://thoth.inrialpes.fr/~schmid/,200,LIVE,,VERIFIED,role re-verified current 2026-06-30; source link live,,,institutional/personal academic source.
 15,David Silver,https://davidstarsilver.wordpress.com/,200,LIVE,,CORRECTED,CORRECTED 2026-06-29: founded Ineffable Intelligence (left DeepMind Jan 2026); still UCL.,2,volatile current role,"profile_source. The phrase ""until recently"" is volatile and should be replaced with dated role language before publication."
 16,Diederik P. Kingma,https://dpkingma.com/,200,LIVE,,VERIFIED,VERIFIED 2026-06-29: current role confirmed.,2,volatile current role,profile_source. Revalidate current Anthropic role.
-17,François Chollet,https://fchollet.com/,200,LIVE,,QUEUED,,3,revalidate,profile_source. Revalidate Ndea / ARC Prize role.
+17,François Chollet,https://fchollet.com/,200,LIVE,,VERIFIED,"content-verified 2026-07-02: Keras creator, Deep Learning with Python, Ndea + ARC Prize co-founder all on page; ARC benchmark via On the Measure of Intelligence (2019) listed there",3,revalidate,profile_source. Revalidate Ndea / ARC Prize role.
 18,Grant Sanderson,https://www.3blue1brown.com/about/,200,LIVE,,VERIFIED,role re-verified current 2026-06-30; source link live,,,profile_source.
 19,Ian Goodfellow,https://scholar.google.com/citations?hl=en&user=iYN86KEAAAAJ,200,LIVE,,SOURCE-UPGRADED,2026-06-29: replaced Google Scholar (serves bot-block to users) with official personal site.,,,paper_metadata/profile_source. Add publisher page for textbook before publication.
 20,Jason Wei,https://www.jasonwei.net/,200,LIVE,,CORRECTED,CORRECTED 2026-06-29: at Meta Superintelligence Labs since Jul 2025 (was OpenAI).,2,volatile current role,"profile_source. Current role volatile, revalidate."
@@ -39,7 +39,7 @@
 38,Song-Chun Zhu,https://www.ai.pku.edu.cn/en/info/1386/1665.htm,200,LIVE,,VERIFIED,role re-verified current 2026-06-30; source link live,,,institutional_master_source.
 39,Tomas Mikolov,https://signalprocessingsociety.org/newsletter/2021/07/industry-leaders-signal-processing-and-machine-learning-tomas-mikolov,200,LIVE,,CORRECTED,CONTENT PASS 2026-06-29: role web-verified + corrected.,,,profile_source. Add paper metadata for word2vec.
 40,Tri Dao,https://tridao.me/,200,LIVE,,SOURCE-UPGRADED,SEV3 2026-06-29: source upgraded -> https://www.cs.princeton.edu/people/profile/td8762,3,revalidate,profile_source. Revalidate Together AI role.
-41,Qiang Yang,https://cse.hkust.edu.hk/admin/people/faculty/profile/qyang,200,LIVE,,QUEUED,,,,institutional_master_source.
+41,Qiang Yang,https://www.cse.ust.hk/~qyang/,200,LIVE,,SOURCE-UPGRADED,2026-07-02: source -> personal HKUST page; all bio claims verified on page incl. federated learning (FATE co-founder) and WeBank Chief AI Officer 2018-2025,,,institutional_master_source.
 42,Yejin Choi,https://yejinc.github.io/,200,LIVE,,VERIFIED,role re-verified current 2026-06-30; source link live,,,profile_source. Add Stanford official profile.
 43,Zhi-Hua Zhou,https://books.google.de/books?id=MgR-wwEACAAJ,200,LIVE,,CORRECTED,SEV3 2026-06-29: role corrected + source upgraded.,3,weak/needs-stronger source,publication metadata. Needs stronger institutional source.
 44,Anton Korinek,https://www.korinek.com/,200,LIVE,,SOURCE-UPGRADED,SEV3 2026-06-29: source upgraded -> https://economics.virginia.edu/people/anton-korinek,3,weak/needs-stronger source,profile_source. Add UVA official source before publication.
@@ -76,7 +76,7 @@
 75,Timnit Gebru,https://www.aifirstprinciples.org/contributors/timnit-gebru,200,LIVE,,VERIFIED,role re-verified current 2026-06-30; source link live,,,profile_source. Needs DAIR source as master.
 76,Virginia Dignum,https://www.umu.se/en/staff/virginia-dignum/,200,LIVE,,VERIFIED,role re-verified current 2026-06-30; source link live,,,institutional_master_source.
 77,Andrew Barto,https://awards.acm.org/about/2024-turing,403,GATED,,VERIFIED,role re-verified current 2026-06-30; source link live,,,institutional_master_source.
-78,Andrew Yao / Yao Qizhi,https://amturing.acm.org/award_winners/yao_1611524.cfm,403,GATED,,QUEUED,,,,institutional_master_source.
+78,Andrew Yao / Yao Qizhi,https://iiis.tsinghua.edu.cn/en/,200,LIVE,,SOURCE-UPGRADED,"2026-07-02: ACM Turing page bot-gated; source -> Tsinghua IIIS (EN): Turing Award 2000, Yao Class founded 2005, IIIS role all on page; complexity-theory claim per the ACM Turing citation",,,institutional_master_source.
 79,Bernhard Schölkopf,https://scholar.google.com/citations?hl=en&user=DZ-fHPgAAAAJ,200,LIVE,,SOURCE-UPGRADED,SEV3 2026-06-29: source upgraded -> https://ellis.eu/person/bernhard-scholkopf,3,weak/needs-stronger source,paper/profile source. Needs MPI or ELLIS official URL.
 80,Christopher Manning,https://profiles.stanford.edu/chris-manning,200,LIVE,,VERIFIED,role re-verified current 2026-06-30; source link live,,,institutional_master_source.
 81,Daphne Koller,https://www.insitro.com/leadership/daphne-koller/,200,LIVE,,VERIFIED,role re-verified current 2026-06-30; source link live,,,institutional/company source. Former Stanford role should be separately sourced if retained.
@@ -84,7 +84,7 @@
 83,Geoffrey Hinton,https://www.utoronto.ca/news/geoffrey-hinton-wins-nobel-prize,200,LIVE,,VERIFIED,role re-verified current 2026-06-30; source link live,,,institutional_master_source.
 84,John Hopfield,https://www.nobelprize.org/prizes/physics/2024/press-release/,200,LIVE,,VERIFIED,role re-verified current 2026-06-30; source link live,,,institutional_master_source.
 85,Judea Pearl,https://amturing.acm.org/award_winners/pearl_2658896.cfm,403,GATED,,VERIFIED,role re-verified current 2026-06-30; source link live,,,institutional_master_source.
-86,Jürgen Schmidhuber,https://www.kaust.edu.sa/study/faculty/juergen-schmidhuber,200,LIVE,https://www.kaust.edu.sa/en/study/faculty/juergen-schmidhuber,QUEUED,,,,institutional_master_source.
+86,Jürgen Schmidhuber,https://www.kaust.edu.sa/study/faculty/juergen-schmidhuber,200,LIVE,https://www.kaust.edu.sa/en/study/faculty/juergen-schmidhuber,VERIFIED,"content-verified 2026-07-02: LSTM, meta-learning since 1987, IDSIA scientific director, KAUST AI Initiative director all on page",,,institutional_master_source.
 87,Kunihiko Fukushima,https://www.scholarpedia.org/article/Neocognitron,503,GATED,,CORRECTED,CONTENT PASS 2026-06-29: role web-verified + corrected.,,,reference/paper context. Add original paper metadata before publication.
 88,Leslie Valiant,https://amturing.acm.org/award_winners/valiant_2612174.cfm,403,GATED,,VERIFIED,role re-verified current 2026-06-30; source link live,,,institutional_master_source.
 89,Melanie Mitchell,https://www.santafe.edu/people/profile/melanie-mitchell,200,LIVE,,VERIFIED,role re-verified current 2026-06-30; source link live,,,institutional_master_source.
@@ -101,7 +101,7 @@
 100,Aidan Gomez,https://arxiv.org/abs/1706.03762,200,LIVE,,SOURCE-UPGRADED,SEV3 2026-06-29: source upgraded -> https://cohere.com/about,3,weak/needs-stronger source,paper_metadata. Needs Cohere official profile for CEO role.
 101,Alexandr Wang,https://www.reuters.com/business/meta-deepens-ai-push-with-superintelligence-lab-source-says-2025-06-30/,403,GATED,,VERIFIED,VERIFIED 2026-06-29: current role confirmed.,2,volatile current role,"media_source. Current Meta role volatile, revalidate."
 102,Arthur Mensch,https://mistral.ai/,200,LIVE,,VERIFIED,role re-verified current 2026-06-30; source link live,,,company source. Needs leadership-specific page if available.
-103,Clément Delangue,https://www.qualcomm.com/media/documents/files/bio-clement-delangue-co-founder-and-ceo-hugging-face.pdf,200,LIVE,https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/clem_bio.pdf,QUEUED,,,,profile_source. Prefer Hugging Face official leadership source.
+103,Clément Delangue,https://www.qualcomm.com/media/documents/files/bio-clement-delangue-co-founder-and-ceo-hugging-face.pdf,200,LIVE,https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/clem_bio.pdf,VERIFIED,"content-verified 2026-07-02: official keynote bio PDF states co-founder and CEO of Hugging Face; HF's own pages carry no role text, so the PDF is retained as source",,,profile_source. Prefer Hugging Face official leadership source.
 104,Daniela Amodei,https://www.forbes.com/profile/daniela-amodei/,403,GATED,,SOURCE-UPGRADED,SEV3 2026-06-29: source upgraded -> https://www.anthropic.com/company,3,weak/needs-stronger source,media/profile source. Needs Anthropic official source.
 105,Daniela Rus,https://www.csail.mit.edu/person/daniela-rus,200,LIVE,,CORRECTED,CONTENT PASS 2026-06-29: role web-verified + corrected.,,,institutional_master_source.
 106,Dario Amodei,https://darioamodei.com/,200,LIVE,,VERIFIED,VERIFIED 2026-06-29: current role confirmed.,2,volatile current role; weak/needs-stronger source,profile_source. Add Anthropic official source for current role.

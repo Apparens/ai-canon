@@ -1,0 +1,155 @@
+{
+  "academic": {
+    "canonical_title": "Hunyuan-Large: An Open-Source MoE Model with 52 Billion Activated Parameters by Tencent",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 1.4e-05,
+        "license_note": "OpenAlex, CC0 metadata",
+        "metric": "citation_count",
+        "normalized": 2.7e-05,
+        "provenance_url": "https://openalex.org/W4404354211",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 7.0,
+        "weight": 0.5
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.1,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.2
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.003571,
+        "license_note": "OpenAlex, CC0 metadata",
+        "metric": "readership_persistence",
+        "normalized": 0.071429,
+        "provenance_url": "https://openalex.org/W4404354211",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 2.0,
+        "weight": 0.05
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 161,
+    "scenario": "academic",
+    "score": -0.221415,
+    "work_id": "paper-0185",
+    "work_type": "paper"
+  },
+  "broad_influence": {
+    "canonical_title": "Hunyuan-Large: An Open-Source MoE Model with 52 Billion Activated Parameters by Tencent",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 5e-06,
+        "license_note": "OpenAlex, CC0 metadata",
+        "metric": "citation_count",
+        "normalized": 2.7e-05,
+        "provenance_url": "https://openalex.org/W4404354211",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 7.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.028571,
+        "license_note": "OpenAlex, CC0 metadata",
+        "metric": "readership_persistence",
+        "normalized": 0.071429,
+        "provenance_url": "https://openalex.org/W4404354211",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 2.0,
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 161,
+    "scenario": "broad_influence",
+    "score": -0.171424,
+    "work_id": "paper-0185",
+    "work_type": "paper"
+  },
+  "governance_practitioner": {
+    "canonical_title": "Hunyuan-Large: An Open-Source MoE Model with 52 Billion Activated Parameters by Tencent",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 7e-06,
+        "license_note": "OpenAlex, CC0 metadata",
+        "metric": "citation_count",
+        "normalized": 2.7e-05,
+        "provenance_url": "https://openalex.org/W4404354211",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 7.0,
+        "weight": 0.25
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.15,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.3
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.007143,
+        "license_note": "OpenAlex, CC0 metadata",
+        "metric": "readership_persistence",
+        "normalized": 0.071429,
+        "provenance_url": "https://openalex.org/W4404354211",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 2.0,
+        "weight": 0.1
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.175,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.35
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 161,
+    "scenario": "governance_practitioner",
+    "score": -0.31785,
+    "work_id": "paper-0185",
+    "work_type": "paper"
+  }
+}

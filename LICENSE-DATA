@@ -14,7 +14,13 @@ restrict others from doing anything the license permits.
 
 Attribution: Jeroen Janssen (Apparens), "The AI Canon." https://apparens.nl/ai-canon/
 
-Note on sources: the corpus records bibliographic facts, public metadata, and lawfully
-accessible signals only. It does not republish copyrighted text, paywalled content, or
-proprietary datasets. Third-party metadata retains its original terms (for example,
-OpenAlex metadata is CC0).
+Exception, verbatim abstracts: data/abstracts.json quotes paper abstracts verbatim so a
+reader can identify each paper in its own words. Those abstract texts remain the copyright
+of their authors and publishers and are NOT covered by this CC BY grant; each entry carries
+its own source, source URL where recoverable, and license note. If you are a rights holder
+and want an abstract removed, write to office@apparens.nl and it will be.
+
+Note on sources: beyond the quoted abstracts above, the corpus records bibliographic facts,
+public metadata, and lawfully accessible signals only. It does not republish paywalled
+content or proprietary datasets. Third-party metadata retains its original terms (for
+example, OpenAlex metadata is CC0).

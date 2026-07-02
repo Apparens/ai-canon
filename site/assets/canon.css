@@ -114,6 +114,9 @@ footer .measure{max-width:1080px}
 footer a{color:#fff}footer a:hover{color:#fff}
 footer .fine{font-size:.62rem;color:rgba(255,255,255,.62);line-height:1.7;margin-top:16px;
 padding-top:14px;border-top:1px solid rgba(255,255,255,.12);max-width:820px}
+/* CSP style-src 'self' forbids style attributes, so footer accents are classes */
+footer .rel{color:#fff;font-weight:600}
+footer .motto{margin-top:6px}
 /* frontier */
 .ffam{margin:30px 0 8px;border-top:2px solid var(--deep);padding-top:8px;display:flex;justify-content:space-between;align-items:baseline;gap:12px}
 .ffam h2{margin:0}
@@ -122,7 +125,7 @@ details.fd{border:1px solid var(--g200);border-radius:6px;margin:8px 0;backgroun
 details.fd>summary{cursor:pointer;padding:12px 16px;display:flex;justify-content:space-between;align-items:center;gap:12px;list-style:none;font-weight:500;color:var(--deep)}
 details.fd>summary::-webkit-details-marker{display:none}
 details.fd>summary::before{content:"+";color:var(--orange);font-weight:700;margin-right:10px}
-details.fd[open]>summary::before{content:"3"}
+details.fd[open]>summary::before{content:"–"}
 details.fd>summary .sn{flex:1}
 details.fd>summary .sc{font-size:.72rem;color:var(--g500);white-space:nowrap}
 .fblurb{margin:0 16px 6px 42px;color:var(--g500);font-size:.9rem}
@@ -141,6 +144,6 @@ details.abs{margin-top:6px}
 details.abs>summary{cursor:pointer;font-size:.72rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--orange);list-style:none;display:inline-block}
 details.abs>summary::-webkit-details-marker{display:none}
 details.abs>summary::before{content:"+ "}
-details.abs[open]>summary::before{content:"3 "}
+details.abs[open]>summary::before{content:"– "}
 details.abs p{font-size:.86rem;color:var(--g500);margin:6px 0 2px;line-height:1.55;max-width:72ch}
 details.abs .asrc{color:var(--g300);font-size:.72rem}

@@ -9,7 +9,7 @@ the write-once raw cache. Metrics are derived from the cache by `parse()`, so:
   * the cached snapshot is the pinned evidence a release is rebuilt from.
 
 Book harvesting by title is noisier (title collisions) and is deferred; this
-harvester targets the 162 papers, where OpenAlex coverage is strong.
+harvester targets the paper corpus, where OpenAlex coverage is strong.
 """
 
 from __future__ import annotations
@@ -23,6 +23,8 @@ import urllib.request
 from pathlib import Path
 
 from .. import raw
+
+_MAX_RESPONSE_BYTES = 20_000_000  # refuse a ballooned API response
 
 SOURCE = "openalex"
 API = "https://api.openalex.org/works"
@@ -86,7 +88,9 @@ def fetch(paper: dict, *, allow_network: bool = True) -> dict | None:
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     try:
         with urllib.request.urlopen(req, timeout=20) as resp:
-            body = resp.read().decode("utf-8")
+            body = resp.read(_MAX_RESPONSE_BYTES + 1).decode("utf-8")
+            if len(body.encode("utf-8")) > _MAX_RESPONSE_BYTES:
+                raise ValueError(f"response exceeds {_MAX_RESPONSE_BYTES} bytes; refusing to cache")
     except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError):
         return None
     finally:
@@ -259,7 +263,9 @@ def fetch_book(book: dict, *, allow_network: bool = True) -> dict | None:
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     try:
         with urllib.request.urlopen(req, timeout=20) as resp:
-            body = resp.read().decode("utf-8")
+            body = resp.read(_MAX_RESPONSE_BYTES + 1).decode("utf-8")
+            if len(body.encode("utf-8")) > _MAX_RESPONSE_BYTES:
+                raise ValueError(f"response exceeds {_MAX_RESPONSE_BYTES} bytes; refusing to cache")
     except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, ValueError):
         return None
     finally:

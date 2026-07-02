@@ -1,0 +1,155 @@
+{
+  "academic": {
+    "canonical_title": "Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.003063,
+        "license_note": "OpenAlex, CC0 metadata",
+        "metric": "citation_count",
+        "normalized": 0.006126,
+        "provenance_url": "https://openalex.org/W2483215953",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 1362.0,
+        "weight": 0.5
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.1,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.2
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.032143,
+        "license_note": "OpenAlex, CC0 metadata",
+        "metric": "readership_persistence",
+        "normalized": 0.642857,
+        "provenance_url": "https://openalex.org/W2483215953",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 10.0,
+        "weight": 0.05
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 95,
+    "scenario": "academic",
+    "score": -0.189794,
+    "work_id": "paper-0088",
+    "work_type": "paper"
+  },
+  "broad_influence": {
+    "canonical_title": "Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.001225,
+        "license_note": "OpenAlex, CC0 metadata",
+        "metric": "citation_count",
+        "normalized": 0.006126,
+        "provenance_url": "https://openalex.org/W2483215953",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 1362.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.257143,
+        "license_note": "OpenAlex, CC0 metadata",
+        "metric": "readership_persistence",
+        "normalized": 0.642857,
+        "provenance_url": "https://openalex.org/W2483215953",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 10.0,
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 87,
+    "scenario": "broad_influence",
+    "score": 0.058368,
+    "work_id": "paper-0088",
+    "work_type": "paper"
+  },
+  "governance_practitioner": {
+    "canonical_title": "Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.001532,
+        "license_note": "OpenAlex, CC0 metadata",
+        "metric": "citation_count",
+        "normalized": 0.006126,
+        "provenance_url": "https://openalex.org/W2483215953",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 1362.0,
+        "weight": 0.25
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.15,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.3
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.064286,
+        "license_note": "OpenAlex, CC0 metadata",
+        "metric": "readership_persistence",
+        "normalized": 0.642857,
+        "provenance_url": "https://openalex.org/W2483215953",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 10.0,
+        "weight": 0.1
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.175,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.35
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 88,
+    "scenario": "governance_practitioner",
+    "score": -0.259182,
+    "work_id": "paper-0088",
+    "work_type": "paper"
+  }
+}

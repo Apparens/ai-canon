@@ -61,16 +61,41 @@ def _domain_minmax(
     metric_names: list[str],
 ) -> dict[str, tuple[float, float]]:
     """Min/max per metric across the domain. Missing values do not contribute."""
+    per_work = {w.id: _metrics_by_name(metrics_by_work.get(w.id, [])) for w in works}
     bounds: dict[str, tuple[float, float]] = {}
     for name in metric_names:
-        values = [
-            _metrics_by_name(metrics_by_work.get(w.id, [])).get(name).value
-            for w in works
-            if _metrics_by_name(metrics_by_work.get(w.id, [])).get(name) is not None
-        ]
+        values = [m.value for by_name in per_work.values()
+                  if (m := by_name.get(name)) is not None]
         if values:
             bounds[name] = (min(values), max(values))
     return bounds
+
+
+def _missing_component(name: str, weight: float, penalty: float) -> dict:
+    return {
+        "metric": name,
+        "status": "missing",
+        "weight": weight,
+        "missing_data_penalty": penalty,
+        "note": "recorded as missing; penalized by rule, never imputed",
+    }
+
+
+def _present_component(metric: Metric, weight: float, normalized: float,
+                       contribution: float) -> dict:
+    return {
+        "metric": metric.metric_name,
+        "status": "present",
+        "value": metric.value,
+        "normalized": round(normalized, _ROUND),
+        "weight": weight,
+        "contribution": contribution,
+        "source": metric.source,
+        "retrieved_at": metric.retrieved_at.isoformat(),
+        "confidence": metric.confidence,
+        "provenance_url": metric.provenance_url,
+        "license_note": metric.license_note,
+    }
 
 
 def breakdown(
@@ -89,7 +114,9 @@ def breakdown(
     """
     cfg = _scenario_config(scenarios_doc, scenario)
     weights: dict[str, float] = cfg["weights"]
-    penalty_factor: float = scenarios_doc.get("missing_data_penalty_factor", 0.0)
+    # Mandatory: a missing key must fail loudly, because a silent 0.0 would
+    # disable the missing-data penalty and violate rule 8 without a trace.
+    penalty_factor: float = scenarios_doc["missing_data_penalty_factor"]
 
     by_name = _metrics_by_name(metrics)
     components: list[dict] = []
@@ -102,35 +129,14 @@ def breakdown(
         if metric is None:
             penalty = round(weight * penalty_factor, _ROUND)
             score -= penalty
-            components.append(
-                {
-                    "metric": name,
-                    "status": "missing",
-                    "weight": weight,
-                    "missing_data_penalty": penalty,
-                    "note": "recorded as missing; penalized by rule, never imputed",
-                }
-            )
+            components.append(_missing_component(name, weight, penalty))
             continue
 
         lo, hi = bounds.get(name, (metric.value, metric.value))
         normalized = 0.0 if hi == lo else (metric.value - lo) / (hi - lo)
         contribution = round(weight * normalized, _ROUND)
         score += contribution
-        components.append(
-            {
-                "metric": name,
-                "status": "present",
-                "value": metric.value,
-                "normalized": round(normalized, _ROUND),
-                "weight": weight,
-                "contribution": contribution,
-                "source": metric.source,
-                "retrieved_at": metric.retrieved_at.isoformat(),
-                "confidence": metric.confidence,
-                "provenance_url": metric.provenance_url,
-            }
-        )
+        components.append(_present_component(metric, weight, normalized, contribution))
 
     return {
         "work_id": work.id,
@@ -185,9 +191,8 @@ def to_json(rows: list[dict]) -> str:
     return json.dumps(rows, sort_keys=True, ensure_ascii=False, indent=2)
 
 
-def _load_corpus_works(work_type: str) -> list:
-    from .schema import Work
-
+def load_corpus_works(work_type: str) -> list:
+    """Load seed works of one type as validated schema objects (release.py's API)."""
     fname = {"book": "books.json", "paper": "papers.json"}[work_type]
     recs = json.loads((_REPO_ROOT / "data" / "seeds" / fname).read_text("utf-8"))
     return [
@@ -204,9 +209,8 @@ def _load_corpus_works(work_type: str) -> list:
     ]
 
 
-def _load_corpus_metrics() -> dict[str, list]:
-    from .schema import Metric
-
+def load_corpus_metrics() -> dict[str, list]:
+    """Load assembled metrics keyed by work id (release.py's API)."""
     path = _REPO_ROOT / "data" / "resolved" / "metrics.json"
     if not path.exists():
         return {}
@@ -234,10 +238,10 @@ def _main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
 
     if args.corpus:
-        metrics_by_work = _load_corpus_metrics()
+        metrics_by_work = load_corpus_metrics()
         # Only rank works that have at least one harvested metric; the rest are
         # an honestly-declared coverage gap, not a fabricated zero.
-        works = [w for w in _load_corpus_works(args.work_type) if w.id in metrics_by_work]
+        works = [w for w in load_corpus_works(args.work_type) if w.id in metrics_by_work]
         rows = rank_within_domain(works, metrics_by_work, args.scenario)
         print(f"# {args.work_type} domain — {args.scenario} — {len(rows)} works with evidence")
         print(to_json(rows[: args.top]))
